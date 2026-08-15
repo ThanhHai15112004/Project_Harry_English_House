@@ -58,3 +58,19 @@ export const useMediaData = () => {
   }, []);
   return data;
 };
+
+export const useMethodologyData = () => {
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    setData(DataService.getMethodology());
+  }, []);
+  return data;
+};
+
+export const useClassesData = () => {
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    setData(DataService.getClasses());
+  }, []);
+  return data;
+};

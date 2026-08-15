@@ -23,5 +23,7 @@ export const pricing = masterDb.pricing || {};
 export const certificates = masterDb.certificates || [];
 export const testimonials = masterDb.testimonials || {};
 export const media = masterDb.media || {};
+export const methodology = masterDb.methodology || {};
+export const classes = masterDb.classes || {};
 
 export default masterDb;

@@ -1,34 +1,31 @@
 import React from 'react';
-import { MainLayout } from '@/components';
+import { MainLayout } from '@/components/layout';
 import {
   HeroSection,
-  AboutFounder,
-  CoursesSection,
+  AboutOverview,
+  FeaturedPrograms,
+  LearningMethod,
   RoadmapSection,
-  PricingSection,
-  CertificatesSection,
-  FeedbacksSection,
-  ActivitiesGallery,
-  ContactSection,
+  FounderHarry,
+  StudentResults,
+  AcademicActivities,
+  OpenClasses,
+  CtaConsultation,
 } from './components';
 
-/**
- * Home Page Component
- * File page chỉ đóng vai trò ráp nối các component section con.
- * Khi cần chỉnh sửa nội dung hoặc UI phần nào, chỉ cần vào component con tương ứng trong ./components/
- */
 export const HomePage = () => {
   return (
     <MainLayout>
       <HeroSection />
-      <AboutFounder />
-      <CoursesSection />
+      <AboutOverview />
+      <FeaturedPrograms />
+      <LearningMethod />
       <RoadmapSection />
-      <PricingSection />
-      <CertificatesSection />
-      <FeedbacksSection />
-      <ActivitiesGallery />
-      <ContactSection />
+      <FounderHarry />
+      <StudentResults />
+      <AcademicActivities />
+      <OpenClasses />
+      <CtaConsultation />
     </MainLayout>
   );
 };

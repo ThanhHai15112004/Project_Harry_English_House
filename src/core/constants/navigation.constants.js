@@ -1,25 +1,23 @@
-/**
- * Navigation & Section IDs Constants
- */
 export const SECTION_IDS = {
-  HOME: 'home',
+  HERO: 'hero',
   ABOUT: 'about',
-  COURSES: 'courses',
+  PROGRAMS: 'programs',
+  METHOD: 'method',
   ROADMAP: 'roadmap',
-  PRICING: 'pricing',
-  CERTIFICATES: 'certificates',
-  FEEDBACK: 'feedback',
-  GALLERY: 'gallery',
+  FOUNDER: 'founder',
+  RESULTS: 'results',
+  ACADEMIC: 'academic',
+  CLASSES: 'classes',
   CONTACT: 'contact',
 };
 
 export const NAV_ITEMS = [
-  { id: SECTION_IDS.ABOUT, href: `#${SECTION_IDS.ABOUT}`, i18nKey: 'nav.about' },
-  { id: SECTION_IDS.COURSES, href: `#${SECTION_IDS.COURSES}`, i18nKey: 'nav.courses' },
-  { id: SECTION_IDS.ROADMAP, href: `#${SECTION_IDS.ROADMAP}`, i18nKey: 'nav.roadmap' },
-  { id: SECTION_IDS.PRICING, href: `#${SECTION_IDS.PRICING}`, i18nKey: 'nav.pricing' },
-  { id: SECTION_IDS.CERTIFICATES, href: `#${SECTION_IDS.CERTIFICATES}`, i18nKey: 'nav.certificates' },
-  { id: SECTION_IDS.FEEDBACK, href: `#${SECTION_IDS.FEEDBACK}`, i18nKey: 'nav.feedback' },
-  { id: SECTION_IDS.GALLERY, href: `#${SECTION_IDS.GALLERY}`, i18nKey: 'nav.gallery' },
-  { id: SECTION_IDS.CONTACT, href: `#${SECTION_IDS.CONTACT}`, i18nKey: 'nav.contact' },
+  { id: SECTION_IDS.ABOUT, labelKey: 'nav.about', href: `#${SECTION_IDS.ABOUT}` },
+  { id: SECTION_IDS.PROGRAMS, labelKey: 'nav.programs', href: `#${SECTION_IDS.PROGRAMS}` },
+  { id: SECTION_IDS.METHOD, labelKey: 'nav.method', href: `#${SECTION_IDS.METHOD}` },
+  { id: SECTION_IDS.ROADMAP, labelKey: 'nav.roadmap', href: `#${SECTION_IDS.ROADMAP}` },
+  { id: SECTION_IDS.FOUNDER, labelKey: 'nav.founder', href: `#${SECTION_IDS.FOUNDER}` },
+  { id: SECTION_IDS.RESULTS, labelKey: 'nav.results', href: `#${SECTION_IDS.RESULTS}` },
+  { id: SECTION_IDS.ACADEMIC, labelKey: 'nav.academic', href: `#${SECTION_IDS.ACADEMIC}` },
+  { id: SECTION_IDS.CLASSES, labelKey: 'nav.classes', href: `#${SECTION_IDS.CLASSES}` },
 ];

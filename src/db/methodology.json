@@ -1,0 +1,36 @@
+{
+  "title": "CÁCH HỌC TẠI HARRY",
+  "subtitle": "Một quá trình học không bắt đầu bằng giáo trình. Nó bắt đầu bằng việc thấu hiểu năng lực và mục tiêu của người học.",
+  "steps": [
+    {
+      "step": "01",
+      "title": "Đánh giá Năng lực Toàn diện",
+      "description": "Kiểm tra chuyên sâu 4 kỹ năng (Nghe - Nói - Đọc - Viết), chẩn đoán chính xác điểm mạnh và lỗ hổng kiến thức cốt lõi.",
+      "icon": "Target"
+    },
+    {
+      "step": "02",
+      "title": "Xây dựng Lộ trình Riêng biệt",
+      "description": "Thiết kế kế hoạch học tập may đo theo thời gian biểu, mục tiêu band điểm và tốc độ tiếp thu thực tế của từng bạn.",
+      "icon": "GitBranch"
+    },
+    {
+      "step": "03",
+      "title": "Học Tương tác Thực chiến",
+      "description": "Lớp học quy mô nhỏ 6–10 bạn, tập trung tư duy phản xạ, cấu trúc bài thi chuẩn IDP/BC và sửa lỗi trực tiếp tại chỗ.",
+      "icon": "Users"
+    },
+    {
+      "step": "04",
+      "title": "Theo dõi & Chữa bài 1-1",
+      "description": "Giảng viên trực tiếp chấm chữa bài Writing/Speaking chi tiết từng câu từ, ghi nhận tiến độ sau mỗi buổi học.",
+      "icon": "CheckCircle2"
+    },
+    {
+      "step": "05",
+      "title": "Điều chỉnh & Bứt phá",
+      "description": "Thi thử định kỳ chuẩn format phòng thi, tinh chỉnh chiến thuật làm bài trước khi bước vào kỳ thi thực tế.",
+      "icon": "TrendingUp"
+    }
+  ]
+}

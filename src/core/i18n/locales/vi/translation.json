@@ -1,134 +1,178 @@
 {
   "nav": {
     "about": "Giới thiệu",
-    "courses": "Khóa học",
+    "programs": "Chương trình",
+    "method": "Phương pháp",
     "roadmap": "Lộ trình",
-    "pricing": "Học phí",
-    "certificates": "Bằng cấp & Đối tác",
-    "feedback": "Kết quả học viên",
-    "gallery": "Hoạt động",
-    "contact": "Liên hệ tư vấn",
-    "ctaBtn": "Đăng Ký Tư Vấn"
+    "founder": "Harry Khôi",
+    "results": "Thành tích",
+    "academic": "Chứng chỉ & Hoạt động",
+    "classes": "Lớp tuyển sinh",
+    "contact": "Liên hệ",
+    "ctaBtn": "Nhận tư vấn"
   },
   "hero": {
-    "badge": "Đối Tác Chiến Lược Của IDP Vietnam",
-    "titlePrefix": "Chinh Phục IELTS & Giao Tiếp Thực Chiến Cùng",
-    "desc": "Xóa bỏ phương pháp học lý thuyết rập khuôn. Lộ trình cá nhân hóa từ 0 → 8.0 IELTS, cam kết đồng hành kèm sát 1:1, 1:2 và nhóm nhỏ cùng đội ngũ giáo viên 7.5+ IELTS.",
-    "checkIdp": "Ưu đãi giảm lệ phí thi IELTS tại IDP",
-    "checkTeacher": "Đội ngũ giáo viên tối thiểu 7.5+ IELTS",
-    "checkSmallClass": "Sĩ số nhỏ - Kèm sát từng bài chấm chữa",
-    "viewRoadmap": "Xem Lộ Trình & Khóa Học",
-    "getConsultation": "Nhận Tư Vấn Miễn Phí",
-    "experience": "8+ Năm Kinh Nghiệm Đào Tạo",
-    "teamTag": "7.5+ IELTS Team",
-    "partnerTag": "IDP Partner"
+    "eyebrow": "HARRY ENGLISH HOUSE",
+    "idpPartner": "Đối tác IDP",
+    "title1": "Học tiếng Anh với",
+    "titleHighlight": "một lộ trình thực sự",
+    "title2": "phù hợp với bạn.",
+    "subtitle": "Đào tạo IELTS từ 0 đến 8.0, Tiếng Anh Giao Tiếp & Luyện thi TOEIC cùng Thầy Harry (Anh Khôi) — Đối tác đào tạo chính thức của IDP IELTS.",
+    "exploreBtn": "Khám phá khóa học",
+    "consultBtn": "Nhận tư vấn lộ trình",
+    "tags": "IELTS • TOEIC • VSTEP • Tiếng Anh Giao Tiếp",
+    "floating1Title": "IELTS",
+    "floating1Sub": "0 → 7.5+ Cá nhân hóa",
+    "floating2Title": "Lớp học nhỏ",
+    "floating2Sub": "6 – 10 học viên / lớp"
   },
   "about": {
-    "badge": "Về Founder & Trung Tâm",
-    "title": "Harry English House - Đồng Hành & Thấu Hiểu",
-    "subtitle": "Phương pháp giảng dạy thực tiễn, định hướng từng cá nhân để đạt được mục tiêu học thuật nhanh nhất.",
-    "greeting": "High-five! Mình là {{name}} – Founder của Harry English House",
-    "idpDetail": "Học viên đăng ký thi IELTS được hỗ trợ thủ tục trọn gói và nhận voucher giảm lệ phí thi chính thức.",
-    "check1": "Giảng viên tối thiểu 7.5+ IELTS, phát âm chuẩn quốc tế",
-    "check2": "Chữa bài 1:1, phân tích lỗi sai tỉ mỉ từng chi tiết",
-    "check3": "Cam kết đồng hành trước - trong - sau khóa học"
+    "eyebrow": "ABOUT HARRY ENGLISH HOUSE",
+    "statement": "Một môi trường học tiếng Anh tập trung vào sự tiến bộ thực tế và bản lĩnh sử dụng ngôn ngữ.",
+    "desc": "Chúng tôi không áp dụng một công thức chung cho tất cả. Thay vào đó, mỗi học viên được thấu hiểu xuất phát điểm, mục tiêu và phong cách học để xây dựng lộ trình tối ưu nhất.",
+    "pillar1Title": "Lộ trình may đo",
+    "pillar1Desc": "Thiết kế riêng theo trình độ đầu vào và mục tiêu band điểm cụ thể.",
+    "pillar2Title": "Lớp học quy mô nhỏ",
+    "pillar2Desc": "Chỉ 6–10 học viên để tối đa hóa thời gian tương tác và thực hành.",
+    "pillar3Title": "Theo sát & Sửa lỗi 1-1",
+    "pillar3Desc": "Giảng viên trực tiếp chấm chữa chi tiết từng bài Writing & Speaking."
   },
-  "courses": {
-    "badge": "Chương Trình Đào Tạo",
-    "title": "Các Khóa Học Trọng Tâm Tại Harry English House",
-    "subtitle": "Hệ thống khóa học bài bản, đáp ứng mọi trình độ từ mất gốc đến chinh phục band 7.0 - 7.5+ và giao tiếp tự nhiên.",
-    "filter": {
-      "all": "Tất Cả Khóa Học",
-      "ielts": "Lộ Trình IELTS (0-7.5+)",
-      "vip": "IELTS 1 Kèm 2 VIP",
-      "communication": "Tiếng Anh Giao Tiếp"
-    },
-    "labels": {
-      "level": "Đối tượng / Trình độ:",
-      "target": "🎯 Mục tiêu đầu ra:",
-      "curriculum": "📚 Giáo trình trọng tâm:",
-      "format": "📍 Hình thức & Địa điểm:",
-      "registerBtn": "Đăng Ký Tư Vấn Xếp Lớp"
-    }
+  "programs": {
+    "badge": "CHƯƠNG TRÌNH ĐÀO TẠO",
+    "title": "Các Khóa Học Trọng Tâm",
+    "subtitle": "Chương trình được thiết kế chuẩn quốc tế, tinh gọn và bám sát thực tế thi cử.",
+    "featuredBadge": "Chương trình trọng tâm",
+    "featuredDesc": "Chương trình đào tạo toàn diện 4 kỹ năng từ mất gốc đến 7.5+ IELTS, chuẩn cấu trúc IDP và lộ trình cá nhân hóa theo từng band điểm.",
+    "levelLabel": "Cấp độ:",
+    "classSizeLabel": "Quy mô:",
+    "classSizeVal": "6–10 học viên",
+    "guarantee": "Cam kết chuẩn đầu ra & Chấm chữa bài Writing/Speaking 1-1 không giới hạn.",
+    "viewRoadmapBtn": "Xem lộ trình chi tiết",
+    "writtenGuarantee": "Cam kết đầu ra bằng văn bản",
+    "consultBtn": "Tư vấn"
+  },
+  "method": {
+    "badge": "PHƯƠNG PHÁP ĐÀO TẠO",
+    "title": "Quy Trình Học 5 Bước",
+    "subtitle": "Một quá trình học không bắt đầu bằng giáo trình. Nó bắt đầu bằng việc hiểu người học.",
+    "stepPrefix": "BƯỚC"
   },
   "roadmap": {
-    "badge": "Lộ Trình Tăng Band 48 Buổi",
-    "curriculumFocus": "Trọng tâm giáo trình:"
+    "badge": "LỘ TRÌNH TIÊU BIỂU",
+    "title": "Mỗi Điểm Xuất Phát Cần Một Lộ Trình Riêng",
+    "subtitle": "Chọn điểm xuất phát hiện tại để xem lộ trình bứt phá mục tiêu của bạn.",
+    "tabIelts": "IELTS Lộ Trình",
+    "tabToeic": "Luyện Thi TOEIC",
+    "tabComm": "Tiếng Anh Giao Tiếp",
+    "phasePrefix": "Giai đoạn:",
+    "target": "Mục tiêu đạt được:",
+    "focus": "Nội dung trọng tâm:",
+    "curriculum": "Giáo trình & Tài liệu:",
+    "cta": "Nhận tư vấn lộ trình này"
   },
-  "pricing": {
-    "badge": "Học Phí Minh Bạch",
-    "term3": "Gói Khóa 3 Tháng",
-    "term6": "Gói Khóa 6 Tháng",
-    "discount10": "Ưu đãi 10%",
-    "tier2_4": "Lớp 2 – 4 Học Viên:",
-    "tier5_7": "Lớp 5 – 7 Học Viên:",
-    "tier8_10": "Lớp 8 – 10 Học Viên:",
-    "enrollBtn": "Đăng Ký Khóa Học",
-    "specialTitle": "Các Lớp Kèm Đặc Biệt Tại HEH",
-    "specialSub": "Tối ưu cho mục tiêu điểm số cấp tốc và kèm cặp 1-1 chuyên sâu"
+  "founder": {
+    "badge": "MEET HARRY KHOI",
+    "name": "Thầy Harry (Anh Khôi)",
+    "role": "Founder & Giảng viên Trưởng",
+    "badgeLabel": "IELTS 8.0 • Đối tác IDP IELTS",
+    "bio1": "Tốt nghiệp chuyên ngành Ngôn ngữ Anh với chứng chỉ IELTS 8.0 (Band cao nhất tại TP.HCM trong đợt thi). Hơn 6+ năm kinh nghiệm trực tiếp đào tạo hàng trăm học viên chinh phục mục tiêu du học, làm việc và định cư.",
+    "bio2": "Đối tác đào tạo chính thức của IDP IELTS. Thường xuyên tham gia các hoạt động học thuật, hội thảo quốc tế và sự kiện giáo dục uy tín của Bộ Giáo dục và Đào tạo.",
+    "quote": "Teaching is not about finishing a syllabus. It is about understanding where the student stands and helping them bridge the gap.",
+    "authorLabel": "— Thầy Harry (Founder & Head Instructor)",
+    "viewStory": "Khám phá câu chuyện của Harry"
   },
-  "certificates": {
-    "badge": "Bằng Cấp & Chứng Nhận",
-    "title": "Năng Lực Chuyên Môn & Chứng Chỉ Giảng Dạy",
-    "subtitle": "100% chứng chỉ sư phạm quốc tế và bằng cấp chuyên ngành của Founder Harry và đội ngũ giảng viên tại HEH.",
-    "viewDetail": "Xem chi tiết"
+  "results": {
+    "badge": "THÀNH TÍCH HỌC VIÊN",
+    "title": "Kết Quả Thi Thực Tế Từ Học Viên",
+    "subtitle": "Những câu chuyện bứt phá band điểm và phản hồi chân thực từ các bạn học viên.",
+    "featuredBadge": "Học viên tiêu biểu",
+    "categoryIelts": "IELTS Academic",
+    "categoryOfficial": "IELTS Official",
+    "viewScore": "Xem bảng điểm chi tiết",
+    "viewScoreLink": "Xem chi tiết bảng điểm chính thức",
+    "feedbackGalleryTitle": "Phản Hồi Trực Tiếp Sau Khóa Học",
+    "viewMoreResults": "Xem thêm kết quả trên Fanpage"
   },
-  "feedback": {
-    "badge": "Cảm Nhận & Thành Tích",
-    "title": "Kết Quả Thực Chiến Của Học Viên HEH",
-    "subtitle": "Hàng trăm học viên đã tự tin bứt phá band điểm và làm chủ tiếng Anh cùng Harry English House.",
-    "viewOriginal": "Xem bài viết gốc trên Facebook",
-    "viewScore": "Xem bảng điểm",
-    "viewFeedback": "Xem feedback",
-    "subGalleryTitle": "Tin Nhắn & Phản Hồi Từ Học Viên"
+  "academic": {
+    "badge": "ACADEMIC & PROFESSIONAL",
+    "title": "Chứng Chỉ, Hoạt Động & Uy Tín",
+    "subtitle": "Hồ sơ năng lực học thuật và các hoạt động hợp tác giáo dục tiêu biểu.",
+    "eventBadge": "Hoạt động Bộ Giáo dục 2025",
+    "certBadge": "Chứng chỉ chuyên môn",
+    "collabTitle": "Hợp Tác Đào Tạo & Truyền Thông Chính Thức",
+    "collabDesc": "Đối tác chính thức IDP IELTS và các đơn vị giáo dục uy tín tại TP.HCM.",
+    "exploreAll": "Xem toàn bộ hồ sơ năng lực"
   },
-  "gallery": {
-    "badge": "Khoảnh Khắc & Hoạt Động",
-    "title": "Hình Ảnh Hoạt Động & Hợp Tác Giáo Dục",
-    "subtitle": "Những sự kiện hội thảo, dự án hợp tác truyền thông và kỷ niệm học tập đáng nhớ tại HEH.",
-    "tabMinistry": "Hội Thảo Giáo Dục 2025",
-    "tabCollab": "Hợp Tác Truyền Thông",
-    "tabMemories": "Kỷ Niệm Lớp Học"
+  "classes": {
+    "badge": "LỚP ĐANG TUYỂN",
+    "title": "Lịch Khai Giảng Các Lớp Sắp Tới",
+    "subtitle": "Tìm một lớp phù hợp với mục tiêu, lịch học và hình thức của bạn.",
+    "labelSchedule": "Lịch học:",
+    "labelTime": "Thời gian:",
+    "labelFormat": "Hình thức:",
+    "labelTeacher": "Giảng viên:",
+    "spotsLeft": "Chỗ đã đăng ký:",
+    "studentsCount": "học viên",
+    "registerBtn": "Đăng ký giữ chỗ"
   },
   "contact": {
-    "badge": "Đăng Ký Tư Vấn & Xếp Lớp",
-    "title": "Bắt Đầu Hành Trình Chinh Phục Tiếng Anh Ngay Hôm Nay",
-    "subtitle": "Để lại thông tin để nhận tư vấn lộ trình học phù hợp nhất và ưu đãi giảm lệ phí thi IELTS từ IDP.",
-    "directInfoTitle": "Thông Tin Liên Hệ Trực Tiếp",
-    "directInfoDesc": "Bạn có thể liên hệ trực tiếp với Founder Harry hoặc đội ngũ trợ giảng để được test trình độ và tư vấn 1-1 miễn phí.",
-    "hotlineLabel": "Hotline tư vấn (Ms Ái):",
-    "emailLabel": "Email hỗ trợ:",
-    "locationsLabel": "Địa điểm học tập:",
-    "locationsVal": "Quận 7 (gần Lotte Mart), Quận 8, Quận 1, Quận 10 & Online toàn quốc",
-    "idpDiscountNotice": "Học viên HEH được hỗ trợ đăng ký thi IELTS IDP với lệ phí ưu đãi đặc quyền!",
-    "formTitle": "Đăng Ký Kiểm Tra & Xếp Lớp",
-    "fullNameLabel": "Họ và tên của bạn *",
+    "badge": "ĐĂNG KÝ TƯ VẤN",
+    "title": "Chưa Biết Nên Bắt Đầu Từ Đâu?",
+    "subtitle": "Hãy để Thầy Harry và đội ngũ chuyên môn kiểm tra trình độ và xây dựng lộ trình học hoàn toàn miễn phí cho bạn.",
+    "formTitle": "Đăng Ký Tư Vấn & Kiểm Tra Trình Độ",
+    "fullName": "Họ và tên của bạn",
     "fullNamePlaceholder": "Ví dụ: Nguyễn Văn A",
-    "phoneLabel": "Số điện thoại / Zalo *",
-    "phonePlaceholder": "Ví dụ: 0912 345 678",
-    "courseInterestLabel": "Khóa học quan tâm",
-    "formatLabel": "Hình thức học",
-    "notesLabel": "Ghi chú thêm về mục tiêu / thời gian rảnh",
-    "notesPlaceholder": "Ví dụ: Cần đạt 6.5 trong 6 tháng tới, rảnh tối 2-4-6...",
-    "submitBtn": "Gửi Thông Tin Đăng Ký",
+    "phone": "Số điện thoại / Zalo",
+    "phonePlaceholder": "Ví dụ: 0987 654 321",
+    "course": "Chương trình bạn quan tâm",
+    "format": "Hình thức học mong muốn",
+    "notes": "Mục tiêu hoặc thắc mắc của bạn",
+    "notesPlaceholder": "Ví dụ: Em muốn đạt IELTS 6.5 trong 6 tháng để xét tuyển đại học...",
+    "submitBtn": "Gửi Thông Tin Nhận Tư Vấn",
     "successTitle": "Đăng Ký Thành Công!",
-    "successDesc": "Cảm ơn bạn {{name}} đã đăng ký. Đội ngũ Harry English House sẽ liên hệ qua SĐT {{phone}} trong thời gian sớm nhất!",
-    "resubmitBtn": "Gửi lại thông tin khác"
+    "successDesc": "Cảm ơn {{name}}. Thầy Harry sẽ liên hệ trực tiếp qua số {{phone}} trong vòng 24h.",
+    "resubmitBtn": "Đăng ký tư vấn mục tiêu khác",
+    "idpDiscountNotice": "Học viên tại trung tâm được hỗ trợ voucher giảm 100.000đ khi đăng ký thi IELTS tại IDP.",
+    "hotline": "Hotline tư vấn:",
+    "email": "Email liên hệ:",
+    "address": "Cơ sở học trực tiếp:",
+    "courseOptions": {
+      "ieltsFoundation": "IELTS Nền Tảng (0 - 4.0)",
+      "ieltsBooster": "IELTS Bứt Phá (4.5 - 6.5)",
+      "ieltsMaster": "IELTS Chuyên Sâu (6.5 - 7.5+)",
+      "ieltsVip": "IELTS Kèm Cá Nhân Hóa VIP",
+      "communication": "Tiếng Anh Giao Tiếp Phản Xạ",
+      "toeic": "Luyện Thi TOEIC / VSTEP"
+    },
+    "formatOptions": {
+      "offlineQ7": "Offline Cơ sở Quận 7",
+      "offlineQ8": "Offline Cơ sở Quận 8",
+      "offlineQ1": "Offline Cơ sở Quận 1 / Q10",
+      "online": "Học Online (Meet / Zoom)"
+    }
   },
   "footer": {
-    "desc": "Trung tâm đào tạo IELTS, TOEIC & Tiếng Anh Giao Tiếp thực chiến. Đồng hành cùng học viên từ mất gốc đến 8.0 IELTS.",
-    "idpBadge": "🎖️ Đối tác chiến lược IDP Vietnam",
-    "explore": "Khám Phá",
-    "courses": "Chương Trình Học",
-    "contact": "Thông Tin Liên Hệ",
-    "hotline": "Hotline tư vấn:",
-    "email": "Email công việc:",
-    "locations": "Khu vực đào tạo:",
-    "copyright": "© {{year}} Harry English House. All rights reserved.",
-    "credit": "Đồng hành cùng học viên bằng sự thấu hiểu và chất lượng đào tạo thực chiến."
-  },
-  "common": {
-    "close": "Đóng",
-    "modalImage": "Hình ảnh chi tiết"
+    "brandDesc": "Trung tâm Anh ngữ đào tạo IELTS chuyên sâu, Tiếng Anh Giao tiếp & Luyện thi TOEIC. Đối tác đào tạo chính thức IDP IELTS.",
+    "partnerBadge": "Đối tác đào tạo IDP IELTS",
+    "col1Title": "Chương trình học",
+    "col2Title": "Khám phá",
+    "col3Title": "Thông tin liên hệ",
+    "courses": {
+      "ieltsFoundation": "IELTS Nền Tảng (0 - 4.0)",
+      "ieltsBooster": "IELTS Bứt Phá (4.5 - 6.5)",
+      "ieltsMaster": "IELTS Chuyên Sâu (6.5 - 7.5+)",
+      "communication": "Tiếng Anh Giao Tiếp",
+      "toeic": "Luyện Thi TOEIC / VSTEP"
+    },
+    "explore": {
+      "aboutHarry": "Về Thầy Harry Khôi",
+      "results": "Thành Tích Học Viên",
+      "credentials": "Chứng Chỉ & Hoạt Động",
+      "classes": "Lịch Tuyển Sinh Lớp Mới",
+      "fanpage": "Fanpage Chính Thức"
+    },
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "rights": "Tất cả các quyền được bảo lưu."
   }
 }
