@@ -39,6 +39,50 @@
   .badge-achievement {
     @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-achievement-light text-achievement border border-achievement/30;
   }
+
+  /* Shimmer CTA Button Effect */
+  .btn-shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+  .btn-shimmer::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -60%;
+    width: 20%;
+    height: 200%;
+    background: linear-gradient(
+      60deg,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(255, 255, 255, 0.45) 50%,
+      rgba(255, 255, 255, 0) 80%
+    );
+    transform: rotate(25deg);
+    animation: shimmer-sweep 3.5s infinite ease-in-out;
+  }
+}
+
+@keyframes shimmer-sweep {
+  0%, 100% {
+    left: -60%;
+  }
+  35%, 60% {
+    left: 140%;
+  }
+}
+
+@keyframes tab-progress {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-tab-progress {
+  animation: tab-progress 5s linear forwards;
 }
 
 /* Custom Academic Scrollbar using Theme Tokens */

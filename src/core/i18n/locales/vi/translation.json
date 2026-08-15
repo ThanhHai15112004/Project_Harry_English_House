@@ -9,19 +9,68 @@
     "ctaBtn": "Nhận tư vấn"
   },
   "hero": {
-    "eyebrow": "HARRY ENGLISH HOUSE",
-    "idpPartner": "Đối tác IDP",
-    "title1": "Học tiếng Anh với",
-    "titleHighlight": "một lộ trình thực sự",
-    "title2": "phù hợp với bạn.",
-    "subtitle": "Đào tạo IELTS từ 0 đến 8.0, Tiếng Anh Giao Tiếp & Luyện thi TOEIC cùng Thầy Harry (Anh Khôi) — Đối tác đào tạo chính thức của IDP IELTS.",
-    "exploreBtn": "Khám phá khóa học",
-    "consultBtn": "Nhận tư vấn lộ trình",
-    "tags": "IELTS • TOEIC • VSTEP • Tiếng Anh Giao Tiếp",
-    "floating1Title": "IELTS",
-    "floating1Sub": "0 → 7.5+ Cá nhân hóa",
-    "floating2Title": "Lớp học nhỏ",
-    "floating2Sub": "6 – 10 học viên / lớp"
+    "socialProof": "Hơn 1.000+ học viên đã tin tưởng và chinh phục mục tiêu tiếng Anh cùng Harry",
+    "rating": "4.9/5 (120+ đánh giá)",
+    "slides": {
+      "ielts": {
+        "badge": "IELTS & TIẾNG ANH HỌC THUẬT",
+        "cornerBadge": "Đối tác IDP Official",
+        "topBadge": "Mục tiêu Band 7.5+",
+        "titlePrefix": "Chinh phục mục tiêu IELTS 7.5+, ",
+        "titleHighlight": "bứt phá học thuật & du học.",
+        "subtitle": "Chương trình đào tạo IELTS chuyên sâu từ 0 đến 7.5+ được may đo chính xác theo năng lực từng cá nhân. Học viên được Giảng viên Harry (Anh Khôi) — Đối tác chính thức của IDP IELTS trực tiếp hướng dẫn chiến thuật làm bài, chấm chữa Writing chi tiết và luyện Speaking thực chiến.",
+        "primaryBtn": "Khám phá khóa học",
+        "secondaryBtn": "Xem lộ trình",
+        "alt": "Lớp học IELTS tại Harry English House"
+      },
+      "classSize": {
+        "badge": "QUY MÔ LỚP HỌC 6–10 HỌC VIÊN",
+        "cornerBadge": "Chữa bài 1-1 sát sao",
+        "topBadge": "Sĩ số 6–10 bạn",
+        "titlePrefix": "Mô hình lớp nhỏ 6–10 học viên, ",
+        "titleHighlight": "đồng hành sát sao từng buổi học.",
+        "subtitle": "Mô hình lớp học tinh gọn giới hạn chỉ từ 6 đến 10 học viên giúp tối đa hóa thời gian tương tác trực tiếp với giảng viên. Mỗi buổi học đều được chỉnh sửa phát âm tỉ mỉ, giải đáp thắc mắc cặn kẽ và theo dõi sát sao sự tiến bộ từng tuần của học viên.",
+        "primaryBtn": "Tìm hiểu lớp học",
+        "secondaryBtn": "Xem thành tích",
+        "alt": "Không gian học tập tương tác tại Harry English House"
+      },
+      "toeic": {
+        "badge": "TOEIC & GIAO TIẾP THỰC CHIẾN",
+        "cornerBadge": "Phản xạ thực chiến",
+        "topBadge": "Online & Offline",
+        "titlePrefix": "Bứt phá điểm số TOEIC 990+, ",
+        "titleHighlight": "tự tin phản xạ & giao tiếp thực chiến.",
+        "subtitle": "Phương pháp đào tạo phản xạ ngôn ngữ thực chiến giúp học viên nhanh chóng chinh phục mục tiêu TOEIC 990+ và tự tin giao tiếp trong môi trường quốc tế. Linh hoạt lựa chọn hình thức học Online & Offline với kho tài liệu độc quyền.",
+        "primaryBtn": "Tư vấn lộ trình",
+        "secondaryBtn": "Xem khóa học",
+        "alt": "Giảng viên hướng dẫn trực tiếp cho học viên"
+      },
+      "vstep": {
+        "badge": "LUYỆN THI VSTEP B2 - C1",
+        "cornerBadge": "Cam kết chuẩn đầu ra",
+        "topBadge": "Chuẩn B2 - C1",
+        "titlePrefix": "Luyện thi chứng chỉ VSTEP B2 - C1, ",
+        "titleHighlight": "chuẩn hóa đầu ra cấp tốc.",
+        "subtitle": "Lộ trình luyện thi chứng chỉ tiếng Anh VSTEP bậc B2 và C1 cấp tốc với hệ thống ngân hàng đề thi chuẩn hóa bám sát đề thi thật. Giảng viên chia sẻ bộ chiến lược xử lý bài thi độc quyền giúp học viên tự tin đạt chuẩn đầu ra đại học và sau đại học.",
+        "primaryBtn": "Đăng ký tư vấn",
+        "secondaryBtn": "Xem học phí",
+        "alt": "Học viên đạt kết quả cao tại Harry English House"
+      }
+    },
+    "stats": {
+      "ieltsLabel": "IELTS",
+      "ieltsVal": "7.5+",
+      "ieltsDesc": "Điểm cao nhất",
+      "toeicLabel": "TOEIC",
+      "toeicVal": "990+",
+      "toeicDesc": "Điểm tuyệt đối",
+      "commLabel": "Giao tiếp",
+      "commVal": "95%",
+      "commDesc": "Học viên tự tin hơn",
+      "vstepLabel": "VSTEP",
+      "vstepVal": "B2+",
+      "vstepDesc": "Chứng chỉ đạt được"
+    }
   },
   "about": {
     "eyebrow": "ABOUT HARRY ENGLISH HOUSE",

@@ -9,19 +9,68 @@
     "ctaBtn": "Get Consultation"
   },
   "hero": {
-    "eyebrow": "HARRY ENGLISH HOUSE",
-    "idpPartner": "IDP Partner",
-    "title1": "Learn English with",
-    "titleHighlight": "a roadmap truly built",
-    "title2": "around you.",
-    "subtitle": "Specialized IELTS training (0 to 8.0), Practical Communication & TOEIC test preparation with Mr. Harry — Official IDP IELTS Partner.",
-    "exploreBtn": "Explore Courses",
-    "consultBtn": "Get Free Consultation",
-    "tags": "IELTS • TOEIC • VSTEP • Communication",
-    "floating1Title": "IELTS",
-    "floating1Sub": "0 → 7.5+ Personalized",
-    "floating2Title": "Small Class Size",
-    "floating2Sub": "6 – 10 students / class"
+    "socialProof": "Over 1,000+ students have trusted and achieved their English goals with Harry",
+    "rating": "4.9/5 (120+ reviews)",
+    "slides": {
+      "ielts": {
+        "badge": "IELTS & ACADEMIC ENGLISH",
+        "cornerBadge": "Official IDP Partner",
+        "topBadge": "Band 7.5+ Target",
+        "titlePrefix": "Conquer IELTS 7.5+ band scores, ",
+        "titleHighlight": "unlock global academic pathways.",
+        "subtitle": "Intensive IELTS training from 0 to 7.5+ tailored precisely to each individual's competency. Students receive direct guidance from Instructor Harry — Official IDP IELTS Partner with detailed Writing reviews and practical Speaking simulations.",
+        "primaryBtn": "Explore Courses",
+        "secondaryBtn": "View Roadmap",
+        "alt": "IELTS Classroom at Harry English House"
+      },
+      "classSize": {
+        "badge": "SMALL CLASS SIZE (6–10 STUDENTS)",
+        "cornerBadge": "1-on-1 Mentorship",
+        "topBadge": "6–10 Students",
+        "titlePrefix": "Small class size of 6–10 students, ",
+        "titleHighlight": "close mentorship every session.",
+        "subtitle": "Compact class model strictly limited to 6 to 10 students maximizes 1-on-1 interaction time with the instructor. Every session features meticulous pronunciation correction, in-depth Q&A, and close tracking of weekly progress.",
+        "primaryBtn": "About Classes",
+        "secondaryBtn": "View Results",
+        "alt": "Interactive learning environment at Harry English House"
+      },
+      "toeic": {
+        "badge": "TOEIC & PRACTICAL COMMUNICATION",
+        "cornerBadge": "Practical Reflex",
+        "topBadge": "Online & Offline",
+        "titlePrefix": "Master TOEIC 990+ test strategies, ",
+        "titleHighlight": "speak fluently with confidence.",
+        "subtitle": "Practical communicative reflex training helps students rapidly conquer TOEIC 990+ goals and speak with confidence in international workplaces. Flexible combination of in-person and online classes with continuously updated curriculum.",
+        "primaryBtn": "Get Consultation",
+        "secondaryBtn": "View Courses",
+        "alt": "Instructor guiding students directly"
+      },
+      "vstep": {
+        "badge": "INTENSIVE VSTEP B2 - C1 PREPARATION",
+        "cornerBadge": "Graduation Standard",
+        "topBadge": "B2 - C1 Level",
+        "titlePrefix": "Intensive VSTEP B2 - C1 exam prep, ",
+        "titleHighlight": "guaranteed graduation benchmarks.",
+        "subtitle": "Intensive VSTEP B2 and C1 certificate preparation roadmap with standardized mock test banks closely mirroring real examinations. Exclusive test-taking strategies empower students to fulfill university and postgraduate graduation benchmarks.",
+        "primaryBtn": "Register Now",
+        "secondaryBtn": "Tuition Fees",
+        "alt": "High achieving students at Harry English House"
+      }
+    },
+    "stats": {
+      "ieltsLabel": "IELTS",
+      "ieltsVal": "7.5+",
+      "ieltsDesc": "Highest Band Achieved",
+      "toeicLabel": "TOEIC",
+      "toeicVal": "990+",
+      "toeicDesc": "Perfect Score",
+      "commLabel": "Communication",
+      "commVal": "95%",
+      "commDesc": "Confident fluency",
+      "vstepLabel": "VSTEP",
+      "vstepVal": "B2+",
+      "vstepDesc": "Certified Standard"
+    }
   },
   "about": {
     "eyebrow": "ABOUT HARRY ENGLISH HOUSE",
