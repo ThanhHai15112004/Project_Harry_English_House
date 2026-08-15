@@ -1,0 +1,89 @@
+{
+  "title": "Biểu Phí Đào Tạo Minh Bạch",
+  "note": "Harry English House cam kết chất lượng tương xứng học phí, hỗ trợ chính sách đóng linh hoạt theo tháng, 3 tháng và 6 tháng kèm ưu đãi đặc quyền.",
+  "packages3Months": [
+    {
+      "program": "Tiếng Anh Giao Tiếp",
+      "class2_4": "7.690.000 VNĐ",
+      "class5_7": "6.550.000 VNĐ",
+      "class8_10": "5.670.000 VNĐ",
+      "monthlyAvg": "Từ 1.890.000 VNĐ/tháng",
+      "promotion": "Ưu đãi 5% khóa mới chỉ còn 7.695.000đ"
+    },
+    {
+      "program": "Luyện thi TOEIC",
+      "class2_4": "7.120.000 VNĐ",
+      "class5_7": "5.980.000 VNĐ",
+      "class8_10": "5.100.000 VNĐ",
+      "monthlyAvg": "Từ 1.700.000 VNĐ/tháng",
+      "promotion": "Hỗ trợ test & giáo trình trọn gói"
+    },
+    {
+      "program": "Luyện thi VSTEP",
+      "class2_4": "7.950.000 VNĐ",
+      "class5_7": "6.810.000 VNĐ",
+      "class8_10": "5.960.000 VNĐ",
+      "monthlyAvg": "Từ 1.980.000 VNĐ/tháng",
+      "promotion": "Luyện sát format đề thi các trường ĐH"
+    },
+    {
+      "program": "Luyện thi IELTS",
+      "class2_4": "8.520.000 VNĐ",
+      "class5_7": "7.380.000 VNĐ",
+      "class8_10": "6.530.000 VNĐ",
+      "monthlyAvg": "Từ 2.170.000 VNĐ/tháng",
+      "promotion": "Giảm lệ phí thi IELTS IDP trực tiếp"
+    }
+  ],
+  "packages6Months": [
+    {
+      "program": "Tiếng Anh Giao Tiếp",
+      "class2_4": "15.060.000 VNĐ",
+      "class5_7": "12.830.000 VNĐ",
+      "class8_10": "11.100.000 VNĐ",
+      "discount": "Giảm 10% chỉ còn 14.580.000đ"
+    },
+    {
+      "program": "Luyện thi TOEIC",
+      "class2_4": "13.950.000 VNĐ",
+      "class5_7": "11.720.000 VNĐ",
+      "class8_10": "9.990.000 VNĐ",
+      "discount": "Tiết kiệm tối đa"
+    },
+    {
+      "program": "Luyện thi VSTEP",
+      "class2_4": "15.570.000 VNĐ",
+      "class5_7": "13.330.000 VNĐ",
+      "class8_10": "11.660.000 VNĐ",
+      "discount": "Cam kết chuẩn đầu ra B1/B2/C1"
+    },
+    {
+      "program": "Luyện thi IELTS",
+      "class2_4": "16.680.000 VNĐ",
+      "class5_7": "14.450.000 VNĐ",
+      "class8_10": "12.780.000 VNĐ",
+      "discount": "Lộ trình bứt phá 6.5 - 7.5+"
+    }
+  ],
+  "specialClasses": [
+    {
+      "title": "IELTS 1 Kèm 2 Siêu Tốc (Cá Nhân Hóa)",
+      "price": "4.000.000 VNĐ / học viên / tháng",
+      "features": [
+        "Chỉ 2 học viên kèm 1 giảng viên",
+        "Chấm chữa bài Writing & Speaking 1-1 chuyên sâu",
+        "Linh hoạt thời gian học online",
+        "Phù hợp mục tiêu nhảy band từ 6.0 lên 7.5+"
+      ]
+    },
+    {
+      "title": "IELTS Nhóm Nhỏ Học Sinh Cấp 3 (Online / Offline Q8)",
+      "price": "1.900.000 VNĐ / tháng",
+      "features": [
+        "Sĩ số 3 - 6 bạn",
+        "Chi phí tiết kiệm, bám sát nền tảng THPT và chuẩn IELTS",
+        "Lịch học buổi tối thuận tiện"
+      ]
+    }
+  ]
+}

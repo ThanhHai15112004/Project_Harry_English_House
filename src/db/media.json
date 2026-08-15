@@ -1,0 +1,138 @@
+{
+  "ministry2025": [
+    {
+      "id": 1,
+      "image": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-1.jpg",
+      "title": "Sự kiện Giáo dục 2025"
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-nhom-1.jpg",
+      "title": "Đoàn đại biểu giáo dục"
+    },
+    {
+      "id": 3,
+      "image": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg",
+      "title": "Thuyết trình chuyên đề"
+    },
+    {
+      "id": 4,
+      "image": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-2.jpg",
+      "title": "Chia sẻ kinh nghiệm đào tạo"
+    }
+  ],
+  "collaborations": [
+    {
+      "id": 1,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-1.jpg",
+      "title": "Hợp tác truyền thông 1"
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-2.jpg",
+      "title": "Hợp tác truyền thông 2"
+    },
+    {
+      "id": 3,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-3.jpg",
+      "title": "Hợp tác truyền thông 3"
+    },
+    {
+      "id": 4,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-4.jpg",
+      "title": "Hợp tác truyền thông 4"
+    },
+    {
+      "id": 5,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-5.jpg",
+      "title": "Hợp tác truyền thông 5"
+    },
+    {
+      "id": 6,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-6.jpg",
+      "title": "Hợp tác truyền thông 6"
+    },
+    {
+      "id": 7,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-7.jpg",
+      "title": "Hợp tác truyền thông 7"
+    },
+    {
+      "id": 8,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-8.jpg",
+      "title": "Hợp tác truyền thông 8"
+    },
+    {
+      "id": 9,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-9.jpg",
+      "title": "Hợp tác truyền thông 9"
+    },
+    {
+      "id": 10,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-10.jpg",
+      "title": "Hợp tác truyền thông 10"
+    },
+    {
+      "id": 11,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-11.jpg",
+      "title": "Hợp tác truyền thông 11"
+    },
+    {
+      "id": 12,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-12.jpg",
+      "title": "Hợp tác truyền thông 12"
+    },
+    {
+      "id": 13,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-13.jpg",
+      "title": "Hợp tác truyền thông 13"
+    }
+  ],
+  "memories": [
+    {
+      "id": 1,
+      "image": "/src/assets/ki-niem/ki-niem-1.jpg",
+      "title": "Kỷ niệm lớp học HEH 1"
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/ki-niem/ki-niem-2.jpg",
+      "title": "Kỷ niệm lớp học HEH 2"
+    },
+    {
+      "id": 3,
+      "image": "/src/assets/ki-niem/ki-niem-3.jpg",
+      "title": "Kỷ niệm lớp học HEH 3"
+    },
+    {
+      "id": 4,
+      "image": "/src/assets/ki-niem/ki-niem-4.jpg",
+      "title": "Kỷ niệm lớp học HEH 4"
+    },
+    {
+      "id": 5,
+      "image": "/src/assets/ki-niem/ki-niem-5.jpg",
+      "title": "Kỷ niệm lớp học HEH 5"
+    },
+    {
+      "id": 6,
+      "image": "/src/assets/ki-niem/ki-niem-6.jpg",
+      "title": "Kỷ niệm lớp học HEH 6"
+    },
+    {
+      "id": 7,
+      "image": "/src/assets/ki-niem/ki-niem-7.jpg",
+      "title": "Kỷ niệm lớp học HEH 7"
+    },
+    {
+      "id": 8,
+      "image": "/src/assets/ki-niem/ki-niem-8.jpg",
+      "title": "Kỷ niệm lớp học HEH 8"
+    },
+    {
+      "id": 9,
+      "image": "/src/assets/ki-niem/ki-niem-9.jpg",
+      "title": "Kỷ niệm lớp học HEH 9"
+    }
+  ]
+}

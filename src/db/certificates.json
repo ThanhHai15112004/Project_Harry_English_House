@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Chứng chỉ chuyên môn 1",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Chứng chỉ chuyên môn 2",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Chứng chỉ chuyên môn 3",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Chứng chỉ chuyên môn 4",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Chứng chỉ chuyên môn 5",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Chứng chỉ chuyên môn 6",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Chứng chỉ chuyên môn 7",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Chứng chỉ chuyên môn 8",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Chứng chỉ chuyên môn 9",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Chứng chỉ chuyên môn 10",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Chứng chỉ chuyên môn 11",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Chứng chỉ chuyên môn 12",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Chứng chỉ chuyên môn 13",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Chứng chỉ chuyên môn 14",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Chứng chỉ chuyên môn 15",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-15.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Chứng chỉ chuyên môn 16",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-16.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Chứng chỉ chuyên môn 17",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-17.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Chứng chỉ chuyên môn 18",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-18.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Chứng chỉ chuyên môn 19",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-19.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Chứng chỉ chuyên môn 20",
+    "image": "/src/assets/bang-cap-chung-chi/chung-chi-20.jpg"
+  }
+]

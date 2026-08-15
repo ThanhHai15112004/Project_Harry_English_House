@@ -1,0 +1,45 @@
+{
+  "centerName": "Harry English House",
+  "shortName": "HEH",
+  "slogan": "Không chỉ học mà còn thực sự làm chủ ngôn ngữ",
+  "founder": {
+    "name": "Harry (Anh Khôi)",
+    "role": "Founder & Giảng viên chính",
+    "experience": "Hơn 8 năm kinh nghiệm đào tạo",
+    "idpPartner": "Đối tác chiến lược của IDP (Chính sách ưu đãi giảm lệ phí thi IELTS trực tiếp)",
+    "teacherStandard": "Đội ngũ giáo viên chuyên môn cao, tối thiểu 7.5+ IELTS",
+    "philosophy": "HEH luôn hướng tới phương pháp giảng dạy thực tiễn, giúp học viên xóa bỏ rào cản lý thuyết khô khan để đạt được mục tiêu từ 0-8.0 IELTS một cách rõ ràng nhất. Chúng tôi tin rằng giáo dục là sự thấu hiểu và đồng hành xuyên suốt.",
+    "avatar": "/src/assets/trang-ca-nhan/avatar-me.jpg",
+    "cover": "/src/assets/trang-ca-nhan/anh-bia.jpg",
+    "contact": {
+      "hotline": "0938 611 919 (Ms Ái)",
+      "email": "khoi.harryenglishhouse@gmail.com",
+      "facebookFanpage": "https://www.facebook.com/profile.php?id=61563315172210",
+      "linkedin": "https://www.linkedin.com/in/harrykhoile",
+      "instagram": "https://www.instagram.com/_k.pedia_",
+      "threads": "https://www.threads.com/@_k.pedia_"
+    }
+  },
+  "highlights": [
+    {
+      "id": 1,
+      "title": "Đối tác chiến lược IDP",
+      "description": "Đặc quyền tối ưu chi phí với chính sách giảm lệ phí thi IELTS trực tiếp từ IDP cho học viên HEH."
+    },
+    {
+      "id": 2,
+      "title": "Đội ngũ Giáo viên 7.5+ IELTS",
+      "description": "100% giáo viên có chứng chỉ sư phạm quốc tế và tối thiểu 7.5+ IELTS, giàu kinh nghiệm thực chiến."
+    },
+    {
+      "id": 3,
+      "title": "Sĩ số lớp nhỏ & Kèm sát",
+      "description": "Lớp học từ 1:1, 1:2 đến nhóm nhỏ dưới 12 bạn, đảm bảo chấm chữa chi tiết từng kỹ năng."
+    },
+    {
+      "id": 4,
+      "title": "Lộ trình cá nhân hóa",
+      "description": "Thiết kế giáo trình bám sát điểm yếu của từng học viên, cam kết chuẩn đầu ra rõ ràng."
+    }
+  ]
+}

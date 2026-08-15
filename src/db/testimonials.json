@@ -1,0 +1,78 @@
+{
+  "quote": "Kết quả \"nhà trồng\" - Biết ơn các ngoan xinh iu vì đã cố gắng và tin tưởng đồng hành cùng HEH!",
+  "fbUrl": "https://www.facebook.com/story.php?story_fbid=122121725222443839&id=61563315172210",
+  "feedbacks": [
+    {
+      "id": 1,
+      "image": "/src/assets/feedback-hoc-vien/feedback-1.jpg",
+      "caption": "Feedback cảm nhận học viên"
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/feedback-hoc-vien/feedback-2.jpg",
+      "caption": "Phản hồi lớp học bổ ích"
+    },
+    {
+      "id": 3,
+      "image": "/src/assets/feedback-hoc-vien/feedback-3.jpg",
+      "caption": "Tiến bộ vượt bậc sau khóa học"
+    },
+    {
+      "id": 4,
+      "image": "/src/assets/feedback-hoc-vien/feedback-4.jpg",
+      "caption": "Sự tận tâm của thầy cô HEH"
+    },
+    {
+      "id": 5,
+      "image": "/src/assets/feedback-hoc-vien/feedback-5.jpg",
+      "caption": "Tự tin nói tiếng Anh tự nhiên"
+    },
+    {
+      "id": 6,
+      "image": "/src/assets/feedback-hoc-vien/feedback-6.jpg",
+      "caption": "Cải thiện kỹ năng Writing & Speaking"
+    },
+    {
+      "id": 7,
+      "image": "/src/assets/feedback-hoc-vien/feedback-7.jpg",
+      "caption": "Đánh giá chất lượng lớp kèm"
+    },
+    {
+      "id": 8,
+      "image": "/src/assets/feedback-hoc-vien/feedback-8.jpg",
+      "caption": "Cảm ơn thầy Khôi và trung tâm"
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
+      "caption": "Bảng điểm IELTS học viên HEH"
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg",
+      "caption": "Kết quả thi IELTS đạt mục tiêu"
+    },
+    {
+      "id": 3,
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-3.jpg",
+      "caption": "Bứt phá band điểm xuất sắc"
+    },
+    {
+      "id": 4,
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-4.jpg",
+      "caption": "Thành tích học viên khóa chuyên sâu"
+    },
+    {
+      "id": 5,
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg",
+      "caption": "Kết quả IELTS 7.0+"
+    },
+    {
+      "id": 6,
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-6.jpg",
+      "caption": "Bảng điểm IDP chính thức"
+    }
+  ]
+}

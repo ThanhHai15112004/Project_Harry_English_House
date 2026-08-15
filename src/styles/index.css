@@ -1,0 +1,56 @@
+@import './fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    @apply font-sans;
+  }
+
+  body {
+    @apply bg-academic-white text-academic-body antialiased selection:bg-cta selection:text-white font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-academic-heading font-heading tracking-tight font-bold;
+  }
+}
+
+@layer components {
+  /* Standard Container */
+  .app-container {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Academic Glass Card */
+  .glass-panel {
+    @apply bg-academic-white/90 backdrop-blur-md border border-academic-border shadow-card;
+  }
+
+  /* Academic Gradient Headline Text */
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary via-cta to-academic-sky bg-clip-text text-transparent;
+  }
+
+  /* Achievement Gold Badge */
+  .badge-achievement {
+    @apply inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-achievement-light text-achievement border border-achievement/30;
+  }
+}
+
+/* Custom Academic Scrollbar using Theme Tokens */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-academic-soft-white;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-academic-muted;
+}

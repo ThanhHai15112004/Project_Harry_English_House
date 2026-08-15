@@ -1,0 +1,86 @@
+[
+  {
+    "id": "ielts-0-3",
+    "category": "ielts",
+    "title": "Khóa IELTS Nền Tảng (0 → 3.0)",
+    "level": "Mất gốc / Cơ bản",
+    "target": "Xây nền ngữ pháp, phát âm, từ vựng chuẩn & làm quen tư duy học tiếng Anh",
+    "curriculum": "Raymond Murphy Basic, Oxford Phonics, Vocabulary in Use Elementary, Get Ready for IELTS",
+    "duration": "~40 buổi",
+    "format": "Online / Offline / Nhóm nhỏ / 1:1, 1:2",
+    "badge": "Mất gốc",
+    "color": "blue"
+  },
+  {
+    "id": "ielts-3-4",
+    "category": "ielts",
+    "title": "Khóa Pre-IELTS (3.0 → 4.0 / 4.5)",
+    "level": "Cơ bản - Tiền trung cấp",
+    "target": "Làm quen cấu trúc đề 4 kỹ năng, không hoảng đề, viết câu đoạn ngắn, nghe đọc cơ bản",
+    "curriculum": "Basic IELTS 4 skills, Complete IELTS 4.0-5.0, Collins Vocabulary for IELTS",
+    "duration": "~30 buổi",
+    "format": "Online / Offline (Quận 7, Quận 8, Quận 1)",
+    "badge": "Xây nền",
+    "color": "cyan"
+  },
+  {
+    "id": "ielts-4-5",
+    "category": "ielts",
+    "title": "Khóa IELTS Bứt Phá (4.5 → 5.5 / 6.0)",
+    "level": "Trung cấp",
+    "target": "Nắm trọn các dạng bài, tăng vốn từ học thuật, rèn phản xạ Nói và cấu trúc Viết Task 1-2",
+    "curriculum": "Mindset for IELTS Level 2, Destination B2, Listening for IELTS, Collins Skills",
+    "duration": "~3 tháng / 24-30 buổi",
+    "format": "Offline Q7 / Q8 / Online nhóm",
+    "badge": "Tăng tốc",
+    "color": "emerald"
+  },
+  {
+    "id": "ielts-6-75",
+    "category": "ielts",
+    "title": "Khóa IELTS Chuyên Sâu (6.0 → 7.5+)",
+    "level": "Nâng cao / Mục tiêu du học, xét tốt nghiệp",
+    "target": "Chữa chuyên sâu Writing & Speaking, chiến thuật giải đề Cambridge sát band, bứt phá 7.0-7.5+",
+    "curriculum": "Cambridge IELTS 15-18, IELTS Advantage Writing/Speaking, Bộ đề chữa riêng của HEH",
+    "duration": "Lộ trình 3-6 tháng",
+    "format": "Offline Q7 / Kèm 1:1, 1:2 Online",
+    "badge": "Band cao",
+    "color": "amber"
+  },
+  {
+    "id": "ielts-1-2",
+    "category": "ielts-vip",
+    "title": "IELTS Cá Nhân Hóa (1 Giáo Viên - 2 Học Sinh)",
+    "level": "Tùy biến từ 6.0 lên 7.5+",
+    "target": "Chẩn đoán điểm yếu từng học viên, kèm sát từng bài Writing & Speaking, nâng band thần tốc",
+    "curriculum": "Giáo trình may đo theo mục tiêu cá nhân & chấm chữa bài 1-1 liên tục",
+    "duration": "Linh hoạt theo tháng / theo chặng",
+    "format": "Online linh hoạt (T3, T5 / T3, T6)",
+    "badge": "VIP Kèm Sát",
+    "color": "purple"
+  },
+  {
+    "id": "comm-basic",
+    "category": "communication",
+    "title": "Tiếng Anh Giao Tiếp Phản Xạ Cơ Bản",
+    "level": "Mất gốc / Ngại nói",
+    "target": "Chuẩn hóa phát âm IPA, phản xạ câu hỏi đáp nhanh, tự tin giao tiếp đời sống hàng ngày",
+    "curriculum": "Pronunciation in Use, Giao tiếp tình huống thực tế đời sống & công việc",
+    "duration": "3 tháng (Khóa tiêu chuẩn)",
+    "format": "Offline / Online nhóm nhỏ",
+    "badge": "Phản xạ nhanh",
+    "color": "orange"
+  },
+  {
+    "id": "comm-applied",
+    "category": "communication",
+    "title": "Tiếng Anh Giao Tiếp Ứng Dụng & Công Việc",
+    "level": "Trung cấp (6 tháng)",
+    "target": "Mở rộng chủ đề học tập, công việc, thuyết trình, tự tin đàm phán và giao tiếp tự nhiên",
+    "curriculum": "Business Speaking English, English File Intermediate, Tình huống mô phỏng thực tế",
+    "duration": "6 tháng (Khóa dài hạn)",
+    "format": "Offline Q7, Q10 / Online",
+    "badge": "Thực chiến",
+    "color": "indigo"
+  }
+]

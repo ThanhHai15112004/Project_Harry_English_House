@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "about": "About Us",
+    "courses": "Courses",
+    "roadmap": "Roadmap",
+    "pricing": "Tuition",
+    "certificates": "Credentials & Partners",
+    "feedback": "Student Results",
+    "gallery": "Activities",
+    "contact": "Contact",
+    "ctaBtn": "Consultation"
+  },
+  "hero": {
+    "badge": "Strategic Partner of IDP Vietnam",
+    "titlePrefix": "Conquer IELTS & Practical English With",
+    "desc": "Break free from tedious theory. Personalized learning paths from 0 to 8.0 IELTS, guaranteed 1:1, 1:2 and small group mentorship with 7.5+ IELTS instructors.",
+    "checkIdp": "Discounted IELTS test fees with IDP",
+    "checkTeacher": "Expert team with 7.5+ IELTS",
+    "checkSmallClass": "Small group sizes - In-depth feedback",
+    "viewRoadmap": "Explore Courses & Roadmap",
+    "getConsultation": "Get Free Consultation",
+    "experience": "8+ Years Teaching Experience",
+    "teamTag": "7.5+ IELTS Team",
+    "partnerTag": "IDP Partner"
+  },
+  "about": {
+    "badge": "About Founder & Center",
+    "title": "Harry English House - Empathy & Companionship",
+    "subtitle": "Practical teaching methodology, tailored to guide each individual to their academic goals swiftly.",
+    "greeting": "High-five! I am {{name}} – Founder of Harry English House",
+    "idpDetail": "Students registering for IELTS exams receive full administrative assistance and exclusive exam fee discounts.",
+    "check1": "7.5+ IELTS certified instructors with native-level pronunciation",
+    "check2": "1:1 assignment grading and detailed error diagnostics",
+    "check3": "Committed companionship before, during, and after courses"
+  },
+  "courses": {
+    "badge": "Training Programs",
+    "title": "Featured Courses at Harry English House",
+    "subtitle": "Comprehensive syllabus tailored from complete beginners to 7.0 - 7.5+ master level and fluent communication.",
+    "filter": {
+      "all": "All Courses",
+      "ielts": "IELTS Roadmap (0-7.5+)",
+      "vip": "IELTS 1-on-2 VIP",
+      "communication": "Spoken English"
+    },
+    "labels": {
+      "level": "Target Level:",
+      "target": "🎯 Learning Outcomes:",
+      "curriculum": "📚 Core Curriculum:",
+      "format": "📍 Format & Location:",
+      "registerBtn": "Sign Up for Level Test"
+    }
+  },
+  "roadmap": {
+    "badge": "48-Session Band Boost Roadmap",
+    "curriculumFocus": "Curriculum Focus:"
+  },
+  "pricing": {
+    "badge": "Transparent Tuition",
+    "term3": "3-Month Package",
+    "term6": "6-Month Package",
+    "discount10": "10% Discount",
+    "tier2_4": "Class of 2 – 4 Students:",
+    "tier5_7": "Class of 5 – 7 Students:",
+    "tier8_10": "Class of 8 – 10 Students:",
+    "enrollBtn": "Enroll Now",
+    "specialTitle": "Special Mentorship Classes at HEH",
+    "specialSub": "Optimized for accelerated score gains with dedicated 1-on-1 focus"
+  },
+  "certificates": {
+    "badge": "Credentials & Accreditations",
+    "title": "Professional Teaching Certificates & Qualifications",
+    "subtitle": "100% international pedagogical certifications and degrees held by Founder Harry and HEH instructors.",
+    "viewDetail": "View detail"
+  },
+  "feedback": {
+    "badge": "Testimonials & Achievements",
+    "title": "Real Results from HEH Students",
+    "subtitle": "Hundreds of students have boosted their band scores and mastered English with Harry English House.",
+    "viewOriginal": "View original post on Facebook",
+    "viewScore": "View scorecard",
+    "viewFeedback": "View feedback",
+    "subGalleryTitle": "Messages & Reviews from Students"
+  },
+  "gallery": {
+    "badge": "Memories & Activities",
+    "title": "Events, Media Partnerships & Moments",
+    "subtitle": "Educational symposiums, media projects, and memorable classroom moments at HEH.",
+    "tabMinistry": "Education Symposium 2025",
+    "tabCollab": "Media Collaborations",
+    "tabMemories": "Classroom Memories"
+  },
+  "contact": {
+    "badge": "Consultation & Placement",
+    "title": "Start Your English Mastery Journey Today",
+    "subtitle": "Leave your information to receive a personalized roadmap consultation and IDP IELTS discounts.",
+    "directInfoTitle": "Direct Contact Information",
+    "directInfoDesc": "Contact Founder Harry or our teaching assistants directly for a complimentary 1:1 level test.",
+    "hotlineLabel": "Hotline (Ms Ái):",
+    "emailLabel": "Email:",
+    "locationsLabel": "Training Locations:",
+    "locationsVal": "District 7 (near Lotte Mart), District 8, District 1, District 10 & Online nationwide",
+    "idpDiscountNotice": "HEH students enjoy exclusive discounts when registering for IDP IELTS exams!",
+    "formTitle": "Register for Level Test & Placement",
+    "fullNameLabel": "Full Name *",
+    "fullNamePlaceholder": "e.g., John Doe",
+    "phoneLabel": "Phone Number / Zalo *",
+    "phonePlaceholder": "e.g., +84 912 345 678",
+    "courseInterestLabel": "Interested Program",
+    "formatLabel": "Learning Format",
+    "notesLabel": "Additional Goals / Availability",
+    "notesPlaceholder": "e.g., Aiming for 6.5 in 6 months, available on Mon-Wed-Fri evenings...",
+    "submitBtn": "Submit Registration",
+    "successTitle": "Registration Successful!",
+    "successDesc": "Thank you, {{name}}! The Harry English House team will contact you at {{phone}} shortly!",
+    "resubmitBtn": "Submit another response"
+  },
+  "footer": {
+    "desc": "Practical training center for IELTS, TOEIC & Spoken English. Guiding learners from zero to 8.0 IELTS.",
+    "idpBadge": "🎖️ Strategic Partner of IDP Vietnam",
+    "explore": "Explore",
+    "courses": "Programs",
+    "contact": "Contact Us",
+    "hotline": "Hotline:",
+    "email": "Work Email:",
+    "locations": "Campuses:",
+    "copyright": "© {{year}} Harry English House. All rights reserved.",
+    "credit": "Committed to guiding students through empathy and practical excellence."
+  },
+  "common": {
+    "close": "Close",
+    "modalImage": "Detailed Image"
+  }
+}
