@@ -143,7 +143,7 @@ npm run build
 
 ## 👨‍🏫 Thông Tin Giảng Viên
 
-**Thầy Hải (Harry Khôi)**
+**Thầy Khôi (Harry Khôi)**
 - 🏆 IELTS 8.0 — Band cao nhất tại TP.HCM năm học vị
 - 🤝 Đối tác chính thức **IDP IELTS** — Tổ chức quản lý thi IELTS toàn cầu
 - 🎓 20+ chứng chỉ nghiệp vụ giảng dạy, học thuật và phát triển bản thân
