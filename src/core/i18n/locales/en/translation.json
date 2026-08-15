@@ -1,13 +1,10 @@
 {
   "nav": {
-    "about": "About",
-    "programs": "Programs",
-    "method": "Methodology",
-    "roadmap": "Roadmap",
-    "founder": "Harry Khoi",
-    "results": "Results",
-    "academic": "Credentials",
-    "classes": "Open Classes",
+    "home": "Home",
+    "programs": "Courses",
+    "courseDetail": "Course Details",
+    "results": "Student Results",
+    "founder": "About Harry Khoi",
     "contact": "Contact",
     "ctaBtn": "Get Consultation"
   },

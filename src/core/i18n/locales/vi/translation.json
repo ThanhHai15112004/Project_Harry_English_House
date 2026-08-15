@@ -1,13 +1,10 @@
 {
   "nav": {
-    "about": "Giới thiệu",
-    "programs": "Chương trình",
-    "method": "Phương pháp",
-    "roadmap": "Lộ trình",
-    "founder": "Harry Khôi",
-    "results": "Thành tích",
-    "academic": "Chứng chỉ & Hoạt động",
-    "classes": "Lớp tuyển sinh",
+    "home": "Trang chủ",
+    "programs": "Khóa học",
+    "courseDetail": "Chi tiết khóa học",
+    "results": "Thành tích học viên",
+    "founder": "Về Harry Khôi",
     "contact": "Liên hệ",
     "ctaBtn": "Nhận tư vấn"
   },

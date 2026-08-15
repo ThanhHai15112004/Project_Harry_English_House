@@ -12,12 +12,18 @@ export const SECTION_IDS = {
 };
 
 export const NAV_ITEMS = [
-  { id: SECTION_IDS.ABOUT, labelKey: 'nav.about', href: `#${SECTION_IDS.ABOUT}` },
-  { id: SECTION_IDS.PROGRAMS, labelKey: 'nav.programs', href: `#${SECTION_IDS.PROGRAMS}` },
-  { id: SECTION_IDS.METHOD, labelKey: 'nav.method', href: `#${SECTION_IDS.METHOD}` },
-  { id: SECTION_IDS.ROADMAP, labelKey: 'nav.roadmap', href: `#${SECTION_IDS.ROADMAP}` },
-  { id: SECTION_IDS.FOUNDER, labelKey: 'nav.founder', href: `#${SECTION_IDS.FOUNDER}` },
-  { id: SECTION_IDS.RESULTS, labelKey: 'nav.results', href: `#${SECTION_IDS.RESULTS}` },
-  { id: SECTION_IDS.ACADEMIC, labelKey: 'nav.academic', href: `#${SECTION_IDS.ACADEMIC}` },
-  { id: SECTION_IDS.CLASSES, labelKey: 'nav.classes', href: `#${SECTION_IDS.CLASSES}` },
+  { id: 'home', labelKey: 'nav.home', href: `#${SECTION_IDS.HERO}` },
+  {
+    id: 'programs',
+    labelKey: 'nav.programs',
+    href: `#${SECTION_IDS.PROGRAMS}`,
+    dropdown: [
+      { id: 'ielts', label: 'IELTS Toàn Diện (0 - 7.5+)', href: `#${SECTION_IDS.PROGRAMS}` },
+      { id: 'roadmap', label: 'Lộ Trình Từng Band Điểm', href: `#${SECTION_IDS.ROADMAP}` },
+      { id: 'classes', label: 'Lịch Tuyển Sinh Lớp Mới', href: `#${SECTION_IDS.CLASSES}` },
+    ],
+  },
+  { id: 'results', labelKey: 'nav.results', href: `#${SECTION_IDS.RESULTS}` },
+  { id: 'founder', labelKey: 'nav.founder', href: `#${SECTION_IDS.FOUNDER}` },
+  { id: 'contact', labelKey: 'nav.contact', href: `#${SECTION_IDS.CONTACT}` },
 ];
