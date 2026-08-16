@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
   Menu,
@@ -14,12 +15,13 @@ import {
   Phone,
   Sparkles,
 } from 'lucide-react';
-import { NAV_ITEMS, APP_INFO, SECTION_IDS } from '@/core';
+import { NAV_ITEMS, APP_INFO, ROUTES } from '@/core';
 import { LanguageSwitcher, Button } from '@/components/common';
 import logoImg from '@/assets/logo/logo-main.jpg';
 
 export const Navbar = () => {
   const { t } = useTranslation();
+  const location = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -32,6 +34,21 @@ export const Navbar = () => {
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Cuộn mượt lên đầu trang khi bấm vào logo hoặc Trang chủ (nếu đang ở trang chủ)
+  const handleHomeClick = () => {
+    if (location.pathname === ROUTES.HOME) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
+  // Kiểm tra trạng thái đang kích hoạt (active) của menu
+  const isItemActive = (item) => {
+    if (item.path === ROUTES.HOME) {
+      return location.pathname === ROUTES.HOME;
+    }
+    return location.pathname === item.path || location.pathname.startsWith(`${item.path}/`);
+  };
 
   // Icon mapping cho các mục điều hướng trên mobile
   const getNavIcon = (id) => {
@@ -62,7 +79,11 @@ export const Navbar = () => {
       >
         <div className="app-container flex items-center justify-between">
           {/* Brand Logo & Name */}
-          <a href="#hero" className="flex items-center gap-2.5 sm:gap-3.5 group min-w-0">
+          <Link
+            to={ROUTES.HOME}
+            onClick={handleHomeClick}
+            className="flex items-center gap-2.5 sm:gap-3.5 group min-w-0"
+          >
             <img
               src={logoImg}
               alt="Harry English House Logo"
@@ -76,11 +97,13 @@ export const Navbar = () => {
                 {APP_INFO.TAGLINE_VI}
               </span>
             </div>
-          </a>
+          </Link>
 
           {/* Desktop Navigation Links */}
           <nav className="hidden lg:flex items-center gap-1.5">
             {NAV_ITEMS.map((item) => {
+              const active = isItemActive(item);
+
               if (item.dropdown) {
                 return (
                   <div
@@ -89,25 +112,35 @@ export const Navbar = () => {
                     onMouseEnter={() => setDropdownOpen(true)}
                     onMouseLeave={() => setDropdownOpen(false)}
                   >
-                    <a
-                      href={item.href}
-                      className="px-3.5 py-2 rounded-xl text-[15px] sm:text-base font-bold text-slate-700 hover:text-primary hover:bg-academic-light-blue/70 transition-all flex items-center gap-1.5"
+                    <Link
+                      to={item.path}
+                      className={`px-3.5 py-2 rounded-xl text-[15px] sm:text-base font-bold transition-all flex items-center gap-1.5 ${
+                        active
+                          ? 'text-primary bg-academic-light-blue shadow-2xs'
+                          : 'text-slate-700 hover:text-primary hover:bg-academic-light-blue/70'
+                      }`}
                     >
                       <span>{t(item.labelKey)}</span>
-                      <ChevronDown size={16} className="text-slate-500 group-hover:rotate-180 transition-transform" />
-                    </a>
+                      <ChevronDown
+                        size={16}
+                        className={`transition-transform duration-200 ${
+                          dropdownOpen ? 'rotate-180 text-primary' : 'text-slate-500'
+                        }`}
+                      />
+                    </Link>
 
                     {/* Desktop Dropdown Menu */}
                     {dropdownOpen && (
                       <div className="absolute top-full left-0 w-64 bg-white rounded-2xl p-2 shadow-xl border border-academic-border space-y-1 animate-fadeIn">
                         {item.dropdown.map((sub) => (
-                          <a
+                          <Link
                             key={sub.id}
-                            href={sub.href}
+                            to={sub.path}
+                            onClick={() => setDropdownOpen(false)}
                             className="block px-3.5 py-2.5 rounded-xl text-sm font-bold text-slate-700 hover:text-primary hover:bg-academic-light-blue transition-colors"
                           >
                             {sub.label}
-                          </a>
+                          </Link>
                         ))}
                       </div>
                     )}
@@ -116,13 +149,18 @@ export const Navbar = () => {
               }
 
               return (
-                <a
+                <Link
                   key={item.id}
-                  href={item.href}
-                  className="px-3.5 py-2 rounded-xl text-[15px] sm:text-base font-bold text-slate-700 hover:text-primary hover:bg-academic-light-blue/70 transition-all"
+                  to={item.path}
+                  onClick={item.path === ROUTES.HOME ? handleHomeClick : undefined}
+                  className={`px-3.5 py-2 rounded-xl text-[15px] sm:text-base font-bold transition-all ${
+                    active
+                      ? 'text-primary bg-academic-light-blue shadow-2xs'
+                      : 'text-slate-700 hover:text-primary hover:bg-academic-light-blue/70'
+                  }`}
                 >
                   {t(item.labelKey)}
-                </a>
+                </Link>
               );
             })}
           </nav>
@@ -130,11 +168,11 @@ export const Navbar = () => {
           {/* Actions (Language Switcher + CTA) */}
           <div className="hidden sm:flex items-center gap-3.5">
             <LanguageSwitcher />
-            <a href={`#${SECTION_IDS.CONTACT}`}>
+            <Link to={ROUTES.CONTACT}>
               <Button size="md" variant="primary" icon={<ArrowRight size={16} />} className="font-bold">
                 {t('nav.ctaBtn')}
               </Button>
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Right Bar: Language Switcher & Hamburger Toggle (No background) */}
@@ -156,6 +194,8 @@ export const Navbar = () => {
           <div className="lg:hidden absolute top-full left-0 right-0 bg-white border-b border-slate-200 shadow-2xl px-4 pt-3 pb-6 space-y-2.5 rounded-b-3xl z-50 animate-fadeIn max-h-[calc(100vh-80px)] overflow-y-auto">
             <div className="space-y-2">
               {NAV_ITEMS.map((item) => {
+                const active = isItemActive(item);
+
                 if (item.dropdown) {
                   return (
                     <div
@@ -171,7 +211,7 @@ export const Navbar = () => {
                           <span className="p-2 rounded-xl bg-white shadow-xs text-primary flex-shrink-0 border border-slate-100">
                             {getNavIcon(item.id)}
                           </span>
-                          <span>{t(item.labelKey)}</span>
+                          <span className={active ? 'text-primary' : ''}>{t(item.labelKey)}</span>
                         </div>
                         <ChevronDown
                           size={18}
@@ -184,15 +224,15 @@ export const Navbar = () => {
                       {mobileDropdownOpen && (
                         <div className="px-3 pb-3 pt-1 space-y-1.5 border-t border-slate-200/80 bg-slate-100/60">
                           {item.dropdown.map((sub) => (
-                            <a
+                            <Link
                               key={sub.id}
-                              href={sub.href}
+                              to={sub.path}
                               className="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-white text-sm font-bold text-slate-700 hover:text-primary hover:bg-blue-50/80 border border-slate-200/80 shadow-2xs transition-colors"
                               onClick={() => setMobileMenuOpen(false)}
                             >
                               <span>{sub.label}</span>
                               <ChevronRight size={14} className="text-slate-400" />
-                            </a>
+                            </Link>
                           ))}
                         </div>
                       )}
@@ -201,10 +241,14 @@ export const Navbar = () => {
                 }
 
                 return (
-                  <a
+                  <Link
                     key={item.id}
-                    href={item.href}
-                    className="flex items-center justify-between px-3.5 py-3 rounded-2xl bg-slate-50 hover:bg-blue-50/80 text-slate-800 hover:text-primary font-bold text-[15px] transition-all border border-slate-200/90 shadow-2xs"
+                    to={item.path}
+                    className={`flex items-center justify-between px-3.5 py-3 rounded-2xl font-bold text-[15px] transition-all border shadow-2xs ${
+                      active
+                        ? 'bg-blue-50/90 text-primary border-blue-200'
+                        : 'bg-slate-50 hover:bg-blue-50/80 text-slate-800 hover:text-primary border-slate-200/90'
+                    }`}
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     <div className="flex items-center gap-3">
@@ -214,18 +258,18 @@ export const Navbar = () => {
                       <span>{t(item.labelKey)}</span>
                     </div>
                     <ChevronRight size={16} className="text-slate-400" />
-                  </a>
+                  </Link>
                 );
               })}
             </div>
 
             {/* Bottom Actions & Quick Contact on Mobile */}
             <div className="pt-3 border-t border-slate-100 space-y-3">
-              <a href={`#${SECTION_IDS.CONTACT}`} onClick={() => setMobileMenuOpen(false)} className="block">
+              <Link to={ROUTES.CONTACT} onClick={() => setMobileMenuOpen(false)} className="block">
                 <Button fullWidth size="md" variant="primary" icon={<ArrowRight size={16} />} className="font-bold py-3 text-[15px] shadow-glow-cta">
                   {t('nav.ctaBtn')} (Tư vấn 1-1)
                 </Button>
-              </a>
+              </Link>
 
               <div className="flex items-center justify-between px-1 text-xs">
                 <a
@@ -256,3 +300,4 @@ export const Navbar = () => {
 };
 
 export default Navbar;
+

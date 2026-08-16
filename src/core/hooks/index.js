@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { DataService } from '../services';
 
 export * from './useLenis';
+export * from './useDocumentTitle';
 
 export const useTeacherData = () => {
   const [data, setData] = useState(null);
@@ -16,6 +17,16 @@ export const useCoursesData = (category = 'all') => {
   useEffect(() => {
     setData(DataService.getCourses(category));
   }, [category]);
+  return data;
+};
+
+export const useCourseDetail = (id) => {
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    if (id) {
+      setData(DataService.getCourseById(id));
+    }
+  }, [id]);
   return data;
 };
 

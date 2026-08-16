@@ -1,3 +1,12 @@
+export const ROUTES = {
+  HOME: '/',
+  COURSES: '/courses',
+  COURSE_DETAIL: '/courses/:courseId',
+  RESULTS: '/results',
+  ABOUT: '/about',
+  CONTACT: '/contact',
+};
+
 export const SECTION_IDS = {
   HERO: 'hero',
   ABOUT: 'about',
@@ -12,18 +21,20 @@ export const SECTION_IDS = {
 };
 
 export const NAV_ITEMS = [
-  { id: 'home', labelKey: 'nav.home', href: `#${SECTION_IDS.HERO}` },
+  { id: 'home', labelKey: 'nav.home', path: ROUTES.HOME },
   {
     id: 'programs',
     labelKey: 'nav.programs',
-    href: `#${SECTION_IDS.PROGRAMS}`,
+    path: ROUTES.COURSES,
     dropdown: [
-      { id: 'ielts', label: 'IELTS Toàn Diện (0 - 7.5+)', href: `#${SECTION_IDS.PROGRAMS}` },
-      { id: 'roadmap', label: 'Lộ Trình Từng Band Điểm', href: `#${SECTION_IDS.ROADMAP}` },
-      { id: 'classes', label: 'Lịch Tuyển Sinh Lớp Mới', href: `#${SECTION_IDS.CLASSES}` },
+      { id: 'all-courses', label: 'Tất Cả Khóa Học', path: ROUTES.COURSES },
+      { id: 'roadmap', label: 'Lộ Trình Từng Band Điểm', path: `${ROUTES.COURSES}#roadmap` },
+      { id: 'method', label: 'Phương Pháp Đào Tạo', path: `${ROUTES.COURSES}#method` },
+      { id: 'classes', label: 'Lịch Tuyển Sinh Lớp Mới', path: `${ROUTES.COURSES}#classes` },
     ],
   },
-  { id: 'results', labelKey: 'nav.results', href: `#${SECTION_IDS.RESULTS}` },
-  { id: 'founder', labelKey: 'nav.founder', href: `#${SECTION_IDS.FOUNDER}` },
-  { id: 'contact', labelKey: 'nav.contact', href: `#${SECTION_IDS.CONTACT}` },
+  { id: 'results', labelKey: 'nav.results', path: ROUTES.RESULTS },
+  { id: 'founder', labelKey: 'nav.founder', path: ROUTES.ABOUT },
+  { id: 'contact', labelKey: 'nav.contact', path: ROUTES.CONTACT },
 ];
+

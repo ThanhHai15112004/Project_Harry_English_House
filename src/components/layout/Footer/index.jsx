@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Phone, Mail, MapPin, ExternalLink, ShieldCheck } from 'lucide-react';
-import { APP_INFO, SECTION_IDS } from '@/core';
+import { APP_INFO, ROUTES } from '@/core';
 import logoImg from '@/assets/logo/logo-main.jpg';
 
 export const Footer = () => {
@@ -14,7 +15,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-academic-border">
           {/* Col 1: Brand & Philosophy (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
-            <div className="flex items-center gap-3">
+            <Link to={ROUTES.HOME} className="flex items-center gap-3">
               <img
                 src={logoImg}
                 alt="Harry English House"
@@ -23,7 +24,7 @@ export const Footer = () => {
               <span className="font-heading font-black text-xl text-academic-heading tracking-tight">
                 {APP_INFO.BRAND_NAME || APP_INFO.NAME}
               </span>
-            </div>
+            </Link>
             <p className="text-xs sm:text-sm text-academic-body leading-relaxed max-w-sm">
               {t('footer.brandDesc')}
             </p>
@@ -40,29 +41,29 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-2 text-xs sm:text-sm text-academic-body">
               <li>
-                <a href={`#${SECTION_IDS.PROGRAMS}`} className="hover:text-primary transition-colors">
+                <Link to={ROUTES.COURSES} className="hover:text-primary transition-colors">
                   {t('footer.courses.ieltsFoundation')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href={`#${SECTION_IDS.PROGRAMS}`} className="hover:text-primary transition-colors">
+                <Link to={ROUTES.COURSES} className="hover:text-primary transition-colors">
                   {t('footer.courses.ieltsBooster')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href={`#${SECTION_IDS.PROGRAMS}`} className="hover:text-primary transition-colors">
+                <Link to={ROUTES.COURSES} className="hover:text-primary transition-colors">
                   {t('footer.courses.ieltsMaster')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href={`#${SECTION_IDS.PROGRAMS}`} className="hover:text-primary transition-colors">
+                <Link to={ROUTES.COURSES} className="hover:text-primary transition-colors">
                   {t('footer.courses.communication')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href={`#${SECTION_IDS.PROGRAMS}`} className="hover:text-primary transition-colors">
+                <Link to={ROUTES.COURSES} className="hover:text-primary transition-colors">
                   {t('footer.courses.toeic')}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -74,24 +75,24 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-2 text-xs sm:text-sm text-academic-body">
               <li>
-                <a href={`#${SECTION_IDS.FOUNDER}`} className="hover:text-primary transition-colors">
+                <Link to={ROUTES.ABOUT} className="hover:text-primary transition-colors">
                   {t('footer.explore.aboutHarry')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href={`#${SECTION_IDS.RESULTS}`} className="hover:text-primary transition-colors">
+                <Link to={ROUTES.RESULTS} className="hover:text-primary transition-colors">
                   {t('footer.explore.results')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href={`#${SECTION_IDS.ACADEMIC}`} className="hover:text-primary transition-colors">
+                <Link to={ROUTES.ABOUT} className="hover:text-primary transition-colors">
                   {t('footer.explore.credentials')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href={`#${SECTION_IDS.CLASSES}`} className="hover:text-primary transition-colors">
+                <Link to={`${ROUTES.COURSES}#classes`} className="hover:text-primary transition-colors">
                   {t('footer.explore.classes')}
-                </a>
+                </Link>
               </li>
               <li>
                 <a

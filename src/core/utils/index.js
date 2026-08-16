@@ -1,3 +1,5 @@
+import { getLenis } from '../hooks';
+
 /**
  * Scroll smoothly to an element by id
  * @param {string} id 
@@ -6,7 +8,12 @@ export const scrollToSection = (id) => {
   const cleanId = id.replace('#', '');
   const element = document.getElementById(cleanId);
   if (element) {
-    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const lenis = getLenis();
+    if (lenis) {
+      lenis.scrollTo(element, { offset: -80, duration: 1.2 });
+    } else {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 };
 

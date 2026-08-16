@@ -15,7 +15,8 @@ import {
 } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from 'swiper/modules';
-import { SECTION_IDS } from '@/core';
+import { Link } from 'react-router-dom';
+import { SECTION_IDS, ROUTES } from '@/core';
 
 import banner1 from '@/assets/banner/banner1.jpg';
 import banner2 from '@/assets/banner/banner2.jpg';
@@ -88,9 +89,9 @@ export const HeroSection = () => {
       titleHighlight: t('hero.slides.ielts.titleHighlight'),
       subtitle: t('hero.slides.ielts.subtitle'),
       primaryBtnText: t('hero.slides.ielts.primaryBtn'),
-      primaryBtnLink: `#${SECTION_IDS.PROGRAMS}`,
+      primaryBtnLink: ROUTES.COURSES,
       secondaryBtnText: t('hero.slides.ielts.secondaryBtn'),
-      secondaryBtnLink: `#${SECTION_IDS.ROADMAP}`,
+      secondaryBtnLink: `${ROUTES.COURSES}#roadmap`,
       image: banner1,
       imageAlt: t('hero.slides.ielts.alt'),
     },
@@ -106,9 +107,9 @@ export const HeroSection = () => {
       titleHighlight: t('hero.slides.classSize.titleHighlight'),
       subtitle: t('hero.slides.classSize.subtitle'),
       primaryBtnText: t('hero.slides.classSize.primaryBtn'),
-      primaryBtnLink: `#${SECTION_IDS.ABOUT}`,
+      primaryBtnLink: ROUTES.ABOUT,
       secondaryBtnText: t('hero.slides.classSize.secondaryBtn'),
-      secondaryBtnLink: `#${SECTION_IDS.TESTIMONIALS}`,
+      secondaryBtnLink: ROUTES.RESULTS,
       image: banner2,
       imageAlt: t('hero.slides.classSize.alt'),
     },
@@ -124,9 +125,9 @@ export const HeroSection = () => {
       titleHighlight: t('hero.slides.toeic.titleHighlight'),
       subtitle: t('hero.slides.toeic.subtitle'),
       primaryBtnText: t('hero.slides.toeic.primaryBtn'),
-      primaryBtnLink: `#${SECTION_IDS.CONTACT}`,
+      primaryBtnLink: ROUTES.CONTACT,
       secondaryBtnText: t('hero.slides.toeic.secondaryBtn'),
-      secondaryBtnLink: `#${SECTION_IDS.PROGRAMS}`,
+      secondaryBtnLink: ROUTES.COURSES,
       image: banner3,
       imageAlt: t('hero.slides.toeic.alt'),
     },
@@ -142,9 +143,9 @@ export const HeroSection = () => {
       titleHighlight: t('hero.slides.vstep.titleHighlight'),
       subtitle: t('hero.slides.vstep.subtitle'),
       primaryBtnText: t('hero.slides.vstep.primaryBtn'),
-      primaryBtnLink: `#${SECTION_IDS.CONTACT}`,
+      primaryBtnLink: ROUTES.CONTACT,
       secondaryBtnText: t('hero.slides.vstep.secondaryBtn'),
-      secondaryBtnLink: `#${SECTION_IDS.PROGRAMS}`,
+      secondaryBtnLink: ROUTES.COURSES,
       image: banner4,
       imageAlt: t('hero.slides.vstep.alt'),
     },
@@ -197,15 +198,15 @@ export const HeroSection = () => {
 
                   {/* Cụm 2 nút hành động với hiệu ứng Shimmer trên nút chính */}
                   <div className="flex flex-wrap items-center gap-3.5 pt-1">
-                    <a href={slide.primaryBtnLink}>
+                    <Link to={slide.primaryBtnLink}>
                       <button
                         type="button"
                         className="btn-shimmer px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm sm:text-base transition-all shadow-md hover:shadow-glow-cta active:scale-95 whitespace-nowrap"
                       >
                         {slide.primaryBtnText}
                       </button>
-                    </a>
-                    <a href={slide.secondaryBtnLink}>
+                    </Link>
+                    <Link to={slide.secondaryBtnLink}>
                       <button
                         type="button"
                         className="inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 hover:text-blue-600 font-semibold text-sm sm:text-base transition-all shadow-2xs active:scale-95 whitespace-nowrap"
@@ -213,7 +214,7 @@ export const HeroSection = () => {
                         <span>{slide.secondaryBtnText}</span>
                         <ArrowRight size={16} />
                       </button>
-                    </a>
+                    </Link>
                   </div>
 
                   {/* Social Proof */}
