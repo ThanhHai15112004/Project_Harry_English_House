@@ -1,0 +1,14 @@
+export { default as CourseHero } from './CourseHero';
+export { default as CourseQuickOverview } from './CourseQuickOverview';
+export { default as CourseTargetAudience } from './CourseTargetAudience';
+export { default as CourseLearningContent } from './CourseLearningContent';
+export { default as CourseRoadmapStages } from './CourseRoadmapStages';
+export { default as CourseCurriculumBooks } from './CourseCurriculumBooks';
+export { default as CourseMethodology } from './CourseMethodology';
+export { default as CourseInfoAndPricing } from './CourseInfoAndPricing';
+export { default as CourseInstructorProfile } from './CourseInstructorProfile';
+export { default as CourseRelatedResults } from './CourseRelatedResults';
+export { default as CourseOpenClasses } from './CourseOpenClasses';
+export { default as CourseFaq } from './CourseFaq';
+export { default as CourseBottomCta } from './CourseBottomCta';
+export { default as CourseStickyBars } from './CourseStickyBars';

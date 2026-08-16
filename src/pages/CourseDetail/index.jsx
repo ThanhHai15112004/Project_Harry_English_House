@@ -1,55 +1,94 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import {
-  ArrowLeft,
-  ArrowRight,
-  CheckCircle2,
-  Clock,
-  Users,
-  Target,
-  BookOpen,
-  MapPin,
-  ShieldCheck,
-  Award,
-  Sparkles,
-  Phone,
-  Calendar,
-} from 'lucide-react';
+import { BookOpen, ArrowLeft, X, CheckCircle2, Phone, User, Send } from 'lucide-react';
 import { MainLayout } from '@/components/layout';
-import { PageHeader, Button } from '@/components/common';
-import { useCourseDetail, useClassesData, useDocumentTitle, ROUTES, APP_INFO } from '@/core';
+import { Button } from '@/components/common';
+import { useCourseDetail, useDocumentTitle, ROUTES, APP_INFO } from '@/core';
+
+import {
+  CourseHero,
+  CourseQuickOverview,
+  CourseTargetAudience,
+  CourseLearningContent,
+  CourseRoadmapStages,
+  CourseCurriculumBooks,
+  CourseMethodology,
+  CourseInfoAndPricing,
+  CourseInstructorProfile,
+  CourseRelatedResults,
+  CourseOpenClasses,
+  CourseFaq,
+  CourseBottomCta,
+  CourseStickyBars
+} from './components';
 
 export const CourseDetailPage = () => {
   const { courseId } = useParams();
   const { t } = useTranslation();
   const course = useCourseDetail(courseId);
-  const classesData = useClassesData();
 
-  const [activeModuleTab, setActiveModuleTab] = useState('overview');
+  // Modal State
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedClass, setSelectedClass] = useState(null);
+  const [formData, setFormData] = useState({ fullName: '', phone: '', note: '' });
+  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [phoneError, setPhoneError] = useState('');
 
-  // Dynamic SEO title
+  // Dynamic SEO Title
   useDocumentTitle(
     'courseDetail',
     course ? `${course.title} | ${APP_INFO.BRAND_NAME}` : undefined
   );
 
+  // Smooth scroll helper
+  const handleScrollToClasses = () => {
+    const el = document.getElementById('open-classes');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleOpenConsultModal = (cls = null) => {
+    setSelectedClass(cls);
+    setFormSubmitted(false);
+    setPhoneError('');
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedClass(null);
+    setFormSubmitted(false);
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    if (!formData.phone || formData.phone.trim().length < 9) {
+      setPhoneError('Vui lòng nhập số điện thoại hoặc Zalo hợp lệ (tối thiểu 9 số).');
+      return;
+    }
+    setPhoneError('');
+    setFormSubmitted(true);
+  };
+
+  // If course not found
   if (!course) {
     return (
       <MainLayout>
-        <div className="app-container py-24 text-center max-w-lg mx-auto">
-          <div className="w-16 h-16 rounded-2xl bg-academic-surface text-academic-muted flex items-center justify-center mx-auto mb-4">
+        <div className="max-w-xl mx-auto px-4 py-24 text-center">
+          <div className="w-16 h-16 rounded-2xl bg-blue-50 text-[#2563EB] flex items-center justify-center mx-auto mb-5 shadow-xs">
             <BookOpen size={32} />
           </div>
-          <h1 className="text-2xl font-bold text-academic-heading font-heading">
-            {t('pages.courseDetail.notFoundTitle')}
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-[#10233F]">
+            {t('pages.courseDetail.notFoundTitle', 'Không tìm thấy khóa học')}
           </h1>
-          <p className="text-sm text-academic-body mt-2 mb-6">
-            {t('pages.courseDetail.notFoundDesc')}
+          <p className="text-sm sm:text-base text-slate-600 mt-2 mb-8 leading-relaxed">
+            {t('pages.courseDetail.notFoundDesc', 'Khóa học bạn tìm kiếm không tồn tại hoặc đã được chuyển sang lộ trình mới.')}
           </p>
           <Link to={ROUTES.COURSES}>
             <Button variant="primary" icon={<ArrowLeft size={16} />}>
-              {t('pages.courseDetail.backToCourses')}
+              {t('pages.courseDetail.backToCourses', 'Quay lại danh mục khóa học')}
             </Button>
           </Link>
         </div>
@@ -57,295 +96,210 @@ export const CourseDetailPage = () => {
     );
   }
 
-  // Filter classes related to this course type
-  const relatedClasses = classesData?.classes?.filter((c) =>
-    course.category === 'ielts' || course.category === 'ielts-vip'
-      ? c.program === 'IELTS'
-      : c.program.toLowerCase().includes('giao tiếp') || c.program.toLowerCase().includes('toeic')
-  ) || [];
-
   return (
     <MainLayout>
-      {/* 1. Header Banner */}
-      <PageHeader
-        badge={course.badge || t('pages.courses.badge')}
-        title={course.title}
-        subtitle={course.target}
-        breadcrumbItems={[
-          { label: t('nav.programs'), path: ROUTES.COURSES },
-          { label: course.title },
-        ]}
+      {/* 1. Hero Khóa Học (#F7F9FC) */}
+      <CourseHero 
+        course={course}
+        onConsultClick={() => handleOpenConsultModal()}
+        onViewClassesClick={handleScrollToClasses}
       />
 
-      {/* 2. Main Course Content */}
-      <section className="py-12 sm:py-16 bg-white">
-        <div className="app-container">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-            {/* Left Column (7 cols): Detailed Curriculum & Highlights */}
-            <div className="lg:col-span-7 space-y-8">
-              {/* Course Hero Banner */}
-              {course.image && (
-                <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden shadow-lg border border-slate-100 bg-slate-50">
-                  <img
-                    src={course.image}
-                    alt={course.title}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
-                  <div className="absolute bottom-4 left-4 right-4 text-white flex items-center justify-between">
-                    <div>
-                      <span className="text-xs text-blue-200 font-bold uppercase tracking-wider block">
-                        {t('pages.courseDetail.studentPerks')}
-                      </span>
-                      <span className="text-sm font-semibold">{course.guarantee}</span>
-                    </div>
-                    <span className="px-3 py-1 rounded-lg bg-white/95 text-primary font-bold text-xs">
-                      {course.duration}
-                    </span>
-                  </div>
-                </div>
-              )}
+      {/* 2. Tổng Quan Nhanh (#FFFFFF) */}
+      <CourseQuickOverview course={course} />
 
-              {/* Module Navigation Tabs */}
-              <div className="border-b border-academic-border pb-3 flex items-center gap-2 overflow-x-auto no-scrollbar">
-                <button
-                  type="button"
-                  className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap cursor-pointer ${
-                    activeModuleTab === 'overview'
-                      ? 'bg-primary text-white shadow-xs'
-                      : 'text-slate-600 hover:text-academic-heading hover:bg-slate-100'
-                  }`}
-                  onClick={() => setActiveModuleTab('overview')}
-                >
-                  {t('pages.courseDetail.tabOverview')}
-                </button>
-                <button
-                  type="button"
-                  className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap cursor-pointer ${
-                    activeModuleTab === 'curriculum'
-                      ? 'bg-primary text-white shadow-xs'
-                      : 'text-slate-600 hover:text-academic-heading hover:bg-slate-100'
-                  }`}
-                  onClick={() => setActiveModuleTab('curriculum')}
-                >
-                  {t('pages.courseDetail.tabCurriculum')}
-                </button>
-                <button
-                  type="button"
-                  className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap cursor-pointer ${
-                    activeModuleTab === 'guarantee'
-                      ? 'bg-primary text-white shadow-xs'
-                      : 'text-slate-600 hover:text-academic-heading hover:bg-slate-100'
-                  }`}
-                  onClick={() => setActiveModuleTab('guarantee')}
-                >
-                  {t('pages.courseDetail.tabGuarantee')}
-                </button>
-              </div>
+      {/* 3. Đối Tượng · Đầu Vào · Đầu Ra (#FFFFFF) */}
+      <CourseTargetAudience course={course} />
 
-              {/* Tab 1: Overview & Highlights */}
-              {activeModuleTab === 'overview' && (
-                <div className="space-y-6 animate-fadeIn">
-                  <div className="space-y-3">
-                    <h2 className="text-xl font-bold text-academic-heading font-heading flex items-center gap-2">
-                      <Target size={22} className="text-primary" />
-                      <span>{t('pages.courseDetail.targetSectionTitle')}</span>
-                    </h2>
-                    <p className="text-sm text-academic-body leading-relaxed bg-slate-50 p-4 rounded-2xl border border-slate-200">
-                      {course.target}
-                    </p>
-                  </div>
+      {/* 4. Nội Dung Học (#FFFFFF) */}
+      <CourseLearningContent course={course} />
 
-                  <div className="space-y-3">
-                    <h3 className="text-lg font-bold text-academic-heading font-heading flex items-center gap-2">
-                      <Award size={20} className="text-primary" />
-                      <span>{t('pages.courseDetail.highlightsTitle')}</span>
-                    </h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      {course.highlights?.map((h) => (
-                        <div
-                          key={h}
-                          className="flex items-start gap-2.5 p-3.5 rounded-2xl bg-academic-soft-white border border-academic-border"
-                        >
-                          <CheckCircle2 size={16} className="text-academic-cta flex-shrink-0 mt-0.5" />
-                          <span className="text-xs sm:text-sm text-slate-800 font-medium leading-snug">
-                            {h}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              )}
+      {/* 5. Lộ Trình 3 Giai Đoạn (#F7F9FC) */}
+      <CourseRoadmapStages course={course} />
 
-              {/* Tab 2: Curriculum Breakdown */}
-              {activeModuleTab === 'curriculum' && (
-                <div className="space-y-4 animate-fadeIn">
-                  <div className="p-5 rounded-2xl bg-blue-50/70 border border-blue-100 space-y-2">
-                    <h3 className="text-base font-bold text-academic-heading font-heading flex items-center gap-2">
-                      <BookOpen size={18} className="text-primary" />
-                      <span>{t('pages.courseDetail.curriculumSectionTitle')}</span>
-                    </h3>
-                    <p className="text-sm text-slate-700 leading-relaxed font-medium">
-                      {course.curriculum}
-                    </p>
-                  </div>
+      {/* 6. Giáo Trình Chuẩn Quốc Tế (#FFFFFF) */}
+      <CourseCurriculumBooks course={course} />
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-                    <div className="p-4 rounded-2xl border border-slate-200 bg-white space-y-1.5">
-                      <div className="text-xs font-bold text-primary uppercase">Listening & Reading</div>
-                      <p className="text-xs text-slate-600">
-                        {t('pages.courseDetail.listeningReadingDesc')}
-                      </p>
-                    </div>
-                    <div className="p-4 rounded-2xl border border-slate-200 bg-white space-y-1.5">
-                      <div className="text-xs font-bold text-primary uppercase">Writing Task 1 & Task 2</div>
-                      <p className="text-xs text-slate-600">
-                        {t('pages.courseDetail.writingDesc')}
-                      </p>
-                    </div>
-                    <div className="p-4 rounded-2xl border border-slate-200 bg-white space-y-1.5">
-                      <div className="text-xs font-bold text-primary uppercase">Speaking Part 1, 2, 3</div>
-                      <p className="text-xs text-slate-600">
-                        {t('pages.courseDetail.speakingDesc')}
-                      </p>
-                    </div>
-                    <div className="p-4 rounded-2xl border border-slate-200 bg-white space-y-1.5">
-                      <div className="text-xs font-bold text-primary uppercase">{t('pages.courseDetail.vocabGrammarTitle')}</div>
-                      <p className="text-xs text-slate-600">
-                        {t('pages.courseDetail.vocabGrammarDesc')}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              )}
+      {/* 7. Phương Pháp Học (#F7F9FC) */}
+      <CourseMethodology course={course} />
 
-              {/* Tab 3: Guarantee & IDP Perks */}
-              {activeModuleTab === 'guarantee' && (
-                <div className="space-y-4 animate-fadeIn">
-                  <div className="p-5 rounded-2xl bg-amber-50/70 border border-amber-200 space-y-2">
-                    <h3 className="text-base font-bold text-amber-900 font-heading flex items-center gap-2">
-                      <ShieldCheck size={20} className="text-achievement" />
-                      <span>{t('pages.courseDetail.guaranteeTitle')}</span>
-                    </h3>
-                    <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
-                      {t('pages.courseDetail.guaranteeDesc')}
-                    </p>
-                  </div>
+      {/* 8. Thông Tin Khóa Học & Biểu Phí (#FFFFFF) */}
+      <CourseInfoAndPricing 
+        course={course}
+        onConsultClick={() => handleOpenConsultModal()}
+      />
 
-                  <div className="p-5 rounded-2xl bg-blue-50/70 border border-blue-200 space-y-2">
-                    <h3 className="text-base font-bold text-primary font-heading flex items-center gap-2">
-                      <Sparkles size={20} className="text-primary" />
-                      <span>{t('pages.courseDetail.idpPerksTitle')}</span>
-                    </h3>
-                    <ul className="text-xs sm:text-sm text-slate-700 space-y-2 list-disc list-inside">
-                      <li>{t('pages.courseDetail.idpPerk1')}</li>
-                      <li>{t('pages.courseDetail.idpPerk2')}</li>
-                      <li>{t('pages.courseDetail.idpPerk3')}</li>
-                    </ul>
-                  </div>
-                </div>
-              )}
-            </div>
+      {/* 9. Giảng Viên Phụ Trách (#FFFFFF) */}
+      <CourseInstructorProfile course={course} />
 
-            {/* Right Column (5 cols): Sticky Registration Card */}
-            <div className="lg:col-span-5 lg:sticky lg:top-24 space-y-6">
-              <div className="p-6 sm:p-7 rounded-3xl bg-white border border-academic-border shadow-xl space-y-6">
-                <div className="flex items-center justify-between border-b border-academic-border pb-4">
-                  <div>
-                    <span className="text-xs text-slate-500 font-bold uppercase block">{t('pages.courseDetail.enrollCardTitle')}</span>
-                    <h3 className="text-lg font-bold text-academic-heading font-heading">
-                      {course.title}
-                    </h3>
-                  </div>
-                  <span className="px-2.5 py-1 rounded-lg bg-blue-50 text-primary font-bold text-xs border border-blue-100">
-                    {course.badge}
+      {/* 10. Kết Quả Học Viên Liên Quan (#F7F9FC) */}
+      <CourseRelatedResults course={course} />
+
+      {/* 11. Lớp Đang Tuyển (#FFFFFF) */}
+      <CourseOpenClasses 
+        course={course}
+        onSelectClass={(cls) => handleOpenConsultModal(cls)}
+        onConsultClick={() => handleOpenConsultModal()}
+      />
+
+      {/* 12. FAQ Khóa Học (#FFFFFF) */}
+      <CourseFaq course={course} />
+
+      {/* 13. CTA Cuối Trang (Dark Navy #10233F) */}
+      <CourseBottomCta 
+        course={course}
+        onConsultClick={() => handleOpenConsultModal()}
+        onViewClassesClick={handleScrollToClasses}
+      />
+
+      {/* 14. Desktop Mini Sticky Bar & Mobile Bottom Bar */}
+      <CourseStickyBars 
+        course={course}
+        onConsultClick={() => handleOpenConsultModal()}
+      />
+
+      {/* Consultation Modal */}
+      {isModalOpen && (
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#10233F]/70 backdrop-blur-xs animate-in fade-in duration-200"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-title"
+        >
+          <div 
+            className="fixed inset-0"
+            onClick={handleCloseModal}
+          />
+          <div 
+            className="bg-white rounded-2xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-slate-200 relative overflow-hidden z-10"
+          >
+            {/* Close button */}
+            <button
+              type="button"
+              onClick={handleCloseModal}
+              className="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 flex items-center justify-center transition-colors cursor-pointer"
+              aria-label="Đóng cửa sổ"
+            >
+              <X size={18} />
+            </button>
+
+            {!formSubmitted ? (
+              <div>
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="px-2.5 py-0.5 rounded text-[11px] font-bold uppercase bg-[#EAF2FF] text-[#1746A2]">
+                    Tư vấn 1-1
                   </span>
+                  {selectedClass && (
+                    <span className="px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-50 text-emerald-700">
+                      Lớp: {selectedClass.className}
+                    </span>
+                  )}
                 </div>
 
-                <div className="space-y-3.5 text-sm">
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-500 flex items-center gap-2 text-xs">
-                      <Target size={15} className="text-primary" />
-                      <span>{t('pages.courseDetail.level')}</span>
-                    </span>
-                    <span className="font-bold text-slate-800 text-xs sm:text-sm">{course.level}</span>
-                  </div>
+                <h3 id="modal-title" className="text-xl sm:text-2xl font-black text-[#10233F] mb-1">
+                  Đăng Ký Tư Vấn Khóa Học
+                </h3>
+                <p className="text-xs sm:text-sm text-slate-600 mb-6">
+                  {course.title}
+                </p>
 
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-500 flex items-center gap-2 text-xs">
-                      <Clock size={15} className="text-primary" />
-                      <span>{t('pages.courseDetail.duration')}</span>
-                    </span>
-                    <span className="font-bold text-slate-800 text-xs sm:text-sm">{course.duration}</span>
-                  </div>
-
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-500 flex items-center gap-2 text-xs">
-                      <Users size={15} className="text-primary" />
-                      <span>{t('pages.courseDetail.classSize')}</span>
-                    </span>
-                    <span className="font-bold text-slate-800 text-xs sm:text-sm">{course.classSize}</span>
-                  </div>
-
-                  <div className="flex items-center justify-between">
-                    <span className="text-slate-500 flex items-center gap-2 text-xs">
-                      <MapPin size={15} className="text-academic-cta" />
-                      <span>{t('pages.courseDetail.format')}</span>
-                    </span>
-                    <span className="font-bold text-slate-800 text-xs sm:text-sm">{course.format}</span>
-                  </div>
-
-                  <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
-                    <span className="text-xs text-achievement font-bold flex items-center gap-1.5">
-                      <ShieldCheck size={16} />
-                      <span>{t('pages.courseDetail.policyLabel')}</span>
-                    </span>
-                    <span className="text-xs font-bold text-achievement text-right max-w-[180px]">
-                      {course.guarantee}
-                    </span>
-                  </div>
-                </div>
-
-                <div className="pt-2 space-y-2.5">
-                  <Link to={ROUTES.CONTACT} className="block">
-                    <Button fullWidth size="lg" variant="primary" icon={<ArrowRight size={18} />} className="font-bold py-3.5 shadow-glow-cta">
-                      {t('pages.courseDetail.enrollBtn')}
-                    </Button>
-                  </Link>
-
-                  <a
-                    href={`tel:${APP_INFO.CONTACT.HOTLINE_RAW}`}
-                    className="w-full py-2.5 px-4 rounded-xl border border-slate-200 text-slate-700 font-bold text-xs flex items-center justify-center gap-2 hover:bg-slate-50 transition-colors"
-                  >
-                    <Phone size={14} className="text-primary" />
-                    <span>Hotline: {APP_INFO.CONTACT.HOTLINE_DISPLAY}</span>
-                  </a>
-                </div>
-              </div>
-
-              {/* Related Class Openings */}
-              {relatedClasses.length > 0 && (
-                <div className="p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
-                  <h4 className="font-heading font-bold text-sm text-academic-heading flex items-center gap-2">
-                    <Calendar size={16} className="text-primary" />
-                    <span>{t('pages.courseDetail.upcomingClassesTitle')}</span>
-                  </h4>
-                  {relatedClasses.slice(0, 2).map((cls) => (
-                    <div key={cls.id} className="p-3 bg-white rounded-xl border border-slate-200 text-xs space-y-1">
-                      <div className="flex items-center justify-between font-bold text-slate-800">
-                        <span>{cls.className}</span>
-                        <span className="text-primary">{cls.schedule}</span>
-                      </div>
-                      <p className="text-slate-500">{cls.time} • {cls.format}</p>
+                <form onSubmit={handleFormSubmit} className="space-y-4">
+                  <div>
+                    <label htmlFor="course-modal-fullname" className="block text-xs font-bold text-slate-700 uppercase mb-1">
+                      Họ và tên của bạn <span className="text-red-500">*</span>
+                    </label>
+                    <div className="relative">
+                      <input
+                        id="course-modal-fullname"
+                        type="text"
+                        required
+                        placeholder="Ví dụ: Nguyễn Văn A"
+                        value={formData.fullName}
+                        onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
+                        className="w-full px-3.5 py-2.5 pl-10 rounded-xl border border-slate-300 text-sm focus:outline-hidden focus:ring-2 focus:ring-[#2563EB] focus:border-transparent transition-all"
+                      />
+                      <User className="w-4 h-4 text-slate-400 absolute left-3.5 top-3" />
                     </div>
-                  ))}
+                  </div>
+
+                  <div>
+                    <label htmlFor="course-modal-phone" className="block text-xs font-bold text-slate-700 uppercase mb-1">
+                      Số điện thoại / Zalo <span className="text-red-500">*</span>
+                    </label>
+                    <div className="relative">
+                      <input
+                        id="course-modal-phone"
+                        type="tel"
+                        required
+                        placeholder="Ví dụ: 0938 611 919"
+                        value={formData.phone}
+                        onChange={(e) => {
+                          setFormData({ ...formData, phone: e.target.value });
+                          if (phoneError) setPhoneError('');
+                        }}
+                        className={`w-full px-3.5 py-2.5 pl-10 rounded-xl border text-sm focus:outline-hidden focus:ring-2 transition-all ${
+                          phoneError 
+                            ? 'border-red-400 focus:ring-red-300' 
+                            : 'border-slate-300 focus:ring-[#2563EB] focus:border-transparent'
+                        }`}
+                      />
+                      <Phone className="w-4 h-4 text-slate-400 absolute left-3.5 top-3" />
+                    </div>
+                    {phoneError && (
+                      <p className="text-xs text-red-600 mt-1 font-medium">{phoneError}</p>
+                    )}
+                  </div>
+
+                  <div>
+                    <label htmlFor="course-modal-note" className="block text-xs font-bold text-slate-700 uppercase mb-1">
+                      Ghi chú thêm (Mục tiêu điểm số / Khung giờ rảnh)
+                    </label>
+                    <textarea
+                      id="course-modal-note"
+                      rows={2}
+                      placeholder="Chia sẻ thêm về trình độ hiện tại hoặc thắc mắc của bạn..."
+                      value={formData.note}
+                      onChange={(e) => setFormData({ ...formData, note: e.target.value })}
+                      className="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm focus:outline-hidden focus:ring-2 focus:ring-[#2563EB] focus:border-transparent transition-all"
+                    />
+                  </div>
+
+                  <button
+                    type="submit"
+                    className="w-full mt-2 py-3 px-6 bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-bold text-sm sm:text-base rounded-xl shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer flex items-center justify-center gap-2"
+                  >
+                    <span>Gửi yêu cầu nhận tư vấn</span>
+                    <Send size={16} />
+                  </button>
+
+                  <p className="text-[11px] text-center text-slate-400 font-medium">
+                    Cam kết bảo mật thông tin & Liên hệ trong vòng 24h làm việc
+                  </p>
+                </form>
+              </div>
+            ) : (
+              <div className="text-center py-6">
+                <div className="w-14 h-14 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle2 size={32} />
                 </div>
-              )}
-            </div>
+                <h4 className="text-xl font-black text-[#10233F] mb-2">
+                  Đã nhận thông tin thành công!
+                </h4>
+                <p className="text-sm text-slate-600 leading-relaxed max-w-sm mx-auto mb-6">
+                  Cảm ơn <strong>{formData.fullName}</strong>. Harry English House sẽ liên hệ qua số <strong>{formData.phone}</strong> để tư vấn xếp lớp sớm nhất.
+                </p>
+                <button
+                  type="button"
+                  onClick={handleCloseModal}
+                  className="px-6 py-2.5 bg-[#2563EB] text-white font-bold text-sm rounded-xl cursor-pointer"
+                >
+                  Đóng cửa sổ
+                </button>
+              </div>
+            )}
           </div>
         </div>
-      </section>
+      )}
     </MainLayout>
   );
 };

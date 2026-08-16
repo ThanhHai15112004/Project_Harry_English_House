@@ -6,7 +6,8 @@
     "level": "Mất gốc / Chưa có nền",
     "target": "Xây nền ngữ pháp, chuẩn hóa phát âm IPA & làm quen 4 kỹ năng IELTS",
     "curriculum": "Raymond Murphy Basic, Oxford Phonics World, Get Ready for IELTS",
-    "duration": "~40 buổi",
+    "duration": "3 tháng (~40 buổi)",
+    "weeklySchedule": "3 buổi / tuần (90 phút/buổi)",
     "classSize": "Nhóm nhỏ 3–6 bạn",
     "guarantee": "Lấy lại căn bản & Sửa lỗi phát âm IPA từng buổi",
     "highlights": [
@@ -18,7 +19,102 @@
     "format": "Offline Q7, Q8 / Online",
     "badge": "Mất gốc",
     "image": "/src/assets/ki-niem/ki-niem-1.jpg",
-    "color": "blue"
+    "color": "blue",
+    "targetAudience": {
+      "whoFor": "Học sinh, sinh viên, người đi làm bị mất gốc tiếng Anh, phát âm sai và chưa từng học IELTS.",
+      "inputRequirement": "Chưa có nền tảng hoặc band điểm test đầu vào dưới 3.0.",
+      "outputTarget": "Lấy lại căn bản ngữ pháp, phát âm chuẩn 44 âm IPA, sẵn sàng bước vào luyện đề IELTS 3.0 - 4.5."
+    },
+    "skillsContent": {
+      "reading": [
+        "Luyện thói quen đọc hiểu văn bản ngắn không cần dịch từng từ",
+        "Nắm vững 1000 từ vựng cốt lõi đời sống và học thuật cơ bản",
+        "Kỹ thuật nhận biết chủ ngữ, vị ngữ và liên từ trong câu ghép"
+      ],
+      "listening": [
+        "Luyện tai nghe nhận diện ngữ điệu, nối âm và trọng âm từ",
+        "Làm quen dạng bài điền số, ngày tháng, tên riêng trong Section 1",
+        "Tập trung phản xạ nghe hiểu hội thoại hằng ngày"
+      ],
+      "writing": [
+        "Chuẩn hóa ngữ pháp: 12 thì cơ bản, câu đơn, câu ghép và câu phức",
+        "Viết đoạn văn ngắn 50–80 từ đúng cấu trúc ngữ pháp",
+        "Tránh triệt để các lỗi dịch word-by-word từ tiếng Việt"
+      ],
+      "speaking": [
+        "Chuẩn hóa 44 âm trong bảng phiên âm quốc tế IPA",
+        "Luyện phát âm chuẩn âm đuôi (ending sounds) và nối âm",
+        "Tự tin trả lời các chủ đề quen thuộc (Bản thân, Gia đình, Sở thích)"
+      ]
+    },
+    "roadmap": [
+      {
+        "stage": "GIAI ĐOẠN 01",
+        "title": "Chuẩn Hóa Ngữ Âm & Từ Vựng Cốt Lõi",
+        "duration": "Tuần 1–4",
+        "desc": "Tập trung giải quyết triệt để rào cản sợ nói, sửa từng âm IPA và xây 500 từ vựng nền tảng.",
+        "focus": ["Phát âm 44 âm IPA", "12 Thì cơ bản", "Từ vựng đời sống"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 02",
+        "title": "Ngữ Pháp Câu Phức & Nghe Đọc Nền Tảng",
+        "duration": "Tuần 5–8",
+        "desc": "Rèn luyện cấu trúc câu phức, làm quen với bài đọc hiểu ngắn và các bài nghe Section 1 đơn giản.",
+        "focus": ["Câu ghép & câu phức", "Listening Section 1", "Reading cơ bản"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 03",
+        "title": "Làm Quen Định Dạng Đề Thi IELTS",
+        "duration": "Tuần 9–12",
+        "desc": "Bắt đầu tiếp cận các dạng câu hỏi IELTS cơ bản, viết đoạn văn ngắn và trả lời Speaking Part 1 tự tin.",
+        "focus": ["Format đề IELTS", "Speaking Part 1", "Viết đoạn chuẩn"]
+      }
+    ],
+    "books": [
+      {
+        "name": "English Grammar in Use (Basic)",
+        "publisher": "Cambridge University Press",
+        "phase": "Xuyên suốt khóa",
+        "desc": "Bộ giáo trình ngữ pháp chuẩn mực quốc tế giải thích trực quan và bài tập thực hành sát thực tế."
+      },
+      {
+        "name": "Ship or Sheep? An Intermediate Pronunciation Course",
+        "publisher": "Cambridge University Press",
+        "phase": "Giai đoạn 1 & 2",
+        "desc": "Tài liệu chỉnh âm chuyên sâu, phân biệt các cặp âm dễ nhầm lẫn trong tiếng Anh."
+      },
+      {
+        "name": "Get Ready for IELTS (Listening & Reading)",
+        "publisher": "Collins Cobuild",
+        "phase": "Giai đoạn 3",
+        "desc": "Giáo trình nhập môn IELTS thân thiện với các bài tập được đơn giản hóa cho người mới."
+      }
+    ],
+    "pricingInfo": {
+      "tuitionFee": "6.530.000 VNĐ",
+      "perMonth": "Khoảng 2.170.000 VNĐ/tháng",
+      "totalSessions": "36 buổi (3 tháng)",
+      "includes": [
+        "Trọn bộ giáo trình & tài liệu in ấn độc quyền",
+        "Sửa bài viết và chỉnh âm 1-1 trực tiếp",
+        "Video ghi hình bài học sau mỗi buổi (lớp online)",
+        "Voucher giảm 100.000 VNĐ khi đăng ký thi IELTS tại IDP"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Tôi hoàn toàn mất gốc tiếng Anh thì có theo kịp khóa học này không?",
+        "a": "Khóa học được thiết kế riêng cho người mất gốc hoặc bắt đầu lại từ đầu. Thầy Harry sẽ giảng giải kỹ từng khái niệm từ cơ bản nhất và chỉnh sửa phát âm cho từng bạn."
+      },
+      {
+        "q": "Khóa học có học thử buổi đầu tiên không?",
+        "a": "Bạn sẽ được tham gia bài kiểm tra đánh giá năng lực 4 kỹ năng và buổi tư vấn định hướng 1-1 miễn phí trước khi quyết định đăng ký."
+      },
+      {
+        "q": "Lớp học có tối đa bao nhiêu bạn?",
+        "a": "Sĩ số lớp nền tảng được giới hạn nghiêm ngặt từ 3–6 bạn để đảm bảo giáo viên kèm sát và chỉnh sửa phát âm cho từng học viên mỗi buổi học."
+      }
+    ]
   },
   {
     "id": "ielts-3-4",
@@ -27,7 +123,8 @@
     "level": "Cơ bản (Band 3.0 - 4.0)",
     "target": "Nắm vững format 4 kỹ năng, không hoảng đề, viết câu đoạn ngắn chuẩn xác",
     "curriculum": "Basic IELTS 4 kỹ năng, Complete IELTS Band 4.0–5.0, Collins Vocabulary",
-    "duration": "~30 buổi",
+    "duration": "2.5 tháng (~30 buổi)",
+    "weeklySchedule": "3 buổi / tuần",
     "classSize": "Lớp 3 bạn (Kèm sát)",
     "guarantee": "Nắm chắc dạng bài & Viết đoạn văn không lỗi ngữ pháp",
     "highlights": [
@@ -39,7 +136,92 @@
     "format": "Offline Q7 (gần Lotte), Q8 / Online",
     "badge": "Xây nền",
     "image": "/src/assets/ki-niem/ki-niem-2.jpg",
-    "color": "cyan"
+    "color": "cyan",
+    "targetAudience": {
+      "whoFor": "Học viên đã có nền ngữ pháp cơ bản nhưng chưa nắm rõ cấu trúc bài thi IELTS và còn lúng túng khi giải đề.",
+      "inputRequirement": "Điểm kiểm tra đầu vào tương đương IELTS 3.0 - 3.5.",
+      "outputTarget": "Nắm vững 100% format 4 kỹ năng, viết đoạn văn chuẩn chỉ tiêu, đạt band 4.5 vững chắc."
+    },
+    "skillsContent": {
+      "reading": [
+        "Luyện kỹ thuật Skimming (nắm ý chính) và Scanning (tìm thông tin chi tiết)",
+        "Phương pháp làm các dạng bài True/False/Not Given cơ bản",
+        "Xử lý từ vựng học thuật theo chủ đề quen thuộc của IELTS"
+      ],
+      "listening": [
+        "Chiến thuật xử lý Section 1 & Section 2 (Độc thoại và hội thoại)",
+        "Kỹ thuật tránh bẫy đổi thông tin (Distractor handling)",
+        "Nâng cao tốc độ ghi chép chính tả (Spelling & Number accuracy)"
+      ],
+      "writing": [
+        "Viết mở bài và tóm tắt tổng quan Overview cho Task 1",
+        "Cách phân tích biểu đồ đơn giản: Đường, Cột, Tròn",
+        "Xây dựng đoạn thân bài Task 2 theo mô hình luận điểm rõ ràng"
+      ],
+      "speaking": [
+        "Mở rộng câu trả lời Speaking Part 1 với công thức AREA",
+        "Luyện phát âm ngữ điệu, trọng âm câu và từ vựng phong phú",
+        "Thực hành phản xạ hỏi đáp theo cặp trong lớp học nhỏ"
+      ]
+    },
+    "roadmap": [
+      {
+        "stage": "GIAI ĐOẠN 01",
+        "title": "Làm Chủ Dạng Bài & Skimming/Scanning",
+        "duration": "Tuần 1–3",
+        "desc": "Nắm chắc các dạng bài trong Listening & Reading, làm quen với biểu đồ cơ bản trong Task 1.",
+        "focus": ["Skimming/Scanning", "Listening Sec 1-2", "Task 1 Overview"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 02",
+        "title": "Phát Triển Ý Tưởng Speaking & Writing",
+        "duration": "Tuần 4–7",
+        "desc": "Tập trung xây dựng khung ý tưởng cho Task 2 và trả lời lưu loát các chủ đề Part 1 & Part 2 cơ bản.",
+        "focus": ["Task 2 Body Paragraphs", "Speaking Part 1-2", "Từ vựng B1"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 03",
+        "title": "Ghép Kỹ Năng & Thi Thử Giữa Khóa",
+        "duration": "Tuần 8–10",
+        "desc": "Luyện tập giải đề hoàn chỉnh theo thời gian thực và được giáo viên chấm chữa bài chi tiết.",
+        "focus": ["Mini Mock Test", "Chấm chữa Writing 1-1", "Phản xạ Speaking"]
+      }
+    ],
+    "books": [
+      {
+        "name": "Complete IELTS Bands 4.0–5.0",
+        "publisher": "Cambridge University Press",
+        "phase": "Xuyên suốt khóa",
+        "desc": "Giáo trình chính khóa cung cấp hệ thống từ vựng, ngữ pháp và bài luyện thi tiêu chuẩn."
+      },
+      {
+        "name": "Basic IELTS 4 Skills",
+        "publisher": "Beijing Language and Culture University Press",
+        "phase": "Giai đoạn 1 & 2",
+        "desc": "Bộ sách hướng dẫn từng dạng câu hỏi và kỹ năng làm bài chi tiết từ nền tảng."
+      }
+    ],
+    "pricingInfo": {
+      "tuitionFee": "6.810.000 VNĐ",
+      "perMonth": "Khoảng 2.270.000 VNĐ/tháng",
+      "totalSessions": "30 buổi (2.5 tháng)",
+      "includes": [
+        "Giáo trình Complete IELTS & tài liệu chuyên sâu",
+        "Chấm chữa Writing Task 1 & Task 2 1-1",
+        "Thi thử Mock Test chuẩn phòng thi",
+        "Voucher giảm lệ phí thi IDP IELTS"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Lớp học có bao nhiêu bạn?",
+        "a": "Lớp học duy trì quy mô cực nhỏ chỉ 3–5 bạn để đảm bảo tương tác tối đa và giáo viên sửa bài trực tiếp trên lớp."
+      },
+      {
+        "q": "Học xong khóa này có thể thi IELTS luôn được không?",
+        "a": "Khóa học chuẩn bị nền tảng 4.5 vững chắc. Nếu bạn cần target 6.0 - 6.5+, bạn nên tiếp tục học tiếp khóa IELTS Bứt Phá."
+      }
+    ]
   },
   {
     "id": "ielts-4-5",
@@ -48,7 +230,8 @@
     "level": "Trung cấp (Band 4.5)",
     "target": "Làm chủ các dạng bài, tăng vốn từ học thuật B2, rèn phản xạ Nói & Viết Task 1-2",
     "curriculum": "Mindset for IELTS Level 2, Destination B2, Listening for IELTS",
-    "duration": "~3 tháng",
+    "duration": "3 tháng (~36 buổi)",
+    "weeklySchedule": "3 buổi / tuần (90 phút/buổi)",
     "classSize": "Nhóm 5–7 bạn",
     "guarantee": "Chấm chữa Writing Task 1-2 & Luyện Speaking theo chủ đề",
     "highlights": [
@@ -60,7 +243,102 @@
     "format": "Offline Q7 (T7, CN) / Q8 / Online",
     "badge": "Tăng tốc",
     "image": "/src/assets/ki-niem/ki-niem-3.jpg",
-    "color": "emerald"
+    "color": "emerald",
+    "targetAudience": {
+      "whoFor": "Học sinh cấp 3 xét tuyển đại học, sinh viên cần chuẩn đầu ra và người đi làm cần bằng IELTS 6.0–6.5.",
+      "inputRequirement": "Điểm test đầu vào hoặc chứng chỉ hiện tại đạt khoảng 4.5 - 5.0.",
+      "outputTarget": "Làm chủ phương pháp giải đề, bứt phá Speaking Part 1-2-3 và đạt band điểm 6.0+ chính thức."
+    },
+    "skillsContent": {
+      "reading": [
+        "Kỹ thuật Keyword Mapping bắt trọn ý tưởng câu hỏi khó",
+        "Chiến lược xử lý dạng Matching Headings, Matching Information",
+        "Mở rộng vốn từ vựng học thuật chuẩn Band B2/C1"
+      ],
+      "listening": [
+        "Chiến thuật nghe bắt từ khóa Section 3 (Hội thoại học thuật 3 người)",
+        "Bắt bẫy phủ định và từ đồng nghĩa Paraphrasing trong Section 4",
+        "Luyện nghe tốc độ cao với giọng đọc đa quốc gia (UK, US, AUS)"
+      ],
+      "writing": [
+        "Viết thành thạo 7 dạng biểu đồ Task 1 với cấu trúc câu đa dạng",
+        "Triển khai luận điểm Task 2 sâu sắc: Opinion, Discussion, Problem & Solution",
+        "Sử dụng liên từ Cohesion và Collocations học thuật chuẩn xác"
+      ],
+      "speaking": [
+        "Phát triển bài nói Part 2 mạch lạc theo cấu trúc 2 phút hoàn chỉnh",
+        "Chiến thuật mở rộng ý tưởng và lập luận Part 3 mang tính học thuật",
+        "Sửa lỗi ngập ngừng, nâng cao độ trôi chảy (Fluency & Coherence)"
+      ]
+    },
+    "roadmap": [
+      {
+        "stage": "GIAI ĐOẠN 01",
+        "title": "Củng Cố Kỹ Thuật & Tăng Tốc Từ Vựng B2",
+        "duration": "Tuần 1–4",
+        "desc": "Tập trung nâng cao vốn từ Destination B2, hoàn thiện kỹ năng làm bài Task 1 và nghe Section 3.",
+        "focus": ["Destination B2", "Writing Task 1", "Listening Section 3"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 02",
+        "title": "Phát Triển Tư Duy Viết Task 2 & Nói Part 2-3",
+        "duration": "Tuần 5–8",
+        "desc": "Tập trung đào sâu lập luận Task 2, luyện phản xạ Nói theo bộ đề thi dự đoán quý mới nhất.",
+        "focus": ["Writing Task 2 Essay", "Speaking Part 2-3", "Reading Matching"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 03",
+        "title": "Luyện Đề Thực Chiến Cambridge & Mock Test",
+        "duration": "Tuần 9–12",
+        "desc": "Giải đề Cambridge 15–18 bấm giờ chuẩn thi thật, chấm chữa 1-1 và khắc phục lỗi sai cuối cùng.",
+        "focus": ["Cambridge Tests 15-18", "Chấm chữa 1-1", "Chiến thuật phòng thi"]
+      }
+    ],
+    "books": [
+      {
+        "name": "Mindset for IELTS Level 2",
+        "publisher": "Cambridge University Press",
+        "phase": "Giai đoạn 1 & 2",
+        "desc": "Giáo trình luyện thi IELTS hiện đại được biên soạn bởi các chuyên gia chấm thi Cambridge."
+      },
+      {
+        "name": "Destination B2: Grammar & Vocabulary",
+        "publisher": "Macmillan Education",
+        "phase": "Xuyên suốt khóa",
+        "desc": "Tài liệu vàng nâng cấp từ vựng học thuật, collocations và cấu trúc ngữ pháp nâng cao."
+      },
+      {
+        "name": "Cambridge IELTS Practice Tests 15–18",
+        "publisher": "Cambridge University Press",
+        "phase": "Giai đoạn 3",
+        "desc": "Bộ đề thi thật chính thức của tổ chức khảo thí Cambridge dùng cho luyện đề thực chiến."
+      }
+    ],
+    "pricingInfo": {
+      "tuitionFee": "7.380.000 VNĐ",
+      "perMonth": "Khoảng 2.460.000 VNĐ/tháng",
+      "totalSessions": "36 buổi (3 tháng)",
+      "includes": [
+        "Toàn bộ tài liệu Mindset 2, Destination B2 & Cambridge Tests",
+        "Chấm chữa Writing Task 1 & Task 2 1-1 không giới hạn",
+        "2 buổi thi thử Mock Test toàn diện 4 kỹ năng",
+        "Voucher giảm lệ phí thi IELTS tại đối tác IDP Vietnam"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Khóa học có cam kết đầu ra 6.0 không?",
+        "a": "HEH cam kết chuẩn đầu ra 6.0+ bằng văn bản nếu học viên tham gia đầy đủ từ 90% số buổi và hoàn thành các bài tập chấm chữa theo đúng hướng dẫn của giảng viên."
+      },
+      {
+        "q": "Nếu tôi bận việc nghỉ một buổi thì có được học bù không?",
+        "a": "Có. Đối với lớp Online, toàn bộ bài giảng được ghi hình video chất lượng cao để bạn xem lại. Đối với lớp Offline, học viên được hỗ trợ học bù hoặc giải đáp thắc mắc 1-1 cùng trợ giảng."
+      },
+      {
+        "q": "Ai là người trực tiếp giảng dạy khóa học này?",
+        "a": "Khóa học do Thầy Harry Khôi (8.0 IELTS) và đội ngũ giảng viên chuyên môn 7.5+ IELTS trực tiếp giảng dạy và chấm chữa bài."
+      }
+    ]
   },
   {
     "id": "ielts-6-75",
@@ -69,7 +347,8 @@
     "level": "Nâng cao (Target 6.5 - 7.5+)",
     "target": "Chữa chuyên sâu Writing & Speaking, chiến thuật giải đề Cambridge bứt phá 7.0–7.5+",
     "curriculum": "Cambridge IELTS 15-18, IELTS Advantage, Bộ đề dự đoán thực chiến HEH",
-    "duration": "3–6 tháng",
+    "duration": "3–4 tháng (~40 buổi)",
+    "weeklySchedule": "3 buổi / tuần",
     "classSize": "7 bạn (Thầy trực tiếp kèm)",
     "guarantee": "Thầy Harry trực tiếp sửa bài 1-1 chi tiết sát band 7.5+",
     "highlights": [
@@ -81,7 +360,98 @@
     "format": "Offline Q7 (T7 16h30, CN 15h30)",
     "badge": "Band cao",
     "image": "/src/assets/ki-niem/ki-niem-4.jpg",
-    "color": "amber"
+    "color": "amber",
+    "targetAudience": {
+      "whoFor": "Học viên cần chứng chỉ IELTS 7.0–8.0 để săn học bổng du học, định cư, miễn học phần ĐH hoặc làm giảng viên tiếng Anh.",
+      "inputRequirement": "Điểm đầu vào đạt tối thiểu 6.0 IELTS (Reading & Listening vững).",
+      "outputTarget": "Bứt phá Writing lên 7.0+, Speaking tự nhiên phản xạ trôi chảy, đạt Overall 7.0 - 7.5+."
+    },
+    "skillsContent": {
+      "reading": [
+        "Chiến lược đạt 8.5–9.0 Reading: Kỹ thuật kiểm soát thời gian 55 phút/3 bài",
+        "Xử lý triệt để các câu hỏi bẫy suy luận (Inference & Summary Completion)",
+        "Tăng tốc độ đọc lướt văn bản học thuật chuyên sâu khoa học & xã hội"
+      ],
+      "listening": [
+        "Chiến thuật đạt 8.5–9.0 Listening: Bắt trọn Section 3 & Section 4",
+        "Kỹ thuật nghe dự đoán câu trả lời trước khi nghe audio",
+        "Phương pháp ghi chép tốc ký không bị trễ thông tin"
+      ],
+      "writing": [
+        "Nâng cấp từ vựng Lexical Resource và Cấu trúc ngữ pháp phức tạp C1/C2",
+        "Tư duy lập luận phản biện sâu sắc, lập dàn ý sắc sảo cho Task 2",
+        "Thầy Harry sửa bài 1-1 từng câu chữ, nâng band từ 6.0 lên 7.0+"
+      ],
+      "speaking": [
+        "Sử dụng Idiomatic expressions và Collocations tự nhiên như người bản xứ",
+        "Rèn luyện phản xạ phân tích lập luận sâu cho Speaking Part 3",
+        "Mock Speaking 1-1 với Thầy Harry mô phỏng áp lực phòng thi thật"
+      ]
+    },
+    "roadmap": [
+      {
+        "stage": "GIAI ĐOẠN 01",
+        "title": "Chẩn Đoán Lỗ Hổng & Nâng Cấp Tư Duy Task 2",
+        "duration": "Tuần 1–4",
+        "desc": "Phân tích chi tiết điểm yếu Writing & Speaking của từng bạn, thiết lập cấu trúc bài viết Band 7.5+.",
+        "focus": ["Essay Cohesion C1", "Speaking Idioms", "Reading 8.5+"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 02",
+        "title": "Chấm Chữa Chuyên Sâu 1-1 & Luyện Đề Dự Đoán",
+        "duration": "Tuần 5–9",
+        "desc": "Thực chiến với ngân hàng đề thi thật mới nhất, sửa bài viết hàng ngày và mock test speaking liên tục.",
+        "focus": ["Bộ đề dự đoán HEH", "Sửa bài 1-1", "Listening 8.5+"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 03",
+        "title": "Tổng Duyệt & Tinh Chỉnh Chiến Lược Phòng Thi",
+        "duration": "Tuần 10–13",
+        "desc": "Thi thử Mock Test toàn diện theo tiêu chuẩn IDP, tối ưu hóa điểm rơi phong độ trước ngày thi.",
+        "focus": ["Full Mock Test IDP", "Tối ưu hóa điểm số", "Tâm lý phòng thi"]
+      }
+    ],
+    "books": [
+      {
+        "name": "Cambridge IELTS Practice Tests 16–19",
+        "publisher": "Cambridge University Press",
+        "phase": "Xuyên suốt khóa",
+        "desc": "Đề thi chuẩn quốc tế sát nhất với đề thi thật tại IDP/BC."
+      },
+      {
+        "name": "IELTS Advantage: Writing & Speaking Skills",
+        "publisher": "Delta Publishing",
+        "phase": "Giai đoạn 1 & 2",
+        "desc": "Bộ tài liệu hướng dẫn kỹ thuật bứt phá band 7.0–8.0 Writing & Speaking."
+      },
+      {
+        "name": "HEH Master Essay & Speaking Forecast Bank",
+        "publisher": "Harry English House Exclusive",
+        "phase": "Giai đoạn 2 & 3",
+        "desc": "Tuyển tập bài mẫu Band 8.0+ và bộ đề dự đoán quý độc quyền của Thầy Harry."
+      }
+    ],
+    "pricingInfo": {
+      "tuitionFee": "8.520.000 VNĐ",
+      "perMonth": "Khoảng 2.840.000 VNĐ/tháng",
+      "totalSessions": "36–40 buổi",
+      "includes": [
+        "Thầy Harry Khôi (8.0 IELTS) trực tiếp giảng dạy và kèm sát",
+        "Chấm chữa bài Writing & Speaking 1-1 không giới hạn số lượng",
+        "Bộ đề dự đoán và bài mẫu độc quyền của HEH",
+        "Đặc quyền thi thử và voucher giảm lệ phí thi IDP"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Khóa học này do ai trực tiếp đứng lớp?",
+        "a": "Thầy Harry (IELTS 8.0 Official - Đối tác IDP) sẽ trực tiếp phụ trách 100% các buổi học và chấm chữa bài 1-1 cho lớp chuyên sâu."
+      },
+      {
+        "q": "Sĩ số lớp là bao nhiêu học viên?",
+        "a": "Lớp học duy trì tối đa chỉ 7 học viên nhằm đảm bảo tính chọn lọc, môi trường học thuật tập trung và đủ thời gian sửa bài tỉ mỉ cho từng bạn."
+      }
+    ]
   },
   {
     "id": "ielts-vip-1-2",
@@ -90,7 +460,8 @@
     "level": "Nhảy band từ 6.0 lên 7.5+",
     "target": "Chẩn đoán điểm yếu từng bạn, kèm sát từng bài Writing & Speaking nâng band thần tốc",
     "curriculum": "Giáo trình may đo theo mục tiêu & chấm chữa bài 1-1 liên tục",
-    "duration": "Linh hoạt theo chặng",
+    "duration": "Linh hoạt theo chặng (1–3 tháng)",
+    "weeklySchedule": "2–3 buổi / tuần (Xếp theo lịch học viên)",
     "classSize": "Đúng 2 học viên : 1 GV",
     "guarantee": "Cá nhân hóa 100% & Chấm chữa bài từng buổi học",
     "highlights": [
@@ -102,7 +473,59 @@
     "format": "Online linh hoạt (T3, T5 / T3, T6)",
     "badge": "VIP 1:2",
     "image": "/src/assets/ki-niem/ki-niem-5.jpg",
-    "color": "purple"
+    "color": "purple",
+    "targetAudience": {
+      "whoFor": "Cặp bạn bè, anh chị em hoặc 2 học viên có cùng trình độ và mục tiêu band điểm cần học tập trung cao độ.",
+      "inputRequirement": "Đánh giá trình độ tương đồng qua bài test 4 kỹ năng.",
+      "outputTarget": "Khắc phục triệt để điểm nghẽn kỹ năng, đạt mục tiêu band điểm trong thời gian ngắn nhất."
+    },
+    "skillsContent": {
+      "reading": ["Chiến thuật giải đề cá nhân hóa", "Khắc phục các dạng bài hay sai của từng bạn"],
+      "listening": ["Luyện nghe chuyên sâu theo dạng câu hỏi yếu", "Tăng tốc độ phản xạ ghi chép"],
+      "writing": ["Chấm chữa từng câu văn và ý tưởng 1-1 trên file trực tiếp", "May đo từ vựng theo phong cách viết của từng bạn"],
+      "speaking": ["Luyện nói liên tục suốt 90 phút với giảng viên", "Mô phỏng kỳ thi thật và sửa lỗi ngữ âm tức thì"]
+    },
+    "roadmap": [
+      {
+        "stage": "GIAI ĐOẠN 01",
+        "title": "Chẩn Đoán Chi Tiết & Thiết Lập Lộ Trình Riêng",
+        "duration": "Tuần 1–2",
+        "desc": "Xác định chính xác lỗ hổng của 2 bạn và biên soạn tài liệu riêng biệt.",
+        "focus": ["Diagnostic Test", "Tùy chỉnh giáo trình", "Khắc phục lỗi gốc"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 02",
+        "title": "Luyện Kỹ Năng Yếu & Sửa Bài Từng Buổi",
+        "duration": "Tuần 3–8",
+        "desc": "Tập trung đẩy mạnh 2 kỹ năng đầu ra Writing & Speaking với tần suất sửa bài dày đặc.",
+        "focus": ["Writing 1-1 Review", "Speaking Drills", "Tăng tốc giải đề"]
+      }
+    ],
+    "books": [
+      {
+        "name": "Giáo Trình May Đo Cá Nhân Hóa HEH",
+        "publisher": "Harry English House",
+        "phase": "Toàn khóa",
+        "desc": "Biên soạn riêng biệt dựa trên điểm số hiện tại và mục tiêu của 2 học viên."
+      }
+    ],
+    "pricingInfo": {
+      "tuitionFee": "4.000.000 VNĐ / học viên / tháng",
+      "perMonth": "4.000.000 VNĐ/tháng",
+      "totalSessions": "Linh hoạt theo tháng",
+      "includes": [
+        "1 Giảng viên chuyên môn 7.5+ kèm đúng 2 học viên",
+        "Lịch học linh hoạt theo thời gian biểu của học viên",
+        "Chấm chữa bài 1-1 không giới hạn",
+        "Báo cáo tiến độ học tập hàng tuần"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Nếu tôi chưa có bạn học cùng thì trung tâm có ghép lớp không?",
+        "a": "Có. Trung tâm sẽ test trình độ và ghép bạn với học viên có cùng mục tiêu và khung giờ phù hợp."
+      }
+    ]
   },
   {
     "id": "ielts-vip-1-1",
@@ -111,7 +534,8 @@
     "level": "Mục tiêu cấp tốc / Du học",
     "target": "Giáo trình may đo 100%, khắc phục điểm yếu thần tốc, chủ động xếp lịch",
     "curriculum": "Lộ trình riêng biệt bám sát hạn nộp chứng chỉ của học viên",
-    "duration": "Linh hoạt theo lịch",
+    "duration": "Linh hoạt theo mục tiêu",
+    "weeklySchedule": "Chủ động xếp lịch theo học viên",
     "classSize": "1 Học viên : 1 Giảng viên",
     "guarantee": "Cam kết đầu ra hợp đồng & Hỗ trợ tối đa thời gian",
     "highlights": [
@@ -123,7 +547,52 @@
     "format": "Online / Trực tiếp theo yêu cầu",
     "badge": "VIP 1:1",
     "image": "/src/assets/ki-niem/ki-niem-6.jpg",
-    "color": "purple"
+    "color": "purple",
+    "targetAudience": {
+      "whoFor": "Học viên cần bằng gấp trong 1–2 tháng để nộp hồ sơ du học, định cư hoặc lịch trình công tác bận rộn.",
+      "inputRequirement": "Mọi trình độ (Được thiết kế lộ trình riêng sau khi test).",
+      "outputTarget": "Đạt chính xác mục tiêu band điểm theo hạn chót nộp hồ sơ."
+    },
+    "skillsContent": {
+      "reading": ["Chiến thuật làm bài cấp tốc", "Tối ưu hóa điểm số trong thời gian ngắn nhất"],
+      "listening": ["Luyện nghe trọng tâm các phần ăn điểm chắc chắn"],
+      "writing": ["Sửa bài viết trực tiếp theo từng câu", "Cung cấp dàn bài mẫu chuẩn hóa sát đề thi"],
+      "speaking": ["Luyện nói 1-1 liên tục với giảng viên, chỉnh sửa phát âm và ý tưởng từng phút"]
+    },
+    "roadmap": [
+      {
+        "stage": "GIAI ĐOẠN CẤP TỐC",
+        "title": "Tập Trung 100% Vào Kỹ Năng Cần Bứt Phá",
+        "duration": "Linh hoạt 4–8 tuần",
+        "desc": "Dồn toàn lực vào các kỹ năng còn thiếu điểm để đạt mốc mục tiêu sớm nhất.",
+        "focus": ["Chiến thuật cấp tốc", "Chấm chữa liên tục", "Mock Test 1-1"]
+      }
+    ],
+    "books": [
+      {
+        "name": "Bộ Tài Liệu Cấp Tốc Độc Quyền HEH",
+        "publisher": "Harry English House",
+        "phase": "Toàn khóa",
+        "desc": "Tài liệu tinh gọn bám sát mục tiêu cụ thể của từng học viên VIP."
+      }
+    ],
+    "pricingInfo": {
+      "tuitionFee": "Tùy theo thời lượng và mục tiêu",
+      "perMonth": "Tư vấn lộ trình cụ thể",
+      "totalSessions": "Linh hoạt theo gói",
+      "includes": [
+        "1 Thầy kèm 1 Trò độc quyền",
+        "Chủ động xếp và đổi lịch học linh hoạt",
+        "Hỗ trợ học thuật và sửa bài 24/7",
+        "Cam kết chuẩn đầu ra bằng văn bản"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Lớp 1-1 có thể học vào khung giờ nào?",
+        "a": "Bạn có thể tự do lựa chọn khung giờ học sáng, chiều hoặc tối từ Thứ 2 đến Chủ nhật tùy theo lịch rảnh của bạn."
+      }
+    ]
   },
   {
     "id": "comm-basic",
@@ -133,18 +602,83 @@
     "target": "Chuẩn hóa phát âm IPA, phản xạ câu hỏi đáp nhanh, tự tin giao tiếp đời sống",
     "curriculum": "Pronunciation in Use, English Grammar, Mẫu câu hội thoại hằng ngày",
     "duration": "3 tháng (Khóa tiêu chuẩn)",
-    "classSize": "2–3 bạn (Nhóm nhỏ)",
+    "weeklySchedule": "3 buổi / tuần",
+    "classSize": "2–4 bạn (Nhóm nhỏ)",
     "guarantee": "Ưu đãi 5% khóa mới & Tự tin phản xạ sau 3 tháng",
     "highlights": [
       "Chuẩn hóa bảng phiên âm quốc tế IPA & xóa bỏ rào cản ngại nói",
       "Mẫu câu hội thoại phản xạ nhanh theo chủ đề đời sống thực tế",
-      "Sĩ số nhóm nhỏ 2–3 bạn (Offline Q7, Q10 / Online T4, T6)",
+      "Sĩ số nhóm nhỏ 2–4 bạn (Offline Q7, Q10 / Online T4, T6)",
       "Ưu đãi giảm 5% học phí toàn khóa chỉ còn 7.695.000đ"
     ],
     "format": "Offline Q7, Q10 / Online (T4, T6)",
     "badge": "Phản xạ",
     "image": "/src/assets/ki-niem/ki-niem-7.jpg",
-    "color": "orange"
+    "color": "orange",
+    "targetAudience": {
+      "whoFor": "Người lớn, người đi làm và sinh viên ngại nói, sợ phát âm sai hoặc ấp úng khi giao tiếp tiếng Anh.",
+      "inputRequirement": "Chưa nói được câu hoàn chỉnh hoặc mất gốc phát âm.",
+      "outputTarget": "Tự tin mở lời, phát âm chuẩn tự nhiên và phản xạ câu hỏi đáp trong 3 giây."
+    },
+    "skillsContent": {
+      "reading": ["Đọc hiểu các biển báo, email, bài viết ngắn đời sống thường ngày"],
+      "listening": ["Luyện nghe bắt từ khóa trong hội thoại tốc độ tự nhiên"],
+      "writing": ["Viết tin nhắn, email giao tiếp cơ bản và ghi chú công việc"],
+      "speaking": ["Chuẩn hóa 44 âm IPA", "Phản xạ 30+ chủ đề đời sống (Mua sắm, Đi lại, Nhà hàng, Du lịch, Kết bạn)"]
+    },
+    "roadmap": [
+      {
+        "stage": "GIAI ĐOẠN 01",
+        "title": "Xóa Bỏ Rào Cản Phát Âm & IPA Chuẩn",
+        "duration": "Tuần 1–4",
+        "desc": "Chỉnh từng khẩu hình miệng, ngữ điệu và trọng âm giúp bạn tự tin mở miệng nói.",
+        "focus": ["IPA 44 âm", "Nối âm & Ngữ điệu", "Mẫu câu chào hỏi"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 02",
+        "title": "Xây Dựng Phản Xạ 3 Giây Theo Chủ Đề",
+        "duration": "Tuần 5–8",
+        "desc": "Luyện tập hỏi đáp tức thì theo các tình huống đời sống thông dụng nhất.",
+        "focus": ["Mua sắm & Đi lại", "Du lịch & Nhà hàng", "Phản xạ tức thì"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 03",
+        "title": "Tương Tác Thực Tế & Thuyết Trình Ngắn",
+        "duration": "Tuần 9–12",
+        "desc": "Thực hành đối thoại nhóm, xử lý tình huống thực tế và tự tin trình bày quan điểm ngắn.",
+        "focus": ["Role-play tình huống", "Trình bày tự tin", "Giao tiếp đời sống"]
+      }
+    ],
+    "books": [
+      {
+        "name": "English Pronunciation in Use (Elementary)",
+        "publisher": "Cambridge University Press",
+        "phase": "Giai đoạn 1",
+        "desc": "Giáo trình luyện ngữ âm thực hành hàng đầu của Cambridge."
+      },
+      {
+        "name": "English File: Beginner & Elementary",
+        "publisher": "Oxford University Press",
+        "phase": "Giai đoạn 2 & 3",
+        "desc": "Giáo trình hội thoại giao tiếp sinh động với các chủ đề đời sống thực tế."
+      }
+    ],
+    "pricingInfo": {
+      "tuitionFee": "5.670.000 VNĐ - 7.690.000 VNĐ",
+      "perMonth": "Từ 1.890.000 VNĐ/tháng",
+      "totalSessions": "36 buổi (3 tháng)",
+      "includes": [
+        "Trọn bộ tài liệu English File & video phát âm",
+        "Thực hành phản xạ 1-1 cùng giảng viên",
+        "Ưu đãi 5% khi đăng ký sớm"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Khóa học có phù hợp với người đi làm lớn tuổi không?",
+        "a": "Rất phù hợp! Phương pháp học tại HEH thân thiện, không áp lực ngữ pháp hàn lâm mà tập trung vào phản xạ ứng dụng thực tế."
+      }
+    ]
   },
   {
     "id": "comm-applied",
@@ -153,7 +687,8 @@
     "level": "Trung cấp (Đi làm / Du lịch)",
     "target": "Thuyết trình, viết email thương mại, đàm phán và giao tiếp tự nhiên",
     "curriculum": "Business Speaking English, English File Intermediate, Tình huống công sở",
-    "duration": "6 tháng (Khóa dài hạn)",
+    "duration": "3–6 tháng",
+    "weeklySchedule": "2–3 buổi / tuần",
     "classSize": "3–5 bạn",
     "guarantee": "Ưu đãi 10% & Tự tin giao tiếp đàm phán công việc",
     "highlights": [
@@ -165,7 +700,65 @@
     "format": "Offline Q7 (T5 19h30, CN 10h) / Online",
     "badge": "Công sở",
     "image": "/src/assets/ki-niem/ki-niem-8.jpg",
-    "color": "indigo"
+    "color": "indigo",
+    "targetAudience": {
+      "whoFor": "Nhân viên văn phòng, quản lý, người chuẩn bị phỏng vấn công ty đa quốc gia hoặc đi công tác nước ngoài.",
+      "inputRequirement": "Đã có khả năng giao tiếp cơ bản nhưng thiếu từ vựng chuyên ngành và sự tự tin trong môi trường chuyên nghiệp.",
+      "outputTarget": "Tự tin chủ trì cuộc họp, thuyết trình dự án và viết email thương mại chuẩn văn phong quốc tế."
+    },
+    "skillsContent": {
+      "reading": ["Đọc hiểu báo cáo kinh doanh, hợp đồng và tài liệu chuyên ngành"],
+      "listening": ["Luyện nghe các buổi họp hội nghị và thuyết trình kinh doanh quốc tế"],
+      "writing": ["Viết email đối tác, báo cáo tiến độ và đề xuất dự án chuẩn formal"],
+      "speaking": ["Kỹ năng thuyết trình dự án, đàm phán hợp đồng và xử lý tình huống phản biện"]
+    },
+    "roadmap": [
+      {
+        "stage": "GIAI ĐOẠN 01",
+        "title": "Tiếng Anh Email & Giao Tiếp Nội Bộ Công Sở",
+        "duration": "Tuần 1–4",
+        "desc": "Chuẩn hóa văn phong viết email và giao tiếp chuyên nghiệp với đồng nghiệp, cấp trên.",
+        "focus": ["Business Emails", "Office Interactions", "Small Talk"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 02",
+        "title": "Chủ Trì Cuộc Họp & Thuyết Trình Dự Án",
+        "duration": "Tuần 5–8",
+        "desc": "Rèn luyện kỹ năng điều phối cuộc họp và thuyết trình trước đối tác quốc tế.",
+        "focus": ["Meeting Moderation", "Presentation Skills", "Q&A Handling"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 03",
+        "title": "Kỹ Năng Đàm Phán & Phỏng Vấn Tuyển Dụng",
+        "duration": "Tuần 9–12",
+        "desc": "Mô phỏng phỏng vấn tiếng Anh và đàm phán hợp đồng trong môi trường đa văn hóa.",
+        "focus": ["Negotiation Skills", "Mock Interview", "Cross-cultural Comm"]
+      }
+    ],
+    "books": [
+      {
+        "name": "Market Leader: Business English Course",
+        "publisher": "Pearson Education / Financial Times",
+        "phase": "Xuyên suốt khóa",
+        "desc": "Giáo trình tiếng Anh thương mại hàng đầu với các bài học kinh doanh thực tế từ Financial Times."
+      }
+    ],
+    "pricingInfo": {
+      "tuitionFee": "6.550.000 VNĐ - 12.830.000 VNĐ",
+      "perMonth": "Từ 2.180.000 VNĐ/tháng",
+      "totalSessions": "36 buổi (3 tháng) hoặc 72 buổi (6 tháng)",
+      "includes": [
+        "Giáo trình Market Leader & Case Study thực tế",
+        "Sửa bài email và bài thuyết trình 1-1",
+        "Ưu đãi 10% khi đăng ký lộ trình 6 tháng"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Khóa học có đào tạo riêng theo yêu cầu của doanh nghiệp không?",
+        "a": "Có. Harry English House có các lớp đào tạo tiếng Anh doanh nghiệp theo yêu cầu riêng."
+      }
+    ]
   },
   {
     "id": "toeic-vstep",
@@ -174,7 +767,8 @@
     "level": "Target 650+ TOEIC / B2-C1 VSTEP",
     "target": "Chiến thuật bẫy đề thi, ngân hàng đề chuẩn hóa, cam kết chuẩn đầu ra ĐH",
     "curriculum": "ETS TOEIC Test 2024, Hackers TOEIC, Ngân hàng đề VSTEP B2-C1",
-    "duration": "~2.5 tháng",
+    "duration": "2.5 tháng (~30 buổi)",
+    "weeklySchedule": "3 buổi / tuần",
     "classSize": "Nhóm 5 học viên",
     "guarantee": "Cam kết chuẩn đầu ra ĐH & Luyện sát format đề thi thật",
     "highlights": [
@@ -186,6 +780,90 @@
     "format": "Offline Q1, Q6, Q7, Q8 / Online",
     "badge": "TOEIC/VSTEP",
     "image": "/src/assets/ki-niem/ki-niem-9.jpg",
-    "color": "teal"
+    "color": "teal",
+    "targetAudience": {
+      "whoFor": "Sinh viên các trường Đại học cần chứng chỉ xét tốt nghiệp, giáo viên/công chức cần chuẩn B1, B2, C1 VSTEP.",
+      "inputRequirement": "Có nền tảng tiếng Anh cơ bản tương đương 350+ TOEIC hoặc A2 VSTEP.",
+      "outputTarget": "Đạt TOEIC 650+ hoặc VSTEP B1-B2-C1 ngay trong lần thi đầu tiên."
+    },
+    "skillsContent": {
+      "reading": [
+        "Chiến thuật giải nhanh Part 5 & 6 TOEIC trong 15 phút",
+        "Kỹ thuật xử lý bài đọc đôi/đọc ba Part 7 và bài đọc học thuật VSTEP",
+        "Bộ 600 từ vựng cốt lõi thường xuất hiện trong đề thi ETS & VSTEP"
+      ],
+      "listening": [
+        "Kỹ thuật nghe hình ảnh Part 1 và bắt bẫy đồng âm Part 2 TOEIC",
+        "Chiến thuật đọc trước câu hỏi Part 3 & 4 để bắt trọn thông tin",
+        "Luyện nghe audio chuẩn hóa tốc độ thực tế"
+      ],
+      "writing": [
+        "Chiến thuật viết thư điện tử và bài luận văn nghị luận VSTEP Task 1 & 2",
+        "Bộ khung từ vựng và dàn bài ăn điểm chắc chắn cho VSTEP B2-C1"
+      ],
+      "speaking": [
+        "Chiến thuật trả lời 3 phần thi Speaking VSTEP (Tương tác, Thảo luận giải pháp, Phát triển chủ đề)",
+        "Luyện phát âm chuẩn và giữ nhịp độ nói tự tin trước máy tính"
+      ]
+    },
+    "roadmap": [
+      {
+        "stage": "GIAI ĐOẠN 01",
+        "title": "Nắm Vững Ngữ Pháp Trọng Điểm & Bẫy Đề Thi",
+        "duration": "Tuần 1–3",
+        "desc": "Hệ thống hóa toàn bộ ngữ pháp then chốt và các bẫy thường gặp trong Part 1–5.",
+        "focus": ["Ngữ pháp Part 5", "Nghe Part 1-2", "Từ vựng ETS"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 02",
+        "title": "Tăng Tốc Đọc Hiểu & Chiến Thuật Part 7 / VSTEP",
+        "duration": "Tuần 4–7",
+        "desc": "Luyện kỹ năng giải nhanh đoạn văn dài Part 7 và rèn luyện kỹ năng Nói/Viết cho học viên VSTEP.",
+        "focus": ["Kỹ thuật Part 7", "VSTEP Writing/Speaking", "Quản lý thời gian"]
+      },
+      {
+        "stage": "GIAI ĐOẠN 03",
+        "title": "Luyện Đề Bấm Giờ & Thi Thử Chuẩn Hóa",
+        "duration": "Tuần 8–10",
+        "desc": "Giải bộ đề ETS mới nhất và đề thi VSTEP trên máy tính, khắc phục lỗi sai chi tiết.",
+        "focus": ["ETS 2024 Tests", "VSTEP Computer Tests", "Tối ưu hóa điểm số"]
+      }
+    ],
+    "books": [
+      {
+        "name": "ETS TOEIC Regular Test Practice",
+        "publisher": "ETS / YBM Publishing",
+        "phase": "Xuyên suốt khóa",
+        "desc": "Bộ đề thi chính thức từ tổ chức ra đề thi TOEIC ETS."
+      },
+      {
+        "name": "Hackers TOEIC Reading & Listening",
+        "publisher": "Hackers Language Research",
+        "phase": "Giai đoạn 1 & 2",
+        "desc": "Bộ giáo trình luyện thi TOEIC chuẩn mực và đầy đủ nhất."
+      },
+      {
+        "name": "Tuyển Tập Đề Thi Chuẩn Hóa VSTEP B1-B2-C1",
+        "publisher": "Harry English House",
+        "phase": "Giai đoạn 2 & 3",
+        "desc": "Bộ đề thi thực chiến bám sát format thi trên máy tính của Bộ GD&ĐT."
+      }
+    ],
+    "pricingInfo": {
+      "tuitionFee": "5.100.000 VNĐ - 7.120.000 VNĐ",
+      "perMonth": "Từ 1.700.000 VNĐ/tháng",
+      "totalSessions": "30 buổi (2.5 tháng)",
+      "includes": [
+        "Trọn bộ tài liệu ETS TOEIC / VSTEP độc quyền",
+        "Thi thử trên phần mềm máy tính chuẩn phòng thi",
+        "Cam kết chuẩn đầu ra xét tuyển tốt nghiệp"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Khóa học có cam kết đỗ chuẩn đầu ra đại học không?",
+        "a": "Có. Học viên được cam kết chuẩn đầu ra TOEIC 650+ hoặc VSTEP B1/B2 bằng hợp đồng đào tạo rõ ràng."
+      }
+    ]
   }
 ]

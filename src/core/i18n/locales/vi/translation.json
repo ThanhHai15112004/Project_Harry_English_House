@@ -667,38 +667,107 @@
       "backToCourses": "Quay lại danh mục khóa học",
       "notFoundTitle": "Không tìm thấy khóa học",
       "notFoundDesc": "Khóa học bạn tìm kiếm không tồn tại hoặc đã được cập nhật sang lộ trình mới.",
-      "highlightsTitle": "Điểm nổi bật của khóa học",
-      "curriculumTitle": "Giáo trình & Tài liệu đào tạo",
-      "targetTitle": "Mục tiêu đầu ra cam kết",
-      "classInfoTitle": "Thông tin lớp học",
-      "registerNow": "Đăng ký khóa học này",
-      "level": "Cấp độ đầu vào:",
-      "target": "Mục tiêu cam kết:",
-      "duration": "Thời lượng khóa học:",
-      "classSize": "Quy mô lớp học:",
-      "format": "Hình thức đào tạo:",
-      "guarantee": "Cam kết chất lượng:",
-      "studentPerks": "Đặc quyền học viên",
-      "tabOverview": "Tổng quan & Điểm nổi bật",
-      "tabCurriculum": "Giáo trình & 4 Kỹ năng",
-      "tabGuarantee": "Cam kết & Đặc quyền IDP",
-      "targetSectionTitle": "Mục Tiêu Đào Tạo Khóa Học",
-      "curriculumSectionTitle": "Hệ Thống Giáo Trình Chuẩn Hóa Quốc Tế",
-      "listeningReadingDesc": "Chiến thuật Skimming/Scanning, phương pháp bắt từ khóa Keyword Mapping và luyện đề Cambridge theo bộ đề dự đoán.",
-      "writingDesc": "Hướng dẫn tư duy logic, dàn ý luận điểm chuẩn học thuật và được Thầy Harry chấm chữa 1-1 không giới hạn.",
-      "speakingDesc": "Chỉnh sửa phát âm IPA tỉ mỉ từng âm tiết, xây dựng phản xạ trả lời tự nhiên theo chủ đề thi thực tế.",
-      "vocabGrammarTitle": "Vocabulary & Grammar",
-      "vocabGrammarDesc": "Tích lũy vốn từ học thuật C1/C2 theo chủ đề, xóa bỏ triệt để các lỗi sai ngữ pháp câu ghép.",
-      "guaranteeTitle": "Cam Kết Chuẩn Đầu Ra Bằng Văn Bản",
-      "guaranteeDesc": "Học viên được cam kết chuẩn đầu ra rõ ràng theo lộ trình đã đăng ký. Được học lại hoàn toàn miễn phí nếu thực hiện đầy đủ bài tập và chuyên cần nhưng chưa đạt mục tiêu.",
-      "idpPerksTitle": "Đặc Quyền Học Viên Đối Tác IDP IELTS",
-      "idpPerk1": "Tặng voucher giảm trực tiếp 100.000 VNĐ khi đăng ký thi IELTS chính thức tại IDP Vietnam.",
-      "idpPerk2": "Tham gia các buổi thi thử Mock Test chuẩn phòng thi thật của IDP.",
-      "idpPerk3": "Bộ tài liệu đề thi thật độc quyền được cập nhật hàng quý.",
-      "enrollCardTitle": "Đăng ký lớp học",
-      "enrollBtn": "Nhận tư vấn & Xếp lớp ngay",
-      "policyLabel": "Chính sách:",
-      "upcomingClassesTitle": "Lớp Sắp Mở Gần Nhất"
+      "heroCtaConsult": "Nhận tư vấn khóa học",
+      "heroCtaClasses": "Xem lớp đang mở",
+      "quickOverview": {
+        "level": "Trình độ",
+        "duration": "Thời lượng",
+        "format": "Hình thức",
+        "classSize": "Quy mô",
+        "schedule": "Lịch học"
+      },
+      "targetAudience": {
+        "badge": "ĐỐI TƯỢNG · ĐẦU VÀO · ĐẦU RA",
+        "title": "Khóa học này có phù hợp với bạn?",
+        "subtitle": "Xác định rõ xuất phát điểm và cam kết mục tiêu trước khi nhập học",
+        "whoFor": "Dành cho ai?",
+        "inputReq": "Yêu cầu đầu vào",
+        "outputTarget": "Mục tiêu đầu ra"
+      },
+      "learningContent": {
+        "badge": "NỘI DUNG ĐÀO TẠO",
+        "title": "Bạn sẽ học gì trong khóa học này?",
+        "subtitle": "Chương trình được thiết kế cô đọng, thực chất và tập trung vào kỹ năng làm bài thực tế",
+        "reading": "Reading",
+        "listening": "Listening",
+        "writing": "Writing",
+        "speaking": "Speaking"
+      },
+      "roadmap": {
+        "badge": "LỘ TRÌNH ĐÀO TẠO",
+        "title": "Lộ Trình Các Giai Đoạn",
+        "subtitle": "Từng tuần học đều có mục tiêu cụ thể, bám sát sự tiến bộ của học viên",
+        "focusLabel": "Trọng tâm giai đoạn:"
+      },
+      "curriculum": {
+        "badge": "GIÁO TRÌNH & TÀI LIỆU",
+        "title": "Giáo Trình Chuẩn Quốc Tế",
+        "subtitle": "100% tài liệu từ các nhà xuất bản uy tín thế giới (Cambridge, Oxford, Macmillan)",
+        "publisherLabel": "Nhà xuất bản:",
+        "phaseLabel": "Giai đoạn sử dụng:"
+      },
+      "methodology": {
+        "badge": "PHƯƠNG PHÁP HỌC",
+        "title": "Cách Khóa Học Này Được Triển Khai",
+        "subtitle": "Phương pháp cá nhân hóa từng học viên, lấy sự tiến bộ thực chất làm thước đo",
+        "p1Title": "Lớp học nhóm nhỏ (6–10 bạn)",
+        "p1Desc": "Tối đa hóa thời lượng tương tác phản xạ 2 chiều giữa giảng viên và từng học viên.",
+        "p2Title": "Sửa bài trực tiếp 1-1",
+        "p2Desc": "Chấm chữa bài Writing Task 1-2 và chỉnh phát âm Speaking chi tiết từng buổi học.",
+        "p3Title": "Bài tập sau buổi học",
+        "p3Desc": "Hệ thống bài tập củng cố kiến thức có phản hồi và nhận xét cụ thể từ giảng viên.",
+        "p4Title": "Kiểm tra & Mock Test định kỳ",
+        "p4Desc": "Theo dõi sát tiến độ tăng band qua các bài thi thử tiêu chuẩn phòng thi thật."
+      },
+      "infoPricing": {
+        "badge": "THÔNG TIN & BIỂU PHÍ",
+        "title": "Thông Tin Khóa Học & Biểu Phí",
+        "subtitle": "Học phí minh bạch, đã bao gồm toàn bộ giáo trình và đặc quyền thi thử IDP",
+        "infoTitle": "Thông Số Khóa Học",
+        "pricingTitle": "HỌC PHÍ",
+        "allInclusive": "Trọn gói toàn khóa",
+        "perMonth": "Hoặc đóng linh hoạt",
+        "privilegesTitle": "Quyền lợi bao gồm:",
+        "consultBtn": "Nhận tư vấn xếp lớp"
+      },
+      "instructor": {
+        "badge": "GIẢNG VIÊN PHỤ TRÁCH",
+        "title": "Người Đồng Hành Cùng Bạn",
+        "subtitle": "Thầy Harry Khôi trực tiếp dẫn dắt, theo sát và chấm chữa bài",
+        "viewProfileBtn": "Tìm hiểu thêm về Thầy Harry →"
+      },
+      "relatedResults": {
+        "badge": "KẾT QUẢ THỰC TẾ",
+        "title": "Thành Tích Từ Học Viên Khóa Này",
+        "subtitle": "Bảng điểm và sự tiến bộ thực tế của các học viên đã hoàn thành lộ trình",
+        "viewAllBtn": "Xem tất cả thành tích học viên →"
+      },
+      "openClasses": {
+        "badge": "LỚP ĐANG TUYỂN",
+        "title": "Các Lớp Sắp Khai Giảng",
+        "subtitle": "Chọn khung giờ và hình thức học phù hợp nhất với lịch trình của bạn",
+        "enrollBtn": "Đăng ký lớp này",
+        "spotsLeft": "Còn {{spots}} chỗ",
+        "noClassTitle": "Hiện chưa có lớp mới phù hợp lịch của bạn?",
+        "noClassDesc": "Liên hệ ngay với Harry English House để nhận thông báo lịch khai giảng hoặc yêu cầu mở lớp kèm riêng.",
+        "requestClassBtn": "Đăng ký nhận tư vấn lớp mới"
+      },
+      "faq": {
+        "badge": "FAQ KHÓA HỌC",
+        "title": "Giải Đáp Thắc Mắc Về Khóa Học",
+        "subtitle": "Những câu hỏi học viên thường quan tâm nhất trước khi đăng ký khóa học này"
+      },
+      "bottomCta": {
+        "badge": "BẮT ĐẦU NGAY",
+        "title": "Khóa học này có phù hợp với mục tiêu của bạn?",
+        "desc": "Trao đổi trực tiếp với Harry English House để kiểm tra đầu vào 4 kỹ năng miễn phí và chọn lớp học tối ưu nhất.",
+        "consultBtn": "Nhận tư vấn khóa học",
+        "classesBtn": "Xem lớp đang tuyển"
+      },
+      "sticky": {
+        "consultBtn": "Nhận tư vấn",
+        "enrollBtn": "Đăng ký tư vấn"
+      }
     }
   },
   "floatingContact": {
