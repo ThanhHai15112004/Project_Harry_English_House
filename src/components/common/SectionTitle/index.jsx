@@ -20,12 +20,12 @@ export const SectionTitle = ({
         </div>
       )}
       {title && (
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-3">
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-3 [text-wrap:balance]">
           {title}
         </h2>
       )}
       {subtitle && (
-        <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-2xl mx-auto">
+        <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-2xl mx-auto [text-wrap:balance]">
           {subtitle}
         </p>
       )}
