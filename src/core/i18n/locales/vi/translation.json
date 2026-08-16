@@ -73,7 +73,7 @@
     }
   },
   "about": {
-    "eyebrow": "ABOUT HARRY ENGLISH HOUSE",
+    "eyebrow": "VỀ HARRY ENGLISH HOUSE",
     "statement": "Một môi trường học tiếng Anh tập trung vào sự tiến bộ thực tế và bản lĩnh sử dụng ngôn ngữ.",
     "desc": "Chúng tôi không áp dụng một công thức chung cho tất cả. Thay vào đó, mỗi học viên được thấu hiểu xuất phát điểm, mục tiêu và phong cách học để xây dựng lộ trình tối ưu nhất.",
     "pillar1Title": "Lộ trình may đo",
@@ -81,21 +81,30 @@
     "pillar2Title": "Lớp học quy mô nhỏ",
     "pillar2Desc": "Chỉ 6–10 học viên để tối đa hóa thời gian tương tác và thực hành.",
     "pillar3Title": "Theo sát & Sửa lỗi 1-1",
-    "pillar3Desc": "Giảng viên trực tiếp chấm chữa chi tiết từng bài Writing & Speaking."
+    "pillar3Desc": "Giảng viên trực tiếp chấm chữa chi tiết từng bài Writing & Speaking.",
+    "tag1": "Chuẩn hóa IDP IELTS",
+    "tag2": "100% Giảng viên 8.0+",
+    "tag3": "Chữa bài không giới hạn"
   },
   "programs": {
     "badge": "CHƯƠNG TRÌNH ĐÀO TẠO",
     "title": "Các Khóa Học Trọng Tâm",
     "subtitle": "Chương trình được thiết kế chuẩn quốc tế, tinh gọn và bám sát thực tế thi cử.",
-    "featuredBadge": "Chương trình trọng tâm",
-    "featuredDesc": "Chương trình đào tạo toàn diện 4 kỹ năng từ mất gốc đến 7.5+ IELTS, chuẩn cấu trúc IDP và lộ trình cá nhân hóa theo từng band điểm.",
+    "tabAll": "Tất cả chương trình",
+    "tabIelts": "Luyện thi IELTS",
+    "tabComm": "Giao tiếp phản xạ",
+    "tabVip": "Kèm VIP 1:1 & 1:2",
+    "tabToeic": "TOEIC & VSTEP",
+    "featuredBadge": "Khóa học trọng tâm",
+    "popularBadge": "Phổ biến nhất",
     "levelLabel": "Cấp độ:",
-    "classSizeLabel": "Quy mô:",
-    "classSizeVal": "6–10 học viên",
-    "guarantee": "Cam kết chuẩn đầu ra & Chấm chữa bài Writing/Speaking 1-1 không giới hạn.",
+    "classSizeLabel": "Sĩ số:",
+    "classSizeVal": "6–10 bạn",
+    "guarantee": "Chữa bài 1-1 & Cam kết đầu ra",
     "viewRoadmapBtn": "Xem lộ trình chi tiết",
-    "writtenGuarantee": "Cam kết đầu ra bằng văn bản",
-    "consultBtn": "Tư vấn"
+    "writtenGuarantee": "Cam kết đầu ra bằng văn bản & Hỗ trợ voucher thi IDP",
+    "consultBtn": "Tư vấn khóa học",
+    "freeTestCta": "Kiểm tra trình độ miễn phí"
   },
   "method": {
     "badge": "PHƯƠNG PHÁP ĐÀO TẠO",

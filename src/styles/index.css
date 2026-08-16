@@ -61,6 +61,15 @@
     transform: rotate(25deg);
     animation: shimmer-sweep 3.5s infinite ease-in-out;
   }
+
+  /* Hide Scrollbar for Horizontal Touch Tabs */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 @keyframes shimmer-sweep {
