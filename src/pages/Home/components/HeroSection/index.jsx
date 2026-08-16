@@ -281,8 +281,8 @@ export const HeroSection = () => {
         {/* Băng thống kê thành tích 4 cột (Gọn gàng ~1rem, Số chạy đếm tự động) */}
         <div className="bg-white rounded-2xl sm:rounded-3xl py-3 sm:py-3.5 px-4 sm:px-6 border border-slate-100 shadow-sm grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 divide-y sm:divide-y-0 sm:divide-x divide-slate-100">
           {/* Cột 1: IELTS (Số chạy 7.5+) */}
-          <div className="flex items-center gap-3 pt-2 sm:pt-0 sm:px-3 first:pt-0 first:px-0 group hover:-translate-y-0.5 transition-transform">
-            <Award size={24} className="text-amber-500 flex-shrink-0 group-hover:scale-110 transition-transform" />
+          <div className="flex items-center gap-3 pt-2 sm:pt-0 sm:px-3 first:pt-0 first:px-0 group rounded-xl transition-colors">
+            <Award size={24} className="text-amber-500 flex-shrink-0 transition-transform" />
             <div>
               <span className="text-xs font-semibold text-slate-800 block leading-tight">
                 {t('hero.stats.ieltsLabel')}
@@ -297,8 +297,8 @@ export const HeroSection = () => {
           </div>
 
           {/* Cột 2: TOEIC (Số chạy 990+) */}
-          <div className="flex items-center gap-3 pt-2 sm:pt-0 sm:px-3 group hover:-translate-y-0.5 transition-transform">
-            <Target size={24} className="text-blue-600 flex-shrink-0 group-hover:scale-110 transition-transform" />
+          <div className="flex items-center gap-3 pt-2 sm:pt-0 sm:px-3 group rounded-xl transition-colors">
+            <Target size={24} className="text-blue-600 flex-shrink-0 transition-transform" />
             <div>
               <span className="text-xs font-semibold text-slate-800 block leading-tight">
                 {t('hero.stats.toeicLabel')}
@@ -313,8 +313,8 @@ export const HeroSection = () => {
           </div>
 
           {/* Cột 3: Giao tiếp (Số chạy 95%) */}
-          <div className="flex items-center gap-3 pt-2 sm:pt-0 sm:px-3 group hover:-translate-y-0.5 transition-transform">
-            <MessageCircle size={24} className="text-blue-600 flex-shrink-0 group-hover:scale-110 transition-transform" />
+          <div className="flex items-center gap-3 pt-2 sm:pt-0 sm:px-3 group rounded-xl transition-colors">
+            <MessageCircle size={24} className="text-blue-600 flex-shrink-0 transition-transform" />
             <div>
               <span className="text-xs font-semibold text-slate-800 block leading-tight">
                 {t('hero.stats.commLabel')}
@@ -329,8 +329,8 @@ export const HeroSection = () => {
           </div>
 
           {/* Cột 4: VSTEP (B2+) */}
-          <div className="flex items-center gap-3 pt-2 sm:pt-0 sm:px-3 group hover:-translate-y-0.5 transition-transform">
-            <Trophy size={24} className="text-amber-500 flex-shrink-0 group-hover:scale-110 transition-transform" />
+          <div className="flex items-center gap-3 pt-2 sm:pt-0 sm:px-3 group rounded-xl transition-colors">
+            <Trophy size={24} className="text-amber-500 flex-shrink-0 transition-transform" />
             <div>
               <span className="text-xs font-semibold text-slate-800 block leading-tight">
                 {t('hero.stats.vstepLabel')}

@@ -175,7 +175,7 @@ export const FeaturedPrograms = () => {
                         className="w-full py-1.5 sm:py-2 px-2.5 sm:px-3 rounded-lg sm:rounded-xl bg-academic-cta text-white font-bold text-[10px] sm:text-xs hover:bg-academic-cta-hover active:scale-[0.98] transition-all flex items-center justify-center gap-1 sm:gap-1.5 shadow-xs"
                       >
                         <span>{t('programs.consultBtn')}</span>
-                        <ArrowRight size={12} className="group-hover:translate-x-0.5 transition-transform flex-shrink-0" />
+                        <ArrowRight size={12} className="transition-colors flex-shrink-0" />
                       </button>
                     </a>
                   </div>

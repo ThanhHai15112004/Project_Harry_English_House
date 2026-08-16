@@ -78,12 +78,12 @@ export const LearningMethod = () => {
               return (
                 <div key={step.num} className="flex flex-col items-center group">
                   {/* Step Top Node / Bubble */}
-                  <div className="w-12 h-12 rounded-full bg-white border-2 border-academic-primary text-academic-primary flex items-center justify-center font-heading font-black text-sm shadow-md mb-6 group-hover:bg-academic-primary group-hover:text-white group-hover:scale-110 group-hover:shadow-glow-primary transition-all duration-300 z-10">
+                  <div className="w-12 h-12 rounded-full bg-white border-2 border-academic-primary text-academic-primary flex items-center justify-center font-heading font-black text-sm shadow-md mb-6 group-hover:bg-academic-primary group-hover:text-white group-hover:shadow-glow-primary transition-all duration-300 z-10">
                     {step.num}
                   </div>
 
                   {/* Step Card Container */}
-                  <div className="w-full flex-1 bg-white rounded-2xl p-5 border border-academic-border hover:border-academic-cta/50 hover:shadow-card-hover hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between relative overflow-hidden group shadow-xs">
+                  <div className="w-full flex-1 bg-white rounded-2xl p-5 border border-academic-border hover:border-academic-cta hover:shadow-card-hover hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 flex flex-col justify-between relative overflow-hidden group shadow-xs">
                     {/* Watermark Step Number */}
                     <div className="absolute -top-1 -right-1 text-4xl font-black font-heading text-slate-100/80 group-hover:text-blue-50/70 transition-colors pointer-events-none select-none">
                       {step.num}

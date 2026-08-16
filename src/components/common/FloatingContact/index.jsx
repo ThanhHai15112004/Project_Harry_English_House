@@ -146,13 +146,13 @@ export const FloatingContact = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
-            className="flex items-center gap-2.5 group/item transition-all duration-200 hover:-translate-x-1.5 cursor-pointer"
+            className="flex items-center gap-2.5 group/item transition-all duration-200 cursor-pointer"
             style={{
               transitionDelay: isOpen ? `${index * 25}ms` : '0ms',
             }}
           >
             {/* Compact Tooltip Label */}
-            <div className="px-3 py-1.5 rounded-xl bg-slate-900/90 backdrop-blur-md border border-white/15 shadow-lg text-right hidden sm:block">
+            <div className="px-3 py-1.5 rounded-xl bg-slate-900/90 backdrop-blur-md border border-white/15 shadow-lg text-right hidden sm:block group-hover/item:border-blue-400">
               <span className="text-xs font-bold text-white whitespace-nowrap block">
                 {channel.label}
               </span>
@@ -160,7 +160,7 @@ export const FloatingContact = () => {
 
             {/* Circular Channel Action Button */}
             <div
-              className={`w-11 h-11 rounded-full flex items-center justify-center ring-2 ring-white/90 shadow-xl transition-all duration-200 group-hover/item:scale-110 active:scale-95 ${channel.bg}`}
+              className={`w-11 h-11 rounded-full flex items-center justify-center ring-2 ring-white/90 shadow-xl transition-all duration-200 group-hover/item:ring-4 group-hover/item:brightness-110 active:scale-95 ${channel.bg}`}
               title={channel.label}
             >
               {channel.icon}
@@ -186,7 +186,7 @@ export const FloatingContact = () => {
           className={`relative w-14 h-14 rounded-full flex items-center justify-center shadow-2xl ring-2 ring-white transition-all duration-300 group cursor-pointer ${
             isOpen
               ? 'bg-slate-900 text-white rotate-90 scale-100 shadow-slate-900/40'
-              : 'bg-gradient-to-tr from-[#15419A] via-[#1E56C8] to-[#2563EB] text-white hover:scale-105 active:scale-95 shadow-blue-600/50'
+              : 'bg-gradient-to-tr from-[#15419A] via-[#1E56C8] to-[#2563EB] text-white hover:brightness-105 hover:ring-4 hover:ring-blue-400/40 active:scale-95 shadow-blue-600/50'
           }`}
         >
           {isOpen ? (

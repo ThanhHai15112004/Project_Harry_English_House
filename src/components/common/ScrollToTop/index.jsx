@@ -82,13 +82,13 @@ export const ScrollToTop = () => {
       onClick={handleScrollToTop}
       aria-label="Cuộn lên đầu trang"
       title="Cuộn lên đầu trang"
-      className={`fixed bottom-24 right-7 z-40 w-11 h-11 rounded-full bg-slate-900/90 backdrop-blur-md text-white flex items-center justify-center shadow-xl hover:bg-primary hover:scale-110 active:scale-95 transition-all duration-300 group cursor-pointer border border-white/20 ${
+      className={`fixed bottom-24 right-7 z-40 w-11 h-11 rounded-full bg-slate-900/90 backdrop-blur-md text-white flex items-center justify-center shadow-xl hover:bg-primary hover:ring-2 hover:ring-primary/40 transition-all duration-300 group cursor-pointer border border-white/20 ${
         showButton
           ? 'opacity-100 translate-y-0 pointer-events-auto'
           : 'opacity-0 translate-y-6 pointer-events-none'
       }`}
     >
-      <ArrowUp size={20} className="group-hover:-translate-y-1 transition-transform" />
+      <ArrowUp size={20} className="transition-colors" />
     </button>
   );
 };

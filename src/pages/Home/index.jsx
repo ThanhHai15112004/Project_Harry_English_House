@@ -10,7 +10,6 @@ import {
   FounderHarry,
   StudentResults,
   AcademicActivities,
-  OpenClasses,
   CtaConsultation,
 } from './components';
 
@@ -27,7 +26,6 @@ export const HomePage = () => {
       <FounderHarry />
       <StudentResults />
       <AcademicActivities />
-      <OpenClasses />
       <CtaConsultation />
     </MainLayout>
   );

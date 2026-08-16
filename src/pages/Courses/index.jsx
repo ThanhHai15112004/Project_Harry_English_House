@@ -95,7 +95,7 @@ export const CoursesPage = () => {
             {filteredCourses.map((course) => (
               <div
                 key={course.id}
-                className="flex flex-col h-full rounded-2xl bg-white border border-academic-border hover:border-blue-400 shadow-xs hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden group"
+                className="flex flex-col h-full rounded-2xl bg-white border border-academic-border hover:border-academic-cta hover:shadow-card-hover hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 overflow-hidden group"
               >
                 {/* Thumbnail Image */}
                 <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-100">

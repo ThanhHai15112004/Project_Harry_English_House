@@ -23,8 +23,8 @@ export const Button = ({
   };
 
   const variantStyles = {
-    primary: 'bg-gradient-to-r from-blue-700 to-blue-600 hover:from-blue-800 hover:to-blue-700 text-white shadow-md hover:shadow-glow-primary hover:-translate-y-0.5',
-    secondary: 'bg-sky-500 hover:bg-sky-600 text-white shadow-sm hover:shadow-glow-secondary hover:-translate-y-0.5',
+    primary: 'bg-gradient-to-r from-blue-700 to-blue-600 hover:from-blue-800 hover:to-blue-700 text-white shadow-md hover:shadow-glow-primary hover:brightness-105',
+    secondary: 'bg-sky-500 hover:bg-sky-600 text-white shadow-sm hover:shadow-glow-secondary hover:brightness-105',
     outline: 'bg-transparent text-blue-700 border-2 border-blue-600 hover:bg-blue-50',
     ghost: 'bg-transparent text-slate-600 hover:bg-slate-100 hover:text-slate-900',
     white: 'bg-white text-slate-900 hover:bg-slate-50 shadow-md hover:shadow-lg',

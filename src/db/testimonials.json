@@ -5,74 +5,173 @@
     {
       "id": 1,
       "image": "/src/assets/feedback-hoc-vien/feedback-1.jpg",
-      "caption": "Feedback cảm nhận học viên"
+      "author": "Hoài Phương & Nhật Tân",
+      "caption": "Thầy rất quan tâm học viên, siêu nhiệt tình, take care kỹ càng từng bài.",
+      "tag": "Đánh giá 5 sao",
+      "course": "Lớp IELTS Intensive"
     },
     {
       "id": 2,
       "image": "/src/assets/feedback-hoc-vien/feedback-2.jpg",
-      "caption": "Phản hồi lớp học bổ ích"
+      "author": "Vương Ngọc Diệp",
+      "caption": "Giáo viên tận tâm, giảng dạy dễ hiểu và học phí cũng phải chăng.",
+      "tag": "Cảm nhận học viên",
+      "course": "Lớp kèm 1-1"
     },
     {
       "id": 3,
       "image": "/src/assets/feedback-hoc-vien/feedback-3.jpg",
-      "caption": "Tiến bộ vượt bậc sau khóa học"
+      "author": "Phụ huynh & Học viên",
+      "caption": "Tiến bộ vượt bậc sau khóa học, tự tin giao tiếp và làm bài thi.",
+      "tag": "Tiến bộ vượt bậc",
+      "course": "Lớp IELTS Foundation"
     },
     {
       "id": 4,
       "image": "/src/assets/feedback-hoc-vien/feedback-4.jpg",
-      "caption": "Sự tận tâm của thầy cô HEH"
+      "author": "Học viên khóa VIP",
+      "caption": "Sự tận tâm của thầy cô HEH giúp em vượt qua áp lực phòng thi.",
+      "tag": "Tận tâm 100%",
+      "course": "Kèm VIP 1:1"
     },
     {
       "id": 5,
       "image": "/src/assets/feedback-hoc-vien/feedback-5.jpg",
-      "caption": "Tự tin nói tiếng Anh tự nhiên"
+      "author": "Học viên Giao tiếp",
+      "caption": "Tự tin nói tiếng Anh tự nhiên, phản xạ nhanh và chuẩn phát âm.",
+      "tag": "Tự tin phản xạ",
+      "course": "Tiếng Anh Giao Tiếp"
     },
     {
       "id": 6,
       "image": "/src/assets/feedback-hoc-vien/feedback-6.jpg",
-      "caption": "Cải thiện kỹ năng Writing & Speaking"
+      "author": "Học viên Writing-Speaking",
+      "caption": "Cải thiện kỹ năng Writing & Speaking rõ rệt, được sửa chi tiết từng bài.",
+      "tag": "Chữa bài chi tiết",
+      "course": "Luyện thi Chuyên sâu"
     },
     {
       "id": 7,
       "image": "/src/assets/feedback-hoc-vien/feedback-7.jpg",
-      "caption": "Đánh giá chất lượng lớp kèm"
+      "author": "Học viên Lớp Kèm",
+      "caption": "Đánh giá chất lượng lớp kèm tuyệt vời, không khí học tập tích cực.",
+      "tag": "Chất lượng cao",
+      "course": "Lớp Nhóm Nhỏ"
     },
     {
       "id": 8,
       "image": "/src/assets/feedback-hoc-vien/feedback-8.jpg",
-      "caption": "Cảm ơn thầy Khôi và trung tâm"
+      "author": "Học viên HEH",
+      "caption": "Cảm ơn thầy Khôi và trung tâm đã luôn đồng hành và động viên em.",
+      "tag": "Tri ân thầy cô",
+      "course": "IELTS Master"
     }
   ],
   "results": [
     {
       "id": 1,
       "image": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
-      "caption": "Bảng điểm IELTS học viên HEH"
+      "studentName": "Nguyễn Diễm Quỳnh",
+      "score": "8.5",
+      "scoreType": "IELTS Academic Overall",
+      "examType": "IELTS Academic",
+      "badge": "Top 1% Xuất Sắc",
+      "target": "Mục tiêu: 7.5+",
+      "skills": {
+        "listening": "9.0",
+        "reading": "9.0",
+        "writing": "8.0",
+        "speaking": "8.5"
+      },
+      "caption": "Bứt phá xuất sắc IELTS 8.5 Overall (Listening 9.0, Reading 9.0)",
+      "description": "Đạt điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking sau lộ trình rèn luyện chuyên sâu tại HEH.",
+      "isFeatured": true
     },
     {
       "id": 2,
       "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg",
-      "caption": "Kết quả thi IELTS đạt mục tiêu"
+      "studentName": "Trần Minh Hoàng",
+      "score": "8.0",
+      "scoreType": "IELTS Academic Overall",
+      "examType": "IELTS Academic",
+      "badge": "Band 8.0",
+      "target": "Mục tiêu: 7.0+",
+      "skills": {
+        "listening": "8.5",
+        "reading": "9.0",
+        "writing": "7.0",
+        "speaking": "7.5"
+      },
+      "caption": "Chinh phục IELTS 8.0 ấn tượng (Reading 9.0, Listening 8.5)",
+      "description": "Nâng band điểm toàn diện với phương pháp làm bài tối ưu và chiến thuật xử lý đề thi thực chiến."
     },
     {
       "id": 3,
-      "image": "/src/assets/feedback-hoc-vien/ket-qua-3.jpg",
-      "caption": "Bứt phá band điểm xuất sắc"
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-4.jpg",
+      "studentName": "Nguyễn Hoàng Hiếu",
+      "score": "8.0",
+      "scoreType": "IDP IELTS Official",
+      "examType": "IDP IELTS Official",
+      "badge": "IDP Partner",
+      "target": "C1 CEFR Level",
+      "skills": {
+        "listening": "8.5",
+        "reading": "9.0",
+        "writing": "6.5",
+        "speaking": "8.0"
+      },
+      "caption": "Chứng chỉ IDP IELTS 8.0 C1 CEFR chính thức",
+      "description": "Thầy Harry rất tự hào về hành trình nỗ lực bền bỉ và thành tích 8.0 rực rỡ của Hoàng Hiếu."
     },
     {
       "id": 4,
-      "image": "/src/assets/feedback-hoc-vien/ket-qua-4.jpg",
-      "caption": "Thành tích học viên khóa chuyên sâu"
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg",
+      "studentName": "Đinh Lê Hoàng Nghĩa",
+      "score": "7.0",
+      "scoreType": "IELTS Official",
+      "examType": "IELTS Academic",
+      "badge": "1st Attempt",
+      "target": "Mục tiêu: 6.5+",
+      "skills": {
+        "listening": "7.5",
+        "reading": "7.5",
+        "writing": "6.5",
+        "speaking": "6.5"
+      },
+      "caption": "Đạt IELTS 7.0 ngay trong lần thi đầu tiên",
+      "description": "Vượt mục tiêu đề ra ngay lần thi đầu tiên với sự đồng hành và chấm chữa 1-1 tận tâm từ thầy Harry."
     },
     {
       "id": 5,
-      "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg",
-      "caption": "Kết quả IELTS 7.0+"
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-3.jpg",
+      "studentName": "Thanh Trúc",
+      "score": "9.25",
+      "scoreType": "Điểm Tuyển Sinh 10",
+      "examType": "Tuyển Sinh 10 TP.HCM",
+      "badge": "Thủ Khoa",
+      "target": "Thi vào lớp 10",
+      "skills": {
+        "english": "9.25",
+        "rank": "Top trường THPT"
+      },
+      "caption": "Điểm Tiếng Anh 9.25 Tuyển sinh lớp 10 TP.HCM",
+      "description": "Tiếng Anh 'gánh điểm' xuất sắc với 9.25 điểm, tự tin trúng tuyển nguyện vọng 1 trường công lập top đầu."
     },
     {
       "id": 6,
       "image": "/src/assets/feedback-hoc-vien/ket-qua-6.jpg",
-      "caption": "Bảng điểm IDP chính thức"
+      "studentName": "Minh Anh",
+      "score": "9.0",
+      "scoreType": "Điểm Tuyển Sinh 10",
+      "examType": "Tuyển Sinh 10 TP.HCM",
+      "badge": "Điểm 9.0+",
+      "target": "Thi vào lớp 10",
+      "skills": {
+        "english": "9.0",
+        "rank": "Điểm giỏi xuất sắc"
+      },
+      "caption": "Điểm 9.0 môn Tiếng Anh kỳ thi vào lớp 10",
+      "description": "Nắm chắc nền tảng ngữ pháp và từ vựng mở rộng, bứt phá ấn tượng điểm số 9.0."
     }
   ]
 }

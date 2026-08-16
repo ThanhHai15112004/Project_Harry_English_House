@@ -30,7 +30,6 @@ export const NAV_ITEMS = [
       { id: 'all-courses', label: 'Tất Cả Khóa Học', path: ROUTES.COURSES },
       { id: 'roadmap', label: 'Lộ Trình Từng Band Điểm', path: `${ROUTES.COURSES}#roadmap` },
       { id: 'method', label: 'Phương Pháp Đào Tạo', path: `${ROUTES.COURSES}#method` },
-      { id: 'classes', label: 'Lịch Tuyển Sinh Lớp Mới', path: `${ROUTES.COURSES}#classes` },
     ],
   },
   { id: 'results', labelKey: 'nav.results', path: ROUTES.RESULTS },

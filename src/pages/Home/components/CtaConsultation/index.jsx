@@ -9,6 +9,7 @@ import { Button } from '@/components/common';
 export const CtaConsultation = () => {
   const { t } = useTranslation();
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     fullName: '',
     phone: '',
@@ -24,22 +25,38 @@ export const CtaConsultation = () => {
         spread: 70,
         origin: { y: 0.6 },
       });
-    } catch (e) {
+    } catch {
       // ignore
     }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setSubmitted(true);
-    triggerConfetti();
-    toast.success(t('contact.successTitle'), {
-      description: t('contact.successDesc', {
-        name: formData.fullName,
-        phone: formData.phone,
-      }),
-      duration: 5000,
-    });
+
+    if (!formData.fullName.trim()) {
+      toast.error('Vui lòng nhập họ và tên của bạn.');
+      return;
+    }
+
+    const cleanPhone = formData.phone.trim().replace(/\s+/g, '');
+    if (cleanPhone.length < 9) {
+      toast.error('Vui lòng nhập số điện thoại hoặc Zalo hợp lệ (ít nhất 9 chữ số).');
+      return;
+    }
+
+    setIsSubmitting(true);
+    setTimeout(() => {
+      setIsSubmitting(false);
+      setSubmitted(true);
+      triggerConfetti();
+      toast.success(t('contact.successTitle'), {
+        description: t('contact.successDesc', {
+          name: formData.fullName,
+          phone: formData.phone,
+        }),
+        duration: 5000,
+      });
+    }, 600);
   };
 
   return (
@@ -140,28 +157,30 @@ export const CtaConsultation = () => {
                 </h3>
 
                 <div className="space-y-1.5">
-                  <label className="text-xs font-bold text-academic-heading">
-                    {t('contact.fullName')}
+                  <label htmlFor="cta-fullName" className="text-xs font-bold text-academic-heading block">
+                    {t('contact.fullName')} <span className="text-red-500">*</span>
                   </label>
                   <input
+                    id="cta-fullName"
                     type="text"
                     required
                     placeholder={t('contact.fullNamePlaceholder')}
-                    className="w-full px-4 py-3 rounded-xl border border-academic-border bg-academic-surface/40 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-cta focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/70 text-sm text-slate-800 focus:bg-white focus:outline-hidden focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
                     value={formData.fullName}
                     onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                   />
                 </div>
 
                 <div className="space-y-1.5">
-                  <label className="text-xs font-bold text-academic-heading">
-                    {t('contact.phone')}
+                  <label htmlFor="cta-phone" className="text-xs font-bold text-academic-heading block">
+                    {t('contact.phone')} <span className="text-red-500">*</span>
                   </label>
                   <input
+                    id="cta-phone"
                     type="tel"
                     required
                     placeholder={t('contact.phonePlaceholder')}
-                    className="w-full px-4 py-3 rounded-xl border border-academic-border bg-academic-surface/40 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-cta focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/70 text-sm text-slate-800 focus:bg-white focus:outline-hidden focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   />
@@ -169,11 +188,12 @@ export const CtaConsultation = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-1.5">
-                    <label className="text-xs font-bold text-academic-heading">
+                    <label htmlFor="cta-target" className="text-xs font-bold text-academic-heading block">
                       {t('contact.course')}
                     </label>
                     <select
-                      className="w-full px-4 py-3 rounded-xl border border-academic-border bg-academic-surface/40 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-cta focus:border-transparent transition-all"
+                      id="cta-target"
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/70 text-sm text-slate-800 focus:bg-white focus:outline-hidden focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
                       value={formData.target}
                       onChange={(e) => setFormData({ ...formData, target: e.target.value })}
                     >
@@ -187,11 +207,12 @@ export const CtaConsultation = () => {
                   </div>
 
                   <div className="space-y-1.5">
-                    <label className="text-xs font-bold text-academic-heading">
+                    <label htmlFor="cta-format" className="text-xs font-bold text-academic-heading block">
                       {t('contact.format')}
                     </label>
                     <select
-                      className="w-full px-4 py-3 rounded-xl border border-academic-border bg-academic-surface/40 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-cta focus:border-transparent transition-all"
+                      id="cta-format"
+                      className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/70 text-sm text-slate-800 focus:bg-white focus:outline-hidden focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all"
                       value={formData.format}
                       onChange={(e) => setFormData({ ...formData, format: e.target.value })}
                     >
@@ -204,21 +225,29 @@ export const CtaConsultation = () => {
                 </div>
 
                 <div className="space-y-1.5">
-                  <label className="text-xs font-bold text-academic-heading">
+                  <label htmlFor="cta-notes" className="text-xs font-bold text-academic-heading block">
                     {t('contact.notes')}
                   </label>
                   <textarea
+                    id="cta-notes"
                     rows={3}
                     placeholder={t('contact.notesPlaceholder')}
-                    className="w-full px-4 py-3 rounded-xl border border-academic-border bg-academic-surface/40 text-sm focus:bg-white focus:outline-none focus:ring-2 focus:ring-cta focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-slate-200 bg-slate-50/70 text-sm text-slate-800 focus:bg-white focus:outline-hidden focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all resize-none"
                     value={formData.notes}
                     onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                   />
                 </div>
 
                 <div className="pt-2">
-                  <Button type="submit" fullWidth size="lg" variant="primary" icon={<Send size={18} />}>
-                    {t('contact.submitBtn')}
+                  <Button
+                    type="submit"
+                    fullWidth
+                    size="lg"
+                    variant="primary"
+                    disabled={isSubmitting}
+                    icon={<Send size={18} />}
+                  >
+                    {isSubmitting ? 'Đang gửi thông tin...' : t('contact.submitBtn')}
                   </Button>
                 </div>
               </form>
