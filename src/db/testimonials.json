@@ -1,6 +1,244 @@
 {
   "quote": "Kết quả \"nhà trồng\" - Biết ơn các ngoan xinh iu vì đã cố gắng và tin tưởng đồng hành cùng HEH!",
   "fbUrl": "https://www.facebook.com/story.php?story_fbid=122121725222443839&id=61563315172210",
+  "highlights": [
+    {
+      "id": "ielts",
+      "value": "8.5",
+      "prefix": "IELTS",
+      "suffix": "",
+      "label": "Điểm IELTS nổi bật",
+      "sub": "Listening 9.0 • Reading 9.0",
+      "badge": "Top 1% Xuất Sắc"
+    },
+    {
+      "id": "toeic",
+      "value": "925",
+      "prefix": "TOEIC",
+      "suffix": "+",
+      "label": "Kết quả TOEIC học viên",
+      "sub": "Chuẩn đầu ra ĐH & Thạc sĩ",
+      "badge": "Band Điểm Cao"
+    },
+    {
+      "id": "highschool",
+      "value": "9.25",
+      "prefix": "Lớp 10",
+      "suffix": "đ",
+      "label": "Tuyển sinh 10 TP.HCM",
+      "sub": "Thủ khoa môn Tiếng Anh",
+      "badge": "Thủ Khoa"
+    },
+    {
+      "id": "verified",
+      "value": "100%",
+      "prefix": "Bằng chứng",
+      "suffix": "",
+      "label": "Bảng điểm thi thật IDP/BC",
+      "sub": "Minh bạch • Không số liệu ảo",
+      "badge": "Học Thật - Điểm Thật"
+    }
+  ],
+  "beforeAfter": [
+    {
+      "id": "case-1",
+      "studentName": "Trần Minh Hoàng",
+      "examType": "IELTS Academic",
+      "beforeScore": "5.0",
+      "afterScore": "8.0",
+      "gain": "+3.0 BAND",
+      "duration": "8 tháng",
+      "course": "Lộ trình IELTS Tăng Tốc → Master",
+      "skillsBefore": {
+        "listening": "5.0",
+        "reading": "5.5",
+        "writing": "4.5",
+        "speaking": "5.0"
+      },
+      "skillsAfter": {
+        "listening": "8.5",
+        "reading": "9.0",
+        "writing": "7.0",
+        "speaking": "7.5"
+      },
+      "challenge": "Gặp khó khăn lớn trong việc bắt keyword Reading dài và thiếu ý tưởng mạch lạc cho Writing Task 2.",
+      "solution": "Thầy Harry hướng dẫn kỹ thuật Skimming/Scanning tối ưu, chữa bài 1-1 chi tiết từng đoạn văn và rèn phản xạ Nói theo chủ đề thực tế.",
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg"
+    },
+    {
+      "id": "case-2",
+      "studentName": "Đinh Lê Hoàng Nghĩa",
+      "examType": "IELTS Academic",
+      "beforeScore": "4.5",
+      "afterScore": "7.0",
+      "gain": "+2.5 BAND",
+      "duration": "6 tháng",
+      "course": "Lớp IELTS Bứt Phá Chuyên Sâu",
+      "skillsBefore": {
+        "listening": "4.5",
+        "reading": "5.0",
+        "writing": "4.0",
+        "speaking": "4.5"
+      },
+      "skillsAfter": {
+        "listening": "7.5",
+        "reading": "7.5",
+        "writing": "6.5",
+        "speaking": "6.5"
+      },
+      "challenge": "Mất gốc phát âm chuẩn, sợ nói trước đám đông và hay bị nhầm lẫn thì ngữ pháp cơ bản.",
+      "solution": "Chuẩn hóa lại hệ thống ngữ âm IPA, luyện nói tương tác nhóm nhỏ 4 bạn và phân tích bẫy đề thi Cambridge thực chiến.",
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg"
+    }
+  ],
+  "featuredStory": {
+    "studentName": "Nguyễn Diễm Quỳnh",
+    "score": "8.5 IELTS",
+    "examType": "IELTS Academic Official",
+    "tagline": "Hành trình bứt phá IELTS 8.5 Overall ấn tượng cùng phương pháp học đúng đắn",
+    "badge": "Top 1% Thí Sinh Xuất Sắc",
+    "image": "/src/assets/ki-niem/ki-niem-1.jpg",
+    "scorecardImage": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
+    "skills": {
+      "listening": "9.0",
+      "reading": "9.0",
+      "writing": "8.0",
+      "speaking": "8.5"
+    },
+    "blocks": [
+      {
+        "id": "start",
+        "stepNumber": "01",
+        "title": "Điểm xuất phát",
+        "desc": "Từng gặp áp lực lớn khi triển khai ý tưởng bài viết học thuật Task 2 và thiếu tự tin phản xạ tự nhiên trong phòng thi Speaking."
+      },
+      {
+        "id": "process",
+        "stepNumber": "02",
+        "title": "Phương pháp & Quá trình",
+        "desc": "Được Thầy Harry kèm sát phương pháp phân tích câu đoạn, sửa chi tiết từng bài viết theo 4 tiêu chí chấm thi IDP và rèn tư duy phản biện."
+      },
+      {
+        "id": "result",
+        "stepNumber": "03",
+        "title": "Kết quả đạt được",
+        "desc": "Bứt phá 8.5 Overall với 2 điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking, mở rộng cánh cửa học bổng quốc tế."
+      }
+    ]
+  },
+  "results": [
+    {
+      "id": 1,
+      "category": "ielts",
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
+      "studentName": "Nguyễn Diễm Quỳnh",
+      "score": "8.5",
+      "scoreType": "IELTS Academic Overall",
+      "examType": "IELTS Academic",
+      "badge": "Top 1% Xuất Sắc",
+      "target": "Mục tiêu: 7.5+",
+      "skills": {
+        "listening": "9.0",
+        "reading": "9.0",
+        "writing": "8.0",
+        "speaking": "8.5"
+      },
+      "caption": "Bứt phá xuất sắc IELTS 8.5 Overall (Listening 9.0, Reading 9.0)",
+      "description": "Đạt điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking sau lộ trình rèn luyện chuyên sâu tại HEH.",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "category": "ielts",
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg",
+      "studentName": "Trần Minh Hoàng",
+      "score": "8.0",
+      "scoreType": "IELTS Academic Overall",
+      "examType": "IELTS Academic",
+      "badge": "Band 8.0",
+      "target": "Mục tiêu: 7.0+",
+      "skills": {
+        "listening": "8.5",
+        "reading": "9.0",
+        "writing": "7.0",
+        "speaking": "7.5"
+      },
+      "caption": "Chinh phục IELTS 8.0 ấn tượng (Reading 9.0, Listening 8.5)",
+      "description": "Nâng band điểm toàn diện với phương pháp làm bài tối ưu và chiến thuật xử lý đề thi thực chiến."
+    },
+    {
+      "id": 3,
+      "category": "ielts",
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-4.jpg",
+      "studentName": "Nguyễn Hoàng Hiếu",
+      "score": "8.0",
+      "scoreType": "IDP IELTS Official",
+      "examType": "IDP IELTS Official",
+      "badge": "IDP Partner",
+      "target": "C1 CEFR Level",
+      "skills": {
+        "listening": "8.5",
+        "reading": "9.0",
+        "writing": "6.5",
+        "speaking": "8.0"
+      },
+      "caption": "Chứng chỉ IDP IELTS 8.0 C1 CEFR chính thức",
+      "description": "Thầy Harry rất tự hào về hành trình nỗ lực bền bỉ và thành tích 8.0 rực rỡ của Hoàng Hiếu."
+    },
+    {
+      "id": 4,
+      "category": "ielts",
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg",
+      "studentName": "Đinh Lê Hoàng Nghĩa",
+      "score": "7.0",
+      "scoreType": "IELTS Official",
+      "examType": "IELTS Academic",
+      "badge": "1st Attempt",
+      "target": "Mục tiêu: 6.5+",
+      "skills": {
+        "listening": "7.5",
+        "reading": "7.5",
+        "writing": "6.5",
+        "speaking": "6.5"
+      },
+      "caption": "Đạt IELTS 7.0 ngay trong lần thi đầu tiên",
+      "description": "Vượt mục tiêu đề ra ngay lần thi đầu tiên với sự đồng hành và chấm chữa 1-1 tận tâm từ thầy Harry."
+    },
+    {
+      "id": 5,
+      "category": "highschool",
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-3.jpg",
+      "studentName": "Thanh Trúc",
+      "score": "9.25",
+      "scoreType": "Điểm Tuyển Sinh 10",
+      "examType": "Tuyển Sinh 10 TP.HCM",
+      "badge": "Thủ Khoa",
+      "target": "Thi vào lớp 10",
+      "skills": {
+        "english": "9.25",
+        "rank": "Top trường THPT"
+      },
+      "caption": "Điểm Tiếng Anh 9.25 Tuyển sinh lớp 10 TP.HCM",
+      "description": "Tiếng Anh 'gánh điểm' xuất sắc với 9.25 điểm, tự tin trúng tuyển nguyện vọng 1 trường công lập top đầu."
+    },
+    {
+      "id": 6,
+      "category": "highschool",
+      "image": "/src/assets/feedback-hoc-vien/ket-qua-6.jpg",
+      "studentName": "Minh Anh",
+      "score": "9.0",
+      "scoreType": "Điểm Tuyển Sinh 10",
+      "examType": "Tuyển Sinh 10 TP.HCM",
+      "badge": "Điểm 9.0+",
+      "target": "Thi vào lớp 10",
+      "skills": {
+        "english": "9.0",
+        "rank": "Điểm giỏi xuất sắc"
+      },
+      "caption": "Điểm 9.0 môn Tiếng Anh kỳ thi vào lớp 10",
+      "description": "Nắm chắc nền tảng ngữ pháp và từ vựng mở rộng, bứt phá ấn tượng điểm số 9.0."
+    }
+  ],
   "feedbacks": [
     {
       "id": 1,
@@ -67,111 +305,90 @@
       "course": "IELTS Master"
     }
   ],
-  "results": [
+  "gallery": [
     {
       "id": 1,
+      "title": "Bảng điểm IELTS 8.5 Diễm Quỳnh",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
-      "studentName": "Nguyễn Diễm Quỳnh",
-      "score": "8.5",
-      "scoreType": "IELTS Academic Overall",
-      "examType": "IELTS Academic",
-      "badge": "Top 1% Xuất Sắc",
-      "target": "Mục tiêu: 7.5+",
-      "skills": {
-        "listening": "9.0",
-        "reading": "9.0",
-        "writing": "8.0",
-        "speaking": "8.5"
-      },
-      "caption": "Bứt phá xuất sắc IELTS 8.5 Overall (Listening 9.0, Reading 9.0)",
-      "description": "Đạt điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking sau lộ trình rèn luyện chuyên sâu tại HEH.",
-      "isFeatured": true
+      "tag": "IELTS 8.5",
+      "type": "IELTS Official"
     },
     {
       "id": 2,
+      "title": "Bảng điểm IELTS 8.0 Minh Hoàng",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg",
-      "studentName": "Trần Minh Hoàng",
-      "score": "8.0",
-      "scoreType": "IELTS Academic Overall",
-      "examType": "IELTS Academic",
-      "badge": "Band 8.0",
-      "target": "Mục tiêu: 7.0+",
-      "skills": {
-        "listening": "8.5",
-        "reading": "9.0",
-        "writing": "7.0",
-        "speaking": "7.5"
-      },
-      "caption": "Chinh phục IELTS 8.0 ấn tượng (Reading 9.0, Listening 8.5)",
-      "description": "Nâng band điểm toàn diện với phương pháp làm bài tối ưu và chiến thuật xử lý đề thi thực chiến."
+      "tag": "IELTS 8.0",
+      "type": "IELTS Official"
     },
     {
       "id": 3,
+      "title": "Chứng chỉ IDP IELTS 8.0 Hoàng Hiếu",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-4.jpg",
-      "studentName": "Nguyễn Hoàng Hiếu",
-      "score": "8.0",
-      "scoreType": "IDP IELTS Official",
-      "examType": "IDP IELTS Official",
-      "badge": "IDP Partner",
-      "target": "C1 CEFR Level",
-      "skills": {
-        "listening": "8.5",
-        "reading": "9.0",
-        "writing": "6.5",
-        "speaking": "8.0"
-      },
-      "caption": "Chứng chỉ IDP IELTS 8.0 C1 CEFR chính thức",
-      "description": "Thầy Harry rất tự hào về hành trình nỗ lực bền bỉ và thành tích 8.0 rực rỡ của Hoàng Hiếu."
+      "tag": "IDP IELTS",
+      "type": "C1 CEFR"
     },
     {
       "id": 4,
+      "title": "Bảng điểm IELTS 7.0 Hoàng Nghĩa",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg",
-      "studentName": "Đinh Lê Hoàng Nghĩa",
-      "score": "7.0",
-      "scoreType": "IELTS Official",
-      "examType": "IELTS Academic",
-      "badge": "1st Attempt",
-      "target": "Mục tiêu: 6.5+",
-      "skills": {
-        "listening": "7.5",
-        "reading": "7.5",
-        "writing": "6.5",
-        "speaking": "6.5"
-      },
-      "caption": "Đạt IELTS 7.0 ngay trong lần thi đầu tiên",
-      "description": "Vượt mục tiêu đề ra ngay lần thi đầu tiên với sự đồng hành và chấm chữa 1-1 tận tâm từ thầy Harry."
+      "tag": "IELTS 7.0",
+      "type": "1st Attempt"
     },
     {
       "id": 5,
+      "title": "Điểm Tiếng Anh 9.25 Tuyển sinh 10",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-3.jpg",
-      "studentName": "Thanh Trúc",
-      "score": "9.25",
-      "scoreType": "Điểm Tuyển Sinh 10",
-      "examType": "Tuyển Sinh 10 TP.HCM",
-      "badge": "Thủ Khoa",
-      "target": "Thi vào lớp 10",
-      "skills": {
-        "english": "9.25",
-        "rank": "Top trường THPT"
-      },
-      "caption": "Điểm Tiếng Anh 9.25 Tuyển sinh lớp 10 TP.HCM",
-      "description": "Tiếng Anh 'gánh điểm' xuất sắc với 9.25 điểm, tự tin trúng tuyển nguyện vọng 1 trường công lập top đầu."
+      "tag": "Điểm 9.25",
+      "type": "Tuyển sinh 10"
     },
     {
       "id": 6,
+      "title": "Điểm 9.0 Tuyển sinh 10 Minh Anh",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-6.jpg",
-      "studentName": "Minh Anh",
-      "score": "9.0",
-      "scoreType": "Điểm Tuyển Sinh 10",
-      "examType": "Tuyển Sinh 10 TP.HCM",
-      "badge": "Điểm 9.0+",
-      "target": "Thi vào lớp 10",
-      "skills": {
-        "english": "9.0",
-        "rank": "Điểm giỏi xuất sắc"
-      },
-      "caption": "Điểm 9.0 môn Tiếng Anh kỳ thi vào lớp 10",
-      "description": "Nắm chắc nền tảng ngữ pháp và từ vựng mở rộng, bứt phá ấn tượng điểm số 9.0."
+      "tag": "Điểm 9.0",
+      "type": "Tuyển sinh 10"
+    },
+    {
+      "id": 7,
+      "title": "Chứng nhận đào tạo chuyên môn",
+      "image": "/src/assets/bang-cap-chung-chi/chung-chi-1.jpg",
+      "tag": "Chuyên môn",
+      "type": "Giảng dạy"
+    },
+    {
+      "id": 8,
+      "title": "Chứng nhận tham gia hội thảo sư phạm",
+      "image": "/src/assets/bang-cap-chung-chi/chung-chi-2.jpg",
+      "tag": "Hội thảo",
+      "type": "Sư phạm"
+    },
+    {
+      "id": 9,
+      "title": "Chứng chỉ đào tạo quốc tế",
+      "image": "/src/assets/bang-cap-chung-chi/chung-chi-3.jpg",
+      "tag": "Quốc tế",
+      "type": "Chuyên ngành"
+    },
+    {
+      "id": 10,
+      "title": "Chứng nhận đối tác học thuật",
+      "image": "/src/assets/bang-cap-chung-chi/chung-chi-4.jpg",
+      "tag": "Đối tác",
+      "type": "Khảo thí"
+    },
+    {
+      "id": 11,
+      "title": "Chứng chỉ nghiệp vụ sư phạm",
+      "image": "/src/assets/bang-cap-chung-chi/chung-chi-5.jpg",
+      "tag": "Sư phạm",
+      "type": "Đại học"
+    },
+    {
+      "id": 12,
+      "title": "Chứng nhận tập huấn phương pháp",
+      "image": "/src/assets/bang-cap-chung-chi/chung-chi-6.jpg",
+      "tag": "Tập huấn",
+      "type": "Phương pháp"
     }
   ]
 }

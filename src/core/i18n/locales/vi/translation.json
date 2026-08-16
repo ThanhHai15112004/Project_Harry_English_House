@@ -455,27 +455,85 @@
       }
     },
     "results": {
-      "badge": "BẢNG VÀNG THÀNH TÍCH",
-      "title": "Kết Quả Thi Thực Tế Của Học Viên",
-      "subtitle": "Hàng trăm bảng điểm IELTS 7.0 - 8.0+ và phản hồi chân thực sau khóa học",
-      "stat1Label": "Điểm IELTS Cao Nhất",
-      "stat1Desc": "Đạt band 8.0 ấn tượng",
-      "stat2Label": "Học Viên Tin Tưởng",
-      "stat2Desc": "Hơn 6 năm đào tạo",
-      "stat3Label": "TOEIC Tuyệt Đối",
-      "stat3Desc": "Chuẩn đầu ra ĐH & Thạc sĩ",
-      "stat4Label": "Học Thật - Điểm Thật",
-      "stat4Desc": "Bảng điểm chính thức IDP/BC",
-      "tabScorecards": "Bảng Điểm Thi Thật",
-      "tabFeedbacks": "Tin Nhắn Cảm Nhận",
-      "scorecardsTitle": "Chứng Chỉ & Bảng Điểm IELTS Chính Thức",
-      "scorecardsDesc": "Những kết quả bứt phá band điểm thực tế sau quá trình rèn luyện sát sao cùng Thầy Harry.",
-      "feedbacksTitle": "Tin Nhắn & Phản Hồi Sau Khóa Học",
-      "feedbacksDesc": "Cảm nhận chân thực của học viên về phương pháp dạy dễ hiểu và sự đồng hành tận tâm của thầy cô.",
-      "viewFanpageBtn": "Xem Thêm 100+ Feedback Thực Tế Trên Fanpage",
-      "bottomCtaTitle": "Bạn muốn trở thành người tiếp theo bứt phá band điểm?",
-      "bottomCtaDesc": "Đăng ký kiểm tra trình độ miễn phí và nhận phân tích điểm mạnh - điểm yếu cụ thể từ Thầy Harry.",
-      "bottomCtaBtn": "Đăng Ký Đánh Giá Năng Lực Ngay"
+      "badge": "KẾT QUẢ HỌC VIÊN",
+      "title": "Tiến bộ có thể nhìn thấy.",
+      "subtitle": "Những kết quả thực tế từ hành trình rèn luyện bền bỉ cùng phương pháp học đúng đắn tại Harry English House.",
+      "heroCtaResults": "Xem bảng điểm thi thật",
+      "heroCtaStory": "Câu chuyện học viên",
+      "heroProofCard": "Bảng điểm IDP IELTS chính thức",
+      "heroVerified": "Xác thực 100%",
+      "heroStudentRole": "Học viên lớp IELTS Chuyên Sâu",
+      "highlights": {
+        "badge": "SỐ LIỆU MINH BẠCH",
+        "title": "Thành Tích Nổi Bật",
+        "subtitle": "Tất cả số liệu đều dựa trên bảng điểm và chứng chỉ thi thật đã được xác thực"
+      },
+      "filter": {
+        "all": "Tất cả kết quả",
+        "ielts": "IELTS Academic",
+        "highschool": "Tuyển sinh 10 & Chuyên",
+        "toeic": "TOEIC / VSTEP",
+        "comm": "Giao tiếp ứng dụng"
+      },
+      "resultsCatalog": {
+        "title": "Bảng Điểm & Kết Quả Học Viên",
+        "subtitle": "Chứng minh năng lực qua điểm số thực tế từ các kỳ thi chuẩn hóa quốc tế",
+        "featuredBadge": "Kết quả nổi bật",
+        "targetLabel": "Mục tiêu",
+        "examLabel": "Kỳ thi",
+        "skillsBreakdown": "Chi tiết kỹ năng",
+        "listening": "Nghe (Listening)",
+        "reading": "Đọc (Reading)",
+        "writing": "Viết (Writing)",
+        "speaking": "Nói (Speaking)",
+        "englishSubject": "Môn Tiếng Anh",
+        "viewScoreModal": "Phóng to xem bảng điểm",
+        "closeModal": "Đóng"
+      },
+      "beforeAfter": {
+        "badge": "TIẾN BỘ RÕ RỆT",
+        "title": "Bứt Phá Điểm Số Trước & Sau Khóa Học",
+        "subtitle": "So sánh chi tiết năng lực đầu vào và kết quả đầu ra thực tế sau lộ trình rèn luyện",
+        "beforeLabel": "Trước khóa học",
+        "afterLabel": "Sau khóa học",
+        "gainBadge": "Mức tăng band điểm",
+        "durationLabel": "Thời gian đào tạo:",
+        "courseLabel": "Khóa học tham gia:",
+        "challengeTitle": "Khó khăn & Điểm nghẽn ban đầu",
+        "solutionTitle": "Phương pháp rèn luyện tại HEH",
+        "viewProof": "Xem bảng điểm đối chứng"
+      },
+      "studentStory": {
+        "badge": "CÂU CHUYỆN HỌC VIÊN",
+        "title": "Hành Trình Chinh Phục Điểm Số",
+        "subtitle": "Không chỉ là kết quả trên giấy, đó là cả một quá trình nỗ lực và kiên trì",
+        "step1": "Điểm xuất phát",
+        "step2": "Phương pháp & Quá trình",
+        "step3": "Kết quả bứt phá",
+        "viewScore": "Xem bảng điểm thi thật",
+        "studentQuote": "Phương pháp giảng dạy tận tâm và chấm chữa chi tiết từng lỗi nhỏ đã giúp em vượt qua nỗi sợ tiếng Anh."
+      },
+      "realFeedback": {
+        "badge": "TIN NHẮN & ĐÁNH GIÁ THẬT",
+        "title": "Cảm Nhận Thực Tế Sau Khóa Học",
+        "subtitle": "Những phản hồi chân thực từ học viên và phụ huynh về trải nghiệm học tập tại Harry English House",
+        "viewFullChat": "Xem tin nhắn đầy đủ",
+        "viewFanpageBtn": "Xem thêm 100+ đánh giá trên Fanpage Facebook"
+      },
+      "gallery": {
+        "badge": "BẰNG CHỨNG HỌC THUẬT",
+        "title": "Thư Viện Kết Quả & Chứng Nhận Khác",
+        "subtitle": "Tổng hợp các chứng chỉ chuyên môn, bằng cấp khảo thí và bảng điểm lưu trữ tại trung tâm",
+        "viewMoreBtn": "Xem thêm tất cả bằng chứng ({{count}})",
+        "viewLessBtn": "Thu gọn danh sách"
+      },
+      "bottomCta": {
+        "badge": "BẮT ĐẦU LỘ TRÌNH CỦA BẠN",
+        "title": "Mỗi kết quả đều bắt đầu từ một điểm xuất phát.",
+        "desc": "Xác định trình độ hiện tại và chọn lộ trình phù hợp với mục tiêu của bạn.",
+        "consultBtn": "Nhận tư vấn lộ trình 1-1",
+        "coursesBtn": "Xem các khóa học"
+      }
     },
     "about": {
       "badge": "VỀ THẦY HARRY & TRUNG TÂM",

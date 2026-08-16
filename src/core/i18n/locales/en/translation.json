@@ -455,27 +455,85 @@
       }
     },
     "results": {
-      "badge": "STUDENT ACHIEVEMENTS",
-      "title": "Real Exam Results from Real Learners",
-      "subtitle": "Hundreds of certified IELTS 7.0 - 8.0+ scorecards and heartfelt post-course feedback",
-      "stat1Label": "Top IELTS Score",
-      "stat1Desc": "Impressive 8.0 Band Score",
-      "stat2Label": "Trusted Students",
-      "stat2Desc": "6+ years of coaching",
-      "stat3Label": "Perfect TOEIC",
-      "stat3Desc": "University & Master standard",
-      "stat4Label": "Real Test - Real Score",
-      "stat4Desc": "Official IDP/BC Scorecards",
-      "tabScorecards": "Official Scorecards",
-      "tabFeedbacks": "Student Reviews",
-      "scorecardsTitle": "Certified Official IELTS Scorecards",
-      "scorecardsDesc": "Documented score improvements achieved through intensive and dedicated mentorship with Mr. Harry.",
-      "feedbacksTitle": "Post-Course Messages & Testimonials",
-      "feedbacksDesc": "Genuine reflections on practical pedagogical methods and heartfelt guidance from instructors.",
-      "viewFanpageBtn": "See 100+ Real Feedbacks on Fanpage",
-      "bottomCtaTitle": "Ready to be our next breakthrough student?",
-      "bottomCtaDesc": "Register for a free diagnostic test and get detailed feedback on your strengths and areas for improvement.",
-      "bottomCtaBtn": "Take Free Diagnostic Assessment"
+      "badge": "STUDENT RESULTS",
+      "title": "Visible, measurable progress.",
+      "subtitle": "Real outcomes resulting from consistent dedication and proven pedagogical methodology at Harry English House.",
+      "heroCtaResults": "View Official Scorecards",
+      "heroCtaStory": "Featured Student Story",
+      "heroProofCard": "Official IDP IELTS Scorecard",
+      "heroVerified": "100% Verified",
+      "heroStudentRole": "IELTS Master Class Student",
+      "highlights": {
+        "badge": "TRANSPARENT METRICS",
+        "title": "Featured Highlights",
+        "subtitle": "All metrics are strictly grounded in authentic exam certificates and verified scorecards"
+      },
+      "filter": {
+        "all": "All Results",
+        "ielts": "IELTS Academic",
+        "highschool": "High School Entrance",
+        "toeic": "TOEIC / VSTEP",
+        "comm": "Applied Communication"
+      },
+      "resultsCatalog": {
+        "title": "Certified Student Scorecards",
+        "subtitle": "Proving competence through real scores from standardized international exams",
+        "featuredBadge": "Featured Score",
+        "targetLabel": "Target",
+        "examLabel": "Exam",
+        "skillsBreakdown": "Skills Breakdown",
+        "listening": "Listening",
+        "reading": "Reading",
+        "writing": "Writing",
+        "speaking": "Speaking",
+        "englishSubject": "English Subject",
+        "viewScoreModal": "Zoom In Scorecard",
+        "closeModal": "Close"
+      },
+      "beforeAfter": {
+        "badge": "MEASURABLE GROWTH",
+        "title": "Before vs. After Score Progression",
+        "subtitle": "Detailed comparative analysis of diagnostic entry level vs. final verified exam achievements",
+        "beforeLabel": "Before Coaching",
+        "afterLabel": "After Coaching",
+        "gainBadge": "Band Score Gain",
+        "durationLabel": "Training Duration:",
+        "courseLabel": "Course Completed:",
+        "challengeTitle": "Initial Bottlenecks & Challenges",
+        "solutionTitle": "HEH Coaching Methodology",
+        "viewProof": "View Verified Proof"
+      },
+      "studentStory": {
+        "badge": "FEATURED STUDENT STORY",
+        "title": "The Journey to Band Mastery",
+        "subtitle": "More than just numbers on paper—a story of genuine grit and structured guidance",
+        "step1": "Starting Point",
+        "step2": "Process & Method",
+        "step3": "Breakthrough Result",
+        "viewScore": "View Official Scorecard",
+        "studentQuote": "The dedicated 1-on-1 feedback on every single task helped me conquer my fear of English."
+      },
+      "realFeedback": {
+        "badge": "AUTHENTIC TESTIMONIALS",
+        "title": "Post-Course Student Reflections",
+        "subtitle": "Genuine reflections and chat screenshots from learners and parents about their experience at HEH",
+        "viewFullChat": "View Full Message",
+        "viewFanpageBtn": "See 100+ Real Feedbacks on Facebook Fanpage"
+      },
+      "gallery": {
+        "badge": "ACADEMIC CREDENTIALS",
+        "title": "Results & Certification Archive",
+        "subtitle": "Curated collection of professional teaching credentials, exam partner awards, and score records",
+        "viewMoreBtn": "View all archived credentials ({{count}})",
+        "viewLessBtn": "Show less"
+      },
+      "bottomCta": {
+        "badge": "START YOUR JOURNEY",
+        "title": "Every exceptional result begins from a single starting point.",
+        "desc": "Identify your current proficiency and select the roadmap tailored precisely to your goal.",
+        "consultBtn": "Book 1-on-1 Roadmap Consultation",
+        "coursesBtn": "Explore Courses"
+      }
     },
     "about": {
       "badge": "ABOUT MR. HARRY & ACADEMY",
