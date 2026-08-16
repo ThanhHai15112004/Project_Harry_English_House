@@ -124,57 +124,57 @@ export const CourseCatalog = ({
   };
 
   return (
-    <section id="course-catalog" className="py-12 sm:py-16 lg:py-20 bg-academic-soft-white border-b border-slate-200/80">
+    <section id="course-catalog" className="py-10 sm:py-16 lg:py-20 bg-academic-soft-white border-b border-slate-200/80">
       <div className="app-container">
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto space-y-2.5 mb-8 sm:mb-10">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-100/80 text-cta text-xs font-bold uppercase tracking-wider border border-blue-200 shadow-2xs">
-            <Sparkles size={13} className="text-amber-500" />
+        <div className="text-center max-w-3xl mx-auto space-y-2 mb-6 sm:mb-10">
+          <div className="inline-flex items-center gap-1.5 px-3 py-0.5 sm:py-1 rounded-full bg-blue-100/80 text-cta text-[11px] sm:text-xs font-bold uppercase tracking-wider border border-blue-200 shadow-2xs">
+            <Sparkles size={12} className="text-amber-500" />
             <span>{t('pages.courses.badge')}</span>
           </div>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-academic-heading font-heading">
+          <h2 className="text-xl sm:text-3xl lg:text-4xl font-black text-academic-heading font-heading">
             {t('pages.courses.courseListTitle')}
           </h2>
-          <p className="text-xs sm:text-sm text-academic-body">
+          <p className="text-xs sm:text-sm text-academic-body hidden sm:block">
             {t('pages.courses.courseListSubtitle')}
           </p>
         </div>
 
         {/* Filter Controls Hub */}
-        <div className="bg-white rounded-3xl p-4 sm:p-6 border border-slate-200 shadow-xs mb-8 space-y-4">
-          <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3 sm:gap-4">
+        <div className="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-6 border border-slate-200 shadow-xs mb-6 sm:mb-8 space-y-3 sm:space-y-4">
+          <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-2.5 sm:gap-4">
             {/* Search Input */}
             <div className="relative flex-1">
               <Search
-                size={16}
-                className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none"
+                size={15}
+                className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none"
               />
               <input
                 type="text"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 placeholder={t('pages.courses.searchPlaceholder')}
-                className="w-full pl-10 pr-9 py-2.5 rounded-xl border border-slate-200 text-xs sm:text-sm text-academic-heading placeholder:text-slate-400 focus:outline-hidden focus:border-cta focus:ring-2 focus:ring-cta/15 transition-all bg-academic-soft-white/60"
+                className="w-full pl-9 pr-8 py-2 sm:py-2.5 rounded-xl border border-slate-200 text-xs sm:text-sm text-academic-heading placeholder:text-slate-400 focus:outline-hidden focus:border-cta focus:ring-2 focus:ring-cta/15 transition-all bg-academic-soft-white/60"
               />
               {searchTerm && (
                 <button
                   type="button"
                   onClick={() => setSearchTerm('')}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 cursor-pointer"
+                  className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 cursor-pointer"
                 >
-                  <X size={14} />
+                  <X size={13} />
                 </button>
               )}
             </div>
 
             {/* Level Select Dropdown */}
             <div className="flex items-center gap-2">
-              <div className="relative flex-shrink-0 w-full sm:w-auto">
-                <Filter size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
+              <div className="relative flex-1 sm:flex-initial">
+                <Filter size={13} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
                 <select
                   value={selectedLevel}
                   onChange={(e) => setSelectedLevel(e.target.value)}
-                  className="w-full sm:w-auto pl-8 pr-8 py-2.5 rounded-xl border border-slate-200 text-xs sm:text-sm font-semibold text-academic-heading focus:outline-hidden focus:border-cta focus:ring-2 focus:ring-cta/15 transition-all bg-white cursor-pointer appearance-none"
+                  className="w-full sm:w-auto pl-8 pr-7 py-2 sm:py-2.5 rounded-xl border border-slate-200 text-xs sm:text-sm font-semibold text-academic-heading focus:outline-hidden focus:border-cta focus:ring-2 focus:ring-cta/15 transition-all bg-white cursor-pointer appearance-none"
                 >
                   {levels.map((lvl) => (
                     <option key={lvl.id} value={lvl.id}>
@@ -182,7 +182,7 @@ export const CourseCatalog = ({
                     </option>
                   ))}
                 </select>
-                <span className="absolute right-3 top-1/2 -translate-y-1/2 text-[10px] text-slate-400 pointer-events-none">
+                <span className="absolute right-2.5 top-1/2 -translate-y-1/2 text-[9px] text-slate-400 pointer-events-none">
                   ▼
                 </span>
               </div>
@@ -192,7 +192,7 @@ export const CourseCatalog = ({
                 <button
                   type="button"
                   onClick={handleResetFilters}
-                  className="px-3 py-2.5 rounded-xl text-xs font-bold text-slate-500 hover:text-red-600 hover:bg-red-50 border border-slate-200 hover:border-red-200 transition-all cursor-pointer whitespace-nowrap flex-shrink-0"
+                  className="px-2.5 sm:px-3 py-2 sm:py-2.5 rounded-xl text-[11px] sm:text-xs font-bold text-slate-500 hover:text-red-600 hover:bg-red-50 border border-slate-200 hover:border-red-200 transition-all cursor-pointer whitespace-nowrap flex-shrink-0"
                 >
                   {t('pages.courses.clearFilters')}
                 </button>
@@ -209,7 +209,7 @@ export const CourseCatalog = ({
                   type="button"
                   key={cat.id}
                   onClick={() => onSelectCategory && onSelectCategory(cat.id)}
-                  className={`px-3.5 sm:px-4 py-2 rounded-xl text-xs font-bold whitespace-nowrap transition-all duration-200 cursor-pointer border flex-shrink-0 ${
+                  className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-xs font-bold whitespace-nowrap transition-all duration-200 cursor-pointer border flex-shrink-0 ${
                     isActive
                       ? 'bg-cta text-white border-cta shadow-xs'
                       : 'bg-academic-soft-white text-slate-700 border-slate-200 hover:border-cta hover:text-cta'
@@ -223,29 +223,29 @@ export const CourseCatalog = ({
         </div>
 
         {/* Counter Info */}
-        <div className="flex items-center justify-between gap-4 mb-6 px-1">
-          <span className="text-xs text-academic-muted font-semibold">
+        <div className="flex items-center justify-between gap-4 mb-4 sm:mb-6 px-1">
+          <span className="text-[11px] sm:text-xs text-academic-muted font-semibold">
             {t('pages.courses.showingCourses', { count: filteredCourses.length })}
           </span>
 
           {totalPages > 1 && (
-            <span className="text-xs font-semibold text-slate-500">
+            <span className="text-[11px] sm:text-xs font-semibold text-slate-500">
               {t('pages.courses.pageOf', { current: currentPage, total: totalPages })}
             </span>
           )}
         </div>
 
-        {/* Course Grid: 2 Columns on Mobile, 3 Columns on Desktop */}
+        {/* Responsive Course Grid: 2 Columns on Mobile, 3 Columns on Desktop */}
         {paginatedCourses.length > 0 ? (
           <>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 items-stretch">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-4 lg:gap-6 items-stretch">
               {paginatedCourses.map((course) => {
                 const isFeatured = isFeaturedCourse(course.id);
 
                 return (
                   <div
                     key={course.id}
-                    className={`group relative bg-white rounded-3xl border flex flex-col justify-between transition-all duration-300 overflow-hidden ${
+                    className={`group relative bg-white rounded-2xl sm:rounded-3xl border flex flex-col justify-between transition-all duration-300 overflow-hidden ${
                       isFeatured
                         ? 'border-cta shadow-card hover:shadow-card-hover ring-2 ring-cta/15'
                         : 'border-slate-200 hover:border-cta/60 hover:shadow-card-hover'
@@ -253,8 +253,8 @@ export const CourseCatalog = ({
                   >
                     {/* Popular Ribbon if featured */}
                     {isFeatured && (
-                      <div className="absolute top-3 right-3 z-20 inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 text-white text-[10px] font-extrabold uppercase tracking-wider shadow-sm whitespace-nowrap">
-                        <Flame size={12} className="text-amber-200 fill-amber-200 animate-pulse" />
+                      <div className="absolute top-2 right-2 sm:top-2.5 sm:right-2.5 z-20 inline-flex items-center gap-1 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 text-white text-[9px] sm:text-[10px] font-extrabold uppercase tracking-wider shadow-sm whitespace-nowrap">
+                        <Flame size={11} className="text-amber-200 fill-amber-200 animate-pulse" />
                         <span>{t('pages.courses.popularBadge')}</span>
                       </div>
                     )}
@@ -270,41 +270,41 @@ export const CourseCatalog = ({
                       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-black/20" />
 
                       {/* Floating Badges on Image */}
-                      <div className="absolute bottom-2.5 left-2.5 right-2.5 flex items-center justify-between gap-1.5">
-                        <span className="inline-flex items-center gap-1 text-[11px] font-extrabold text-academic-heading bg-white/95 backdrop-blur-xs px-2.5 py-1 rounded-lg shadow-xs whitespace-nowrap flex-shrink-0">
-                          <Sparkles size={11} className="text-cta" />
+                      <div className="absolute bottom-1.5 left-1.5 right-1.5 sm:bottom-2.5 sm:left-2.5 sm:right-2.5 flex items-center justify-between gap-1">
+                        <span className="inline-flex items-center gap-1 text-[9px] sm:text-[11px] font-extrabold text-academic-heading bg-white/95 backdrop-blur-xs px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded-md sm:rounded-lg shadow-xs whitespace-nowrap flex-shrink-0">
+                          <Sparkles size={10} className="text-cta" />
                           <span>{course.badge}</span>
                         </span>
 
-                        <span className="inline-flex items-center gap-1 text-[11px] font-medium text-white bg-slate-950/80 backdrop-blur-xs px-2.5 py-1 rounded-lg shadow-xs whitespace-nowrap flex-shrink-0">
-                          <Clock size={11} className="text-sky-300" />
+                        <span className="inline-flex items-center gap-1 text-[9px] sm:text-[11px] font-medium text-white bg-slate-950/80 backdrop-blur-xs px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded-md sm:rounded-lg shadow-xs whitespace-nowrap flex-shrink-0">
+                          <Clock size={10} className="text-sky-300" />
                           <span>{course.duration}</span>
                         </span>
                       </div>
                     </div>
 
                     {/* Card Body */}
-                    <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between space-y-3.5">
-                      <div className="space-y-1.5">
-                        <h3 className="text-base sm:text-lg font-extrabold text-academic-heading font-heading group-hover:text-primary transition-colors line-clamp-2 leading-snug">
+                    <div className="p-2.5 sm:p-4 lg:p-5 flex-1 flex flex-col justify-between space-y-2 sm:space-y-3.5">
+                      <div className="space-y-1 sm:space-y-1.5">
+                        <h3 className="text-xs sm:text-sm lg:text-base font-extrabold text-academic-heading font-heading group-hover:text-primary transition-colors line-clamp-2 leading-tight min-h-[2rem] sm:min-h-[2.5rem]">
                           {course.title}
                         </h3>
-                        <p className="text-xs text-academic-body line-clamp-2 leading-relaxed">
+                        <p className="text-[11px] sm:text-xs text-academic-body line-clamp-2 leading-relaxed hidden sm:block">
                           {course.target}
                         </p>
                       </div>
 
                       {/* Core Specs */}
-                      <div className="space-y-1.5 pt-2 border-t border-slate-100 text-xs text-academic-body">
-                        <div className="flex items-center gap-2 truncate">
-                          <Target size={13} className="text-cta flex-shrink-0" />
+                      <div className="space-y-1 sm:space-y-1.5 pt-1.5 sm:pt-2 border-t border-slate-100 text-[10px] sm:text-xs text-academic-body">
+                        <div className="flex items-center gap-1.5 truncate">
+                          <Target size={12} className="text-cta flex-shrink-0" />
                           <span className="truncate">
                             <strong>{t('pages.courses.levelLabel')}</strong> {course.level}
                           </span>
                         </div>
 
-                        <div className="flex items-center gap-2 truncate">
-                          <Users size={13} className="text-cta flex-shrink-0" />
+                        <div className="flex items-center gap-1.5 truncate">
+                          <Users size={12} className="text-cta flex-shrink-0" />
                           <span className="truncate">
                             <strong>{t('pages.courses.classSizeLabel')}</strong> {course.classSize}
                           </span>
@@ -312,17 +312,17 @@ export const CourseCatalog = ({
                       </div>
 
                       {/* Checklist Highlights */}
-                      <div className="space-y-1.5 pt-2 border-t border-dashed border-slate-100 text-xs text-academic-body">
-                        <div className="flex items-start gap-2 leading-snug">
-                          <CheckCircle2 size={13} className="text-emerald-600 flex-shrink-0 mt-0.5" />
+                      <div className="space-y-1 sm:space-y-1.5 pt-1.5 sm:pt-2 border-t border-dashed border-slate-100 text-[10px] sm:text-xs text-academic-body">
+                        <div className="flex items-start gap-1.5 leading-snug">
+                          <CheckCircle2 size={12} className="text-emerald-600 flex-shrink-0 mt-0.5" />
                           <span className="line-clamp-1 text-emerald-700 font-semibold">
                             {course.guarantee}
                           </span>
                         </div>
 
                         {course.highlights?.slice(0, 2).map((highlight) => (
-                          <div key={`${course.id}-${highlight.slice(0, 15)}`} className="flex items-start gap-2 leading-snug">
-                            <CheckCircle2 size={13} className="text-cta flex-shrink-0 mt-0.5" />
+                          <div key={`${course.id}-${highlight.slice(0, 15)}`} className="flex items-start gap-1.5 leading-snug">
+                            <CheckCircle2 size={12} className="text-cta flex-shrink-0 mt-0.5" />
                             <span className="line-clamp-1 text-slate-700 font-medium">
                               {highlight}
                             </span>
@@ -331,20 +331,20 @@ export const CourseCatalog = ({
                       </div>
 
                       {/* Location Format */}
-                      <div className="flex items-center gap-1.5 text-[11px] text-academic-muted pt-1 truncate">
-                        <MapPin size={12} className="text-cta flex-shrink-0" />
+                      <div className="flex items-center gap-1 text-[10px] sm:text-[11px] text-academic-muted pt-1 truncate">
+                        <MapPin size={11} className="text-cta flex-shrink-0" />
                         <span className="truncate">{course.format}</span>
                       </div>
 
                       {/* Footer Action Button */}
-                      <div className="pt-3 border-t border-slate-100">
+                      <div className="pt-2 sm:pt-3 border-t border-slate-100">
                         <Link to={`/courses/${course.id}`} className="block">
                           <Button
                             fullWidth
                             size="sm"
                             variant="primary"
-                            icon={<ArrowRight size={14} />}
-                            className="font-bold shadow-xs"
+                            icon={<ArrowRight size={13} />}
+                            className="font-bold shadow-xs py-1.5 sm:py-2 text-[10px] sm:text-xs"
                           >
                             {t('pages.courses.viewDetailBtn')}
                           </Button>
@@ -358,23 +358,23 @@ export const CourseCatalog = ({
 
             {/* Pagination Controls */}
             {totalPages > 1 && (
-              <div className="mt-10 flex items-center justify-center gap-2">
+              <div className="mt-8 sm:mt-10 flex items-center justify-center gap-1.5 sm:gap-2">
                 <button
                   type="button"
                   onClick={() => handlePageChange(currentPage - 1)}
                   disabled={currentPage === 1}
-                  className={`inline-flex items-center gap-1 px-3.5 py-2 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                  className={`inline-flex items-center gap-1 px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-xs font-bold border transition-all cursor-pointer ${
                     currentPage === 1
                       ? 'bg-slate-100 text-slate-400 border-slate-200 cursor-not-allowed'
                       : 'bg-white text-slate-700 border-slate-200 hover:border-cta hover:text-cta shadow-2xs'
                   }`}
                 >
-                  <ChevronLeft size={14} />
+                  <ChevronLeft size={13} />
                   <span>{t('pages.courses.prevPage')}</span>
                 </button>
 
                 {/* Page Number Pills */}
-                <div className="flex items-center gap-1.5">
+                <div className="flex items-center gap-1 sm:gap-1.5">
                   {Array.from({ length: totalPages }, (_, i) => i + 1).map((pageNum) => {
                     const isActive = currentPage === pageNum;
                     return (
@@ -382,7 +382,7 @@ export const CourseCatalog = ({
                         type="button"
                         key={pageNum}
                         onClick={() => handlePageChange(pageNum)}
-                        className={`w-9 h-9 rounded-xl text-xs font-bold transition-all cursor-pointer border ${
+                        className={`w-8 h-8 sm:w-9 sm:h-9 rounded-xl text-xs font-bold transition-all cursor-pointer border ${
                           isActive
                             ? 'bg-cta text-white border-cta shadow-xs'
                             : 'bg-white text-slate-700 border-slate-200 hover:border-cta hover:text-cta'
@@ -398,14 +398,14 @@ export const CourseCatalog = ({
                   type="button"
                   onClick={() => handlePageChange(currentPage + 1)}
                   disabled={currentPage === totalPages}
-                  className={`inline-flex items-center gap-1 px-3.5 py-2 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                  className={`inline-flex items-center gap-1 px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-xs font-bold border transition-all cursor-pointer ${
                     currentPage === totalPages
                       ? 'bg-slate-100 text-slate-400 border-slate-200 cursor-not-allowed'
                       : 'bg-white text-slate-700 border-slate-200 hover:border-cta hover:text-cta shadow-2xs'
                   }`}
                 >
                   <span>{t('pages.courses.nextPage')}</span>
-                  <ChevronRight size={14} />
+                  <ChevronRight size={13} />
                 </button>
               </div>
             )}
