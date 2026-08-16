@@ -63,5 +63,6 @@ export const testimonials = masterDb.testimonials || {};
 export const media = masterDb.media || {};
 export const methodology = masterDb.methodology || {};
 export const classes = masterDb.classes || {};
+export const programs = masterDb.programs || {};
 
 export default masterDb;

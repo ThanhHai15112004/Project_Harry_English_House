@@ -20,6 +20,14 @@ export const useCoursesData = (category = 'all') => {
   return data;
 };
 
+export const useProgramsData = () => {
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    setData(DataService.getPrograms());
+  }, []);
+  return data;
+};
+
 export const useCourseDetail = (id) => {
   const [data, setData] = useState(null);
   useEffect(() => {

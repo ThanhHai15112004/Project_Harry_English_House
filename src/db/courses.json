@@ -2,7 +2,7 @@
   {
     "id": "ielts-0-3",
     "category": "ielts",
-    "title": "Khóa IELTS Nền Tảng (0 → 3.0)",
+    "title": "Khóa IELTS Nền Tảng (0 - 3.0)",
     "level": "Mất gốc / Chưa có nền",
     "target": "Xây nền ngữ pháp, chuẩn hóa phát âm IPA & làm quen 4 kỹ năng IELTS",
     "curriculum": "Raymond Murphy Basic, Oxford Phonics World, Get Ready for IELTS",
@@ -23,7 +23,7 @@
   {
     "id": "ielts-3-4",
     "category": "ielts",
-    "title": "Khóa Pre-IELTS (3.0 → 4.5)",
+    "title": "Khóa Pre-IELTS (3.0 - 4.5)",
     "level": "Cơ bản (Band 3.0 - 4.0)",
     "target": "Nắm vững format 4 kỹ năng, không hoảng đề, viết câu đoạn ngắn chuẩn xác",
     "curriculum": "Basic IELTS 4 kỹ năng, Complete IELTS Band 4.0–5.0, Collins Vocabulary",
@@ -44,7 +44,7 @@
   {
     "id": "ielts-4-5",
     "category": "ielts",
-    "title": "Khóa IELTS Bứt Phá (4.5 → 6.0)",
+    "title": "Khóa IELTS Bứt Phá (4.5 - 6.0)",
     "level": "Trung cấp (Band 4.5)",
     "target": "Làm chủ các dạng bài, tăng vốn từ học thuật B2, rèn phản xạ Nói & Viết Task 1-2",
     "curriculum": "Mindset for IELTS Level 2, Destination B2, Listening for IELTS",
@@ -65,7 +65,7 @@
   {
     "id": "ielts-6-75",
     "category": "ielts",
-    "title": "Khóa IELTS Chuyên Sâu (6.0 → 7.5+)",
+    "title": "Khóa IELTS Chuyên Sâu (6.0 - 7.5+)",
     "level": "Nâng cao (Target 6.5 - 7.5+)",
     "target": "Chữa chuyên sâu Writing & Speaking, chiến thuật giải đề Cambridge bứt phá 7.0–7.5+",
     "curriculum": "Cambridge IELTS 15-18, IELTS Advantage, Bộ đề dự đoán thực chiến HEH",

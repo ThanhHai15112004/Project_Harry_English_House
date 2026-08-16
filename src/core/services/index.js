@@ -8,6 +8,7 @@ import {
   media,
   methodology,
   classes,
+  programs,
 } from '@/db';
 
 export const DataService = {
@@ -17,6 +18,7 @@ export const DataService = {
     return courses.filter((c) => c.category === category);
   },
   getCourseById: (id) => courses?.find((c) => c.id === id),
+  getPrograms: () => programs,
   getRoadmap: () => roadmap,
   getPricing: () => pricing,
   getCertificates: () => certificates,
