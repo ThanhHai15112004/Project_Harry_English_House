@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
 import { MainLayout } from '@/components/layout';
 import { useCoursesData, useProgramsData, useDocumentTitle } from '@/core';
 import {
@@ -13,7 +12,6 @@ import {
 } from './components';
 
 export const CoursesPage = () => {
-  const { t } = useTranslation();
   useDocumentTitle('courses');
 
   const allCourses = useCoursesData();

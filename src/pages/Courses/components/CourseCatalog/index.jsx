@@ -208,7 +208,7 @@ export const CourseCatalog = ({
                 <button
                   type="button"
                   key={cat.id}
-                  onClick={() => onSelectCategory && onSelectCategory(cat.id)}
+                  onClick={() => onSelectCategory?.(cat.id)}
                   className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-xl text-[11px] sm:text-xs font-bold whitespace-nowrap transition-all duration-200 cursor-pointer border flex-shrink-0 ${
                     isActive
                       ? 'bg-cta text-white border-cta shadow-xs'
@@ -303,7 +303,7 @@ export const CourseCatalog = ({
                           </span>
                         </div>
 
-                        <div className="flex items-center gap-1.5 truncate">
+                        <div className="hidden sm:flex items-center gap-1.5 truncate">
                           <Users size={12} className="text-cta flex-shrink-0" />
                           <span className="truncate">
                             <strong>{t('pages.courses.classSizeLabel')}</strong> {course.classSize}
@@ -321,7 +321,7 @@ export const CourseCatalog = ({
                         </div>
 
                         {course.highlights?.slice(0, 2).map((highlight) => (
-                          <div key={`${course.id}-${highlight.slice(0, 15)}`} className="flex items-start gap-1.5 leading-snug">
+                          <div key={`${course.id}-${highlight.slice(0, 15)}`} className="hidden sm:flex items-start gap-1.5 leading-snug">
                             <CheckCircle2 size={12} className="text-cta flex-shrink-0 mt-0.5" />
                             <span className="line-clamp-1 text-slate-700 font-medium">
                               {highlight}
@@ -331,7 +331,7 @@ export const CourseCatalog = ({
                       </div>
 
                       {/* Location Format */}
-                      <div className="flex items-center gap-1 text-[10px] sm:text-[11px] text-academic-muted pt-1 truncate">
+                      <div className="hidden sm:flex items-center gap-1 text-[10px] sm:text-[11px] text-academic-muted pt-1 truncate">
                         <MapPin size={11} className="text-cta flex-shrink-0" />
                         <span className="truncate">{course.format}</span>
                       </div>
@@ -343,7 +343,7 @@ export const CourseCatalog = ({
                             fullWidth
                             size="sm"
                             variant="primary"
-                            icon={<ArrowRight size={13} />}
+                            icon={<ArrowRight size={12} />}
                             className="font-bold shadow-xs py-1.5 sm:py-2 text-[10px] sm:text-xs"
                           >
                             {t('pages.courses.viewDetailBtn')}

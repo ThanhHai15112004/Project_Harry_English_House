@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { 
   ArrowRight, 
@@ -7,10 +8,10 @@ import {
   CheckCircle2, 
   Clock, 
   Sparkles, 
-  ShieldCheck,
-  Flame,
-  BookOpen,
-  MapPin
+  ShieldCheck, 
+  Flame, 
+  BookOpen, 
+  MapPin 
 } from 'lucide-react';
 import { useCoursesData, SECTION_IDS } from '@/core';
 import { SectionTitle, Button } from '@/components/common';
@@ -52,7 +53,7 @@ export const FeaturedPrograms = () => {
                 <button
                   key={tab.id}
                   type="button"
-                  className={`px-3.5 sm:px-5 py-1.5 sm:py-2 rounded-xl text-xs sm:text-xs md:text-sm font-bold transition-all whitespace-nowrap flex-shrink-0 ${
+                  className={`px-3.5 sm:px-5 py-1.5 sm:py-2 rounded-xl text-xs sm:text-xs md:text-sm font-bold transition-all whitespace-nowrap flex-shrink-0 cursor-pointer ${
                     activeTab === tab.id
                       ? 'bg-academic-cta text-white shadow-md shadow-cta/25'
                       : 'text-academic-body hover:text-academic-heading hover:bg-white/80'
@@ -89,7 +90,7 @@ export const FeaturedPrograms = () => {
                 )}
 
                 {/* Card Thumbnail Image Header */}
-                <div className="relative aspect-[16/10] w-full overflow-hidden bg-academic-surface">
+                <Link to={`/courses/${course.id}`} className="block relative aspect-[16/10] w-full overflow-hidden bg-academic-surface">
                   <img
                     src={course.image}
                     alt={course.title}
@@ -110,20 +111,22 @@ export const FeaturedPrograms = () => {
                       <span>{course.duration}</span>
                     </span>
                   </div>
-                </div>
+                </Link>
 
                 {/* Card Body */}
-                <div className="p-2.5 sm:p-4 lg:p-5 flex-1 flex flex-col justify-between space-y-2.5 sm:space-y-3">
+                <div className="p-2.5 sm:p-4 lg:p-5 flex-1 flex flex-col justify-between space-y-2 sm:space-y-3">
                   <div className="space-y-1 sm:space-y-1.5">
-                    <h3 className="text-xs sm:text-sm lg:text-base font-extrabold text-academic-heading font-heading group-hover:text-academic-primary transition-colors line-clamp-2 leading-tight min-h-[2rem] sm:min-h-[2.5rem]">
-                      {course.title}
-                    </h3>
+                    <Link to={`/courses/${course.id}`} className="block">
+                      <h3 className="text-xs sm:text-sm lg:text-base font-extrabold text-academic-heading font-heading group-hover:text-academic-primary transition-colors line-clamp-2 leading-tight min-h-[2rem] sm:min-h-[2.5rem]">
+                        {course.title}
+                      </h3>
+                    </Link>
                     <p className="text-[11px] sm:text-xs text-academic-body line-clamp-2 leading-relaxed hidden sm:block">
                       {course.target}
                     </p>
                   </div>
 
-                  {/* 1. Core Specs (Cấp độ & Sĩ số) */}
+                  {/* 1. Core Specs */}
                   <div className="space-y-1 sm:space-y-1.5 pt-1.5 sm:pt-2 border-t border-academic-border/70 text-[10px] sm:text-xs text-academic-body">
                     {/* Cấp độ */}
                     <div className="flex items-center gap-1.5 truncate">
@@ -131,8 +134,8 @@ export const FeaturedPrograms = () => {
                       <span className="truncate"><strong>{t('programs.levelLabel')}</strong> {course.level}</span>
                     </div>
 
-                    {/* Sĩ số */}
-                    <div className="flex items-center gap-1.5 truncate">
+                    {/* Sĩ số (Desktop/Tablet Only) */}
+                    <div className="hidden sm:flex items-center gap-1.5 truncate">
                       <Users size={12} className="text-academic-cta flex-shrink-0" />
                       <span className="truncate">
                         <strong>{t('programs.classSizeLabel')}</strong> {course.classSize || t('programs.classSizeVal')}
@@ -140,9 +143,9 @@ export const FeaturedPrograms = () => {
                     </div>
                   </div>
 
-                  {/* 2. Checklist Điểm nổi bật & Cam kết (Dấu tick đa dạng) */}
+                  {/* 2. Checklist Điểm nổi bật & Cam kết */}
                   <div className="space-y-1 sm:space-y-1.5 pt-1 border-t border-dashed border-academic-border/70 text-[10px] sm:text-xs text-academic-body">
-                    {/* Cam kết chính */}
+                    {/* Cam kết chính (Hiện trên cả mobile và desktop) */}
                     <div className="flex items-start gap-1.5 leading-snug">
                       <CheckCircle2 size={12} className="text-emerald-600 flex-shrink-0 mt-0.5" />
                       <span className="line-clamp-1 text-emerald-700 font-semibold">
@@ -150,9 +153,9 @@ export const FeaturedPrograms = () => {
                       </span>
                     </div>
 
-                    {/* Các tiêu chí bổ sung (Giáo trình, Đặc quyền) */}
+                    {/* Các tiêu chí bổ sung (Desktop/Tablet Only) */}
                     {course.highlights?.slice(0, 2).map((highlight) => (
-                      <div key={highlight} className="flex items-start gap-1.5 leading-snug">
+                      <div key={highlight} className="hidden sm:flex items-start gap-1.5 leading-snug">
                         <CheckCircle2 size={12} className="text-academic-cta flex-shrink-0 mt-0.5" />
                         <span className="line-clamp-1 text-academic-heading font-medium">
                           {highlight}
@@ -161,23 +164,23 @@ export const FeaturedPrograms = () => {
                     ))}
                   </div>
 
-                  {/* Địa điểm học */}
-                  <div className="flex items-center gap-1 text-[10px] sm:text-[11px] text-academic-muted pt-1 truncate">
+                  {/* Địa điểm học (Desktop/Tablet Only) */}
+                  <div className="hidden sm:flex items-center gap-1 text-[10px] sm:text-[11px] text-academic-muted pt-1 truncate">
                     <MapPin size={11} className="text-academic-cta flex-shrink-0" />
                     <span className="truncate">{course.format}</span>
                   </div>
 
-                  {/* Footer Solid CTA Button */}
+                  {/* Footer Solid CTA Button: Links directly to Course Detail */}
                   <div className="pt-1">
-                    <a href={`#${SECTION_IDS.CONTACT}`} className="block">
+                    <Link to={`/courses/${course.id}`} className="block">
                       <button
                         type="button"
-                        className="w-full py-1.5 sm:py-2 px-2.5 sm:px-3 rounded-lg sm:rounded-xl bg-academic-cta text-white font-bold text-[10px] sm:text-xs hover:bg-academic-cta-hover active:scale-[0.98] transition-all flex items-center justify-center gap-1 sm:gap-1.5 shadow-xs"
+                        className="w-full py-1.5 sm:py-2 px-2 sm:px-3 rounded-lg sm:rounded-xl bg-academic-cta text-white font-bold text-[10px] sm:text-xs hover:bg-academic-cta-hover active:scale-[0.98] transition-all flex items-center justify-center gap-1 sm:gap-1.5 shadow-xs cursor-pointer"
                       >
-                        <span>{t('programs.consultBtn')}</span>
+                        <span>{t('pages.courses.viewDetailBtn')}</span>
                         <ArrowRight size={12} className="transition-colors flex-shrink-0" />
                       </button>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -185,7 +188,7 @@ export const FeaturedPrograms = () => {
           })}
         </div>
 
-        {/* Bottom Trust & Placement Test Banner: No overflow on mobile */}
+        {/* Bottom Trust & Placement Test Banner */}
         <div className="mt-10 sm:mt-12 bg-academic-soft-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 lg:p-8 border border-academic-border flex flex-col md:flex-row items-center justify-between gap-5 sm:gap-6 shadow-xs">
           <div className="flex items-center gap-3 sm:gap-4 text-left w-full md:w-auto">
             <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-academic-light-blue text-academic-primary flex items-center justify-center flex-shrink-0">
@@ -202,11 +205,11 @@ export const FeaturedPrograms = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-2.5 sm:gap-3 w-full md:w-auto items-stretch sm:items-center justify-center flex-shrink-0">
-            <a href={`#${SECTION_IDS.ROADMAP}`} className="w-full sm:w-auto">
+            <Link to="/courses" className="w-full sm:w-auto">
               <Button fullWidth size="sm" variant="outline" icon={<BookOpen size={14} />}>
                 {t('programs.viewRoadmapBtn')}
               </Button>
-            </a>
+            </Link>
             <a href={`#${SECTION_IDS.CONTACT}`} className="w-full sm:w-auto">
               <Button fullWidth size="sm" variant="primary" icon={<ArrowRight size={14} />}>
                 {t('programs.freeTestCta')}
