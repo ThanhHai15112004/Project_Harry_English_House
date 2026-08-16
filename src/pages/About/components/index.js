@@ -1,0 +1,11 @@
+export { AboutHero } from './AboutHero';
+export { HarryStory } from './HarryStory';
+export { HehOrigin } from './HehOrigin';
+export { EducationalPhilosophy } from './EducationalPhilosophy';
+export { AreasOfExpertise } from './AreasOfExpertise';
+export { EducationAndCertificates } from './EducationAndCertificates';
+export { AcademicActivities } from './AcademicActivities';
+export { PartnershipGallery } from './PartnershipGallery';
+export { TeachingTeam } from './TeachingTeam';
+export { LifeAtHehMoments } from './LifeAtHehMoments';
+export { AboutBottomCta } from './AboutBottomCta';

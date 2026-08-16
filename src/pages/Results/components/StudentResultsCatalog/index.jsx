@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ZoomIn, Star, Sparkles, Trophy, BookOpen, ArrowUpRight } from 'lucide-react';
+import { ZoomIn, Star, Sparkles, BookOpen, ArrowUpRight } from 'lucide-react';
 import { SectionTitle } from '@/components/common';
 
 export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
@@ -52,7 +52,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
               <button
                 key={tab.id}
                 type="button"
-                className={`px-4 sm:px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm whitespace-nowrap transition-all duration-200 cursor-pointer flex-shrink-0 ${
+                className={`px-4 sm:px-5 py-2.5 rounded-xl font-bold text-xs sm:text-sm whitespace-nowrap transition-all duration-200 cursor-pointer flex-shrink-0 focus:outline-hidden focus:ring-2 focus:ring-primary/40 ${
                   isSelected
                     ? 'bg-primary text-white shadow-md shadow-primary/20 ring-2 ring-primary/30'
                     : 'bg-white text-slate-700 hover:bg-slate-50 border border-slate-200'
@@ -105,7 +105,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                     <button
                       type="button"
                       className="relative h-64 sm:h-72 w-full rounded-2xl overflow-hidden bg-slate-900/5 border border-slate-200/90 flex items-center justify-center p-3 cursor-pointer group-hover:border-primary/40 transition-all duration-300 shadow-inner text-left focus:outline-hidden focus:ring-2 focus:ring-primary/50"
-                      onClick={() => onOpenScorecard && onOpenScorecard(featuredResult)}
+                      onClick={() => onOpenScorecard?.(featuredResult)}
                     >
                       <img
                         src={featuredResult.image}
@@ -184,8 +184,8 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                   {/* Card Action Link */}
                   <button
                     type="button"
-                    className="pt-4 mt-4 border-t border-slate-200/80 flex items-center justify-between text-xs text-cta font-bold cursor-pointer hover:text-primary transition-colors text-left w-full"
-                    onClick={() => onOpenScorecard && onOpenScorecard(featuredResult)}
+                    className="pt-4 mt-4 border-t border-slate-200/80 flex items-center justify-between text-xs text-cta font-bold cursor-pointer hover:text-primary transition-colors text-left w-full focus:outline-hidden focus:ring-2 focus:ring-primary/40"
+                    onClick={() => onOpenScorecard?.(featuredResult)}
                   >
                     <span className="flex items-center gap-1.5">
                       <ZoomIn size={15} />
@@ -200,18 +200,11 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
               <div className="lg:col-span-5 flex flex-col justify-between gap-4">
                 <div className="space-y-3 sm:space-y-3.5">
                   {regularResults.slice(0, 3).map((item) => (
-                    <div
+                    <button
                       key={item.id}
-                      role="button"
-                      tabIndex={0}
+                      type="button"
                       className="w-full text-left bg-academic-soft-white rounded-2xl p-3 sm:p-4 border border-academic-border hover:border-academic-cta hover:shadow-card hover:ring-2 hover:ring-academic-cta/20 cursor-pointer transition-all duration-200 flex items-center gap-3 sm:gap-4 group focus:outline-hidden focus:ring-2 focus:ring-primary/40"
-                      onClick={() => onOpenScorecard && onOpenScorecard(item)}
-                      onKeyDown={(e) => {
-                        if (e.key === 'Enter' || e.key === ' ') {
-                          e.preventDefault();
-                          onOpenScorecard && onOpenScorecard(item);
-                        }
-                      }}
+                      onClick={() => onOpenScorecard?.(item)}
                     >
                       {/* Thumbnail with uncropped contain image */}
                       <div className="w-20 sm:w-24 h-20 sm:h-24 rounded-xl overflow-hidden bg-white flex-shrink-0 relative border border-slate-200/90 p-1 group-hover:border-primary/40 transition-colors">
@@ -267,7 +260,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                           {item.caption}
                         </p>
                       </div>
-                    </div>
+                    </button>
                   ))}
                 </div>
               </div>
@@ -278,20 +271,13 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
             {regularResults.length > 3 && (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 pt-4">
                 {regularResults.slice(3).map((item) => (
-                  <div
+                  <button
                     key={item.id}
-                    role="button"
-                    tabIndex={0}
-                    className="rounded-3xl bg-academic-soft-white border border-slate-200 shadow-2xs hover:border-academic-cta hover:shadow-card-hover hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 overflow-hidden group flex flex-col justify-between cursor-pointer"
-                    onClick={() => onOpenScorecard && onOpenScorecard(item)}
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        onOpenScorecard && onOpenScorecard(item);
-                      }
-                    }}
+                    type="button"
+                    className="rounded-3xl bg-academic-soft-white border border-slate-200 shadow-2xs hover:border-academic-cta hover:shadow-card-hover hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 overflow-hidden group flex flex-col justify-between cursor-pointer text-left focus:outline-hidden focus:ring-2 focus:ring-primary/40"
+                    onClick={() => onOpenScorecard?.(item)}
                   >
-                    <div className="p-3.5 bg-white border-b border-slate-100 flex items-center justify-between gap-2">
+                    <div className="p-3.5 bg-white border-b border-slate-100 flex items-center justify-between gap-2 w-full">
                       <span className="px-2.5 py-0.5 rounded-md bg-academic-light-blue text-cta text-[11px] font-bold border border-blue-200">
                         {item.badge || 'Verified'}
                       </span>
@@ -302,7 +288,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                       )}
                     </div>
 
-                    <div className="h-48 sm:h-52 overflow-hidden bg-slate-900/5 p-2 flex items-center justify-center relative">
+                    <div className="h-48 sm:h-52 w-full overflow-hidden bg-slate-900/5 p-2 flex items-center justify-center relative">
                       <img
                         src={item.image}
                         alt={item.caption}
@@ -317,7 +303,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                       </div>
                     </div>
 
-                    <div className="p-3.5 bg-white border-t border-slate-100 space-y-1.5">
+                    <div className="p-3.5 bg-white border-t border-slate-100 space-y-1.5 w-full">
                       <h4 className="text-xs sm:text-sm font-bold text-academic-heading font-heading">
                         {item.studentName || item.caption}
                       </h4>
@@ -325,7 +311,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                         {item.description || item.caption}
                       </p>
                     </div>
-                  </div>
+                  </button>
                 ))}
               </div>
             )}

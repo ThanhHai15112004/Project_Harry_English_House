@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Sparkles, Award, Star, ZoomIn, Quote, CheckCircle2, ArrowRight } from 'lucide-react';
+import { Award, Star, ZoomIn, Quote, ArrowRight } from 'lucide-react';
 import { SectionTitle } from '@/components/common';
 
 export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
@@ -54,13 +54,11 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
 
               {/* Floating Scorecard Preview Card */}
               {storyData.scorecardImage && (
-                <div
-                  role="button"
-                  tabIndex={0}
-                  className="absolute -bottom-3 -right-3 sm:bottom-4 sm:right-4 w-44 sm:w-52 rounded-2xl bg-white p-2.5 border border-slate-200 shadow-xl hover:border-academic-cta transition-all duration-300 cursor-pointer group/card text-left"
+                <button
+                  type="button"
+                  className="absolute -bottom-3 -right-3 sm:bottom-4 sm:right-4 w-44 sm:w-52 rounded-2xl bg-white p-2.5 border border-slate-200 shadow-xl hover:border-academic-cta transition-all duration-300 cursor-pointer group/card text-left focus:outline-hidden focus:ring-2 focus:ring-primary/40"
                   onClick={() =>
-                    onOpenScorecard &&
-                    onOpenScorecard({
+                    onOpenScorecard?.({
                       image: storyData.scorecardImage,
                       studentName: storyData.studentName,
                       score: storyData.score,
@@ -68,19 +66,6 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                       description: storyData.tagline,
                     })
                   }
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                      e.preventDefault();
-                      onOpenScorecard &&
-                        onOpenScorecard({
-                          image: storyData.scorecardImage,
-                          studentName: storyData.studentName,
-                          score: storyData.score,
-                          caption: `Bảng điểm ${storyData.score} của ${storyData.studentName}`,
-                          description: storyData.tagline,
-                        });
-                    }
-                  }}
                 >
                   <div className="h-24 w-full rounded-xl overflow-hidden bg-slate-900/5 p-1 relative flex items-center justify-center">
                     <img
@@ -96,7 +81,7 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                     <span className="truncate">Bảng điểm thi thật</span>
                     <span className="text-cta font-heading">IDP/BC</span>
                   </div>
-                </div>
+                </button>
               )}
 
             </div>
@@ -153,8 +138,7 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                   type="button"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-white font-bold text-xs hover:bg-blue-800 transition-all shadow-md cursor-pointer"
                   onClick={() =>
-                    onOpenScorecard &&
-                    onOpenScorecard({
+                    onOpenScorecard?.({
                       image: storyData.scorecardImage,
                       studentName: storyData.studentName,
                       score: storyData.score,

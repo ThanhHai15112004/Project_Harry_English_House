@@ -108,13 +108,11 @@ export const ResultsHero = ({ onOpenScorecard }) => {
                 <div className="col-span-5 space-y-3 sm:space-y-4">
                   
                   {/* Real Scorecard Thumbnail Card */}
-                  <div
-                    role="button"
-                    tabIndex={0}
-                    className="rounded-2xl bg-white p-2.5 border border-slate-200/90 shadow-card hover:shadow-card-hover hover:border-academic-cta hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 cursor-pointer group text-left"
+                  <button
+                    type="button"
+                    className="w-full rounded-2xl bg-white p-2.5 border border-slate-200/90 shadow-card hover:shadow-card-hover hover:border-academic-cta hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 cursor-pointer group text-left focus:outline-hidden focus:ring-2 focus:ring-primary/40"
                     onClick={() =>
-                      onOpenScorecard &&
-                      onOpenScorecard({
+                      onOpenScorecard?.({
                         image: '/src/assets/feedback-hoc-vien/ket-qua-1.jpg',
                         studentName: 'Nguyễn Diễm Quỳnh',
                         score: '8.5',
@@ -122,19 +120,6 @@ export const ResultsHero = ({ onOpenScorecard }) => {
                         description: 'Đạt điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking sau lộ trình rèn luyện chuyên sâu tại HEH.',
                       })
                     }
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        onOpenScorecard &&
-                          onOpenScorecard({
-                            image: '/src/assets/feedback-hoc-vien/ket-qua-1.jpg',
-                            studentName: 'Nguyễn Diễm Quỳnh',
-                            score: '8.5',
-                            caption: 'Bảng điểm IELTS 8.5 Overall (L: 9.0 • R: 9.0 • S: 8.5 • W: 8.0)',
-                            description: 'Đạt điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking sau lộ trình rèn luyện chuyên sâu tại HEH.',
-                          });
-                      }
-                    }}
                   >
                     <div className="h-32 sm:h-36 w-full rounded-xl overflow-hidden bg-slate-900/5 p-1 relative flex items-center justify-center">
                       <img
@@ -154,16 +139,14 @@ export const ResultsHero = ({ onOpenScorecard }) => {
                       <span className="text-[11px] font-bold text-academic-heading font-heading">IDP IELTS 8.5</span>
                       <span className="text-[10px] font-extrabold text-cta bg-blue-50 px-1.5 py-0.5 rounded">9.0 L/R</span>
                     </div>
-                  </div>
+                  </button>
 
                   {/* Second Scorecard (Minh Hoàng 8.0) */}
-                  <div
-                    role="button"
-                    tabIndex={0}
-                    className="rounded-2xl bg-white p-2.5 border border-slate-200/90 shadow-card hover:shadow-card-hover hover:border-academic-cta hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 cursor-pointer group text-left"
+                  <button
+                    type="button"
+                    className="w-full rounded-2xl bg-white p-2.5 border border-slate-200/90 shadow-card hover:shadow-card-hover hover:border-academic-cta hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 cursor-pointer group text-left focus:outline-hidden focus:ring-2 focus:ring-primary/40"
                     onClick={() =>
-                      onOpenScorecard &&
-                      onOpenScorecard({
+                      onOpenScorecard?.({
                         image: '/src/assets/feedback-hoc-vien/ket-qua-2.jpg',
                         studentName: 'Trần Minh Hoàng',
                         score: '8.0',
@@ -171,19 +154,6 @@ export const ResultsHero = ({ onOpenScorecard }) => {
                         description: 'Nâng band điểm toàn diện với phương pháp làm bài tối ưu và chiến thuật xử lý đề thi thực chiến.',
                       })
                     }
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        onOpenScorecard &&
-                          onOpenScorecard({
-                            image: '/src/assets/feedback-hoc-vien/ket-qua-2.jpg',
-                            studentName: 'Trần Minh Hoàng',
-                            score: '8.0',
-                            caption: 'Chinh phục IELTS 8.0 ấn tượng (Reading 9.0, Listening 8.5)',
-                            description: 'Nâng band điểm toàn diện với phương pháp làm bài tối ưu và chiến thuật xử lý đề thi thực chiến.',
-                          });
-                      }
-                    }}
                   >
                     <div className="h-28 sm:h-32 w-full rounded-xl overflow-hidden bg-slate-900/5 p-1 relative flex items-center justify-center">
                       <img
@@ -203,7 +173,7 @@ export const ResultsHero = ({ onOpenScorecard }) => {
                       <span className="text-[11px] font-bold text-academic-heading font-heading">IELTS 8.0</span>
                       <span className="text-[10px] font-extrabold text-achievement bg-amber-50 px-1.5 py-0.5 rounded border border-amber-200">Reading 9.0</span>
                     </div>
-                  </div>
+                  </button>
 
                 </div>
 

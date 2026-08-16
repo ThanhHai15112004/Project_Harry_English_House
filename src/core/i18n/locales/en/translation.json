@@ -536,38 +536,77 @@
       }
     },
     "about": {
-      "badge": "ABOUT MR. HARRY & ACADEMY",
-      "title": "Fostering True Linguistic Mastery",
-      "subtitle": "6+ years of dedicated mentoring, official IDP IELTS partnership, and small-cohort personalized coaching",
-      "founderRole": "Founder & Head Instructor • IELTS 8.0",
-      "idpPartnerBadge": "Official IDP IELTS Partner",
-      "statIeltsLabel": "IELTS Overall",
-      "statExpLabel": "Teaching",
-      "statExpVal": "6+ Years",
-      "statStudentsLabel": "Learners",
-      "statStudentsVal": "1,000+",
-      "headInstructorBadge": "FOUNDER & HEAD INSTRUCTOR",
-      "quoteTitle": "Education is not merely completing a syllabus; it is understanding where each learner begins.",
-      "bioP1": "Holding a Bachelor's degree in English Linguistics and a certified IELTS 8.0 score, Mr. Harry (Anh Khôi) has spent over 6+ years teaching and empowering hundreds of learners across Vietnam to achieve their dreams of studying abroad, securing university admissions, and advancing their careers.",
-      "bioP2": "As an official Strategic Partner of IDP IELTS Vietnam, Mr. Harry actively participates in international pedagogical symposiums and educational initiatives endorsed by the Ministry of Education and Training.",
-      "quoteAuthor": "— Mr. Harry (Founder of HEH)",
-      "viewCoursesBtn": "Explore Courses",
-      "bookConsultBtn": "Book 1-on-1 Consultation",
-      "coreValuesBadge": "CORE VALUES",
-      "coreValuesTitle": "4 Core Pillars Defining Harry English House",
-      "p1Title": "Strategic IDP Partner",
-      "p1Desc": "Exclusive student subsidies on official IDP IELTS test registration and standardized mock test banks.",
-      "p2Title": "Small Cohort (6–10 Students)",
-      "p2Desc": "Strictly limited cohort size to maximize direct interaction and meticulous 1-on-1 pronunciation correction.",
-      "p3Title": "Customized Learning Pathways",
-      "p3Desc": "Curriculums tailored to individual diagnostic baselines and target milestones, rather than a generic formula.",
-      "p4Title": "7.5+ IELTS Certified Faculty",
-      "p4Desc": "100% faculty and academic mentors hold verified 7.5+ IELTS credentials and international teaching qualifications.",
-      "credentialsBadge": "CREDENTIALS & ACADEMIC RECOGNITION",
-      "credentialsTitle": "Academic Portfolio & Official Partnerships",
-      "bottomCtaTitle": "Embark on your English mastery journey with Harry",
-      "bottomCtaDesc": "Take a placement evaluation and receive personalized academic roadmap advice directly from Mr. Harry.",
-      "bottomCtaBtn": "Book Free 1-on-1 Consultation"
+      "heroBadge": "ABOUT HARRY KHOI",
+      "heroName": "Harry Khoi",
+      "heroTagline": "Educator. English Instructor. Founder of Harry English House.",
+      "heroDesc": "Empowering learners to overcome their fear of English, build authentic linguistic mastery, and achieve IELTS & Communication goals through high-impact, streamlined methodology.",
+      "heroCtaStory": "Read the Story",
+      "heroCtaPhilosophy": "Educational Philosophy",
+      "heroRoleTag": "Founder & Head Instructor",
+      "heroExperienceBadge": "8+ Years Experience",
+      "heroIeltsBadge": "IELTS 8.0 Official",
+      "story": {
+        "badge": "THE JOURNEY",
+        "title": "How Harry found his calling in English education",
+        "subtitle": "A journey born from a deep passion for language to a lasting mission of building a mentorship-driven learning sanctuary."
+      },
+      "origin": {
+        "badge": "HARRY ENGLISH HOUSE",
+        "title": "From a distinct teaching method to an authentic learning academy",
+        "subtitle": "Evolving from individual mentorship to an inspiring, small-cohort educational environment."
+      },
+      "philosophy": {
+        "badge": "EDUCATIONAL PHILOSOPHY",
+        "title": "Don't study more. Study right.",
+        "subtitle": "3 steadfast principles guiding every facet of instruction at Harry English House"
+      },
+      "expertise": {
+        "badge": "CORE EXPERTISE",
+        "title": "Areas of Professional Expertise",
+        "subtitle": "Focused strictly on core competencies that deliver measurable and lasting progress for learners"
+      },
+      "education": {
+        "badge": "ACADEMIC BACKGROUND",
+        "title": "Education & Professional Credentials",
+        "subtitle": "Academic portfolio recognized and certified by leading testing and pedagogical institutions",
+        "degreesTitle": "Formal Degrees & Qualifications",
+        "developmentTitle": "Professional Development & Partnerships",
+        "certTitle": "Specialized Credentials",
+        "featuredCertBadge": "Featured Credential",
+        "viewCertModal": "View Full Certificate"
+      },
+      "academicActivities": {
+        "badge": "ACADEMIC & INTERNATIONAL ENGAGEMENTS",
+        "title": "Beyond the Classroom.",
+        "subtitle": "Harry consistently learns, shares, and connects within professional international academic ecosystems.",
+        "featuredTag": "Featured International Event",
+        "locationLabel": "Location:",
+        "organizerLabel": "Organizer:"
+      },
+      "partnerships": {
+        "badge": "COLLABORATION & ENGAGEMENT",
+        "title": "Partnerships & Academic Media",
+        "subtitle": "Strategic collaboration with IDP IELTS Vietnam and recognized educational organizations across the region",
+        "viewMoreBtn": "View all activities",
+        "viewLessBtn": "Show less"
+      },
+      "team": {
+        "badge": "TEACHING TEAM",
+        "title": "Mentors Journeying with Harry",
+        "subtitle": "Dedicated, highly qualified instructors and academic advisors who genuinely care for student growth"
+      },
+      "moments": {
+        "badge": "LIFE AT HARRY ENGLISH HOUSE",
+        "title": "Moments at Harry English House",
+        "subtitle": "Learning, bonding, and memorable milestones behind every classroom session"
+      },
+      "bottomCta": {
+        "badge": "LEARN WITH HARRY",
+        "title": "It all starts with understanding your true proficiency level.",
+        "desc": "Consult directly with Harry English House to determine the exact roadmap and program for your goals.",
+        "consultBtn": "Book 1-on-1 Roadmap Consultation",
+        "coursesBtn": "Explore Courses"
+      }
     },
     "contact": {
       "badge": "CAMPUS & CONSULTATION",

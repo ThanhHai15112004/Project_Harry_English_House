@@ -536,38 +536,77 @@
       }
     },
     "about": {
-      "badge": "VỀ THẦY HARRY & TRUNG TÂM",
-      "title": "Hành Trình Kiến Tạo Bản Lĩnh Ngôn Ngữ",
-      "subtitle": "Hơn 6+ năm đào tạo chuyên sâu, đối tác chiến lược IDP IELTS và triết lý kèm sát từng học viên",
-      "founderRole": "Founder & Giảng viên chính • IELTS 8.0",
-      "idpPartnerBadge": "Đối tác chính thức IDP IELTS",
-      "statIeltsLabel": "IELTS Overall",
-      "statExpLabel": "Giảng dạy",
-      "statExpVal": "6+ Năm",
-      "statStudentsLabel": "Học viên",
-      "statStudentsVal": "1.000+",
-      "headInstructorBadge": "GIẢNG VIÊN TRƯỞNG & NHÀ SÁNG LẬP",
-      "quoteTitle": "Giáo dục không phải là hoàn thành một giáo trình, mà là thấu hiểu điểm xuất phát của từng học viên.",
-      "bioP1": "Tốt nghiệp cử nhân chuyên ngành Ngôn ngữ Anh và đạt chứng chỉ IELTS 8.0 chính thức, Thầy Harry (Anh Khôi) đã có hơn 6+ năm trực tiếp đứng lớp và đồng hành cùng hàng trăm bạn trẻ tại TP.HCM và cả nước chinh phục thành công mục tiêu du học, xét tuyển đại học và thăng tiến sự nghiệp.",
-      "bioP2": "Là Đối tác chiến lược chính thức của IDP IELTS Vietnam, thầy Harry thường xuyên tham gia các hội thảo học thuật, diễn đàn đổi mới phương pháp giảng dạy tiếng Anh quốc tế và các hoạt động học thuật do Bộ Giáo dục và Đào tạo bảo trợ.",
-      "quoteAuthor": "— Thầy Harry (Founder HEH)",
-      "viewCoursesBtn": "Xem các khóa học",
-      "bookConsultBtn": "Đặt lịch tư vấn 1-1",
-      "coreValuesBadge": "GIÁ TRỊ CỐT LÕI",
-      "coreValuesTitle": "4 Trụ Cột Tạo Nên Uy Tín Của Harry English House",
-      "p1Title": "Đối Tác Chiến Lược IDP",
-      "p1Desc": "Đặc quyền học viên được hỗ trợ voucher giảm trực tiếp lệ phí thi IELTS tại IDP và ngân hàng đề thi chuẩn hóa.",
-      "p2Title": "Quy Mô Nhỏ 6–10 Bạn",
-      "p2Desc": "Giới hạn sĩ số tinh gọn để tối đa hóa thời gian tương tác trực tiếp và sửa phát âm 1-1 từng buổi học.",
-      "p3Title": "Lộ Trình Cá Nhân Hóa",
-      "p3Desc": "May đo giáo trình bám sát xuất phát điểm và điểm yếu từng cá nhân, không áp dụng một công thức chung.",
-      "p4Title": "Đội Ngũ 7.5+ IELTS",
-      "p4Desc": "100% giảng viên và cố vấn học thuật có chứng chỉ tối thiểu 7.5+ IELTS và chuyên môn sư phạm vững vàng.",
-      "credentialsBadge": "CHỨNG CHỈ & HOẠT ĐỘNG CHUYÊN MÔN",
-      "credentialsTitle": "Hồ Sơ Năng Lực & Đối Tác Hợp Tác",
-      "bottomCtaTitle": "Bắt đầu hành trình chinh phục tiếng Anh cùng Harry",
-      "bottomCtaDesc": "Đăng ký làm bài kiểm tra đầu vào và nhận định hướng lộ trình học trực tiếp từ Thầy Harry.",
-      "bottomCtaBtn": "Đăng Ký Tư Vấn 1-1 Miễn Phí"
+      "heroBadge": "ABOUT HARRY KHOI",
+      "heroName": "Harry Khoi",
+      "heroTagline": "Educator. English Instructor. Founder of Harry English House.",
+      "heroDesc": "Người đồng hành giúp bạn xóa bỏ nỗi sợ tiếng Anh, xây dựng năng lực ngôn ngữ thực chất và bứt phá mục tiêu IELTS/Giao tiếp bằng phương pháp tinh gọn.",
+      "heroCtaStory": "Đọc câu chuyện",
+      "heroCtaPhilosophy": "Triết lý giáo dục",
+      "heroRoleTag": "Founder & Head Instructor",
+      "heroExperienceBadge": "8+ Năm Kinh Nghiệm",
+      "heroIeltsBadge": "IELTS 8.0 Official",
+      "story": {
+        "badge": "CÂU CHUYỆN",
+        "title": "Harry đến với việc giảng dạy tiếng Anh như thế nào?",
+        "subtitle": "Một hành trình bắt đầu từ niềm đam mê ngôn ngữ đến sứ mệnh kiến tạo môi trường học tập đồng hành và thấu hiểu."
+      },
+      "origin": {
+        "badge": "HARRY ENGLISH HOUSE",
+        "title": "Từ một cách dạy đến một môi trường học",
+        "subtitle": "Hành trình chuyển đổi từ lớp học cá nhân đến một không gian giáo dục chuẩn mực, kèm sát và đầy cảm hứng."
+      },
+      "philosophy": {
+        "badge": "TRIẾT LÝ GIÁO DỤC",
+        "title": "Không học nhiều hơn. Học đúng hơn.",
+        "subtitle": "3 nguyên tắc bất biến định hình nên toàn bộ phương pháp giảng dạy tại Harry English House"
+      },
+      "expertise": {
+        "badge": "CHUYÊN MÔN & KINH NGHIỆM",
+        "title": "Các Lĩnh Vực Chuyên Môn Trọng Tâm",
+        "subtitle": "Tập trung vào những năng lực cốt lõi mang lại giá trị tiến bộ rõ ràng nhất cho người học"
+      },
+      "education": {
+        "badge": "HỌC VẤN & BẰNG CẤP",
+        "title": "Học Vấn & Phát Triển Chuyên Môn",
+        "subtitle": "Hồ sơ năng lực học thuật được chứng nhận bởi các tổ chức khảo thí và đào tạo uy tín",
+        "degreesTitle": "Học Vấn & Bằng Cấp Chính Quy",
+        "developmentTitle": "Phát Triển Chuyên Môn & Đối Tác",
+        "certTitle": "Chứng Chỉ Chuyên Ngành",
+        "featuredCertBadge": "Chứng nhận nổi bật",
+        "viewCertModal": "Xem chứng chỉ chi tiết"
+      },
+      "academicActivities": {
+        "badge": "HOẠT ĐỘNG HỌC THUẬT & QUỐC TẾ",
+        "title": "Không chỉ đứng lớp.",
+        "subtitle": "Harry duy trì việc học hỏi, chia sẻ và kết nối trong các môi trường học thuật chuyên nghiệp.",
+        "featuredTag": "Sự kiện quốc tế nổi bật",
+        "locationLabel": "Địa điểm:",
+        "organizerLabel": "Đơn vị tổ chức:"
+      },
+      "partnerships": {
+        "badge": "HỢP TÁC & KẾT NỐI",
+        "title": "Hoạt Động Đối Tác & Truyền Thông Học Thuật",
+        "subtitle": "Hợp tác chiến lược cùng IDP IELTS Vietnam và các tổ chức giáo dục uy tín trong và ngoài nước",
+        "viewMoreBtn": "Xem thêm tất cả hoạt động",
+        "viewLessBtn": "Thu gọn danh sách"
+      },
+      "team": {
+        "badge": "ĐỘI NGŨ ĐỒNG HÀNH",
+        "title": "Những người đồng hành cùng Harry",
+        "subtitle": "Đội ngũ giảng viên và cố vấn học thuật tận tâm, vững chuyên môn và thấu hiểu học viên"
+      },
+      "moments": {
+        "badge": "LIFE AT HARRY ENGLISH HOUSE",
+        "title": "Những khoảnh khắc tại Harry",
+        "subtitle": "Học tập, kết nối và những khoảnh khắc đáng nhớ phía sau lớp học"
+      },
+      "bottomCta": {
+        "badge": "HỌC CÙNG HARRY",
+        "title": "Bắt đầu từ việc hiểu đúng trình độ của bạn.",
+        "desc": "Trao đổi trực tiếp với Harry English House để xác định chương trình và lộ trình phù hợp với mục tiêu của bạn.",
+        "consultBtn": "Nhận tư vấn lộ trình 1-1",
+        "coursesBtn": "Xem các khóa học"
+      }
     },
     "contact": {
       "badge": "LIÊN HỆ & TƯ VẤN",
