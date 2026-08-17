@@ -5,6 +5,7 @@
     "programs": "Khóa học",
     "courseDetail": "Chi tiết khóa học",
     "results": "Thành tích học viên",
+    "aboutContact": "Liên hệ",
     "founder": "Về Harry Khôi",
     "contact": "Liên hệ",
     "ctaBtn": "Nhận tư vấn"
@@ -87,7 +88,8 @@
     "tag2": "100% Giảng viên 8.0+",
     "tag3": "Chữa bài không giới hạn",
     "instructorLabel": "Giảng viên phụ trách",
-    "idpPartner": "Đối tác chiến lược IDP IELTS"
+    "idpPartner": "Đối tác chiến lược IDP IELTS",
+    "officialRecordsBadge": "100% Bằng Cấp & Chứng Chỉ Thực Tế"
   },
   "programs": {
     "badge": "CHƯƠNG TRÌNH ĐÀO TẠO",
@@ -612,7 +614,7 @@
         "durationLabel": "Thời gian đào tạo:",
         "courseLabel": "Khóa học tham gia:",
         "challengeTitle": "Khó khăn & Điểm nghẽn ban đầu",
-        "solutionTitle": "Phương pháp rèn luyện tại HEH",
+        "solutionTitle": "Phương pháp rèn luyện tại HIU",
         "viewProof": "Xem bảng điểm đối chứng"
       },
       "studentStory": {
@@ -714,9 +716,9 @@
           "badge1": "1.000+ Học viên tin tưởng",
           "badge2": "Hỗ trợ 1-1 tận tâm",
           "cta1": "Đội ngũ giảng dạy",
-          "cta2": "Khoảnh khắc tại HEH",
+          "cta2": "Khoảnh khắc tại HIU",
           "cornerBadge": "Cộng đồng học tập tích cực",
-          "cardRole": "Cuộc Sống Tại HEH",
+          "cardRole": "Cuộc Sống Tại HIU",
           "cardSub": "Gắn kết • Thân thiện • Đồng hành",
           "statTitle": "1.000+ Học Viên Bứt Phá",
           "statDesc": "Đồng hành từ con số 0 đến mục tiêu"
@@ -866,9 +868,9 @@
       "q1": "Em chưa biết trình độ hiện tại của mình thì có đăng ký tư vấn được không?",
       "a1": "Hoàn toàn được bạn nhé! Bạn không cần chuẩn bị trước. Sau khi nhận thông tin, Harry English House sẽ sắp xếp một buổi đánh giá năng lực 4 kỹ năng hoàn toàn miễn phí để chẩn đoán chính xác xuất phát điểm và tư vấn lớp phù hợp nhất.",
       "q2": "Harry English House có lớp Online không và chất lượng như thế nào?",
-      "a2": "Có bạn nhé. Các lớp Online tại HEH được giảng dạy qua nền tảng bản quyền tương tác 100% hai chiều trực tiếp với giảng viên. Mỗi buổi học đều có video ghi hình để xem lại và bài tập Viết/Nói được chấm chữa chi tiết 1-1 như học trực tiếp.",
+      "a2": "Có bạn nhé. Các lớp Online tại HIU được giảng dạy qua nền tảng bản quyền tương tác 100% hai chiều trực tiếp với giảng viên. Mỗi buổi học đều có video ghi hình để xem lại và bài tập Viết/Nói được chấm chữa chi tiết 1-1 như học trực tiếp.",
       "q3": "Quy mô mỗi lớp học tại trung tâm là bao nhiêu học viên?",
-      "a3": "HEH kiên định theo đuổi mô hình lớp tinh gọn 6–10 học viên (hoặc lớp kèm 1-1, 1-2). Quy mô này đảm bảo thời lượng thực hành Nói tối đa và thầy cô có thể sửa từng câu văn Task 1 & Task 2 cho từng bạn.",
+      "a3": "HIU kiên định theo đuổi mô hình lớp tinh gọn 6–10 học viên (hoặc lớp kèm 1-1, 1-2). Quy mô này đảm bảo thời lượng thực hành Nói tối đa và thầy cô có thể sửa từng câu văn Task 1 & Task 2 cho từng bạn.",
       "q4": "Sau khi gửi biểu mẫu thì bao lâu em sẽ nhận được phản hồi?",
       "a4": "Đội ngũ học thuật và Thầy Harry sẽ chủ động liên hệ với bạn qua Số điện thoại/Zalo trong vòng tối đa 24 giờ làm việc kể từ khi nhận được thông tin đăng ký.",
       "stickyCall": "Gọi Ngay",
@@ -1083,16 +1085,44 @@
         "aiName": "Ms. Ái"
       },
       "moments": {
-        "m1": "Lớp học tương tác tại cơ sở Q7",
+        "m1": "Lớp học tương tác chuyên sâu tại cơ sở Q7",
         "m2": "Buổi chia sẻ phương pháp học cùng học viên",
         "m3": "Hoạt động rèn luyện phản xạ nhóm nhỏ",
-        "m4": "Không gian học tập thân thiện tại HEH",
+        "m4": "Không gian học tập thân thiện, hiện đại tại HIU",
         "m5": "Buổi kiểm tra đánh giá năng lực 1-1",
-        "m6": "Khoảnh khắc nhận chứng chỉ cùng học viên"
+        "m6": "Đội ngũ giảng viên & Cố vấn học thuật tận tâm",
+        "m7": "Khoảnh khắc giao lưu và chăm sóc học viên",
+        "m8": "Khoảnh khắc nhận chứng chỉ cùng học viên",
+        "m9": "Buổi tổng kết khóa học và gắn kết cộng đồng",
+        "m10": "Đại diện tham dự Diễn đàn Giáo dục Đại học Quốc tế EMGS 2025",
+        "m11": "Chụp ảnh lưu niệm cùng các chuyên gia giáo dục quốc tế",
+        "m12": "Thuyết trình chuyên môn về giải pháp đào tạo tiếng Anh",
+        "m13": "Thảo luận học thuật cùng đại diện các trường đại học",
+        "m14": "Hợp tác đào tạo và giao lưu cùng đối tác IDP IELTS",
+        "m15": "Sự kiện kết nối học thuật và định hướng học viên",
+        "m16": "Kỷ niệm ngày hội giáo dục và phát triển ngôn ngữ",
+        "tags": {
+          "1": "Lớp học tương tác",
+          "2": "Hội thảo phương pháp",
+          "3": "Luyện phản xạ nhóm",
+          "4": "Không gian học tập",
+          "5": "Kiểm tra 1-1",
+          "6": "Đội ngũ giảng dạy",
+          "7": "Đồng hành học viên",
+          "8": "Trao chứng chỉ",
+          "9": "Cộng đồng HIU",
+          "10": "Diễn đàn EMGS 2025",
+          "11": "Giao lưu quốc tế",
+          "12": "Thuyết trình chuyên môn",
+          "13": "Kết nối đối tác",
+          "14": "Đối tác IDP IELTS",
+          "15": "Định hướng học thuật",
+          "16": "Ngày hội giáo dục"
+        }
       }
     },
     "testimonials": {
-      "quote": "Kết quả \"nhà trồng\" - Biết ơn các ngoan xinh iu vì đã cố gắng và tin tưởng đồng hành cùng HEH!",
+      "quote": "Kết quả \"nhà trồng\" - Biết ơn các ngoan xinh iu vì đã cố gắng và tin tưởng đồng hành cùng HIU!",
       "hl1Label": "Điểm IELTS nổi bật",
       "hl1Sub": "Listening 9.0 • Reading 9.0",
       "hl1Badge": "Top 1% Xuất Sắc",
@@ -1128,7 +1158,7 @@
       "r1Badge": "Top 1% Xuất Sắc",
       "r1Target": "Mục tiêu: 7.5+",
       "r1Caption": "Bứt phá xuất sắc IELTS 8.5 Overall (Listening 9.0, Reading 9.0)",
-      "r1Desc": "Đạt điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking sau lộ trình rèn luyện chuyên sâu tại HEH.",
+      "r1Desc": "Đạt điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking sau lộ trình rèn luyện chuyên sâu tại HIU.",
       "r2Badge": "Band 8.0",
       "r2Target": "Mục tiêu: 7.0+",
       "r2Caption": "Chinh phục IELTS 8.0 ấn tượng (Reading 9.0, Listening 8.5)",
@@ -1157,7 +1187,7 @@
       "fb2Tag": "Cảm nhận học viên",
       "fb3Caption": "Tiến bộ vượt bậc sau khóa học, tự tin giao tiếp và làm bài thi.",
       "fb3Tag": "Tiến bộ vượt bậc",
-      "fb4Caption": "Sự tận tâm của thầy cô HEH giúp em vượt qua áp lực phòng thi.",
+      "fb4Caption": "Sự tận tâm của thầy cô HIU giúp em vượt qua áp lực phòng thi.",
       "fb4Tag": "Tận tâm 100%",
       "fb5Caption": "Tự tin nói tiếng Anh tự nhiên, phản xạ nhanh và chuẩn phát âm.",
       "fb5Tag": "Tự tin phản xạ",
@@ -1166,7 +1196,7 @@
       "fb7Caption": "Đánh giá chất lượng lớp kèm tuyệt vời, không khí học tập tích cực.",
       "fb7Tag": "Chất lượng cao",
       "fb8Caption": "Cảm ơn thầy Khôi và trung tâm đã luôn đồng hành và động viên em.",
-      "fb8Tag": "Tri ân thầy cô",
+      "fb8Tag": "Triân thầy cô",
       "h1Prefix": "IELTS",
       "h1Suffix": "",
       "h2Prefix": "TOEIC",
@@ -1240,7 +1270,7 @@
       "fb5Author": "Học viên Giao tiếp",
       "fb6Author": "Học viên Writing-Speaking",
       "fb7Author": "Học viên Lớp Kèm",
-      "fb8Author": "Học viên HEH"
+      "fb8Author": "Học viên HIU"
     },
     "courses": {
       "ielts_0_3": {
@@ -1597,7 +1627,7 @@
         "title": "Khóa IELTS Chuyên Sâu (6.0 - 7.5+)",
         "level": "Nâng cao (Target 6.5 - 7.5+)",
         "target": "Chữa chuyên sâu Writing & Speaking, chiến thuật giải đề Cambridge bứt phá 7.0–7.5+",
-        "curriculum": "Cambridge IELTS 15-18, IELTS Advantage, Bộ đề dự đoán thực chiến HEH",
+        "curriculum": "Cambridge IELTS 15-18, IELTS Advantage, Bộ đề dự đoán thực chiến HIU",
         "duration": "3–6 tháng",
         "weeklySchedule": "2–3 buổi / tuần",
         "classSize": "7 bạn (Thầy trực tiếp kèm)",
@@ -1606,7 +1636,7 @@
         "format": "Offline Q7 (T7 16h30, CN 15h30)",
         "highlights": [
           "Thầy Harry (IELTS 8.0 - Đối tác IDP) trực tiếp giảng dạy",
-          "Giáo trình: Cambridge 15-18 & Bộ đề dự đoán độc quyền HEH",
+          "Giáo trình: Cambridge 15-18 & Bộ đề dự đoán độc quyền HIU",
           "Sĩ số giới hạn 7 bạn học nghiêm túc bứt phá band 7.5+",
           "Chấm chữa Writing & Speaking 1-1 không giới hạn số lượng"
         ],
@@ -2480,7 +2510,7 @@
       "btnRedo": "Làm lại câu này",
       "btnNext": "Sang câu kế tiếp →",
       "btnContinue": "Tiếp tục bài học →",
-      "correctMessage": "Chính xác tuyệt đối! Xuất sắc! 🎉",
+      "correctMessage": "Chính xác tuyệt đối! Xuất sắc!",
       "correctAnswer": "Đáp án chuẩn:",
       "wrongMessage": "Chưa chính xác! Hãy nghe lại và đối chiếu từ nhé:",
       "youTyped": "Bạn đã gõ:",

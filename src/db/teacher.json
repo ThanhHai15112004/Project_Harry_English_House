@@ -1,6 +1,6 @@
 {
   "centerName": "Harry English House",
-  "shortName": "HEH",
+  "shortName": "HIU",
   "sloganKey": "db.teacher.slogan",
   "founder": {
     "name": "Harry (Anh Khôi)",
@@ -207,8 +207,58 @@
     },
     {
       "id": 6,
-      "image": "/src/assets/ki-niem/ki-niem-8.jpg",
+      "image": "/src/assets/ki-niem/ki-niem-6.jpg",
       "captionKey": "db.teacher.moments.m6"
+    },
+    {
+      "id": 7,
+      "image": "/src/assets/ki-niem/ki-niem-7.jpg",
+      "captionKey": "db.teacher.moments.m7"
+    },
+    {
+      "id": 8,
+      "image": "/src/assets/ki-niem/ki-niem-8.jpg",
+      "captionKey": "db.teacher.moments.m8"
+    },
+    {
+      "id": 9,
+      "image": "/src/assets/ki-niem/ki-niem-9.jpg",
+      "captionKey": "db.teacher.moments.m9"
+    },
+    {
+      "id": 10,
+      "image": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-1.jpg",
+      "captionKey": "db.teacher.moments.m10"
+    },
+    {
+      "id": 11,
+      "image": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-nhom-1.jpg",
+      "captionKey": "db.teacher.moments.m11"
+    },
+    {
+      "id": 12,
+      "image": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg",
+      "captionKey": "db.teacher.moments.m12"
+    },
+    {
+      "id": 13,
+      "image": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-2.jpg",
+      "captionKey": "db.teacher.moments.m13"
+    },
+    {
+      "id": 14,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-1.jpg",
+      "captionKey": "db.teacher.moments.m14"
+    },
+    {
+      "id": 15,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-6.jpg",
+      "captionKey": "db.teacher.moments.m15"
+    },
+    {
+      "id": 16,
+      "image": "/src/assets/hop-tac-truyen-thong/hop-tac-9.jpg",
+      "captionKey": "db.teacher.moments.m16"
     }
   ]
 }

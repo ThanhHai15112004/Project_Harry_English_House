@@ -13,6 +13,7 @@ import {
   HelpCircle,
   ChevronDown,
   ChevronUp,
+  Lightbulb,
 } from 'lucide-react';
 
 export const DictationTab = ({
@@ -281,8 +282,9 @@ export const DictationTab = ({
       </div>
 
       {/* 4. Tip box */}
-      <div className="p-3.5 rounded-2xl bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/40 text-xs text-amber-900 dark:text-amber-300 font-medium flex items-center justify-between">
-        <span>💡 <strong>{t('dictation.practice.tipTitle')}</strong> {t('dictation.practice.tipContent')}</span>
+      <div className="p-3.5 rounded-2xl bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-900/40 text-xs text-amber-900 dark:text-amber-300 font-medium flex items-center gap-2">
+        <Lightbulb size={16} className="text-amber-600 dark:text-amber-400 flex-shrink-0" />
+        <span><strong>{t('dictation.practice.tipTitle')}</strong> {t('dictation.practice.tipContent')}</span>
       </div>
 
       {/* 5. Collapsible Plain Transcript */}

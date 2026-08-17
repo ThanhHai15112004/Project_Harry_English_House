@@ -42,7 +42,7 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
         { label: 'Speaking', value: '8.5' },
         { label: 'Writing', value: '8.0' },
       ],
-      quote: 'Đạt band điểm tuyệt đối 9.0 Reading & 9.0 Listening nhờ phương pháp tư duy bản chất và chiến thuật xử lý bẫy đề thi tại HEH.',
+      quote: 'Đạt band điểm tuyệt đối 9.0 Reading & 9.0 Listening nhờ phương pháp tư duy bản chất và chiến thuật xử lý bẫy đề thi tại HIU.',
     },
     {
       id: 'showcase-2',
@@ -131,13 +131,13 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
   const getTagText = (item) => {
     if (item.category === 'ielts') return 'IELTS Academic';
     if (item.category === 'highschool') return 'Tuyển Sinh 10';
-    return 'Học viên HEH';
+    return 'Học viên HIU';
   };
 
   const getCourseText = (item) => {
     if (item.targetKey) return t(item.targetKey);
     if (item.descriptionKey) return t(item.descriptionKey);
-    return 'Khóa học tại HEH';
+    return 'Khóa học tại HIU';
   };
 
   const getQuoteText = (item) => {
@@ -405,7 +405,7 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
                       </button>
 
                       <span className="text-[10px] text-academic-muted font-semibold uppercase">
-                        HEH Verified
+                        HIU Verified
                       </span>
                     </div>
 

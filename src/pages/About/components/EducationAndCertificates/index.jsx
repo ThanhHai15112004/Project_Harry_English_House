@@ -1,18 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { GraduationCap, ShieldCheck, ZoomIn, ChevronDown, ChevronUp } from 'lucide-react';
-import { SectionTitle, Button } from '@/components/common';
+import {
+  GraduationCap,
+  ShieldCheck,
+  ZoomIn,
+  Award,
+} from 'lucide-react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, FreeMode } from 'swiper/modules';
+import { SectionTitle } from '@/components/common';
+
+import 'swiper/css';
+import 'swiper/css/free-mode';
 
 export const EducationAndCertificates = ({ educationData, certificates = [], onOpenCertificate }) => {
   const { t } = useTranslation();
-  const [showAllCerts, setShowAllCerts] = useState(false);
-
-  const initialCount = 8;
-  const visibleCerts = showAllCerts ? certificates : certificates.slice(0, initialCount);
-  const hasMore = certificates.length > initialCount;
 
   return (
-    <section className="py-16 sm:py-24 bg-academic-soft-white border-b border-academic-border">
+    <section className="py-16 sm:py-24 bg-academic-soft-white border-b border-academic-border overflow-hidden">
       <div className="app-container">
         
         {/* Section Header */}
@@ -24,7 +29,7 @@ export const EducationAndCertificates = ({ educationData, certificates = [], onO
 
         {/* 1. Degrees & Professional Development (2 Columns) */}
         {educationData && (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-14">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
             
             {/* Formal Degrees */}
             <div className="bg-white rounded-3xl p-6 sm:p-8 border border-academic-border shadow-card space-y-6">
@@ -89,73 +94,86 @@ export const EducationAndCertificates = ({ educationData, certificates = [], onO
           </div>
         )}
 
-        {/* 2. Certificates Showcase Grid with Hierarchy */}
+        {/* 2. Specialized Certificates Header (Without Arrows) */}
         {certificates && certificates.length > 0 && (
-          <div className="space-y-6">
-            <div className="flex items-center justify-between">
-              <div className="space-y-1">
-                <h3 className="text-lg sm:text-xl font-bold text-academic-heading font-heading">
-                  {t('pages.about.education.certTitle')}
-                </h3>
-                <p className="text-xs text-academic-muted">
-                  {t('about.officialRecordsBadge')}
-                </p>
-              </div>
+          <div className="space-y-1.5 mb-6 text-left">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-100/80 dark:bg-sky-950 text-primary dark:text-sky-300 text-xs font-bold">
+              <Award size={14} />
+              <span>{t('about.officialRecordsBadge')}</span>
             </div>
+            <h3 className="text-xl sm:text-2xl font-black text-academic-heading dark:text-white font-heading tracking-tight">
+              {t('pages.about.education.certTitle')}
+            </h3>
+          </div>
+        )}
 
-            {/* Grid of Certificates */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-              {visibleCerts.map((cert) => (
+      </div>
+
+      {/* 3. Full-Width Bleed Marquee Swiper Slider for Certificates */}
+      {certificates && certificates.length > 0 && (
+        <div className="relative w-full px-4 sm:px-6 lg:px-8 mt-2">
+          {/* Edge Fade Overlays */}
+          <div className="absolute left-0 top-0 bottom-0 w-10 sm:w-16 bg-gradient-to-r from-academic-soft-white to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-10 sm:w-16 bg-gradient-to-l from-academic-soft-white to-transparent z-10 pointer-events-none" />
+
+          <Swiper
+            modules={[Autoplay, FreeMode]}
+            grabCursor={true}
+            freeMode={true}
+            loop={true}
+            speed={5000}
+            autoplay={{
+              delay: 0,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            }}
+            spaceBetween={18}
+            slidesPerView={1.5}
+            breakpoints={{
+              480: { slidesPerView: 2.3, spaceBetween: 18 },
+              640: { slidesPerView: 3.2, spaceBetween: 20 },
+              1024: { slidesPerView: 4.4, spaceBetween: 22 },
+              1280: { slidesPerView: 5.5, spaceBetween: 24 },
+              1536: { slidesPerView: 6.5, spaceBetween: 26 },
+            }}
+            className="w-full !py-4 cursor-grab active:cursor-grabbing select-none [&_.swiper-wrapper]:!ease-linear"
+          >
+            {certificates.map((cert) => (
+              <SwiperSlide key={cert.id} className="!h-auto">
                 <button
-                  key={cert.id}
                   type="button"
-                  className="rounded-2xl bg-white border border-slate-200 shadow-2xs hover:border-academic-cta hover:shadow-card hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 overflow-hidden group cursor-pointer flex flex-col justify-between text-left focus:outline-hidden focus:ring-2 focus:ring-primary/40"
                   onClick={() => onOpenCertificate?.(cert)}
+                  className="w-full h-full rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:border-primary hover:shadow-card hover:ring-2 hover:ring-primary/20 transition-all duration-300 overflow-hidden group cursor-grab active:cursor-grabbing flex flex-col justify-between text-left focus:outline-hidden"
                 >
-                  <div className="h-40 sm:h-48 w-full bg-slate-900/5 p-2 flex items-center justify-center relative overflow-hidden group-hover:bg-slate-900/10 transition-colors">
+                  <div className="h-44 sm:h-52 w-full bg-slate-900/5 p-2.5 flex items-center justify-center relative overflow-hidden group-hover:bg-slate-900/10 transition-colors">
                     <img
                       src={cert.image}
                       alt={t(cert.titleKey)}
-                      className="w-full h-full object-contain rounded-xl group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-contain rounded-xl group-hover:scale-105 transition-transform duration-500 pointer-events-none"
                       loading="lazy"
                     />
-                    <div className="absolute inset-0 bg-academic-heading/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white transition-opacity rounded-xl m-1.5">
-                      <div className="px-3 py-1 rounded-md bg-white/20 backdrop-blur-md border border-white/40 flex items-center gap-1.5 text-xs font-bold shadow-md">
+                    <div className="absolute inset-0 bg-academic-heading/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white transition-opacity rounded-xl m-2">
+                      <div className="px-3 py-1.5 rounded-xl bg-white/20 backdrop-blur-md border border-white/40 flex items-center gap-1.5 text-xs font-bold shadow-md">
                         <ZoomIn size={14} />
                         <span>{t('pages.about.education.viewCertModal')}</span>
                       </div>
                     </div>
                   </div>
 
-                  <div className="p-3 bg-white border-t border-slate-100 w-full">
-                    <p className="text-xs font-bold text-academic-heading truncate font-heading">
+                  <div className="p-3.5 bg-white border-t border-slate-100 w-full space-y-1">
+                    <p className="text-xs font-bold text-academic-heading truncate font-heading group-hover:text-primary transition-colors">
                       {t(cert.titleKey)}
                     </p>
+                    <span className="inline-block text-[10px] text-primary dark:text-sky-400 font-bold">
+                      Chứng nhận Chuyên môn IDP / TESOL
+                    </span>
                   </div>
                 </button>
-              ))}
-            </div>
-
-            {/* View More Toggle */}
-            {hasMore && (
-              <div className="text-center pt-6">
-                <Button
-                  variant="outline"
-                  size="md"
-                  className="bg-white hover:bg-slate-50 border-slate-300 font-bold text-academic-heading shadow-2xs cursor-pointer"
-                  icon={showAllCerts ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-                  onClick={() => setShowAllCerts(!showAllCerts)}
-                >
-                  {showAllCerts
-                    ? t('pages.results.gallery.viewLessBtn')
-                    : t('pages.results.gallery.viewMoreBtn', { count: certificates.length })}
-                </Button>
-              </div>
-            )}
-          </div>
-        )}
-
-      </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      )}
     </section>
   );
 };

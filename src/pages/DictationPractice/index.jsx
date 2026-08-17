@@ -48,7 +48,7 @@ export const DictationPracticePage = () => {
 
   return (
     <MainLayout>
-      <div className="pt-28 pb-20 bg-slate-50/50 dark:bg-[#070E1E] min-h-screen">
+      <div className="pt-20 md:pt-24 pb-14 bg-slate-50/50 dark:bg-[#070E1E] min-h-screen">
         <div className="app-container space-y-6 max-w-7xl">
           {/* Back button */}
           <div className="flex items-center justify-between">

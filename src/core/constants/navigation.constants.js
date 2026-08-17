@@ -24,10 +24,17 @@ export const SECTION_IDS = {
 
 export const NAV_ITEMS = [
   { id: 'home', labelKey: 'nav.home', path: ROUTES.HOME },
-  { id: 'dictation', labelKey: 'nav.dictation', path: ROUTES.DICTATION },
   { id: 'programs', labelKey: 'nav.programs', path: ROUTES.COURSES },
   { id: 'results', labelKey: 'nav.results', path: ROUTES.RESULTS },
-  { id: 'founder', labelKey: 'nav.founder', path: ROUTES.ABOUT },
-  { id: 'contact', labelKey: 'nav.contact', path: ROUTES.CONTACT },
+  {
+    id: 'about-contact',
+    labelKey: 'nav.aboutContact',
+    path: ROUTES.ABOUT,
+    dropdown: [
+      { id: 'founder', labelKey: 'nav.founder', path: ROUTES.ABOUT },
+      { id: 'contact', labelKey: 'nav.contact', path: ROUTES.CONTACT },
+    ],
+  },
+  { id: 'dictation', labelKey: 'nav.dictation', path: ROUTES.DICTATION },
 ];
 

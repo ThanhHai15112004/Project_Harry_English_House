@@ -173,7 +173,7 @@ export const AboutHero = ({ founderData }) => {
         anchor: 'moments',
       },
       image: kiNiem4,
-      imageAlt: 'Môi trường học tập đồng hành và gắn kết tại HEH',
+      imageAlt: 'Môi trường học tập đồng hành và gắn kết tại HIU',
       cornerIcon: Users,
       cornerBadge: t('pages.about.heroSlides.community.cornerBadge'),
       cardRole: t('pages.about.heroSlides.community.cardRole'),

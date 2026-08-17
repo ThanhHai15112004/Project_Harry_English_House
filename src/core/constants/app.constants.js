@@ -4,7 +4,8 @@
 export const APP_INFO = {
   NAME: 'Harry English House',
   BRAND_NAME: 'Harry English House',
-  SHORT_NAME: 'HEH',
+  SLOGAN: 'Tiếng Anh Thực Chiến - Vững Bước Tương Lai',
+  SHORT_NAME: 'HIU',
   SUBTITLE: 'Trung Tâm Đào Tạo Anh Ngữ & Luyện Thi IELTS',
   TAGLINE: 'Không chỉ học mà còn thực sự làm chủ ngôn ngữ',
   TAGLINE_VI: 'IELTS & Tiếng Anh Học Thuật',

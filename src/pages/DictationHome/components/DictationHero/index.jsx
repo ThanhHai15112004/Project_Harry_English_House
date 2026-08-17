@@ -7,7 +7,7 @@ export const DictationHero = ({ searchTerm, onSearchChange, selectedLevel, onLev
   const levels = ['ALL', 'A1', 'A2', 'B1', 'B2', 'C1', 'TOEIC', 'IELTS'];
 
   return (
-    <section className="relative pt-32 pb-16 md:pt-40 md:pb-20 overflow-hidden bg-gradient-to-b from-blue-50/60 via-slate-50 to-white dark:from-[#091428] dark:via-[#0c1a33] dark:to-[#091224] border-b border-slate-200/80 dark:border-slate-800/80">
+    <section className="relative pt-24 pb-12 md:pt-28 md:pb-16 overflow-hidden bg-gradient-to-b from-blue-50/60 via-slate-50 to-white dark:from-[#091428] dark:via-[#0c1a33] dark:to-[#091224] border-b border-slate-200/80 dark:border-slate-800/80">
       {/* Subtle Background Glows */}
       <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[700px] h-[320px] bg-gradient-to-r from-blue-400/10 via-sky-400/15 to-indigo-500/10 dark:from-sky-500/10 dark:via-blue-600/10 dark:to-indigo-600/10 blur-3xl -z-10 rounded-full pointer-events-none" />
 

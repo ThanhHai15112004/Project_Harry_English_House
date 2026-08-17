@@ -44,6 +44,9 @@ export const Navbar = () => {
 
   // Kiểm tra trạng thái đang kích hoạt (active) của menu
   const isItemActive = (item) => {
+    if (item.dropdown) {
+      return item.dropdown.some((sub) => location.pathname === sub.path || location.pathname.startsWith(`${sub.path}/`));
+    }
     if (item.path === ROUTES.HOME) {
       return location.pathname === ROUTES.HOME;
     }
@@ -55,16 +58,17 @@ export const Navbar = () => {
     switch (id) {
       case 'home':
         return <Home size={18} className="text-primary dark:text-sky-400" />;
-      case 'dictation':
-        return <Headphones size={18} className="text-primary dark:text-sky-400" />;
       case 'programs':
         return <BookOpen size={18} className="text-primary dark:text-sky-400" />;
       case 'results':
         return <Award size={18} className="text-achievement" />;
+      case 'about-contact':
       case 'founder':
         return <GraduationCap size={18} className="text-primary dark:text-sky-400" />;
       case 'contact':
         return <PhoneCall size={18} className="text-primary dark:text-sky-400" />;
+      case 'dictation':
+        return <Headphones size={18} className="text-primary dark:text-sky-400" />;
       default:
         return <Sparkles size={18} className="text-primary dark:text-sky-400" />;
     }
@@ -102,7 +106,7 @@ export const Navbar = () => {
           </Link>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-1.5">
+          <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1.5 flex-shrink-0">
             {NAV_ITEMS.map((item) => {
               const active = isItemActive(item);
 
@@ -110,13 +114,13 @@ export const Navbar = () => {
                 return (
                   <div
                     key={item.id}
-                    className="relative group"
+                    className="relative group py-2"
                     onMouseEnter={() => setDropdownOpen(true)}
                     onMouseLeave={() => setDropdownOpen(false)}
                   >
-                    <Link
-                      to={item.path}
-                      className={`px-3.5 py-2 rounded-xl text-[15px] sm:text-base font-bold transition-all flex items-center gap-1.5 ${
+                    <button
+                      type="button"
+                      className={`px-2.5 xl:px-3.5 py-1.5 xl:py-2 rounded-xl text-[13px] xl:text-[14px] 2xl:text-[15px] font-bold transition-all flex items-center gap-1 whitespace-nowrap cursor-pointer ${
                         active
                           ? 'text-primary dark:text-sky-400 bg-academic-light-blue dark:bg-slate-800 shadow-2xs'
                           : 'text-slate-700 dark:text-slate-200 hover:text-primary dark:hover:text-sky-400 hover:bg-academic-light-blue/70 dark:hover:bg-slate-800/70'
@@ -124,24 +128,24 @@ export const Navbar = () => {
                     >
                       <span>{t(item.labelKey)}</span>
                       <ChevronDown
-                        size={16}
+                        size={15}
                         className={`transition-transform duration-200 ${
                           dropdownOpen ? 'rotate-180 text-primary dark:text-sky-400' : 'text-slate-500 dark:text-slate-400'
                         }`}
                       />
-                    </Link>
+                    </button>
 
                     {/* Desktop Dropdown Menu */}
                     {dropdownOpen && (
-                      <div className="absolute top-full left-0 w-64 bg-white dark:bg-slate-900 rounded-2xl p-2 shadow-xl border border-academic-border dark:border-slate-700 space-y-1 animate-fadeIn">
+                      <div className="absolute top-full left-0 w-56 bg-white dark:bg-slate-900 rounded-2xl p-2 shadow-xl border border-academic-border dark:border-slate-700 space-y-1 animate-fadeIn">
                         {item.dropdown.map((sub) => (
                           <Link
                             key={sub.id}
                             to={sub.path}
                             onClick={() => setDropdownOpen(false)}
-                            className="block px-3.5 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:text-primary dark:hover:text-sky-400 hover:bg-academic-light-blue dark:hover:bg-slate-800 transition-colors"
+                            className="block px-3.5 py-2.5 rounded-xl text-sm font-bold text-slate-700 dark:text-slate-200 hover:text-primary dark:hover:text-sky-400 hover:bg-academic-light-blue dark:hover:bg-slate-800 transition-colors whitespace-nowrap"
                           >
-                            {sub.label}
+                            {sub.labelKey ? t(sub.labelKey) : sub.label}
                           </Link>
                         ))}
                       </div>
@@ -155,7 +159,7 @@ export const Navbar = () => {
                   key={item.id}
                   to={item.path}
                   onClick={item.path === ROUTES.HOME ? handleHomeClick : undefined}
-                  className={`px-3.5 py-2 rounded-xl text-[15px] sm:text-base font-bold transition-all ${
+                  className={`px-2.5 xl:px-3.5 py-1.5 xl:py-2 rounded-xl text-[13px] xl:text-[14px] 2xl:text-[15px] font-bold transition-all whitespace-nowrap ${
                     active
                       ? 'text-primary dark:text-sky-400 bg-academic-light-blue dark:bg-slate-800 shadow-2xs'
                       : 'text-slate-700 dark:text-slate-200 hover:text-primary dark:hover:text-sky-400 hover:bg-academic-light-blue/70 dark:hover:bg-slate-800/70'
@@ -168,11 +172,11 @@ export const Navbar = () => {
           </nav>
 
           {/* Actions (Theme Toggle + Language Switcher + CTA) */}
-          <div className="hidden sm:flex items-center gap-2.5">
+          <div className="hidden sm:flex items-center gap-1.5 xl:gap-2.5 flex-shrink-0">
             <ThemeToggle />
             <LanguageSwitcher />
             <Link to={ROUTES.CONTACT}>
-              <Button size="md" variant="primary" className="font-bold">
+              <Button size="md" variant="primary" className="font-bold text-xs xl:text-sm whitespace-nowrap px-3 xl:px-4 py-1.5 xl:py-2">
                 {t('nav.ctaBtn')}
               </Button>
             </Link>
@@ -234,7 +238,7 @@ export const Navbar = () => {
                               className="flex items-center justify-between px-3.5 py-2.5 rounded-xl bg-white dark:bg-slate-700 text-sm font-bold text-slate-700 dark:text-slate-200 hover:text-primary dark:hover:text-sky-400 hover:bg-blue-50/80 dark:hover:bg-slate-600 border border-slate-200/80 dark:border-slate-600 shadow-2xs transition-colors"
                               onClick={() => setMobileMenuOpen(false)}
                             >
-                              <span>{sub.label}</span>
+                              <span>{sub.labelKey ? t(sub.labelKey) : sub.label}</span>
                               <ChevronRight size={14} className="text-slate-400" />
                             </Link>
                           ))}
