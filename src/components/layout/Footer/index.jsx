@@ -19,7 +19,7 @@ export const Footer = () => {
               <img
                 src={logoImg}
                 alt="Harry English House"
-                className="h-12 w-12 object-contain mix-blend-multiply"
+                className="h-14 w-14 sm:h-16 sm:w-16 object-contain mix-blend-multiply flex-shrink-0"
               />
               <span className="font-heading font-black text-xl text-academic-heading tracking-tight">
                 {APP_INFO.BRAND_NAME || APP_INFO.NAME}

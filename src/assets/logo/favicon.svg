@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 30 392 345" width="100%" height="100%" fill="none">
+  <!-- Laurel Wreath Left (Red #C92A2A) -->
+  <g fill="#c92a2a">
+    <!-- Left Leaves -->
+    <path d="M125 315 C100 300, 75 270, 70 240 C85 245, 105 260, 120 280 Z" />
+    <path d="M110 260 C88 240, 70 210, 68 180 C82 188, 98 205, 108 228 Z" />
+    <path d="M108 205 C90 180, 78 150, 80 120 C92 130, 105 150, 110 175 Z" />
+    <path d="M120 155 C108 130, 102 100, 108 72 C118 85, 128 108, 128 130 Z" />
+    <path d="M142 110 C135 88, 135 60, 145 35 C152 50, 158 72, 154 92 Z" />
+    
+    <!-- Left Inner Leaves -->
+    <path d="M140 285 C125 270, 110 245, 110 225 C122 230, 136 242, 142 258 Z" />
+    <path d="M135 230 C125 210, 115 185, 120 165 C130 172, 140 188, 142 205 Z" />
+    <path d="M145 178 C140 158, 135 135, 142 118 C150 126, 158 140, 158 158 Z" />
+
+    <!-- Left Bottom Branch Arc Leaves -->
+    <path d="M150 345 C130 335, 110 315, 105 295 C118 298, 135 310, 145 325 Z" />
+    <path d="M185 368 C160 365, 138 350, 130 335 C142 334, 160 342, 172 352 Z" />
+  </g>
+
+  <!-- Laurel Wreath Right (Red #C92A2A) -->
+  <g fill="#c92a2a">
+    <!-- Right Leaves -->
+    <path d="M387 315 C412 300, 437 270, 442 240 C427 245, 407 260, 392 280 Z" />
+    <path d="M402 260 C424 240, 442 210, 444 180 C430 188, 414 205, 404 228 Z" />
+    <path d="M404 205 C422 180, 434 150, 432 120 C420 130, 407 150, 402 175 Z" />
+    <path d="M392 155 C404 130, 410 100, 404 72 C394 85, 384 108, 384 130 Z" />
+    <path d="M370 110 C377 88, 377 60, 367 35 C360 50, 354 72, 358 92 Z" />
+
+    <!-- Right Inner Leaves -->
+    <path d="M372 285 C387 270, 402 245, 402 225 C390 230, 376 242, 370 258 Z" />
+    <path d="M377 230 C387 210, 397 185, 392 165 C382 172, 372 188, 370 205 Z" />
+    <path d="M367 178 C372 158, 377 135, 370 118 C362 126, 354 140, 354 158 Z" />
+
+    <!-- Right Bottom Branch Arc Leaves -->
+    <path d="M362 345 C382 335, 402 315, 407 295 C394 298, 377 310, 367 325 Z" />
+    <path d="M327 368 C352 365, 374 350, 382 335 C370 334, 352 342, 340 352 Z" />
+  </g>
+
+  <!-- Cap Base / Skullcap (#142B4E) -->
+  <path d="M196 160 L196 230 C196 268, 316 268, 316 230 L316 160 Z" fill="#142B4E" />
+
+  <!-- Graduation Cap Rhombus (#142B4E) -->
+  <polygon points="256,40 435,130 256,220 77,130" fill="#142B4E" />
+  
+  <!-- Top button & Tassel -->
+  <circle cx="256" cy="130" r="14" fill="#ffffff" />
+  <circle cx="256" cy="130" r="9" fill="#142B4E" />
+  <!-- Tassel Cord & Fringe -->
+  <path d="M265 130 Q335 138, 348 180 L354 225 C354 235, 342 235, 342 225 L340 180" fill="#142B4E" stroke="#142B4E" stroke-width="4" stroke-linecap="round" />
+  <path d="M336 215 C336 210, 358 210, 358 215 L362 250 C362 256, 332 256, 332 250 Z" fill="#142B4E" />
+
+  <!-- Book Underneath (#142B4E & White Pages) -->
+  <!-- Bottom Book Base -->
+  <rect x="175" y="278" width="162" height="42" rx="7" fill="#142B4E" />
+  <!-- White Page stripe inside book -->
+  <rect x="184" y="292" width="144" height="14" rx="2" fill="#ffffff" />
+  <!-- Book spine & cover detail line -->
+  <rect x="180" y="328" width="152" height="8" rx="4" fill="#142B4E" />
+</svg>

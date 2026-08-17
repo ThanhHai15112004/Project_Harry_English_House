@@ -83,13 +83,11 @@ export const Navbar = () => {
             onClick={handleHomeClick}
             className="flex items-center gap-2.5 sm:gap-3.5 group min-w-0"
           >
-            <div className="h-11 w-11 sm:h-14 sm:w-14 rounded-xl overflow-hidden bg-white flex items-center justify-center p-0.5 shadow-2xs border border-slate-100 dark:border-slate-700 flex-shrink-0 group-hover:scale-105 transition-transform">
-              <img
-                src={logoImg}
-                alt="Harry English House Logo"
-                className="h-full w-full object-contain"
-              />
-            </div>
+            <img
+              src={logoImg}
+              alt="Harry English House Logo"
+              className="h-12 w-12 sm:h-14 sm:w-14 object-contain flex-shrink-0 group-hover:scale-105 transition-transform mix-blend-multiply dark:bg-white dark:rounded-lg dark:p-0.5"
+            />
             <div className="flex flex-col min-w-0">
               <span className="font-heading font-black text-base sm:text-xl text-academic-heading dark:text-white tracking-tight group-hover:text-primary dark:group-hover:text-sky-400 transition-colors leading-tight truncate">
                 {APP_INFO.BRAND_NAME || APP_INFO.NAME}
