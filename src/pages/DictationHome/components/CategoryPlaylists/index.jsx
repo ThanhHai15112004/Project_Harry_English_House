@@ -14,6 +14,8 @@ import {
   ChevronUp,
   ArrowRight,
   Sparkles,
+  ChevronsUpDown,
+  Search,
 } from 'lucide-react';
 
 const CATEGORY_DESC_EN = {
@@ -22,6 +24,7 @@ const CATEGORY_DESC_EN = {
   'ielts-listening': 'Specialized dictation exercises for IELTS Listening to master academic vocabulary, plural nouns, numbers, and spelling.',
   'toeic-listening': 'A comprehensive set of TOEIC Listening Part 2, 3 & 4 short conversations and business talks to improve listening accuracy.',
   'youtube-real-english': 'Master natural English from real native speaker videos, famous movies, and real-life everyday situations.',
+  'real-english': 'Master natural English from real native speaker videos, famous movies, and real-life everyday situations.',
 };
 
 export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => {
@@ -56,14 +59,19 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
     }
   };
 
-  // Lọc bài tập theo từ khóa tìm kiếm và level
+  const cleanSearch = (searchTerm || '').trim().toLowerCase();
+  const isSearching = cleanSearch.length > 0;
+
+  // Lọc bài tập theo từ khóa tìm kiếm (hỗ trợ cả tiếng Anh, tiếng Việt, Level)
   const filteredCategories = categories.map((category) => {
     const matchingExercises = category.exercises.filter((ex) => {
       const matchSearch =
-        !searchTerm ||
-        ex.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        category.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        category.titleVi?.toLowerCase().includes(searchTerm.toLowerCase());
+        !isSearching ||
+        ex.title.toLowerCase().includes(cleanSearch) ||
+        ex.titleVi?.toLowerCase().includes(cleanSearch) ||
+        category.title.toLowerCase().includes(cleanSearch) ||
+        category.titleVi?.toLowerCase().includes(cleanSearch) ||
+        ex.level.toLowerCase().includes(cleanSearch);
 
       const matchLevel =
         selectedLevel === 'ALL' ||
@@ -79,24 +87,78 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
     };
   }).filter((cat) => cat.filteredExercises.length > 0);
 
+  const totalMatchingExercises = filteredCategories.reduce(
+    (acc, cat) => acc + cat.filteredExercises.length,
+    0
+  );
+
+  // Kiểm tra xem tất cả các danh mục có đang được mở rộng hay không
+  const areAllExpanded =
+    filteredCategories.length > 0 &&
+    filteredCategories.every((cat) => !!expandedCategories[cat.id]);
+
+  const toggleExpandAll = () => {
+    if (areAllExpanded) {
+      setExpandedCategories({});
+    } else {
+      const allTrue = {};
+      filteredCategories.forEach((cat) => {
+        allTrue[cat.id] = true;
+      });
+      setExpandedCategories(allTrue);
+    }
+  };
+
   return (
     <section className="py-16 md:py-20 bg-slate-50/60 dark:bg-[#070E1E]">
-      <div className="app-container space-y-10">
-        {/* Section Title */}
-        <div className="max-w-2xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-blue-50 dark:bg-slate-800 text-primary dark:text-sky-400 text-xs font-bold uppercase tracking-wider mb-2">
-            <Sparkles size={14} />
-            <span>{t('dictation.home.exercises.badge')}</span>
+      <div className="app-container space-y-8">
+        {/* Section Header & Global Controls */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-2">
+          <div className="max-w-2xl">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-blue-50 dark:bg-slate-800 text-primary dark:text-sky-400 text-xs font-bold uppercase tracking-wider mb-2">
+              <Sparkles size={14} />
+              <span>{t('dictation.home.exercises.badge')}</span>
+            </div>
+            <h2 className="font-heading font-black text-2xl sm:text-3xl lg:text-4xl text-academic-heading dark:text-white tracking-tight">
+              {t('dictation.home.exercises.title')}
+            </h2>
+            <p className="text-xs sm:text-sm text-academic-body dark:text-slate-300 mt-2">
+              {t('dictation.home.exercises.subtitle')}
+            </p>
           </div>
-          <h2 className="font-heading font-black text-2xl sm:text-3xl lg:text-4xl text-academic-heading dark:text-white tracking-tight">
-            {t('dictation.home.exercises.title')}
-          </h2>
-          <p className="text-xs sm:text-sm text-academic-body dark:text-slate-300 mt-2">
-            {t('dictation.home.exercises.subtitle')}
-          </p>
+
+          {/* Quick Action Controls: Expand / Collapse All & Search Summary */}
+          {filteredCategories.length > 0 && !isSearching && (
+            <div className="flex items-center gap-3">
+              <button
+                type="button"
+                onClick={toggleExpandAll}
+                className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800 border border-slate-200/90 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-700/80 shadow-2xs hover:shadow-xs transition-all cursor-pointer"
+              >
+                <ChevronsUpDown size={15} className="text-primary dark:text-sky-400" />
+                <span>
+                  {areAllExpanded
+                    ? t('dictation.home.exercises.collapseAll')
+                    : t('dictation.home.exercises.expandAll')}
+                </span>
+              </button>
+            </div>
+          )}
         </div>
 
-        {/* Categories Grid (2 Columns Layout) */}
+        {/* Search Results Summary Banner (if searching) */}
+        {isSearching && (
+          <div className="flex items-center justify-between p-4 rounded-2xl bg-blue-50/80 dark:bg-slate-800/80 border border-blue-100 dark:border-slate-700 text-sm font-medium text-slate-700 dark:text-slate-200">
+            <div className="flex items-center gap-2">
+              <Search size={16} className="text-primary dark:text-sky-400" />
+              <span>
+                {t('dictation.home.exercises.searchResults', { count: totalMatchingExercises })}
+              </span>
+            </div>
+          </div>
+        )}
+
+        {/* Categories Grid (2 Columns Layout with items-start to prevent awkward height stretching) */}
         {filteredCategories.length === 0 ? (
           <div className="p-12 text-center rounded-3xl bg-white dark:bg-slate-800/80 border border-slate-200 dark:border-slate-700 space-y-3">
             <p className="text-base font-bold text-slate-700 dark:text-slate-200">
@@ -105,9 +167,10 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
             <p className="text-xs text-slate-500">{t('dictation.home.exercises.emptyHint')}</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             {filteredCategories.map((category) => {
-              const isExpanded = !!expandedCategories[category.id];
+              // Khi đang tìm kiếm, tự động bung toàn bộ kết quả phù hợp để người dùng thấy ngay
+              const isExpanded = isSearching || !!expandedCategories[category.id];
               const visibleExercises = isExpanded
                 ? category.filteredExercises
                 : category.filteredExercises.slice(0, 5);
@@ -129,7 +192,7 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
               return (
                 <div
                   key={category.id}
-                  className="rounded-3xl p-6 sm:p-7 bg-white dark:bg-slate-800/90 border border-slate-200/90 dark:border-slate-700 shadow-sm hover:shadow-md transition-all flex flex-col justify-between"
+                  className="rounded-3xl p-6 sm:p-7 bg-white dark:bg-slate-800/90 border border-slate-200/90 dark:border-slate-700 shadow-sm hover:shadow-md transition-all flex flex-col h-fit"
                 >
                   <div className="space-y-4">
                     {/* Category Header */}
@@ -188,9 +251,16 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
                                   <Play size={12} className="fill-current ml-0.5" />
                                 </span>
                               )}
-                              <span className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-primary dark:group-hover:text-sky-400 transition-colors truncate">
-                                {exercise.title}
-                              </span>
+                              <div className="min-w-0">
+                                <p className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-primary dark:group-hover:text-sky-400 transition-colors truncate">
+                                  {exercise.title}
+                                </p>
+                                {exercise.titleVi && (
+                                  <p className="text-[11px] font-medium text-slate-400 dark:text-slate-500 truncate">
+                                    {exercise.titleVi}
+                                  </p>
+                                )}
+                              </div>
                             </div>
 
                             <div className="flex items-center gap-2 flex-shrink-0">
@@ -212,8 +282,8 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
                     </ul>
                   </div>
 
-                  {/* View All / Toggle Button */}
-                  {category.filteredExercises.length > 5 && (
+                  {/* View All / Toggle Button (only when not actively searching) */}
+                  {!isSearching && category.filteredExercises.length > 5 && (
                     <div className="pt-4 mt-4 border-t border-slate-100 dark:border-slate-700/60 flex items-center justify-between">
                       <button
                         type="button"
@@ -251,3 +321,4 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
     </section>
   );
 };
+
