@@ -568,15 +568,18 @@
         "subtitle": "Tất cả số liệu đều dựa trên bảng điểm và chứng chỉ thi thật đã được xác thực"
       },
       "filter": {
-        "all": "Tất cả kết quả",
+        "all": "Tất cả các tầng",
+        "tier1": "CLB IELTS 8.0+",
+        "tier2": "CLB IELTS 7.0+ & TOEIC",
+        "tier3": "Tuyển Sinh 10 (9.0+)",
         "ielts": "IELTS Academic",
         "highschool": "Tuyển sinh 10 & Chuyên",
         "toeic": "TOEIC / VSTEP",
         "comm": "Giao tiếp ứng dụng"
       },
       "resultsCatalog": {
-        "title": "Bảng Điểm & Kết Quả Học Viên",
-        "subtitle": "Chứng minh năng lực qua điểm số thực tế từ các kỳ thi chuẩn hóa quốc tế",
+        "title": "Bảng Vàng Thành Tích",
+        "subtitle": "Phân tầng kết quả minh bạch theo chuẩn kỳ thi quốc tế và tuyển sinh chuyên",
         "featuredBadge": "Kết quả nổi bật",
         "targetLabel": "Mục tiêu",
         "examLabel": "Kỳ thi",
@@ -587,7 +590,13 @@
         "speaking": "Nói (Speaking)",
         "englishSubject": "Môn Tiếng Anh",
         "viewScoreModal": "Phóng to xem bảng điểm",
-        "closeModal": "Đóng"
+        "closeModal": "Đóng",
+        "tier1Title": "CLB IELTS 8.0 - 8.5+ (Top 1% Xuất Sắc)",
+        "tier1Sub": "Kỷ lục band điểm danh giá và điểm kỹ năng chạm mốc tuyệt đối 9.0",
+        "tier2Title": "CLB IELTS 7.0 - 7.5 & TOEIC (Chuẩn Du Học & Đầu Ra)",
+        "tier2Sub": "Bứt phá vượt mục tiêu xét tuyển đại học và học bổng quốc tế",
+        "tier3Title": "Thủ Khoa & Điểm 9.0+ Tuyển Sinh 10 TP.HCM",
+        "tier3Sub": "Minh chứng điểm số dẫn đầu kỳ thi vào lớp 10 công lập và THPT Chuyên"
       },
       "beforeAfter": {
         "badge": "TIẾN BỘ RÕ RỆT",

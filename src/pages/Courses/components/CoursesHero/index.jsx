@@ -29,7 +29,7 @@ export const CoursesHero = ({
   const programList = Object.values(programs);
 
   return (
-    <section className="bg-gradient-to-b from-blue-50/50 via-white to-academic-soft-white border-b border-slate-200/80 pt-8 sm:pt-12 pb-10 lg:pb-14 relative overflow-hidden">
+    <section className="bg-gradient-to-b from-blue-50/50 via-white to-academic-soft-white border-b border-slate-200/80 pt-4 sm:pt-6 lg:pt-8 pb-8 sm:pb-10 lg:pb-12 relative overflow-hidden">
       {/* Decorative Subtle Background Elements */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full overflow-hidden pointer-events-none -z-0">
         <div className="absolute -top-24 left-1/4 w-96 h-96 bg-blue-100/40 rounded-full blur-3xl" />

@@ -30,8 +30,8 @@ export const ResultsPage = () => {
 
   return (
     <MainLayout>
-      {/* 1. Academic Editorial Hero (45% Content / 55% Visual Collage) */}
-      <ResultsHero onOpenScorecard={setActiveModalItem} />
+      {/* 1. Academic Centered Cinema Hero Showcase */}
+      <ResultsHero showcaseResults={results} onOpenScorecard={setActiveModalItem} />
 
       {/* 2. Transparent Highlights Bar with Dividers */}
       <ResultHighlights highlights={highlights} />

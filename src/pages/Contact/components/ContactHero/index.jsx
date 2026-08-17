@@ -8,7 +8,7 @@ export const ContactHero = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="relative py-12 sm:py-16 lg:py-20 bg-academic-soft-white border-b border-academic-border overflow-hidden min-h-[280px] sm:min-h-[320px] lg:min-h-[360px] flex items-center justify-center">
+    <section className="relative pt-4 sm:pt-6 lg:pt-8 pb-10 sm:pb-12 lg:pb-14 bg-academic-soft-white border-b border-academic-border overflow-hidden min-h-[220px] sm:min-h-[260px] lg:min-h-[300px] flex items-center justify-center">
       {/* Soft #EAF2FF Abstract Backdrop Shapes */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] rounded-full bg-academic-light-blue/60 blur-3xl pointer-events-none" />
       <div className="absolute top-0 right-1/4 w-72 h-72 rounded-full bg-blue-50/70 blur-2xl pointer-events-none" />

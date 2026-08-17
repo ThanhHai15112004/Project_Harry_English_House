@@ -6,63 +6,84 @@ export const ResultHighlights = ({ highlights = [] }) => {
   const { t } = useTranslation();
 
   const iconMap = {
-    ielts: <Trophy size={20} className="text-cta" />,
-    toeic: <Award size={20} className="text-achievement" />,
-    highschool: <CheckCircle2 size={20} className="text-emerald-600" />,
-    verified: <ShieldCheck size={20} className="text-primary" />,
+    ielts: {
+      icon: <Trophy size={16} className="text-cta" />,
+      bg: 'bg-blue-50 border-blue-200/80',
+      badgeBg: 'bg-academic-light-blue text-primary',
+    },
+    toeic: {
+      icon: <Award size={16} className="text-amber-600" />,
+      bg: 'bg-amber-50 border-amber-200/80',
+      badgeBg: 'bg-amber-100/80 text-amber-900',
+    },
+    highschool: {
+      icon: <CheckCircle2 size={16} className="text-emerald-600" />,
+      bg: 'bg-emerald-50 border-emerald-200/80',
+      badgeBg: 'bg-emerald-100/80 text-emerald-900',
+    },
+    verified: {
+      icon: <ShieldCheck size={16} className="text-primary" />,
+      bg: 'bg-indigo-50 border-indigo-200/80',
+      badgeBg: 'bg-indigo-100/80 text-indigo-900',
+    },
   };
 
   if (!highlights || highlights.length === 0) return null;
 
   return (
-    <section className="py-10 bg-white border-b border-academic-border">
+    <section className="py-4 sm:py-5 bg-academic-soft-white/60 border-b border-academic-border">
       <div className="app-container">
         
-        {/* Horizontal Bar with Vertical Dividers */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-academic-border bg-academic-soft-white/60 rounded-3xl border border-academic-border shadow-xs overflow-hidden">
-          {highlights.map((item, index) => (
-            <div
-              key={item.id || index}
-              className="p-5 sm:p-6 flex flex-col justify-between space-y-3 hover:bg-white transition-colors duration-200"
-            >
-              {/* Top Tag & Icon */}
-              <div className="flex items-center justify-between gap-2">
-                <span className="text-[11px] font-bold text-academic-muted uppercase tracking-wider">
-                  {item.prefixKey ? t(item.prefixKey) : item.prefix}
-                </span>
-                <div className="w-8 h-8 rounded-lg bg-white border border-slate-200 flex items-center justify-center shadow-2xs">
-                  {iconMap[item.id] || <Sparkles size={16} className="text-cta" />}
-                </div>
-              </div>
+        {/* Inline Prestige Badges Strip */}
+        <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3 lg:gap-4">
+          {highlights.map((item, index) => {
+            const meta = iconMap[item.id] || {
+              icon: <Sparkles size={15} className="text-cta" />,
+              bg: 'bg-slate-50 border-slate-200',
+              badgeBg: 'bg-slate-100 text-slate-700',
+            };
 
-              {/* Number Metric */}
-              <div>
-                <div className="flex items-baseline gap-1">
-                  <span className="text-3xl sm:text-4xl lg:text-5xl font-black text-primary font-heading tracking-tight">
-                    {item.value}
-                  </span>
-                  {(item.suffixKey || item.suffix) && (
-                    <span className="text-lg font-bold text-academic-gold font-heading">
-                      {item.suffixKey ? t(item.suffixKey) : item.suffix}
+            return (
+              <div
+                key={item.id || index}
+                className="inline-flex items-center gap-2.5 sm:gap-3 px-3.5 sm:px-4 py-2 sm:py-2.5 rounded-full bg-white border border-slate-200/90 shadow-2xs hover:shadow-md hover:border-cta/40 hover:-translate-y-0.5 transition-all duration-300 group"
+              >
+                {/* Mini Circle Icon */}
+                <div
+                  className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full border flex items-center justify-center flex-shrink-0 shadow-2xs group-hover:scale-105 transition-transform ${meta.bg}`}
+                >
+                  {meta.icon}
+                </div>
+
+                {/* Score & Label Info */}
+                <div className="flex items-baseline gap-1.5 text-left">
+                  <div className="flex items-baseline gap-0.5">
+                    <span className="text-sm sm:text-base font-black text-primary font-heading tracking-tight group-hover:text-cta transition-colors">
+                      {item.value}
                     </span>
-                  )}
+                    {(item.suffixKey || item.suffix) && (
+                      <span className="text-xs font-extrabold text-academic-gold font-heading">
+                        {item.suffixKey ? t(item.suffixKey) : item.suffix}
+                      </span>
+                    )}
+                  </div>
+                  
+                  <span className="text-xs font-bold text-academic-heading font-heading">
+                    {item.labelKey ? t(item.labelKey) : item.label}
+                  </span>
                 </div>
-                <div className="text-xs sm:text-sm font-bold text-academic-heading font-heading mt-1">
-                  {item.labelKey ? t(item.labelKey) : item.label}
-                </div>
-              </div>
 
-              {/* Subtext info */}
-              <div className="pt-2 border-t border-slate-200/60 flex items-center justify-between gap-1 text-[11px] text-academic-muted">
-                <span className="truncate">{item.subKey ? t(item.subKey) : item.sub}</span>
+                {/* Optional Status Pill Tag */}
                 {(item.badgeKey || item.badge) && (
-                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-academic-light-blue text-primary flex-shrink-0">
+                  <span
+                    className={`hidden sm:inline-flex px-2 py-0.5 rounded-full text-[10px] font-black uppercase font-heading tracking-wider flex-shrink-0 ${meta.badgeBg}`}
+                  >
                     {item.badgeKey ? t(item.badgeKey) : item.badge}
                   </span>
                 )}
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
       </div>
@@ -71,3 +92,5 @@ export const ResultHighlights = ({ highlights = [] }) => {
 };
 
 export default ResultHighlights;
+
+

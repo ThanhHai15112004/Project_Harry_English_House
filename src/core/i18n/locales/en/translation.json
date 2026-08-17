@@ -568,15 +568,18 @@
         "subtitle": "All metrics are strictly grounded in authentic exam certificates and verified scorecards"
       },
       "filter": {
-        "all": "All Results",
+        "all": "All Honor Tiers",
+        "tier1": "IELTS 8.0+ Club",
+        "tier2": "IELTS 7.0+ & TOEIC",
+        "tier3": "High School 9.0+",
         "ielts": "IELTS Academic",
         "highschool": "High School Entrance",
         "toeic": "TOEIC / VSTEP",
         "comm": "Applied Communication"
       },
       "resultsCatalog": {
-        "title": "Certified Student Scorecards",
-        "subtitle": "Proving competence through real scores from standardized international exams",
+        "title": "Academic Honor Roll",
+        "subtitle": "Transparent tier-based student scorecards verified by IDP, British Council & Education Dept.",
         "featuredBadge": "Featured Score",
         "targetLabel": "Target",
         "examLabel": "Exam",
@@ -587,7 +590,13 @@
         "speaking": "Speaking",
         "englishSubject": "English Subject",
         "viewScoreModal": "Zoom In Scorecard",
-        "closeModal": "Close"
+        "closeModal": "Close",
+        "tier1Title": "IELTS 8.0 - 8.5+ Club (Top 1% National Honors)",
+        "tier1Sub": "Prestigious record scores with perfect 9.0 sub-skills in Reading & Listening",
+        "tier2Title": "IELTS 7.0 - 7.5 & TOEIC Club (University & Study Abroad)",
+        "tier2Sub": "Surpassing targets for university admissions, Master programs & scholarships",
+        "tier3Title": "High School Entrance English 9.0+ & Valedictorians",
+        "tier3Sub": "Leading academic test results for specialized & top-tier public high schools"
       },
       "beforeAfter": {
         "badge": "MEASURABLE GROWTH",
