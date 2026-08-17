@@ -45,10 +45,10 @@ export const EducationAndCertificates = ({ educationData, certificates = [], onO
                       <span className="text-[10px] text-academic-muted">{item.institution}</span>
                     </div>
                     <h4 className="text-sm font-bold text-academic-heading font-heading">
-                      {item.program}
+                      {t(item.programKey)}
                     </h4>
                     <p className="text-xs text-slate-600 leading-relaxed">
-                      {item.desc}
+                      {t(item.descKey)}
                     </p>
                   </div>
                 ))}
@@ -76,10 +76,10 @@ export const EducationAndCertificates = ({ educationData, certificates = [], onO
                       </span>
                     </div>
                     <h4 className="text-sm font-bold text-academic-heading font-heading">
-                      {item.title}
+                      {t(item.titleKey)}
                     </h4>
                     <p className="text-xs text-slate-600 leading-relaxed">
-                      {item.desc}
+                      {t(item.descKey)}
                     </p>
                   </div>
                 ))}
@@ -98,16 +98,16 @@ export const EducationAndCertificates = ({ educationData, certificates = [], onO
                   {t('pages.about.education.certTitle')}
                 </h3>
                 <p className="text-xs text-academic-muted">
-                  Bấm vào từng chứng chỉ để xem toàn bộ thông tin chi tiết
+                  {t('about.officialRecordsBadge')}
                 </p>
               </div>
             </div>
 
             {/* Grid of Certificates */}
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-              {visibleCerts.map((cert, index) => (
+              {visibleCerts.map((cert) => (
                 <button
-                  key={cert.id || index}
+                  key={cert.id}
                   type="button"
                   className="rounded-2xl bg-white border border-slate-200 shadow-2xs hover:border-academic-cta hover:shadow-card hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 overflow-hidden group cursor-pointer flex flex-col justify-between text-left focus:outline-hidden focus:ring-2 focus:ring-primary/40"
                   onClick={() => onOpenCertificate?.(cert)}
@@ -115,7 +115,7 @@ export const EducationAndCertificates = ({ educationData, certificates = [], onO
                   <div className="h-40 sm:h-48 w-full bg-slate-900/5 p-2 flex items-center justify-center relative overflow-hidden group-hover:bg-slate-900/10 transition-colors">
                     <img
                       src={cert.image}
-                      alt={cert.title}
+                      alt={t(cert.titleKey)}
                       className="w-full h-full object-contain rounded-xl group-hover:scale-105 transition-transform duration-500"
                       loading="lazy"
                     />
@@ -129,7 +129,7 @@ export const EducationAndCertificates = ({ educationData, certificates = [], onO
 
                   <div className="p-3 bg-white border-t border-slate-100 w-full">
                     <p className="text-xs font-bold text-academic-heading truncate font-heading">
-                      {cert.title}
+                      {t(cert.titleKey)}
                     </p>
                   </div>
                 </button>
@@ -146,7 +146,9 @@ export const EducationAndCertificates = ({ educationData, certificates = [], onO
                   icon={showAllCerts ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
                   onClick={() => setShowAllCerts(!showAllCerts)}
                 >
-                  {showAllCerts ? 'Thu gọn chứng chỉ' : `Xem thêm chứng chỉ (${certificates.length})`}
+                  {showAllCerts
+                    ? t('pages.results.gallery.viewLessBtn')
+                    : t('pages.results.gallery.viewMoreBtn', { count: certificates.length })}
                 </Button>
               </div>
             )}

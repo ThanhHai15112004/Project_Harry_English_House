@@ -7,10 +7,6 @@ export const ProgramOverview = ({ programData }) => {
 
   if (!programData) return null;
 
-  const title = programData.titleKey ? t(programData.titleKey) : programData.title;
-  const tagline = programData.taglineKey ? t(programData.taglineKey) : programData.tagline;
-  const description = programData.descKey ? t(programData.descKey) : programData.description;
-
   return (
     <section className="py-12 sm:py-16 bg-white">
       <div className="app-container">
@@ -19,19 +15,19 @@ export const ProgramOverview = ({ programData }) => {
           <div className="lg:col-span-7 space-y-4">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-academic-light-blue text-cta text-xs font-bold uppercase tracking-wider border border-blue-100">
               <Award size={13} />
-              <span>{programData.badge}</span>
+              <span>{t(programData.badgeKey)}</span>
             </div>
 
             <h2 className="text-2xl sm:text-3xl font-extrabold text-academic-heading font-heading leading-tight">
-              {title}
+              {t(programData.titleKey)}
             </h2>
 
             <p className="text-xs sm:text-sm font-semibold text-cta font-heading">
-              {tagline}
+              {t(programData.taglineKey)}
             </p>
 
             <p className="text-xs sm:text-sm text-academic-body leading-relaxed pt-1">
-              {description}
+              {t(programData.descKey)}
             </p>
           </div>
 
@@ -48,7 +44,7 @@ export const ProgramOverview = ({ programData }) => {
                   {t('pages.courses.quickFacts.entry')}
                 </span>
                 <strong className="text-academic-heading font-heading block truncate">
-                  {programData.facts.entry}
+                  {t(programData.facts?.entryKey)}
                 </strong>
               </div>
 
@@ -57,7 +53,7 @@ export const ProgramOverview = ({ programData }) => {
                   {t('pages.courses.quickFacts.target')}
                 </span>
                 <strong className="text-primary font-heading block truncate">
-                  {programData.facts.target}
+                  {t(programData.facts?.targetKey)}
                 </strong>
               </div>
 
@@ -66,7 +62,7 @@ export const ProgramOverview = ({ programData }) => {
                   {t('pages.courses.quickFacts.format')}
                 </span>
                 <strong className="text-academic-heading font-heading block truncate">
-                  {programData.facts.format}
+                  {t(programData.facts?.formatKey)}
                 </strong>
               </div>
 
@@ -75,7 +71,7 @@ export const ProgramOverview = ({ programData }) => {
                   {t('pages.courses.quickFacts.classSize')}
                 </span>
                 <strong className="text-academic-heading font-heading block truncate">
-                  {programData.facts.classSize}
+                  {t(programData.facts?.classSizeKey)}
                 </strong>
               </div>
             </div>

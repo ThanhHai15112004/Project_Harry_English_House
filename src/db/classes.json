@@ -1,48 +1,48 @@
 {
-  "title": "LỚP ĐANG TUYỂN",
-  "subtitle": "Tìm một lớp phù hợp với mục tiêu band điểm, hình thức học và lịch trình của bạn.",
+  "titleKey": "db.classes.title",
+  "subtitleKey": "db.classes.subtitle",
   "classes": [
     {
       "id": "ielts-intermediate",
-      "program": "IELTS",
-      "level": "B1 → B2 (Mục tiêu 5.5 - 6.5)",
-      "className": "IELTS Intermediate Bứt Phá",
-      "schedule": "Thứ 2 / 4 / 6",
+      "levelKey": "db.classes.ieltsIntermediate.level",
+      "classNameKey": "db.classes.ieltsIntermediate.className",
+      "scheduleKey": "db.classes.ieltsIntermediate.schedule",
       "time": "19:00 – 20:30",
-      "format": "Offline tại Cơ sở Quận 7",
-      "teacher": "Thầy Harry Khôi (8.0 IELTS)",
+      "formatKey": "db.classes.ieltsIntermediate.format",
+      "teacherKey": "db.classes.ieltsIntermediate.teacher",
       "totalSpots": 10,
       "filledSpots": 7,
-      "badge": "Sắp khai giảng",
-      "color": "blue"
+      "badgeKey": "db.classes.ieltsIntermediate.badge",
+      "color": "blue",
+      "programKey": "db.classes.c1Program"
     },
     {
       "id": "ielts-master",
-      "program": "IELTS",
-      "level": "B2 → C1 (Mục tiêu 6.5 - 7.5+)",
-      "className": "IELTS Intensive Chuyên Sâu",
-      "schedule": "Thứ 3 / 5 / 7",
+      "levelKey": "db.classes.ieltsMaster.level",
+      "classNameKey": "db.classes.ieltsMaster.className",
+      "scheduleKey": "db.classes.ieltsMaster.schedule",
       "time": "18:30 – 20:00",
-      "format": "Offline tại Cơ sở Quận 8",
-      "teacher": "Thầy Harry Khôi (8.0 IELTS)",
+      "formatKey": "db.classes.ieltsMaster.format",
+      "teacherKey": "db.classes.ieltsMaster.teacher",
       "totalSpots": 8,
       "filledSpots": 5,
-      "badge": "Lớp nâng cao",
-      "color": "indigo"
+      "badgeKey": "db.classes.ieltsMaster.badge",
+      "color": "indigo",
+      "programKey": "db.classes.c2Program"
     },
     {
       "id": "communication-pro",
-      "program": "Giao Tiếp",
-      "level": "Mọi trình độ (Thực chiến công việc)",
-      "className": "Tiếng Anh Phản Xạ & Phỏng Vấn",
-      "schedule": "Thứ 2 / 4 / 6",
+      "levelKey": "db.classes.communicationPro.level",
+      "classNameKey": "db.classes.communicationPro.className",
+      "scheduleKey": "db.classes.communicationPro.schedule",
       "time": "18:00 – 19:30",
-      "format": "Online tương tác (Meet / Zoom)",
-      "teacher": "Thầy Harry Khôi & Trợ giảng",
+      "formatKey": "db.classes.communicationPro.format",
+      "teacherKey": "db.classes.communicationPro.teacher",
       "totalSpots": 10,
       "filledSpots": 8,
-      "badge": "Hot",
-      "color": "emerald"
+      "badgeKey": "db.classes.communicationPro.badge",
+      "color": "emerald",
+      "programKey": "db.classes.c3Program"
     }
   ]
 }

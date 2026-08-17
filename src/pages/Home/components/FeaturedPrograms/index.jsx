@@ -93,7 +93,7 @@ export const FeaturedPrograms = () => {
                 <Link to={`/courses/${course.id}`} className="block relative aspect-[16/10] w-full overflow-hidden bg-academic-surface">
                   <img
                     src={course.image}
-                    alt={course.title}
+                    alt={t(course.titleKey)}
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -103,12 +103,12 @@ export const FeaturedPrograms = () => {
                   <div className="absolute bottom-2 left-2 right-2 flex items-center justify-between gap-1">
                     <span className="inline-flex items-center gap-1 text-[10px] sm:text-xs font-extrabold text-academic-heading bg-white/95 backdrop-blur-xs px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-md sm:rounded-lg shadow-xs whitespace-nowrap flex-shrink-0">
                       <Sparkles size={11} className="text-academic-cta" />
-                      <span>{course.badge}</span>
+                      <span>{t(course.badgeKey)}</span>
                     </span>
 
                     <span className="inline-flex items-center gap-1 text-[10px] sm:text-xs font-medium text-white bg-academic-heading/85 backdrop-blur-xs px-2 py-0.5 sm:px-2 sm:py-1 rounded-md sm:rounded-lg shadow-xs whitespace-nowrap flex-shrink-0">
                       <Clock size={11} className="text-blue-200" />
-                      <span>{course.duration}</span>
+                      <span>{t(course.durationKey)}</span>
                     </span>
                   </div>
                 </Link>
@@ -118,11 +118,11 @@ export const FeaturedPrograms = () => {
                   <div className="space-y-1 sm:space-y-1.5">
                     <Link to={`/courses/${course.id}`} className="block">
                       <h3 className="text-xs sm:text-sm lg:text-base font-extrabold text-academic-heading font-heading group-hover:text-academic-primary transition-colors line-clamp-2 leading-tight min-h-[2rem] sm:min-h-[2.5rem]">
-                        {course.title}
+                        {t(course.titleKey)}
                       </h3>
                     </Link>
                     <p className="text-[11px] sm:text-xs text-academic-body line-clamp-2 leading-relaxed hidden sm:block">
-                      {course.target}
+                      {t(course.targetKey)}
                     </p>
                   </div>
 
@@ -131,14 +131,14 @@ export const FeaturedPrograms = () => {
                     {/* Cấp độ */}
                     <div className="flex items-center gap-1.5 truncate">
                       <Target size={12} className="text-academic-cta flex-shrink-0" />
-                      <span className="truncate"><strong>{t('programs.levelLabel')}</strong> {course.level}</span>
+                      <span className="truncate"><strong>{t('programs.levelLabel')}</strong> {t(course.levelKey)}</span>
                     </div>
 
                     {/* Sĩ số (Desktop/Tablet Only) */}
                     <div className="hidden sm:flex items-center gap-1.5 truncate">
                       <Users size={12} className="text-academic-cta flex-shrink-0" />
                       <span className="truncate">
-                        <strong>{t('programs.classSizeLabel')}</strong> {course.classSize || t('programs.classSizeVal')}
+                        <strong>{t('programs.classSizeLabel')}</strong> {t(course.classSizeKey)}
                       </span>
                     </div>
                   </div>
@@ -149,16 +149,16 @@ export const FeaturedPrograms = () => {
                     <div className="flex items-start gap-1.5 leading-snug">
                       <CheckCircle2 size={12} className="text-emerald-600 flex-shrink-0 mt-0.5" />
                       <span className="line-clamp-1 text-emerald-700 font-semibold">
-                        {course.guarantee || t('programs.guarantee')}
+                        {t(course.guaranteeKey)}
                       </span>
                     </div>
 
                     {/* Các tiêu chí bổ sung (Desktop/Tablet Only) */}
-                    {course.highlights?.slice(0, 2).map((highlight) => (
-                      <div key={highlight} className="hidden sm:flex items-start gap-1.5 leading-snug">
+                    {(course.highlightsKeys || []).slice(0, 2).map((hKey) => (
+                      <div key={hKey} className="hidden sm:flex items-start gap-1.5 leading-snug">
                         <CheckCircle2 size={12} className="text-academic-cta flex-shrink-0 mt-0.5" />
                         <span className="line-clamp-1 text-academic-heading font-medium">
-                          {highlight}
+                          {t(hKey)}
                         </span>
                       </div>
                     ))}
@@ -167,7 +167,7 @@ export const FeaturedPrograms = () => {
                   {/* Địa điểm học (Desktop/Tablet Only) */}
                   <div className="hidden sm:flex items-center gap-1 text-[10px] sm:text-[11px] text-academic-muted pt-1 truncate">
                     <MapPin size={11} className="text-academic-cta flex-shrink-0" />
-                    <span className="truncate">{course.format}</span>
+                    <span className="truncate">{t(course.formatKey)}</span>
                   </div>
 
                   {/* Footer Solid CTA Button: Links directly to Course Detail */}

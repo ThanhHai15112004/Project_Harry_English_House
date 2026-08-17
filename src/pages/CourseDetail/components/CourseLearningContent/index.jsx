@@ -32,34 +32,34 @@ export default function CourseLearningContent({ course }) {
 
   const skillCards = [
     {
-      title: 'Reading',
-      subtitle: 'Đọc Hiểu & Kỹ Thuật Bắt Từ Khóa',
+      id: 'reading',
+      titleKey: 'pages.courseDetail.learningContent.reading',
+      subtitleKey: 'pages.courseDetail.learningContent.readingSubtitle',
       icon: BookOpen,
-      color: 'blue',
       badgeBg: 'bg-blue-50 text-blue-600 border-blue-200',
       items: skills.reading || []
     },
     {
-      title: 'Listening',
-      subtitle: 'Nghe Hiểu & Phản Xạ Âm Thanh',
+      id: 'listening',
+      titleKey: 'pages.courseDetail.learningContent.listening',
+      subtitleKey: 'pages.courseDetail.learningContent.listeningSubtitle',
       icon: Headphones,
-      color: 'indigo',
       badgeBg: 'bg-indigo-50 text-indigo-600 border-indigo-200',
       items: skills.listening || []
     },
     {
-      title: 'Writing',
-      subtitle: 'Tư Duy Luận Điểm & Chấm Chữa 1-1',
+      id: 'writing',
+      titleKey: 'pages.courseDetail.learningContent.writing',
+      subtitleKey: 'pages.courseDetail.learningContent.writingSubtitle',
       icon: PenTool,
-      color: 'emerald',
       badgeBg: 'bg-emerald-50 text-emerald-600 border-emerald-200',
       items: skills.writing || []
     },
     {
-      title: 'Speaking',
-      subtitle: 'Phát Âm Chuẩn IPA & Phản Xạ Nói',
+      id: 'speaking',
+      titleKey: 'pages.courseDetail.learningContent.speaking',
+      subtitleKey: 'pages.courseDetail.learningContent.speakingSubtitle',
       icon: Mic,
-      color: 'amber',
       badgeBg: 'bg-amber-50 text-amber-600 border-amber-200',
       items: skills.speaking || []
     }
@@ -72,23 +72,23 @@ export default function CourseLearningContent({ course }) {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase bg-[#EAF2FF] text-[#1746A2] mb-3">
-            {t('pages.courseDetail.learningContent.badge', 'NỘI DUNG ĐÀO TẠO')}
+            {t('pages.courseDetail.learningContent.badge')}
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#10233F] tracking-tight">
-            {t('pages.courseDetail.learningContent.title', 'Bạn sẽ học gì trong khóa học này?')}
+            {t('pages.courseDetail.learningContent.title')}
           </h2>
           <p className="mt-3 text-sm sm:text-base text-slate-600">
-            {t('pages.courseDetail.learningContent.subtitle', 'Chương trình được thiết kế cô đọng, thực chất và tập trung vào kỹ năng làm bài thực tế')}
+            {t('pages.courseDetail.learningContent.subtitle')}
           </p>
         </div>
 
         {/* 2x2 Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-          {skillCards.map((card, idx) => {
+          {skillCards.map((card) => {
             const Icon = card.icon;
             return (
               <div 
-                key={idx}
+                key={card.id}
                 className="bg-[#F8FAFC] rounded-2xl p-6 sm:p-8 border border-[#E2E8F0] shadow-xs hover:shadow-md transition-all duration-300"
               >
                 {/* Header of card */}
@@ -98,20 +98,20 @@ export default function CourseLearningContent({ course }) {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-[#10233F]">
-                      {card.title}
+                      {t(card.titleKey)}
                     </h3>
                     <p className="text-xs text-slate-500 font-medium">
-                      {card.subtitle}
+                      {t(card.subtitleKey)}
                     </p>
                   </div>
                 </div>
 
                 {/* Items */}
                 <ul className="space-y-3.5">
-                  {card.items.map((item, itemIdx) => (
-                    <li key={itemIdx} className="flex items-start gap-3 text-sm sm:text-base text-slate-700">
+                  {card.items.map((item) => (
+                    <li key={item} className="flex items-start gap-3 text-sm sm:text-base text-slate-700">
                       <CheckCircle2 className="w-4 h-4 text-[#2563EB] shrink-0 mt-1" />
-                      <span className="leading-snug">{item}</span>
+                      <span className="leading-snug">{t(item)}</span>
                     </li>
                   ))}
                 </ul>

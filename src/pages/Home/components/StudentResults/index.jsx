@@ -102,10 +102,10 @@ export const StudentResults = () => {
                   <div className="flex items-center gap-2">
                     <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-cta bg-blue-50 px-2.5 py-1 rounded-lg border border-blue-100">
                       <Sparkles size={12} />
-                      {featuredResult.badge || t('results.verifiedScore')}
+                      {t(featuredResult.badgeKey)}
                     </span>
                     <span className="text-xs text-academic-muted font-semibold">
-                      {featuredResult.examType || t('results.categoryIelts')}
+                      {t(featuredResult.examTypeKey)}
                     </span>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export const StudentResults = () => {
                 >
                   <img
                     src={featuredResult.image}
-                    alt={featuredResult.caption}
+                    alt={featuredResult.studentName}
                     className="w-full h-full object-contain rounded-xl drop-shadow-sm group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
@@ -135,10 +135,10 @@ export const StudentResults = () => {
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                     <div>
                       <h4 className="text-base sm:text-lg font-bold text-academic-heading font-heading">
-                        {featuredResult.studentName || featuredResult.caption}
+                        {featuredResult.studentName}
                       </h4>
                       <p className="text-xs text-academic-muted font-medium">
-                        {featuredResult.scoreType} • {featuredResult.target}
+                        {t(featuredResult.scoreTypeKey)} • {t(featuredResult.targetKey)}
                       </p>
                     </div>
 
@@ -170,9 +170,9 @@ export const StudentResults = () => {
                     </div>
                   )}
 
-                  {featuredResult.description && (
+                  {featuredResult.descriptionKey && (
                     <p className="text-xs text-slate-600 leading-relaxed bg-white/80 p-3 rounded-xl border border-slate-200/60">
-                      {featuredResult.description}
+                      {t(featuredResult.descriptionKey)}
                     </p>
                   )}
                 </div>
@@ -220,7 +220,7 @@ export const StudentResults = () => {
                   <div className="space-y-1 sm:space-y-1.5 flex-1 min-w-0">
                     <div className="flex items-center justify-between gap-1">
                       <span className="text-[10px] font-bold text-cta bg-academic-light-blue px-2 py-0.5 rounded-md border border-blue-200 truncate max-w-[65%] whitespace-nowrap min-w-0">
-                        {res.badge || t('results.categoryOfficial')}
+                        {t(res.badgeKey)}
                       </span>
                       {res.score && (
                         <span className="text-xs font-extrabold text-primary font-heading flex-shrink-0">
@@ -230,7 +230,7 @@ export const StudentResults = () => {
                     </div>
 
                     <h4 className="text-xs sm:text-sm font-bold text-academic-heading font-heading leading-snug line-clamp-1 group-hover:text-cta transition-colors">
-                      {res.studentName || res.caption}
+                      {res.studentName}
                     </h4>
 
                     {res.skills && (
@@ -259,7 +259,7 @@ export const StudentResults = () => {
                     )}
 
                     <p className="text-[11px] text-academic-muted line-clamp-1">
-                      {res.caption}
+                      {t(res.captionKey)}
                     </p>
                   </div>
                 </button>
@@ -349,11 +349,11 @@ export const StudentResults = () => {
                   {/* Top Meta Bar */}
                   <div className="px-3.5 py-2.5 bg-white border-b border-slate-100 flex items-center justify-between gap-2 w-full min-w-0">
                     <span className="text-[11px] font-bold text-academic-heading truncate flex-1 min-w-0">
-                      {fb.author || 'Học viên HEH'}
+                      {t(fb.authorKey)}
                     </span>
                     <span className="inline-flex items-center gap-1 text-[10px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200 flex-shrink-0 max-w-[55%] whitespace-nowrap min-w-0">
                       <Star size={11} className="text-amber-500 fill-amber-500 flex-shrink-0" />
-                      <span className="truncate">{fb.tag || 'Đánh giá 5 sao'}</span>
+                      <span className="truncate">{t(fb.tagKey)}</span>
                     </span>
                   </div>
 
@@ -361,7 +361,7 @@ export const StudentResults = () => {
                   <div className="h-64 sm:h-72 w-full overflow-hidden bg-slate-900/5 relative p-1.5 flex items-center justify-center">
                     <img
                       src={fb.image}
-                      alt={fb.caption}
+                      alt={t(fb.captionKey)}
                       loading="lazy"
                       className="w-full h-full object-contain rounded-xl drop-shadow-xs group-hover:scale-105 transition-transform duration-500"
                     />
@@ -376,12 +376,12 @@ export const StudentResults = () => {
                   {/* Caption & Course Tag Footer */}
                   <div className="p-3 bg-white border-t border-slate-100 flex flex-col justify-between flex-1 space-y-2 w-full min-w-0">
                     <p className="text-xs text-slate-700 font-medium leading-snug line-clamp-2 italic">
-                      "{fb.caption}"
+                      "{t(fb.captionKey)}"
                     </p>
-                    {fb.course && (
+                    {fb.courseKey && (
                       <span className="inline-flex items-center gap-1.5 text-[10px] font-semibold text-academic-muted truncate max-w-full min-w-0 whitespace-nowrap">
                         <BookOpen size={12} className="text-cta flex-shrink-0" />
-                        <span className="truncate">{fb.course}</span>
+                        <span className="truncate">{t(fb.courseKey)}</span>
                       </span>
                     )}
                   </div>

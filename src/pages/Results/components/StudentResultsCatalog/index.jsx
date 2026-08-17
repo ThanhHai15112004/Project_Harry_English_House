@@ -93,10 +93,10 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                       <div className="flex items-center gap-2">
                         <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-cta bg-blue-50 px-2.5 py-0.5 rounded-lg border border-blue-100">
                           <Sparkles size={12} />
-                          {featuredResult.badge || 'Verified'}
+                          {t(featuredResult.badgeKey)}
                         </span>
                         <span className="text-xs text-academic-muted font-semibold">
-                          {featuredResult.examType}
+                          {t(featuredResult.examTypeKey)}
                         </span>
                       </div>
                     </div>
@@ -109,11 +109,11 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                     >
                       <img
                         src={featuredResult.image}
-                        alt={featuredResult.caption}
+                        alt={featuredResult.studentName}
                         className="w-full h-full object-contain rounded-xl drop-shadow-sm group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
                       />
-                      <div className="absolute inset-0 bg-academic-heading/60 opacity-0 group-hover:opacity-100 backdrop-blur-2xs flex items-center justify-center gap-2 text-white transition-opacity rounded-2xl">
+                      <div className="absolute inset-0 bg-academic-heading/60 opacity-0 group-hover:opacity-100 backdrop-blur-xs flex items-center justify-center gap-2 text-white transition-opacity rounded-2xl">
                         <div className="px-4 py-2 rounded-xl bg-white/20 backdrop-blur-md border border-white/40 flex items-center gap-2 text-xs font-bold text-white shadow-lg">
                           <ZoomIn size={16} />
                           <span>{t('pages.results.resultsCatalog.viewScoreModal')}</span>
@@ -126,10 +126,10 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                         <div>
                           <h3 className="text-lg sm:text-xl font-bold text-academic-heading font-heading">
-                            {featuredResult.studentName || featuredResult.caption}
+                            {featuredResult.studentName}
                           </h3>
                           <p className="text-xs text-academic-muted font-medium">
-                            {featuredResult.scoreType} • {featuredResult.target}
+                            {t(featuredResult.scoreTypeKey)} • {t(featuredResult.targetKey)}
                           </p>
                         </div>
 
@@ -172,9 +172,9 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                         </div>
                       )}
 
-                      {featuredResult.description && (
+                      {featuredResult.descriptionKey && (
                         <p className="text-xs text-slate-600 leading-relaxed bg-white/80 p-3 rounded-xl border border-slate-200/60">
-                          {featuredResult.description}
+                          {t(featuredResult.descriptionKey)}
                         </p>
                       )}
                     </div>
@@ -210,7 +210,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                       <div className="w-20 sm:w-24 h-20 sm:h-24 rounded-xl overflow-hidden bg-white flex-shrink-0 relative border border-slate-200/90 p-1 group-hover:border-primary/40 transition-colors">
                         <img
                           src={item.image}
-                          alt={item.caption}
+                          alt={item.studentName}
                           className="w-full h-full object-contain rounded-lg group-hover:scale-105 transition-transform duration-300"
                           loading="lazy"
                         />
@@ -223,7 +223,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                       <div className="space-y-1 sm:space-y-1.5 flex-1 min-w-0">
                         <div className="flex items-center justify-between gap-1">
                           <span className="text-[10px] font-bold text-cta bg-academic-light-blue px-2 py-0.5 rounded-md border border-blue-200 truncate max-w-[65%] whitespace-nowrap min-w-0">
-                            {item.badge || 'Verified'}
+                            {t(item.badgeKey)}
                           </span>
                           {item.score && (
                             <span className="text-sm font-black text-primary font-heading flex-shrink-0">
@@ -233,7 +233,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                         </div>
 
                         <h4 className="text-xs sm:text-sm font-bold text-academic-heading font-heading leading-snug line-clamp-1 group-hover:text-cta transition-colors">
-                          {item.studentName || item.caption}
+                          {item.studentName}
                         </h4>
 
                         {item.skills && (
@@ -257,7 +257,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                         )}
 
                         <p className="text-[11px] text-academic-muted line-clamp-1">
-                          {item.caption}
+                          {t(item.captionKey)}
                         </p>
                       </div>
                     </button>
@@ -279,7 +279,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                   >
                     <div className="p-3.5 bg-white border-b border-slate-100 flex items-center justify-between gap-2 w-full">
                       <span className="px-2.5 py-0.5 rounded-md bg-academic-light-blue text-cta text-[11px] font-bold border border-blue-200">
-                        {item.badge || 'Verified'}
+                        {t(item.badgeKey)}
                       </span>
                       {item.score && (
                         <span className="px-2.5 py-0.5 rounded-xl bg-primary text-white text-xs font-black font-heading">
@@ -291,24 +291,24 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                     <div className="h-48 sm:h-52 w-full overflow-hidden bg-slate-900/5 p-2 flex items-center justify-center relative">
                       <img
                         src={item.image}
-                        alt={item.caption}
+                        alt={item.studentName}
                         className="w-full h-full object-contain rounded-xl group-hover:scale-105 transition-transform duration-500"
                         loading="lazy"
                       />
                       <div className="absolute inset-0 bg-academic-heading/60 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white transition-opacity rounded-xl">
                         <div className="px-3 py-1.5 rounded-lg bg-white/20 backdrop-blur-md border border-white/40 flex items-center gap-1 text-xs font-bold">
                           <ZoomIn size={14} />
-                          <span>Xem bảng điểm</span>
+                          <span>{t('pages.results.resultsCatalog.viewScoreModal')}</span>
                         </div>
                       </div>
                     </div>
 
                     <div className="p-3.5 bg-white border-t border-slate-100 space-y-1.5 w-full">
                       <h4 className="text-xs sm:text-sm font-bold text-academic-heading font-heading">
-                        {item.studentName || item.caption}
+                        {item.studentName}
                       </h4>
                       <p className="text-[11px] text-slate-600 line-clamp-2">
-                        {item.description || item.caption}
+                        {t(item.descriptionKey || item.captionKey)}
                       </p>
                     </div>
                   </button>

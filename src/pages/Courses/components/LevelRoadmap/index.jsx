@@ -42,7 +42,7 @@ export const LevelRoadmap = ({
             >
               {milestones.map((m, idx) => {
                 const isSelected = selectedMilestone === idx;
-                const tag = m.tagKey ? t(m.tagKey) : m.tag;
+                const tag = t(m.tagKey);
                 return (
                   <button
                     type="button"
@@ -67,7 +67,7 @@ export const LevelRoadmap = ({
                         isSelected ? 'text-cta' : 'text-academic-heading'
                       }`}
                     >
-                      {m.band}
+                      {t(m.bandKey)}
                     </span>
                     <span className="text-[10px] text-academic-muted font-medium block truncate max-w-full">
                       {tag}
@@ -86,17 +86,17 @@ export const LevelRoadmap = ({
               <div>
                 <div className="flex items-center gap-2">
                   <span className="px-2.5 py-0.5 rounded-md bg-academic-light-blue text-cta text-xs font-bold">
-                    {activeMilestone.band}
+                    {t(activeMilestone.bandKey)}
                   </span>
                   <h3 className="text-base sm:text-lg font-bold text-academic-heading font-heading">
-                    {activeMilestone.titleKey ? t(activeMilestone.titleKey) : activeMilestone.title}
+                    {t(activeMilestone.titleKey)}
                   </h3>
                 </div>
               </div>
 
               <span className="inline-flex items-center gap-1 text-xs font-semibold text-academic-muted bg-academic-surface px-3 py-1 rounded-full self-start sm:self-auto border border-slate-100">
                 <Clock size={12} className="text-cta" />
-                <span>{activeMilestone.duration}</span>
+                <span>{t(activeMilestone.durationKey)}</span>
               </span>
             </div>
 
@@ -105,15 +105,13 @@ export const LevelRoadmap = ({
                 <strong className="text-academic-heading font-heading block mb-1">
                   {t('pages.courses.focusLabel')}
                 </strong>
-                <p>{activeMilestone.focusKey ? t(activeMilestone.focusKey) : activeMilestone.focus}</p>
+                <p>{t(activeMilestone.focusKey)}</p>
               </div>
 
               <div className="pt-2 border-t border-dashed border-slate-100 flex items-center gap-2 text-emerald-700 font-semibold">
                 <CheckCircle2 size={16} className="text-emerald-600 flex-shrink-0" />
                 <span>
-                  {activeMilestone.guaranteeKey
-                    ? t(activeMilestone.guaranteeKey)
-                    : activeMilestone.guarantee}
+                  {t(activeMilestone.guaranteeKey)}
                 </span>
               </div>
             </div>

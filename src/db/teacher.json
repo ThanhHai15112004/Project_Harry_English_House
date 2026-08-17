@@ -1,19 +1,19 @@
 {
   "centerName": "Harry English House",
   "shortName": "HEH",
-  "slogan": "Không học nhiều hơn. Học đúng hơn.",
+  "sloganKey": "db.teacher.slogan",
   "founder": {
     "name": "Harry (Anh Khôi)",
     "englishName": "Harry Khoi",
-    "role": "Educator • English Instructor • Founder of Harry English House",
+    "roleKey": "db.teacher.founder.role",
     "tagline": "Educator. English Instructor. Founder of Harry English House.",
-    "shortBio": "Với hơn 8+ năm trực tiếp đứng lớp và là Đối tác chiến lược IDP IELTS, Thầy Harry theo đuổi triết lý giáo dục thực chất: thấu hiểu xuất phát điểm của từng người học, xây dựng lộ trình tinh gọn và theo sát đến khi tiến bộ thực sự.",
-    "experience": "8+ Năm kinh nghiệm đào tạo",
+    "shortBioKey": "db.teacher.founder.shortBio",
+    "experienceKey": "db.teacher.founder.experience",
     "ieltsScore": "8.0",
     "studentsCount": "1.000+",
-    "idpPartner": "Đối tác chiến lược của IDP IELTS Vietnam",
-    "teacherStandard": "Đội ngũ giáo viên chuyên môn cao, tối thiểu 7.5+ IELTS",
-    "philosophy": "Giáo dục không phải là hoàn thành một giáo trình định sẵn, mà là thấu hiểu điểm xuất phát và đồng hành cùng từng học viên.",
+    "idpPartnerKey": "db.teacher.founder.idpPartner",
+    "teacherStandardKey": "db.teacher.founder.teacherStandard",
+    "philosophyKey": "db.teacher.founder.philosophy",
     "avatar": "/src/assets/trang-ca-nhan/avatar-me.jpg",
     "cover": "/src/assets/trang-ca-nhan/anh-bia.jpg",
     "academicPhoto": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg",
@@ -28,35 +28,35 @@
     }
   },
   "story": {
-    "title": "Harry đến với việc giảng dạy tiếng Anh như thế nào?",
-    "paragraphs": [
-      "Bắt đầu từ những năm tháng còn là sinh viên chuyên ngành Ngôn ngữ Anh, Harry nhận thấy phần lớn người học tiếng Anh tại Việt Nam không thiếu sự chăm chỉ, mà thiếu một phương pháp tiếp cận đúng bản chất. Việc học thường bị biến thành những bài tập ngữ pháp rời rạc hoặc luyện giải đề thụ động mà không thực sự hiểu ngữ cảnh ngôn ngữ.",
-      "Với niềm tin rằng ngôn ngữ là công cụ tư duy và kết nối, Harry bắt đầu hướng dẫn những nhóm nhỏ học viên đầu tiên bằng cách mổ xẻ cấu trúc câu, chuẩn hóa ngữ âm IPA từ gốc và rèn phản xạ tư duy trực tiếp bằng tiếng Anh.",
-      "Sau hơn 8 năm đồng hành cùng hàng nghìn học viên từ mất căn bản đến đạt 7.5 - 8.5 IELTS, giảng dạy không chỉ là một công việc mà đã trở thành sứ mệnh bền bỉ: giúp người học xóa bỏ nỗi sợ và thực sự làm chủ ngôn ngữ."
+    "titleKey": "db.teacher.story.title",
+    "paragraphKeys": [
+      "db.teacher.story.p1",
+      "db.teacher.story.p2",
+      "db.teacher.story.p3"
     ],
     "image": "/src/assets/ki-niem/ki-niem-2.jpg"
   },
   "origin": {
-    "title": "Từ một cách dạy đến một môi trường học",
-    "subtitle": "Harry English House được hình thành từ mong muốn tạo ra một không gian học tập nơi người học được lắng nghe và theo sát.",
+    "titleKey": "db.teacher.origin.title",
+    "subtitleKey": "db.teacher.origin.subtitle",
     "steps": [
       {
         "id": "problem",
         "stepNumber": "01",
-        "title": "Vấn đề của người học",
-        "desc": "Người học thường bị lạc lối giữa các trung tâm sĩ số đông 25–30 bạn, học theo giáo trình công nghiệp, không được sửa bài chi tiết và thiếu người định hướng cụ thể khi gặp điểm nghẽn."
+        "titleKey": "db.teacher.origin.step1Title",
+        "descKey": "db.teacher.origin.step1Desc"
       },
       {
         "id": "approach",
         "stepNumber": "02",
-        "title": "Cách tiếp cận của Harry",
-        "desc": "Lựa chọn mô hình lớp nhỏ 3–6 bạn hoặc kèm 1-1, chẩn đoán chính xác lỗ hổng từng cá nhân, chấm chữa từng đoạn văn và rèn phản xạ Nói trực tiếp theo tiêu chuẩn khảo thí IDP/BC."
+        "titleKey": "db.teacher.origin.step2Title",
+        "descKey": "db.teacher.origin.step2Desc"
       },
       {
         "id": "heh",
         "stepNumber": "03",
-        "title": "Harry English House ra đời",
-        "desc": "Một môi trường học thuật ấm cúng, nghiêm túc nhưng tràn đầy năng lượng tích cực, nơi mỗi học viên đều có một lộ trình riêng biệt và người thầy luôn sẵn sàng đồng hành."
+        "titleKey": "db.teacher.origin.step3Title",
+        "descKey": "db.teacher.origin.step3Desc"
       }
     ]
   },
@@ -64,124 +64,151 @@
     {
       "id": "understand",
       "number": "01",
-      "title": "Hiểu người học trước",
-      "desc": "Không áp dụng cùng một khuôn mẫu cho tất cả. Trước khi bắt đầu, mọi học viên đều được phân tích điểm mạnh, điểm yếu và mục tiêu thực tế."
+      "titleKey": "db.teacher.philosophy.p1Title",
+      "descKey": "db.teacher.philosophy.p1Desc"
     },
     {
       "id": "build",
       "number": "02",
-      "title": "Xây lộ trình rõ ràng",
-      "desc": "Hiểu bản chất ngữ pháp và tư duy trước khi luyện đề. Mỗi giai đoạn học đều có mục tiêu đầu ra cụ thể, không học dàn trải lãng phí thời gian."
+      "titleKey": "db.teacher.philosophy.p2Title",
+      "descKey": "db.teacher.philosophy.p2Desc"
     },
     {
       "id": "track",
       "number": "03",
-      "title": "Theo sát tiến độ",
-      "desc": "Tiến bộ phải đo lường được. Chấm chữa 1-1 chi tiết từng bài Writing & Speaking, điều chỉnh nhịp học liên tục để đảm bảo chạm đích."
+      "titleKey": "db.teacher.philosophy.p3Title",
+      "descKey": "db.teacher.philosophy.p3Desc"
     }
   ],
   "expertise": [
     {
       "id": "ielts",
       "number": "01",
-      "title": "IELTS Preparation & Academic English",
-      "desc": "Đào tạo chuyên sâu lộ trình 0 – 7.5+ IELTS, tối ưu chiến thuật Skimming/Scanning đề thi Cambridge, phát triển tư duy phản biện Task 2 và chấm chữa 1-1 theo tiêu chuẩn khảo thí IDP."
+      "titleKey": "db.teacher.expertise.item1Title",
+      "descKey": "db.teacher.expertise.item1Desc"
     },
     {
       "id": "speaking",
       "number": "02",
-      "title": "Speaking & Communication Reflex",
-      "desc": "Chuẩn hóa hệ thống ngữ âm IPA chuẩn quốc tế, xóa bỏ thói quen dịch nhẩm từ tiếng Việt, rèn phản xạ giao tiếp tự nhiên trong môi trường học thuật và công việc."
+      "titleKey": "db.teacher.expertise.item2Title",
+      "descKey": "db.teacher.expertise.item2Desc"
     },
     {
       "id": "curriculum",
       "number": "03",
-      "title": "Curriculum Design & Personalization",
-      "desc": "Thiết kế giáo trình may đo tinh gọn theo từng chặng năng lực, kết hợp tài liệu cập nhật sát đề thi thật và phương pháp học có tính ứng dụng cao."
+      "titleKey": "db.teacher.expertise.item3Title",
+      "descKey": "db.teacher.expertise.item3Desc"
     },
     {
       "id": "mentoring",
       "number": "04",
-      "title": "Student Mentoring & Coaching",
-      "desc": "Đồng hành 1-1, giải tỏa áp lực tâm lý phòng thi, định hướng săn học bổng du học và hỗ trợ đặc quyền voucher lệ phí thi chính thức cùng IDP IELTS."
+      "titleKey": "db.teacher.expertise.item4Title",
+      "descKey": "db.teacher.expertise.item4Desc"
     }
   ],
   "education": {
     "degrees": [
       {
         "id": "bachelor",
-        "period": "Cử nhân Chính quy",
-        "institution": "Đại học chuyên ngành Ngôn ngữ Anh",
-        "program": "Ngành Ngôn ngữ Anh (English Linguistics & Pedagogy)",
-        "desc": "Nền tảng học thuật vững chắc về ngôn ngữ học, phương pháp luận giảng dạy tiếng Anh quốc tế và nghiên cứu khảo thí."
+        "periodKey": "db.teacher.education.degree1Period",
+        "institutionKey": "db.teacher.education.degree1Institution",
+        "programKey": "db.teacher.education.degree1Program",
+        "descKey": "db.teacher.education.degree1Desc"
       },
       {
         "id": "ielts-cert",
-        "period": "Chứng chỉ Khảo thí",
-        "institution": "IDP Education Vietnam / Cambridge",
-        "program": "IELTS Academic Band 8.0 Official",
-        "desc": "Chứng chỉ IELTS chính thức với điểm số ấn tượng, được IDP Vietnam công nhận đối tác đào tạo."
+        "periodKey": "db.teacher.education.degree2Period",
+        "institutionKey": "db.teacher.education.degree2Institution",
+        "programKey": "db.teacher.education.degree2Program",
+        "descKey": "db.teacher.education.degree2Desc"
       }
     ],
     "development": [
       {
         "id": "idp-partner",
-        "title": "Đối tác Chiến lược IDP IELTS",
-        "org": "IDP Education Vietnam",
-        "year": "2024 — Hiện tại",
-        "desc": "Tham gia các kỳ tập huấn cập nhật xu hướng đề thi và tiêu chuẩn chấm thi IELTS mới nhất."
+        "titleKey": "db.teacher.education.dev1Title",
+        "orgKey": "db.teacher.education.dev1Org",
+        "yearKey": "db.teacher.education.dev1Year",
+        "descKey": "db.teacher.education.dev1Desc"
       },
       {
         "id": "asean-emgs",
-        "title": "Đại biểu Hội thảo Giáo dục Quốc tế EMGS",
-        "org": "Ministry of Higher Education Malaysia",
-        "year": "2025",
-        "desc": "Tham dự ASEAN Student Gathering và hội thảo về hợp tác giáo dục đại học khu vực."
+        "titleKey": "db.teacher.education.dev2Title",
+        "orgKey": "db.teacher.education.dev2Org",
+        "yearKey": "db.teacher.education.dev2Year",
+        "descKey": "db.teacher.education.dev2Desc"
       }
     ]
   },
   "academicActivities": {
-    "title": "Không chỉ đứng lớp.",
-    "subtitle": "Harry duy trì việc học hỏi, chia sẻ và kết nối trong các môi trường học thuật chuyên nghiệp.",
+    "titleKey": "db.teacher.academicActivities.title",
+    "subtitleKey": "db.teacher.academicActivities.subtitle",
     "featuredEvent": {
       "year": "2025",
-      "location": "Kuala Lumpur, Malaysia",
-      "event": "ASEAN Student Gathering with EMGS",
-      "organizer": "Ministry of Higher Education Malaysia & Education Malaysia Global Services (EMGS)",
-      "desc": "Thầy Harry đại diện tham dự diễn đàn giáo dục quốc tế, trao đổi về đổi mới phương pháp giảng dạy tiếng Anh ứng dụng và mở rộng cơ hội học bổng cho học viên khu vực Đông Nam Á.",
+      "locationKey": "db.teacher.academicActivities.eventLoc",
+      "descKey": "db.teacher.academicActivities.eventDesc",
       "mainImage": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg",
-      "secondaryImage": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-nhom-1.jpg"
+      "secondaryImage": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-nhom-1.jpg",
+      "eventKey": "db.teacher.academicActivities.event",
+      "organizerKey": "db.teacher.academicActivities.organizer"
     }
   },
   "team": [
     {
       "id": "harry",
       "name": "Thầy Harry (Anh Khôi)",
-      "role": "Founder & Head Instructor",
-      "specialty": "IELTS Academic • 8.0 IELTS",
-      "avatar": "/src/assets/trang-ca-nhan/avatar-me.jpg"
+      "roleKey": "db.teacher.team.harryRole",
+      "specialtyKey": "db.teacher.team.harrySpecialty",
+      "avatar": "/src/assets/trang-ca-nhan/avatar-me.jpg",
+      "nameKey": "db.teacher.team.harryName"
     },
     {
       "id": "vicky",
       "name": "Ms. Vicky",
-      "role": "Senior English Instructor",
-      "specialty": "IELTS Preparation • Giao Tiếp",
-      "avatar": "/src/assets/ki-niem/ki-niem-6.jpg"
+      "roleKey": "db.teacher.team.vickyRole",
+      "specialtyKey": "db.teacher.team.vickySpecialty",
+      "avatar": "/src/assets/ki-niem/ki-niem-6.jpg",
+      "nameKey": "db.teacher.team.vickyName"
     },
     {
       "id": "ai",
       "name": "Ms. Ái",
-      "role": "Academic Advisor & Operations",
-      "specialty": "Tư vấn lộ trình • Chăm sóc học viên",
-      "avatar": "/src/assets/ki-niem/ki-niem-7.jpg"
+      "roleKey": "db.teacher.team.aiRole",
+      "specialtyKey": "db.teacher.team.aiSpecialty",
+      "avatar": "/src/assets/ki-niem/ki-niem-7.jpg",
+      "nameKey": "db.teacher.team.aiName"
     }
   ],
   "moments": [
-    { "id": 1, "image": "/src/assets/ki-niem/ki-niem-1.jpg", "caption": "Lớp học tương tác tại cơ sở Q7" },
-    { "id": 2, "image": "/src/assets/ki-niem/ki-niem-2.jpg", "caption": "Buổi chia sẻ phương pháp học cùng học viên" },
-    { "id": 3, "image": "/src/assets/ki-niem/ki-niem-3.jpg", "caption": "Hoạt động rèn luyện phản xạ nhóm nhỏ" },
-    { "id": 4, "image": "/src/assets/ki-niem/ki-niem-4.jpg", "caption": "Không gian học tập thân thiện tại HEH" },
-    { "id": 5, "image": "/src/assets/ki-niem/ki-niem-5.jpg", "caption": "Buổi kiểm tra đánh giá năng lực 1-1" },
-    { "id": 6, "image": "/src/assets/ki-niem/ki-niem-8.jpg", "caption": "Khoảnh khắc nhận chứng chỉ cùng học viên" }
+    {
+      "id": 1,
+      "image": "/src/assets/ki-niem/ki-niem-1.jpg",
+      "captionKey": "db.teacher.moments.m1"
+    },
+    {
+      "id": 2,
+      "image": "/src/assets/ki-niem/ki-niem-2.jpg",
+      "captionKey": "db.teacher.moments.m2"
+    },
+    {
+      "id": 3,
+      "image": "/src/assets/ki-niem/ki-niem-3.jpg",
+      "captionKey": "db.teacher.moments.m3"
+    },
+    {
+      "id": 4,
+      "image": "/src/assets/ki-niem/ki-niem-4.jpg",
+      "captionKey": "db.teacher.moments.m4"
+    },
+    {
+      "id": 5,
+      "image": "/src/assets/ki-niem/ki-niem-5.jpg",
+      "captionKey": "db.teacher.moments.m5"
+    },
+    {
+      "id": 6,
+      "image": "/src/assets/ki-niem/ki-niem-8.jpg",
+      "captionKey": "db.teacher.moments.m6"
+    }
   ]
 }

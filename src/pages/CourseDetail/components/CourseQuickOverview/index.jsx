@@ -9,33 +9,38 @@ export default function CourseQuickOverview({ course }) {
 
   const overviewItems = [
     {
+      id: 'level',
       icon: Award,
-      label: t('pages.courseDetail.quickOverview.level', 'Trình độ'),
-      value: course.level || 'Cơ bản đến Nâng cao',
+      label: t('pages.courseDetail.quickOverview.level'),
+      value: t(course.levelKey),
       highlight: true
     },
     {
+      id: 'duration',
       icon: Clock,
-      label: t('pages.courseDetail.quickOverview.duration', 'Thời lượng'),
-      value: course.duration || '3 tháng (~36 buổi)',
+      label: t('pages.courseDetail.quickOverview.duration'),
+      value: t(course.durationKey),
       highlight: false
     },
     {
+      id: 'format',
       icon: Laptop,
-      label: t('pages.courseDetail.quickOverview.format', 'Hình thức'),
-      value: course.format || 'Offline Q7, Q8 / Online',
+      label: t('pages.courseDetail.quickOverview.format'),
+      value: t(course.formatKey),
       highlight: false
     },
     {
+      id: 'classSize',
       icon: Users2,
-      label: t('pages.courseDetail.quickOverview.classSize', 'Quy mô'),
-      value: course.classSize || '6–10 học viên',
+      label: t('pages.courseDetail.quickOverview.classSize'),
+      value: t(course.classSizeKey),
       highlight: false
     },
     {
+      id: 'schedule',
       icon: CalendarDays,
-      label: t('pages.courseDetail.quickOverview.schedule', 'Lịch học'),
-      value: course.weeklySchedule || '3 buổi / tuần',
+      label: t('pages.courseDetail.quickOverview.schedule'),
+      value: t(course.weeklyScheduleKey),
       highlight: false
     }
   ];
@@ -48,7 +53,7 @@ export default function CourseQuickOverview({ course }) {
             const Icon = item.icon;
             return (
               <div 
-                key={idx} 
+                key={item.id} 
                 className={`px-4 sm:px-6 py-4 flex flex-col justify-center ${
                   idx === 0 ? 'border-t-0' : ''
                 }`}

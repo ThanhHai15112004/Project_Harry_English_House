@@ -32,12 +32,12 @@ export const EducationalPhilosophy = ({ principles = [] }) => {
 
               {/* Principle Title */}
               <h3 className="text-lg sm:text-xl font-bold text-academic-heading font-heading tracking-tight leading-snug group-hover:text-primary transition-colors">
-                {item.title}
+                {t(item.titleKey)}
               </h3>
 
               {/* Description */}
               <p className="text-xs sm:text-sm text-academic-body leading-relaxed font-normal">
-                {item.desc}
+                {t(item.descKey)}
               </p>
             </div>
           ))}

@@ -179,28 +179,28 @@ export const CourseFinder = ({ allCourses = [], finderData = {} }) => {
                 <div className="p-6 rounded-3xl bg-academic-soft-white border border-slate-200 space-y-4">
                   <div className="flex items-center justify-between gap-2">
                     <span className="text-xs font-bold text-cta bg-blue-50 px-2.5 py-1 rounded-md border border-blue-100">
-                      {recommendedCourse.badge}
+                      {t(recommendedCourse.badgeKey)}
                     </span>
-                    <span className="text-xs text-slate-500 font-semibold">{recommendedCourse.level}</span>
+                    <span className="text-xs text-slate-500 font-semibold">{t(recommendedCourse.levelKey)}</span>
                   </div>
 
                   <h4 className="text-xl font-black text-academic-heading font-heading">
-                    {recommendedCourse.title}
+                    {t(recommendedCourse.titleKey)}
                   </h4>
 
                   <p className="text-xs sm:text-sm text-academic-body leading-relaxed">
-                    {recommendedCourse.target}
+                    {t(recommendedCourse.targetKey)}
                   </p>
 
                   <div className="flex flex-wrap gap-4 text-xs text-slate-700 pt-2 border-t border-slate-200">
                     <span>
-                      <strong>{t('pages.courses.durationLabel')}</strong> {recommendedCourse.duration}
+                      <strong>{t('pages.courses.durationLabel')}</strong> {t(recommendedCourse.durationKey)}
                     </span>
                     <span>
-                      <strong>{t('pages.courses.classSizeLabel')}</strong> {recommendedCourse.classSize}
+                      <strong>{t('pages.courses.classSizeLabel')}</strong> {t(recommendedCourse.classSizeKey)}
                     </span>
                     <span>
-                      <strong>{t('pages.courses.formatLabel')}</strong> {recommendedCourse.format}
+                      <strong>{t('pages.courses.formatLabel')}</strong> {t(recommendedCourse.formatKey)}
                     </span>
                   </div>
                 </div>

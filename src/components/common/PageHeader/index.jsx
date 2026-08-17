@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { ChevronRight, Home } from 'lucide-react';
 import { ROUTES } from '@/core';
 
@@ -13,6 +14,8 @@ export const PageHeader = ({
   breadcrumbItems = [],
   children,
 }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="relative bg-gradient-to-b from-blue-50/70 via-slate-50/50 to-white border-b border-academic-border py-10 sm:py-14 lg:py-16 overflow-hidden">
       {/* Subtle background glow */}
@@ -27,7 +30,7 @@ export const PageHeader = ({
             className="inline-flex items-center gap-1 hover:text-primary transition-colors font-semibold"
           >
             <Home size={13} />
-            <span>Trang chủ</span>
+            <span>{t('nav.home')}</span>
           </Link>
           {breadcrumbItems.map((item) => (
             <React.Fragment key={item.path || item.label}>

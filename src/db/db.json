@@ -2,16 +2,23 @@
   "teacher": {
     "centerName": "Harry English House",
     "shortName": "HEH",
-    "slogan": "Không chỉ học mà còn thực sự làm chủ ngôn ngữ",
+    "sloganKey": "db.teacher.slogan",
     "founder": {
       "name": "Harry (Anh Khôi)",
-      "role": "Founder & Giảng viên chính",
-      "experience": "Hơn 8 năm kinh nghiệm đào tạo",
-      "idpPartner": "Đối tác chiến lược của IDP (Chính sách ưu đãi giảm lệ phí thi IELTS trực tiếp)",
-      "teacherStandard": "Đội ngũ giáo viên chuyên môn cao, tối thiểu 7.5+ IELTS",
-      "philosophy": "HEH luôn hướng tới phương pháp giảng dạy thực tiễn, giúp học viên xóa bỏ rào cản lý thuyết khô khan để đạt được mục tiêu từ 0-8.0 IELTS một cách rõ ràng nhất. Chúng tôi tin rằng giáo dục là sự thấu hiểu và đồng hành xuyên suốt.",
+      "englishName": "Harry Khoi",
+      "roleKey": "db.teacher.founder.role",
+      "tagline": "Educator. English Instructor. Founder of Harry English House.",
+      "shortBioKey": "db.teacher.founder.shortBio",
+      "experienceKey": "db.teacher.founder.experience",
+      "ieltsScore": "8.0",
+      "studentsCount": "1.000+",
+      "idpPartnerKey": "db.teacher.founder.idpPartner",
+      "teacherStandardKey": "db.teacher.founder.teacherStandard",
+      "philosophyKey": "db.teacher.founder.philosophy",
       "avatar": "/src/assets/trang-ca-nhan/avatar-me.jpg",
       "cover": "/src/assets/trang-ca-nhan/anh-bia.jpg",
+      "academicPhoto": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg",
+      "classroomPhoto": "/src/assets/ki-niem/ki-niem-1.jpg",
       "contact": {
         "hotline": "0938 611 919 (Ms Ái)",
         "email": "khoi.harryenglishhouse@gmail.com",
@@ -21,26 +28,188 @@
         "threads": "https://www.threads.com/@_k.pedia_"
       }
     },
-    "highlights": [
+    "story": {
+      "titleKey": "db.teacher.story.title",
+      "paragraphKeys": [
+        "db.teacher.story.p1",
+        "db.teacher.story.p2",
+        "db.teacher.story.p3"
+      ],
+      "image": "/src/assets/ki-niem/ki-niem-2.jpg"
+    },
+    "origin": {
+      "titleKey": "db.teacher.origin.title",
+      "subtitleKey": "db.teacher.origin.subtitle",
+      "steps": [
+        {
+          "id": "problem",
+          "stepNumber": "01",
+          "titleKey": "db.teacher.origin.step1Title",
+          "descKey": "db.teacher.origin.step1Desc"
+        },
+        {
+          "id": "approach",
+          "stepNumber": "02",
+          "titleKey": "db.teacher.origin.step2Title",
+          "descKey": "db.teacher.origin.step2Desc"
+        },
+        {
+          "id": "heh",
+          "stepNumber": "03",
+          "titleKey": "db.teacher.origin.step3Title",
+          "descKey": "db.teacher.origin.step3Desc"
+        }
+      ]
+    },
+    "philosophyPrinciples": [
+      {
+        "id": "understand",
+        "number": "01",
+        "titleKey": "db.teacher.philosophy.p1Title",
+        "descKey": "db.teacher.philosophy.p1Desc"
+      },
+      {
+        "id": "build",
+        "number": "02",
+        "titleKey": "db.teacher.philosophy.p2Title",
+        "descKey": "db.teacher.philosophy.p2Desc"
+      },
+      {
+        "id": "track",
+        "number": "03",
+        "titleKey": "db.teacher.philosophy.p3Title",
+        "descKey": "db.teacher.philosophy.p3Desc"
+      }
+    ],
+    "expertise": [
+      {
+        "id": "ielts",
+        "number": "01",
+        "titleKey": "db.teacher.expertise.item1Title",
+        "descKey": "db.teacher.expertise.item1Desc"
+      },
+      {
+        "id": "speaking",
+        "number": "02",
+        "titleKey": "db.teacher.expertise.item2Title",
+        "descKey": "db.teacher.expertise.item2Desc"
+      },
+      {
+        "id": "curriculum",
+        "number": "03",
+        "titleKey": "db.teacher.expertise.item3Title",
+        "descKey": "db.teacher.expertise.item3Desc"
+      },
+      {
+        "id": "mentoring",
+        "number": "04",
+        "titleKey": "db.teacher.expertise.item4Title",
+        "descKey": "db.teacher.expertise.item4Desc"
+      }
+    ],
+    "education": {
+      "degrees": [
+        {
+          "id": "bachelor",
+          "periodKey": "db.teacher.education.degree1Period",
+          "institutionKey": "db.teacher.education.degree1Institution",
+          "programKey": "db.teacher.education.degree1Program",
+          "descKey": "db.teacher.education.degree1Desc"
+        },
+        {
+          "id": "ielts-cert",
+          "periodKey": "db.teacher.education.degree2Period",
+          "institutionKey": "db.teacher.education.degree2Institution",
+          "programKey": "db.teacher.education.degree2Program",
+          "descKey": "db.teacher.education.degree2Desc"
+        }
+      ],
+      "development": [
+        {
+          "id": "idp-partner",
+          "titleKey": "db.teacher.education.dev1Title",
+          "orgKey": "db.teacher.education.dev1Org",
+          "yearKey": "db.teacher.education.dev1Year",
+          "descKey": "db.teacher.education.dev1Desc"
+        },
+        {
+          "id": "asean-emgs",
+          "titleKey": "db.teacher.education.dev2Title",
+          "orgKey": "db.teacher.education.dev2Org",
+          "yearKey": "db.teacher.education.dev2Year",
+          "descKey": "db.teacher.education.dev2Desc"
+        }
+      ]
+    },
+    "academicActivities": {
+      "titleKey": "db.teacher.academicActivities.title",
+      "subtitleKey": "db.teacher.academicActivities.subtitle",
+      "featuredEvent": {
+        "year": "2025",
+        "locationKey": "db.teacher.academicActivities.eventLoc",
+        "descKey": "db.teacher.academicActivities.eventDesc",
+        "mainImage": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg",
+        "secondaryImage": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-nhom-1.jpg",
+        "eventKey": "db.teacher.academicActivities.event",
+        "organizerKey": "db.teacher.academicActivities.organizer"
+      }
+    },
+    "team": [
+      {
+        "id": "harry",
+        "name": "Thầy Harry (Anh Khôi)",
+        "roleKey": "db.teacher.team.harryRole",
+        "specialtyKey": "db.teacher.team.harrySpecialty",
+        "avatar": "/src/assets/trang-ca-nhan/avatar-me.jpg",
+        "nameKey": "db.teacher.team.harryName"
+      },
+      {
+        "id": "vicky",
+        "name": "Ms. Vicky",
+        "roleKey": "db.teacher.team.vickyRole",
+        "specialtyKey": "db.teacher.team.vickySpecialty",
+        "avatar": "/src/assets/ki-niem/ki-niem-6.jpg",
+        "nameKey": "db.teacher.team.vickyName"
+      },
+      {
+        "id": "ai",
+        "name": "Ms. Ái",
+        "roleKey": "db.teacher.team.aiRole",
+        "specialtyKey": "db.teacher.team.aiSpecialty",
+        "avatar": "/src/assets/ki-niem/ki-niem-7.jpg",
+        "nameKey": "db.teacher.team.aiName"
+      }
+    ],
+    "moments": [
       {
         "id": 1,
-        "title": "Đối tác chiến lược IDP",
-        "description": "Đặc quyền tối ưu chi phí với chính sách giảm lệ phí thi IELTS trực tiếp từ IDP cho học viên HEH."
+        "image": "/src/assets/ki-niem/ki-niem-1.jpg",
+        "captionKey": "db.teacher.moments.m1"
       },
       {
         "id": 2,
-        "title": "Đội ngũ Giáo viên 7.5+ IELTS",
-        "description": "100% giáo viên có chứng chỉ sư phạm quốc tế và tối thiểu 7.5+ IELTS, giàu kinh nghiệm thực chiến."
+        "image": "/src/assets/ki-niem/ki-niem-2.jpg",
+        "captionKey": "db.teacher.moments.m2"
       },
       {
         "id": 3,
-        "title": "Sĩ số lớp nhỏ & Kèm sát",
-        "description": "Lớp học từ 1:1, 1:2 đến nhóm nhỏ dưới 12 bạn, đảm bảo chấm chữa chi tiết từng kỹ năng."
+        "image": "/src/assets/ki-niem/ki-niem-3.jpg",
+        "captionKey": "db.teacher.moments.m3"
       },
       {
         "id": 4,
-        "title": "Lộ trình cá nhân hóa",
-        "description": "Thiết kế giáo trình bám sát điểm yếu của từng học viên, cam kết chuẩn đầu ra rõ ràng."
+        "image": "/src/assets/ki-niem/ki-niem-4.jpg",
+        "captionKey": "db.teacher.moments.m4"
+      },
+      {
+        "id": 5,
+        "image": "/src/assets/ki-niem/ki-niem-5.jpg",
+        "captionKey": "db.teacher.moments.m5"
+      },
+      {
+        "id": 6,
+        "image": "/src/assets/ki-niem/ki-niem-8.jpg",
+        "captionKey": "db.teacher.moments.m6"
       }
     ]
   },
@@ -48,223 +217,1003 @@
     {
       "id": "ielts-0-3",
       "category": "ielts",
-      "title": "Khóa IELTS Nền Tảng (0 → 3.0)",
-      "level": "Mất gốc / Cơ bản",
-      "target": "Xây nền ngữ pháp, phát âm, từ vựng chuẩn & làm quen tư duy học tiếng Anh",
-      "curriculum": "Raymond Murphy Basic, Oxford Phonics, Vocabulary in Use Elementary, Get Ready for IELTS",
-      "duration": "~40 buổi",
-      "format": "Online / Offline / Nhóm nhỏ / 1:1, 1:2",
-      "badge": "Mất gốc",
-      "color": "blue"
+      "titleKey": "db.courses.ielts_0_3.title",
+      "levelKey": "db.courses.ielts_0_3.level",
+      "targetKey": "db.courses.ielts_0_3.target",
+      "curriculumKey": "db.courses.ielts_0_3.curriculum",
+      "durationKey": "db.courses.ielts_0_3.duration",
+      "weeklyScheduleKey": "db.courses.ielts_0_3.weeklySchedule",
+      "classSizeKey": "db.courses.ielts_0_3.classSize",
+      "guaranteeKey": "db.courses.ielts_0_3.guarantee",
+      "badgeKey": "db.courses.ielts_0_3.badge",
+      "formatKey": "db.courses.ielts_0_3.format",
+      "color": "blue",
+      "image": "/src/assets/ki-niem/ki-niem-1.jpg",
+      "highlightsKeys": [
+        "db.courses.ielts_0_3.highlights.0",
+        "db.courses.ielts_0_3.highlights.1",
+        "db.courses.ielts_0_3.highlights.2",
+        "db.courses.ielts_0_3.highlights.3"
+      ],
+      "targetAudience": {
+        "whoForKey": "db.courses.ielts_0_3.targetAudience.whoFor",
+        "inputRequirementKey": "db.courses.ielts_0_3.targetAudience.inputRequirement",
+        "outputTargetKey": "db.courses.ielts_0_3.targetAudience.outputTarget"
+      },
+      "skillsContent": {
+        "reading": [
+          "db.courses.ielts_0_3.skillsContent.reading.0",
+          "db.courses.ielts_0_3.skillsContent.reading.1",
+          "db.courses.ielts_0_3.skillsContent.reading.2"
+        ],
+        "listening": [
+          "db.courses.ielts_0_3.skillsContent.listening.0",
+          "db.courses.ielts_0_3.skillsContent.listening.1",
+          "db.courses.ielts_0_3.skillsContent.listening.2"
+        ],
+        "writing": [
+          "db.courses.ielts_0_3.skillsContent.writing.0",
+          "db.courses.ielts_0_3.skillsContent.writing.1",
+          "db.courses.ielts_0_3.skillsContent.writing.2"
+        ],
+        "speaking": [
+          "db.courses.ielts_0_3.skillsContent.speaking.0",
+          "db.courses.ielts_0_3.skillsContent.speaking.1",
+          "db.courses.ielts_0_3.skillsContent.speaking.2"
+        ]
+      },
+      "roadmap": [
+        {
+          "stageKey": "db.courses.ielts_0_3.roadmap.0.stage",
+          "titleKey": "db.courses.ielts_0_3.roadmap.0.title",
+          "durationKey": "db.courses.ielts_0_3.roadmap.0.duration",
+          "descKey": "db.courses.ielts_0_3.roadmap.0.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.ielts_0_3.roadmap.1.stage",
+          "titleKey": "db.courses.ielts_0_3.roadmap.1.title",
+          "durationKey": "db.courses.ielts_0_3.roadmap.1.duration",
+          "descKey": "db.courses.ielts_0_3.roadmap.1.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.ielts_0_3.roadmap.2.stage",
+          "titleKey": "db.courses.ielts_0_3.roadmap.2.title",
+          "durationKey": "db.courses.ielts_0_3.roadmap.2.duration",
+          "descKey": "db.courses.ielts_0_3.roadmap.2.desc",
+          "focusKeys": []
+        }
+      ],
+      "books": [
+        {
+          "nameKey": "db.courses.ielts_0_3.books.0.name",
+          "publisherKey": "db.courses.ielts_0_3.books.0.publisher",
+          "phaseKey": "db.courses.ielts_0_3.books.0.phase",
+          "descKey": "db.courses.ielts_0_3.books.0.desc"
+        },
+        {
+          "nameKey": "db.courses.ielts_0_3.books.1.name",
+          "publisherKey": "db.courses.ielts_0_3.books.1.publisher",
+          "phaseKey": "db.courses.ielts_0_3.books.1.phase",
+          "descKey": "db.courses.ielts_0_3.books.1.desc"
+        },
+        {
+          "nameKey": "db.courses.ielts_0_3.books.2.name",
+          "publisherKey": "db.courses.ielts_0_3.books.2.publisher",
+          "phaseKey": "db.courses.ielts_0_3.books.2.phase",
+          "descKey": "db.courses.ielts_0_3.books.2.desc"
+        }
+      ],
+      "pricingInfo": {
+        "tuitionFeeKey": "db.courses.ielts_0_3.pricingInfo.tuitionFee",
+        "perMonthKey": "db.courses.ielts_0_3.pricingInfo.perMonth",
+        "totalSessionsKey": "db.courses.ielts_0_3.pricingInfo.totalSessions",
+        "includesKeys": []
+      },
+      "faqs": [
+        {
+          "qKey": "db.courses.ielts_0_3.faqs.0.q",
+          "aKey": "db.courses.ielts_0_3.faqs.0.a"
+        },
+        {
+          "qKey": "db.courses.ielts_0_3.faqs.1.q",
+          "aKey": "db.courses.ielts_0_3.faqs.1.a"
+        },
+        {
+          "qKey": "db.courses.ielts_0_3.faqs.2.q",
+          "aKey": "db.courses.ielts_0_3.faqs.2.a"
+        }
+      ]
     },
     {
       "id": "ielts-3-4",
       "category": "ielts",
-      "title": "Khóa Pre-IELTS (3.0 → 4.0 / 4.5)",
-      "level": "Cơ bản - Tiền trung cấp",
-      "target": "Làm quen cấu trúc đề 4 kỹ năng, không hoảng đề, viết câu đoạn ngắn, nghe đọc cơ bản",
-      "curriculum": "Basic IELTS 4 skills, Complete IELTS 4.0-5.0, Collins Vocabulary for IELTS",
-      "duration": "~30 buổi",
-      "format": "Online / Offline (Quận 7, Quận 8, Quận 1)",
-      "badge": "Xây nền",
-      "color": "cyan"
+      "titleKey": "db.courses.ielts_3_4.title",
+      "levelKey": "db.courses.ielts_3_4.level",
+      "targetKey": "db.courses.ielts_3_4.target",
+      "curriculumKey": "db.courses.ielts_3_4.curriculum",
+      "durationKey": "db.courses.ielts_3_4.duration",
+      "weeklyScheduleKey": "db.courses.ielts_3_4.weeklySchedule",
+      "classSizeKey": "db.courses.ielts_3_4.classSize",
+      "guaranteeKey": "db.courses.ielts_3_4.guarantee",
+      "badgeKey": "db.courses.ielts_3_4.badge",
+      "formatKey": "db.courses.ielts_3_4.format",
+      "color": "cyan",
+      "image": "/src/assets/ki-niem/ki-niem-2.jpg",
+      "highlightsKeys": [
+        "db.courses.ielts_3_4.highlights.0",
+        "db.courses.ielts_3_4.highlights.1",
+        "db.courses.ielts_3_4.highlights.2",
+        "db.courses.ielts_3_4.highlights.3"
+      ],
+      "targetAudience": {
+        "whoForKey": "db.courses.ielts_3_4.targetAudience.whoFor",
+        "inputRequirementKey": "db.courses.ielts_3_4.targetAudience.inputRequirement",
+        "outputTargetKey": "db.courses.ielts_3_4.targetAudience.outputTarget"
+      },
+      "skillsContent": {
+        "reading": [
+          "db.courses.ielts_3_4.skillsContent.reading.0",
+          "db.courses.ielts_3_4.skillsContent.reading.1",
+          "db.courses.ielts_3_4.skillsContent.reading.2"
+        ],
+        "listening": [
+          "db.courses.ielts_3_4.skillsContent.listening.0",
+          "db.courses.ielts_3_4.skillsContent.listening.1",
+          "db.courses.ielts_3_4.skillsContent.listening.2"
+        ],
+        "writing": [
+          "db.courses.ielts_3_4.skillsContent.writing.0",
+          "db.courses.ielts_3_4.skillsContent.writing.1",
+          "db.courses.ielts_3_4.skillsContent.writing.2"
+        ],
+        "speaking": [
+          "db.courses.ielts_3_4.skillsContent.speaking.0",
+          "db.courses.ielts_3_4.skillsContent.speaking.1",
+          "db.courses.ielts_3_4.skillsContent.speaking.2"
+        ]
+      },
+      "roadmap": [
+        {
+          "stageKey": "db.courses.ielts_3_4.roadmap.0.stage",
+          "titleKey": "db.courses.ielts_3_4.roadmap.0.title",
+          "durationKey": "db.courses.ielts_3_4.roadmap.0.duration",
+          "descKey": "db.courses.ielts_3_4.roadmap.0.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.ielts_3_4.roadmap.1.stage",
+          "titleKey": "db.courses.ielts_3_4.roadmap.1.title",
+          "durationKey": "db.courses.ielts_3_4.roadmap.1.duration",
+          "descKey": "db.courses.ielts_3_4.roadmap.1.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.ielts_3_4.roadmap.2.stage",
+          "titleKey": "db.courses.ielts_3_4.roadmap.2.title",
+          "durationKey": "db.courses.ielts_3_4.roadmap.2.duration",
+          "descKey": "db.courses.ielts_3_4.roadmap.2.desc",
+          "focusKeys": []
+        }
+      ],
+      "books": [
+        {
+          "nameKey": "db.courses.ielts_3_4.books.0.name",
+          "publisherKey": "db.courses.ielts_3_4.books.0.publisher",
+          "phaseKey": "db.courses.ielts_3_4.books.0.phase",
+          "descKey": "db.courses.ielts_3_4.books.0.desc"
+        },
+        {
+          "nameKey": "db.courses.ielts_3_4.books.1.name",
+          "publisherKey": "db.courses.ielts_3_4.books.1.publisher",
+          "phaseKey": "db.courses.ielts_3_4.books.1.phase",
+          "descKey": "db.courses.ielts_3_4.books.1.desc"
+        }
+      ],
+      "pricingInfo": {
+        "tuitionFeeKey": "db.courses.ielts_3_4.pricingInfo.tuitionFee",
+        "perMonthKey": "db.courses.ielts_3_4.pricingInfo.perMonth",
+        "totalSessionsKey": "db.courses.ielts_3_4.pricingInfo.totalSessions",
+        "includesKeys": []
+      },
+      "faqs": [
+        {
+          "qKey": "db.courses.ielts_3_4.faqs.0.q",
+          "aKey": "db.courses.ielts_3_4.faqs.0.a"
+        },
+        {
+          "qKey": "db.courses.ielts_3_4.faqs.1.q",
+          "aKey": "db.courses.ielts_3_4.faqs.1.a"
+        }
+      ]
     },
     {
       "id": "ielts-4-5",
       "category": "ielts",
-      "title": "Khóa IELTS Bứt Phá (4.5 → 5.5 / 6.0)",
-      "level": "Trung cấp",
-      "target": "Nắm trọn các dạng bài, tăng vốn từ học thuật, rèn phản xạ Nói và cấu trúc Viết Task 1-2",
-      "curriculum": "Mindset for IELTS Level 2, Destination B2, Listening for IELTS, Collins Skills",
-      "duration": "~3 tháng / 24-30 buổi",
-      "format": "Offline Q7 / Q8 / Online nhóm",
-      "badge": "Tăng tốc",
-      "color": "emerald"
+      "titleKey": "db.courses.ielts_4_5.title",
+      "levelKey": "db.courses.ielts_4_5.level",
+      "targetKey": "db.courses.ielts_4_5.target",
+      "curriculumKey": "db.courses.ielts_4_5.curriculum",
+      "durationKey": "db.courses.ielts_4_5.duration",
+      "weeklyScheduleKey": "db.courses.ielts_4_5.weeklySchedule",
+      "classSizeKey": "db.courses.ielts_4_5.classSize",
+      "guaranteeKey": "db.courses.ielts_4_5.guarantee",
+      "badgeKey": "db.courses.ielts_4_5.badge",
+      "formatKey": "db.courses.ielts_4_5.format",
+      "color": "emerald",
+      "image": "/src/assets/ki-niem/ki-niem-3.jpg",
+      "highlightsKeys": [
+        "db.courses.ielts_4_5.highlights.0",
+        "db.courses.ielts_4_5.highlights.1",
+        "db.courses.ielts_4_5.highlights.2",
+        "db.courses.ielts_4_5.highlights.3"
+      ],
+      "targetAudience": {
+        "whoForKey": "db.courses.ielts_4_5.targetAudience.whoFor",
+        "inputRequirementKey": "db.courses.ielts_4_5.targetAudience.inputRequirement",
+        "outputTargetKey": "db.courses.ielts_4_5.targetAudience.outputTarget"
+      },
+      "skillsContent": {
+        "reading": [
+          "db.courses.ielts_4_5.skillsContent.reading.0",
+          "db.courses.ielts_4_5.skillsContent.reading.1",
+          "db.courses.ielts_4_5.skillsContent.reading.2"
+        ],
+        "listening": [
+          "db.courses.ielts_4_5.skillsContent.listening.0",
+          "db.courses.ielts_4_5.skillsContent.listening.1",
+          "db.courses.ielts_4_5.skillsContent.listening.2"
+        ],
+        "writing": [
+          "db.courses.ielts_4_5.skillsContent.writing.0",
+          "db.courses.ielts_4_5.skillsContent.writing.1",
+          "db.courses.ielts_4_5.skillsContent.writing.2"
+        ],
+        "speaking": [
+          "db.courses.ielts_4_5.skillsContent.speaking.0",
+          "db.courses.ielts_4_5.skillsContent.speaking.1",
+          "db.courses.ielts_4_5.skillsContent.speaking.2"
+        ]
+      },
+      "roadmap": [
+        {
+          "stageKey": "db.courses.ielts_4_5.roadmap.0.stage",
+          "titleKey": "db.courses.ielts_4_5.roadmap.0.title",
+          "durationKey": "db.courses.ielts_4_5.roadmap.0.duration",
+          "descKey": "db.courses.ielts_4_5.roadmap.0.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.ielts_4_5.roadmap.1.stage",
+          "titleKey": "db.courses.ielts_4_5.roadmap.1.title",
+          "durationKey": "db.courses.ielts_4_5.roadmap.1.duration",
+          "descKey": "db.courses.ielts_4_5.roadmap.1.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.ielts_4_5.roadmap.2.stage",
+          "titleKey": "db.courses.ielts_4_5.roadmap.2.title",
+          "durationKey": "db.courses.ielts_4_5.roadmap.2.duration",
+          "descKey": "db.courses.ielts_4_5.roadmap.2.desc",
+          "focusKeys": []
+        }
+      ],
+      "books": [
+        {
+          "nameKey": "db.courses.ielts_4_5.books.0.name",
+          "publisherKey": "db.courses.ielts_4_5.books.0.publisher",
+          "phaseKey": "db.courses.ielts_4_5.books.0.phase",
+          "descKey": "db.courses.ielts_4_5.books.0.desc"
+        },
+        {
+          "nameKey": "db.courses.ielts_4_5.books.1.name",
+          "publisherKey": "db.courses.ielts_4_5.books.1.publisher",
+          "phaseKey": "db.courses.ielts_4_5.books.1.phase",
+          "descKey": "db.courses.ielts_4_5.books.1.desc"
+        },
+        {
+          "nameKey": "db.courses.ielts_4_5.books.2.name",
+          "publisherKey": "db.courses.ielts_4_5.books.2.publisher",
+          "phaseKey": "db.courses.ielts_4_5.books.2.phase",
+          "descKey": "db.courses.ielts_4_5.books.2.desc"
+        }
+      ],
+      "pricingInfo": {
+        "tuitionFeeKey": "db.courses.ielts_4_5.pricingInfo.tuitionFee",
+        "perMonthKey": "db.courses.ielts_4_5.pricingInfo.perMonth",
+        "totalSessionsKey": "db.courses.ielts_4_5.pricingInfo.totalSessions",
+        "includesKeys": []
+      },
+      "faqs": [
+        {
+          "qKey": "db.courses.ielts_4_5.faqs.0.q",
+          "aKey": "db.courses.ielts_4_5.faqs.0.a"
+        },
+        {
+          "qKey": "db.courses.ielts_4_5.faqs.1.q",
+          "aKey": "db.courses.ielts_4_5.faqs.1.a"
+        },
+        {
+          "qKey": "db.courses.ielts_4_5.faqs.2.q",
+          "aKey": "db.courses.ielts_4_5.faqs.2.a"
+        }
+      ]
     },
     {
       "id": "ielts-6-75",
       "category": "ielts",
-      "title": "Khóa IELTS Chuyên Sâu (6.0 → 7.5+)",
-      "level": "Nâng cao / Mục tiêu du học, xét tốt nghiệp",
-      "target": "Chữa chuyên sâu Writing & Speaking, chiến thuật giải đề Cambridge sát band, bứt phá 7.0-7.5+",
-      "curriculum": "Cambridge IELTS 15-18, IELTS Advantage Writing/Speaking, Bộ đề chữa riêng của HEH",
-      "duration": "Lộ trình 3-6 tháng",
-      "format": "Offline Q7 / Kèm 1:1, 1:2 Online",
-      "badge": "Band cao",
-      "color": "amber"
+      "titleKey": "db.courses.ielts_6_75.title",
+      "levelKey": "db.courses.ielts_6_75.level",
+      "targetKey": "db.courses.ielts_6_75.target",
+      "curriculumKey": "db.courses.ielts_6_75.curriculum",
+      "durationKey": "db.courses.ielts_6_75.duration",
+      "weeklyScheduleKey": "db.courses.ielts_6_75.weeklySchedule",
+      "classSizeKey": "db.courses.ielts_6_75.classSize",
+      "guaranteeKey": "db.courses.ielts_6_75.guarantee",
+      "badgeKey": "db.courses.ielts_6_75.badge",
+      "formatKey": "db.courses.ielts_6_75.format",
+      "color": "amber",
+      "image": "/src/assets/ki-niem/ki-niem-4.jpg",
+      "highlightsKeys": [
+        "db.courses.ielts_6_75.highlights.0",
+        "db.courses.ielts_6_75.highlights.1",
+        "db.courses.ielts_6_75.highlights.2",
+        "db.courses.ielts_6_75.highlights.3"
+      ],
+      "targetAudience": {
+        "whoForKey": "db.courses.ielts_6_75.targetAudience.whoFor",
+        "inputRequirementKey": "db.courses.ielts_6_75.targetAudience.inputRequirement",
+        "outputTargetKey": "db.courses.ielts_6_75.targetAudience.outputTarget"
+      },
+      "skillsContent": {
+        "reading": [
+          "db.courses.ielts_6_75.skillsContent.reading.0",
+          "db.courses.ielts_6_75.skillsContent.reading.1",
+          "db.courses.ielts_6_75.skillsContent.reading.2"
+        ],
+        "listening": [
+          "db.courses.ielts_6_75.skillsContent.listening.0",
+          "db.courses.ielts_6_75.skillsContent.listening.1",
+          "db.courses.ielts_6_75.skillsContent.listening.2"
+        ],
+        "writing": [
+          "db.courses.ielts_6_75.skillsContent.writing.0",
+          "db.courses.ielts_6_75.skillsContent.writing.1",
+          "db.courses.ielts_6_75.skillsContent.writing.2"
+        ],
+        "speaking": [
+          "db.courses.ielts_6_75.skillsContent.speaking.0",
+          "db.courses.ielts_6_75.skillsContent.speaking.1",
+          "db.courses.ielts_6_75.skillsContent.speaking.2"
+        ]
+      },
+      "roadmap": [
+        {
+          "stageKey": "db.courses.ielts_6_75.roadmap.0.stage",
+          "titleKey": "db.courses.ielts_6_75.roadmap.0.title",
+          "durationKey": "db.courses.ielts_6_75.roadmap.0.duration",
+          "descKey": "db.courses.ielts_6_75.roadmap.0.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.ielts_6_75.roadmap.1.stage",
+          "titleKey": "db.courses.ielts_6_75.roadmap.1.title",
+          "durationKey": "db.courses.ielts_6_75.roadmap.1.duration",
+          "descKey": "db.courses.ielts_6_75.roadmap.1.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.ielts_6_75.roadmap.2.stage",
+          "titleKey": "db.courses.ielts_6_75.roadmap.2.title",
+          "durationKey": "db.courses.ielts_6_75.roadmap.2.duration",
+          "descKey": "db.courses.ielts_6_75.roadmap.2.desc",
+          "focusKeys": []
+        }
+      ],
+      "books": [
+        {
+          "nameKey": "db.courses.ielts_6_75.books.0.name",
+          "publisherKey": "db.courses.ielts_6_75.books.0.publisher",
+          "phaseKey": "db.courses.ielts_6_75.books.0.phase",
+          "descKey": "db.courses.ielts_6_75.books.0.desc"
+        },
+        {
+          "nameKey": "db.courses.ielts_6_75.books.1.name",
+          "publisherKey": "db.courses.ielts_6_75.books.1.publisher",
+          "phaseKey": "db.courses.ielts_6_75.books.1.phase",
+          "descKey": "db.courses.ielts_6_75.books.1.desc"
+        },
+        {
+          "nameKey": "db.courses.ielts_6_75.books.2.name",
+          "publisherKey": "db.courses.ielts_6_75.books.2.publisher",
+          "phaseKey": "db.courses.ielts_6_75.books.2.phase",
+          "descKey": "db.courses.ielts_6_75.books.2.desc"
+        }
+      ],
+      "pricingInfo": {
+        "tuitionFeeKey": "db.courses.ielts_6_75.pricingInfo.tuitionFee",
+        "perMonthKey": "db.courses.ielts_6_75.pricingInfo.perMonth",
+        "totalSessionsKey": "db.courses.ielts_6_75.pricingInfo.totalSessions",
+        "includesKeys": []
+      },
+      "faqs": [
+        {
+          "qKey": "db.courses.ielts_6_75.faqs.0.q",
+          "aKey": "db.courses.ielts_6_75.faqs.0.a"
+        },
+        {
+          "qKey": "db.courses.ielts_6_75.faqs.1.q",
+          "aKey": "db.courses.ielts_6_75.faqs.1.a"
+        }
+      ]
     },
     {
-      "id": "ielts-1-2",
+      "id": "ielts-vip-1-2",
       "category": "ielts-vip",
-      "title": "IELTS Cá Nhân Hóa (1 Giáo Viên - 2 Học Sinh)",
-      "level": "Tùy biến từ 6.0 lên 7.5+",
-      "target": "Chẩn đoán điểm yếu từng học viên, kèm sát từng bài Writing & Speaking, nâng band thần tốc",
-      "curriculum": "Giáo trình may đo theo mục tiêu cá nhân & chấm chữa bài 1-1 liên tục",
-      "duration": "Linh hoạt theo tháng / theo chặng",
-      "format": "Online linh hoạt (T3, T5 / T3, T6)",
-      "badge": "VIP Kèm Sát",
-      "color": "purple"
+      "titleKey": "db.courses.ielts_vip_1_2.title",
+      "levelKey": "db.courses.ielts_vip_1_2.level",
+      "targetKey": "db.courses.ielts_vip_1_2.target",
+      "curriculumKey": "db.courses.ielts_vip_1_2.curriculum",
+      "durationKey": "db.courses.ielts_vip_1_2.duration",
+      "weeklyScheduleKey": "db.courses.ielts_vip_1_2.weeklySchedule",
+      "classSizeKey": "db.courses.ielts_vip_1_2.classSize",
+      "guaranteeKey": "db.courses.ielts_vip_1_2.guarantee",
+      "badgeKey": "db.courses.ielts_vip_1_2.badge",
+      "formatKey": "db.courses.ielts_vip_1_2.format",
+      "color": "purple",
+      "image": "/src/assets/ki-niem/ki-niem-5.jpg",
+      "highlightsKeys": [
+        "db.courses.ielts_vip_1_2.highlights.0",
+        "db.courses.ielts_vip_1_2.highlights.1",
+        "db.courses.ielts_vip_1_2.highlights.2",
+        "db.courses.ielts_vip_1_2.highlights.3"
+      ],
+      "targetAudience": {
+        "whoForKey": "db.courses.ielts_vip_1_2.targetAudience.whoFor",
+        "inputRequirementKey": "db.courses.ielts_vip_1_2.targetAudience.inputRequirement",
+        "outputTargetKey": "db.courses.ielts_vip_1_2.targetAudience.outputTarget"
+      },
+      "skillsContent": {
+        "reading": [
+          "db.courses.ielts_vip_1_2.skillsContent.reading.0",
+          "db.courses.ielts_vip_1_2.skillsContent.reading.1"
+        ],
+        "listening": [
+          "db.courses.ielts_vip_1_2.skillsContent.listening.0",
+          "db.courses.ielts_vip_1_2.skillsContent.listening.1"
+        ],
+        "writing": [
+          "db.courses.ielts_vip_1_2.skillsContent.writing.0",
+          "db.courses.ielts_vip_1_2.skillsContent.writing.1"
+        ],
+        "speaking": [
+          "db.courses.ielts_vip_1_2.skillsContent.speaking.0",
+          "db.courses.ielts_vip_1_2.skillsContent.speaking.1"
+        ]
+      },
+      "roadmap": [
+        {
+          "stageKey": "db.courses.ielts_vip_1_2.roadmap.0.stage",
+          "titleKey": "db.courses.ielts_vip_1_2.roadmap.0.title",
+          "durationKey": "db.courses.ielts_vip_1_2.roadmap.0.duration",
+          "descKey": "db.courses.ielts_vip_1_2.roadmap.0.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.ielts_vip_1_2.roadmap.1.stage",
+          "titleKey": "db.courses.ielts_vip_1_2.roadmap.1.title",
+          "durationKey": "db.courses.ielts_vip_1_2.roadmap.1.duration",
+          "descKey": "db.courses.ielts_vip_1_2.roadmap.1.desc",
+          "focusKeys": []
+        }
+      ],
+      "books": [
+        {
+          "nameKey": "db.courses.ielts_vip_1_2.books.0.name",
+          "publisherKey": "db.courses.ielts_vip_1_2.books.0.publisher",
+          "phaseKey": "db.courses.ielts_vip_1_2.books.0.phase",
+          "descKey": "db.courses.ielts_vip_1_2.books.0.desc"
+        }
+      ],
+      "pricingInfo": {
+        "tuitionFeeKey": "db.courses.ielts_vip_1_2.pricingInfo.tuitionFee",
+        "perMonthKey": "db.courses.ielts_vip_1_2.pricingInfo.perMonth",
+        "totalSessionsKey": "db.courses.ielts_vip_1_2.pricingInfo.totalSessions",
+        "includesKeys": []
+      },
+      "faqs": [
+        {
+          "qKey": "db.courses.ielts_vip_1_2.faqs.0.q",
+          "aKey": "db.courses.ielts_vip_1_2.faqs.0.a"
+        }
+      ]
+    },
+    {
+      "id": "ielts-vip-1-1",
+      "category": "ielts-vip",
+      "titleKey": "db.courses.ielts_vip_1_1.title",
+      "levelKey": "db.courses.ielts_vip_1_1.level",
+      "targetKey": "db.courses.ielts_vip_1_1.target",
+      "curriculumKey": "db.courses.ielts_vip_1_1.curriculum",
+      "durationKey": "db.courses.ielts_vip_1_1.duration",
+      "weeklyScheduleKey": "db.courses.ielts_vip_1_1.weeklySchedule",
+      "classSizeKey": "db.courses.ielts_vip_1_1.classSize",
+      "guaranteeKey": "db.courses.ielts_vip_1_1.guarantee",
+      "badgeKey": "db.courses.ielts_vip_1_1.badge",
+      "formatKey": "db.courses.ielts_vip_1_1.format",
+      "color": "purple",
+      "image": "/src/assets/ki-niem/ki-niem-6.jpg",
+      "highlightsKeys": [
+        "db.courses.ielts_vip_1_1.highlights.0",
+        "db.courses.ielts_vip_1_1.highlights.1",
+        "db.courses.ielts_vip_1_1.highlights.2",
+        "db.courses.ielts_vip_1_1.highlights.3"
+      ],
+      "targetAudience": {
+        "whoForKey": "db.courses.ielts_vip_1_1.targetAudience.whoFor",
+        "inputRequirementKey": "db.courses.ielts_vip_1_1.targetAudience.inputRequirement",
+        "outputTargetKey": "db.courses.ielts_vip_1_1.targetAudience.outputTarget"
+      },
+      "skillsContent": {
+        "reading": [
+          "db.courses.ielts_vip_1_1.skillsContent.reading.0",
+          "db.courses.ielts_vip_1_1.skillsContent.reading.1"
+        ],
+        "listening": [
+          "db.courses.ielts_vip_1_1.skillsContent.listening.0"
+        ],
+        "writing": [
+          "db.courses.ielts_vip_1_1.skillsContent.writing.0",
+          "db.courses.ielts_vip_1_1.skillsContent.writing.1"
+        ],
+        "speaking": [
+          "db.courses.ielts_vip_1_1.skillsContent.speaking.0"
+        ]
+      },
+      "roadmap": [
+        {
+          "stageKey": "db.courses.ielts_vip_1_1.roadmap.0.stage",
+          "titleKey": "db.courses.ielts_vip_1_1.roadmap.0.title",
+          "durationKey": "db.courses.ielts_vip_1_1.roadmap.0.duration",
+          "descKey": "db.courses.ielts_vip_1_1.roadmap.0.desc",
+          "focusKeys": []
+        }
+      ],
+      "books": [
+        {
+          "nameKey": "db.courses.ielts_vip_1_1.books.0.name",
+          "publisherKey": "db.courses.ielts_vip_1_1.books.0.publisher",
+          "phaseKey": "db.courses.ielts_vip_1_1.books.0.phase",
+          "descKey": "db.courses.ielts_vip_1_1.books.0.desc"
+        }
+      ],
+      "pricingInfo": {
+        "tuitionFeeKey": "db.courses.ielts_vip_1_1.pricingInfo.tuitionFee",
+        "perMonthKey": "db.courses.ielts_vip_1_1.pricingInfo.perMonth",
+        "totalSessionsKey": "db.courses.ielts_vip_1_1.pricingInfo.totalSessions",
+        "includesKeys": []
+      },
+      "faqs": [
+        {
+          "qKey": "db.courses.ielts_vip_1_1.faqs.0.q",
+          "aKey": "db.courses.ielts_vip_1_1.faqs.0.a"
+        }
+      ]
     },
     {
       "id": "comm-basic",
       "category": "communication",
-      "title": "Tiếng Anh Giao Tiếp Phản Xạ Cơ Bản",
-      "level": "Mất gốc / Ngại nói",
-      "target": "Chuẩn hóa phát âm IPA, phản xạ câu hỏi đáp nhanh, tự tin giao tiếp đời sống hàng ngày",
-      "curriculum": "Pronunciation in Use, Giao tiếp tình huống thực tế đời sống & công việc",
-      "duration": "3 tháng (Khóa tiêu chuẩn)",
-      "format": "Offline / Online nhóm nhỏ",
-      "badge": "Phản xạ nhanh",
-      "color": "orange"
+      "titleKey": "db.courses.comm_basic.title",
+      "levelKey": "db.courses.comm_basic.level",
+      "targetKey": "db.courses.comm_basic.target",
+      "curriculumKey": "db.courses.comm_basic.curriculum",
+      "durationKey": "db.courses.comm_basic.duration",
+      "weeklyScheduleKey": "db.courses.comm_basic.weeklySchedule",
+      "classSizeKey": "db.courses.comm_basic.classSize",
+      "guaranteeKey": "db.courses.comm_basic.guarantee",
+      "badgeKey": "db.courses.comm_basic.badge",
+      "formatKey": "db.courses.comm_basic.format",
+      "color": "orange",
+      "image": "/src/assets/ki-niem/ki-niem-7.jpg",
+      "highlightsKeys": [
+        "db.courses.comm_basic.highlights.0",
+        "db.courses.comm_basic.highlights.1",
+        "db.courses.comm_basic.highlights.2",
+        "db.courses.comm_basic.highlights.3"
+      ],
+      "targetAudience": {
+        "whoForKey": "db.courses.comm_basic.targetAudience.whoFor",
+        "inputRequirementKey": "db.courses.comm_basic.targetAudience.inputRequirement",
+        "outputTargetKey": "db.courses.comm_basic.targetAudience.outputTarget"
+      },
+      "skillsContent": {
+        "reading": [
+          "db.courses.comm_basic.skillsContent.reading.0"
+        ],
+        "listening": [
+          "db.courses.comm_basic.skillsContent.listening.0"
+        ],
+        "writing": [
+          "db.courses.comm_basic.skillsContent.writing.0"
+        ],
+        "speaking": [
+          "db.courses.comm_basic.skillsContent.speaking.0",
+          "db.courses.comm_basic.skillsContent.speaking.1"
+        ]
+      },
+      "roadmap": [
+        {
+          "stageKey": "db.courses.comm_basic.roadmap.0.stage",
+          "titleKey": "db.courses.comm_basic.roadmap.0.title",
+          "durationKey": "db.courses.comm_basic.roadmap.0.duration",
+          "descKey": "db.courses.comm_basic.roadmap.0.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.comm_basic.roadmap.1.stage",
+          "titleKey": "db.courses.comm_basic.roadmap.1.title",
+          "durationKey": "db.courses.comm_basic.roadmap.1.duration",
+          "descKey": "db.courses.comm_basic.roadmap.1.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.comm_basic.roadmap.2.stage",
+          "titleKey": "db.courses.comm_basic.roadmap.2.title",
+          "durationKey": "db.courses.comm_basic.roadmap.2.duration",
+          "descKey": "db.courses.comm_basic.roadmap.2.desc",
+          "focusKeys": []
+        }
+      ],
+      "books": [
+        {
+          "nameKey": "db.courses.comm_basic.books.0.name",
+          "publisherKey": "db.courses.comm_basic.books.0.publisher",
+          "phaseKey": "db.courses.comm_basic.books.0.phase",
+          "descKey": "db.courses.comm_basic.books.0.desc"
+        },
+        {
+          "nameKey": "db.courses.comm_basic.books.1.name",
+          "publisherKey": "db.courses.comm_basic.books.1.publisher",
+          "phaseKey": "db.courses.comm_basic.books.1.phase",
+          "descKey": "db.courses.comm_basic.books.1.desc"
+        }
+      ],
+      "pricingInfo": {
+        "tuitionFeeKey": "db.courses.comm_basic.pricingInfo.tuitionFee",
+        "perMonthKey": "db.courses.comm_basic.pricingInfo.perMonth",
+        "totalSessionsKey": "db.courses.comm_basic.pricingInfo.totalSessions",
+        "includesKeys": []
+      },
+      "faqs": [
+        {
+          "qKey": "db.courses.comm_basic.faqs.0.q",
+          "aKey": "db.courses.comm_basic.faqs.0.a"
+        }
+      ]
     },
     {
       "id": "comm-applied",
       "category": "communication",
-      "title": "Tiếng Anh Giao Tiếp Ứng Dụng & Công Việc",
-      "level": "Trung cấp (6 tháng)",
-      "target": "Mở rộng chủ đề học tập, công việc, thuyết trình, tự tin đàm phán và giao tiếp tự nhiên",
-      "curriculum": "Business Speaking English, English File Intermediate, Tình huống mô phỏng thực tế",
-      "duration": "6 tháng (Khóa dài hạn)",
-      "format": "Offline Q7, Q10 / Online",
-      "badge": "Thực chiến",
-      "color": "indigo"
+      "titleKey": "db.courses.comm_applied.title",
+      "levelKey": "db.courses.comm_applied.level",
+      "targetKey": "db.courses.comm_applied.target",
+      "curriculumKey": "db.courses.comm_applied.curriculum",
+      "durationKey": "db.courses.comm_applied.duration",
+      "weeklyScheduleKey": "db.courses.comm_applied.weeklySchedule",
+      "classSizeKey": "db.courses.comm_applied.classSize",
+      "guaranteeKey": "db.courses.comm_applied.guarantee",
+      "badgeKey": "db.courses.comm_applied.badge",
+      "formatKey": "db.courses.comm_applied.format",
+      "color": "indigo",
+      "image": "/src/assets/ki-niem/ki-niem-8.jpg",
+      "highlightsKeys": [
+        "db.courses.comm_applied.highlights.0",
+        "db.courses.comm_applied.highlights.1",
+        "db.courses.comm_applied.highlights.2",
+        "db.courses.comm_applied.highlights.3"
+      ],
+      "targetAudience": {
+        "whoForKey": "db.courses.comm_applied.targetAudience.whoFor",
+        "inputRequirementKey": "db.courses.comm_applied.targetAudience.inputRequirement",
+        "outputTargetKey": "db.courses.comm_applied.targetAudience.outputTarget"
+      },
+      "skillsContent": {
+        "reading": [
+          "db.courses.comm_applied.skillsContent.reading.0"
+        ],
+        "listening": [
+          "db.courses.comm_applied.skillsContent.listening.0"
+        ],
+        "writing": [
+          "db.courses.comm_applied.skillsContent.writing.0"
+        ],
+        "speaking": [
+          "db.courses.comm_applied.skillsContent.speaking.0"
+        ]
+      },
+      "roadmap": [
+        {
+          "stageKey": "db.courses.comm_applied.roadmap.0.stage",
+          "titleKey": "db.courses.comm_applied.roadmap.0.title",
+          "durationKey": "db.courses.comm_applied.roadmap.0.duration",
+          "descKey": "db.courses.comm_applied.roadmap.0.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.comm_applied.roadmap.1.stage",
+          "titleKey": "db.courses.comm_applied.roadmap.1.title",
+          "durationKey": "db.courses.comm_applied.roadmap.1.duration",
+          "descKey": "db.courses.comm_applied.roadmap.1.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.comm_applied.roadmap.2.stage",
+          "titleKey": "db.courses.comm_applied.roadmap.2.title",
+          "durationKey": "db.courses.comm_applied.roadmap.2.duration",
+          "descKey": "db.courses.comm_applied.roadmap.2.desc",
+          "focusKeys": []
+        }
+      ],
+      "books": [
+        {
+          "nameKey": "db.courses.comm_applied.books.0.name",
+          "publisherKey": "db.courses.comm_applied.books.0.publisher",
+          "phaseKey": "db.courses.comm_applied.books.0.phase",
+          "descKey": "db.courses.comm_applied.books.0.desc"
+        }
+      ],
+      "pricingInfo": {
+        "tuitionFeeKey": "db.courses.comm_applied.pricingInfo.tuitionFee",
+        "perMonthKey": "db.courses.comm_applied.pricingInfo.perMonth",
+        "totalSessionsKey": "db.courses.comm_applied.pricingInfo.totalSessions",
+        "includesKeys": []
+      },
+      "faqs": [
+        {
+          "qKey": "db.courses.comm_applied.faqs.0.q",
+          "aKey": "db.courses.comm_applied.faqs.0.a"
+        }
+      ]
+    },
+    {
+      "id": "toeic-vstep",
+      "category": "toeic-vstep",
+      "titleKey": "db.courses.toeic_vstep.title",
+      "levelKey": "db.courses.toeic_vstep.level",
+      "targetKey": "db.courses.toeic_vstep.target",
+      "curriculumKey": "db.courses.toeic_vstep.curriculum",
+      "durationKey": "db.courses.toeic_vstep.duration",
+      "weeklyScheduleKey": "db.courses.toeic_vstep.weeklySchedule",
+      "classSizeKey": "db.courses.toeic_vstep.classSize",
+      "guaranteeKey": "db.courses.toeic_vstep.guarantee",
+      "badgeKey": "db.courses.toeic_vstep.badge",
+      "formatKey": "db.courses.toeic_vstep.format",
+      "color": "teal",
+      "image": "/src/assets/ki-niem/ki-niem-9.jpg",
+      "highlightsKeys": [
+        "db.courses.toeic_vstep.highlights.0",
+        "db.courses.toeic_vstep.highlights.1",
+        "db.courses.toeic_vstep.highlights.2",
+        "db.courses.toeic_vstep.highlights.3"
+      ],
+      "targetAudience": {
+        "whoForKey": "db.courses.toeic_vstep.targetAudience.whoFor",
+        "inputRequirementKey": "db.courses.toeic_vstep.targetAudience.inputRequirement",
+        "outputTargetKey": "db.courses.toeic_vstep.targetAudience.outputTarget"
+      },
+      "skillsContent": {
+        "reading": [
+          "db.courses.toeic_vstep.skillsContent.reading.0",
+          "db.courses.toeic_vstep.skillsContent.reading.1",
+          "db.courses.toeic_vstep.skillsContent.reading.2"
+        ],
+        "listening": [
+          "db.courses.toeic_vstep.skillsContent.listening.0",
+          "db.courses.toeic_vstep.skillsContent.listening.1",
+          "db.courses.toeic_vstep.skillsContent.listening.2"
+        ],
+        "writing": [
+          "db.courses.toeic_vstep.skillsContent.writing.0",
+          "db.courses.toeic_vstep.skillsContent.writing.1"
+        ],
+        "speaking": [
+          "db.courses.toeic_vstep.skillsContent.speaking.0",
+          "db.courses.toeic_vstep.skillsContent.speaking.1"
+        ]
+      },
+      "roadmap": [
+        {
+          "stageKey": "db.courses.toeic_vstep.roadmap.0.stage",
+          "titleKey": "db.courses.toeic_vstep.roadmap.0.title",
+          "durationKey": "db.courses.toeic_vstep.roadmap.0.duration",
+          "descKey": "db.courses.toeic_vstep.roadmap.0.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.toeic_vstep.roadmap.1.stage",
+          "titleKey": "db.courses.toeic_vstep.roadmap.1.title",
+          "durationKey": "db.courses.toeic_vstep.roadmap.1.duration",
+          "descKey": "db.courses.toeic_vstep.roadmap.1.desc",
+          "focusKeys": []
+        },
+        {
+          "stageKey": "db.courses.toeic_vstep.roadmap.2.stage",
+          "titleKey": "db.courses.toeic_vstep.roadmap.2.title",
+          "durationKey": "db.courses.toeic_vstep.roadmap.2.duration",
+          "descKey": "db.courses.toeic_vstep.roadmap.2.desc",
+          "focusKeys": []
+        }
+      ],
+      "books": [
+        {
+          "nameKey": "db.courses.toeic_vstep.books.0.name",
+          "publisherKey": "db.courses.toeic_vstep.books.0.publisher",
+          "phaseKey": "db.courses.toeic_vstep.books.0.phase",
+          "descKey": "db.courses.toeic_vstep.books.0.desc"
+        },
+        {
+          "nameKey": "db.courses.toeic_vstep.books.1.name",
+          "publisherKey": "db.courses.toeic_vstep.books.1.publisher",
+          "phaseKey": "db.courses.toeic_vstep.books.1.phase",
+          "descKey": "db.courses.toeic_vstep.books.1.desc"
+        },
+        {
+          "nameKey": "db.courses.toeic_vstep.books.2.name",
+          "publisherKey": "db.courses.toeic_vstep.books.2.publisher",
+          "phaseKey": "db.courses.toeic_vstep.books.2.phase",
+          "descKey": "db.courses.toeic_vstep.books.2.desc"
+        }
+      ],
+      "pricingInfo": {
+        "tuitionFeeKey": "db.courses.toeic_vstep.pricingInfo.tuitionFee",
+        "perMonthKey": "db.courses.toeic_vstep.pricingInfo.perMonth",
+        "totalSessionsKey": "db.courses.toeic_vstep.pricingInfo.totalSessions",
+        "includesKeys": []
+      },
+      "faqs": [
+        {
+          "qKey": "db.courses.toeic_vstep.faqs.0.q",
+          "aKey": "db.courses.toeic_vstep.faqs.0.a"
+        }
+      ]
     }
   ],
   "roadmap": {
-    "title": "Lộ trình tăng Band IELTS bài bản 48 buổi",
-    "description": "Lộ trình đào tạo học thuật chuẩn được thiết kế bởi Harry English House, kết hợp chặt chẽ giữa 3 bộ giáo trình Mindset 2, Destination B2 và Listening for IELTS.",
+    "titleKey": "db.roadmap.title",
+    "descriptionKey": "db.roadmap.description",
     "phases": [
       {
-        "phase": "Tháng 1 (Buổi 1 - 8)",
-        "title": "Hoàn Thiện Kỹ Năng Nền Tảng",
-        "focus": "Mindset for IELTS 2 (Unit 1-4) + Destination B2 (Unit 1-6) + Listening for IELTS (Unit 1-4)",
-        "milestones": [
-          "Nắm vững các thì cơ bản (Present, Past, Future, Transport, Hobbies, Science)",
-          "Luyện dạng bài Reading & Listening theo chủ đề môi trường, văn hóa, gia đình",
-          "Tiếp cận Writing Task 1 (Diagrams) & Task 2 nền tảng",
-          "Progress Test 1 kiểm tra toàn diện cuối tháng 1"
-        ]
+        "phaseKey": "db.roadmap.p1Phase",
+        "titleKey": "db.roadmap.p1Title",
+        "milestonesKeys": [
+          "db.roadmap.p1M1",
+          "db.roadmap.p1M2",
+          "db.roadmap.p1M3",
+          "db.roadmap.p1M4"
+        ],
+        "focusKey": "db.roadmap.p1Focus"
       },
       {
-        "phase": "Tháng 2 (Buổi 9 - 16)",
-        "title": "Nâng Tầm Từ Vựng Học Thuật",
-        "focus": "Mindset for IELTS 2 (Unit 5-7) + Destination B2 (Unit 7-11) + Listening for IELTS (Unit 5-8)",
-        "milestones": [
-          "Chuyên sâu chủ đề Business, Nature, Education, University, Energy, Media",
-          "Ngữ pháp nâng cao: Conditionals, Comparatives, Articles & Nouns",
-          "Writing Task 1 (Graphs/Charts) & Task 2 phát triển luận điểm chặt chẽ",
-          "Chấm chữa Speaking trực tiếp theo tiêu chí Lexical Resource & Fluency"
-        ]
+        "phaseKey": "db.roadmap.p2Phase",
+        "titleKey": "db.roadmap.p2Title",
+        "milestonesKeys": [
+          "db.roadmap.p2M1",
+          "db.roadmap.p2M2",
+          "db.roadmap.p2M3",
+          "db.roadmap.p2M4"
+        ],
+        "focusKey": "db.roadmap.p2Focus"
       },
       {
-        "phase": "Tháng 3 (Buổi 17 - 24)",
-        "title": "Hoàn Thành Giáo Trình & Test Tổng Hợp",
-        "focus": "Mindset for IELTS 2 (Unit 8 + Practice Tests) + Destination B2 (Unit 12-16) + Listening for IELTS (Unit 9-12)",
-        "milestones": [
-          "Hoàn thành các Unit về Law, Crime, Health, Languages, Office",
-          "Ngữ pháp Passive Voice, Modals",
-          "Làm bài Practice Test chuẩn Full 4 kỹ năng: Reading Test 1, Writing Test 1, Speaking Full",
-          "Final Test đánh giá bước nhảy vọt band điểm"
-        ]
+        "phaseKey": "db.roadmap.p3Phase",
+        "titleKey": "db.roadmap.p3Title",
+        "milestonesKeys": [
+          "db.roadmap.p3M1",
+          "db.roadmap.p3M2",
+          "db.roadmap.p3M3",
+          "db.roadmap.p3M4"
+        ],
+        "focusKey": "db.roadmap.p3Focus"
       },
       {
-        "phase": "Tháng 4 - 6 (Buổi 25 - 48)",
-        "title": "Luyện Đề Nâng Cao (Advanced Practice)",
-        "focus": "Cambridge IELTS 15-18 + Destination B2 (Unit 17-28: Inversions, Relative Clauses, Collocations)",
-        "milestones": [
-          "Tháng 4 (Buổi 25-32): Luyện đề Cambridge từng kỹ năng riêng biệt",
-          "Tháng 5 (Buổi 33-40): Giải đề Full Test Listening + Reading, phân tích bẫy và Audio Script",
-          "Tháng 6 (Buổi 41-48): Mô phỏng kỳ thi thật áp lực thời gian Full 4 kỹ năng",
-          "Writing: Tối thiểu 1 bài Task 1 và 1 bài Task 2 mỗi tuần được sửa bài chi tiết từng câu"
-        ]
+        "phaseKey": "db.roadmap.p4Phase",
+        "titleKey": "db.roadmap.p4Title",
+        "milestonesKeys": [
+          "db.roadmap.p4M1",
+          "db.roadmap.p4M2",
+          "db.roadmap.p4M3",
+          "db.roadmap.p4M4"
+        ],
+        "focusKey": "db.roadmap.p4Focus"
       }
     ]
   },
   "pricing": {
-    "title": "Biểu Phí Đào Tạo Minh Bạch",
-    "note": "Harry English House cam kết chất lượng tương xứng học phí, hỗ trợ chính sách đóng linh hoạt theo tháng, 3 tháng và 6 tháng kèm ưu đãi đặc quyền.",
+    "titleKey": "db.pricing.title",
+    "noteKey": "db.pricing.note",
     "packages3Months": [
       {
-        "program": "Tiếng Anh Giao Tiếp",
-        "class2_4": "7.690.000 VNĐ",
-        "class5_7": "6.550.000 VNĐ",
-        "class8_10": "5.670.000 VNĐ",
-        "monthlyAvg": "Từ 1.890.000 VNĐ/tháng",
-        "promotion": "Ưu đãi 5% khóa mới chỉ còn 7.695.000đ"
+        "programKey": "db.pricing.pkgComm",
+        "monthlyAvgKey": "db.pricing.p3m1Monthly",
+        "promotionKey": "db.pricing.p3m1Promo",
+        "class2_4Key": "db.pricing.p3m1Class2_4",
+        "class5_7Key": "db.pricing.p3m1Class5_7",
+        "class8_10Key": "db.pricing.p3m1Class8_10"
       },
       {
-        "program": "Luyện thi TOEIC",
-        "class2_4": "7.120.000 VNĐ",
-        "class5_7": "5.980.000 VNĐ",
-        "class8_10": "5.100.000 VNĐ",
-        "monthlyAvg": "Từ 1.700.000 VNĐ/tháng",
-        "promotion": "Hỗ trợ test & giáo trình trọn gói"
+        "programKey": "db.pricing.pkgToeic",
+        "monthlyAvgKey": "db.pricing.p3m2Monthly",
+        "promotionKey": "db.pricing.p3m2Promo",
+        "class2_4Key": "db.pricing.p3m2Class2_4",
+        "class5_7Key": "db.pricing.p3m2Class5_7",
+        "class8_10Key": "db.pricing.p3m2Class8_10"
       },
       {
-        "program": "Luyện thi VSTEP",
-        "class2_4": "7.950.000 VNĐ",
-        "class5_7": "6.810.000 VNĐ",
-        "class8_10": "5.960.000 VNĐ",
-        "monthlyAvg": "Từ 1.980.000 VNĐ/tháng",
-        "promotion": "Luyện sát format đề thi các trường ĐH"
+        "programKey": "db.pricing.pkgVstep",
+        "monthlyAvgKey": "db.pricing.p3m3Monthly",
+        "promotionKey": "db.pricing.p3m3Promo",
+        "class2_4Key": "db.pricing.p3m3Class2_4",
+        "class5_7Key": "db.pricing.p3m3Class5_7",
+        "class8_10Key": "db.pricing.p3m3Class8_10"
       },
       {
-        "program": "Luyện thi IELTS",
-        "class2_4": "8.520.000 VNĐ",
-        "class5_7": "7.380.000 VNĐ",
-        "class8_10": "6.530.000 VNĐ",
-        "monthlyAvg": "Từ 2.170.000 VNĐ/tháng",
-        "promotion": "Giảm lệ phí thi IELTS IDP trực tiếp"
+        "programKey": "db.pricing.pkgIelts",
+        "monthlyAvgKey": "db.pricing.p3m4Monthly",
+        "promotionKey": "db.pricing.p3m4Promo",
+        "class2_4Key": "db.pricing.p3m4Class2_4",
+        "class5_7Key": "db.pricing.p3m4Class5_7",
+        "class8_10Key": "db.pricing.p3m4Class8_10"
       }
     ],
     "packages6Months": [
       {
-        "program": "Tiếng Anh Giao Tiếp",
-        "class2_4": "15.060.000 VNĐ",
-        "class5_7": "12.830.000 VNĐ",
-        "class8_10": "11.100.000 VNĐ",
-        "discount": "Giảm 10% chỉ còn 14.580.000đ"
+        "programKey": "db.pricing.pkgComm",
+        "discountKey": "db.pricing.p6m1Discount",
+        "class2_4Key": "db.pricing.p6m1Class2_4",
+        "class5_7Key": "db.pricing.p6m1Class5_7",
+        "class8_10Key": "db.pricing.p6m1Class8_10"
       },
       {
-        "program": "Luyện thi TOEIC",
-        "class2_4": "13.950.000 VNĐ",
-        "class5_7": "11.720.000 VNĐ",
-        "class8_10": "9.990.000 VNĐ",
-        "discount": "Tiết kiệm tối đa"
+        "programKey": "db.pricing.pkgToeic",
+        "discountKey": "db.pricing.p6m2Discount",
+        "class2_4Key": "db.pricing.p6m2Class2_4",
+        "class5_7Key": "db.pricing.p6m2Class5_7",
+        "class8_10Key": "db.pricing.p6m2Class8_10"
       },
       {
-        "program": "Luyện thi VSTEP",
-        "class2_4": "15.570.000 VNĐ",
-        "class5_7": "13.330.000 VNĐ",
-        "class8_10": "11.660.000 VNĐ",
-        "discount": "Cam kết chuẩn đầu ra B1/B2/C1"
+        "programKey": "db.pricing.pkgVstep",
+        "discountKey": "db.pricing.p6m3Discount",
+        "class2_4Key": "db.pricing.p6m3Class2_4",
+        "class5_7Key": "db.pricing.p6m3Class5_7",
+        "class8_10Key": "db.pricing.p6m3Class8_10"
       },
       {
-        "program": "Luyện thi IELTS",
-        "class2_4": "16.680.000 VNĐ",
-        "class5_7": "14.450.000 VNĐ",
-        "class8_10": "12.780.000 VNĐ",
-        "discount": "Lộ trình bứt phá 6.5 - 7.5+"
+        "programKey": "db.pricing.pkgIelts",
+        "discountKey": "db.pricing.p6m4Discount",
+        "class2_4Key": "db.pricing.p6m4Class2_4",
+        "class5_7Key": "db.pricing.p6m4Class5_7",
+        "class8_10Key": "db.pricing.p6m4Class8_10"
       }
     ],
     "specialClasses": [
       {
-        "title": "IELTS 1 Kèm 2 Siêu Tốc (Cá Nhân Hóa)",
-        "price": "4.000.000 VNĐ / học viên / tháng",
-        "features": [
-          "Chỉ 2 học viên kèm 1 giảng viên",
-          "Chấm chữa bài Writing & Speaking 1-1 chuyên sâu",
-          "Linh hoạt thời gian học online",
-          "Phù hợp mục tiêu nhảy band từ 6.0 lên 7.5+"
+        "titleKey": "db.pricing.sp1Title",
+        "priceKey": "db.pricing.sp1Price",
+        "featuresKeys": [
+          "db.pricing.sp1Feature1",
+          "db.pricing.sp1Feature2",
+          "db.pricing.sp1Feature3",
+          "db.pricing.sp1Feature4"
         ]
       },
       {
-        "title": "IELTS Nhóm Nhỏ Học Sinh Cấp 3 (Online / Offline Q8)",
-        "price": "1.900.000 VNĐ / tháng",
-        "features": [
-          "Sĩ số 3 - 6 bạn",
-          "Chi phí tiết kiệm, bám sát nền tảng THPT và chuẩn IELTS",
-          "Lịch học buổi tối thuận tiện"
+        "titleKey": "db.pricing.sp2Title",
+        "priceKey": "db.pricing.sp2Price",
+        "featuresKeys": [
+          "db.pricing.sp2Feature1",
+          "db.pricing.sp2Feature2",
+          "db.pricing.sp2Feature3"
         ]
       }
     ]
@@ -272,180 +1221,496 @@
   "certificates": [
     {
       "id": 1,
-      "title": "Chứng chỉ chuyên môn 1",
+      "titleKey": "db.certificates.c1",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-1.jpg"
     },
     {
       "id": 2,
-      "title": "Chứng chỉ chuyên môn 2",
+      "titleKey": "db.certificates.c2",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-2.jpg"
     },
     {
       "id": 3,
-      "title": "Chứng chỉ chuyên môn 3",
+      "titleKey": "db.certificates.c3",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-3.jpg"
     },
     {
       "id": 4,
-      "title": "Chứng chỉ chuyên môn 4",
+      "titleKey": "db.certificates.c4",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-4.jpg"
     },
     {
       "id": 5,
-      "title": "Chứng chỉ chuyên môn 5",
+      "titleKey": "db.certificates.c5",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-5.jpg"
     },
     {
       "id": 6,
-      "title": "Chứng chỉ chuyên môn 6",
+      "titleKey": "db.certificates.c6",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-6.jpg"
     },
     {
       "id": 7,
-      "title": "Chứng chỉ chuyên môn 7",
+      "titleKey": "db.certificates.c7",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-7.jpg"
     },
     {
       "id": 8,
-      "title": "Chứng chỉ chuyên môn 8",
+      "titleKey": "db.certificates.c8",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-8.jpg"
     },
     {
       "id": 9,
-      "title": "Chứng chỉ chuyên môn 9",
+      "titleKey": "db.certificates.c9",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-9.jpg"
     },
     {
       "id": 10,
-      "title": "Chứng chỉ chuyên môn 10",
+      "titleKey": "db.certificates.c10",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-10.jpg"
     },
     {
       "id": 11,
-      "title": "Chứng chỉ chuyên môn 11",
+      "titleKey": "db.certificates.c11",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-11.jpg"
     },
     {
       "id": 12,
-      "title": "Chứng chỉ chuyên môn 12",
+      "titleKey": "db.certificates.c12",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-12.jpg"
     },
     {
       "id": 13,
-      "title": "Chứng chỉ chuyên môn 13",
+      "titleKey": "db.certificates.c13",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-13.jpg"
     },
     {
       "id": 14,
-      "title": "Chứng chỉ chuyên môn 14",
+      "titleKey": "db.certificates.c14",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-14.jpg"
     },
     {
       "id": 15,
-      "title": "Chứng chỉ chuyên môn 15",
+      "titleKey": "db.certificates.c15",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-15.jpg"
     },
     {
       "id": 16,
-      "title": "Chứng chỉ chuyên môn 16",
+      "titleKey": "db.certificates.c16",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-16.jpg"
     },
     {
       "id": 17,
-      "title": "Chứng chỉ chuyên môn 17",
+      "titleKey": "db.certificates.c17",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-17.jpg"
     },
     {
       "id": 18,
-      "title": "Chứng chỉ chuyên môn 18",
+      "titleKey": "db.certificates.c18",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-18.jpg"
     },
     {
       "id": 19,
-      "title": "Chứng chỉ chuyên môn 19",
+      "titleKey": "db.certificates.c19",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-19.jpg"
     },
     {
       "id": 20,
-      "title": "Chứng chỉ chuyên môn 20",
+      "titleKey": "db.certificates.c20",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-20.jpg"
     }
   ],
   "testimonials": {
-    "quote": "Kết quả \"nhà trồng\" - Biết ơn các ngoan xinh iu vì đã cố gắng và tin tưởng đồng hành cùng HEH!",
+    "quoteKey": "db.testimonials.quote",
     "fbUrl": "https://www.facebook.com/story.php?story_fbid=122121725222443839&id=61563315172210",
+    "highlights": [
+      {
+        "id": "ielts",
+        "value": "8.5",
+        "labelKey": "db.testimonials.hl1Label",
+        "subKey": "db.testimonials.hl1Sub",
+        "badgeKey": "db.testimonials.hl1Badge",
+        "prefixKey": "db.testimonials.h1Prefix",
+        "suffixKey": "db.testimonials.h1Suffix"
+      },
+      {
+        "id": "toeic",
+        "value": "925",
+        "labelKey": "db.testimonials.hl2Label",
+        "subKey": "db.testimonials.hl2Sub",
+        "badgeKey": "db.testimonials.hl2Badge",
+        "prefixKey": "db.testimonials.h2Prefix",
+        "suffixKey": "db.testimonials.h2Suffix"
+      },
+      {
+        "id": "highschool",
+        "value": "9.25",
+        "labelKey": "db.testimonials.hl3Label",
+        "subKey": "db.testimonials.hl3Sub",
+        "badgeKey": "db.testimonials.hl3Badge",
+        "prefixKey": "db.testimonials.h3Prefix",
+        "suffixKey": "db.testimonials.h3Suffix"
+      },
+      {
+        "id": "verified",
+        "value": "100%",
+        "labelKey": "db.testimonials.hl4Label",
+        "subKey": "db.testimonials.hl4Sub",
+        "badgeKey": "db.testimonials.hl4Badge",
+        "prefixKey": "db.testimonials.h4Prefix",
+        "suffixKey": "db.testimonials.h4Suffix"
+      }
+    ],
+    "beforeAfter": [
+      {
+        "id": "case-1",
+        "studentName": "Trần Minh Hoàng",
+        "examTypeKey": "db.testimonials.ba1Exam",
+        "beforeScore": "5.0",
+        "afterScore": "8.0",
+        "gainKey": "db.testimonials.ba1Gain",
+        "durationKey": "db.testimonials.ba1Duration",
+        "courseKey": "db.testimonials.ba1Course",
+        "skillsBefore": {
+          "listening": "5.0",
+          "reading": "5.5",
+          "writing": "4.5",
+          "speaking": "5.0"
+        },
+        "skillsAfter": {
+          "listening": "8.5",
+          "reading": "9.0",
+          "writing": "7.0",
+          "speaking": "7.5"
+        },
+        "challengeKey": "db.testimonials.ba1Challenge",
+        "solutionKey": "db.testimonials.ba1Solution",
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg"
+      },
+      {
+        "id": "case-2",
+        "studentName": "Đinh Lê Hoàng Nghĩa",
+        "examTypeKey": "db.testimonials.ba2Exam",
+        "beforeScore": "4.5",
+        "afterScore": "7.0",
+        "gainKey": "db.testimonials.ba2Gain",
+        "durationKey": "db.testimonials.ba2Duration",
+        "courseKey": "db.testimonials.ba2Course",
+        "skillsBefore": {
+          "listening": "4.5",
+          "reading": "5.0",
+          "writing": "4.0",
+          "speaking": "4.5"
+        },
+        "skillsAfter": {
+          "listening": "7.5",
+          "reading": "7.5",
+          "writing": "6.5",
+          "speaking": "6.5"
+        },
+        "challengeKey": "db.testimonials.ba2Challenge",
+        "solutionKey": "db.testimonials.ba2Solution",
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg"
+      }
+    ],
+    "featuredStory": {
+      "studentName": "Nguyễn Diễm Quỳnh",
+      "taglineKey": "db.testimonials.fsTagline",
+      "badgeKey": "db.testimonials.fsBadge",
+      "image": "/src/assets/ki-niem/ki-niem-1.jpg",
+      "scorecardImage": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
+      "skills": {
+        "listening": "9.0",
+        "reading": "9.0",
+        "writing": "8.0",
+        "speaking": "8.5"
+      },
+      "blocks": [
+        {
+          "id": "start",
+          "stepNumber": "01",
+          "titleKey": "db.testimonials.fsStep1Title",
+          "descKey": "db.testimonials.fsStep1Desc"
+        },
+        {
+          "id": "process",
+          "stepNumber": "02",
+          "titleKey": "db.testimonials.fsStep2Title",
+          "descKey": "db.testimonials.fsStep2Desc"
+        },
+        {
+          "id": "result",
+          "stepNumber": "03",
+          "titleKey": "db.testimonials.fsStep3Title",
+          "descKey": "db.testimonials.fsStep3Desc"
+        }
+      ],
+      "scoreKey": "db.testimonials.storyScore",
+      "examTypeKey": "db.testimonials.storyExamType"
+    },
+    "results": [
+      {
+        "id": 1,
+        "category": "ielts",
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
+        "studentName": "Nguyễn Diễm Quỳnh",
+        "score": "8.5",
+        "badgeKey": "db.testimonials.r1Badge",
+        "targetKey": "db.testimonials.r1Target",
+        "skills": {
+          "listening": "9.0",
+          "reading": "9.0",
+          "writing": "8.0",
+          "speaking": "8.5"
+        },
+        "captionKey": "db.testimonials.r1Caption",
+        "descriptionKey": "db.testimonials.r1Desc",
+        "isFeatured": true,
+        "scoreTypeKey": "db.testimonials.res1ScoreType",
+        "examTypeKey": "db.testimonials.res1ExamType"
+      },
+      {
+        "id": 2,
+        "category": "ielts",
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg",
+        "studentName": "Trần Minh Hoàng",
+        "score": "8.0",
+        "badgeKey": "db.testimonials.r2Badge",
+        "targetKey": "db.testimonials.r2Target",
+        "skills": {
+          "listening": "8.5",
+          "reading": "9.0",
+          "writing": "7.0",
+          "speaking": "7.5"
+        },
+        "captionKey": "db.testimonials.r2Caption",
+        "descriptionKey": "db.testimonials.r2Desc",
+        "scoreTypeKey": "db.testimonials.res2ScoreType",
+        "examTypeKey": "db.testimonials.res2ExamType"
+      },
+      {
+        "id": 3,
+        "category": "ielts",
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-4.jpg",
+        "studentName": "Nguyễn Hoàng Hiếu",
+        "score": "8.0",
+        "badgeKey": "db.testimonials.r3Badge",
+        "targetKey": "db.testimonials.r3Target",
+        "skills": {
+          "listening": "8.5",
+          "reading": "9.0",
+          "writing": "6.5",
+          "speaking": "8.0"
+        },
+        "captionKey": "db.testimonials.r3Caption",
+        "descriptionKey": "db.testimonials.r3Desc",
+        "scoreTypeKey": "db.testimonials.res3ScoreType",
+        "examTypeKey": "db.testimonials.res3ExamType"
+      },
+      {
+        "id": 4,
+        "category": "ielts",
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg",
+        "studentName": "Đinh Lê Hoàng Nghĩa",
+        "score": "7.0",
+        "badgeKey": "db.testimonials.r4Badge",
+        "targetKey": "db.testimonials.r4Target",
+        "skills": {
+          "listening": "7.5",
+          "reading": "7.5",
+          "writing": "6.5",
+          "speaking": "6.5"
+        },
+        "captionKey": "db.testimonials.r4Caption",
+        "descriptionKey": "db.testimonials.r4Desc",
+        "scoreTypeKey": "db.testimonials.res4ScoreType",
+        "examTypeKey": "db.testimonials.res4ExamType"
+      },
+      {
+        "id": 5,
+        "category": "highschool",
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-3.jpg",
+        "studentName": "Thanh Trúc",
+        "score": "9.25",
+        "badgeKey": "db.testimonials.r5Badge",
+        "targetKey": "db.testimonials.r5Target",
+        "skills": {
+          "english": "9.25",
+          "rankKey": "db.testimonials.r5Rank"
+        },
+        "captionKey": "db.testimonials.r5Caption",
+        "descriptionKey": "db.testimonials.r5Desc",
+        "scoreTypeKey": "db.testimonials.res5ScoreType",
+        "examTypeKey": "db.testimonials.res5ExamType"
+      },
+      {
+        "id": 6,
+        "category": "highschool",
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-6.jpg",
+        "studentName": "Minh Anh",
+        "score": "9.0",
+        "badgeKey": "db.testimonials.r6Badge",
+        "targetKey": "db.testimonials.r6Target",
+        "skills": {
+          "english": "9.0",
+          "rankKey": "db.testimonials.r6Rank"
+        },
+        "captionKey": "db.testimonials.r6Caption",
+        "descriptionKey": "db.testimonials.r6Desc",
+        "scoreTypeKey": "db.testimonials.res6ScoreType",
+        "examTypeKey": "db.testimonials.res6ExamType"
+      }
+    ],
     "feedbacks": [
       {
         "id": 1,
         "image": "/src/assets/feedback-hoc-vien/feedback-1.jpg",
-        "caption": "Feedback cảm nhận học viên"
+        "captionKey": "db.testimonials.fb1Caption",
+        "tagKey": "db.testimonials.fb1Tag",
+        "courseKey": "db.testimonials.fb1Course",
+        "authorKey": "db.testimonials.fb1Author"
       },
       {
         "id": 2,
         "image": "/src/assets/feedback-hoc-vien/feedback-2.jpg",
-        "caption": "Phản hồi lớp học bổ ích"
+        "captionKey": "db.testimonials.fb2Caption",
+        "tagKey": "db.testimonials.fb2Tag",
+        "courseKey": "db.testimonials.fb2Course",
+        "authorKey": "db.testimonials.fb2Author"
       },
       {
         "id": 3,
         "image": "/src/assets/feedback-hoc-vien/feedback-3.jpg",
-        "caption": "Tiến bộ vượt bậc sau khóa học"
+        "captionKey": "db.testimonials.fb3Caption",
+        "tagKey": "db.testimonials.fb3Tag",
+        "courseKey": "db.testimonials.fb3Course",
+        "authorKey": "db.testimonials.fb3Author"
       },
       {
         "id": 4,
         "image": "/src/assets/feedback-hoc-vien/feedback-4.jpg",
-        "caption": "Sự tận tâm của thầy cô HEH"
+        "captionKey": "db.testimonials.fb4Caption",
+        "tagKey": "db.testimonials.fb4Tag",
+        "courseKey": "db.testimonials.fb4Course",
+        "authorKey": "db.testimonials.fb4Author"
       },
       {
         "id": 5,
         "image": "/src/assets/feedback-hoc-vien/feedback-5.jpg",
-        "caption": "Tự tin nói tiếng Anh tự nhiên"
+        "captionKey": "db.testimonials.fb5Caption",
+        "tagKey": "db.testimonials.fb5Tag",
+        "courseKey": "db.testimonials.fb5Course",
+        "authorKey": "db.testimonials.fb5Author"
       },
       {
         "id": 6,
         "image": "/src/assets/feedback-hoc-vien/feedback-6.jpg",
-        "caption": "Cải thiện kỹ năng Writing & Speaking"
+        "captionKey": "db.testimonials.fb6Caption",
+        "tagKey": "db.testimonials.fb6Tag",
+        "courseKey": "db.testimonials.fb6Course",
+        "authorKey": "db.testimonials.fb6Author"
       },
       {
         "id": 7,
         "image": "/src/assets/feedback-hoc-vien/feedback-7.jpg",
-        "caption": "Đánh giá chất lượng lớp kèm"
+        "captionKey": "db.testimonials.fb7Caption",
+        "tagKey": "db.testimonials.fb7Tag",
+        "courseKey": "db.testimonials.fb7Course",
+        "authorKey": "db.testimonials.fb7Author"
       },
       {
         "id": 8,
         "image": "/src/assets/feedback-hoc-vien/feedback-8.jpg",
-        "caption": "Cảm ơn thầy Khôi và trung tâm"
+        "captionKey": "db.testimonials.fb8Caption",
+        "tagKey": "db.testimonials.fb8Tag",
+        "courseKey": "db.testimonials.fb8Course",
+        "authorKey": "db.testimonials.fb8Author"
       }
     ],
-    "results": [
+    "gallery": [
       {
         "id": 1,
         "image": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
-        "caption": "Bảng điểm IELTS học viên HEH"
+        "titleKey": "db.testimonials.gal1Title",
+        "tagKey": "db.testimonials.gal1Tag",
+        "typeKey": "db.testimonials.gal1Type"
       },
       {
         "id": 2,
         "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg",
-        "caption": "Kết quả thi IELTS đạt mục tiêu"
+        "titleKey": "db.testimonials.gal2Title",
+        "tagKey": "db.testimonials.gal2Tag",
+        "typeKey": "db.testimonials.gal2Type"
       },
       {
         "id": 3,
-        "image": "/src/assets/feedback-hoc-vien/ket-qua-3.jpg",
-        "caption": "Bứt phá band điểm xuất sắc"
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-4.jpg",
+        "titleKey": "db.testimonials.gal3Title",
+        "tagKey": "db.testimonials.gal3Tag",
+        "typeKey": "db.testimonials.gal3Type"
       },
       {
         "id": 4,
-        "image": "/src/assets/feedback-hoc-vien/ket-qua-4.jpg",
-        "caption": "Thành tích học viên khóa chuyên sâu"
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg",
+        "titleKey": "db.testimonials.gal4Title",
+        "tagKey": "db.testimonials.gal4Tag",
+        "typeKey": "db.testimonials.gal4Type"
       },
       {
         "id": 5,
-        "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg",
-        "caption": "Kết quả IELTS 7.0+"
+        "image": "/src/assets/feedback-hoc-vien/ket-qua-3.jpg",
+        "titleKey": "db.testimonials.gal5Title",
+        "tagKey": "db.testimonials.gal5Tag",
+        "typeKey": "db.testimonials.gal5Type"
       },
       {
         "id": 6,
         "image": "/src/assets/feedback-hoc-vien/ket-qua-6.jpg",
-        "caption": "Bảng điểm IDP chính thức"
+        "titleKey": "db.testimonials.gal6Title",
+        "tagKey": "db.testimonials.gal6Tag",
+        "typeKey": "db.testimonials.gal6Type"
+      },
+      {
+        "id": 7,
+        "image": "/src/assets/bang-cap-chung-chi/chung-chi-1.jpg",
+        "titleKey": "db.testimonials.gal7Title",
+        "tagKey": "db.testimonials.gal7Tag",
+        "typeKey": "db.testimonials.gal7Type"
+      },
+      {
+        "id": 8,
+        "image": "/src/assets/bang-cap-chung-chi/chung-chi-2.jpg",
+        "titleKey": "db.testimonials.gal8Title",
+        "tagKey": "db.testimonials.gal8Tag",
+        "typeKey": "db.testimonials.gal8Type"
+      },
+      {
+        "id": 9,
+        "image": "/src/assets/bang-cap-chung-chi/chung-chi-3.jpg",
+        "titleKey": "db.testimonials.gal9Title",
+        "tagKey": "db.testimonials.gal9Tag",
+        "typeKey": "db.testimonials.gal9Type"
+      },
+      {
+        "id": 10,
+        "image": "/src/assets/bang-cap-chung-chi/chung-chi-4.jpg",
+        "titleKey": "db.testimonials.gal10Title",
+        "tagKey": "db.testimonials.gal10Tag",
+        "typeKey": "db.testimonials.gal10Type"
+      },
+      {
+        "id": 11,
+        "image": "/src/assets/bang-cap-chung-chi/chung-chi-5.jpg",
+        "titleKey": "db.testimonials.gal11Title",
+        "tagKey": "db.testimonials.gal11Tag",
+        "typeKey": "db.testimonials.gal11Type"
+      },
+      {
+        "id": 12,
+        "image": "/src/assets/bang-cap-chung-chi/chung-chi-6.jpg",
+        "titleKey": "db.testimonials.gal12Title",
+        "tagKey": "db.testimonials.gal12Tag",
+        "typeKey": "db.testimonials.gal12Type"
       }
     ]
   },
@@ -454,137 +1719,447 @@
       {
         "id": 1,
         "image": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-1.jpg",
-        "title": "Sự kiện Giáo dục 2025"
+        "titleKey": "db.media.min1"
       },
       {
         "id": 2,
         "image": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-nhom-1.jpg",
-        "title": "Đoàn đại biểu giáo dục"
+        "titleKey": "db.media.min2"
       },
       {
         "id": 3,
         "image": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg",
-        "title": "Thuyết trình chuyên đề"
+        "titleKey": "db.media.min3"
       },
       {
         "id": 4,
         "image": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-2.jpg",
-        "title": "Chia sẻ kinh nghiệm đào tạo"
+        "titleKey": "db.media.min4"
       }
     ],
     "collaborations": [
       {
         "id": 1,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-1.jpg",
-        "title": "Hợp tác truyền thông 1"
+        "titleKey": "db.media.collab1"
       },
       {
         "id": 2,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-2.jpg",
-        "title": "Hợp tác truyền thông 2"
+        "titleKey": "db.media.collab2"
       },
       {
         "id": 3,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-3.jpg",
-        "title": "Hợp tác truyền thông 3"
+        "titleKey": "db.media.collab3"
       },
       {
         "id": 4,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-4.jpg",
-        "title": "Hợp tác truyền thông 4"
+        "titleKey": "db.media.collab4"
       },
       {
         "id": 5,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-5.jpg",
-        "title": "Hợp tác truyền thông 5"
+        "titleKey": "db.media.collab5"
       },
       {
         "id": 6,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-6.jpg",
-        "title": "Hợp tác truyền thông 6"
+        "titleKey": "db.media.collab6"
       },
       {
         "id": 7,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-7.jpg",
-        "title": "Hợp tác truyền thông 7"
+        "titleKey": "db.media.collab7"
       },
       {
         "id": 8,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-8.jpg",
-        "title": "Hợp tác truyền thông 8"
+        "titleKey": "db.media.collab8"
       },
       {
         "id": 9,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-9.jpg",
-        "title": "Hợp tác truyền thông 9"
+        "titleKey": "db.media.collab9"
       },
       {
         "id": 10,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-10.jpg",
-        "title": "Hợp tác truyền thông 10"
+        "titleKey": "db.media.collab10"
       },
       {
         "id": 11,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-11.jpg",
-        "title": "Hợp tác truyền thông 11"
+        "titleKey": "db.media.collab11"
       },
       {
         "id": 12,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-12.jpg",
-        "title": "Hợp tác truyền thông 12"
+        "titleKey": "db.media.collab12"
       },
       {
         "id": 13,
         "image": "/src/assets/hop-tac-truyen-thong/hop-tac-13.jpg",
-        "title": "Hợp tác truyền thông 13"
+        "titleKey": "db.media.collab13"
       }
     ],
     "memories": [
       {
         "id": 1,
         "image": "/src/assets/ki-niem/ki-niem-1.jpg",
-        "title": "Kỷ niệm lớp học HEH 1"
+        "titleKey": "db.media.mem1"
       },
       {
         "id": 2,
         "image": "/src/assets/ki-niem/ki-niem-2.jpg",
-        "title": "Kỷ niệm lớp học HEH 2"
+        "titleKey": "db.media.mem2"
       },
       {
         "id": 3,
         "image": "/src/assets/ki-niem/ki-niem-3.jpg",
-        "title": "Kỷ niệm lớp học HEH 3"
+        "titleKey": "db.media.mem3"
       },
       {
         "id": 4,
         "image": "/src/assets/ki-niem/ki-niem-4.jpg",
-        "title": "Kỷ niệm lớp học HEH 4"
+        "titleKey": "db.media.mem4"
       },
       {
         "id": 5,
         "image": "/src/assets/ki-niem/ki-niem-5.jpg",
-        "title": "Kỷ niệm lớp học HEH 5"
+        "titleKey": "db.media.mem5"
       },
       {
         "id": 6,
         "image": "/src/assets/ki-niem/ki-niem-6.jpg",
-        "title": "Kỷ niệm lớp học HEH 6"
+        "titleKey": "db.media.mem6"
       },
       {
         "id": 7,
         "image": "/src/assets/ki-niem/ki-niem-7.jpg",
-        "title": "Kỷ niệm lớp học HEH 7"
+        "titleKey": "db.media.mem7"
       },
       {
         "id": 8,
         "image": "/src/assets/ki-niem/ki-niem-8.jpg",
-        "title": "Kỷ niệm lớp học HEH 8"
+        "titleKey": "db.media.mem8"
       },
       {
         "id": 9,
         "image": "/src/assets/ki-niem/ki-niem-9.jpg",
-        "title": "Kỷ niệm lớp học HEH 9"
+        "titleKey": "db.media.mem9"
       }
     ]
+  },
+  "methodology": {
+    "titleKey": "db.methodology.title",
+    "subtitleKey": "db.methodology.subtitle",
+    "steps": [
+      {
+        "step": "01",
+        "tagKey": "db.methodology.step1Tag",
+        "titleKey": "db.methodology.step1Title",
+        "descKey": "db.methodology.step1Desc",
+        "icon": "Target"
+      },
+      {
+        "step": "02",
+        "tagKey": "db.methodology.step2Tag",
+        "titleKey": "db.methodology.step2Title",
+        "descKey": "db.methodology.step2Desc",
+        "icon": "GitBranch"
+      },
+      {
+        "step": "03",
+        "tagKey": "db.methodology.step3Tag",
+        "titleKey": "db.methodology.step3Title",
+        "descKey": "db.methodology.step3Desc",
+        "icon": "Users"
+      },
+      {
+        "step": "04",
+        "tagKey": "db.methodology.step4Tag",
+        "titleKey": "db.methodology.step4Title",
+        "descKey": "db.methodology.step4Desc",
+        "icon": "CheckCircle2"
+      },
+      {
+        "step": "05",
+        "tagKey": "db.methodology.step5Tag",
+        "titleKey": "db.methodology.step5Title",
+        "descKey": "db.methodology.step5Desc",
+        "icon": "TrendingUp"
+      }
+    ]
+  },
+  "classes": {
+    "titleKey": "db.classes.title",
+    "subtitleKey": "db.classes.subtitle",
+    "classes": [
+      {
+        "id": "ielts-intermediate",
+        "levelKey": "db.classes.ieltsIntermediate.level",
+        "classNameKey": "db.classes.ieltsIntermediate.className",
+        "scheduleKey": "db.classes.ieltsIntermediate.schedule",
+        "time": "19:00 – 20:30",
+        "formatKey": "db.classes.ieltsIntermediate.format",
+        "teacherKey": "db.classes.ieltsIntermediate.teacher",
+        "totalSpots": 10,
+        "filledSpots": 7,
+        "badgeKey": "db.classes.ieltsIntermediate.badge",
+        "color": "blue",
+        "programKey": "db.classes.c1Program"
+      },
+      {
+        "id": "ielts-master",
+        "levelKey": "db.classes.ieltsMaster.level",
+        "classNameKey": "db.classes.ieltsMaster.className",
+        "scheduleKey": "db.classes.ieltsMaster.schedule",
+        "time": "18:30 – 20:00",
+        "formatKey": "db.classes.ieltsMaster.format",
+        "teacherKey": "db.classes.ieltsMaster.teacher",
+        "totalSpots": 8,
+        "filledSpots": 5,
+        "badgeKey": "db.classes.ieltsMaster.badge",
+        "color": "indigo",
+        "programKey": "db.classes.c2Program"
+      },
+      {
+        "id": "communication-pro",
+        "levelKey": "db.classes.communicationPro.level",
+        "classNameKey": "db.classes.communicationPro.className",
+        "scheduleKey": "db.classes.communicationPro.schedule",
+        "time": "18:00 – 19:30",
+        "formatKey": "db.classes.communicationPro.format",
+        "teacherKey": "db.classes.communicationPro.teacher",
+        "totalSpots": 10,
+        "filledSpots": 8,
+        "badgeKey": "db.classes.communicationPro.badge",
+        "color": "emerald",
+        "programKey": "db.classes.c3Program"
+      }
+    ]
+  },
+  "programs": {
+    "programs": {
+      "ielts": {
+        "id": "ielts",
+        "icon": "BookOpen",
+        "tabKey": "pages.courses.tabIelts",
+        "cardSubtitleKey": "pages.courses.programs.ielts.cardSub",
+        "cardTagKey": "pages.courses.programs.ielts.cardTag",
+        "badgeKey": "db.programs.ielts.badge",
+        "titleKey": "pages.courses.programs.ielts.title",
+        "taglineKey": "pages.courses.programs.ielts.tagline",
+        "descKey": "pages.courses.programs.ielts.desc",
+        "facts": {
+          "entryKey": "db.programs.ielts.entry",
+          "targetKey": "db.programs.ielts.target",
+          "formatKey": "db.programs.ielts.format",
+          "classSizeKey": "db.programs.ielts.classSize"
+        },
+        "milestones": [
+          {
+            "num": "01",
+            "titleKey": "pages.courses.programs.ielts.m1Title",
+            "tagKey": "pages.courses.programs.ielts.m1Tag",
+            "durationKey": "db.programs.ielts.m1Duration",
+            "focusKey": "pages.courses.programs.ielts.m1Focus",
+            "guaranteeKey": "pages.courses.programs.ielts.m1Guarantee",
+            "courseId": "ielts-0-3",
+            "bandKey": "db.programs.ielts.m1Band"
+          },
+          {
+            "num": "02",
+            "titleKey": "pages.courses.programs.ielts.m2Title",
+            "tagKey": "pages.courses.programs.ielts.m2Tag",
+            "durationKey": "db.programs.ielts.m2Duration",
+            "focusKey": "pages.courses.programs.ielts.m2Focus",
+            "guaranteeKey": "pages.courses.programs.ielts.m2Guarantee",
+            "courseId": "ielts-3-4",
+            "bandKey": "db.programs.ielts.m2Band"
+          },
+          {
+            "num": "03",
+            "titleKey": "pages.courses.programs.ielts.m3Title",
+            "tagKey": "pages.courses.programs.ielts.m3Tag",
+            "durationKey": "db.programs.ielts.m3Duration",
+            "focusKey": "pages.courses.programs.ielts.m3Focus",
+            "guaranteeKey": "pages.courses.programs.ielts.m3Guarantee",
+            "courseId": "ielts-4-5",
+            "bandKey": "db.programs.ielts.m3Band"
+          },
+          {
+            "num": "04",
+            "titleKey": "pages.courses.programs.ielts.m4Title",
+            "tagKey": "pages.courses.programs.ielts.m4Tag",
+            "durationKey": "db.programs.ielts.m4Duration",
+            "focusKey": "pages.courses.programs.ielts.m4Focus",
+            "guaranteeKey": "pages.courses.programs.ielts.m4Guarantee",
+            "courseId": "ielts-6-75",
+            "bandKey": "db.programs.ielts.m4Band"
+          }
+        ]
+      },
+      "ielts-vip": {
+        "id": "ielts-vip",
+        "icon": "Crown",
+        "tabKey": "pages.courses.tabIeltsVip",
+        "cardSubtitleKey": "pages.courses.programs.ieltsVip.cardSub",
+        "cardTagKey": "pages.courses.programs.ieltsVip.cardTag",
+        "badgeKey": "db.programs.ieltsVip.badge",
+        "titleKey": "pages.courses.programs.ieltsVip.title",
+        "taglineKey": "pages.courses.programs.ieltsVip.tagline",
+        "descKey": "pages.courses.programs.ieltsVip.desc",
+        "facts": {
+          "entryKey": "db.programs.ieltsVip.entry",
+          "targetKey": "db.programs.ieltsVip.target",
+          "formatKey": "db.programs.ieltsVip.format",
+          "classSizeKey": "db.programs.ieltsVip.classSize"
+        },
+        "milestones": [
+          {
+            "num": "01",
+            "titleKey": "pages.courses.programs.ieltsVip.m1Title",
+            "tagKey": "pages.courses.programs.ieltsVip.m1Tag",
+            "durationKey": "db.programs.ieltsVip.m1Duration",
+            "focusKey": "pages.courses.programs.ieltsVip.m1Focus",
+            "guaranteeKey": "pages.courses.programs.ieltsVip.m1Guarantee",
+            "courseId": "ielts-vip-1-2",
+            "bandKey": "db.programs.ieltsVip.m1Band"
+          },
+          {
+            "num": "02",
+            "titleKey": "pages.courses.programs.ieltsVip.m2Title",
+            "tagKey": "pages.courses.programs.ieltsVip.m2Tag",
+            "durationKey": "db.programs.ieltsVip.m2Duration",
+            "focusKey": "pages.courses.programs.ieltsVip.m2Focus",
+            "guaranteeKey": "pages.courses.programs.ieltsVip.m2Guarantee",
+            "courseId": "ielts-vip-1-1",
+            "bandKey": "db.programs.ieltsVip.m2Band"
+          }
+        ]
+      },
+      "communication": {
+        "id": "communication",
+        "icon": "MessageSquare",
+        "tabKey": "pages.courses.tabComm",
+        "cardSubtitleKey": "pages.courses.programs.comm.cardSub",
+        "cardTagKey": "pages.courses.programs.comm.cardTag",
+        "badgeKey": "db.programs.comm.badge",
+        "titleKey": "pages.courses.programs.comm.title",
+        "taglineKey": "pages.courses.programs.comm.tagline",
+        "descKey": "pages.courses.programs.comm.desc",
+        "facts": {
+          "entryKey": "db.programs.comm.entry",
+          "targetKey": "db.programs.comm.target",
+          "formatKey": "db.programs.comm.format",
+          "classSizeKey": "db.programs.comm.classSize"
+        },
+        "milestones": [
+          {
+            "num": "01",
+            "titleKey": "pages.courses.programs.comm.m1Title",
+            "tagKey": "pages.courses.programs.comm.m1Tag",
+            "durationKey": "db.programs.comm.m1Duration",
+            "focusKey": "pages.courses.programs.comm.m1Focus",
+            "guaranteeKey": "pages.courses.programs.comm.m1Guarantee",
+            "courseId": "comm-basic",
+            "bandKey": "db.programs.comm.m1Band"
+          },
+          {
+            "num": "02",
+            "titleKey": "pages.courses.programs.comm.m2Title",
+            "tagKey": "pages.courses.programs.comm.m2Tag",
+            "durationKey": "db.programs.comm.m2Duration",
+            "focusKey": "pages.courses.programs.comm.m2Focus",
+            "guaranteeKey": "pages.courses.programs.comm.m2Guarantee",
+            "courseId": "comm-applied",
+            "bandKey": "db.programs.comm.m2Band"
+          }
+        ]
+      },
+      "toeic-vstep": {
+        "id": "toeic-vstep",
+        "icon": "Target",
+        "tabKey": "pages.courses.tabToeicVstep",
+        "cardSubtitleKey": "pages.courses.programs.toeic.cardSub",
+        "cardTagKey": "pages.courses.programs.toeic.cardTag",
+        "badgeKey": "db.programs.toeic.badge",
+        "titleKey": "pages.courses.programs.toeic.title",
+        "taglineKey": "pages.courses.programs.toeic.tagline",
+        "descKey": "pages.courses.programs.toeic.desc",
+        "facts": {
+          "entryKey": "db.programs.toeic.entry",
+          "targetKey": "db.programs.toeic.target",
+          "formatKey": "db.programs.toeic.format",
+          "classSizeKey": "db.programs.toeic.classSize"
+        },
+        "milestones": [
+          {
+            "num": "01",
+            "titleKey": "pages.courses.programs.toeic.m1Title",
+            "tagKey": "pages.courses.programs.toeic.m1Tag",
+            "durationKey": "db.programs.toeic.m1Duration",
+            "focusKey": "pages.courses.programs.toeic.m1Focus",
+            "guaranteeKey": "pages.courses.programs.toeic.m1Guarantee",
+            "courseId": "toeic-vstep",
+            "bandKey": "db.programs.toeic.m1Band"
+          },
+          {
+            "num": "02",
+            "titleKey": "pages.courses.programs.toeic.m2Title",
+            "tagKey": "pages.courses.programs.toeic.m2Tag",
+            "durationKey": "db.programs.toeic.m2Duration",
+            "focusKey": "pages.courses.programs.toeic.m2Focus",
+            "guaranteeKey": "pages.courses.programs.toeic.m2Guarantee",
+            "courseId": "toeic-vstep",
+            "bandKey": "db.programs.toeic.m2Band"
+          }
+        ]
+      }
+    },
+    "finder": {
+      "goals": [
+        {
+          "id": "ielts",
+          "labelKey": "pages.courses.finder.goalIelts",
+          "descKey": "pages.courses.finder.goalIeltsDesc"
+        },
+        {
+          "id": "vip",
+          "labelKey": "pages.courses.finder.goalVip",
+          "descKey": "pages.courses.finder.goalVipDesc"
+        },
+        {
+          "id": "comm",
+          "labelKey": "pages.courses.finder.goalComm",
+          "descKey": "pages.courses.finder.goalCommDesc"
+        },
+        {
+          "id": "toeic",
+          "labelKey": "pages.courses.finder.goalToeic",
+          "descKey": "pages.courses.finder.goalToeicDesc"
+        }
+      ],
+      "levels": [
+        {
+          "id": "lost",
+          "labelKey": "pages.courses.finder.levelLost",
+          "descKey": "pages.courses.finder.levelLostDesc"
+        },
+        {
+          "id": "basic",
+          "labelKey": "pages.courses.finder.levelBasic",
+          "descKey": "pages.courses.finder.levelBasicDesc"
+        },
+        {
+          "id": "advanced",
+          "labelKey": "pages.courses.finder.levelAdvanced",
+          "descKey": "pages.courses.finder.levelAdvancedDesc"
+        }
+      ]
+    }
   }
 }

@@ -1,42 +1,41 @@
 {
-  "title": "Cách học tại Harry",
-  "subtitle": "Kiểm tra đầu vào, xây lộ trình, học tập, theo dõi tiến độ và đánh giá kết quả.",
+  "titleKey": "db.methodology.title",
+  "subtitleKey": "db.methodology.subtitle",
   "steps": [
     {
       "step": "01",
-      "tag": "Miễn phí",
-      "title": "Kiểm tra đầu vào",
-      "description": "Đánh giá trình độ để xác định điểm mạnh, điểm yếu và nội dung cần cải thiện.",
+      "tagKey": "db.methodology.step1Tag",
+      "titleKey": "db.methodology.step1Title",
+      "descKey": "db.methodology.step1Desc",
       "icon": "Target"
     },
     {
       "step": "02",
-      "tag": "Cá nhân hóa",
-      "title": "Xây lộ trình học",
-      "description": "Xác định mục tiêu, thời gian và nội dung học phù hợp với trình độ của bạn.",
+      "tagKey": "db.methodology.step2Tag",
+      "titleKey": "db.methodology.step2Title",
+      "descKey": "db.methodology.step2Desc",
       "icon": "GitBranch"
     },
     {
       "step": "03",
-      "tag": "6–10 học viên",
-      "title": "Học nhóm nhỏ",
-      "description": "Lớp ít học viên giúp tăng tương tác, luyện tập nhiều hơn và được giáo viên theo sát.",
+      "tagKey": "db.methodology.step3Tag",
+      "titleKey": "db.methodology.step3Title",
+      "descKey": "db.methodology.step3Desc",
       "icon": "Users"
     },
     {
       "step": "04",
-      "tag": "Theo sát tiến độ",
-      "title": "Sửa bài & phản hồi",
-      "description": "Được sửa bài, góp ý kỹ năng và theo dõi tiến bộ trong suốt quá trình học.",
+      "tagKey": "db.methodology.step4Tag",
+      "titleKey": "db.methodology.step4Title",
+      "descKey": "db.methodology.step4Desc",
       "icon": "CheckCircle2"
     },
     {
       "step": "05",
-      "tag": "Mô phỏng bài thi",
-      "title": "Thi thử & đánh giá",
-      "description": "Thi thử để kiểm tra tiến độ, làm quen áp lực phòng thi và chuẩn bị cho kỳ thi thật.",
+      "tagKey": "db.methodology.step5Tag",
+      "titleKey": "db.methodology.step5Title",
+      "descKey": "db.methodology.step5Desc",
       "icon": "TrendingUp"
     }
   ]
 }
-

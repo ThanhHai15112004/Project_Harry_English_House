@@ -110,22 +110,22 @@ export const AcademicActivities = ({ activitiesData, onOpenPhoto }) => {
               <div className="lg:col-span-6 space-y-5">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-academic-light-blue border border-blue-200 text-primary text-xs font-bold">
                   <Globe size={14} className="text-cta" />
-                  <span>{event.year} • {event.location}</span>
+                  <span>{event.year} • {event.locationKey ? t(event.locationKey) : event.location}</span>
                 </div>
 
                 <h3 className="text-2xl sm:text-3xl font-extrabold text-academic-heading font-heading leading-tight">
-                  {event.event}
+                  {event.eventKey ? t(event.eventKey) : event.event}
                 </h3>
 
                 <div className="space-y-2.5 text-xs sm:text-sm text-slate-600">
                   <div className="flex items-start gap-2 text-academic-heading font-semibold">
                     <Building2 size={16} className="text-primary flex-shrink-0 mt-0.5" />
-                    <span>{event.organizer}</span>
+                    <span>{event.organizerKey ? t(event.organizerKey) : event.organizer}</span>
                   </div>
                 </div>
 
                 <p className="text-xs sm:text-sm text-slate-700 leading-relaxed bg-white p-4 rounded-2xl border border-slate-200/90 shadow-2xs">
-                  {event.desc}
+                  {event.descKey ? t(event.descKey) : event.desc}
                 </p>
 
                 <div className="pt-2 flex items-center gap-2 text-xs font-bold text-cta">

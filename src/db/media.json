@@ -3,136 +3,136 @@
     {
       "id": 1,
       "image": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-1.jpg",
-      "title": "Sự kiện Giáo dục 2025"
+      "titleKey": "db.media.min1"
     },
     {
       "id": 2,
       "image": "/src/assets/Ministry-of-Higher-Education-2025/anh-chup-nhom-1.jpg",
-      "title": "Đoàn đại biểu giáo dục"
+      "titleKey": "db.media.min2"
     },
     {
       "id": 3,
       "image": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg",
-      "title": "Thuyết trình chuyên đề"
+      "titleKey": "db.media.min3"
     },
     {
       "id": 4,
       "image": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-2.jpg",
-      "title": "Chia sẻ kinh nghiệm đào tạo"
+      "titleKey": "db.media.min4"
     }
   ],
   "collaborations": [
     {
       "id": 1,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-1.jpg",
-      "title": "Hợp tác truyền thông 1"
+      "titleKey": "db.media.collab1"
     },
     {
       "id": 2,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-2.jpg",
-      "title": "Hợp tác truyền thông 2"
+      "titleKey": "db.media.collab2"
     },
     {
       "id": 3,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-3.jpg",
-      "title": "Hợp tác truyền thông 3"
+      "titleKey": "db.media.collab3"
     },
     {
       "id": 4,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-4.jpg",
-      "title": "Hợp tác truyền thông 4"
+      "titleKey": "db.media.collab4"
     },
     {
       "id": 5,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-5.jpg",
-      "title": "Hợp tác truyền thông 5"
+      "titleKey": "db.media.collab5"
     },
     {
       "id": 6,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-6.jpg",
-      "title": "Hợp tác truyền thông 6"
+      "titleKey": "db.media.collab6"
     },
     {
       "id": 7,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-7.jpg",
-      "title": "Hợp tác truyền thông 7"
+      "titleKey": "db.media.collab7"
     },
     {
       "id": 8,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-8.jpg",
-      "title": "Hợp tác truyền thông 8"
+      "titleKey": "db.media.collab8"
     },
     {
       "id": 9,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-9.jpg",
-      "title": "Hợp tác truyền thông 9"
+      "titleKey": "db.media.collab9"
     },
     {
       "id": 10,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-10.jpg",
-      "title": "Hợp tác truyền thông 10"
+      "titleKey": "db.media.collab10"
     },
     {
       "id": 11,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-11.jpg",
-      "title": "Hợp tác truyền thông 11"
+      "titleKey": "db.media.collab11"
     },
     {
       "id": 12,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-12.jpg",
-      "title": "Hợp tác truyền thông 12"
+      "titleKey": "db.media.collab12"
     },
     {
       "id": 13,
       "image": "/src/assets/hop-tac-truyen-thong/hop-tac-13.jpg",
-      "title": "Hợp tác truyền thông 13"
+      "titleKey": "db.media.collab13"
     }
   ],
   "memories": [
     {
       "id": 1,
       "image": "/src/assets/ki-niem/ki-niem-1.jpg",
-      "title": "Kỷ niệm lớp học HEH 1"
+      "titleKey": "db.media.mem1"
     },
     {
       "id": 2,
       "image": "/src/assets/ki-niem/ki-niem-2.jpg",
-      "title": "Kỷ niệm lớp học HEH 2"
+      "titleKey": "db.media.mem2"
     },
     {
       "id": 3,
       "image": "/src/assets/ki-niem/ki-niem-3.jpg",
-      "title": "Kỷ niệm lớp học HEH 3"
+      "titleKey": "db.media.mem3"
     },
     {
       "id": 4,
       "image": "/src/assets/ki-niem/ki-niem-4.jpg",
-      "title": "Kỷ niệm lớp học HEH 4"
+      "titleKey": "db.media.mem4"
     },
     {
       "id": 5,
       "image": "/src/assets/ki-niem/ki-niem-5.jpg",
-      "title": "Kỷ niệm lớp học HEH 5"
+      "titleKey": "db.media.mem5"
     },
     {
       "id": 6,
       "image": "/src/assets/ki-niem/ki-niem-6.jpg",
-      "title": "Kỷ niệm lớp học HEH 6"
+      "titleKey": "db.media.mem6"
     },
     {
       "id": 7,
       "image": "/src/assets/ki-niem/ki-niem-7.jpg",
-      "title": "Kỷ niệm lớp học HEH 7"
+      "titleKey": "db.media.mem7"
     },
     {
       "id": 8,
       "image": "/src/assets/ki-niem/ki-niem-8.jpg",
-      "title": "Kỷ niệm lớp học HEH 8"
+      "titleKey": "db.media.mem8"
     },
     {
       "id": 9,
       "image": "/src/assets/ki-niem/ki-niem-9.jpg",
-      "title": "Kỷ niệm lớp học HEH 9"
+      "titleKey": "db.media.mem9"
     }
   ]
 }

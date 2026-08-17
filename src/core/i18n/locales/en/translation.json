@@ -147,7 +147,106 @@
     "durationLabel": "Duration",
     "classSizeLabel": "Class Size",
     "formatLabel": "Format",
-    "ctaPhaseBtn": "Consult on This Pathway"
+    "ctaPhaseBtn": "Consult on This Pathway",
+    "details": {
+      "ielts": {
+        "m1": {
+          "name": "IELTS Foundation Track",
+          "tag": "Beginner",
+          "duration": "~40 sessions",
+          "classSize": "Small cohort 3–6 students",
+          "format": "Offline D7, D8 / Close Online Coaching",
+          "instructor": "Teacher Harry (IELTS 8.0) & 7.5+ Faculty",
+          "target": "Solidify simple & compound grammar, standardize IPA pronunciation, and get familiar with 4 IELTS skills.",
+          "hl1": "Master sentence structures & 1,000 core academic vocabulary words",
+          "hl2": "Capped cohort of 3–6 students with direct session-by-session IPA corrections",
+          "hl3": "Develop natural speaking reflexes and eliminate the fear of English",
+          "guarantee": "Rebuild foundational skills with comprehensive IPA pronunciation fixes"
+        },
+        "m2": {
+          "name": "Pre-IELTS (Foundation Builder)",
+          "tag": "Foundation",
+          "duration": "~30 sessions",
+          "classSize": "3-student Cohort (Close coaching)",
+          "format": "Offline D7 (near Lotte), D8 / Online",
+          "instructor": "Teacher Harry & 7.5+ IDP Partner Faculty",
+          "target": "Master 4-skill official exam formats, practice Skimming/Scanning, and write precise short paragraphs.",
+          "hl1": "Familiarize with all 4 IELTS test formats according to official standards",
+          "hl2": "Strictly 3 students per cohort (D7 near Lotte / Interactive Online)",
+          "hl3": "Refine Listening/Reading Skimming/Scanning and error-free short paragraph writing",
+          "guarantee": "Comprehensive format mastery & error-free grammar paragraph writing"
+        },
+        "m3": {
+          "name": "IELTS Breakthrough (Acceleration)",
+          "tag": "Acceleration",
+          "duration": "~3 months (48 sessions)",
+          "classSize": "Group of 5–7 students",
+          "format": "Offline D7 (Sat, Sun) / D8 / Online",
+          "instructor": "Taught directly by Teacher Harry",
+          "target": "Master question patterns, expand B2 academic vocabulary, and sharpen Speaking & Writing Task 1-2 reflexes.",
+          "hl1": "Expand Destination B2 academic vocabulary and critical thinking reflexes",
+          "hl2": "Practice Task 1 (Charts) & Task 2 structured argument development",
+          "hl3": "Detailed Writing & Speaking grading according to official rubric",
+          "guarantee": "Detailed Task 1-2 Writing corrections & Topic-based Speaking simulations"
+        },
+        "m4": {
+          "name": "IELTS Mastery (High Band)",
+          "tag": "High Band",
+          "duration": "3–6 months",
+          "classSize": "7 students (Direct Mentorship)",
+          "format": "Offline D7 (Sat 16:30, Sun 15:30)",
+          "instructor": "Teacher Harry (IELTS 8.0 - IDP Partner) 1-on-1",
+          "target": "Direct 1-on-1 mentorship by Teacher Harry, optimizing Cambridge real-test strategies to reach 7.0 - 7.5+.",
+          "hl1": "Teacher Harry (IELTS 8.0) directly coaches with unlimited 1-on-1 essay grading",
+          "hl2": "Proprietary forecast question bank updated quarterly matching real test trends",
+          "hl3": "Capped at 7 dedicated students aiming for high band scores and study abroad",
+          "guarantee": "Teacher Harry directly provides 1-on-1 detailed corrections targeting 7.5+"
+        }
+      },
+      "toeic": {
+        "m1": {
+          "name": "Accelerated TOEIC & VSTEP Prep",
+          "tag": "Fast-track",
+          "duration": "~2.5 months",
+          "classSize": "Cohort of 5 students",
+          "format": "Offline D1, D6, D7, D8 / Online",
+          "instructor": "8.0+ Linguistics Faculty Team",
+          "target": "Exam trap handling strategies, standardized test bank, guaranteed graduation and postgraduate qualification.",
+          "hl1": "Trap-handling strategies for TOEIC Parts 1–7 and VSTEP 4 skills",
+          "hl2": "Standardized ETS TOEIC 2024 & VSTEP test bank frequently updated",
+          "hl3": "Strictly 5 students per group with close tracking each session",
+          "guarantee": "Written output commitment for university and postgraduate graduation"
+        }
+      },
+      "communication": {
+        "m1": {
+          "name": "Reflexive Communication English",
+          "tag": "Reflex",
+          "duration": "3 months",
+          "classSize": "Cohort of 2–3 students",
+          "format": "Offline D7, D10 / Online (Wed, Fri)",
+          "instructor": "Native Speaker & Dedicated Teaching Assistant",
+          "target": "Standardize IPA phonetics, swift Q&A conversational reflexes, eliminate hesitation, and speak confidently.",
+          "hl1": "Standardize international IPA phonetics & eliminate hesitation",
+          "hl2": "Fast conversational reflex drills based on real-life scenarios",
+          "hl3": "Small cohort of 2–3 students maximizing speaking interaction time",
+          "guarantee": "5% enrollment discount & Confident speaking within 3 months"
+        },
+        "m2": {
+          "name": "Applied & Workplace English",
+          "tag": "Business",
+          "duration": "6 months",
+          "classSize": "Cohort of 3–5 students",
+          "format": "Offline D7 (Thu 19:30, Sun 10:00) / Online",
+          "instructor": "Faculty with Extensive Corporate Experience",
+          "target": "Presentations, commercial email writing, negotiations, and natural communication with international partners.",
+          "hl1": "Professional presentation, negotiation, and meeting leadership skills",
+          "hl2": "Write business emails following international corporate etiquette",
+          "hl3": "Handle authentic workplace scenarios and business negotiations",
+          "guarantee": "10% tuition discount & Confident workplace communication and negotiation"
+        }
+      }
+    }
   },
   "founder": {
     "badge": "MEET HARRY KHOI",
@@ -157,7 +256,7 @@
     "bio1": "English Language graduate with an official IELTS 8.0 score (highest band in HCMC for the test period). 6+ years of experience training hundreds of successful test-takers for study abroad and careers.",
     "bio2": "Official training partner of IDP IELTS. Regular contributor to academic conferences, higher education forums, and Ministry of Education events.",
     "quote": "Teaching is not about finishing a syllabus. It is about understanding where the student stands and helping them bridge the gap.",
-    "authorLabel": "— Mr. Harry (Founder & Head Instructor)",
+    "authorLabel": "— Teacher Harry (Founder & Head Instructor)",
     "viewStory": "Read Harry's Story"
   },
   "results": {
@@ -584,11 +683,13 @@
         "organizerLabel": "Organizer:"
       },
       "partnerships": {
-        "badge": "COLLABORATION & ENGAGEMENT",
-        "title": "Partnerships & Academic Media",
-        "subtitle": "Strategic collaboration with IDP IELTS Vietnam and recognized educational organizations across the region",
-        "viewMoreBtn": "View all activities",
-        "viewLessBtn": "Show less"
+        "badge": "PARTNERSHIPS & CONNECTIVITY",
+        "title": "Academic Collaborations & Media",
+        "subtitle": "Strategic partnership with IDP IELTS Vietnam and premier domestic and international educational institutions",
+        "viewMoreBtn": "View All Collaborations",
+        "viewLessBtn": "Show Less",
+        "viewActivityBtn": "View Activity",
+        "partnerDesc": "Strategic Partner & Testing Venue"
       },
       "team": {
         "badge": "TEACHING TEAM",
@@ -718,15 +819,23 @@
         "title": "What will you master in this course?",
         "subtitle": "Structured, high-impact training designed specifically for practical exam skills",
         "reading": "Reading",
+        "readingSubtitle": "Reading Comprehension & Keyword Scanning",
         "listening": "Listening",
+        "listeningSubtitle": "Listening Comprehension & Audio Reflexes",
         "writing": "Writing",
-        "speaking": "Speaking"
+        "writingSubtitle": "Essay Structuring & 1-on-1 Feedback",
+        "speaking": "Speaking",
+        "speakingSubtitle": "Standard IPA Pronunciation & Natural Fluency"
       },
       "roadmap": {
         "badge": "TRAINING ROADMAP",
-        "title": "3-Stage Learning Progression",
-        "subtitle": "Every week has defined milestones tracking your tangible growth",
-        "focusLabel": "Stage Focus:"
+        "title": "Stage-by-Stage Roadmap",
+        "subtitle": "Each training week has explicit objectives tailored to student progress",
+        "focusLabel": "Stage Focus:",
+        "targetTitle": "Stage Objective:",
+        "prevStage": "Previous Stage",
+        "nextStage": "Next Stage",
+        "stageLabel": "Stage"
       },
       "curriculum": {
         "badge": "COURSE TEXTBOOKS",
@@ -809,5 +918,1456 @@
     "threads": "Threads @_k.pedia_",
     "linkedin": "LinkedIn Harry Khôi",
     "email": "Send Direct Email"
+  },
+  "db": {
+    "teacher": {
+      "slogan": "Don't study more. Study better.",
+      "founder": {
+        "role": "Educator • English Instructor • Founder of Harry English House",
+        "shortBio": "With 8+ years of direct classroom teaching and an Official Strategic Partner of IDP IELTS Vietnam, Mr. Harry pursues substantive education: diagnosing each student's starting point, engineering streamlined pathways, and providing close mentorship until tangible breakthroughs are achieved.",
+        "experience": "8+ Years of Academic Mentorship",
+        "idpPartner": "Strategic Partner of IDP IELTS Vietnam",
+        "teacherStandard": "Top-tier faculty with minimum 7.5+ IELTS accreditation",
+        "philosophy": "Education is not about finishing a rigid syllabus, but about understanding where each student stands and bridging the gap together."
+      },
+      "story": {
+        "title": "How Harry Began His Journey in English Education",
+        "p1": "Beginning during his undergraduate years majoring in English Linguistics, Harry observed that most Vietnamese learners do not lack diligence, but rather a methodology rooted in genuine linguistic context. Studying was often reduced to isolated grammar drills or passive mock testing without real comprehension.",
+        "p2": "Grounded in the conviction that language is a cognitive and connecting tool, Harry started mentoring his first small student cohorts by deconstructing sentence mechanics, standardizing IPA phonetics from scratch, and cultivating direct thought reflexes in English.",
+        "p3": "After 8+ years guiding thousands of learners from foundational basics to 7.5 - 8.5 IELTS, teaching has evolved from a profession into a steadfast mission: empowering students to overcome fear and truly master the language."
+      },
+      "origin": {
+        "title": "From a Teaching Approach to a Learning Sanctuary",
+        "subtitle": "Harry English House was born from the desire to craft a supportive academic space where every learner is genuinely heard and closely guided.",
+        "step1Title": "The Learner's Dilemma",
+        "step1Desc": "Students often find themselves lost in crowded cohorts of 25–30, taught with industrial curricula, devoid of detailed grading, and lacking personalized guidance when facing score plateaus.",
+        "step2Title": "Harry's Approach",
+        "step2Desc": "Embracing small cohort sizes of 3–6 or 1-on-1 coaching, pinpointing individual weaknesses, grading paragraph-by-paragraph, and simulating real IDP/BC test conditions.",
+        "step3Title": "The Inception of HEH",
+        "step3Desc": "A warm, disciplined, and energizing academic haven where every student receives a tailored pathway backed by constant teacher companionship."
+      },
+      "philosophy": {
+        "p1Title": "Understand the Learner First",
+        "p1Desc": "No one-size-fits-all templates. Before commencing, each learner undergoes detailed diagnostic testing of strengths, bottlenecks, and pragmatic milestones.",
+        "p2Title": "Construct Clear Pathways",
+        "p2Desc": "Master underlying grammatical logic and critical thinking before taking mock exams. Every phase defines clear deliverables to eliminate wasted effort.",
+        "p3Title": "Close Progress Tracking",
+        "p3Desc": "Progress must be measurable. Meticulous 1-on-1 reviews for every Writing & Speaking submission, dynamically pacing lessons to ensure target achievement."
+      },
+      "expertise": {
+        "item1Title": "IELTS Preparation & Academic English",
+        "item1Desc": "Specialized coaching across 0 – 7.5+ IELTS roadmaps, optimizing Cambridge Skimming/Scanning tactics, honing Task 2 critical thinking, and 1-on-1 IDP exam-standard reviews.",
+        "item2Title": "Speaking & Communication Reflex",
+        "item2Desc": "Standardizing international IPA pronunciation, eliminating mental translation from Vietnamese, and building spontaneous communicative reflexes for academic and workplace environments.",
+        "item3Title": "Curriculum Design & Personalization",
+        "item3Desc": "Engineering streamlined syllabi tailored to competency milestones, integrating up-to-date real exam materials and high-applicability learning techniques.",
+        "item4Title": "Student Mentoring & Coaching",
+        "item4Desc": "1-on-1 mentorship, relieving test-day psychological stress, advising on international scholarship applications, and providing exclusive IDP exam voucher perks."
+      },
+      "education": {
+        "degree1Period": "Formal Bachelor's Degree",
+        "degree1Institution": "University of English Linguistics",
+        "degree1Program": "English Linguistics & Pedagogy",
+        "degree1Desc": "Solid academic foundation in linguistics, international ELT pedagogy, and language assessment research.",
+        "degree2Period": "Testing Accreditation",
+        "degree2Institution": "IDP Education Vietnam / Cambridge",
+        "degree2Program": "IELTS Academic Band 8.0 Official",
+        "degree2Desc": "Official IELTS certificate with top-tier honors, officially recognized by IDP Vietnam as a training partner.",
+        "dev1Title": "IDP IELTS Strategic Partner",
+        "dev1Org": "IDP Education Vietnam",
+        "dev1Year": "2024 — Present",
+        "dev1Desc": "Participating in academic symposiums on the latest exam trends and assessment rubrics.",
+        "dev2Title": "EMGS International Education Delegate",
+        "dev2Org": "Ministry of Higher Education Malaysia",
+        "dev2Year": "2025",
+        "dev2Desc": "Attended ASEAN Student Gathering and regional higher education partnership forums."
+      },
+      "academicActivities": {
+        "title": "Beyond the Classroom.",
+        "subtitle": "Harry actively engages in continuous learning, knowledge sharing, and networking within professional academic environments.",
+        "eventLoc": "Kuala Lumpur, Malaysia",
+        "eventDesc": "Mr. Harry attended the international education summit as a delegate, exchanging insights on innovative applied English ELT and expanding scholarship access for Southeast Asian students.",
+        "event": "ASEAN Student Gathering & Academic Exchange with EMGS",
+        "organizer": "Ministry of Higher Education Malaysia & Education Malaysia Global Services (EMGS)"
+      },
+      "team": {
+        "harryRole": "Founder & Head Instructor",
+        "harrySpecialty": "IELTS Academic • 8.0 IELTS",
+        "vickyRole": "Senior English Instructor",
+        "vickySpecialty": "IELTS Preparation • Communication",
+        "aiRole": "Academic Advisor & Operations",
+        "aiSpecialty": "Pathway Consultation • Student Success",
+        "harryName": "Teacher Harry (Anh Khoi)",
+        "vickyName": "Ms. Vicky",
+        "aiName": "Ms. Ai"
+      },
+      "moments": {
+        "m1": "Interactive classroom session at District 7 campus",
+        "m2": "Study methodology workshop with students",
+        "m3": "Small-group interactive reflex activities",
+        "m4": "Warm and focused study environment at HEH",
+        "m5": "1-on-1 diagnostic proficiency evaluation",
+        "m6": "Certificate celebration moments with students"
+      }
+    },
+    "testimonials": {
+      "quote": "Homegrown results — Grateful to all our lovely students for your continuous dedication and trust in HEH!",
+      "hl1Label": "Top IELTS Achievement",
+      "hl1Sub": "Listening 9.0 • Reading 9.0",
+      "hl1Badge": "Top 1% Honoree",
+      "hl2Label": "Alumni TOEIC Scores",
+      "hl2Sub": "Graduation & Masters Standard",
+      "hl2Badge": "High Band Score",
+      "hl3Label": "HCMC 10th Grade Entrance",
+      "hl3Sub": "Top Scorer in English",
+      "hl3Badge": "Valedictorian",
+      "hl4Label": "Official IDP/BC Scorecards",
+      "hl4Sub": "100% Transparent • No Fake Data",
+      "hl4Badge": "Authentic Mastery",
+      "ba1Exam": "IELTS Academic",
+      "ba1Gain": "+3.0 BAND",
+      "ba1Duration": "8 months",
+      "ba1Course": "IELTS Booster → Master Pathway",
+      "ba1Challenge": "Faced severe difficulty locating Reading keywords and lacked coherent structuring for Writing Task 2 essays.",
+      "ba1Solution": "Mr. Harry coached optimal Skimming/Scanning tactics, delivered sentence-by-sentence essay feedback, and trained thematic Speaking reflexes.",
+      "ba2Exam": "IELTS Academic",
+      "ba2Gain": "+2.5 BAND",
+      "ba2Duration": "6 months",
+      "ba2Course": "IELTS Intensive Booster Cohort",
+      "ba2Challenge": "Lacked standard pronunciation foundation, feared public speaking, and frequently confused fundamental grammar tenses.",
+      "ba2Solution": "Re-standardized IPA phonetics, practiced interactive dialogues in 4-student cohorts, and analyzed authentic Cambridge test traps.",
+      "fsTagline": "An inspiring journey to 8.5 Overall IELTS powered by rigorous methodology",
+      "fsBadge": "Top 1% Academic Honoree",
+      "fsStep1Title": "Starting Point",
+      "fsStep1Desc": "Felt immense pressure when conceptualizing Task 2 academic essays and lacked spontaneous fluency in Speaking exam settings.",
+      "fsStep2Title": "Method & Process",
+      "fsStep2Desc": "Received close mentorship from Mr. Harry on sentence analysis, essay grading aligned with 4 IDP criteria, and critical thinking drills.",
+      "fsStep3Title": "Breakthrough Result",
+      "fsStep3Desc": "Conquered 8.5 Overall with two perfect 9.0 scores in Listening & Reading alongside 8.5 in Speaking, opening doors to global scholarships.",
+      "r1Badge": "Top 1% Honoree",
+      "r1Target": "Target: 7.5+",
+      "r1Caption": "Outstanding IELTS 8.5 Overall (Listening 9.0, Reading 9.0)",
+      "r1Desc": "Achieved perfect 9.0 scores in Listening & Reading plus 8.5 Speaking after completing the intensive HEH pathway.",
+      "r2Badge": "Band 8.0",
+      "r2Target": "Target: 7.0+",
+      "r2Caption": "Conquered impressive IELTS 8.0 (Reading 9.0, Listening 8.5)",
+      "r2Desc": "Holistic band jump with optimal test-taking strategies and real-exam tactical handling.",
+      "r3Badge": "IDP Partner",
+      "r3Target": "C1 CEFR Level",
+      "r3Caption": "Official IDP IELTS 8.0 C1 CEFR Certificate",
+      "r3Desc": "Mr. Harry takes immense pride in Hoang Hieu's persistent effort and stellar 8.0 achievement.",
+      "r4Badge": "1st Attempt",
+      "r4Target": "Target: 6.5+",
+      "r4Caption": "Achieved IELTS 7.0 on Very First Attempt",
+      "r4Desc": "Surpassed initial goals on first attempt with dedicated 1-on-1 feedback and support from Mr. Harry.",
+      "r5Badge": "Top Scorer",
+      "r5Target": "10th Grade Entrance",
+      "r5Rank": "Top High School",
+      "r5Caption": "9.25 in English — HCMC 10th Grade Entrance Exam",
+      "r5Desc": "English boosted overall score with a stellar 9.25, securing 1st choice admission to a top public high school.",
+      "r6Badge": "9.0+ Score",
+      "r6Target": "10th Grade Entrance",
+      "r6Rank": "Excellent Band",
+      "r6Caption": "9.0 Score in English for 10th Grade Entrance",
+      "r6Desc": "Solid grasp of grammar foundations and advanced vocabulary, securing an impressive 9.0 score.",
+      "fb1Caption": "The teacher is super attentive, highly enthusiastic, and takes care of every single assignment thoroughly.",
+      "fb1Tag": "5-Star Review",
+      "fb2Caption": "Dedicated instructor, easy to follow, and very reasonable tuition fees.",
+      "fb2Tag": "Student Feedback",
+      "fb3Caption": "Remarkable progress after the course, gaining immense confidence in speaking and test-taking.",
+      "fb3Tag": "Great Progress",
+      "fb4Caption": "The dedication of HEH teachers helped me completely overcome exam anxiety.",
+      "fb4Tag": "100% Dedicated",
+      "fb5Caption": "Speaking English naturally with fast reflexes and accurate pronunciation.",
+      "fb5Tag": "Confident Reflex",
+      "fb6Caption": "Noticeable improvement in Writing & Speaking with detailed corrections for every task.",
+      "fb6Tag": "Detailed Feedback",
+      "fb7Caption": "Excellent small-group tutoring quality and a very positive academic vibe.",
+      "fb7Tag": "Premium Quality",
+      "fb8Caption": "Thank you Mr. Khoi and the center for always supporting and encouraging me.",
+      "fb8Tag": "Heartfelt Thanks",
+      "h1Prefix": "IELTS",
+      "h1Suffix": "",
+      "h2Prefix": "TOEIC",
+      "h2Suffix": "+",
+      "h3Prefix": "10th Grade",
+      "h3Suffix": " pts",
+      "h4Prefix": "Verified",
+      "h4Suffix": "",
+      "storyScore": "8.5 IELTS",
+      "storyExamType": "Official IELTS Academic",
+      "res1ScoreType": "IELTS Academic Overall",
+      "res1ExamType": "IELTS Academic",
+      "res2ScoreType": "IELTS Academic Overall",
+      "res2ExamType": "IELTS Academic",
+      "res3ScoreType": "Official IDP IELTS",
+      "res3ExamType": "Official IDP IELTS",
+      "res4ScoreType": "Official IELTS",
+      "res4ExamType": "IELTS Academic",
+      "res5ScoreType": "10th Grade Entrance Exam",
+      "res5ExamType": "HCMC 10th Grade Entrance",
+      "res6ScoreType": "10th Grade Entrance Exam",
+      "res6ExamType": "HCMC 10th Grade Entrance",
+      "fb1Course": "IELTS Intensive Course",
+      "fb2Course": "1-on-1 Tutoring Class",
+      "fb3Course": "IELTS Foundation Course",
+      "fb4Course": "VIP 1:1 Coaching",
+      "fb5Course": "Communication English",
+      "fb6Course": "Intensive Test Prep",
+      "fb7Course": "Small Group Class",
+      "fb8Course": "IELTS Master Course",
+      "gal1Title": "IELTS 8.5 Scorecard - Diem Quynh",
+      "gal1Tag": "IELTS 8.5",
+      "gal1Type": "Official IDP/BC",
+      "gal2Title": "IELTS 8.0 Scorecard - Minh Hoang",
+      "gal2Tag": "IELTS 8.0",
+      "gal2Type": "Official IDP/BC",
+      "gal3Title": "IDP IELTS 8.0 Certificate - Hoang Hieu",
+      "gal3Tag": "IDP IELTS",
+      "gal3Type": "CEFR C1 Level",
+      "gal4Title": "IELTS 7.0 Scorecard - Hoang Nghia",
+      "gal4Tag": "IELTS 7.0",
+      "gal4Type": "1st Attempt",
+      "gal5Title": "9.25/10 10th Grade English Exam",
+      "gal5Tag": "Score 9.25",
+      "gal5Type": "10th Grade Entrance",
+      "gal6Title": "9.0/10 10th Grade English - Minh Anh",
+      "gal6Tag": "Score 9.0",
+      "gal6Type": "10th Grade Entrance",
+      "gal7Title": "Professional Training Certificate",
+      "gal7Tag": "Professional",
+      "gal7Type": "Teaching Pedagogy",
+      "gal8Title": "International Pedagogy Workshop Certificate",
+      "gal8Tag": "Workshop",
+      "gal8Type": "International ELT",
+      "gal9Title": "International TESOL Teaching Certificate",
+      "gal9Tag": "International",
+      "gal9Type": "TESOL Certification",
+      "gal10Title": "Official Academic Partner Recognition",
+      "gal10Tag": "Partner",
+      "gal10Type": "Official Testing Partner",
+      "gal11Title": "Pedagogical Professional Certificate",
+      "gal11Tag": "Pedagogy",
+      "gal11Type": "University of Education",
+      "gal12Title": "Methodology Training Certificate",
+      "gal12Tag": "Training",
+      "gal12Type": "Teaching Methodology",
+      "fb1Author": "Hoai Phuong & Nhat Tan",
+      "fb2Author": "Vuong Ngoc Diep",
+      "fb3Author": "Parent & Student",
+      "fb4Author": "VIP Course Student",
+      "fb5Author": "Communication Student",
+      "fb6Author": "Writing-Speaking Student",
+      "fb7Author": "Tutoring Class Student",
+      "fb8Author": "HEH Student"
+    },
+    "courses": {
+      "ielts_0_3": {
+        "title": "IELTS Foundation Track (0 - 3.0)",
+        "level": "Complete Beginner / Zero Foundation",
+        "target": "Build grammar foundation, standardize IPA phonetics & introduce 4 IELTS skills",
+        "curriculum": "Raymond Murphy Basic, Oxford Phonics World, Get Ready for IELTS",
+        "duration": "3 months (~40 sessions)",
+        "weeklySchedule": "3 sessions / week (90 mins/session)",
+        "classSize": "Small cohort 3–6 students",
+        "guarantee": "Regain fundamentals & Session-by-session IPA corrections",
+        "badge": "Beginner",
+        "format": "Offline D7, D8 / Online",
+        "highlights": [
+          "Firmly construct simple/compound sentences & 1,000 core vocabulary items",
+          "Curriculum: Raymond Murphy Basic & Oxford Phonics World",
+          "Compact size of 3–6 students with direct IPA corrections every session",
+          "Commitment to rebuilding fundamentals without fear of English"
+        ],
+        "targetAudience": {
+          "whoFor": "High school, university students, and working professionals with zero foundation, pronunciation errors, and no prior IELTS experience.",
+          "inputRequirement": "No prior background or diagnostic test score below 3.0.",
+          "outputTarget": "Master fundamental grammar, accurate 44 IPA sounds, ready for IELTS 3.0 - 4.5."
+        },
+        "skillsContent": {
+          "reading": [
+            "Cultivate habit of reading short passages without word-by-word translation",
+            "Master 1,000 core daily and basic academic words",
+            "Identify subjects, predicates, and conjunctions in compound sentences"
+          ],
+          "listening": [
+            "Train ear to recognize intonation, connected speech, and word stress",
+            "Master Section 1 questions: numbers, dates, and personal names",
+            "Focus on listening reflexes for everyday conversational dialogues"
+          ],
+          "writing": [
+            "Standardize grammar: 12 fundamental tenses, simple, compound, and complex sentences",
+            "Write 50–80 word short paragraphs with correct syntactic structures",
+            "Strictly eliminate word-by-word translation errors from Vietnamese"
+          ],
+          "speaking": [
+            "Master 44 phonemes of the International Phonetic Alphabet (IPA)",
+            "Perfect ending sounds and natural phonetic linking",
+            "Confidently speak on familiar topics (Self, Family, Hobbies)"
+          ]
+        },
+        "roadmap": [
+          {
+            "stage": "STAGE 01",
+            "title": "Phonetics Standardization & Core Vocabulary",
+            "duration": "Weeks 1–4",
+            "desc": "Eliminate speaking hesitation, correct each IPA sound, and build 500 foundational words.",
+            "focus": [
+              "44 IPA Phonemes",
+              "12 Basic Tenses",
+              "Everyday Vocabulary"
+            ]
+          },
+          {
+            "stage": "STAGE 02",
+            "title": "Complex Grammar & Foundational Receptive Skills",
+            "duration": "Weeks 5–8",
+            "desc": "Master complex sentence structures, short reading passages, and simple Section 1 audio tracks.",
+            "focus": [
+              "Compound & Complex Sentences",
+              "Listening Section 1",
+              "Basic Reading"
+            ]
+          },
+          {
+            "stage": "STAGE 03",
+            "title": "IELTS Exam Format Introduction",
+            "duration": "Weeks 9–12",
+            "desc": "Approach standard IELTS question types, write structured short paragraphs, and respond confidently in Speaking Part 1.",
+            "focus": [
+              "IELTS Format",
+              "Speaking Part 1",
+              "Structured Paragraphs"
+            ]
+          }
+        ],
+        "books": [
+          {
+            "name": "English Grammar in Use (Basic)",
+            "publisher": "Cambridge University Press",
+            "phase": "Throughout Course",
+            "desc": "World-standard grammar guide with clear explanations and practical exercises."
+          },
+          {
+            "name": "Ship or Sheep? An Intermediate Pronunciation Course",
+            "publisher": "Cambridge University Press",
+            "phase": "Stages 1 & 2",
+            "desc": "In-depth pronunciation guide distinguishing easily confused English phonetic pairs."
+          },
+          {
+            "name": "Get Ready for IELTS (Listening & Reading)",
+            "publisher": "Collins Cobuild",
+            "phase": "Stage 3",
+            "desc": "Gentle intro to IELTS with simplified practice tasks for newcomers."
+          }
+        ],
+        "pricingInfo": {
+          "tuitionFee": "6,530,000 VND",
+          "perMonth": "Approx. 2,170,000 VND/month",
+          "totalSessions": "36 sessions (3 months)",
+          "includes": [
+            "Full exclusive printed books & study materials",
+            "1-on-1 direct writing & phonetic corrections",
+            "HD recorded lecture videos after each session (online)",
+            "100,000 VND voucher for IDP IELTS exam registration"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Can I keep up if I have zero foundation in English?",
+            "a": "Yes! The course is custom-built for absolute beginners. Mr. Harry explains every concept from the ground up and corrects your pronunciation individually."
+          },
+          {
+            "q": "Is there a trial class for the first session?",
+            "a": "You will receive a complimentary 4-skill diagnostic test and a 1-on-1 strategic consultation session prior to enrollment."
+          },
+          {
+            "q": "What is the maximum class size?",
+            "a": "Class size is strictly capped at 3–6 students to ensure close guidance and individual pronunciation corrections each session."
+          }
+        ]
+      },
+      "ielts_3_4": {
+        "title": "Pre-IELTS Foundation Track (3.0 - 4.5)",
+        "level": "Pre-Intermediate (Band 3.0)",
+        "target": "Master 4-skill exam format, confident testing mindset, construct precise short paragraphs",
+        "curriculum": "Basic IELTS 4 Skills, Complete IELTS Band 4.0–5.0, Collins Vocabulary",
+        "duration": "~30 sessions",
+        "weeklySchedule": "2–3 sessions / week (90 mins/session)",
+        "classSize": "Cohort of 3 students (Close mentoring)",
+        "guarantee": "Master all question types & write error-free grammar paragraphs",
+        "badge": "Foundation",
+        "format": "Offline D7 (near Lotte), D8 / Online",
+        "highlights": [
+          "Get familiar with all 4 skills aligned with IELTS standards",
+          "Curriculum: Basic IELTS & Complete IELTS Band 4.0–5.0",
+          "Max size of 3 students for intensive coaching",
+          "Master Skimming/Scanning and sentence structure"
+        ],
+        "targetAudience": {
+          "whoFor": "Students with basic grammar background who need familiarity with IELTS formats and confidence tackling exam prompts.",
+          "inputRequirement": "Diagnostic entry score equivalent to IELTS 3.0 - 3.5.",
+          "outputTarget": "100% mastery of 4-skill formats, structured writing, solid 4.5 band foundation."
+        },
+        "skillsContent": {
+          "reading": [
+            "Practice Skimming (main ideas) and Scanning (specific details)",
+            "Methodology for basic True/False/Not Given questions",
+            "Academic vocabulary handling on familiar IELTS themes"
+          ],
+          "listening": [
+            "Tactics for Section 1 & Section 2 (Monologues & Dialogues)",
+            "Distractor handling techniques",
+            "Enhance spelling & number accuracy under time constraints"
+          ],
+          "writing": [
+            "Write introductions and Overview summaries for Task 1",
+            "Analyze simple visual charts: Line, Bar, Pie",
+            "Construct Task 2 body paragraphs with clear argumentation models"
+          ],
+          "speaking": [
+            "Expand Speaking Part 1 answers using the AREA framework",
+            "Refine sentence stress, intonation, and lexical range",
+            "Pairwork conversational reflex drills in small cohorts"
+          ]
+        },
+        "roadmap": [
+          {
+            "stage": "STAGE 01",
+            "title": "Master Task Types & Skimming/Scanning",
+            "duration": "Weeks 1–3",
+            "desc": "Master question formats in Listening & Reading, analyze basic Task 1 charts.",
+            "focus": [
+              "Skimming/Scanning",
+              "Listening Sec 1-2",
+              "Task 1 Overview"
+            ]
+          },
+          {
+            "stage": "STAGE 02",
+            "title": "Develop Speaking & Writing Ideas",
+            "duration": "Weeks 4–7",
+            "desc": "Build conceptual frameworks for Task 2 and respond fluently to Part 1 & Part 2 prompts.",
+            "focus": [
+              "Task 2 Body Paragraphs",
+              "Speaking Part 1-2",
+              "B1 Vocabulary"
+            ]
+          },
+          {
+            "stage": "STAGE 03",
+            "title": "Skill Integration & Midterm Mock Test",
+            "duration": "Weeks 8–10",
+            "desc": "Timed practice on full test sets with comprehensive 1-on-1 teacher feedback.",
+            "focus": [
+              "Mini Mock Test",
+              "1-on-1 Writing Feedback",
+              "Speaking Reflex"
+            ]
+          }
+        ],
+        "books": [
+          {
+            "name": "Complete IELTS Bands 4.0–5.0",
+            "publisher": "Cambridge University Press",
+            "phase": "Throughout Course",
+            "desc": "Core coursebook providing standardized vocabulary, grammar, and exam preparation tasks."
+          },
+          {
+            "name": "Basic IELTS 4 Skills",
+            "publisher": "Beijing Language and Culture University Press",
+            "phase": "Stages 1 & 2",
+            "desc": "Step-by-step guidance on question formats and foundational test-taking tactics."
+          }
+        ],
+        "pricingInfo": {
+          "tuitionFee": "6,810,000 VND",
+          "perMonth": "Approx. 2,270,000 VND/month",
+          "totalSessions": "30 sessions (2.5 months)",
+          "includes": [
+            "Complete IELTS textbook & supplementary materials",
+            "1-on-1 grading for Writing Task 1 & Task 2",
+            "Standardized exam-room Mock Tests",
+            "IDP IELTS exam fee discount voucher"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "How many students are in a class?",
+            "a": "Classes are strictly capped at 3–5 students to ensure maximum interaction and live on-the-spot corrections."
+          },
+          {
+            "q": "Can I take the official IELTS exam immediately after this course?",
+            "a": "This course secures a solid 4.5 foundation. If your goal is 6.0 - 6.5+, you should continue into the IELTS Booster track."
+          }
+        ]
+      },
+      "ielts_4_5": {
+        "title": "IELTS Breakthrough Track (4.5 - 6.0)",
+        "level": "Intermediate (Band 4.5)",
+        "target": "Master all question types, expand B2 academic vocabulary, refine Speaking & Writing Task 1-2 reflexes",
+        "curriculum": "Mindset for IELTS Level 2, Destination B2, Listening for IELTS",
+        "duration": "~3 months",
+        "weeklySchedule": "2 sessions / week (120 mins/session)",
+        "classSize": "Small group 5–7 students",
+        "guarantee": "Detailed Task 1-2 Writing grading & Topic-based Speaking drills",
+        "badge": "Acceleration",
+        "format": "Offline D7 (Sat, Sun) / D8 / Online",
+        "highlights": [
+          "Standard series: Mindset 2, Destination B2 & Listening for IELTS",
+          "Practice Task 1 (Charts) & Task 2 argument expansion",
+          "Class size of 5–7 students with close feedback",
+          "Detailed Writing & Speaking grading according to official rubric"
+        ],
+        "targetAudience": {
+          "whoFor": "High school students aiming for university admissions, undergraduates fulfilling exit benchmarks, and professionals requiring 6.0–6.5 IELTS.",
+          "inputRequirement": "Entry test or current certificate around 4.5 - 5.0.",
+          "outputTarget": "Master test strategies, excel in Speaking Parts 1-2-3, and achieve official 6.0+ band."
+        },
+        "skillsContent": {
+          "reading": [
+            "Keyword Mapping techniques to conquer challenging question sets",
+            "Strategic handling for Matching Headings and Matching Information",
+            "Expand B2/C1 standardized academic vocabulary"
+          ],
+          "listening": [
+            "Tactic for Section 3 academic dialogues with 3 speakers",
+            "Trap identification for distractors and synonyms in Section 4",
+            "High-speed listening practice with diverse accents (UK, US, AUS)"
+          ],
+          "writing": [
+            "Master 7 visual chart types in Task 1 with diverse sentence structures",
+            "Develop nuanced Task 2 essays: Opinion, Discussion, Problem & Solution",
+            "Accurate use of cohesive devices and academic collocations"
+          ],
+          "speaking": [
+            "Deliver coherent 2-minute Part 2 speeches with complete structure",
+            "Develop academic reasoning and argumentation for Part 3",
+            "Eliminate hesitation, boost Fluency & Coherence"
+          ]
+        },
+        "roadmap": [
+          {
+            "stage": "STAGE 01",
+            "title": "Tactical Reinforcement & B2 Lexical Acceleration",
+            "duration": "Weeks 1–4",
+            "desc": "Upgrade Destination B2 vocabulary, master Task 1 chart skills, and tackle Section 3 audio.",
+            "focus": [
+              "Destination B2",
+              "Writing Task 1",
+              "Listening Section 3"
+            ]
+          },
+          {
+            "stage": "STAGE 02",
+            "title": "Task 2 Argumentation & Speaking Parts 2-3",
+            "duration": "Weeks 5–8",
+            "desc": "Deep dive into Task 2 logic and practice Speaking against the latest seasonal forecast bank.",
+            "focus": [
+              "Writing Task 2 Essay",
+              "Speaking Part 2-3",
+              "Reading Matching"
+            ]
+          },
+          {
+            "stage": "STAGE 03",
+            "title": "Cambridge Real Exam Practice & Full Mock Test",
+            "duration": "Weeks 9–12",
+            "desc": "Timed Cambridge 15–18 practice under real exam pressure with 1-on-1 feedback.",
+            "focus": [
+              "Cambridge Tests 15-18",
+              "1-on-1 Feedback",
+              "Exam Room Tactics"
+            ]
+          }
+        ],
+        "books": [
+          {
+            "name": "Mindset for IELTS Level 2",
+            "publisher": "Cambridge University Press",
+            "phase": "Stages 1 & 2",
+            "desc": "Modern IELTS preparation coursebook written by Cambridge assessment specialists."
+          },
+          {
+            "name": "Destination B2: Grammar & Vocabulary",
+            "publisher": "Macmillan Education",
+            "phase": "Throughout Course",
+            "desc": "Gold standard resource for academic vocabulary, collocations, and advanced grammar structures."
+          },
+          {
+            "name": "Cambridge IELTS Practice Tests 15–18",
+            "publisher": "Cambridge University Press",
+            "phase": "Stage 3",
+            "desc": "Official past test papers from Cambridge assessment for authentic exam simulations."
+          }
+        ],
+        "pricingInfo": {
+          "tuitionFee": "7,380,000 VND",
+          "perMonth": "Approx. 2,460,000 VND/month",
+          "totalSessions": "36 sessions (3 months)",
+          "includes": [
+            "All Mindset 2, Destination B2 & Cambridge Test materials",
+            "Unlimited 1-on-1 Task 1 & Task 2 essay grading",
+            "2 comprehensive 4-skill standardized Mock Tests",
+            "Official IDP Vietnam exam discount voucher"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Is there a written guarantee for 6.0 exit band?",
+            "a": "Yes. HEH provides a written 6.0+ output guarantee if students attend at least 90% of sessions and submit all assigned tasks."
+          },
+          {
+            "q": "Can I make up a class if I miss one?",
+            "a": "Yes. Online classes are fully recorded in HD for review. For offline classes, students receive makeup sessions or 1-on-1 coaching with a teaching assistant."
+          },
+          {
+            "q": "Who directly teaches this course?",
+            "a": "The course is directly taught and graded by Mr. Harry Khoi (8.0 IELTS) and senior instructors with 7.5+ IELTS."
+          }
+        ]
+      },
+      "ielts_6_75": {
+        "title": "IELTS Mastery Track (6.0 - 7.5+)",
+        "level": "Advanced (Target 6.5 - 7.5+)",
+        "target": "Intensive Writing & Speaking feedback, Cambridge real-test solving strategies to hit 7.0–7.5+",
+        "curriculum": "Cambridge IELTS 15-18, IELTS Advantage, Proprietary HEH Prediction Bank",
+        "duration": "3–6 months",
+        "weeklySchedule": "2 sessions / week (120 mins/session)",
+        "classSize": "7 students (Direct coaching by Head Instructor)",
+        "guarantee": "Teacher Harry directly provides 1-on-1 feedback targeting Band 7.5+",
+        "badge": "High Band",
+        "format": "Offline D7 (Sat 16:30, Sun 15:30)",
+        "highlights": [
+          "Taught directly by Teacher Harry (IELTS 8.0 - IDP Partner)",
+          "Curriculum: Cambridge 15-18 & Proprietary HEH Question Bank",
+          "Strictly capped at 7 dedicated students aiming for 7.5+",
+          "Unlimited 1-on-1 Writing & Speaking feedback"
+        ],
+        "targetAudience": {
+          "whoFor": "Candidates requiring 7.0–8.0 IELTS for overseas scholarships, immigration, graduation exemptions, or English teaching careers.",
+          "inputRequirement": "Minimum 6.0 IELTS entry score (solid Reading & Listening foundation).",
+          "outputTarget": "Propel Writing to 7.0+, achieve spontaneous Speaking fluency, and attain 7.0 - 7.5+ Overall."
+        },
+        "skillsContent": {
+          "reading": [
+            "Strategy for 8.5–9.0 Reading: 55-minute time management across 3 passages",
+            "Conquer high-level inference traps and Summary Completion",
+            "Accelerate reading speed across complex scientific & sociological journals"
+          ],
+          "listening": [
+            "Tactics for 8.5–9.0 Listening: Flawless mastery of Sections 3 & 4",
+            "Predictive audio listening techniques before hearing tracks",
+            "Rapid shorthand note-taking without information lag"
+          ],
+          "writing": [
+            "Upgrade to C1/C2 Lexical Resource and sophisticated syntactic structures",
+            "Deep critical argumentation and sharp outlining for Task 2 essays",
+            "Sentence-by-sentence 1-on-1 corrections by Mr. Harry to lift band from 6.0 to 7.0+"
+          ],
+          "speaking": [
+            "Employ natural idiomatic expressions and native-like collocations",
+            "Cultivate in-depth analytical reasoning for Speaking Part 3",
+            "1-on-1 Mock Speaking sessions with Mr. Harry simulating test-day pressure"
+          ]
+        },
+        "roadmap": [
+          {
+            "stage": "STAGE 01",
+            "title": "Diagnostic Assessment & Task 2 Argumentation Upgrade",
+            "duration": "Weeks 1–4",
+            "desc": "Analyze individual Writing & Speaking bottlenecks, establish Band 7.5+ essay frameworks.",
+            "focus": [
+              "Essay Cohesion C1",
+              "Speaking Idioms",
+              "Reading 8.5+"
+            ]
+          },
+          {
+            "stage": "STAGE 02",
+            "title": "Intensive 1-on-1 Feedback & Forecast Bank Practice",
+            "duration": "Weeks 5–9",
+            "desc": "Engage with latest real exam test banks, daily essay revisions, and frequent mock speaking drills.",
+            "focus": [
+              "HEH Forecast Bank",
+              "1-on-1 Reviews",
+              "Listening 8.5+"
+            ]
+          },
+          {
+            "stage": "STAGE 03",
+            "title": "Final Review & Exam Room Strategy Fine-Tuning",
+            "duration": "Weeks 10–13",
+            "desc": "Full IDP-standard Mock Tests to optimize peak performance leading up to exam day.",
+            "focus": [
+              "Full IDP Mock Test",
+              "Score Optimization",
+              "Exam Psychology"
+            ]
+          }
+        ],
+        "books": [
+          {
+            "name": "Cambridge IELTS Practice Tests 16–19",
+            "publisher": "Cambridge University Press",
+            "phase": "Throughout Course",
+            "desc": "Official international test papers closest to real IDP/BC exams."
+          },
+          {
+            "name": "IELTS Advantage: Writing & Speaking Skills",
+            "publisher": "Delta Publishing",
+            "phase": "Stages 1 & 2",
+            "desc": "Premier guide for breaking through to 7.0–8.0 in productive skills."
+          },
+          {
+            "name": "HEH Master Essay & Speaking Forecast Bank",
+            "publisher": "Harry English House Exclusive",
+            "phase": "Stages 2 & 3",
+            "desc": "Compilation of Band 8.0+ model essays and exclusive quarterly exam prediction banks by Mr. Harry."
+          }
+        ],
+        "pricingInfo": {
+          "tuitionFee": "8,520,000 VND",
+          "perMonth": "Approx. 2,840,000 VND/month",
+          "totalSessions": "36–40 sessions",
+          "includes": [
+            "Direct mentorship & teaching by Mr. Harry Khoi (8.0 IELTS)",
+            "Unlimited 1-on-1 personalized Writing & Speaking grading",
+            "Exclusive HEH forecast bank and model essay compendium",
+            "Official mock test privileges and IDP exam fee discount vouchers"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Who directly leads this master class?",
+            "a": "Mr. Harry (8.0 IELTS Official - IDP Strategic Partner) directly leads 100% of classes and grades every 1-on-1 submission."
+          },
+          {
+            "q": "What is the maximum cohort size?",
+            "a": "Cohort is strictly limited to 7 students to ensure a selective, highly focused academic environment with ample time for detailed feedback."
+          }
+        ]
+      },
+      "ielts_vip_1_2": {
+        "title": "Personalized IELTS Coaching (1:2 Group)",
+        "level": "Band jump from 6.0 to 7.5+",
+        "target": "Diagnose individual weaknesses, close 1-on-1 feedback on Writing & Speaking for rapid band escalation",
+        "curriculum": "Custom tailored according to goals & Continuous 1-on-1 feedback",
+        "duration": "Flexible by stage",
+        "weeklySchedule": "Custom arranged",
+        "classSize": "Strictly 2 students : 1 Instructor",
+        "guarantee": "100% personalized & Session-by-session grading",
+        "badge": "VIP 1:2",
+        "format": "Online Flexible (Tue, Thu / Tue, Fri)",
+        "highlights": [
+          "100% tailored pathway addressing individual weaknesses",
+          "Strictly 2 students with 1 high-proficiency instructor",
+          "Sentence-by-sentence Writing feedback & accent correction",
+          "Flexible online scheduling"
+        ],
+        "targetAudience": {
+          "whoFor": "Friends, siblings, or paired learners with identical proficiency and band targets needing high-intensity focus.",
+          "inputRequirement": "Similar competency verified via comprehensive 4-skill diagnostic test.",
+          "outputTarget": "Overcome specific skill plateaus and hit target band scores in the shortest possible timeframe."
+        },
+        "skillsContent": {
+          "reading": [
+            "Customized test-taking strategies",
+            "Targeted remediation for individual error patterns"
+          ],
+          "listening": [
+            "Intensive listening practice on weak question types",
+            "Accelerated shorthand response speed"
+          ],
+          "writing": [
+            "Sentence-by-sentence and idea-level feedback directly on files",
+            "Tailored vocabulary fitting each student's writing style"
+          ],
+          "speaking": [
+            "Continuous 90-minute live speaking drills with instructor",
+            "Real exam simulations with immediate phonetic adjustments"
+          ]
+        },
+        "roadmap": [
+          {
+            "stage": "STAGE 01",
+            "title": "Detailed Diagnostics & Custom Syllabus Setup",
+            "duration": "Weeks 1–2",
+            "desc": "Pinpoint exact knowledge gaps for both learners and compile bespoke study materials.",
+            "focus": [
+              "Diagnostic Test",
+              "Custom Syllabus",
+              "Root Cause Fixes"
+            ]
+          },
+          {
+            "stage": "STAGE 02",
+            "title": "Target Weak Skills & Session-by-Session Feedback",
+            "duration": "Weeks 3–8",
+            "desc": "Intensive acceleration of productive skills (Writing & Speaking) with dense feedback cycles.",
+            "focus": [
+              "Writing 1-1 Review",
+              "Speaking Drills",
+              "Test Speed Acceleration"
+            ]
+          }
+        ],
+        "books": [
+          {
+            "name": "HEH Tailored VIP Syllabus",
+            "publisher": "Harry English House",
+            "phase": "Throughout Course",
+            "desc": "Custom compiled based on current scores and target band requirements of the 2 students."
+          }
+        ],
+        "pricingInfo": {
+          "tuitionFee": "4,000,000 VND / student / month",
+          "perMonth": "4,000,000 VND/month",
+          "totalSessions": "Flexible monthly enrollment",
+          "includes": [
+            "1 Senior 7.5+ instructor mentoring strictly 2 students",
+            "Flexible class schedule tailored to student availability",
+            "Unlimited 1-on-1 grading and personalized feedback",
+            "Weekly comprehensive progress reports"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "If I do not have a study partner, can the center pair me with someone?",
+            "a": "Yes. The center will evaluate your proficiency and pair you with a student sharing identical goals and schedule."
+          }
+        ]
+      },
+      "ielts_vip_1_1": {
+        "title": "IELTS VIP 1-on-1 Accelerated Coaching",
+        "level": "Fast-track Goals / Study Abroad",
+        "target": "100% custom-tailored curriculum, rapid weakness resolution, flexible self-scheduling",
+        "curriculum": "Dedicated pathway aligned with student certification deadlines",
+        "duration": "Flexible schedule",
+        "weeklySchedule": "Self-scheduled",
+        "classSize": "1 Student : 1 Instructor",
+        "guarantee": "Written output guarantee contract & 24/7 academic support",
+        "badge": "VIP 1:1",
+        "format": "Online / In-person on demand",
+        "highlights": [
+          "Exclusive 1-on-1 coaching optimizing time and band growth",
+          "Flexible scheduling matching student agenda",
+          "Targeted acceleration in weak skills (Writing/Speaking)",
+          "Written output commitment & 24/7 academic support"
+        ],
+        "targetAudience": {
+          "whoFor": "Students needing urgent test certificates in 1–2 months for university/visa deadlines or busy professionals.",
+          "inputRequirement": "All levels (Tailor-made roadmap designed post-diagnostic).",
+          "outputTarget": "Achieve exact target band score by application deadline."
+        },
+        "skillsContent": {
+          "reading": [
+            "Fast-track test strategies",
+            "Maximize scores in minimum time"
+          ],
+          "listening": [
+            "Focused drills on guaranteed high-yield question formats"
+          ],
+          "writing": [
+            "Direct sentence-level feedback",
+            "Standardized high-scoring essay templates tailored to exam prompts"
+          ],
+          "speaking": [
+            "Non-stop 1-on-1 live speaking coaching with instant phonetic and conceptual adjustments"
+          ]
+        },
+        "roadmap": [
+          {
+            "stage": "FAST-TRACK STAGE",
+            "title": "100% Focus on High-Yield Breakthrough Skills",
+            "duration": "Flexible 4–8 weeks",
+            "desc": "Channel full effort into remaining score gaps to achieve target milestones rapidly.",
+            "focus": [
+              "Fast-Track Tactics",
+              "Continuous Feedback",
+              "1-on-1 Mock Tests"
+            ]
+          }
+        ],
+        "books": [
+          {
+            "name": "HEH Exclusive Fast-Track Compendium",
+            "publisher": "Harry English House",
+            "phase": "Throughout Course",
+            "desc": "Concise high-yield materials aligned with specific VIP student objectives."
+          }
+        ],
+        "pricingInfo": {
+          "tuitionFee": "Customized based on timeline & goals",
+          "perMonth": "Consult for custom quote",
+          "totalSessions": "Flexible package options",
+          "includes": [
+            "Exclusive 1-on-1 mentorship",
+            "Flexible rescheduling options",
+            "24/7 academic support and task feedback",
+            "Written output guarantee contract"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "What times are available for 1-on-1 classes?",
+            "a": "You can freely choose morning, afternoon, or evening slots from Monday to Sunday based on your availability."
+          }
+        ]
+      },
+      "comm_basic": {
+        "title": "Reflexive Communication English",
+        "level": "Beginner / Hesitant Speaker",
+        "target": "Standardize IPA phonetics, swift Q&A conversational reflexes, confident everyday speaking",
+        "curriculum": "Pronunciation in Use, English Grammar, Real-life dialogue patterns",
+        "duration": "3 months (Standard Track)",
+        "weeklySchedule": "2 sessions / week (90 mins/session)",
+        "classSize": "2–3 students (Small group)",
+        "guarantee": "5% enrollment discount & Confident speaking within 3 months",
+        "badge": "Reflex",
+        "format": "Offline D7, D10 / Online (Wed, Fri)",
+        "highlights": [
+          "Standardize international IPA phonetics & eliminate hesitation",
+          "Fast conversational reflex drills based on real-life scenarios",
+          "Small group size of 2–3 students (D7, D10 / Online)",
+          "5% full-course discount available"
+        ],
+        "targetAudience": {
+          "whoFor": "Adults, working professionals, and students hesitant to speak, worried about mispronunciation, or struggling with sentence formulation.",
+          "inputRequirement": "Cannot formulate full sentences or lacks standard pronunciation.",
+          "outputTarget": "Speak with confidence, natural pronunciation, and 3-second conversational reflex."
+        },
+        "skillsContent": {
+          "reading": [
+            "Understand signs, emails, and short articles in everyday contexts"
+          ],
+          "listening": [
+            "Catch keywords in natural-speed spoken dialogues"
+          ],
+          "writing": [
+            "Draft everyday messages, basic emails, and short workplace memos"
+          ],
+          "speaking": [
+            "Master 44 IPA phonemes",
+            "Spontaneous reflex on 30+ daily topics (Shopping, Travel, Dining, Networking)"
+          ]
+        },
+        "roadmap": [
+          {
+            "stage": "STAGE 01",
+            "title": "Overcome Speaking Barriers & Standardize IPA",
+            "duration": "Weeks 1–4",
+            "desc": "Adjust mouth positioning, intonation, and stress to unlock natural speech.",
+            "focus": [
+              "44 IPA Sounds",
+              "Phonetic Linking & Intonation",
+              "Greetings & Small Talk"
+            ]
+          },
+          {
+            "stage": "STAGE 02",
+            "title": "Build 3-Second Thematic Reflexes",
+            "duration": "Weeks 5–8",
+            "desc": "Practice rapid Q&A across the most common real-world situational scenarios.",
+            "focus": [
+              "Shopping & Commuting",
+              "Travel & Dining",
+              "Instant Reflex"
+            ]
+          },
+          {
+            "stage": "STAGE 03",
+            "title": "Real-World Interaction & Short Presentations",
+            "duration": "Weeks 9–12",
+            "desc": "Group dialogue practice, situational handling, and delivering short confident opinions.",
+            "focus": [
+              "Role-Play Situations",
+              "Confident Presenting",
+              "Everyday Fluency"
+            ]
+          }
+        ],
+        "books": [
+          {
+            "name": "English Pronunciation in Use (Elementary)",
+            "publisher": "Cambridge University Press",
+            "phase": "Stage 1",
+            "desc": "Cambridge's premier practical phonetic training coursebook."
+          },
+          {
+            "name": "English File: Beginner & Elementary",
+            "publisher": "Oxford University Press",
+            "phase": "Stages 2 & 3",
+            "desc": "Vibrant conversational coursebook based on authentic real-life scenarios."
+          }
+        ],
+        "pricingInfo": {
+          "tuitionFee": "5,670,000 VND - 7,690,000 VND",
+          "perMonth": "From 1,890,000 VND/month",
+          "totalSessions": "36 sessions (3 months)",
+          "includes": [
+            "Full English File curriculum & pronunciation video bank",
+            "1-on-1 reflex practice drills with instructors",
+            "5% discount on early registration"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Is this course suitable for mature working adults?",
+            "a": "Absolutely! The HEH methodology is friendly, avoids academic jargon, and emphasizes practical conversational reflexes."
+          }
+        ]
+      },
+      "comm_applied": {
+        "title": "Applied & Workplace English",
+        "level": "Intermediate (Working Professionals / Travel)",
+        "target": "Presentation skills, business email writing, negotiation, and natural workplace communication",
+        "curriculum": "Business Speaking English, English File Intermediate, Workplace scenarios",
+        "duration": "6 months (Long-term Track)",
+        "weeklySchedule": "2 sessions / week (90 mins/session)",
+        "classSize": "3–5 students",
+        "guarantee": "10% tuition discount & Confident business negotiation",
+        "badge": "Business",
+        "format": "Offline D7 (Thu 19:30, Sun 10:00) / Online",
+        "highlights": [
+          "Standard presentation, negotiation, and business email skills",
+          "Curriculum: Business Speaking English & Real workplace situations",
+          "Size of 3–5 students (Offline D7 / Online)",
+          "10% discount for 6-month comprehensive program"
+        ],
+        "targetAudience": {
+          "whoFor": "Office staff, team leads, managers preparing for MNC interviews or overseas business trips.",
+          "inputRequirement": "Basic conversational ability but lacking specialized vocabulary and professional confidence.",
+          "outputTarget": "Confidently chair meetings, present projects, and draft professional business correspondence."
+        },
+        "skillsContent": {
+          "reading": [
+            "Comprehend business reports, agreements, and industry publications"
+          ],
+          "listening": [
+            "Follow international conference calls and corporate presentations"
+          ],
+          "writing": [
+            "Draft partner emails, progress updates, and formal project proposals"
+          ],
+          "speaking": [
+            "Project pitching, contract negotiation, and handling counter-arguments"
+          ]
+        },
+        "roadmap": [
+          {
+            "stage": "STAGE 01",
+            "title": "Business Email & Internal Office Communication",
+            "duration": "Weeks 1–4",
+            "desc": "Standardize formal email register and professional dialogue with colleagues and leadership.",
+            "focus": [
+              "Business Emails",
+              "Office Interactions",
+              "Small Talk"
+            ]
+          },
+          {
+            "stage": "STAGE 02",
+            "title": "Chairing Meetings & Project Presentations",
+            "duration": "Weeks 5–8",
+            "desc": "Develop meeting moderation skills and present projects before international partners.",
+            "focus": [
+              "Meeting Moderation",
+              "Presentation Skills",
+              "Q&A Handling"
+            ]
+          },
+          {
+            "stage": "STAGE 03",
+            "title": "Negotiation Skills & Employment Interviews",
+            "duration": "Weeks 9–12",
+            "desc": "Simulate English interviews and cross-cultural contract negotiations.",
+            "focus": [
+              "Negotiation Skills",
+              "Mock Interview",
+              "Cross-cultural Comm"
+            ]
+          }
+        ],
+        "books": [
+          {
+            "name": "Market Leader: Business English Course",
+            "publisher": "Pearson Education / Financial Times",
+            "phase": "Throughout Course",
+            "desc": "Premier commercial English textbook featuring authentic Financial Times business cases."
+          }
+        ],
+        "pricingInfo": {
+          "tuitionFee": "6,550,000 VND - 12,830,000 VND",
+          "perMonth": "From 2,180,000 VND/month",
+          "totalSessions": "36 sessions (3 months) or 72 sessions (6 months)",
+          "includes": [
+            "Market Leader textbook & practical case studies",
+            "1-on-1 email and presentation reviews",
+            "10% discount on 6-month enrollment"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "Does the center provide customized corporate training?",
+            "a": "Yes. Harry English House provides customized corporate English training packages on demand."
+          }
+        ]
+      },
+      "toeic_vstep": {
+        "title": "Accelerated TOEIC & VSTEP Prep",
+        "level": "Target 650+ TOEIC / B2-C1 VSTEP",
+        "target": "Exam trap handling strategies, standardized test bank, guaranteed graduation qualification",
+        "curriculum": "ETS TOEIC Test 2024, Hackers TOEIC, VSTEP B2-C1 Test Bank",
+        "duration": "~2.5 months",
+        "weeklySchedule": "3 sessions / week (90 mins/session)",
+        "classSize": "5 students cohort",
+        "guarantee": "Guaranteed university output & Authentic exam simulations",
+        "badge": "TOEIC/VSTEP",
+        "format": "Offline D1, D6, D7, D8 / Online",
+        "highlights": [
+          "Strategies conquering TOEIC Parts 1–7 and VSTEP 4 skills",
+          "Frequently updated ETS TOEIC & VSTEP test bank",
+          "Capped size of 5 students (D1, D6, D7, D8 / Online)",
+          "Guaranteed standard for university graduation and postgraduate entrance"
+        ],
+        "targetAudience": {
+          "whoFor": "University students needing graduation certificates, teachers/civil servants requiring B1, B2, C1 VSTEP standards.",
+          "inputRequirement": "Basic English background equivalent to 350+ TOEIC or A2 VSTEP.",
+          "outputTarget": "Attain TOEIC 650+ or VSTEP B1-B2-C1 on very first attempt."
+        },
+        "skillsContent": {
+          "reading": [
+            "Fast-solve strategies for TOEIC Parts 5 & 6 in under 15 minutes",
+            "Techniques for double/triple passages in Part 7 and VSTEP academic reading",
+            "600 core vocabulary items frequently featured in ETS & VSTEP tests"
+          ],
+          "listening": [
+            "Image-matching techniques for Part 1 and homophone trap handling for Part 2",
+            "Pre-reading tactics for Parts 3 & 4 to capture key details",
+            "Authentic audio listening practice at real examination speed"
+          ],
+          "writing": [
+            "VSTEP Task 1 letter writing (Formal/Informal) and Task 2 essay writing templates",
+            "Grammar and sentence restructuring drills to eliminate syntax errors"
+          ],
+          "speaking": [
+            "VSTEP 3-part Speaking structure: Social interaction, Solution choice, Topic development",
+            "Response time management and standardized pronunciation reflex"
+          ]
+        },
+        "roadmap": [
+          {
+            "stage": "STAGE 01",
+            "title": "Master Exam Formats & 600 Core Words",
+            "duration": "Weeks 1–3",
+            "desc": "Conquer TOEIC Parts 1-4 & VSTEP basic question types, absorb 600 high-yield test words.",
+            "focus": [
+              "TOEIC Parts 1-4",
+              "600 Core Words",
+              "VSTEP Basics"
+            ]
+          },
+          {
+            "stage": "STAGE 02",
+            "title": "Trap Handling & Reading Speed Optimization",
+            "duration": "Weeks 4–7",
+            "desc": "Optimize Part 5-7 solving speed and write standard VSTEP letters and essays.",
+            "focus": [
+              "Parts 5-7 Speed",
+              "VSTEP Essays",
+              "Listening Drills"
+            ]
+          },
+          {
+            "stage": "STAGE 03",
+            "title": "Timed Mock Exams & Exam Room Psychological Readiness",
+            "duration": "Weeks 8–10",
+            "desc": "Timed full test simulations with detailed score reviews and error analysis.",
+            "focus": [
+              "Full Mock Tests",
+              "Error Analysis",
+              "Output Guarantee"
+            ]
+          }
+        ],
+        "books": [
+          {
+            "name": "ETS TOEIC Regular Test 2024",
+            "publisher": "YBM / ETS Official",
+            "phase": "Throughout Course",
+            "desc": "Official standardized TOEIC test bank mirroring real exam difficulty."
+          },
+          {
+            "name": "Hackers TOEIC Reading & Listening",
+            "publisher": "Hackers Language Research",
+            "phase": "Stage 1 & 2",
+            "desc": "Legendary test prep series breaking down grammar traps and fast listening reflexes."
+          },
+          {
+            "name": "VSTEP B1-B2-C1 Preparation Master",
+            "publisher": "Vietnam National University Press",
+            "phase": "Throughout Course",
+            "desc": "Comprehensive standard VSTEP prep manual issued according to Ministry of Education guidelines."
+          }
+        ],
+        "pricingInfo": {
+          "tuitionFee": "5,100,000 VND - 7,950,000 VND",
+          "perMonth": "From 1,700,000 VND/month",
+          "totalSessions": "30 sessions (2.5 months)",
+          "includes": [
+            "Full ETS TOEIC & VSTEP exam prep materials",
+            "Standardized full mock exams under exam conditions",
+            "Written graduation output guarantee"
+          ]
+        },
+        "faqs": [
+          {
+            "q": "How long does it take to achieve TOEIC 650+ or VSTEP B2?",
+            "a": "With our streamlined curriculum, students typically hit 650+ TOEIC or VSTEP B2 within 2.5 months (30 sessions)."
+          }
+        ]
+      }
+    },
+    "methodology": {
+      "title": "Practical & Targeted Methodology",
+      "subtitle": "5 standardized training steps helping students eliminate barriers and advance band scores sustainably",
+      "step1Tag": "4-Skill Diagnostic",
+      "step1Title": "Comprehensive Proficiency Assessment",
+      "step1Desc": "In-depth testing across 4 skills to precisely diagnose strengths and knowledge gaps for customized roadmap design.",
+      "step2Tag": "100% Personalized",
+      "step2Title": "Target-Optimized Roadmap",
+      "step2Desc": "Streamlined stage-by-stage learning plan focusing on resolving weak areas aligned with target exam dates.",
+      "step3Tag": "Two-Way Interaction",
+      "step3Title": "Live Reflexive Practice",
+      "step3Desc": "Small class sizes maximizing interactive time with instructors, practicing spontaneous speaking and essay structuring.",
+      "step4Tag": "Intensive Feedback",
+      "step4Title": "Detailed 1-on-1 Correction",
+      "step4Desc": "Meticulous Writing feedback and Speaking pronunciation correction, pinpointing errors and upgrading expressions.",
+      "step5Tag": "Outcome Guaranteed",
+      "step5Title": "Mock Testing & Guaranteed Outcome",
+      "step5Desc": "Periodic Mock Tests under authentic IDP/BC exam formats, mastering test psychology and time management skills."
+    },
+    "classes": {
+      "title": "OPEN ENROLLMENT CLASSES",
+      "subtitle": "Find a cohort tailored to your target band score, learning mode, and schedule.",
+      "ieltsIntermediate": {
+        "level": "B1 → B2 (Target 5.5 - 6.5)",
+        "className": "IELTS Intermediate Booster",
+        "schedule": "Mon / Wed / Fri",
+        "format": "In-person at District 7 Campus",
+        "teacher": "Mr. Harry Khoi (8.0 IELTS)",
+        "badge": "Starting Soon"
+      },
+      "ieltsMaster": {
+        "level": "B2 → C1 (Target 6.5 - 7.5+)",
+        "className": "IELTS Intensive Master",
+        "schedule": "Tue / Thu / Sat",
+        "format": "In-person at District 8 Campus",
+        "teacher": "Mr. Harry Khoi (8.0 IELTS)",
+        "badge": "Advanced Cohort"
+      },
+      "communicationPro": {
+        "level": "All Levels (Workplace Practical)",
+        "className": "Fluency Reflex & Interview Prep",
+        "schedule": "Mon / Wed / Fri",
+        "format": "Live Interactive Online (Meet / Zoom)",
+        "teacher": "Mr. Harry Khoi & T.A.",
+        "badge": "Hot"
+      },
+      "c1Program": "IELTS",
+      "c2Program": "IELTS",
+      "c3Program": "Communication English"
+    },
+    "pricing": {
+      "title": "Transparent Tuition & Fee Schedule",
+      "pkgIelts": "IELTS Academic",
+      "pkgToeic": "TOEIC Preparation",
+      "pkgVstep": "VSTEP Preparation",
+      "pkgComm": "Communication English",
+      "p3m1Monthly": "From 2,460,000 VND / month",
+      "p3m1Promo": "3-month package: 7,380,000 VND (Includes official textbooks)",
+      "p3m2Monthly": "From 2,460,000 VND / month",
+      "p3m2Promo": "3-month package: 7,380,000 VND (Includes official Mock Tests)",
+      "p3m3Monthly": "From 2,460,000 VND / month",
+      "p3m3Promo": "3-month package: 7,380,000 VND (Textbooks + 1-on-1 essay grading)",
+      "p3m4Monthly": "From 2,460,000 VND / month",
+      "p3m4Promo": "3-month package: 7,380,000 VND (IDP test fee discount voucher)",
+      "p6m1Discount": "5% discount on full 6-month enrollment",
+      "p6m2Discount": "5% discount on full 6-month enrollment",
+      "p6m3Discount": "5% discount on full 6-month enrollment",
+      "p6m4Discount": "5% discount on full 6-month enrollment",
+      "sp1Title": "VIP Group 1:2 Coaching",
+      "sp1Price": "Contact for custom quote",
+      "sp1Feature1": "100% personalized according to both students' goals and schedules",
+      "sp1Feature2": "Direct coaching and feedback from IELTS 8.0 instructor",
+      "sp1Feature3": "Close tracking every session with weekly band progress guarantee",
+      "sp1Feature4": "Full set of intensive textbooks and exclusive materials included",
+      "sp2Title": "Exclusive 1:1 Private Tutoring",
+      "sp2Price": "Tailored to target band score",
+      "sp2Feature1": "100% dedicated time for a single learner",
+      "sp2Feature2": "Timed realistic exam practice and test-room rehearsal",
+      "sp2Feature3": "Unlimited Task 1-2 essay grading and accent correction",
+      "note": "* Tuition is all-inclusive of printed textbooks, proprietary materials, and periodic Mock Tests. Zero hidden fees.",
+      "p3m1Class2_4": "7,690,000 VND",
+      "p3m1Class5_7": "6,550,000 VND",
+      "p3m1Class8_10": "5,670,000 VND",
+      "p3m2Class2_4": "7,120,000 VND",
+      "p3m2Class5_7": "5,980,000 VND",
+      "p3m2Class8_10": "5,100,000 VND",
+      "p3m3Class2_4": "7,950,000 VND",
+      "p3m3Class5_7": "6,810,000 VND",
+      "p3m3Class8_10": "5,960,000 VND",
+      "p3m4Class2_4": "8,520,000 VND",
+      "p3m4Class5_7": "7,380,000 VND",
+      "p3m4Class8_10": "6,530,000 VND",
+      "p6m1Class2_4": "15,060,000 VND",
+      "p6m1Class5_7": "12,830,000 VND",
+      "p6m1Class8_10": "11,100,000 VND",
+      "p6m2Class2_4": "13,950,000 VND",
+      "p6m2Class5_7": "11,720,000 VND",
+      "p6m2Class8_10": "9,990,000 VND",
+      "p6m3Class2_4": "15,570,000 VND",
+      "p6m3Class5_7": "13,330,000 VND",
+      "p6m3Class8_10": "11,660,000 VND",
+      "p6m4Class2_4": "16,680,000 VND",
+      "p6m4Class5_7": "14,450,000 VND",
+      "p6m4Class8_10": "12,780,000 VND"
+    },
+    "roadmap": {
+      "title": "Standardized Training Roadmap",
+      "description": "Streamlined 4-stage roadmap from foundation to band 7.5+",
+      "p1Phase": "Stage 1",
+      "p1Title": "Warm-up & Foundation",
+      "p1M1": "Master core grammar (Simple & compound sentences, tenses)",
+      "p1M2": "Standardize 44 IPA international phonetic sounds",
+      "p1M3": "Acquire 500 essential topic vocabulary items",
+      "p1M4": "Get familiar with the IELTS exam structure",
+      "p2Phase": "Stage 2",
+      "p2Title": "Skill Development",
+      "p2M1": "Master Skimming & Scanning techniques for Reading",
+      "p2M2": "Train keyword detection reflexes for Listening",
+      "p2M3": "Compose paragraphs and short Task 1 reports",
+      "p2M4": "Practice natural Speaking Part 1 reflex answers",
+      "p3Phase": "Stage 3",
+      "p3Title": "Acceleration & Mastery",
+      "p3M1": "Conquer complex Reading & Listening question types",
+      "p3M2": "Upgrade academic vocabulary for Band 6.5+ (Destination B2)",
+      "p3M3": "Perfect coherent and structured Task 2 essays",
+      "p3M4": "Intensive Speaking Part 2 & Part 3 practice",
+      "p4Phase": "Stage 4",
+      "p4Title": "Real Test Practice & Final Band 7.5+",
+      "p4M1": "Solve latest Cambridge tests under timed exam conditions",
+      "p4M2": "Detailed 1-on-1 essay feedback with Teacher Harry",
+      "p4M3": "Participate in 2 full IDP-standard Mock Tests",
+      "p4M4": "Optimize real-test time allocation strategies",
+      "p1Focus": "Mindset for IELTS 2 (Units 1-4) + Destination B2 (Units 1-6) + Listening for IELTS (Units 1-4)",
+      "p2Focus": "Mindset for IELTS 2 (Units 5-7) + Destination B2 (Units 7-11) + Listening for IELTS (Units 5-8)",
+      "p3Focus": "Mindset for IELTS 2 (Unit 8 + Practice Tests) + Destination B2 (Units 12-16) + Listening for IELTS (Units 9-12)",
+      "p4Focus": "Cambridge IELTS 15-18 + Destination B2 (Units 17-28: Inversions, Relative Clauses, Collocations)"
+    },
+    "certificates": {
+      "c1": "IDP IELTS Outstanding Teacher Certification",
+      "c2": "TESOL International Teaching Certificate",
+      "c3": "VNSPEAK International ELT Conference Certificate",
+      "c4": "Cambridge English Pedagogy Workshop Certificate",
+      "c5": "Official IDP IELTS Training Partner Recognition",
+      "c6": "Official IELTS 8.0 Test Report Form",
+      "c7": "Bachelor's Degree in English Pedagogy",
+      "c8": "CamTESOL International Academic Conference Delegate",
+      "c9": "VNTESOL International Conference Certificate",
+      "c10": "Outstanding Academic Mentor Recognition",
+      "c11": "Pedagogical Professional Certificate - University of Education",
+      "c12": "High-Achiever Coaching Excellence Award",
+      "c13": "Intensive Coaching Completion Certificate",
+      "c14": "Teacher Dedicated Contribution Award",
+      "c15": "International Testing Seminar Attendance Certificate",
+      "c16": "Advanced Teaching Pedagogy Certificate",
+      "c17": "IDP Education Companion Partner Certificate",
+      "c18": "Commendation Letter from International Testing Organization",
+      "c19": "Academic English Master Trainer Certification",
+      "c20": "IELTS Coaching Excellence Commendation"
+    },
+    "media": {
+      "collab1": "International Academic & Training Collaboration Conference",
+      "collab2": "Official Training Partnership Signing with IDP Vietnam",
+      "collab3": "IELTS Examiner & Assessment Training Session",
+      "collab4": "Modern English Teaching Methodology Workshop",
+      "collab5": "Academic Exchange with Linguistics Experts",
+      "collab6": "International Education Conference with Ministry of Education",
+      "collab7": "HCMC IELTS Instructors Network Summit",
+      "collab8": "Outstanding Student Achievement Award Ceremony",
+      "collab9": "Overseas Study Roadmap Orientation Seminar",
+      "collab10": "Pedagogical Capacity Enhancement Workshop",
+      "collab11": "English Learning Innovation Panel Discussion",
+      "collab12": "Extracurricular & Student Networking Activity",
+      "collab13": "Harry English House Annual Celebration",
+      "min1": "Teacher Harry presenting pedagogy research at International Conference",
+      "min2": "ASEAN Education Delegation at International Conference",
+      "min3": "Meeting and exchanging professional insights with education delegates",
+      "min4": "Presenting practical language reflex methodology",
+      "mem1": "Course Completion Certificate Presentation Moment",
+      "mem2": "Dynamic Live Speaking Reflex Practice in Class",
+      "mem3": "Cozy End-of-Course Celebration with Students",
+      "mem4": "Commemorative Photo following Full Mock Test",
+      "mem5": "Engaging & Effective Team Practice Activities",
+      "mem6": "Joyful Smiles of Students upon Receiving Test Results",
+      "mem7": "1-on-1 Extra Tutoring & Q&A Support Moment",
+      "mem8": "Bonding through Inspiring Extracurricular Activities",
+      "mem9": "Memorable Moments with the Harry English House Family"
+    },
+    "programs": {
+      "ielts": {
+        "badge": "Flagship Program",
+        "target": "Achieve IELTS Band 6.5 - 7.5+ for university admission, study abroad, and immigration",
+        "entry": "Free 4-skill placement evaluation",
+        "format": "Offline Dist 7, Dist 8 / Online Flexible",
+        "classSize": "Small groups of 3–7 students",
+        "m1Duration": "40 sessions (Foundation)",
+        "m2Duration": "30 sessions (Pre-IELTS)",
+        "m3Duration": "48 sessions (Mastery)",
+        "m4Duration": "3–6 months (Intensive)",
+        "m1Band": "0 - 3.0",
+        "m2Band": "3.0 - 4.5",
+        "m3Band": "4.5 - 6.0",
+        "m4Band": "6.0 - 7.5+"
+      },
+      "ieltsVip": {
+        "badge": "Intensive 1:1 & 1:2 Coaching",
+        "target": "Accelerate personal target scores on customized flexible schedules",
+        "entry": "1-on-1 placement & consultation",
+        "format": "Offline / Online Flexible",
+        "classSize": "1:1 or 1:2",
+        "m1Duration": "Custom Designed",
+        "m2Duration": "Custom Designed",
+        "m1Band": "VIP 1:2",
+        "m2Band": "VIP 1:1"
+      },
+      "comm": {
+        "badge": "Practical Reflex",
+        "target": "Communicate fluently and naturally in work and daily life",
+        "entry": "Beginners or hesitant speakers",
+        "format": "Offline Dist 7, Dist 8 / Online",
+        "classSize": "Small groups of 4–8 students",
+        "m1Duration": "3 months (Reflex)",
+        "m2Duration": "3 months (Business)",
+        "m1Band": "Foundation",
+        "m2Band": "Advanced"
+      },
+      "toeic": {
+        "badge": "Graduation Standard",
+        "target": "Achieve TOEIC 650+ / VSTEP B2-C1 for university graduation & career",
+        "entry": "Basic level",
+        "format": "Offline Dist 7, Dist 8 / Online",
+        "classSize": "Groups of 5–10 students",
+        "m1Duration": "2.5 months (TOEIC)",
+        "m2Duration": "2.5 months (VSTEP)",
+        "m1Band": "TOEIC 650+",
+        "m2Band": "VSTEP B2-C1"
+      }
+    }
+  },
+  "header": {
+    "tagline": "IELTS & ACADEMIC ENGLISH"
   }
 }

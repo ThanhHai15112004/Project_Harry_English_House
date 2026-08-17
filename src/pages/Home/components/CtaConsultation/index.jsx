@@ -34,13 +34,13 @@ export const CtaConsultation = () => {
     e.preventDefault();
 
     if (!formData.fullName.trim()) {
-      toast.error('Vui lòng nhập họ và tên của bạn.');
+      toast.error(t('contact.validationName'));
       return;
     }
 
     const cleanPhone = formData.phone.trim().replace(/\s+/g, '');
     if (cleanPhone.length < 9) {
-      toast.error('Vui lòng nhập số điện thoại hoặc Zalo hợp lệ (ít nhất 9 chữ số).');
+      toast.error(t('contact.validationPhone'));
       return;
     }
 
@@ -247,7 +247,7 @@ export const CtaConsultation = () => {
                     disabled={isSubmitting}
                     icon={<Send size={18} />}
                   >
-                    {isSubmitting ? 'Đang gửi thông tin...' : t('contact.submitBtn')}
+                    {isSubmitting ? t('contact.submitting') : t('contact.submitBtn')}
                   </Button>
                 </div>
               </form>

@@ -51,9 +51,9 @@ export default function CourseRelatedResults({ course }) {
 
         {/* 3 Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-10">
-          {matchedResults.map((item, idx) => (
+          {matchedResults.map((item) => (
             <div 
-              key={idx}
+              key={item.id}
               className="bg-white rounded-2xl p-6 border border-[#E2E8F0] shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between"
             >
               <div>
@@ -61,11 +61,11 @@ export default function CourseRelatedResults({ course }) {
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center gap-2">
                     <span className="text-xs font-black px-2.5 py-1 bg-[#EAF2FF] text-[#1746A2] rounded-md">
-                      {item.examType || 'IELTS Official'}
+                      {t(item.examTypeKey)}
                     </span>
                   </div>
                   <span className="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded">
-                    {item.badge || 'Thi Thật'}
+                    {t(item.badgeKey)}
                   </span>
                 </div>
 
@@ -73,7 +73,9 @@ export default function CourseRelatedResults({ course }) {
                 <div className="p-4 bg-[#F8FAFC] rounded-xl border border-slate-200/70 mb-4 flex items-center justify-between">
                   <div>
                     <p className="text-xs text-slate-500 font-medium">{item.studentName}</p>
-                    <p className="text-xs font-bold text-[#10233F]">{item.scoreType}</p>
+                    <p className="text-xs font-bold text-[#10233F]">
+                      {t(item.scoreTypeKey)}
+                    </p>
                   </div>
                   <div className="text-2xl sm:text-3xl font-black text-[#1746A2]">
                     {item.score}
@@ -112,7 +114,7 @@ export default function CourseRelatedResults({ course }) {
 
                 {/* Caption / Description */}
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed line-clamp-3">
-                  {item.description || item.caption}
+                  {t(item.descriptionKey || item.captionKey)}
                 </p>
               </div>
 
@@ -120,9 +122,9 @@ export default function CourseRelatedResults({ course }) {
               <div className="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
                 <span className="flex items-center gap-1 text-emerald-600 font-medium">
                   <CheckCircle2 className="w-3.5 h-3.5" />
-                  Xác thực 100%
+                  {t('results.verifiedScore')}
                 </span>
-                <span>Bảng điểm lưu tại HEH</span>
+                <span>{t('about.officialRecordsBadge')}</span>
               </div>
             </div>
           ))}
@@ -134,7 +136,7 @@ export default function CourseRelatedResults({ course }) {
             to="/results"
             className="inline-flex items-center gap-2 px-6 py-3 bg-white hover:bg-slate-50 text-[#1746A2] font-bold text-sm sm:text-base rounded-xl border border-[#CBD5E1] shadow-xs hover:shadow-md transition-all duration-200"
           >
-            <span>{t('pages.courseDetail.relatedResults.viewAllBtn', 'Xem tất cả thành tích học viên →')}</span>
+            <span>{t('pages.courseDetail.relatedResults.viewAllBtn')}</span>
             <ArrowRight className="w-4 h-4" />
           </Link>
         </div>

@@ -94,7 +94,7 @@ export const Navbar = () => {
                 {APP_INFO.BRAND_NAME || APP_INFO.NAME}
               </span>
               <span className="text-[10px] sm:text-xs text-primary font-bold tracking-wider uppercase leading-tight truncate">
-                {APP_INFO.TAGLINE_VI}
+                {t('header.tagline')}
               </span>
             </div>
           </Link>

@@ -18,7 +18,7 @@ export const HarryStory = ({ storyData }) => {
             </div>
             
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-academic-heading font-heading leading-tight tracking-tight">
-              {storyData.title || t('pages.about.story.title')}
+              {t(storyData.titleKey || 'pages.about.story.title')}
             </h2>
 
             <div className="w-12 h-1 bg-primary rounded-full mt-4" />
@@ -27,9 +27,9 @@ export const HarryStory = ({ storyData }) => {
           {/* Right Column (60% -> 7 Cols): Narrative Paragraphs & Subtle In-line Classroom Photo */}
           <div className="lg:col-span-7 space-y-6 text-academic-body text-sm sm:text-base leading-relaxed font-normal">
             
-            {storyData.paragraphs?.map((p, idx) => (
-              <p key={`p-${idx}-${p.slice(0, 15)}`} className="leading-relaxed">
-                {p}
+            {(storyData.paragraphKeys || []).map((pKey) => (
+              <p key={pKey} className="leading-relaxed">
+                {t(pKey)}
               </p>
             ))}
 
@@ -40,13 +40,13 @@ export const HarryStory = ({ storyData }) => {
                   <div className="h-56 sm:h-72 w-full overflow-hidden relative">
                     <img
                       src={storyData.image}
-                      alt="Khoảnh khắc giảng dạy và chia sẻ của Thầy Harry"
+                      alt={t('pages.about.story.title')}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                       loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-academic-heading/60 via-transparent to-transparent" />
                     <div className="absolute bottom-3 left-4 right-4 text-white text-xs font-medium italic">
-                      "Giáo dục là sự thấu hiểu và đồng hành xuyên suốt cùng từng học viên."
+                      "{t('home.aboutQuote')}"
                     </div>
                   </div>
                 </div>

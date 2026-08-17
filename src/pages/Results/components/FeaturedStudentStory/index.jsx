@@ -38,7 +38,7 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                 {/* Score badge chip */}
                 <div className="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-academic-heading/90 backdrop-blur-md border border-white/20 text-white shadow-md text-xs font-bold font-heading">
                   <Star size={13} className="text-amber-400 fill-amber-400" />
-                  <span>{storyData.score}</span>
+                  <span>{storyData.scoreKey ? t(storyData.scoreKey) : storyData.score}</span>
                 </div>
 
                 {/* Bottom Student Info in Photo */}
@@ -47,7 +47,7 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                     {storyData.studentName}
                   </div>
                   <p className="text-xs text-slate-200">
-                    {storyData.examType}
+                    {t(storyData.examTypeKey)}
                   </p>
                 </div>
               </div>
@@ -62,15 +62,15 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                       image: storyData.scorecardImage,
                       studentName: storyData.studentName,
                       score: storyData.score,
-                      caption: `Bảng điểm ${storyData.score} của ${storyData.studentName}`,
-                      description: storyData.tagline,
+                      caption: storyData.studentName,
+                      description: t(storyData.taglineKey),
                     })
                   }
                 >
                   <div className="h-24 w-full rounded-xl overflow-hidden bg-slate-900/5 p-1 relative flex items-center justify-center">
                     <img
                       src={storyData.scorecardImage}
-                      alt="Bảng điểm chính thức"
+                      alt={storyData.studentName}
                       className="w-full h-full object-contain rounded-lg group-hover/card:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-academic-heading/60 opacity-0 group-hover/card:opacity-100 flex items-center justify-center text-white transition-opacity rounded-lg">
@@ -78,7 +78,7 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                     </div>
                   </div>
                   <div className="pt-1.5 px-0.5 flex items-center justify-between text-[11px] font-bold text-academic-heading">
-                    <span className="truncate">Bảng điểm thi thật</span>
+                    <span className="truncate">{t('pages.results.heroProofCard')}</span>
                     <span className="text-cta font-heading">IDP/BC</span>
                   </div>
                 </button>
@@ -94,10 +94,10 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
             <div className="space-y-2">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-800 border border-amber-200">
                 <Award size={13} className="text-achievement" />
-                <span>{storyData.badge}</span>
+                <span>{t(storyData.badgeKey)}</span>
               </span>
               <h3 className="text-2xl sm:text-3xl font-extrabold text-academic-heading font-heading leading-snug">
-                {storyData.tagline}
+                {t(storyData.taglineKey)}
               </h3>
             </div>
 
@@ -113,11 +113,11 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                       {block.stepNumber}
                     </span>
                     <h4 className="text-sm font-bold text-academic-heading font-heading">
-                      {block.title}
+                      {t(block.titleKey)}
                     </h4>
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed pl-8">
-                    {block.desc}
+                    {t(block.descKey)}
                   </p>
                 </div>
               ))}

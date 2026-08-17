@@ -42,10 +42,10 @@ export const TeachingTeam = ({ teamList = [] }) => {
                   {mentor.name}
                 </h3>
                 <p className="text-xs font-semibold text-cta">
-                  {mentor.role}
+                  {t(mentor.roleKey)}
                 </p>
                 <p className="text-xs text-academic-muted font-normal">
-                  {mentor.specialty}
+                  {t(mentor.specialtyKey)}
                 </p>
               </div>
             </div>

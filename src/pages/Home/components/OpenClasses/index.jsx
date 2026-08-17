@@ -15,8 +15,8 @@ export const OpenClasses = () => {
       <div className="app-container">
         <SectionTitle
           badge={t('classes.badge')}
-          title={classesData.title || t('classes.title')}
-          subtitle={classesData.subtitle || t('classes.subtitle')}
+          title={t(classesData.titleKey)}
+          subtitle={t(classesData.subtitleKey)}
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
@@ -32,23 +32,23 @@ export const OpenClasses = () => {
                   {/* Badge & Program */}
                   <div className="flex items-center justify-between">
                     <span className="text-xs font-extrabold uppercase tracking-wider text-primary bg-academic-light-blue px-3 py-1 rounded-full border border-blue-100">
-                      {item.program} • {item.badge}
+                      {t(item.programKey)} • {t(item.badgeKey)}
                     </span>
                     <span className="text-xs text-academic-muted font-bold">
-                      {item.level}
+                      {t(item.levelKey)}
                     </span>
                   </div>
 
                   {/* Class Name */}
                   <h3 className="text-xl font-extrabold text-academic-heading font-heading leading-snug">
-                    {item.className}
+                    {t(item.classNameKey)}
                   </h3>
 
                   {/* Class Info Details */}
                   <div className="space-y-2.5 text-xs sm:text-sm text-academic-body bg-academic-surface/60 p-4 rounded-2xl border border-slate-100">
                     <div className="flex items-center gap-2.5">
                       <Calendar size={16} className="text-primary flex-shrink-0" />
-                      <span><strong>{t('classes.labelSchedule')}</strong> {item.schedule}</span>
+                      <span><strong>{t('classes.labelSchedule')}</strong> {t(item.scheduleKey)}</span>
                     </div>
 
                     <div className="flex items-center gap-2.5">
@@ -58,12 +58,12 @@ export const OpenClasses = () => {
 
                     <div className="flex items-center gap-2.5">
                       <MapPin size={16} className="text-achievement flex-shrink-0" />
-                      <span><strong>{t('classes.labelFormat')}</strong> {item.format}</span>
+                      <span><strong>{t('classes.labelFormat')}</strong> {t(item.formatKey)}</span>
                     </div>
 
                     <div className="flex items-center gap-2.5">
                       <UserCheck size={16} className="text-emerald-600 flex-shrink-0" />
-                      <span><strong>{t('classes.labelTeacher')}</strong> {item.teacher}</span>
+                      <span><strong>{t('classes.labelTeacher')}</strong> {t(item.teacherKey)}</span>
                     </div>
                   </div>
 

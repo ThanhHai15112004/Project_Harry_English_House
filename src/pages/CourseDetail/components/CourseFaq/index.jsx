@@ -56,7 +56,7 @@ export default function CourseFaq({ course }) {
             const isOpen = openIndex === idx;
             return (
               <div 
-                key={idx}
+                key={faq.qKey || faq.q}
                 className={`border rounded-2xl transition-all duration-200 overflow-hidden ${
                   isOpen ? 'border-[#2563EB]/40 bg-[#F8FAFC] shadow-xs' : 'border-[#E2E8F0] bg-white hover:border-slate-300'
                 }`}
@@ -68,7 +68,7 @@ export default function CourseFaq({ course }) {
                   aria-expanded={isOpen}
                 >
                   <span className="text-sm sm:text-base font-bold text-[#10233F]">
-                    {faq.q}
+                    {t(faq.qKey || faq.q)}
                   </span>
                   <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 transition-transform duration-200 ${
                     isOpen ? 'bg-[#EAF2FF] text-[#2563EB] rotate-180' : 'bg-slate-100 text-slate-500'
@@ -79,7 +79,7 @@ export default function CourseFaq({ course }) {
 
                 {isOpen && (
                   <div className="px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-200/50 pt-4">
-                    {faq.a}
+                    {t(faq.aKey || faq.a)}
                   </div>
                 )}
               </div>

@@ -34,8 +34,8 @@ export const PartnershipGallery = ({ collaborations = [], onOpenPhoto }) => {
               onClick={() =>
                 onOpenPhoto?.({
                   image: item.image,
-                  title: item.title,
-                  caption: `Hoạt động đối tác & giao lưu học thuật HEH (${item.title})`,
+                  title: t(item.titleKey),
+                  caption: t(item.titleKey),
                 })
               }
             >
@@ -43,14 +43,14 @@ export const PartnershipGallery = ({ collaborations = [], onOpenPhoto }) => {
               <div className="h-52 sm:h-56 w-full overflow-hidden bg-slate-900/5 relative p-2">
                 <img
                   src={item.image}
-                  alt={item.title}
+                  alt={t(item.titleKey)}
                   className="w-full h-full object-cover rounded-2xl group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
                 <div className="absolute inset-0 bg-academic-heading/50 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white transition-opacity rounded-2xl m-2">
                   <div className="px-3.5 py-1.5 rounded-lg bg-white/20 backdrop-blur-md border border-white/40 flex items-center gap-1.5 text-xs font-bold shadow-md">
                     <ZoomIn size={14} />
-                    <span>Xem hoạt động</span>
+                    <span>{t('pages.about.partnerships.viewActivityBtn')}</span>
                   </div>
                 </div>
               </div>
@@ -59,10 +59,10 @@ export const PartnershipGallery = ({ collaborations = [], onOpenPhoto }) => {
               <div className="p-4 bg-white border-t border-slate-100 flex items-center justify-between gap-2 w-full">
                 <div className="min-w-0">
                   <p className="text-xs font-bold text-academic-heading truncate font-heading">
-                    {item.title}
+                    {t(item.titleKey)}
                   </p>
                   <p className="text-[10px] text-academic-muted truncate">
-                    Đối tác chiến lược & Khảo thí
+                    {t(item.descKey || 'pages.about.partnerships.partnerDesc')}
                   </p>
                 </div>
                 <div className="w-7 h-7 rounded-lg bg-blue-50 text-cta flex items-center justify-center flex-shrink-0">

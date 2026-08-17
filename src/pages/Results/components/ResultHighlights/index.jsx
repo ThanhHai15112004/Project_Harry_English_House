@@ -28,7 +28,7 @@ export const ResultHighlights = ({ highlights = [] }) => {
               {/* Top Tag & Icon */}
               <div className="flex items-center justify-between gap-2">
                 <span className="text-[11px] font-bold text-academic-muted uppercase tracking-wider">
-                  {item.prefix}
+                  {item.prefixKey ? t(item.prefixKey) : item.prefix}
                 </span>
                 <div className="w-8 h-8 rounded-lg bg-white border border-slate-200 flex items-center justify-center shadow-2xs">
                   {iconMap[item.id] || <Sparkles size={16} className="text-cta" />}
@@ -41,23 +41,23 @@ export const ResultHighlights = ({ highlights = [] }) => {
                   <span className="text-3xl sm:text-4xl lg:text-5xl font-black text-primary font-heading tracking-tight">
                     {item.value}
                   </span>
-                  {item.suffix && (
+                  {(item.suffixKey || item.suffix) && (
                     <span className="text-lg font-bold text-academic-gold font-heading">
-                      {item.suffix}
+                      {item.suffixKey ? t(item.suffixKey) : item.suffix}
                     </span>
                   )}
                 </div>
                 <div className="text-xs sm:text-sm font-bold text-academic-heading font-heading mt-1">
-                  {item.label}
+                  {item.labelKey ? t(item.labelKey) : item.label}
                 </div>
               </div>
 
               {/* Subtext info */}
               <div className="pt-2 border-t border-slate-200/60 flex items-center justify-between gap-1 text-[11px] text-academic-muted">
-                <span className="truncate">{item.sub}</span>
-                {item.badge && (
+                <span className="truncate">{item.subKey ? t(item.subKey) : item.sub}</span>
+                {(item.badgeKey || item.badge) && (
                   <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-academic-light-blue text-primary flex-shrink-0">
-                    {item.badge}
+                    {item.badgeKey ? t(item.badgeKey) : item.badge}
                   </span>
                 )}
               </div>

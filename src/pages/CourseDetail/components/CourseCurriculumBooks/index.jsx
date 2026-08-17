@@ -49,47 +49,54 @@ export default function CourseCurriculumBooks({ course }) {
 
         {/* Book Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {books.map((book, idx) => (
-            <div 
-              key={idx}
-              className="bg-[#F8FAFC] rounded-2xl p-6 sm:p-7 border border-[#E2E8F0] hover:border-[#2563EB]/40 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between"
-            >
-              <div>
-                {/* Book Header Icon */}
-                <div className="flex items-center justify-between mb-4">
-                  <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
-                    <BookMarked className="w-5 h-5" />
+          {books.map((book, idx) => {
+            const bookName = book.nameKey ? t(book.nameKey) : book.name;
+            const bookPublisher = book.publisherKey ? t(book.publisherKey) : book.publisher;
+            const bookPhase = book.phaseKey ? t(book.phaseKey) : book.phase;
+            const bookDesc = book.descKey ? t(book.descKey) : book.desc;
+
+            return (
+              <div 
+                key={book.nameKey || book.name || idx}
+                className="bg-[#F8FAFC] rounded-2xl p-6 sm:p-7 border border-[#E2E8F0] hover:border-[#2563EB]/40 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between"
+              >
+                <div>
+                  {/* Book Header Icon */}
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="w-10 h-10 rounded-xl bg-blue-50 text-[#2563EB] flex items-center justify-center">
+                      <BookMarked className="w-5 h-5" />
+                    </div>
+                    <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-bold bg-white text-slate-600 border border-slate-200">
+                      <Layers className="w-3 h-3 text-[#2563EB]" />
+                      {bookPhase}
+                    </span>
                   </div>
-                  <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-bold bg-white text-slate-600 border border-slate-200">
-                    <Layers className="w-3 h-3 text-[#2563EB]" />
-                    {book.phase}
-                  </span>
+
+                  {/* Book Title */}
+                  <h3 className="text-lg font-bold text-[#10233F] mb-2 leading-snug">
+                    {bookName}
+                  </h3>
+
+                  {/* Publisher */}
+                  <div className="flex items-center gap-1.5 text-xs font-semibold text-[#1746A2] mb-3">
+                    <Building2 className="w-3.5 h-3.5 shrink-0" />
+                    <span>{bookPublisher}</span>
+                  </div>
+
+                  {/* Description */}
+                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                    {bookDesc}
+                  </p>
                 </div>
 
-                {/* Book Title */}
-                <h3 className="text-lg font-bold text-[#10233F] mb-2 leading-snug">
-                  {book.name}
-                </h3>
-
-                {/* Publisher */}
-                <div className="flex items-center gap-1.5 text-xs font-semibold text-[#1746A2] mb-3">
-                  <Building2 className="w-3.5 h-3.5 shrink-0" />
-                  <span>{book.publisher}</span>
+                {/* Bottom Tag */}
+                <div className="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between text-xs text-slate-500 font-medium">
+                  <span>Giáo trình chính khóa</span>
+                  <span className="text-emerald-600 font-bold">Đã bao gồm trong học phí</span>
                 </div>
-
-                {/* Description */}
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                  {book.desc}
-                </p>
               </div>
-
-              {/* Bottom Tag */}
-              <div className="mt-6 pt-4 border-t border-slate-200/60 flex items-center justify-between text-xs text-slate-500 font-medium">
-                <span>Giáo trình chính khóa</span>
-                <span className="text-emerald-600 font-bold">Đã bao gồm trong học phí</span>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
       </div>

@@ -42,50 +42,50 @@ export default function CourseOpenClasses({ course, onSelectClass, onConsultClic
 
         {/* Classes Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-5xl mx-auto">
-          {displayClasses.map((cls, idx) => {
+          {displayClasses.map((cls) => {
             const spotsRemaining = (cls.totalSpots || 10) - (cls.filledSpots || 0);
             const isNearFull = spotsRemaining <= 3;
 
             return (
               <div 
-                key={idx}
+                key={cls.id || cls.classNameKey}
                 className="bg-[#F8FAFC] rounded-2xl p-6 sm:p-7 border border-[#E2E8F0] shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
                   {/* Top Badges */}
                   <div className="flex items-center justify-between gap-2 mb-4">
                     <span className="px-2.5 py-1 text-xs font-bold bg-[#EAF2FF] text-[#1746A2] rounded-md">
-                      {cls.program} • {cls.level}
+                      {t(cls.programKey)} • {t(cls.levelKey)}
                     </span>
                     <span className={`px-2.5 py-0.5 text-xs font-bold rounded-full ${
                       isNearFull ? 'bg-amber-100 text-amber-800' : 'bg-emerald-100 text-emerald-800'
                     }`}>
-                      {cls.badge || 'Sắp khai giảng'}
+                      {t(cls.badgeKey)}
                     </span>
                   </div>
 
                   {/* Class Name */}
                   <h3 className="text-lg sm:text-xl font-bold text-[#10233F] mb-4">
-                    {cls.className}
+                    {t(cls.classNameKey)}
                   </h3>
 
                   {/* Details */}
                   <div className="space-y-2.5 text-xs sm:text-sm text-slate-600 mb-6">
                     <div className="flex items-center gap-2.5">
                       <Calendar className="w-4 h-4 text-[#2563EB] shrink-0" />
-                      <span><strong>Lịch học:</strong> {cls.schedule}</span>
+                      <span><strong>{t('pages.courseDetail.quickOverview.schedule')}:</strong> {t(cls.scheduleKey)}</span>
                     </div>
                     <div className="flex items-center gap-2.5">
                       <Clock className="w-4 h-4 text-[#2563EB] shrink-0" />
-                      <span><strong>Thời gian:</strong> {cls.time}</span>
+                      <span><strong>{t('pages.courses.durationLabel')}:</strong> {cls.time}</span>
                     </div>
                     <div className="flex items-center gap-2.5">
                       <MapPin className="w-4 h-4 text-[#2563EB] shrink-0" />
-                      <span><strong>Địa điểm:</strong> {cls.format}</span>
+                      <span><strong>{t('pages.courseDetail.quickOverview.format')}:</strong> {t(cls.formatKey)}</span>
                     </div>
                     <div className="flex items-center gap-2.5">
                       <User className="w-4 h-4 text-[#2563EB] shrink-0" />
-                      <span><strong>Giảng viên:</strong> {cls.teacher}</span>
+                      <span><strong>{t('about.instructorLabel')}:</strong> {t(cls.teacherKey)}</span>
                     </div>
                   </div>
                 </div>
@@ -94,7 +94,7 @@ export default function CourseOpenClasses({ course, onSelectClass, onConsultClic
                 <div className="pt-4 border-t border-slate-200/70 flex items-center justify-between gap-4">
                   <div className="flex items-center gap-1.5 text-xs font-semibold text-slate-500">
                     <Users className="w-4 h-4 text-slate-400" />
-                    <span>Còn <strong className={isNearFull ? 'text-amber-600 font-black' : 'text-[#10233F]'}>{spotsRemaining}/{cls.totalSpots}</strong> chỗ</span>
+                    <span><strong className={isNearFull ? 'text-amber-600 font-black' : 'text-[#10233F]'}>{spotsRemaining}/{cls.totalSpots}</strong></span>
                   </div>
 
                   <button
@@ -102,7 +102,7 @@ export default function CourseOpenClasses({ course, onSelectClass, onConsultClic
                     onClick={() => (onSelectClass ? onSelectClass(cls) : onConsultClick())}
                     className="inline-flex items-center gap-1.5 px-4 py-2 bg-[#2563EB] hover:bg-[#1D4ED8] text-white text-xs sm:text-sm font-bold rounded-xl transition-colors cursor-pointer shadow-xs active:scale-98"
                   >
-                    <span>{t('pages.courseDetail.openClasses.enrollBtn', 'Đăng ký lớp này')}</span>
+                    <span>{t('pages.courseDetail.openClasses.enrollBtn')}</span>
                     <ArrowRight className="w-3.5 h-3.5" />
                   </button>
                 </div>

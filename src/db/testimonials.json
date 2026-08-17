@@ -1,54 +1,54 @@
 {
-  "quote": "Kết quả \"nhà trồng\" - Biết ơn các ngoan xinh iu vì đã cố gắng và tin tưởng đồng hành cùng HEH!",
+  "quoteKey": "db.testimonials.quote",
   "fbUrl": "https://www.facebook.com/story.php?story_fbid=122121725222443839&id=61563315172210",
   "highlights": [
     {
       "id": "ielts",
       "value": "8.5",
-      "prefix": "IELTS",
-      "suffix": "",
-      "label": "Điểm IELTS nổi bật",
-      "sub": "Listening 9.0 • Reading 9.0",
-      "badge": "Top 1% Xuất Sắc"
+      "labelKey": "db.testimonials.hl1Label",
+      "subKey": "db.testimonials.hl1Sub",
+      "badgeKey": "db.testimonials.hl1Badge",
+      "prefixKey": "db.testimonials.h1Prefix",
+      "suffixKey": "db.testimonials.h1Suffix"
     },
     {
       "id": "toeic",
       "value": "925",
-      "prefix": "TOEIC",
-      "suffix": "+",
-      "label": "Kết quả TOEIC học viên",
-      "sub": "Chuẩn đầu ra ĐH & Thạc sĩ",
-      "badge": "Band Điểm Cao"
+      "labelKey": "db.testimonials.hl2Label",
+      "subKey": "db.testimonials.hl2Sub",
+      "badgeKey": "db.testimonials.hl2Badge",
+      "prefixKey": "db.testimonials.h2Prefix",
+      "suffixKey": "db.testimonials.h2Suffix"
     },
     {
       "id": "highschool",
       "value": "9.25",
-      "prefix": "Lớp 10",
-      "suffix": "đ",
-      "label": "Tuyển sinh 10 TP.HCM",
-      "sub": "Thủ khoa môn Tiếng Anh",
-      "badge": "Thủ Khoa"
+      "labelKey": "db.testimonials.hl3Label",
+      "subKey": "db.testimonials.hl3Sub",
+      "badgeKey": "db.testimonials.hl3Badge",
+      "prefixKey": "db.testimonials.h3Prefix",
+      "suffixKey": "db.testimonials.h3Suffix"
     },
     {
       "id": "verified",
       "value": "100%",
-      "prefix": "Bằng chứng",
-      "suffix": "",
-      "label": "Bảng điểm thi thật IDP/BC",
-      "sub": "Minh bạch • Không số liệu ảo",
-      "badge": "Học Thật - Điểm Thật"
+      "labelKey": "db.testimonials.hl4Label",
+      "subKey": "db.testimonials.hl4Sub",
+      "badgeKey": "db.testimonials.hl4Badge",
+      "prefixKey": "db.testimonials.h4Prefix",
+      "suffixKey": "db.testimonials.h4Suffix"
     }
   ],
   "beforeAfter": [
     {
       "id": "case-1",
       "studentName": "Trần Minh Hoàng",
-      "examType": "IELTS Academic",
+      "examTypeKey": "db.testimonials.ba1Exam",
       "beforeScore": "5.0",
       "afterScore": "8.0",
-      "gain": "+3.0 BAND",
-      "duration": "8 tháng",
-      "course": "Lộ trình IELTS Tăng Tốc → Master",
+      "gainKey": "db.testimonials.ba1Gain",
+      "durationKey": "db.testimonials.ba1Duration",
+      "courseKey": "db.testimonials.ba1Course",
       "skillsBefore": {
         "listening": "5.0",
         "reading": "5.5",
@@ -61,19 +61,19 @@
         "writing": "7.0",
         "speaking": "7.5"
       },
-      "challenge": "Gặp khó khăn lớn trong việc bắt keyword Reading dài và thiếu ý tưởng mạch lạc cho Writing Task 2.",
-      "solution": "Thầy Harry hướng dẫn kỹ thuật Skimming/Scanning tối ưu, chữa bài 1-1 chi tiết từng đoạn văn và rèn phản xạ Nói theo chủ đề thực tế.",
+      "challengeKey": "db.testimonials.ba1Challenge",
+      "solutionKey": "db.testimonials.ba1Solution",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg"
     },
     {
       "id": "case-2",
       "studentName": "Đinh Lê Hoàng Nghĩa",
-      "examType": "IELTS Academic",
+      "examTypeKey": "db.testimonials.ba2Exam",
       "beforeScore": "4.5",
       "afterScore": "7.0",
-      "gain": "+2.5 BAND",
-      "duration": "6 tháng",
-      "course": "Lớp IELTS Bứt Phá Chuyên Sâu",
+      "gainKey": "db.testimonials.ba2Gain",
+      "durationKey": "db.testimonials.ba2Duration",
+      "courseKey": "db.testimonials.ba2Course",
       "skillsBefore": {
         "listening": "4.5",
         "reading": "5.0",
@@ -86,17 +86,15 @@
         "writing": "6.5",
         "speaking": "6.5"
       },
-      "challenge": "Mất gốc phát âm chuẩn, sợ nói trước đám đông và hay bị nhầm lẫn thì ngữ pháp cơ bản.",
-      "solution": "Chuẩn hóa lại hệ thống ngữ âm IPA, luyện nói tương tác nhóm nhỏ 4 bạn và phân tích bẫy đề thi Cambridge thực chiến.",
+      "challengeKey": "db.testimonials.ba2Challenge",
+      "solutionKey": "db.testimonials.ba2Solution",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg"
     }
   ],
   "featuredStory": {
     "studentName": "Nguyễn Diễm Quỳnh",
-    "score": "8.5 IELTS",
-    "examType": "IELTS Academic Official",
-    "tagline": "Hành trình bứt phá IELTS 8.5 Overall ấn tượng cùng phương pháp học đúng đắn",
-    "badge": "Top 1% Thí Sinh Xuất Sắc",
+    "taglineKey": "db.testimonials.fsTagline",
+    "badgeKey": "db.testimonials.fsBadge",
     "image": "/src/assets/ki-niem/ki-niem-1.jpg",
     "scorecardImage": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
     "skills": {
@@ -109,22 +107,24 @@
       {
         "id": "start",
         "stepNumber": "01",
-        "title": "Điểm xuất phát",
-        "desc": "Từng gặp áp lực lớn khi triển khai ý tưởng bài viết học thuật Task 2 và thiếu tự tin phản xạ tự nhiên trong phòng thi Speaking."
+        "titleKey": "db.testimonials.fsStep1Title",
+        "descKey": "db.testimonials.fsStep1Desc"
       },
       {
         "id": "process",
         "stepNumber": "02",
-        "title": "Phương pháp & Quá trình",
-        "desc": "Được Thầy Harry kèm sát phương pháp phân tích câu đoạn, sửa chi tiết từng bài viết theo 4 tiêu chí chấm thi IDP và rèn tư duy phản biện."
+        "titleKey": "db.testimonials.fsStep2Title",
+        "descKey": "db.testimonials.fsStep2Desc"
       },
       {
         "id": "result",
         "stepNumber": "03",
-        "title": "Kết quả đạt được",
-        "desc": "Bứt phá 8.5 Overall với 2 điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking, mở rộng cánh cửa học bổng quốc tế."
+        "titleKey": "db.testimonials.fsStep3Title",
+        "descKey": "db.testimonials.fsStep3Desc"
       }
-    ]
+    ],
+    "scoreKey": "db.testimonials.storyScore",
+    "examTypeKey": "db.testimonials.storyExamType"
   },
   "results": [
     {
@@ -133,19 +133,19 @@
       "image": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
       "studentName": "Nguyễn Diễm Quỳnh",
       "score": "8.5",
-      "scoreType": "IELTS Academic Overall",
-      "examType": "IELTS Academic",
-      "badge": "Top 1% Xuất Sắc",
-      "target": "Mục tiêu: 7.5+",
+      "badgeKey": "db.testimonials.r1Badge",
+      "targetKey": "db.testimonials.r1Target",
       "skills": {
         "listening": "9.0",
         "reading": "9.0",
         "writing": "8.0",
         "speaking": "8.5"
       },
-      "caption": "Bứt phá xuất sắc IELTS 8.5 Overall (Listening 9.0, Reading 9.0)",
-      "description": "Đạt điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking sau lộ trình rèn luyện chuyên sâu tại HEH.",
-      "isFeatured": true
+      "captionKey": "db.testimonials.r1Caption",
+      "descriptionKey": "db.testimonials.r1Desc",
+      "isFeatured": true,
+      "scoreTypeKey": "db.testimonials.res1ScoreType",
+      "examTypeKey": "db.testimonials.res1ExamType"
     },
     {
       "id": 2,
@@ -153,18 +153,18 @@
       "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg",
       "studentName": "Trần Minh Hoàng",
       "score": "8.0",
-      "scoreType": "IELTS Academic Overall",
-      "examType": "IELTS Academic",
-      "badge": "Band 8.0",
-      "target": "Mục tiêu: 7.0+",
+      "badgeKey": "db.testimonials.r2Badge",
+      "targetKey": "db.testimonials.r2Target",
       "skills": {
         "listening": "8.5",
         "reading": "9.0",
         "writing": "7.0",
         "speaking": "7.5"
       },
-      "caption": "Chinh phục IELTS 8.0 ấn tượng (Reading 9.0, Listening 8.5)",
-      "description": "Nâng band điểm toàn diện với phương pháp làm bài tối ưu và chiến thuật xử lý đề thi thực chiến."
+      "captionKey": "db.testimonials.r2Caption",
+      "descriptionKey": "db.testimonials.r2Desc",
+      "scoreTypeKey": "db.testimonials.res2ScoreType",
+      "examTypeKey": "db.testimonials.res2ExamType"
     },
     {
       "id": 3,
@@ -172,18 +172,18 @@
       "image": "/src/assets/feedback-hoc-vien/ket-qua-4.jpg",
       "studentName": "Nguyễn Hoàng Hiếu",
       "score": "8.0",
-      "scoreType": "IDP IELTS Official",
-      "examType": "IDP IELTS Official",
-      "badge": "IDP Partner",
-      "target": "C1 CEFR Level",
+      "badgeKey": "db.testimonials.r3Badge",
+      "targetKey": "db.testimonials.r3Target",
       "skills": {
         "listening": "8.5",
         "reading": "9.0",
         "writing": "6.5",
         "speaking": "8.0"
       },
-      "caption": "Chứng chỉ IDP IELTS 8.0 C1 CEFR chính thức",
-      "description": "Thầy Harry rất tự hào về hành trình nỗ lực bền bỉ và thành tích 8.0 rực rỡ của Hoàng Hiếu."
+      "captionKey": "db.testimonials.r3Caption",
+      "descriptionKey": "db.testimonials.r3Desc",
+      "scoreTypeKey": "db.testimonials.res3ScoreType",
+      "examTypeKey": "db.testimonials.res3ExamType"
     },
     {
       "id": 4,
@@ -191,18 +191,18 @@
       "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg",
       "studentName": "Đinh Lê Hoàng Nghĩa",
       "score": "7.0",
-      "scoreType": "IELTS Official",
-      "examType": "IELTS Academic",
-      "badge": "1st Attempt",
-      "target": "Mục tiêu: 6.5+",
+      "badgeKey": "db.testimonials.r4Badge",
+      "targetKey": "db.testimonials.r4Target",
       "skills": {
         "listening": "7.5",
         "reading": "7.5",
         "writing": "6.5",
         "speaking": "6.5"
       },
-      "caption": "Đạt IELTS 7.0 ngay trong lần thi đầu tiên",
-      "description": "Vượt mục tiêu đề ra ngay lần thi đầu tiên với sự đồng hành và chấm chữa 1-1 tận tâm từ thầy Harry."
+      "captionKey": "db.testimonials.r4Caption",
+      "descriptionKey": "db.testimonials.r4Desc",
+      "scoreTypeKey": "db.testimonials.res4ScoreType",
+      "examTypeKey": "db.testimonials.res4ExamType"
     },
     {
       "id": 5,
@@ -210,16 +210,16 @@
       "image": "/src/assets/feedback-hoc-vien/ket-qua-3.jpg",
       "studentName": "Thanh Trúc",
       "score": "9.25",
-      "scoreType": "Điểm Tuyển Sinh 10",
-      "examType": "Tuyển Sinh 10 TP.HCM",
-      "badge": "Thủ Khoa",
-      "target": "Thi vào lớp 10",
+      "badgeKey": "db.testimonials.r5Badge",
+      "targetKey": "db.testimonials.r5Target",
       "skills": {
         "english": "9.25",
-        "rank": "Top trường THPT"
+        "rankKey": "db.testimonials.r5Rank"
       },
-      "caption": "Điểm Tiếng Anh 9.25 Tuyển sinh lớp 10 TP.HCM",
-      "description": "Tiếng Anh 'gánh điểm' xuất sắc với 9.25 điểm, tự tin trúng tuyển nguyện vọng 1 trường công lập top đầu."
+      "captionKey": "db.testimonials.r5Caption",
+      "descriptionKey": "db.testimonials.r5Desc",
+      "scoreTypeKey": "db.testimonials.res5ScoreType",
+      "examTypeKey": "db.testimonials.res5ExamType"
     },
     {
       "id": 6,
@@ -227,168 +227,168 @@
       "image": "/src/assets/feedback-hoc-vien/ket-qua-6.jpg",
       "studentName": "Minh Anh",
       "score": "9.0",
-      "scoreType": "Điểm Tuyển Sinh 10",
-      "examType": "Tuyển Sinh 10 TP.HCM",
-      "badge": "Điểm 9.0+",
-      "target": "Thi vào lớp 10",
+      "badgeKey": "db.testimonials.r6Badge",
+      "targetKey": "db.testimonials.r6Target",
       "skills": {
         "english": "9.0",
-        "rank": "Điểm giỏi xuất sắc"
+        "rankKey": "db.testimonials.r6Rank"
       },
-      "caption": "Điểm 9.0 môn Tiếng Anh kỳ thi vào lớp 10",
-      "description": "Nắm chắc nền tảng ngữ pháp và từ vựng mở rộng, bứt phá ấn tượng điểm số 9.0."
+      "captionKey": "db.testimonials.r6Caption",
+      "descriptionKey": "db.testimonials.r6Desc",
+      "scoreTypeKey": "db.testimonials.res6ScoreType",
+      "examTypeKey": "db.testimonials.res6ExamType"
     }
   ],
   "feedbacks": [
     {
       "id": 1,
       "image": "/src/assets/feedback-hoc-vien/feedback-1.jpg",
-      "author": "Hoài Phương & Nhật Tân",
-      "caption": "Thầy rất quan tâm học viên, siêu nhiệt tình, take care kỹ càng từng bài.",
-      "tag": "Đánh giá 5 sao",
-      "course": "Lớp IELTS Intensive"
+      "captionKey": "db.testimonials.fb1Caption",
+      "tagKey": "db.testimonials.fb1Tag",
+      "courseKey": "db.testimonials.fb1Course",
+      "authorKey": "db.testimonials.fb1Author"
     },
     {
       "id": 2,
       "image": "/src/assets/feedback-hoc-vien/feedback-2.jpg",
-      "author": "Vương Ngọc Diệp",
-      "caption": "Giáo viên tận tâm, giảng dạy dễ hiểu và học phí cũng phải chăng.",
-      "tag": "Cảm nhận học viên",
-      "course": "Lớp kèm 1-1"
+      "captionKey": "db.testimonials.fb2Caption",
+      "tagKey": "db.testimonials.fb2Tag",
+      "courseKey": "db.testimonials.fb2Course",
+      "authorKey": "db.testimonials.fb2Author"
     },
     {
       "id": 3,
       "image": "/src/assets/feedback-hoc-vien/feedback-3.jpg",
-      "author": "Phụ huynh & Học viên",
-      "caption": "Tiến bộ vượt bậc sau khóa học, tự tin giao tiếp và làm bài thi.",
-      "tag": "Tiến bộ vượt bậc",
-      "course": "Lớp IELTS Foundation"
+      "captionKey": "db.testimonials.fb3Caption",
+      "tagKey": "db.testimonials.fb3Tag",
+      "courseKey": "db.testimonials.fb3Course",
+      "authorKey": "db.testimonials.fb3Author"
     },
     {
       "id": 4,
       "image": "/src/assets/feedback-hoc-vien/feedback-4.jpg",
-      "author": "Học viên khóa VIP",
-      "caption": "Sự tận tâm của thầy cô HEH giúp em vượt qua áp lực phòng thi.",
-      "tag": "Tận tâm 100%",
-      "course": "Kèm VIP 1:1"
+      "captionKey": "db.testimonials.fb4Caption",
+      "tagKey": "db.testimonials.fb4Tag",
+      "courseKey": "db.testimonials.fb4Course",
+      "authorKey": "db.testimonials.fb4Author"
     },
     {
       "id": 5,
       "image": "/src/assets/feedback-hoc-vien/feedback-5.jpg",
-      "author": "Học viên Giao tiếp",
-      "caption": "Tự tin nói tiếng Anh tự nhiên, phản xạ nhanh và chuẩn phát âm.",
-      "tag": "Tự tin phản xạ",
-      "course": "Tiếng Anh Giao Tiếp"
+      "captionKey": "db.testimonials.fb5Caption",
+      "tagKey": "db.testimonials.fb5Tag",
+      "courseKey": "db.testimonials.fb5Course",
+      "authorKey": "db.testimonials.fb5Author"
     },
     {
       "id": 6,
       "image": "/src/assets/feedback-hoc-vien/feedback-6.jpg",
-      "author": "Học viên Writing-Speaking",
-      "caption": "Cải thiện kỹ năng Writing & Speaking rõ rệt, được sửa chi tiết từng bài.",
-      "tag": "Chữa bài chi tiết",
-      "course": "Luyện thi Chuyên sâu"
+      "captionKey": "db.testimonials.fb6Caption",
+      "tagKey": "db.testimonials.fb6Tag",
+      "courseKey": "db.testimonials.fb6Course",
+      "authorKey": "db.testimonials.fb6Author"
     },
     {
       "id": 7,
       "image": "/src/assets/feedback-hoc-vien/feedback-7.jpg",
-      "author": "Học viên Lớp Kèm",
-      "caption": "Đánh giá chất lượng lớp kèm tuyệt vời, không khí học tập tích cực.",
-      "tag": "Chất lượng cao",
-      "course": "Lớp Nhóm Nhỏ"
+      "captionKey": "db.testimonials.fb7Caption",
+      "tagKey": "db.testimonials.fb7Tag",
+      "courseKey": "db.testimonials.fb7Course",
+      "authorKey": "db.testimonials.fb7Author"
     },
     {
       "id": 8,
       "image": "/src/assets/feedback-hoc-vien/feedback-8.jpg",
-      "author": "Học viên HEH",
-      "caption": "Cảm ơn thầy Khôi và trung tâm đã luôn đồng hành và động viên em.",
-      "tag": "Tri ân thầy cô",
-      "course": "IELTS Master"
+      "captionKey": "db.testimonials.fb8Caption",
+      "tagKey": "db.testimonials.fb8Tag",
+      "courseKey": "db.testimonials.fb8Course",
+      "authorKey": "db.testimonials.fb8Author"
     }
   ],
   "gallery": [
     {
       "id": 1,
-      "title": "Bảng điểm IELTS 8.5 Diễm Quỳnh",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-1.jpg",
-      "tag": "IELTS 8.5",
-      "type": "IELTS Official"
+      "titleKey": "db.testimonials.gal1Title",
+      "tagKey": "db.testimonials.gal1Tag",
+      "typeKey": "db.testimonials.gal1Type"
     },
     {
       "id": 2,
-      "title": "Bảng điểm IELTS 8.0 Minh Hoàng",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-2.jpg",
-      "tag": "IELTS 8.0",
-      "type": "IELTS Official"
+      "titleKey": "db.testimonials.gal2Title",
+      "tagKey": "db.testimonials.gal2Tag",
+      "typeKey": "db.testimonials.gal2Type"
     },
     {
       "id": 3,
-      "title": "Chứng chỉ IDP IELTS 8.0 Hoàng Hiếu",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-4.jpg",
-      "tag": "IDP IELTS",
-      "type": "C1 CEFR"
+      "titleKey": "db.testimonials.gal3Title",
+      "tagKey": "db.testimonials.gal3Tag",
+      "typeKey": "db.testimonials.gal3Type"
     },
     {
       "id": 4,
-      "title": "Bảng điểm IELTS 7.0 Hoàng Nghĩa",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-5.jpg",
-      "tag": "IELTS 7.0",
-      "type": "1st Attempt"
+      "titleKey": "db.testimonials.gal4Title",
+      "tagKey": "db.testimonials.gal4Tag",
+      "typeKey": "db.testimonials.gal4Type"
     },
     {
       "id": 5,
-      "title": "Điểm Tiếng Anh 9.25 Tuyển sinh 10",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-3.jpg",
-      "tag": "Điểm 9.25",
-      "type": "Tuyển sinh 10"
+      "titleKey": "db.testimonials.gal5Title",
+      "tagKey": "db.testimonials.gal5Tag",
+      "typeKey": "db.testimonials.gal5Type"
     },
     {
       "id": 6,
-      "title": "Điểm 9.0 Tuyển sinh 10 Minh Anh",
       "image": "/src/assets/feedback-hoc-vien/ket-qua-6.jpg",
-      "tag": "Điểm 9.0",
-      "type": "Tuyển sinh 10"
+      "titleKey": "db.testimonials.gal6Title",
+      "tagKey": "db.testimonials.gal6Tag",
+      "typeKey": "db.testimonials.gal6Type"
     },
     {
       "id": 7,
-      "title": "Chứng nhận đào tạo chuyên môn",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-1.jpg",
-      "tag": "Chuyên môn",
-      "type": "Giảng dạy"
+      "titleKey": "db.testimonials.gal7Title",
+      "tagKey": "db.testimonials.gal7Tag",
+      "typeKey": "db.testimonials.gal7Type"
     },
     {
       "id": 8,
-      "title": "Chứng nhận tham gia hội thảo sư phạm",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-2.jpg",
-      "tag": "Hội thảo",
-      "type": "Sư phạm"
+      "titleKey": "db.testimonials.gal8Title",
+      "tagKey": "db.testimonials.gal8Tag",
+      "typeKey": "db.testimonials.gal8Type"
     },
     {
       "id": 9,
-      "title": "Chứng chỉ đào tạo quốc tế",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-3.jpg",
-      "tag": "Quốc tế",
-      "type": "Chuyên ngành"
+      "titleKey": "db.testimonials.gal9Title",
+      "tagKey": "db.testimonials.gal9Tag",
+      "typeKey": "db.testimonials.gal9Type"
     },
     {
       "id": 10,
-      "title": "Chứng nhận đối tác học thuật",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-4.jpg",
-      "tag": "Đối tác",
-      "type": "Khảo thí"
+      "titleKey": "db.testimonials.gal10Title",
+      "tagKey": "db.testimonials.gal10Tag",
+      "typeKey": "db.testimonials.gal10Type"
     },
     {
       "id": 11,
-      "title": "Chứng chỉ nghiệp vụ sư phạm",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-5.jpg",
-      "tag": "Sư phạm",
-      "type": "Đại học"
+      "titleKey": "db.testimonials.gal11Title",
+      "tagKey": "db.testimonials.gal11Tag",
+      "typeKey": "db.testimonials.gal11Type"
     },
     {
       "id": 12,
-      "title": "Chứng nhận tập huấn phương pháp",
       "image": "/src/assets/bang-cap-chung-chi/chung-chi-6.jpg",
-      "tag": "Tập huấn",
-      "type": "Phương pháp"
+      "titleKey": "db.testimonials.gal12Title",
+      "tagKey": "db.testimonials.gal12Tag",
+      "typeKey": "db.testimonials.gal12Type"
     }
   ]
 }

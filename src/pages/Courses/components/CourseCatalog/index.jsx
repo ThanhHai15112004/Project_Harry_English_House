@@ -263,7 +263,7 @@ export const CourseCatalog = ({
                     <div className="relative aspect-[16/10] w-full overflow-hidden bg-slate-900">
                       <img
                         src={course.image}
-                        alt={course.title}
+                        alt={t(course.titleKey)}
                         loading="lazy"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
@@ -273,12 +273,12 @@ export const CourseCatalog = ({
                       <div className="absolute bottom-1.5 left-1.5 right-1.5 sm:bottom-2.5 sm:left-2.5 sm:right-2.5 flex items-center justify-between gap-1">
                         <span className="inline-flex items-center gap-1 text-[9px] sm:text-[11px] font-extrabold text-academic-heading bg-white/95 backdrop-blur-xs px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded-md sm:rounded-lg shadow-xs whitespace-nowrap flex-shrink-0">
                           <Sparkles size={10} className="text-cta" />
-                          <span>{course.badge}</span>
+                          <span>{t(course.badgeKey)}</span>
                         </span>
 
                         <span className="inline-flex items-center gap-1 text-[9px] sm:text-[11px] font-medium text-white bg-slate-950/80 backdrop-blur-xs px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded-md sm:rounded-lg shadow-xs whitespace-nowrap flex-shrink-0">
                           <Clock size={10} className="text-sky-300" />
-                          <span>{course.duration}</span>
+                          <span>{t(course.durationKey)}</span>
                         </span>
                       </div>
                     </div>
@@ -287,10 +287,10 @@ export const CourseCatalog = ({
                     <div className="p-2.5 sm:p-4 lg:p-5 flex-1 flex flex-col justify-between space-y-2 sm:space-y-3.5">
                       <div className="space-y-1 sm:space-y-1.5">
                         <h3 className="text-xs sm:text-sm lg:text-base font-extrabold text-academic-heading font-heading group-hover:text-primary transition-colors line-clamp-2 leading-tight min-h-[2rem] sm:min-h-[2.5rem]">
-                          {course.title}
+                          {t(course.titleKey)}
                         </h3>
                         <p className="text-[11px] sm:text-xs text-academic-body line-clamp-2 leading-relaxed hidden sm:block">
-                          {course.target}
+                          {t(course.targetKey)}
                         </p>
                       </div>
 
@@ -299,14 +299,14 @@ export const CourseCatalog = ({
                         <div className="flex items-center gap-1.5 truncate">
                           <Target size={12} className="text-cta flex-shrink-0" />
                           <span className="truncate">
-                            <strong>{t('pages.courses.levelLabel')}</strong> {course.level}
+                            <strong>{t('pages.courses.levelLabel')}</strong> {t(course.levelKey)}
                           </span>
                         </div>
 
                         <div className="hidden sm:flex items-center gap-1.5 truncate">
                           <Users size={12} className="text-cta flex-shrink-0" />
                           <span className="truncate">
-                            <strong>{t('pages.courses.classSizeLabel')}</strong> {course.classSize}
+                            <strong>{t('pages.courses.classSizeLabel')}</strong> {t(course.classSizeKey)}
                           </span>
                         </div>
                       </div>
@@ -316,15 +316,15 @@ export const CourseCatalog = ({
                         <div className="flex items-start gap-1.5 leading-snug">
                           <CheckCircle2 size={12} className="text-emerald-600 flex-shrink-0 mt-0.5" />
                           <span className="line-clamp-1 text-emerald-700 font-semibold">
-                            {course.guarantee}
+                            {t(course.guaranteeKey)}
                           </span>
                         </div>
 
-                        {course.highlights?.slice(0, 2).map((highlight) => (
-                          <div key={`${course.id}-${highlight.slice(0, 15)}`} className="hidden sm:flex items-start gap-1.5 leading-snug">
+                        {(course.highlightsKeys || []).slice(0, 2).map((hKey) => (
+                          <div key={hKey} className="hidden sm:flex items-start gap-1.5 leading-snug">
                             <CheckCircle2 size={12} className="text-cta flex-shrink-0 mt-0.5" />
                             <span className="line-clamp-1 text-slate-700 font-medium">
-                              {highlight}
+                              {t(hKey)}
                             </span>
                           </div>
                         ))}
@@ -333,7 +333,7 @@ export const CourseCatalog = ({
                       {/* Location Format */}
                       <div className="hidden sm:flex items-center gap-1 text-[10px] sm:text-[11px] text-academic-muted pt-1 truncate">
                         <MapPin size={11} className="text-cta flex-shrink-0" />
-                        <span className="truncate">{course.format}</span>
+                        <span className="truncate">{t(course.formatKey)}</span>
                       </div>
 
                       {/* Footer Action Button */}

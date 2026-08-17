@@ -46,14 +46,14 @@ export const AboutHero = ({ founderData }) => {
 
             {/* Description */}
             <p className="text-sm sm:text-base text-academic-body leading-relaxed max-w-xl font-normal">
-              {founderData?.shortBio || t('pages.about.heroDesc')}
+              {t(founderData?.shortBioKey || 'pages.about.heroDesc')}
             </p>
 
             {/* Credentials Badges */}
             <div className="flex flex-wrap items-center gap-3 pt-1">
               <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-academic-soft-white border border-slate-200 text-xs font-bold text-academic-heading shadow-2xs">
                 <Award size={15} className="text-achievement" />
-                <span>{founderData?.ieltsScore ? `IELTS ${founderData.ieltsScore} Official` : t('pages.about.heroIeltsBadge')}</span>
+                <span>{t('pages.about.heroIeltsBadge')}</span>
               </div>
               <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-academic-soft-white border border-slate-200 text-xs font-bold text-academic-heading shadow-2xs">
                 <ShieldCheck size={15} className="text-primary" />

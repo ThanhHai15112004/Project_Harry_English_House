@@ -35,7 +35,7 @@ export const AcademicActivities = () => {
               >
                 <img
                   src={evt.image}
-                  alt={evt.title}
+                  alt={t(evt.titleKey)}
                   loading="lazy"
                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
@@ -46,7 +46,7 @@ export const AcademicActivities = () => {
                     {t('academic.eventBadge')}
                   </span>
                   <h4 className="text-xs sm:text-sm font-bold leading-snug line-clamp-2">
-                    {evt.title}
+                    {t(evt.titleKey)}
                   </h4>
                 </div>
 
@@ -68,7 +68,7 @@ export const AcademicActivities = () => {
                 <div className="w-20 h-16 rounded-xl overflow-hidden bg-academic-surface flex-shrink-0 relative border border-slate-100">
                   <img
                     src={cert.image}
-                    alt={cert.title}
+                    alt={t(cert.titleKey)}
                     loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                   />
@@ -83,7 +83,7 @@ export const AcademicActivities = () => {
                     <span>{t('academic.certBadge')}</span>
                   </div>
                   <h4 className="text-xs font-bold text-academic-heading font-heading line-clamp-2">
-                    {cert.title}
+                    {t(cert.titleKey)}
                   </h4>
                 </div>
               </div>
@@ -116,13 +116,13 @@ export const AcademicActivities = () => {
         <Modal
           isOpen={!!activeItem}
           onClose={() => setActiveItem(null)}
-          title={activeItem?.title || t('academic.badge')}
+          title={activeItem?.titleKey ? t(activeItem.titleKey) : t('academic.badge')}
         >
           {activeItem && (
             <div className="flex items-center justify-center p-2">
               <img
                 src={activeItem.image}
-                alt={activeItem.title}
+                alt={activeItem.titleKey ? t(activeItem.titleKey) : ''}
                 className="max-h-[75vh] w-auto max-w-full object-contain rounded-xl shadow-lg"
               />
             </div>

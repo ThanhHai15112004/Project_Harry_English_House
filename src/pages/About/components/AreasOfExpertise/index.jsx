@@ -28,18 +28,18 @@ export const AreasOfExpertise = ({ expertiseList = [] }) => {
               {/* Top Tag with Number */}
               <div className="flex items-center justify-between">
                 <span className="text-xs font-black uppercase tracking-widest text-cta font-heading bg-academic-light-blue px-3 py-1 rounded-lg">
-                  Lĩnh vực {item.number}
+                  {t('pages.about.expertise.badge')} {item.number}
                 </span>
               </div>
 
               {/* Title */}
               <h3 className="text-lg sm:text-xl font-bold text-academic-heading font-heading leading-snug group-hover:text-primary transition-colors">
-                {item.title}
+                {t(item.titleKey)}
               </h3>
 
               {/* Description */}
               <p className="text-xs sm:text-sm text-academic-body leading-relaxed">
-                {item.desc}
+                {t(item.descKey)}
               </p>
             </div>
           ))}

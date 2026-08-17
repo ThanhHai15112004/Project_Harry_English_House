@@ -23,27 +23,20 @@ export const RealFeedbacksGrid = ({ feedbacks = [], onOpenFeedback }) => {
         {/* Real Screenshots Grid (4 cols on desktop, 2 on tablet, 1 on mobile) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {feedbacks.map((item) => (
-            <div
+            <button
+              type="button"
               key={item.id}
-              role="button"
-              tabIndex={0}
-              className="rounded-3xl bg-white border border-slate-200 shadow-xs hover:border-academic-cta hover:shadow-card-hover hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 overflow-hidden group flex flex-col justify-between cursor-pointer"
-              onClick={() => onOpenFeedback && onOpenFeedback(item)}
-              onKeyDown={(e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                  e.preventDefault();
-                  onOpenFeedback && onOpenFeedback(item);
-                }
-              }}
+              className="rounded-3xl bg-white border border-slate-200 shadow-xs hover:border-academic-cta hover:shadow-card-hover hover:ring-2 hover:ring-academic-cta/20 transition-all duration-300 overflow-hidden group flex flex-col justify-between cursor-pointer text-left focus:outline-hidden focus:ring-2 focus:ring-primary/40"
+              onClick={() => onOpenFeedback?.(item)}
             >
               {/* Top Meta Bar */}
-              <div className="px-3.5 py-2.5 bg-white border-b border-slate-100 flex items-center justify-between gap-2 min-w-0">
+              <div className="px-3.5 py-2.5 bg-white border-b border-slate-100 flex items-center justify-between gap-2 min-w-0 w-full">
                 <span className="text-[11px] font-bold text-academic-heading truncate flex-1 min-w-0 font-heading">
-                  {item.author || 'Học viên HEH'}
+                  {t(item.authorKey)}
                 </span>
                 <span className="inline-flex items-center gap-1 text-[10px] font-bold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200 flex-shrink-0 max-w-[55%] whitespace-nowrap min-w-0">
                   <Star size={11} className="text-amber-500 fill-amber-500 flex-shrink-0" />
-                  <span className="truncate">{item.tag || 'Đánh giá 5 sao'}</span>
+                  <span className="truncate">{t(item.tagKey)}</span>
                 </span>
               </div>
 
@@ -51,7 +44,7 @@ export const RealFeedbacksGrid = ({ feedbacks = [], onOpenFeedback }) => {
               <div className="h-64 sm:h-72 overflow-hidden bg-slate-900/5 p-2 flex items-center justify-center relative group-hover:bg-slate-900/10 transition-colors w-full">
                 <img
                   src={item.image}
-                  alt={item.caption || 'Cảm nhận học viên'}
+                  alt={t(item.captionKey)}
                   className="w-full h-full object-contain rounded-xl drop-shadow-2xs group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
@@ -64,18 +57,18 @@ export const RealFeedbacksGrid = ({ feedbacks = [], onOpenFeedback }) => {
               </div>
 
               {/* Caption & Course Tag */}
-              <div className="p-3.5 text-left bg-white border-t border-slate-100 space-y-1.5 min-w-0">
+              <div className="p-3.5 text-left bg-white border-t border-slate-100 space-y-1.5 min-w-0 w-full">
                 <p className="text-xs font-medium text-slate-700 italic line-clamp-2 leading-relaxed">
-                  "{item.caption}"
+                  "{t(item.captionKey)}"
                 </p>
-                {item.course && (
+                {item.courseKey && (
                   <span className="inline-flex items-center gap-1 text-[10px] text-academic-muted font-semibold truncate max-w-full min-w-0 whitespace-nowrap">
                     <BookOpen size={12} className="text-cta flex-shrink-0" />
-                    <span className="truncate">{item.course}</span>
+                    <span className="truncate">{t(item.courseKey)}</span>
                   </span>
                 )}
               </div>
-            </div>
+            </button>
           ))}
         </div>
 

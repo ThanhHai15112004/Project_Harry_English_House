@@ -21,8 +21,8 @@ export const HehOrigin = ({ originData }) => {
         {/* Section Header */}
         <SectionTitle
           badge={t('pages.about.origin.badge')}
-          title={originData.title || t('pages.about.origin.title')}
-          subtitle={originData.subtitle || t('pages.about.origin.subtitle')}
+          title={t(originData.titleKey || 'pages.about.origin.title')}
+          subtitle={t(originData.subtitleKey || 'pages.about.origin.subtitle')}
         />
 
         {/* 3 Step Evolution Grid */}
@@ -45,16 +45,16 @@ export const HehOrigin = ({ originData }) => {
               {/* Title & Description */}
               <div className="space-y-2 flex-1">
                 <h3 className="text-base sm:text-lg font-bold text-academic-heading font-heading">
-                  {step.title}
+                  {t(step.titleKey)}
                 </h3>
                 <p className="text-xs sm:text-sm text-academic-body leading-relaxed">
-                  {step.desc}
+                  {t(step.descKey)}
                 </p>
               </div>
 
               {/* Bottom Subtle Step Indicator */}
               <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-[11px] font-bold text-academic-muted">
-                <span>Giai đoạn {step.stepNumber}</span>
+                <span>{t('pages.courseDetail.roadmap.stageLabel')} {step.stepNumber}</span>
                 {index < 2 && (
                   <ArrowRight size={14} className="text-slate-300 hidden md:block" />
                 )}

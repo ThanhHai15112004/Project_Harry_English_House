@@ -6,56 +6,56 @@
       "tabKey": "pages.courses.tabIelts",
       "cardSubtitleKey": "pages.courses.programs.ielts.cardSub",
       "cardTagKey": "pages.courses.programs.ielts.cardTag",
-      "badge": "IELTS ACADEMIC",
+      "badgeKey": "db.programs.ielts.badge",
       "titleKey": "pages.courses.programs.ielts.title",
       "taglineKey": "pages.courses.programs.ielts.tagline",
       "descKey": "pages.courses.programs.ielts.desc",
       "facts": {
-        "entry": "0 - 6.0+",
-        "target": "Band 6.5 - 7.5+",
-        "format": "Offline Q7, Q8 / Online",
-        "classSize": "3–6"
+        "entryKey": "db.programs.ielts.entry",
+        "targetKey": "db.programs.ielts.target",
+        "formatKey": "db.programs.ielts.format",
+        "classSizeKey": "db.programs.ielts.classSize"
       },
       "milestones": [
         {
           "num": "01",
-          "band": "0 - 3.0",
           "titleKey": "pages.courses.programs.ielts.m1Title",
           "tagKey": "pages.courses.programs.ielts.m1Tag",
-          "duration": "~40 buổi",
+          "durationKey": "db.programs.ielts.m1Duration",
           "focusKey": "pages.courses.programs.ielts.m1Focus",
           "guaranteeKey": "pages.courses.programs.ielts.m1Guarantee",
-          "courseId": "ielts-0-3"
+          "courseId": "ielts-0-3",
+          "bandKey": "db.programs.ielts.m1Band"
         },
         {
           "num": "02",
-          "band": "3.0 - 4.5",
           "titleKey": "pages.courses.programs.ielts.m2Title",
           "tagKey": "pages.courses.programs.ielts.m2Tag",
-          "duration": "~30 buổi",
+          "durationKey": "db.programs.ielts.m2Duration",
           "focusKey": "pages.courses.programs.ielts.m2Focus",
           "guaranteeKey": "pages.courses.programs.ielts.m2Guarantee",
-          "courseId": "ielts-3-4"
+          "courseId": "ielts-3-4",
+          "bandKey": "db.programs.ielts.m2Band"
         },
         {
           "num": "03",
-          "band": "4.5 - 6.0",
           "titleKey": "pages.courses.programs.ielts.m3Title",
           "tagKey": "pages.courses.programs.ielts.m3Tag",
-          "duration": "~3 tháng",
+          "durationKey": "db.programs.ielts.m3Duration",
           "focusKey": "pages.courses.programs.ielts.m3Focus",
           "guaranteeKey": "pages.courses.programs.ielts.m3Guarantee",
-          "courseId": "ielts-4-5"
+          "courseId": "ielts-4-5",
+          "bandKey": "db.programs.ielts.m3Band"
         },
         {
           "num": "04",
-          "band": "6.0 - 7.5+",
           "titleKey": "pages.courses.programs.ielts.m4Title",
           "tagKey": "pages.courses.programs.ielts.m4Tag",
-          "duration": "3–6 tháng",
+          "durationKey": "db.programs.ielts.m4Duration",
           "focusKey": "pages.courses.programs.ielts.m4Focus",
           "guaranteeKey": "pages.courses.programs.ielts.m4Guarantee",
-          "courseId": "ielts-6-75"
+          "courseId": "ielts-6-75",
+          "bandKey": "db.programs.ielts.m4Band"
         }
       ]
     },
@@ -65,36 +65,36 @@
       "tabKey": "pages.courses.tabIeltsVip",
       "cardSubtitleKey": "pages.courses.programs.ieltsVip.cardSub",
       "cardTagKey": "pages.courses.programs.ieltsVip.cardTag",
-      "badge": "CÁ NHÂN HÓA VIP",
+      "badgeKey": "db.programs.ieltsVip.badge",
       "titleKey": "pages.courses.programs.ieltsVip.title",
       "taglineKey": "pages.courses.programs.ieltsVip.tagline",
       "descKey": "pages.courses.programs.ieltsVip.desc",
       "facts": {
-        "entry": "Mọi trình độ",
-        "target": "+1.0 - 1.5 Band",
-        "format": "Online / Trực tiếp",
-        "classSize": "1:1 hoặc 1:2"
+        "entryKey": "db.programs.ieltsVip.entry",
+        "targetKey": "db.programs.ieltsVip.target",
+        "formatKey": "db.programs.ieltsVip.format",
+        "classSizeKey": "db.programs.ieltsVip.classSize"
       },
       "milestones": [
         {
           "num": "01",
-          "band": "VIP 1:2",
           "titleKey": "pages.courses.programs.ieltsVip.m1Title",
           "tagKey": "pages.courses.programs.ieltsVip.m1Tag",
-          "duration": "Theo chặng",
+          "durationKey": "db.programs.ieltsVip.m1Duration",
           "focusKey": "pages.courses.programs.ieltsVip.m1Focus",
           "guaranteeKey": "pages.courses.programs.ieltsVip.m1Guarantee",
-          "courseId": "ielts-vip-1-2"
+          "courseId": "ielts-vip-1-2",
+          "bandKey": "db.programs.ieltsVip.m1Band"
         },
         {
           "num": "02",
-          "band": "VIP 1:1",
           "titleKey": "pages.courses.programs.ieltsVip.m2Title",
           "tagKey": "pages.courses.programs.ieltsVip.m2Tag",
-          "duration": "Chủ động",
+          "durationKey": "db.programs.ieltsVip.m2Duration",
           "focusKey": "pages.courses.programs.ieltsVip.m2Focus",
           "guaranteeKey": "pages.courses.programs.ieltsVip.m2Guarantee",
-          "courseId": "ielts-vip-1-1"
+          "courseId": "ielts-vip-1-1",
+          "bandKey": "db.programs.ieltsVip.m2Band"
         }
       ]
     },
@@ -104,36 +104,36 @@
       "tabKey": "pages.courses.tabComm",
       "cardSubtitleKey": "pages.courses.programs.comm.cardSub",
       "cardTagKey": "pages.courses.programs.comm.cardTag",
-      "badge": "GIAO TIẾP ỨNG DỤNG",
+      "badgeKey": "db.programs.comm.badge",
       "titleKey": "pages.courses.programs.comm.title",
       "taglineKey": "pages.courses.programs.comm.tagline",
       "descKey": "pages.courses.programs.comm.desc",
       "facts": {
-        "entry": "Mất gốc / Ngại nói",
-        "target": "Phản xạ tự nhiên",
-        "format": "Offline Q7, Q10 / Online",
-        "classSize": "2–5 bạn"
+        "entryKey": "db.programs.comm.entry",
+        "targetKey": "db.programs.comm.target",
+        "formatKey": "db.programs.comm.format",
+        "classSizeKey": "db.programs.comm.classSize"
       },
       "milestones": [
         {
           "num": "01",
-          "band": "Căn Bản",
           "titleKey": "pages.courses.programs.comm.m1Title",
           "tagKey": "pages.courses.programs.comm.m1Tag",
-          "duration": "3 tháng",
+          "durationKey": "db.programs.comm.m1Duration",
           "focusKey": "pages.courses.programs.comm.m1Focus",
           "guaranteeKey": "pages.courses.programs.comm.m1Guarantee",
-          "courseId": "comm-basic"
+          "courseId": "comm-basic",
+          "bandKey": "db.programs.comm.m1Band"
         },
         {
           "num": "02",
-          "band": "Nâng Cao",
           "titleKey": "pages.courses.programs.comm.m2Title",
           "tagKey": "pages.courses.programs.comm.m2Tag",
-          "duration": "6 tháng",
+          "durationKey": "db.programs.comm.m2Duration",
           "focusKey": "pages.courses.programs.comm.m2Focus",
           "guaranteeKey": "pages.courses.programs.comm.m2Guarantee",
-          "courseId": "comm-applied"
+          "courseId": "comm-applied",
+          "bandKey": "db.programs.comm.m2Band"
         }
       ]
     },
@@ -143,51 +143,79 @@
       "tabKey": "pages.courses.tabToeicVstep",
       "cardSubtitleKey": "pages.courses.programs.toeic.cardSub",
       "cardTagKey": "pages.courses.programs.toeic.cardTag",
-      "badge": "CHUẨN ĐẦU RA ĐẠI HỌC",
+      "badgeKey": "db.programs.toeic.badge",
       "titleKey": "pages.courses.programs.toeic.title",
       "taglineKey": "pages.courses.programs.toeic.tagline",
       "descKey": "pages.courses.programs.toeic.desc",
       "facts": {
-        "entry": "Cơ bản / Cần bằng",
-        "target": "TOEIC 650+ / VSTEP B2",
-        "format": "Offline Q1, Q7, Q8 / Online",
-        "classSize": "5 bạn"
+        "entryKey": "db.programs.toeic.entry",
+        "targetKey": "db.programs.toeic.target",
+        "formatKey": "db.programs.toeic.format",
+        "classSizeKey": "db.programs.toeic.classSize"
       },
       "milestones": [
         {
           "num": "01",
-          "band": "TOEIC 650+",
           "titleKey": "pages.courses.programs.toeic.m1Title",
           "tagKey": "pages.courses.programs.toeic.m1Tag",
-          "duration": "~2.5 tháng",
+          "durationKey": "db.programs.toeic.m1Duration",
           "focusKey": "pages.courses.programs.toeic.m1Focus",
           "guaranteeKey": "pages.courses.programs.toeic.m1Guarantee",
-          "courseId": "toeic-vstep"
+          "courseId": "toeic-vstep",
+          "bandKey": "db.programs.toeic.m1Band"
         },
         {
           "num": "02",
-          "band": "VSTEP B2-C1",
           "titleKey": "pages.courses.programs.toeic.m2Title",
           "tagKey": "pages.courses.programs.toeic.m2Tag",
-          "duration": "~2.5 tháng",
+          "durationKey": "db.programs.toeic.m2Duration",
           "focusKey": "pages.courses.programs.toeic.m2Focus",
           "guaranteeKey": "pages.courses.programs.toeic.m2Guarantee",
-          "courseId": "toeic-vstep"
+          "courseId": "toeic-vstep",
+          "bandKey": "db.programs.toeic.m2Band"
         }
       ]
     }
   },
   "finder": {
     "goals": [
-      { "id": "ielts", "labelKey": "pages.courses.finder.goalIelts", "descKey": "pages.courses.finder.goalIeltsDesc" },
-      { "id": "vip", "labelKey": "pages.courses.finder.goalVip", "descKey": "pages.courses.finder.goalVipDesc" },
-      { "id": "comm", "labelKey": "pages.courses.finder.goalComm", "descKey": "pages.courses.finder.goalCommDesc" },
-      { "id": "toeic", "labelKey": "pages.courses.finder.goalToeic", "descKey": "pages.courses.finder.goalToeicDesc" }
+      {
+        "id": "ielts",
+        "labelKey": "pages.courses.finder.goalIelts",
+        "descKey": "pages.courses.finder.goalIeltsDesc"
+      },
+      {
+        "id": "vip",
+        "labelKey": "pages.courses.finder.goalVip",
+        "descKey": "pages.courses.finder.goalVipDesc"
+      },
+      {
+        "id": "comm",
+        "labelKey": "pages.courses.finder.goalComm",
+        "descKey": "pages.courses.finder.goalCommDesc"
+      },
+      {
+        "id": "toeic",
+        "labelKey": "pages.courses.finder.goalToeic",
+        "descKey": "pages.courses.finder.goalToeicDesc"
+      }
     ],
     "levels": [
-      { "id": "lost", "labelKey": "pages.courses.finder.levelLost", "descKey": "pages.courses.finder.levelLostDesc" },
-      { "id": "basic", "labelKey": "pages.courses.finder.levelBasic", "descKey": "pages.courses.finder.levelBasicDesc" },
-      { "id": "advanced", "labelKey": "pages.courses.finder.levelAdvanced", "descKey": "pages.courses.finder.levelAdvancedDesc" }
+      {
+        "id": "lost",
+        "labelKey": "pages.courses.finder.levelLost",
+        "descKey": "pages.courses.finder.levelLostDesc"
+      },
+      {
+        "id": "basic",
+        "labelKey": "pages.courses.finder.levelBasic",
+        "descKey": "pages.courses.finder.levelBasicDesc"
+      },
+      {
+        "id": "advanced",
+        "labelKey": "pages.courses.finder.levelAdvanced",
+        "descKey": "pages.courses.finder.levelAdvancedDesc"
+      }
     ]
   }
 }
