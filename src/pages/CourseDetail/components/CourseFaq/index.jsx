@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, CheckCircle2 } from 'lucide-react';
 
 export default function CourseFaq({ course }) {
   const { t } = useTranslation();
@@ -31,21 +31,46 @@ export default function CourseFaq({ course }) {
     }
   ];
 
-  const faqs = (course.faqs && course.faqs.length > 0) ? course.faqs : defaultFaqs;
+  const getSafeString = (key, directVal, fallback) => {
+    if (key) {
+      const translated = t(key);
+      if (translated && !translated.startsWith('db.courses.') && translated !== key) {
+        return translated;
+      }
+    }
+    if (directVal && !directVal.startsWith('db.courses.')) {
+      const transDirect = t(directVal);
+      if (transDirect && !transDirect.startsWith('db.courses.') && transDirect !== directVal) {
+        return transDirect;
+      }
+      return directVal;
+    }
+    return fallback;
+  };
+
+  const rawList = (course.faqs && course.faqs.length > 0) ? course.faqs : defaultFaqs;
+
+  const faqs = rawList.map((faq, idx) => {
+    const fallbackItem = defaultFaqs[idx] || defaultFaqs[0];
+    return {
+      q: getSafeString(faq.qKey, faq.q, fallbackItem.q),
+      a: getSafeString(faq.aKey, faq.a, fallbackItem.a)
+    };
+  });
 
   return (
-    <section className="bg-white py-16 sm:py-20 border-b border-[#E2E8F0]" id="course-faq">
+    <section className="bg-white py-16 sm:py-20 border-b border-academic-border" id="course-faq">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase bg-[#EAF2FF] text-[#1746A2] mb-3">
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase bg-academic-light-blue text-primary mb-3 shadow-2xs font-heading">
             {t('pages.courseDetail.faq.badge', 'FAQ KHÓA HỌC')}
           </span>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#10233F] tracking-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-academic-heading tracking-tight font-heading">
             {t('pages.courseDetail.faq.title', 'Giải Đáp Thắc Mắc Về Khóa Học')}
           </h2>
-          <p className="mt-3 text-sm sm:text-base text-slate-600">
+          <p className="mt-3 text-sm sm:text-base text-academic-body leading-relaxed">
             {t('pages.courseDetail.faq.subtitle', 'Những câu hỏi học viên thường quan tâm nhất trước khi đăng ký khóa học này')}
           </p>
         </div>
@@ -56,9 +81,9 @@ export default function CourseFaq({ course }) {
             const isOpen = openIndex === idx;
             return (
               <div 
-                key={faq.qKey || faq.q}
+                key={faq.q || `faq-item-${idx}`}
                 className={`border rounded-2xl transition-all duration-200 overflow-hidden ${
-                  isOpen ? 'border-[#2563EB]/40 bg-[#F8FAFC] shadow-xs' : 'border-[#E2E8F0] bg-white hover:border-slate-300'
+                  isOpen ? 'border-cta/40 bg-academic-soft-white shadow-xs' : 'border-academic-border bg-white hover:border-slate-300'
                 }`}
               >
                 <button
@@ -67,24 +92,30 @@ export default function CourseFaq({ course }) {
                   className="w-full px-6 py-5 text-left flex items-center justify-between gap-4 cursor-pointer"
                   aria-expanded={isOpen}
                 >
-                  <span className="text-sm sm:text-base font-bold text-[#10233F]">
-                    {t(faq.qKey || faq.q)}
+                  <span className="text-sm sm:text-base font-bold text-academic-heading font-heading">
+                    {faq.q}
                   </span>
                   <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 transition-transform duration-200 ${
-                    isOpen ? 'bg-[#EAF2FF] text-[#2563EB] rotate-180' : 'bg-slate-100 text-slate-500'
+                    isOpen ? 'bg-academic-light-blue text-cta rotate-180' : 'bg-slate-100 text-slate-500'
                   }`}>
                     <ChevronDown className="w-4 h-4" />
                   </div>
                 </button>
 
                 {isOpen && (
-                  <div className="px-6 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-200/50 pt-4">
-                    {t(faq.aKey || faq.a)}
+                  <div className="px-6 pb-5 text-xs sm:text-sm text-academic-body leading-relaxed border-t border-academic-border/60 pt-4">
+                    {faq.a}
                   </div>
                 )}
               </div>
             );
           })}
+        </div>
+
+        {/* Additional support note */}
+        <div className="mt-8 text-center bg-academic-soft-white p-4 rounded-xl border border-academic-border text-xs text-academic-muted flex items-center justify-center gap-2">
+          <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+          <span>Bạn vẫn còn câu hỏi khác? Đội ngũ Harry English House luôn sẵn sàng giải đáp 24/7.</span>
         </div>
 
       </div>

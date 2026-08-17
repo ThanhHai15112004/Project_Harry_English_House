@@ -84,7 +84,9 @@
     "pillar3Desc": "Detailed grading and personal coaching on Writing & Speaking submissions.",
     "tag1": "IDP IELTS Aligned",
     "tag2": "100% 8.0+ Instructors",
-    "tag3": "Unlimited Feedback"
+    "tag3": "Unlimited Feedback",
+    "instructorLabel": "Head Instructor",
+    "idpPartner": "IDP IELTS Strategic Partner"
   },
   "programs": {
     "badge": "ACADEMIC PROGRAMS",
@@ -101,6 +103,7 @@
     "classSizeLabel": "Cohort:",
     "classSizeVal": "6–10 students",
     "guarantee": "1-on-1 Feedback & Guarantee",
+    "guaranteeLabel": "Outcome Commitment & 1-on-1 Mentorship",
     "viewRoadmapBtn": "View Detailed Roadmap",
     "writtenGuarantee": "Written score commitment & IDP test voucher support",
     "consultBtn": "Consult Course",

@@ -36,9 +36,13 @@ export const CourseDetailPage = () => {
   const [phoneError, setPhoneError] = useState('');
 
   // Dynamic SEO Title
+  let courseTitle = '';
+  if (course) {
+    courseTitle = course.titleKey ? t(course.titleKey) : (course.title || '');
+  }
   useDocumentTitle(
     'courseDetail',
-    course ? `${course.title} | ${APP_INFO.BRAND_NAME}` : undefined
+    courseTitle ? `${courseTitle} | ${APP_INFO.BRAND_NAME}` : undefined
   );
 
   // Smooth scroll helper
@@ -200,7 +204,7 @@ export const CourseDetailPage = () => {
                   Đăng Ký Tư Vấn Khóa Học
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 mb-6">
-                  {course.title}
+                  {courseTitle}
                 </p>
 
                 <form onSubmit={handleFormSubmit} className="space-y-4">

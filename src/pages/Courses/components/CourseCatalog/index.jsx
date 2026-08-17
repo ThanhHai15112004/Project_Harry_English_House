@@ -77,11 +77,11 @@ export const CourseCatalog = ({
       // 3. Search query filter
       if (searchTerm.trim()) {
         const term = searchTerm.toLowerCase();
-        const matchTitle = course.title?.toLowerCase().includes(term);
-        const matchTarget = course.target?.toLowerCase().includes(term);
-        const matchLevel = course.level?.toLowerCase().includes(term);
-        const matchBadge = course.badge?.toLowerCase().includes(term);
-        if (!matchTitle && !matchTarget && !matchLevel && !matchBadge) {
+        const courseTitle = (course.titleKey ? t(course.titleKey) : (course.title || '')).toLowerCase();
+        const courseTarget = (course.targetKey ? t(course.targetKey) : (course.target || '')).toLowerCase();
+        const courseLevel = (course.levelKey ? t(course.levelKey) : (course.level || '')).toLowerCase();
+        const courseBadge = (course.badgeKey ? t(course.badgeKey) : (course.badge || '')).toLowerCase();
+        if (!courseTitle.includes(term) && !courseTarget.includes(term) && !courseLevel.includes(term) && !courseBadge.includes(term)) {
           return false;
         }
       }

@@ -84,7 +84,9 @@
     "pillar3Desc": "Giảng viên trực tiếp chấm chữa chi tiết từng bài Writing & Speaking.",
     "tag1": "Chuẩn hóa IDP IELTS",
     "tag2": "100% Giảng viên 8.0+",
-    "tag3": "Chữa bài không giới hạn"
+    "tag3": "Chữa bài không giới hạn",
+    "instructorLabel": "Giảng viên phụ trách",
+    "idpPartner": "Đối tác chiến lược IDP IELTS"
   },
   "programs": {
     "badge": "CHƯƠNG TRÌNH ĐÀO TẠO",
@@ -101,6 +103,7 @@
     "classSizeLabel": "Sĩ số:",
     "classSizeVal": "6–10 bạn",
     "guarantee": "Chữa bài 1-1 & Cam kết đầu ra",
+    "guaranteeLabel": "Cam kết chuẩn đầu ra & Theo sát 1-1",
     "viewRoadmapBtn": "Xem lộ trình chi tiết",
     "writtenGuarantee": "Cam kết đầu ra bằng văn bản & Hỗ trợ voucher thi IDP",
     "consultBtn": "Tư vấn khóa học",
@@ -1257,93 +1260,105 @@
           "Cam kết lấy lại căn bản và không hoảng sợ tiếng Anh"
         ],
         "targetAudience": {
-          "whoForKey": "db.courses.ielts_0_3.targetAudience.whoFor",
-          "inputRequirementKey": "db.courses.ielts_0_3.targetAudience.inputRequirement",
-          "outputTargetKey": "db.courses.ielts_0_3.targetAudience.outputTarget"
+          "whoFor": "Người mất gốc tiếng Anh hoặc đã lâu không sử dụng, muốn bắt đầu học lại từ số 0 để xây nền tảng học IELTS.",
+          "inputRequirement": "Mất gốc hoặc biết rất ít từ vựng/ngữ pháp (Band 0.0 - 2.5), phát âm chưa chuẩn IPA.",
+          "outputTarget": "Lấy lại căn bản vững chắc, làm chủ 1000 từ vựng cốt lõi & ngữ pháp câu chuẩn, sẵn sàng luyện thi IELTS 3.5+."
         },
         "skillsContent": {
           "reading": [
-            "db.courses.ielts_0_3.skillsContent.reading.0",
-            "db.courses.ielts_0_3.skillsContent.reading.1",
-            "db.courses.ielts_0_3.skillsContent.reading.2"
+            "Rèn thói quen đọc hiểu văn bản ngắn, không dịch từng từ",
+            "Nắm vững 1.000 từ vựng đời sống và học thuật cơ bản cốt lõi",
+            "Xác định chủ ngữ, vị ngữ và liên từ trong câu ghép phức"
           ],
           "listening": [
-            "db.courses.ielts_0_3.skillsContent.listening.0",
-            "db.courses.ielts_0_3.skillsContent.listening.1",
-            "db.courses.ielts_0_3.skillsContent.listening.2"
+            "Luyện tai nhận diện ngữ điệu, nối âm và trọng âm từ cơ bản",
+            "Làm chủ câu hỏi Section 1: số đếm, ngày tháng và tên riêng",
+            "Rèn phản xạ nghe hiểu hội thoại đời sống thường nhật"
           ],
           "writing": [
-            "db.courses.ielts_0_3.skillsContent.writing.0",
-            "db.courses.ielts_0_3.skillsContent.writing.1",
-            "db.courses.ielts_0_3.skillsContent.writing.2"
+            "Chuẩn hóa 12 thì cơ bản, cấu trúc câu đơn, câu ghép và câu phức",
+            "Viết đoạn văn ngắn 50–80 từ đúng cấu trúc ngữ pháp",
+            "Xóa bỏ hoàn toàn lỗi dịch từng từ (word-by-word) từ tiếng Việt"
           ],
           "speaking": [
-            "db.courses.ielts_0_3.skillsContent.speaking.0",
-            "db.courses.ielts_0_3.skillsContent.speaking.1",
-            "db.courses.ielts_0_3.skillsContent.speaking.2"
+            "Làm chủ 44 âm trong bảng phiên âm quốc tế IPA",
+            "Chuẩn hóa âm đuôi (ending sounds) và nối âm tự nhiên",
+            "Tự tin trả lời các chủ đề quen thuộc (Bản thân, Gia đình, Sở thích)"
           ]
         },
         "roadmap": [
           {
-            "stageKey": "db.courses.ielts_0_3.roadmap.0.stage",
-            "titleKey": "db.courses.ielts_0_3.roadmap.0.title",
-            "durationKey": "db.courses.ielts_0_3.roadmap.0.duration",
-            "descKey": "db.courses.ielts_0_3.roadmap.0.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 01",
+            "title": "Chuẩn Hóa Phát Âm & Từ Vựng Cốt Lõi",
+            "duration": "Tuần 1–4",
+            "desc": "Xóa bỏ rào cản ngại nói, chỉnh từng âm IPA và xây chắc 500 từ vựng nền tảng.",
+            "focus": [
+              "44 Âm IPA",
+              "12 Thì cơ bản",
+              "Từ vựng đời sống"
+            ]
           },
           {
-            "stageKey": "db.courses.ielts_0_3.roadmap.1.stage",
-            "titleKey": "db.courses.ielts_0_3.roadmap.1.title",
-            "durationKey": "db.courses.ielts_0_3.roadmap.1.duration",
-            "descKey": "db.courses.ielts_0_3.roadmap.1.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 02",
+            "title": "Ngữ Pháp Câu Phức & Nghe Đọc Nền Tảng",
+            "duration": "Tuần 5–8",
+            "desc": "Làm chủ cấu trúc câu phức, đọc hiểu đoạn văn ngắn và nghe Section 1 cơ bản.",
+            "focus": [
+              "Câu ghép & câu phức",
+              "Nghe Section 1",
+              "Đọc hiểu căn bản"
+            ]
           },
           {
-            "stageKey": "db.courses.ielts_0_3.roadmap.2.stage",
-            "titleKey": "db.courses.ielts_0_3.roadmap.2.title",
-            "durationKey": "db.courses.ielts_0_3.roadmap.2.duration",
-            "descKey": "db.courses.ielts_0_3.roadmap.2.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 03",
+            "title": "Làm Quen Dạng Bài Thi IELTS",
+            "duration": "Tuần 9–12",
+            "desc": "Tiếp cận dạng bài thi IELTS tiêu chuẩn, viết đoạn văn ngắn có cấu trúc và Speaking Part 1.",
+            "focus": [
+              "Format đề IELTS",
+              "Speaking Part 1",
+              "Viết đoạn chuẩn ngữ pháp"
+            ]
           }
         ],
         "books": [
           {
-            "nameKey": "db.courses.ielts_0_3.books.0.name",
-            "publisherKey": "db.courses.ielts_0_3.books.0.publisher",
-            "phaseKey": "db.courses.ielts_0_3.books.0.phase",
-            "descKey": "db.courses.ielts_0_3.books.0.desc"
+            "name": "English Grammar in Use (Basic)",
+            "publisher": "Cambridge University Press",
+            "phase": "Xuyên suốt khóa học",
+            "desc": "Giáo trình ngữ pháp chuẩn quốc tế với giải thích dễ hiểu và bài tập thực hành sát thực tế."
           },
           {
-            "nameKey": "db.courses.ielts_0_3.books.1.name",
-            "publisherKey": "db.courses.ielts_0_3.books.1.publisher",
-            "phaseKey": "db.courses.ielts_0_3.books.1.phase",
-            "descKey": "db.courses.ielts_0_3.books.1.desc"
+            "name": "Ship or Sheep? Pronunciation Course",
+            "publisher": "Cambridge University Press",
+            "phase": "Giai đoạn 1 & 2",
+            "desc": "Cẩm nang phát âm chuyên sâu giúp phân biệt chính xác các cặp âm dễ nhầm lẫn."
           },
           {
-            "nameKey": "db.courses.ielts_0_3.books.2.name",
-            "publisherKey": "db.courses.ielts_0_3.books.2.publisher",
-            "phaseKey": "db.courses.ielts_0_3.books.2.phase",
-            "descKey": "db.courses.ielts_0_3.books.2.desc"
+            "name": "Get Ready for IELTS (Reading & Listening)",
+            "publisher": "Collins Cobuild",
+            "phase": "Giai đoạn 3",
+            "desc": "Bộ sách làm quen IELTS với hệ thống bài tập nhập môn nhẹ nhàng dành cho người mới bắt đầu."
           }
         ],
         "pricingInfo": {
-          "tuitionFeeKey": "db.courses.ielts_0_3.pricingInfo.tuitionFee",
-          "perMonthKey": "db.courses.ielts_0_3.pricingInfo.perMonth",
-          "totalSessionsKey": "db.courses.ielts_0_3.pricingInfo.totalSessions",
+          "tuitionFee": "Học phí trọn gói ưu đãi",
+          "perMonth": "Hỗ trợ chia kỳ linh hoạt",
+          "totalSessions": "30 buổi học chuyên sâu",
           "includesKeys": []
         },
         "faqs": [
           {
-            "qKey": "db.courses.ielts_0_3.faqs.0.q",
-            "aKey": "db.courses.ielts_0_3.faqs.0.a"
+            "q": "Tôi hoàn toàn mất gốc tiếng Anh thì có theo kịp không?",
+            "a": "Hoàn toàn theo kịp! Khóa học được thiết kế đặc biệt cho người mất gốc từ số 0. Thầy Harry sẽ hướng dẫn chi tiết từng âm IPA, ngữ pháp nền tảng và kèm cặp sát sao từng buổi."
           },
           {
-            "qKey": "db.courses.ielts_0_3.faqs.1.q",
-            "aKey": "db.courses.ielts_0_3.faqs.1.a"
+            "q": "Trung tâm có tổ chức học thử hoặc kiểm tra đầu vào không?",
+            "a": "Bạn sẽ được làm bài kiểm tra đánh giá năng lực 4 kỹ năng miễn phí và được Thầy Harry tư vấn lộ trình học tập 1-1 trước khi quyết định đăng ký."
           },
           {
-            "qKey": "db.courses.ielts_0_3.faqs.2.q",
-            "aKey": "db.courses.ielts_0_3.faqs.2.a"
+            "q": "Sĩ số lớp tối đa là bao nhiêu bạn?",
+            "a": "Sĩ số lớp được giới hạn chỉ từ 3–6 bạn để đảm bảo giảng viên có thể chỉnh sửa phát âm và chấm bài trực tiếp cho từng bạn trong mỗi buổi học."
           }
         ]
       },
@@ -1365,83 +1380,95 @@
           "Rèn kỹ năng Skimming/Scanning và viết câu đoạn ngắn chuẩn"
         ],
         "targetAudience": {
-          "whoForKey": "db.courses.ielts_3_4.targetAudience.whoFor",
-          "inputRequirementKey": "db.courses.ielts_3_4.targetAudience.inputRequirement",
-          "outputTargetKey": "db.courses.ielts_3_4.targetAudience.outputTarget"
+          "whoFor": "Học viên đã có nền tảng tiếng Anh cơ bản, cần làm quen toàn diện với cấu trúc và dạng bài thi IELTS 4 kỹ năng.",
+          "inputRequirement": "Trình độ Cơ bản (Band 3.0 - 4.0), ngữ pháp câu đơn cơ bản, phát âm tương đối.",
+          "outputTarget": "Đạt Band 4.0 - 4.5+, nắm chắc format 4 kỹ năng, không hoảng đề, viết câu đoạn ngắn chuẩn xác."
         },
         "skillsContent": {
           "reading": [
-            "db.courses.ielts_3_4.skillsContent.reading.0",
-            "db.courses.ielts_3_4.skillsContent.reading.1",
-            "db.courses.ielts_3_4.skillsContent.reading.2"
+            "Rèn kỹ thuật Skimming (nắm ý chính) và Scanning (tìm chi tiết nhanh)",
+            "Phương pháp xử lý dạng bài True/False/Not Given cơ bản",
+            "Mở rộng vốn từ vựng học thuật theo các chủ đề IELTS quen thuộc"
           ],
           "listening": [
-            "db.courses.ielts_3_4.skillsContent.listening.0",
-            "db.courses.ielts_3_4.skillsContent.listening.1",
-            "db.courses.ielts_3_4.skillsContent.listening.2"
+            "Chiến thuật nghe Section 1 & Section 2 (Đoạn độc thoại & Hội thoại)",
+            "Kỹ thuật xử lý bẫy thông tin và từ gây nhiễu trong bài nghe",
+            "Nâng cao độ chính xác khi nghe chính tả tên riêng và con số"
           ],
           "writing": [
-            "db.courses.ielts_3_4.skillsContent.writing.0",
-            "db.courses.ielts_3_4.skillsContent.writing.1",
-            "db.courses.ielts_3_4.skillsContent.writing.2"
+            "Viết phần Mở bài (Introduction) và Tổng quan (Overview) chuẩn cho Task 1",
+            "Phân tích các dạng biểu đồ cơ bản: Đường, Cột, Tròn (Line, Bar, Pie)",
+            "Xây dựng đoạn thân bài Task 2 theo cấu trúc lập luận mạch lạc"
           ],
           "speaking": [
-            "db.courses.ielts_3_4.skillsContent.speaking.0",
-            "db.courses.ielts_3_4.skillsContent.speaking.1",
-            "db.courses.ielts_3_4.skillsContent.speaking.2"
+            "Mở rộng câu trả lời Speaking Part 1 theo mô hình AREA",
+            "Chuẩn hóa trọng âm câu, ngữ điệu và phản xạ từ vựng",
+            "Thực hành phản xạ đối thoại theo cặp trong lớp nhóm nhỏ"
           ]
         },
         "roadmap": [
           {
-            "stageKey": "db.courses.ielts_3_4.roadmap.0.stage",
-            "titleKey": "db.courses.ielts_3_4.roadmap.0.title",
-            "durationKey": "db.courses.ielts_3_4.roadmap.0.duration",
-            "descKey": "db.courses.ielts_3_4.roadmap.0.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 01",
+            "title": "Nắm Vững Dạng Bài & Kỹ Thuật Skimming/Scanning",
+            "duration": "Tuần 1–3",
+            "desc": "Làm quen với format 4 kỹ năng Listening & Reading, phân tích cấu trúc tổng quan Task 1.",
+            "focus": [
+              "Kỹ thuật Skimming/Scanning",
+              "Nghe Section 1-2",
+              "Task 1 Overview"
+            ]
           },
           {
-            "stageKey": "db.courses.ielts_3_4.roadmap.1.stage",
-            "titleKey": "db.courses.ielts_3_4.roadmap.1.title",
-            "durationKey": "db.courses.ielts_3_4.roadmap.1.duration",
-            "descKey": "db.courses.ielts_3_4.roadmap.1.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 02",
+            "title": "Phát Triển Luận Điểm Writing & Phản Xạ Speaking",
+            "duration": "Tuần 4–7",
+            "desc": "Xây dựng khung ý tưởng Task 2 và trả lời lưu loát các chủ đề Part 1 & Part 2.",
+            "focus": [
+              "Thân bài Writing Task 2",
+              "Speaking Part 1-2",
+              "Từ vựng Band B1"
+            ]
           },
           {
-            "stageKey": "db.courses.ielts_3_4.roadmap.2.stage",
-            "titleKey": "db.courses.ielts_3_4.roadmap.2.title",
-            "durationKey": "db.courses.ielts_3_4.roadmap.2.duration",
-            "descKey": "db.courses.ielts_3_4.roadmap.2.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 03",
+            "title": "Tổng Hợp Kỹ Năng & Thi Thử Giữa Khóa",
+            "duration": "Tuần 8–10",
+            "desc": "Giải đề bấm giờ thực tế và được thầy Harry chấm chữa chi tiết từng bài viết.",
+            "focus": [
+              "Mini Mock Test",
+              "Sửa bài Writing 1-1",
+              "Phản xạ Speaking"
+            ]
           }
         ],
         "books": [
           {
-            "nameKey": "db.courses.ielts_3_4.books.0.name",
-            "publisherKey": "db.courses.ielts_3_4.books.0.publisher",
-            "phaseKey": "db.courses.ielts_3_4.books.0.phase",
-            "descKey": "db.courses.ielts_3_4.books.0.desc"
+            "name": "Complete IELTS Bands 4.0–5.0",
+            "publisher": "Cambridge University Press",
+            "phase": "Xuyên suốt khóa học",
+            "desc": "Giáo trình chính thống từ Cambridge kết hợp rèn luyện toàn diện cả 4 kỹ năng."
           },
           {
-            "nameKey": "db.courses.ielts_3_4.books.1.name",
-            "publisherKey": "db.courses.ielts_3_4.books.1.publisher",
-            "phaseKey": "db.courses.ielts_3_4.books.1.phase",
-            "descKey": "db.courses.ielts_3_4.books.1.desc"
+            "name": "Basic IELTS 4 Kỹ Năng",
+            "publisher": "NXB Tổng Hợp TP.HCM",
+            "phase": "Giai đoạn 1 & 2",
+            "desc": "Bộ sách nhập môn IELTS tiêu chuẩn, hướng dẫn chi tiết từng dạng bài thi."
           }
         ],
         "pricingInfo": {
-          "tuitionFeeKey": "db.courses.ielts_3_4.pricingInfo.tuitionFee",
-          "perMonthKey": "db.courses.ielts_3_4.pricingInfo.perMonth",
-          "totalSessionsKey": "db.courses.ielts_3_4.pricingInfo.totalSessions",
+          "tuitionFee": "Học phí trọn gói minh bạch",
+          "perMonth": "Hỗ trợ chia kỳ linh hoạt",
+          "totalSessions": "~30 buổi học chuyên sâu",
           "includesKeys": []
         },
         "faqs": [
           {
-            "qKey": "db.courses.ielts_3_4.faqs.0.q",
-            "aKey": "db.courses.ielts_3_4.faqs.0.a"
+            "q": "Sĩ số lớp học là bao nhiêu học viên?",
+            "a": "Lớp học duy trì quy mô kèm sát chỉ 3–5 bạn để tối đa hóa thời lượng tương tác và sửa bài trực tiếp trên lớp."
           },
           {
-            "qKey": "db.courses.ielts_3_4.faqs.1.q",
-            "aKey": "db.courses.ielts_3_4.faqs.1.a"
+            "q": "Học xong khóa này tôi có thể thi IELTS thật được chưa?",
+            "a": "Khóa học giúp bạn nắm chắc format và xây nền tảng vững chắc Band 4.0 - 4.5. Nếu mục tiêu của bạn là 6.0 - 6.5+, bạn nên tiếp tục lộ trình bứt phá tiếp theo."
           }
         ]
       },
@@ -1463,93 +1490,105 @@
           "Chấm chữa Writing & Speaking chi tiết theo tiêu chí chấm thi"
         ],
         "targetAudience": {
-          "whoForKey": "db.courses.ielts_4_5.targetAudience.whoFor",
-          "inputRequirementKey": "db.courses.ielts_4_5.targetAudience.inputRequirement",
-          "outputTargetKey": "db.courses.ielts_4_5.targetAudience.outputTarget"
+          "whoFor": "Học viên đã có nền tảng IELTS 4.0 - 4.5, muốn bứt phá lên Band 5.5 - 6.0 để xét tuyển đại học hoặc du học.",
+          "inputRequirement": "Đạt Band 4.0 - 4.5 hoặc tương đương, đã làm quen với các dạng bài IELTS.",
+          "outputTarget": "Đạt chuẩn Band 5.5 - 6.0+, phát triển luận điểm Task 2 mạch lạc, phản xạ Speaking trôi chảy theo chủ đề."
         },
         "skillsContent": {
           "reading": [
-            "db.courses.ielts_4_5.skillsContent.reading.0",
-            "db.courses.ielts_4_5.skillsContent.reading.1",
-            "db.courses.ielts_4_5.skillsContent.reading.2"
+            "Chiến thuật xử lý dạng bài khó: Matching Headings, Yes/No/Not Given",
+            "Mở rộng vốn từ vựng học thuật chủ đề Môi trường, Giáo dục, Công nghệ",
+            "Tối ưu hóa thời gian làm bài (dưới 20 phút mỗi Passage)"
           ],
           "listening": [
-            "db.courses.ielts_4_5.skillsContent.listening.0",
-            "db.courses.ielts_4_5.skillsContent.listening.1",
-            "db.courses.ielts_4_5.skillsContent.listening.2"
+            "Luyện nghe Section 3 & 4 (Thảo luận học thuật & Bài giảng)",
+            "Kỹ thuật phân tích trước câu hỏi và bắt bẫy từ đồng nghĩa (paraphrase)",
+            "Luyện tai nghe với nhiều accent Anh - Úc - Mỹ khác nhau"
           ],
           "writing": [
-            "db.courses.ielts_4_5.skillsContent.writing.0",
-            "db.courses.ielts_4_5.skillsContent.writing.1",
-            "db.courses.ielts_4_5.skillsContent.writing.2"
+            "Viết hoàn chỉnh Task 1 (Tất cả biểu đồ, Bản đồ Map và Quy trình Process)",
+            "Triển khai luận điểm Task 2 sâu sắc theo 5 dạng đề chính",
+            "Được thầy Harry chấm chữa chi tiết từng câu văn theo tiêu chí chấm thi thật"
           ],
           "speaking": [
-            "db.courses.ielts_4_5.skillsContent.speaking.0",
-            "db.courses.ielts_4_5.skillsContent.speaking.1",
-            "db.courses.ielts_4_5.skillsContent.speaking.2"
+            "Làm chủ Speaking Part 2 với phương pháp ghi chú Mindmap trong 1 phút",
+            "Mở rộng câu trả lời Part 3 phân tích sâu sắc theo góc nhìn xã hội",
+            "Tăng độ trôi chảy, sử dụng collocations tự nhiên và sửa lỗi ngữ pháp"
           ]
         },
         "roadmap": [
           {
-            "stageKey": "db.courses.ielts_4_5.roadmap.0.stage",
-            "titleKey": "db.courses.ielts_4_5.roadmap.0.title",
-            "durationKey": "db.courses.ielts_4_5.roadmap.0.duration",
-            "descKey": "db.courses.ielts_4_5.roadmap.0.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 01",
+            "title": "Nâng Tầm Ngữ Pháp & Từ Vựng Học Thuật B2",
+            "duration": "Tuần 1–4",
+            "desc": "Bổ sung 800 từ vựng học thuật Destination B2, làm chủ Writing Task 1 và Listening Section 3.",
+            "focus": [
+              "Destination B2",
+              "Writing Task 1",
+              "Listening Section 3"
+            ]
           },
           {
-            "stageKey": "db.courses.ielts_4_5.roadmap.1.stage",
-            "titleKey": "db.courses.ielts_4_5.roadmap.1.title",
-            "durationKey": "db.courses.ielts_4_5.roadmap.1.duration",
-            "descKey": "db.courses.ielts_4_5.roadmap.1.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 02",
+            "title": "Chuyên Sâu Writing Task 2 & Speaking Part 2-3",
+            "duration": "Tuần 5–8",
+            "desc": "Tập trung triển khai luận điểm mạch lạc cho bài luận Task 2 và phản xạ Speaking Part 2-3.",
+            "focus": [
+              "Writing Task 2",
+              "Speaking Part 2-3",
+              "Paraphrasing Skills"
+            ]
           },
           {
-            "stageKey": "db.courses.ielts_4_5.roadmap.2.stage",
-            "titleKey": "db.courses.ielts_4_5.roadmap.2.title",
-            "durationKey": "db.courses.ielts_4_5.roadmap.2.duration",
-            "descKey": "db.courses.ielts_4_5.roadmap.2.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 03",
+            "title": "Luyện Đề Bấm Giờ & Chữa Bài 1-1",
+            "duration": "Tuần 9–12",
+            "desc": "Giải bộ đề Cambridge 14–17 bấm giờ tiêu chuẩn phòng thi và thi thử Mock Test toàn diện.",
+            "focus": [
+              "Full Mock Test",
+              "Chấm chữa 1-1",
+              "Chiến thuật phòng thi"
+            ]
           }
         ],
         "books": [
           {
-            "nameKey": "db.courses.ielts_4_5.books.0.name",
-            "publisherKey": "db.courses.ielts_4_5.books.0.publisher",
-            "phaseKey": "db.courses.ielts_4_5.books.0.phase",
-            "descKey": "db.courses.ielts_4_5.books.0.desc"
+            "name": "Mindset for IELTS Level 2",
+            "publisher": "Cambridge University Press",
+            "phase": "Xuyên suốt khóa học",
+            "desc": "Giáo trình chính thức từ Cambridge với phương pháp học tập tương tác bám sát đề thi."
           },
           {
-            "nameKey": "db.courses.ielts_4_5.books.1.name",
-            "publisherKey": "db.courses.ielts_4_5.books.1.publisher",
-            "phaseKey": "db.courses.ielts_4_5.books.1.phase",
-            "descKey": "db.courses.ielts_4_5.books.1.desc"
+            "name": "Destination B2: Grammar & Vocabulary",
+            "publisher": "Macmillan Education",
+            "phase": "Giai đoạn 1 & 2",
+            "desc": "Sách gối đầu giường củng cố ngữ pháp học thuật và từ vựng band điểm 6.0+."
           },
           {
-            "nameKey": "db.courses.ielts_4_5.books.2.name",
-            "publisherKey": "db.courses.ielts_4_5.books.2.publisher",
-            "phaseKey": "db.courses.ielts_4_5.books.2.phase",
-            "descKey": "db.courses.ielts_4_5.books.2.desc"
+            "name": "Listening for IELTS (Collins)",
+            "publisher": "Collins Cobuild",
+            "phase": "Giai đoạn 3",
+            "desc": "Rèn luyện kỹ năng nghe chuyên sâu với các bài tập phân tích bẫy đề thi hiệu quả."
           }
         ],
         "pricingInfo": {
-          "tuitionFeeKey": "db.courses.ielts_4_5.pricingInfo.tuitionFee",
-          "perMonthKey": "db.courses.ielts_4_5.pricingInfo.perMonth",
-          "totalSessionsKey": "db.courses.ielts_4_5.pricingInfo.totalSessions",
+          "tuitionFee": "Học phí trọn gói minh bạch",
+          "perMonth": "Hỗ trợ chia kỳ linh hoạt",
+          "totalSessions": "~3 tháng đào tạo",
           "includesKeys": []
         },
         "faqs": [
           {
-            "qKey": "db.courses.ielts_4_5.faqs.0.q",
-            "aKey": "db.courses.ielts_4_5.faqs.0.a"
+            "q": "Khóa học có cam kết đầu ra 6.0 bằng văn bản không?",
+            "a": "Có. Harry English House cam kết đầu ra 6.0+ bằng văn bản nếu học viên tham gia tối thiểu 90% số buổi và nộp đầy đủ bài tập được giao."
           },
           {
-            "qKey": "db.courses.ielts_4_5.faqs.1.q",
-            "aKey": "db.courses.ielts_4_5.faqs.1.a"
+            "q": "Nếu tôi bận việc đột xuất thì có được học bù không?",
+            "a": "Có. Với lớp Online bạn được cung cấp video bài giảng HD xem lại; với lớp Offline bạn được hỗ trợ học bù hoặc trợ giảng kèm 1-1."
           },
           {
-            "qKey": "db.courses.ielts_4_5.faqs.2.q",
-            "aKey": "db.courses.ielts_4_5.faqs.2.a"
+            "q": "Ai sẽ là người trực tiếp giảng dạy khóa học?",
+            "a": "Khóa học do Thầy Harry Khôi (IELTS 8.0) và các giảng viên kỳ cựu đạt IELTS 7.5+ trực tiếp đứng lớp và chấm chữa bài."
           }
         ]
       },
@@ -1571,89 +1610,101 @@
           "Chấm chữa Writing & Speaking 1-1 không giới hạn số lượng"
         ],
         "targetAudience": {
-          "whoForKey": "db.courses.ielts_6_75.targetAudience.whoFor",
-          "inputRequirementKey": "db.courses.ielts_6_75.targetAudience.inputRequirement",
-          "outputTargetKey": "db.courses.ielts_6_75.targetAudience.outputTarget"
+          "whoFor": "Học viên đã đạt Band 5.5 - 6.0, cần chiến thuật chuyên sâu và chấm chữa 1-1 từ thầy Harry để bứt phá lên 6.5 - 7.5+.",
+          "inputRequirement": "Đạt tối thiểu IELTS 5.5 - 6.0 hoặc hoàn thành bài kiểm tra đầu vào tại trung tâm.",
+          "outputTarget": "Chinh phục Band 6.5 - 7.5+, thành thạo xử lý đề khó Cambridge, nâng tầm từ vựng học thuật C1-C2."
         },
         "skillsContent": {
           "reading": [
-            "db.courses.ielts_6_75.skillsContent.reading.0",
-            "db.courses.ielts_6_75.skillsContent.reading.1",
-            "db.courses.ielts_6_75.skillsContent.reading.2"
+            "Chiến thuật giải đề Reading band 7.5+ và kỹ thuật định vị từ khóa bẫy tinh vi",
+            "Mở rộng vốn từ vựng học thuật C1-C2 và các cụm thành ngữ học thuật (idioms/collocations)",
+            "Tối ưu tốc độ xử lý các bài đọc chuyên ngành khoa học, triết học và kinh tế"
           ],
           "listening": [
-            "db.courses.ielts_6_75.skillsContent.listening.0",
-            "db.courses.ielts_6_75.skillsContent.listening.1",
-            "db.courses.ielts_6_75.skillsContent.listening.2"
+            "Luyện nghe Section 4 bài giảng học thuật dài với tốc độ nói nhanh 1.25x",
+            "Xử lý bẫy đa thông tin và phân biệt các quan điểm học thuật phức tạp",
+            "Nâng cao độ chính xác chính tả tuyệt đối đối với từ vựng chuyên ngành"
           ],
           "writing": [
-            "db.courses.ielts_6_75.skillsContent.writing.0",
-            "db.courses.ielts_6_75.skillsContent.writing.1",
-            "db.courses.ielts_6_75.skillsContent.writing.2"
+            "Chấm chữa Writing 1-1 không giới hạn số lượng bài viết trực tiếp với Thầy Harry",
+            "Nâng cấp tư duy lập luận phản biện, từ vựng C1-C2 và cấu trúc ngữ pháp đa dạng",
+            "Phát triển bài viết Task 1 nâng cao và làm chủ cấu trúc bài luận Task 2 band 7.5+"
           ],
           "speaking": [
-            "db.courses.ielts_6_75.skillsContent.speaking.0",
-            "db.courses.ielts_6_75.skillsContent.speaking.1",
-            "db.courses.ielts_6_75.skillsContent.speaking.2"
+            "Luyện phản xạ tư duy trả lời Speaking Part 3 theo chuẩn học thuật chuyên sâu",
+            "Chỉnh ngữ điệu tự nhiên, phong thái tự tin và kỹ năng kéo dài câu trả lời",
+            "Mock test 1-1 trực tiếp với chuyên gia chuẩn hóa tiêu chí khảo thí IDP"
           ]
         },
         "roadmap": [
           {
-            "stageKey": "db.courses.ielts_6_75.roadmap.0.stage",
-            "titleKey": "db.courses.ielts_6_75.roadmap.0.title",
-            "durationKey": "db.courses.ielts_6_75.roadmap.0.duration",
-            "descKey": "db.courses.ielts_6_75.roadmap.0.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 01",
+            "title": "Chẩn Đoán Lỗ Hổng & Nâng Cấp Từ Vựng C1-C2",
+            "duration": "Tuần 1–4",
+            "desc": "Đánh giá chi tiết điểm yếu từng kỹ năng, mở rộng vốn từ vựng học thuật C1-C2 và cấu trúc ngữ pháp nâng cao.",
+            "focus": [
+              "Từ vựng học thuật C1",
+              "Chiến thuật Task 1 nâng cao",
+              "Phản xạ Part 3"
+            ]
           },
           {
-            "stageKey": "db.courses.ielts_6_75.roadmap.1.stage",
-            "titleKey": "db.courses.ielts_6_75.roadmap.1.title",
-            "durationKey": "db.courses.ielts_6_75.roadmap.1.duration",
-            "descKey": "db.courses.ielts_6_75.roadmap.1.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 02",
+            "title": "Chữa Bài 1-1 & Bứt Phá Tư Duy Luận Điểm",
+            "duration": "Tuần 5–10",
+            "desc": "Tập trung sửa chi tiết từng bài viết Writing Task 1-2 và rèn luyện Speaking chuyên sâu từng chủ đề khó.",
+            "focus": [
+              "Writing Task 2 Band 7.5+",
+              "Speaking Mock Test",
+              "Sửa bài 1-1 liên tục"
+            ]
           },
           {
-            "stageKey": "db.courses.ielts_6_75.roadmap.2.stage",
-            "titleKey": "db.courses.ielts_6_75.roadmap.2.title",
-            "durationKey": "db.courses.ielts_6_75.roadmap.2.duration",
-            "descKey": "db.courses.ielts_6_75.roadmap.2.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 03",
+            "title": "Giải Bộ Đề Dự Đoán & Tổng Duyệt Phòng Thi",
+            "duration": "Tuần 11–16",
+            "desc": "Luyện giải bộ đề dự đoán độc quyền của Harry English House và thi thử Mock Test IDP chính thức.",
+            "focus": [
+              "Bộ đề Cambridge 15-18",
+              "Đề dự đoán quý",
+              "Thi thử Mock Test IDP"
+            ]
           }
         ],
         "books": [
           {
-            "nameKey": "db.courses.ielts_6_75.books.0.name",
-            "publisherKey": "db.courses.ielts_6_75.books.0.publisher",
-            "phaseKey": "db.courses.ielts_6_75.books.0.phase",
-            "descKey": "db.courses.ielts_6_75.books.0.desc"
+            "name": "Cambridge IELTS Practice Tests 15–18",
+            "publisher": "Cambridge Assessment English",
+            "phase": "Xuyên suốt khóa học",
+            "desc": "Bộ đề thi thật chuẩn khảo thí IDP/BC phục vụ luyện giải đề chuyên sâu."
           },
           {
-            "nameKey": "db.courses.ielts_6_75.books.1.name",
-            "publisherKey": "db.courses.ielts_6_75.books.1.publisher",
-            "phaseKey": "db.courses.ielts_6_75.books.1.phase",
-            "descKey": "db.courses.ielts_6_75.books.1.desc"
+            "name": "IELTS Advantage: Writing & Speaking Skills",
+            "publisher": "Delta Publishing",
+            "phase": "Giai đoạn 1 & 2",
+            "desc": "Giáo trình nâng cao hướng dẫn chiến thuật đạt band 7.0 - 8.0+ từ chuyên gia."
           },
           {
-            "nameKey": "db.courses.ielts_6_75.books.2.name",
-            "publisherKey": "db.courses.ielts_6_75.books.2.publisher",
-            "phaseKey": "db.courses.ielts_6_75.books.2.phase",
-            "descKey": "db.courses.ielts_6_75.books.2.desc"
+            "name": "Bộ đề dự đoán độc quyền Harry English House",
+            "publisher": "Harry English House Academic",
+            "phase": "Giai đoạn 3",
+            "desc": "Kho tài liệu tổng hợp đề thi thật mới nhất và phân tích đáp án chi tiết."
           }
         ],
         "pricingInfo": {
-          "tuitionFeeKey": "db.courses.ielts_6_75.pricingInfo.tuitionFee",
-          "perMonthKey": "db.courses.ielts_6_75.pricingInfo.perMonth",
-          "totalSessionsKey": "db.courses.ielts_6_75.pricingInfo.totalSessions",
+          "tuitionFee": "Học phí trọn gói chuyên sâu",
+          "perMonth": "Hỗ trợ chia kỳ linh hoạt",
+          "totalSessions": "3–6 tháng đào tạo kèm sát",
           "includesKeys": []
         },
         "faqs": [
           {
-            "qKey": "db.courses.ielts_6_75.faqs.0.q",
-            "aKey": "db.courses.ielts_6_75.faqs.0.a"
+            "q": "Ai là người trực tiếp đứng lớp khóa học Chuyên Sâu này?",
+            "a": "Thầy Harry (IELTS 8.0 - Đối tác chính thức IDP Việt Nam) trực tiếp giảng dạy 100% các buổi học và chấm chữa 1-1 toàn bộ bài viết của học viên."
           },
           {
-            "qKey": "db.courses.ielts_6_75.faqs.1.q",
-            "aKey": "db.courses.ielts_6_75.faqs.1.a"
+            "q": "Sĩ số lớp tối đa là bao nhiêu bạn?",
+            "a": "Lớp học giới hạn tối đa 7 bạn để tạo môi trường học thuật chất lượng cao và đảm bảo thời gian sửa bài chi tiết cho từng bạn."
           }
         ]
       },
@@ -1675,62 +1726,70 @@
           "Lịch học Online linh hoạt (T3, T5 17h30 hoặc T3, T6 16h)"
         ],
         "targetAudience": {
-          "whoForKey": "db.courses.ielts_vip_1_2.targetAudience.whoFor",
-          "inputRequirementKey": "db.courses.ielts_vip_1_2.targetAudience.inputRequirement",
-          "outputTargetKey": "db.courses.ielts_vip_1_2.targetAudience.outputTarget"
+          "whoFor": "Học viên cần lộ trình may đo riêng biệt, nhóm siêu nhỏ 2 bạn để tối ưu thời gian học và theo sát tiến độ hàng ngày.",
+          "inputRequirement": "Mọi trình độ từ Mất gốc đến Luyện thi cấp tốc (kiểm tra đầu vào xếp đôi bạn cùng tiến).",
+          "outputTarget": "Đạt đúng mục tiêu cam kết theo hợp đồng đào tạo, tối ưu 50% thời gian so với lớp thông thường."
         },
         "skillsContent": {
           "reading": [
-            "db.courses.ielts_vip_1_2.skillsContent.reading.0",
-            "db.courses.ielts_vip_1_2.skillsContent.reading.1"
+            "Giáo trình may đo theo lỗ hổng kiến thức thực tế của 2 học viên",
+            "Luyện chiến thuật xử lý các dạng câu hỏi thường xuyên mắc lỗi"
           ],
           "listening": [
-            "db.courses.ielts_vip_1_2.skillsContent.listening.0",
-            "db.courses.ielts_vip_1_2.skillsContent.listening.1"
+            "Chiến lược nghe tập trung và bắt bẫy thông tin theo điểm yếu từng bạn",
+            "Luyện phản xạ nghe hiểu với tốc độ thi thật"
           ],
           "writing": [
-            "db.courses.ielts_vip_1_2.skillsContent.writing.0",
-            "db.courses.ielts_vip_1_2.skillsContent.writing.1"
+            "Chấm chữa trực tiếp từng câu văn, nâng cấp từ vựng và cấu trúc ngữ pháp",
+            "Luyện viết Task 1 và Task 2 theo lộ trình cá nhân hóa"
           ],
           "speaking": [
-            "db.courses.ielts_vip_1_2.skillsContent.speaking.0",
-            "db.courses.ielts_vip_1_2.skillsContent.speaking.1"
+            "Thực hành phản xạ 1:2 trực tiếp với giảng viên suốt buổi học",
+            "Chỉnh sửa phát âm, ngữ điệu và phản xạ trả lời câu hỏi khó"
           ]
         },
         "roadmap": [
           {
-            "stageKey": "db.courses.ielts_vip_1_2.roadmap.0.stage",
-            "titleKey": "db.courses.ielts_vip_1_2.roadmap.0.title",
-            "durationKey": "db.courses.ielts_vip_1_2.roadmap.0.duration",
-            "descKey": "db.courses.ielts_vip_1_2.roadmap.0.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 01",
+            "title": "Chẩn Đoán Năng Lực & Thiết Kế Lộ Trình",
+            "duration": "Chặng 1",
+            "desc": "Kiểm tra chi tiết 4 kỹ năng và xây dựng giáo trình riêng phù hợp với tiến độ của đôi bạn học.",
+            "focus": [
+              "Đánh giá năng lực 1-1",
+              "Khắc phục điểm yếu cốt lõi",
+              "Lộ trình cá nhân hóa"
+            ]
           },
           {
-            "stageKey": "db.courses.ielts_vip_1_2.roadmap.1.stage",
-            "titleKey": "db.courses.ielts_vip_1_2.roadmap.1.title",
-            "durationKey": "db.courses.ielts_vip_1_2.roadmap.1.duration",
-            "descKey": "db.courses.ielts_vip_1_2.roadmap.1.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 02",
+            "title": "Kèm Sát Chuyên Sâu & Bứt Phá Mục Tiêu",
+            "duration": "Chặng 2",
+            "desc": "Tập trung sửa bài Writing và luyện Speaking phản xạ trực tiếp, theo sát cam kết đầu ra.",
+            "focus": [
+              "Sửa bài từng buổi",
+              "Speaking tương tác 1:2",
+              "Thi thử định kỳ"
+            ]
           }
         ],
         "books": [
           {
-            "nameKey": "db.courses.ielts_vip_1_2.books.0.name",
-            "publisherKey": "db.courses.ielts_vip_1_2.books.0.publisher",
-            "phaseKey": "db.courses.ielts_vip_1_2.books.0.phase",
-            "descKey": "db.courses.ielts_vip_1_2.books.0.desc"
+            "name": "Giáo trình cá nhân hóa theo mục tiêu",
+            "publisher": "Harry English House Customized",
+            "phase": "Xuyên suốt khóa học",
+            "desc": "Tài liệu được biên soạn riêng bám sát năng lực và thời gian biểu của học viên."
           }
         ],
         "pricingInfo": {
-          "tuitionFeeKey": "db.courses.ielts_vip_1_2.pricingInfo.tuitionFee",
-          "perMonthKey": "db.courses.ielts_vip_1_2.pricingInfo.perMonth",
-          "totalSessionsKey": "db.courses.ielts_vip_1_2.pricingInfo.totalSessions",
+          "tuitionFee": "Chi phí tối ưu nhóm 1:2",
+          "perMonth": "Đóng theo gói buổi học",
+          "totalSessions": "Lộ trình thiết kế riêng",
           "includesKeys": []
         },
         "faqs": [
           {
-            "qKey": "db.courses.ielts_vip_1_2.faqs.0.q",
-            "aKey": "db.courses.ielts_vip_1_2.faqs.0.a"
+            "q": "Nếu tôi chưa có bạn học cùng thì trung tâm có ghép lớp không?",
+            "a": "Có. Trung tâm sẽ kiểm tra đầu vào và hỗ trợ ghép bạn với một học viên có cùng trình độ, mục tiêu và khung giờ học phù hợp."
           }
         ]
       },
@@ -1752,53 +1811,57 @@
           "Cam kết chuẩn đầu ra văn bản & hỗ trợ học thuật 24/7"
         ],
         "targetAudience": {
-          "whoForKey": "db.courses.ielts_vip_1_1.targetAudience.whoFor",
-          "inputRequirementKey": "db.courses.ielts_vip_1_1.targetAudience.inputRequirement",
-          "outputTargetKey": "db.courses.ielts_vip_1_1.targetAudience.outputTarget"
+          "whoFor": "Học viên bận rộn, cần lịch học hoàn toàn linh hoạt và giảng viên trực tiếp kèm 1-1 giải quyết điểm yếu cấp tốc.",
+          "inputRequirement": "Mọi trình độ (đánh giá năng lực 1-1 trước khi lên giáo trình cá nhân hóa).",
+          "outputTarget": "Bứt phá band điểm cấp tốc trong thời gian ngắn nhất, được sửa bài và đồng hành 1-1 liên tục."
         },
         "skillsContent": {
           "reading": [
-            "db.courses.ielts_vip_1_1.skillsContent.reading.0",
-            "db.courses.ielts_vip_1_1.skillsContent.reading.1"
+            "Phương pháp đọc hiểu tối ưu hóa tốc độ và chiến lược làm bài riêng biệt",
+            "Khắc phục triệt để các dạng bài đọc còn yếu"
           ],
           "listening": [
-            "db.courses.ielts_vip_1_1.skillsContent.listening.0"
+            "Kỹ thuật bắt từ khóa và xử lý bẫy nghe chuyên biệt cho từng học viên"
           ],
           "writing": [
-            "db.courses.ielts_vip_1_1.skillsContent.writing.0",
-            "db.courses.ielts_vip_1_1.skillsContent.writing.1"
+            "Chấm chữa chi tiết từng câu văn trong mỗi buổi học",
+            "Nâng cấp tư duy lập luận và phong cách viết học thuật chuẩn mực"
           ],
           "speaking": [
-            "db.courses.ielts_vip_1_1.skillsContent.speaking.0"
+            "Luyện nói 100% thời lượng buổi học trực tiếp với giảng viên"
           ]
         },
         "roadmap": [
           {
-            "stageKey": "db.courses.ielts_vip_1_1.roadmap.0.stage",
-            "titleKey": "db.courses.ielts_vip_1_1.roadmap.0.title",
-            "durationKey": "db.courses.ielts_vip_1_1.roadmap.0.duration",
-            "descKey": "db.courses.ielts_vip_1_1.roadmap.0.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 01",
+            "title": "May Đo Lộ Trình Cấp Tốc & Chữa Điểm Yếu",
+            "duration": "Theo tiến độ cá nhân",
+            "desc": "Lộ trình thiết kế riêng 100% theo mục tiêu band điểm và hạn nộp chứng chỉ của học viên.",
+            "focus": [
+              "Kèm 1-1 chuyên sâu",
+              "Sửa bài từng buổi",
+              "Lịch học linh hoạt"
+            ]
           }
         ],
         "books": [
           {
-            "nameKey": "db.courses.ielts_vip_1_1.books.0.name",
-            "publisherKey": "db.courses.ielts_vip_1_1.books.0.publisher",
-            "phaseKey": "db.courses.ielts_vip_1_1.books.0.phase",
-            "descKey": "db.courses.ielts_vip_1_1.books.0.desc"
+            "name": "Bộ tài liệu may đo độc quyền 1:1",
+            "publisher": "Harry English House VIP Series",
+            "phase": "Xuyên suốt khóa học",
+            "desc": "Biên soạn riêng theo mục tiêu và điểm yếu cụ thể của từng học viên."
           }
         ],
         "pricingInfo": {
-          "tuitionFeeKey": "db.courses.ielts_vip_1_1.pricingInfo.tuitionFee",
-          "perMonthKey": "db.courses.ielts_vip_1_1.pricingInfo.perMonth",
-          "totalSessionsKey": "db.courses.ielts_vip_1_1.pricingInfo.totalSessions",
+          "tuitionFee": "Học phí kèm 1:1 chuyên biệt",
+          "perMonth": "Linh hoạt theo số buổi",
+          "totalSessions": "May đo theo nhu cầu",
           "includesKeys": []
         },
         "faqs": [
           {
-            "qKey": "db.courses.ielts_vip_1_1.faqs.0.q",
-            "aKey": "db.courses.ielts_vip_1_1.faqs.0.a"
+            "q": "Lớp 1 kèm 1 có thể học vào những khung giờ nào?",
+            "a": "Bạn có thể hoàn toàn chủ động lựa chọn các khung giờ sáng, chiều hoặc tối từ Thứ 2 đến Chủ Nhật phù hợp với lịch trình cá nhân."
           }
         ]
       },
@@ -1820,72 +1883,84 @@
           "Ưu đãi giảm 5% học phí toàn khóa chỉ còn 7.695.000đ"
         ],
         "targetAudience": {
-          "whoForKey": "db.courses.comm_basic.targetAudience.whoFor",
-          "inputRequirementKey": "db.courses.comm_basic.targetAudience.inputRequirement",
-          "outputTargetKey": "db.courses.comm_basic.targetAudience.outputTarget"
+          "whoFor": "Người đi làm hoặc sinh viên e ngại nói tiếng Anh, phát âm sai và phản xạ giao tiếp chậm.",
+          "inputRequirement": "Mất gốc hoặc vốn từ vựng hạn chế, chưa tự tin khi giao tiếp bằng tiếng Anh.",
+          "outputTarget": "Tự tin phát âm chuẩn IPA, làm chủ 50+ chủ đề hội thoại đời sống và công việc hàng ngày."
         },
         "skillsContent": {
           "reading": [
-            "db.courses.comm_basic.skillsContent.reading.0"
+            "Đọc hiểu nhanh các thông tin thường nhật, menu, chỉ dẫn và tin tức ngắn"
           ],
           "listening": [
-            "db.courses.comm_basic.skillsContent.listening.0"
+            "Luyện tai nghe nhận diện ngữ điệu và phản xạ nghe hiểu tốc độ tự nhiên"
           ],
           "writing": [
-            "db.courses.comm_basic.skillsContent.writing.0"
+            "Viết tin nhắn, email ngắn và lời mời bằng tiếng Anh chuẩn ngữ pháp"
           ],
           "speaking": [
-            "db.courses.comm_basic.skillsContent.speaking.0",
-            "db.courses.comm_basic.skillsContent.speaking.1"
+            "Chuẩn hóa 44 âm IPA và luyện nối âm tự nhiên",
+            "Phản xạ đối thoại 50+ tình huống giao tiếp đời sống thông dụng"
           ]
         },
         "roadmap": [
           {
-            "stageKey": "db.courses.comm_basic.roadmap.0.stage",
-            "titleKey": "db.courses.comm_basic.roadmap.0.title",
-            "durationKey": "db.courses.comm_basic.roadmap.0.duration",
-            "descKey": "db.courses.comm_basic.roadmap.0.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 01",
+            "title": "Chuẩn Hóa Phát Âm IPA & Xóa Bỏ Ngại Nói",
+            "duration": "Tháng 1",
+            "desc": "Tập trung chỉnh từng âm IPA, khẩu hình miệng và xóa bỏ rào cản sợ nói tiếng Anh.",
+            "focus": [
+              "44 Âm IPA",
+              "Khẩu hình chuẩn",
+              "Tự tin mở lời"
+            ]
           },
           {
-            "stageKey": "db.courses.comm_basic.roadmap.1.stage",
-            "titleKey": "db.courses.comm_basic.roadmap.1.title",
-            "durationKey": "db.courses.comm_basic.roadmap.1.duration",
-            "descKey": "db.courses.comm_basic.roadmap.1.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 02",
+            "title": "Mẫu Câu Hội Thoại & Phản Xạ Đời Sống",
+            "duration": "Tháng 2",
+            "desc": "Thực hành 30+ tình huống đối thoại thực tế về mua sắm, du lịch, nhà hàng, chỉ đường.",
+            "focus": [
+              "Hội thoại đời sống",
+              "Phản xạ câu hỏi đáp",
+              "Từ vựng thông dụng"
+            ]
           },
           {
-            "stageKey": "db.courses.comm_basic.roadmap.2.stage",
-            "titleKey": "db.courses.comm_basic.roadmap.2.title",
-            "durationKey": "db.courses.comm_basic.roadmap.2.duration",
-            "descKey": "db.courses.comm_basic.roadmap.2.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 03",
+            "title": "Giao Tiếp Tự Tin & Thuyết Trình Cơ Bản",
+            "duration": "Tháng 3",
+            "desc": "Tự tin trò chuyện với người nước ngoài và thuyết trình ngắn về chủ đề yêu thích.",
+            "focus": [
+              "Đối thoại lưu loát",
+              "Thuyết trình ngắn",
+              "Phản xạ tự nhiên"
+            ]
           }
         ],
         "books": [
           {
-            "nameKey": "db.courses.comm_basic.books.0.name",
-            "publisherKey": "db.courses.comm_basic.books.0.publisher",
-            "phaseKey": "db.courses.comm_basic.books.0.phase",
-            "descKey": "db.courses.comm_basic.books.0.desc"
+            "name": "English Pronunciation in Use",
+            "publisher": "Cambridge University Press",
+            "phase": "Xuyên suốt khóa học",
+            "desc": "Bộ sách chuẩn quốc tế về ngữ âm và luyện giọng tiếng Anh tự nhiên."
           },
           {
-            "nameKey": "db.courses.comm_basic.books.1.name",
-            "publisherKey": "db.courses.comm_basic.books.1.publisher",
-            "phaseKey": "db.courses.comm_basic.books.1.phase",
-            "descKey": "db.courses.comm_basic.books.1.desc"
+            "name": "Everyday English Conversations",
+            "publisher": "Oxford University Press",
+            "phase": "Giai đoạn 2 & 3",
+            "desc": "Tổng hợp các mẫu câu và tình huống giao tiếp thực tế hàng ngày."
           }
         ],
         "pricingInfo": {
-          "tuitionFeeKey": "db.courses.comm_basic.pricingInfo.tuitionFee",
-          "perMonthKey": "db.courses.comm_basic.pricingInfo.perMonth",
-          "totalSessionsKey": "db.courses.comm_basic.pricingInfo.totalSessions",
+          "tuitionFee": "Học phí trọn gói ưu đãi",
+          "perMonth": "Hỗ trợ chia kỳ linh hoạt",
+          "totalSessions": "24 buổi rèn phản xạ",
           "includesKeys": []
         },
         "faqs": [
           {
-            "qKey": "db.courses.comm_basic.faqs.0.q",
-            "aKey": "db.courses.comm_basic.faqs.0.a"
+            "q": "Khóa học này có phù hợp với người đi làm bận rộn không?",
+            "a": "Rất phù hợp! Phương pháp học tại Harry English House tập trung 100% vào thực hành phản xạ thực tế, không học vẹt ngữ pháp học thuật, giúp bạn tự tin ứng dụng ngay trong công việc."
           }
         ]
       },
@@ -1907,65 +1982,77 @@
           "Ưu đãi 10% cho khóa học dài hạn 6 tháng (14.580.000đ)"
         ],
         "targetAudience": {
-          "whoForKey": "db.courses.comm_applied.targetAudience.whoFor",
-          "inputRequirementKey": "db.courses.comm_applied.targetAudience.inputRequirement",
-          "outputTargetKey": "db.courses.comm_applied.targetAudience.outputTarget"
+          "whoFor": "Người đi làm cần sử dụng tiếng Anh chuyên nghiệp cho thuyết trình, đàm phán, viết email và họp quốc tế.",
+          "inputRequirement": "Đã có giao tiếp cơ bản, muốn nâng cao phong thái và vốn từ vựng chuyên ngành.",
+          "outputTarget": "Thành thạo thuyết trình, đàm phán thương mại và viết email công việc chuẩn mực, tự nhiên."
         },
         "skillsContent": {
           "reading": [
-            "db.courses.comm_applied.skillsContent.reading.0"
+            "Đọc hiểu báo cáo kinh doanh, hợp đồng thương mại và tin tức chuyên ngành"
           ],
           "listening": [
-            "db.courses.comm_applied.skillsContent.listening.0"
+            "Nghe hiểu cuộc họp trực tuyến, hội thảo quốc tế và đàm phán thương mại"
           ],
           "writing": [
-            "db.courses.comm_applied.skillsContent.writing.0"
+            "Viết email thương mại chuẩn phong cách chuyên nghiệp (formal/semi-formal)"
           ],
           "speaking": [
-            "db.courses.comm_applied.skillsContent.speaking.0"
+            "Kỹ năng thuyết trình dự án, đàm phán và dẫn dắt cuộc họp bằng tiếng Anh"
           ]
         },
         "roadmap": [
           {
-            "stageKey": "db.courses.comm_applied.roadmap.0.stage",
-            "titleKey": "db.courses.comm_applied.roadmap.0.title",
-            "durationKey": "db.courses.comm_applied.roadmap.0.duration",
-            "descKey": "db.courses.comm_applied.roadmap.0.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 01",
+            "title": "Email & Giao Tiếp Công Sở Chuyên Nghiệp",
+            "duration": "Tháng 1–2",
+            "desc": "Chuẩn hóa phong cách viết email thương mại, trao đổi công việc và gọi điện thoại quốc tế.",
+            "focus": [
+              "Email thương mại",
+              "Trao đổi công việc",
+              "Từ vựng Business"
+            ]
           },
           {
-            "stageKey": "db.courses.comm_applied.roadmap.1.stage",
-            "titleKey": "db.courses.comm_applied.roadmap.1.title",
-            "durationKey": "db.courses.comm_applied.roadmap.1.duration",
-            "descKey": "db.courses.comm_applied.roadmap.1.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 02",
+            "title": "Kỹ Năng Thuyết Trình & Họp Quốc Tế",
+            "duration": "Tháng 3–4",
+            "desc": "Rèn luyện phong thái thuyết trình thuyết phục, xử lý câu hỏi phản biện trong cuộc họp.",
+            "focus": [
+              "Thuyết trình dự án",
+              "Điều phối cuộc họp",
+              "Xử lý tình huống"
+            ]
           },
           {
-            "stageKey": "db.courses.comm_applied.roadmap.2.stage",
-            "titleKey": "db.courses.comm_applied.roadmap.2.title",
-            "durationKey": "db.courses.comm_applied.roadmap.2.duration",
-            "descKey": "db.courses.comm_applied.roadmap.2.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 03",
+            "title": "Đàm Phán Thương Mại & Phỏng Vấn Quốc Tế",
+            "duration": "Tháng 5–6",
+            "desc": "Thực hành đàm phán hợp đồng, phỏng vấn xin việc và networking trong môi trường đa quốc gia.",
+            "focus": [
+              "Đàm phán kinh doanh",
+              "Phỏng vấn tiếng Anh",
+              "Networking chuyên nghiệp"
+            ]
           }
         ],
         "books": [
           {
-            "nameKey": "db.courses.comm_applied.books.0.name",
-            "publisherKey": "db.courses.comm_applied.books.0.publisher",
-            "phaseKey": "db.courses.comm_applied.books.0.phase",
-            "descKey": "db.courses.comm_applied.books.0.desc"
+            "name": "Market Leader (Intermediate)",
+            "publisher": "Pearson Education",
+            "phase": "Xuyên suốt khóa học",
+            "desc": "Giáo trình tiếng Anh thương mại hàng đầu thế giới với các case study thực tế."
           }
         ],
         "pricingInfo": {
-          "tuitionFeeKey": "db.courses.comm_applied.pricingInfo.tuitionFee",
-          "perMonthKey": "db.courses.comm_applied.pricingInfo.perMonth",
-          "totalSessionsKey": "db.courses.comm_applied.pricingInfo.totalSessions",
+          "tuitionFee": "Học phí trọn gói ứng dụng",
+          "perMonth": "Hỗ trợ chia kỳ linh hoạt",
+          "totalSessions": "3 tháng thực hành",
           "includesKeys": []
         },
         "faqs": [
           {
-            "qKey": "db.courses.comm_applied.faqs.0.q",
-            "aKey": "db.courses.comm_applied.faqs.0.a"
+            "q": "Trung tâm có thiết kế chương trình đào tạo theo nhu cầu doanh nghiệp không?",
+            "a": "Có. Harry English House có các gói đào tạo tiếng Anh thương mại và kỹ năng thuyết trình được may đo chuyên biệt cho từng phòng ban hoặc doanh nghiệp."
           }
         ]
       },
@@ -1987,83 +2074,94 @@
           "Cam kết chuẩn đầu ra xét tuyển tốt nghiệp Đại học & Sau ĐH"
         ],
         "targetAudience": {
-          "whoForKey": "db.courses.toeic_vstep.targetAudience.whoFor",
-          "inputRequirementKey": "db.courses.toeic_vstep.targetAudience.inputRequirement",
-          "outputTargetKey": "db.courses.toeic_vstep.targetAudience.outputTarget"
+          "whoFor": "Sinh viên cần chứng chỉ TOEIC / VSTEP để xét tốt nghiệp đại học hoặc cán bộ, công chức cần chuẩn đầu ra B1-B2-C1.",
+          "inputRequirement": "Trình độ sơ cấp đến trung cấp, cần ôn thi tập trung theo cấu trúc đề thi thực tế.",
+          "outputTarget": "Đạt chuẩn TOEIC 650-800+ hoặc VSTEP B1-B2-C1 đúng tiến độ đề ra."
         },
         "skillsContent": {
           "reading": [
-            "db.courses.toeic_vstep.skillsContent.reading.0",
-            "db.courses.toeic_vstep.skillsContent.reading.1",
-            "db.courses.toeic_vstep.skillsContent.reading.2"
+            "Chiến thuật xử lý nhanh Part 5–6 (Ngữ pháp & Từ vựng) dưới 15 phút",
+            "Kỹ thuật định vị thông tin nhanh Part 7 (Đoạn đơn & Đoạn kép/ba)",
+            "Ngân hàng từ vựng TOEIC/VSTEP tần suất xuất hiện cao nhất"
           ],
           "listening": [
-            "db.courses.toeic_vstep.skillsContent.listening.0",
-            "db.courses.toeic_vstep.skillsContent.listening.1",
-            "db.courses.toeic_vstep.skillsContent.listening.2"
+            "Chiến lược nghe Part 1 (Tranh ảnh), Part 2 (Hỏi đáp nhanh không nghe kịp)",
+            "Kỹ thuật đọc trước câu hỏi Part 3–4 (Hội thoại & Bài nói ngắn)",
+            "Luyện nghe nhận diện bẫy phát âm và từ đồng âm"
           ],
           "writing": [
-            "db.courses.toeic_vstep.skillsContent.writing.0",
-            "db.courses.toeic_vstep.skillsContent.writing.1"
+            "Cấu trúc viết thư email và bài luận VSTEP B1-B2-C1 chuẩn format",
+            "Mẫu câu ghi điểm nhanh cho phần thi Writing"
           ],
           "speaking": [
-            "db.courses.toeic_vstep.skillsContent.speaking.0",
-            "db.courses.toeic_vstep.skillsContent.speaking.1"
+            "Mẫu trả lời phản xạ nhanh cho bài thi Speaking VSTEP 3 phần"
           ]
         },
         "roadmap": [
           {
-            "stageKey": "db.courses.toeic_vstep.roadmap.0.stage",
-            "titleKey": "db.courses.toeic_vstep.roadmap.0.title",
-            "durationKey": "db.courses.toeic_vstep.roadmap.0.duration",
-            "descKey": "db.courses.toeic_vstep.roadmap.0.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 01",
+            "title": "Hệ Thống Ngữ Pháp & Bẫy Đề Thi Thường Gặp",
+            "duration": "Tuần 1–3",
+            "desc": "Quét sạch các chủ điểm ngữ pháp trọng tâm và nhận diện bẫy đề thi TOEIC/VSTEP phổ biến.",
+            "focus": [
+              "Ngữ pháp trọng tâm",
+              "Bẫy Part 1-2 & Part 5",
+              "Từ vựng cốt lõi"
+            ]
           },
           {
-            "stageKey": "db.courses.toeic_vstep.roadmap.1.stage",
-            "titleKey": "db.courses.toeic_vstep.roadmap.1.title",
-            "durationKey": "db.courses.toeic_vstep.roadmap.1.duration",
-            "descKey": "db.courses.toeic_vstep.roadmap.1.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 02",
+            "title": "Chiến Thuật Tăng Tốc & Xử Lý Đoạn Văn Dài",
+            "duration": "Tuần 4–7",
+            "desc": "Rèn kỹ năng đọc quét nhanh Part 7 và bắt từ khóa chính xác Part 3-4 dưới áp lực thời gian.",
+            "focus": [
+              "Kỹ thuật đọc Part 7",
+              "Nghe hiểu Part 3-4",
+              "Phân bổ thời gian"
+            ]
           },
           {
-            "stageKey": "db.courses.toeic_vstep.roadmap.2.stage",
-            "titleKey": "db.courses.toeic_vstep.roadmap.2.title",
-            "durationKey": "db.courses.toeic_vstep.roadmap.2.duration",
-            "descKey": "db.courses.toeic_vstep.roadmap.2.desc",
-            "focusKeys": []
+            "stage": "GIAI ĐOẠN 03",
+            "title": "Luyện Đề Bấm Giờ & Tổng Duyệt Phòng Thi",
+            "duration": "Tuần 8–10",
+            "desc": "Giải bộ đề ETS TOEIC / VSTEP mới nhất bấm giờ 100% như thi thật và sửa lỗi sai chi tiết.",
+            "focus": [
+              "Full Test ETS TOEIC",
+              "Mock Test VSTEP",
+              "Tổng duyệt chiến thuật"
+            ]
           }
         ],
         "books": [
           {
-            "nameKey": "db.courses.toeic_vstep.books.0.name",
-            "publisherKey": "db.courses.toeic_vstep.books.0.publisher",
-            "phaseKey": "db.courses.toeic_vstep.books.0.phase",
-            "descKey": "db.courses.toeic_vstep.books.0.desc"
+            "name": "ETS TOEIC Regular Test 2024",
+            "publisher": "YBM / ETS",
+            "phase": "Xuyên suốt khóa học",
+            "desc": "Bộ đề thi chính thống từ tổ chức khảo thí ETS phát hành sát nhất với đề thi thật."
           },
           {
-            "nameKey": "db.courses.toeic_vstep.books.1.name",
-            "publisherKey": "db.courses.toeic_vstep.books.1.publisher",
-            "phaseKey": "db.courses.toeic_vstep.books.1.phase",
-            "descKey": "db.courses.toeic_vstep.books.1.desc"
+            "name": "Hackers TOEIC Reading & Listening",
+            "publisher": "Hackers Language Institute",
+            "phase": "Giai đoạn 1 & 2",
+            "desc": "Bộ giáo trình luyện thi TOEIC kinh điển với phân tích bẫy đề và mẹo làm bài đỉnh cao."
           },
           {
-            "nameKey": "db.courses.toeic_vstep.books.2.name",
-            "publisherKey": "db.courses.toeic_vstep.books.2.publisher",
-            "phaseKey": "db.courses.toeic_vstep.books.2.phase",
-            "descKey": "db.courses.toeic_vstep.books.2.desc"
+            "name": "Cẩm nang luyện thi VSTEP B1-B2-C1",
+            "publisher": "Harry English House Academic",
+            "phase": "Giai đoạn 3",
+            "desc": "Ngân hàng đề thi và hướng dẫn chi tiết 4 kỹ năng VSTEP chuẩn khung châu Âu."
           }
         ],
         "pricingInfo": {
-          "tuitionFeeKey": "db.courses.toeic_vstep.pricingInfo.tuitionFee",
-          "perMonthKey": "db.courses.toeic_vstep.pricingInfo.perMonth",
-          "totalSessionsKey": "db.courses.toeic_vstep.pricingInfo.totalSessions",
+          "tuitionFee": "Học phí cấp tốc ưu đãi",
+          "perMonth": "Hỗ trợ chia kỳ linh hoạt",
+          "totalSessions": "2–3 tháng luyện đề",
           "includesKeys": []
         },
         "faqs": [
           {
-            "qKey": "db.courses.toeic_vstep.faqs.0.q",
-            "aKey": "db.courses.toeic_vstep.faqs.0.a"
+            "q": "Mất bao lâu để đạt mục tiêu TOEIC 650+ hoặc VSTEP B2?",
+            "a": "Với lộ trình ôn thi tinh gọn bám sát đề thi thật, học viên thường đạt chuẩn đầu ra TOEIC 650+ hoặc VSTEP B2 trong khoảng 2.5 tháng (30 buổi học)."
           }
         ]
       }

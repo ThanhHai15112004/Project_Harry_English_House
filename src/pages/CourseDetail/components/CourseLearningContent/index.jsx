@@ -7,7 +7,7 @@ export default function CourseLearningContent({ course }) {
 
   if (!course) return null;
 
-  const skills = course.skillsContent || {
+  const defaultSkills = {
     reading: [
       'Luyện kỹ thuật Skimming & Scanning nắm bắt nhanh ý chính',
       'Xử lý dạng bài câu hỏi khó và phân biệt bẫy thông tin',
@@ -30,22 +30,35 @@ export default function CourseLearningContent({ course }) {
     ]
   };
 
+  const rawSkills = course.skillsContent || defaultSkills;
+
+  const resolveSkillItem = (item, skillType, index) => {
+    if (typeof item === 'string') {
+      const translated = t(item);
+      if (translated && !translated.startsWith('db.courses.')) {
+        return translated;
+      }
+      return defaultSkills[skillType]?.[index] || item;
+    }
+    return defaultSkills[skillType]?.[index] || String(item);
+  };
+
   const skillCards = [
     {
       id: 'reading',
       titleKey: 'pages.courseDetail.learningContent.reading',
       subtitleKey: 'pages.courseDetail.learningContent.readingSubtitle',
       icon: BookOpen,
-      badgeBg: 'bg-blue-50 text-blue-600 border-blue-200',
-      items: skills.reading || []
+      badgeBg: 'bg-academic-light-blue text-cta border-academic-primary-light',
+      items: (rawSkills.reading || defaultSkills.reading).map((item, idx) => resolveSkillItem(item, 'reading', idx))
     },
     {
       id: 'listening',
       titleKey: 'pages.courseDetail.learningContent.listening',
       subtitleKey: 'pages.courseDetail.learningContent.listeningSubtitle',
       icon: Headphones,
-      badgeBg: 'bg-indigo-50 text-indigo-600 border-indigo-200',
-      items: skills.listening || []
+      badgeBg: 'bg-academic-light-blue text-primary border-academic-primary-light',
+      items: (rawSkills.listening || defaultSkills.listening).map((item, idx) => resolveSkillItem(item, 'listening', idx))
     },
     {
       id: 'writing',
@@ -53,32 +66,32 @@ export default function CourseLearningContent({ course }) {
       subtitleKey: 'pages.courseDetail.learningContent.writingSubtitle',
       icon: PenTool,
       badgeBg: 'bg-emerald-50 text-emerald-600 border-emerald-200',
-      items: skills.writing || []
+      items: (rawSkills.writing || defaultSkills.writing).map((item, idx) => resolveSkillItem(item, 'writing', idx))
     },
     {
       id: 'speaking',
       titleKey: 'pages.courseDetail.learningContent.speaking',
       subtitleKey: 'pages.courseDetail.learningContent.speakingSubtitle',
       icon: Mic,
-      badgeBg: 'bg-amber-50 text-amber-600 border-amber-200',
-      items: skills.speaking || []
+      badgeBg: 'bg-academic-gold-light text-achievement border-amber-200',
+      items: (rawSkills.speaking || defaultSkills.speaking).map((item, idx) => resolveSkillItem(item, 'speaking', idx))
     }
   ];
 
   return (
-    <section className="bg-white py-16 sm:py-20 border-b border-[#E2E8F0]">
+    <section className="bg-white py-16 sm:py-20 border-b border-academic-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase bg-[#EAF2FF] text-[#1746A2] mb-3">
-            {t('pages.courseDetail.learningContent.badge')}
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase bg-academic-light-blue text-primary mb-3 shadow-2xs font-heading">
+            {t('pages.courseDetail.learningContent.badge', 'NỘI DUNG ĐÀO TẠO 4 KỸ NĂNG')}
           </span>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#10233F] tracking-tight">
-            {t('pages.courseDetail.learningContent.title')}
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-academic-heading tracking-tight font-heading">
+            {t('pages.courseDetail.learningContent.title', 'Trọng Tâm Kiến Thức Từng Kỹ Năng')}
           </h2>
-          <p className="mt-3 text-sm sm:text-base text-slate-600">
-            {t('pages.courseDetail.learningContent.subtitle')}
+          <p className="mt-3 text-sm sm:text-base text-academic-body leading-relaxed max-w-2xl mx-auto">
+            {t('pages.courseDetail.learningContent.subtitle', 'Chương trình chuẩn hóa toàn diện 4 kỹ năng Nghe - Nói - Đọc - Viết theo tiêu chuẩn khảo thí quốc tế')}
           </p>
         </div>
 
@@ -89,32 +102,34 @@ export default function CourseLearningContent({ course }) {
             return (
               <div 
                 key={card.id}
-                className="bg-[#F8FAFC] rounded-2xl p-6 sm:p-8 border border-[#E2E8F0] shadow-xs hover:shadow-md transition-all duration-300"
+                className="bg-academic-soft-white rounded-2xl p-6 sm:p-8 border border-academic-border shadow-2xs hover:shadow-card transition-all duration-300 flex flex-col justify-between group"
               >
                 {/* Header of card */}
-                <div className="flex items-center gap-4 mb-6">
-                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center border ${card.badgeBg}`}>
-                    <Icon className="w-6 h-6" />
+                <div>
+                  <div className="flex items-center gap-4 mb-6">
+                    <div className={`w-12 h-12 rounded-xl flex items-center justify-center border ${card.badgeBg} shadow-2xs group-hover:scale-105 transition-transform`}>
+                      <Icon className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-academic-heading font-heading">
+                        {t(card.titleKey, card.id.toUpperCase())}
+                      </h3>
+                      <p className="text-xs text-academic-muted font-medium">
+                        {t(card.subtitleKey, '')}
+                      </p>
+                    </div>
                   </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-[#10233F]">
-                      {t(card.titleKey)}
-                    </h3>
-                    <p className="text-xs text-slate-500 font-medium">
-                      {t(card.subtitleKey)}
-                    </p>
-                  </div>
-                </div>
 
-                {/* Items */}
-                <ul className="space-y-3.5">
-                  {card.items.map((item) => (
-                    <li key={item} className="flex items-start gap-3 text-sm sm:text-base text-slate-700">
-                      <CheckCircle2 className="w-4 h-4 text-[#2563EB] shrink-0 mt-1" />
-                      <span className="leading-snug">{t(item)}</span>
-                    </li>
-                  ))}
-                </ul>
+                  {/* Items */}
+                  <ul className="space-y-3.5">
+                    {card.items.map((itemText, i) => (
+                      <li key={`skill-${card.id}-${i}`} className="flex items-start gap-3 text-sm sm:text-[15px] text-academic-body">
+                        <CheckCircle2 className="w-4 h-4 text-cta shrink-0 mt-1" />
+                        <span className="leading-snug">{itemText}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             );
           })}

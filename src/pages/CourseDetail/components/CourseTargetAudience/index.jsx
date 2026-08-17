@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { Target, UserCheck, ArrowUpRight } from 'lucide-react';
+import { Target, UserCheck, ArrowUpRight, CheckCircle2 } from 'lucide-react';
 
 export default function CourseTargetAudience({ course }) {
   const { t } = useTranslation();
@@ -8,85 +8,113 @@ export default function CourseTargetAudience({ course }) {
   if (!course) return null;
 
   const targetData = course.targetAudience || {};
-  const whoFor = targetData.whoForKey ? t(targetData.whoForKey) : t('pages.courses.programs.ielts.cardSub');
-  const inputRequirement = targetData.inputRequirementKey ? t(targetData.inputRequirementKey) : t(course.levelKey);
-  const outputTarget = targetData.outputTargetKey ? t(targetData.outputTargetKey) : t(course.targetKey);
+  
+  // Safe helper to resolve translation or fallback gracefully
+  const getTranslatedValue = (key, fallback) => {
+    if (!key) return fallback;
+    const translated = t(key);
+    // If the key is not defined, i18next returns the raw key starting with db.courses
+    if (translated === key || translated.startsWith('db.courses.')) {
+      return fallback;
+    }
+    return translated;
+  };
+
+  const whoFor = getTranslatedValue(
+    targetData.whoForKey,
+    t(course.targetKey, 'Học viên muốn xây dựng năng lực tiếng Anh vững chắc và đạt chuẩn đầu ra mong muốn.')
+  );
+  
+  const inputRequirement = getTranslatedValue(
+    targetData.inputRequirementKey,
+    t(course.levelKey, 'Phù hợp với học viên theo đúng trình độ đầu vào của khóa học.')
+  );
+  
+  const outputTarget = getTranslatedValue(
+    targetData.outputTargetKey,
+    t(course.guaranteeKey || course.targetKey, 'Đạt chuẩn cam kết đầu ra và thành thạo kỹ năng theo mục tiêu đề ra.')
+  );
 
   const columns = [
     {
       num: '01',
       icon: UserCheck,
-      title: t('pages.courseDetail.targetAudience.whoFor'),
+      title: t('pages.courseDetail.targetAudience.whoFor', 'Dành cho ai?'),
       desc: whoFor,
-      borderColor: 'border-t-[#2563EB]',
-      badgeBg: 'bg-blue-50 text-blue-700'
+      borderColor: 'border-t-cta',
+      badgeBg: 'bg-academic-light-blue text-cta',
+      numColor: 'text-cta/30',
     },
     {
       num: '02',
       icon: Target,
-      title: t('pages.courseDetail.targetAudience.inputReq'),
+      title: t('pages.courseDetail.targetAudience.inputReq', 'Yêu cầu đầu vào'),
       desc: inputRequirement,
-      borderColor: 'border-t-indigo-500',
-      badgeBg: 'bg-indigo-50 text-indigo-700'
+      borderColor: 'border-t-primary',
+      badgeBg: 'bg-academic-light-blue text-primary',
+      numColor: 'text-primary/30',
     },
     {
       num: '03',
       icon: ArrowUpRight,
-      title: t('pages.courseDetail.targetAudience.outputTarget'),
+      title: t('pages.courseDetail.targetAudience.outputTarget', 'Mục tiêu đầu ra'),
       desc: outputTarget,
-      borderColor: 'border-t-emerald-500',
-      badgeBg: 'bg-emerald-50 text-emerald-700'
+      borderColor: 'border-t-achievement',
+      badgeBg: 'bg-academic-gold-light text-achievement',
+      numColor: 'text-achievement/40',
     }
   ];
 
   return (
-    <section className="bg-white py-16 sm:py-20 border-b border-[#E2E8F0]">
+    <section className="bg-white py-16 sm:py-20 border-b border-academic-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
-          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase bg-[#EAF2FF] text-[#1746A2] mb-3">
-            {t('pages.courseDetail.targetAudience.badge')}
+          <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold tracking-wider uppercase bg-academic-light-blue text-primary mb-3 shadow-2xs font-heading">
+            {t('pages.courseDetail.targetAudience.badge', 'ĐỐI TƯỢNG · ĐẦU VÀO · ĐẦU RA')}
           </span>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#10233F] tracking-tight">
-            {t('pages.courseDetail.targetAudience.title')}
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-academic-heading tracking-tight font-heading">
+            {t('pages.courseDetail.targetAudience.title', 'Khóa học này có phù hợp với bạn?')}
           </h2>
-          <p className="mt-3 text-sm sm:text-base text-slate-600">
-            {t('pages.courseDetail.targetAudience.subtitle')}
+          <p className="mt-3 text-sm sm:text-base text-academic-body leading-relaxed max-w-2xl mx-auto">
+            {t('pages.courseDetail.targetAudience.subtitle', 'Xác định rõ xuất phát điểm và cam kết mục tiêu trước khi nhập học')}
           </p>
         </div>
 
-        {/* 3 Columns */}
+        {/* 3 Unified Academic Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {columns.map((col) => {
             const Icon = col.icon;
             return (
               <div 
                 key={col.num}
-                className={`bg-[#F8FAFC] rounded-2xl p-6 sm:p-8 border border-[#E2E8F0] border-t-4 ${col.borderColor} shadow-xs hover:shadow-md transition-shadow duration-300 flex flex-col justify-between`}
+                className={`bg-white rounded-2xl p-6 sm:p-8 border border-academic-border border-t-4 ${col.borderColor} shadow-2xs hover:shadow-card transition-all duration-300 flex flex-col justify-between group`}
               >
                 <div>
                   <div className="flex items-center justify-between mb-6">
-                    <span className="text-2xl sm:text-3xl font-black text-slate-300 tracking-tighter">
+                    <span className={`text-3xl sm:text-4xl font-black ${col.numColor} tracking-tighter font-heading`}>
                       {col.num}
                     </span>
-                    <div className={`w-10 h-10 rounded-xl ${col.badgeBg} flex items-center justify-center`}>
+                    <div className={`w-11 h-11 rounded-xl ${col.badgeBg} flex items-center justify-center font-bold shadow-2xs`}>
                       <Icon className="w-5 h-5" />
                     </div>
                   </div>
 
-                  <h3 className="text-lg sm:text-xl font-bold text-[#10233F] mb-3">
+                  <h3 className="text-lg sm:text-xl font-bold text-academic-heading font-heading mb-3">
                     {col.title}
                   </h3>
 
-                  <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+                  <p className="text-sm sm:text-[15px] text-academic-body leading-relaxed font-normal">
                     {col.desc}
                   </p>
                 </div>
 
-                <div className="mt-6 pt-4 border-t border-slate-200/60 flex items-center gap-2 text-xs font-semibold text-slate-500">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#2563EB]" />
-                  <span>{t('programs.guaranteeLabel')}</span>
+                <div className="mt-6 pt-4 border-t border-academic-border flex items-center gap-2 text-xs font-semibold text-academic-muted">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-cta shrink-0" />
+                  <span>
+                    {getTranslatedValue(course.guaranteeKey, t('programs.guaranteeLabel', 'Cam kết chuẩn đầu ra & Theo sát 1-1'))}
+                  </span>
                 </div>
               </div>
             );

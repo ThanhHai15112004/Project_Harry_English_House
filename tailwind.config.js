@@ -2,6 +2,7 @@ import { THEME_COLORS, THEME_FONTS } from './src/core/constants/theme.constants.
 
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
