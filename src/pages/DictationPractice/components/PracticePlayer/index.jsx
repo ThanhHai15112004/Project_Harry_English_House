@@ -138,7 +138,7 @@ export const PracticePlayer = ({
   };
 
   const originUrl = typeof window !== 'undefined' ? window.location.origin : '';
-  const embedUrl = `https://www.youtube-nocookie.com/embed/${youtubeId}?enablejsapi=1&origin=${encodeURIComponent(originUrl)}&widget_referrer=${encodeURIComponent(originUrl)}&rel=0&playsinline=1`;
+  const embedUrl = `https://www.youtube.com/embed/${youtubeId}?enablejsapi=1&origin=${encodeURIComponent(originUrl)}&rel=0&playsinline=1`;
 
   const renderVideoContent = () => {
     if (hideVideo) {
