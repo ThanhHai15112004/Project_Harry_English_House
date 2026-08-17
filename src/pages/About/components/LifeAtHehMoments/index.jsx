@@ -19,19 +19,17 @@ export const LifeAtHehMoments = ({ moments = [], onOpenMoment }) => {
           subtitle={t('pages.about.moments.subtitle')}
         />
 
-        {/* Masonry Grid (Asymmetric 6-9 Photos) */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 pt-4">
+        {/* Balanced Grid (Clean 6-Photo Showcase) */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 pt-4">
           {moments.slice(0, 6).map((item, index) => {
-            const isLarge = index === 0 || index === 4;
+            const captionText = t(item.captionKey || item.titleKey || 'pages.about.moments.badge');
+            
             return (
               <button
                 key={item.id || index}
                 type="button"
-                className={`rounded-3xl overflow-hidden bg-slate-100 border border-slate-200/90 shadow-2xs hover:shadow-card hover:border-academic-cta/50 transition-all duration-300 group cursor-pointer relative text-left focus:outline-hidden focus:ring-2 focus:ring-primary/40 ${
-                  isLarge ? 'md:row-span-2 min-h-[260px] md:min-h-[380px]' : 'min-h-[180px] sm:min-h-[220px]'
-                }`}
+                className="h-[230px] sm:h-[260px] lg:h-[280px] w-full rounded-3xl overflow-hidden bg-academic-surface border border-academic-border shadow-2xs hover:shadow-card hover:border-academic-cta/50 transition-all duration-300 group cursor-pointer relative text-left focus:outline-hidden focus:ring-2 focus:ring-primary/40"
                 onClick={() => {
-                  const captionText = t(item.captionKey);
                   onOpenMoment?.({
                     image: item.image,
                     title: captionText,
@@ -41,14 +39,14 @@ export const LifeAtHehMoments = ({ moments = [], onOpenMoment }) => {
               >
                 <img
                   src={item.image}
-                  alt={t(item.captionKey)}
+                  alt={captionText}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-academic-heading/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
+                <div className="absolute inset-0 bg-gradient-to-t from-academic-heading/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
                   <div className="text-white flex items-center justify-between w-full">
                     <span className="text-xs font-bold truncate max-w-[80%]">
-                      {t(item.captionKey)}
+                      {captionText}
                     </span>
                     <div className="w-7 h-7 rounded-lg bg-white/20 backdrop-blur-md flex items-center justify-center text-white">
                       <ZoomIn size={14} />
