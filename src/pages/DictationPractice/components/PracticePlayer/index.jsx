@@ -137,8 +137,7 @@ export const PracticePlayer = ({
     sendYouTubeCommand('setPlaybackRate', [rate]);
   };
 
-  const originUrl = typeof window !== 'undefined' ? window.location.origin : '';
-  const embedUrl = `https://www.youtube.com/embed/${youtubeId}?enablejsapi=1&origin=${encodeURIComponent(originUrl)}&rel=0&playsinline=1`;
+  const embedUrl = `https://www.youtube.com/embed/${youtubeId}?enablejsapi=1&playsinline=1&rel=0`;
 
   const renderVideoContent = () => {
     if (hideVideo) {
@@ -173,7 +172,6 @@ export const PracticePlayer = ({
           title="YouTube Dictation Player"
           className="w-full h-full object-cover"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         />
       </div>

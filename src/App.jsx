@@ -26,7 +26,7 @@ export const App = () => {
         <ScrollToTop />
         <FloatingContact />
         <Toaster richColors position="top-right" closeButton />
-        <Analytics />
+        {import.meta.env.PROD && <Analytics />}
         <Routes>
           <Route path={ROUTES.HOME} element={<HomePage />} />
           <Route path={ROUTES.DICTATION} element={<DictationHomePage />} />
