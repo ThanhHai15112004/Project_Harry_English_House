@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Trang chủ",
+    "dictation": "Luyện Dictation",
     "programs": "Khóa học",
     "courseDetail": "Chi tiết khóa học",
     "results": "Thành tích học viên",
@@ -2406,5 +2407,106 @@
   },
   "header": {
     "tagline": "IELTS & TIẾNG ANH HỌC THUẬT"
+  },
+  "dictation": {
+    "home": {
+      "badge": "PHƯƠNG PHÁP DICTATION CHUẨN QUỐC TẾ",
+      "titlePrefix": "Luyện Nghe Chép Chính Tả ",
+      "titleHighlight": "Chuyên Sâu & Bứt Phá",
+      "description": "Ép não bộ tập trung 100% vào ngữ điệu, mạo từ, nối âm và ngữ pháp từng câu. Phương pháp kinh điển giúp tăng Band Listening IELTS, TOEIC và phản xạ giao tiếp tự nhiên!",
+      "highlights": {
+        "lessons": "100+ Bài học đa dạng",
+        "native": "Video & Audio chuẩn bản xứ",
+        "instant": "So sánh đáp án tức thì"
+      },
+      "searchPlaceholder": "Tìm kiếm bài học (ví dụ: Beauty, At home, TOEIC, IELTS, Stories...)",
+      "levelLabel": "Trình độ:",
+      "howItWorks": {
+        "badge": "PHƯƠNG PHÁP ĐÃ ĐƯỢC CHỨNG MINH",
+        "title": "How Practicing Dictation Improves Your English Skills",
+        "subtitle": "Khi luyện tập tại Harry English House, bạn sẽ đi qua 4 bước cốt lõi – cả 4 bước đều đóng vai trò quan trọng như nhau!",
+        "step1": {
+          "title": "1. Listen to the audio / video",
+          "titleVi": "1. Lắng nghe thật kỹ",
+          "desc": "Nghe toàn bộ câu để cảm nhận ngữ điệu, trọng âm câu và các hiện tượng nối âm (connected speech) tự nhiên của người bản xứ."
+        },
+        "step2": {
+          "title": "2. Type what you hear",
+          "titleVi": "2. Gõ lại những gì bạn nghe",
+          "desc": "Viết chính xác từng từ bạn nghe được. Quá trình này buộc não bộ phải tập trung cao độ vào chi tiết ngữ pháp, mạo từ và chính tả."
+        },
+        "step3": {
+          "title": "3. Check & correct",
+          "titleVi": "3. Kiểm tra & Nhận diện lỗi",
+          "desc": "Hệ thống tự động so sánh và chỉ ra từ đúng (xanh lá), từ sai (đỏ) hoặc từ nghe sót, giúp bạn khắc phục lỗ hổng nghe tức thì."
+        },
+        "step4": {
+          "title": "4. Read it out loud",
+          "titleVi": "4. Đọc to câu vừa chép",
+          "desc": "Sau khi hoàn thành câu, hãy đọc to lại theo đúng ngữ điệu của video/audio để cải thiện phát âm và tạo phản xạ giao tiếp tự nhiên."
+        }
+      },
+      "exercises": {
+        "badge": "KHO BÀI TẬP ĐA DẠNG",
+        "title": "Danh Sách Bài Học & Playlists",
+        "subtitle": "Lựa chọn chủ đề bạn yêu thích, bấm vào bất kỳ bài học nào để bước vào phòng luyện chép chính tả tương tác ngay!",
+        "empty": "Không tìm thấy bài tập nào phù hợp với bộ lọc của bạn.",
+        "emptyHint": "Hãy thử tìm từ khóa khác hoặc chuyển Level sang ALL.",
+        "viewAll": "Xem tất cả ({{count}} bài)",
+        "collapse": "Thu gọn danh sách",
+        "practiceNow": "Luyện ngay",
+        "sentencesCount": "{{count}} câu"
+      }
+    },
+    "practice": {
+      "backToList": "Quay lại danh sách bài tập",
+      "allTopics": "Tất cả chủ đề",
+      "vocabLevel": "Trình độ từ vựng: {{level}}",
+      "helperBanner": "Chế độ luyện tập: Hãy lắng nghe thật kỹ và gõ lại từng từ bạn nghe được. Bấm Check để kiểm tra kết quả!",
+      "tabDictation": "Dictation",
+      "tabTranscript": "Full transcript",
+      "audioOnlyMode": "Chế độ Ẩn Video (Chỉ nghe âm thanh)",
+      "audioOnlyDesc": "Tập trung 100% thính giác vào âm thanh để tối đa hóa hiệu quả luyện nghe!",
+      "showVideo": "Hiện lại Video",
+      "hideVideo": "Ẩn video",
+      "videoSize": "Kích cỡ video:",
+      "videoSizeNormal": "Vừa (Normal)",
+      "videoSizeLarge": "Lớn (Large)",
+      "audioExercise": "Bài luyện nghe Audio",
+      "listenCarefully": "Lắng nghe thật kỹ...",
+      "typePlaceholder": "Gõ lại những gì bạn nghe được và nhấn Enter để kiểm tra...",
+      "btnCheck": "Kiểm tra",
+      "btnSkip": "Bỏ qua",
+      "btnRedo": "Làm lại câu này",
+      "btnNext": "Sang câu kế tiếp →",
+      "btnContinue": "Tiếp tục bài học →",
+      "correctMessage": "Chính xác tuyệt đối! Xuất sắc! 🎉",
+      "correctAnswer": "Đáp án chuẩn:",
+      "wrongMessage": "Chưa chính xác! Hãy nghe lại và đối chiếu từ nhé:",
+      "youTyped": "Bạn đã gõ:",
+      "answerHint": "Gợi ý đáp án:",
+      "skippedTitle": "Đáp án của câu này:",
+      "translationLabel": "Dịch:",
+      "tipTitle": "Mẹo luyện tập:",
+      "tipContent": "Hãy lặp lại mỗi câu ít nhất 3 lần để cải thiện thính giác và phản xạ nhanh nhất!",
+      "plainTranscriptTitle": "Toàn bộ Transcript dạng văn bản",
+      "settingsTitle": "Cài đặt phòng luyện tập",
+      "playbackSpeed": "Tốc độ phát:",
+      "speedSlow": "0.75x (Chậm)",
+      "speedNormal": "1.0x (Chuẩn)",
+      "speedFast": "1.25x (Nhanh)",
+      "repeatCount": "Số lần tự động lặp:",
+      "repeat1": "1 lần",
+      "repeat2": "2 lần (Khuyên dùng)",
+      "repeat3": "3 lần",
+      "repeatInfinite": "Lặp vô tận cho đến khi dừng",
+      "transVi": "Dịch tiếng Việt",
+      "transNone": "Ẩn dịch (No translation)",
+      "transAria": "Tùy chọn hiển thị bản dịch",
+      "chkRepeat": "Lặp lại",
+      "chkAutoScroll": "Tự động cuộn",
+      "hotkeySpace": "Nhấn Space để Phát/Dừng",
+      "hotkeyArrows": "Nhấn ← và → để chuyển câu"
+    }
   }
 }

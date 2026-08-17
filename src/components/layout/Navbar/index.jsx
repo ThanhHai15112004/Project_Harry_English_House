@@ -13,6 +13,7 @@ import {
   PhoneCall,
   Phone,
   Sparkles,
+  Headphones,
 } from 'lucide-react';
 import { NAV_ITEMS, APP_INFO, ROUTES } from '@/core';
 import { LanguageSwitcher, ThemeToggle, Button } from '@/components/common';
@@ -54,6 +55,8 @@ export const Navbar = () => {
     switch (id) {
       case 'home':
         return <Home size={18} className="text-primary dark:text-sky-400" />;
+      case 'dictation':
+        return <Headphones size={18} className="text-primary dark:text-sky-400" />;
       case 'programs':
         return <BookOpen size={18} className="text-primary dark:text-sky-400" />;
       case 'results':

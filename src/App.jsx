@@ -11,6 +11,8 @@ import {
   ResultsPage,
   AboutPage,
   ContactPage,
+  DictationHomePage,
+  DictationPracticePage,
 } from '@/pages';
 import '@/styles/index.css';
 
@@ -27,6 +29,8 @@ export const App = () => {
         <Analytics />
         <Routes>
           <Route path={ROUTES.HOME} element={<HomePage />} />
+          <Route path={ROUTES.DICTATION} element={<DictationHomePage />} />
+          <Route path={ROUTES.DICTATION_PRACTICE} element={<DictationPracticePage />} />
           <Route path={ROUTES.COURSES} element={<CoursesPage />} />
           <Route path={ROUTES.COURSE_DETAIL} element={<CourseDetailPage />} />
           <Route path={ROUTES.RESULTS} element={<ResultsPage />} />

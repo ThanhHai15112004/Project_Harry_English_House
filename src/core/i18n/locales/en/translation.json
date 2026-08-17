@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Home",
+    "dictation": "Dictation Practice",
     "programs": "Courses",
     "courseDetail": "Course Details",
     "results": "Student Results",
@@ -2446,5 +2447,106 @@
   },
   "header": {
     "tagline": "IELTS & ACADEMIC ENGLISH"
+  },
+  "dictation": {
+    "home": {
+      "badge": "INTERNATIONAL DICTATION METHOD",
+      "titlePrefix": "Master English Listening & Spelling ",
+      "titleHighlight": "Through Deep Dictation",
+      "description": "Train your brain to capture pronunciation, articles, connected speech, and grammar in every sentence. A proven method to boost IELTS & TOEIC Listening bands and natural speaking reflexes!",
+      "highlights": {
+        "lessons": "100+ Diverse Lessons",
+        "native": "Native Video & Audio",
+        "instant": "Instant Feedback & Diff"
+      },
+      "searchPlaceholder": "Search lessons (e.g. Beauty, At home, TOEIC, IELTS, Stories...)",
+      "levelLabel": "Level:",
+      "howItWorks": {
+        "badge": "PROVEN LEARNING METHOD",
+        "title": "How Practicing Dictation Improves Your English Skills",
+        "subtitle": "When practicing at Harry English House, you will go through 4 core steps – all of them are equally important!",
+        "step1": {
+          "title": "1. Listen to the audio / video",
+          "titleVi": "1. Listen carefully",
+          "desc": "Listen to the whole sentence to absorb native intonation, sentence stress, and natural connected speech."
+        },
+        "step2": {
+          "title": "2. Type what you hear",
+          "titleVi": "2. Type what you hear",
+          "desc": "Write down exactly what you hear. This forces your brain to focus intensely on grammar details, articles, and spelling."
+        },
+        "step3": {
+          "title": "3. Check & correct",
+          "titleVi": "3. Check & identify mistakes",
+          "desc": "The system compares your answer instantly and highlights correct words (green), mistakes (red), or missing words."
+        },
+        "step4": {
+          "title": "4. Read it out loud",
+          "titleVi": "4. Read out loud",
+          "desc": "After completing a sentence, read it out loud mimicking native intonation to sharpen pronunciation and speaking reflexes."
+        }
+      },
+      "exercises": {
+        "badge": "AVAILABLE EXERCISES",
+        "title": "Available Exercises & Playlists",
+        "subtitle": "Choose your favorite topic, click any lesson to enter the interactive dictation room!",
+        "empty": "No exercises match your search filters.",
+        "emptyHint": "Try different keywords or set Level to ALL.",
+        "viewAll": "View all ({{count}} lessons)",
+        "collapse": "Collapse list",
+        "practiceNow": "Practice now",
+        "sentencesCount": "{{count}} sentences"
+      }
+    },
+    "practice": {
+      "backToList": "Back to exercise list",
+      "allTopics": "All topics",
+      "vocabLevel": "Vocab level: {{level}}",
+      "helperBanner": "Interactive Practice: Listen carefully and type what you hear. Click Check to verify your answer!",
+      "tabDictation": "Dictation",
+      "tabTranscript": "Full transcript",
+      "audioOnlyMode": "Audio Only Mode (Video Hidden)",
+      "audioOnlyDesc": "Focus 100% of your listening attention on the audio to maximize your results!",
+      "showVideo": "Show video",
+      "hideVideo": "Hide video",
+      "videoSize": "Video size:",
+      "videoSizeNormal": "Normal",
+      "videoSizeLarge": "Large",
+      "audioExercise": "Audio Listening Exercise",
+      "listenCarefully": "Listen carefully...",
+      "typePlaceholder": "Type what you hear... (Press Enter to check)",
+      "btnCheck": "Check",
+      "btnSkip": "Skip",
+      "btnRedo": "Redo this sentence",
+      "btnNext": "Next sentence →",
+      "btnContinue": "Continue lesson →",
+      "correctMessage": "100% Correct! Excellent! 🎉",
+      "correctAnswer": "Standard answer:",
+      "wrongMessage": "Not quite right! Listen again and compare words:",
+      "youTyped": "You typed:",
+      "answerHint": "Answer suggestion:",
+      "skippedTitle": "Answer for this sentence:",
+      "translationLabel": "Translation:",
+      "tipTitle": "Practice Tip:",
+      "tipContent": "Repeat each exercise at least 3 times to improve faster!",
+      "plainTranscriptTitle": "Full Audio & Plain Transcript",
+      "settingsTitle": "Practice Room Settings",
+      "playbackSpeed": "Playback Speed:",
+      "speedSlow": "0.75x (Slow)",
+      "speedNormal": "1.0x (Normal)",
+      "speedFast": "1.25x (Fast)",
+      "repeatCount": "Auto Repeat Count:",
+      "repeat1": "1 time",
+      "repeat2": "2 times (Recommended)",
+      "repeat3": "3 times",
+      "repeatInfinite": "Repeat indefinitely until stopped",
+      "transVi": "Vietnamese translation",
+      "transNone": "No translation",
+      "transAria": "Translation display options",
+      "chkRepeat": "Repeat",
+      "chkAutoScroll": "Auto scroll",
+      "hotkeySpace": "Press Space to Play/Pause",
+      "hotkeyArrows": "Press ← and → to move between sentences"
+    }
   }
 }
