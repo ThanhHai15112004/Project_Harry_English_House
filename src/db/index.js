@@ -43,7 +43,7 @@ const masterDb = {};
 
 for (const path in dbModules) {
   // Extract key name (e.g., './courses.json' -> 'courses')
-  const match = path.match(/\.\/([a-zA-Z0-9-_]+)\.json$/);
+  const match = /\.\/([a-zA-Z0-9-_]+)\.json$/.exec(path);
   if (match) {
     const key = match[1];
     if (key !== 'db') {
@@ -64,5 +64,46 @@ export const media = masterDb.media || {};
 export const methodology = masterDb.methodology || {};
 export const classes = masterDb.classes || {};
 export const programs = masterDb.programs || {};
+export const dictation = masterDb.dictation || { categories: [] };
+
+/**
+ * Get all dictation categories with their exercises
+ */
+export const getDictationCategories = () => {
+  return masterDb.dictation?.categories || [];
+};
+
+/**
+ * Find a specific dictation exercise by its ID across all categories
+ */
+export const getDictationLessonById = (lessonId) => {
+  if (!lessonId) return null;
+  const categories = getDictationCategories();
+  for (const category of categories) {
+    const exercise = category.exercises?.find((ex) => ex.id === lessonId);
+    if (exercise) {
+      return {
+        ...exercise,
+        categoryId: category.id,
+        categoryTitle: category.title,
+        categoryTitleVi: category.titleVi,
+        categoryBadge: category.badge,
+      };
+    }
+  }
+  return null;
+};
+
+/**
+ * Get sibling / related exercises in the same category
+ */
+export const getRelatedLessons = (categoryId, currentLessonId, limit = 4) => {
+  const categories = getDictationCategories();
+  const category = categories.find((c) => c.id === categoryId);
+  if (!category?.exercises) return [];
+  return category.exercises
+    .filter((ex) => ex.id !== currentLessonId)
+    .slice(0, limit);
+};
 
 export default masterDb;

@@ -11,9 +11,8 @@ import {
   CheckCircle2,
   AlertCircle,
   HelpCircle,
-  ChevronDown,
-  ChevronUp,
   Lightbulb,
+  Headphones,
 } from 'lucide-react';
 
 export const DictationTab = ({
@@ -25,6 +24,10 @@ export const DictationTab = ({
   isPlaying,
   onTogglePlay,
   sentences = [],
+  completedSentences = {},
+  onMarkComplete,
+  hasStarted,
+  onStart,
 }) => {
   const { t } = useTranslation();
   const [userInput, setUserInput] = useState('');
@@ -32,18 +35,25 @@ export const DictationTab = ({
   const [showSettings, setShowSettings] = useState(false);
   const [playbackSpeed, setPlaybackSpeed] = useState('1x');
   const [autoRepeatCount, setAutoRepeatCount] = useState('2');
-  const [showPlainTranscript, setShowPlainTranscript] = useState(false);
+
+  const cleanText = (str) =>
+    (str || '')
+      .toLowerCase()
+      .replace(/[.,/#!$%^&*;:{}=\-_`~()?"'’]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
 
   const handleCheck = () => {
-    if (!userInput.trim()) {
-      return;
-    }
-    // Chuẩn hóa so khớp demo
-    const cleanUser = userInput.trim().toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '');
-    const cleanTarget = (currentSentence?.text || '').trim().toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '');
+    if (!userInput.trim()) return;
+
+    const cleanUser = cleanText(userInput);
+    const cleanTarget = cleanText(currentSentence?.text);
 
     if (cleanUser === cleanTarget) {
       setCheckStatus('correct');
+      if (currentSentence?.id) {
+        onMarkComplete?.(currentSentence.id);
+      }
     } else {
       setCheckStatus('wrong');
     }
@@ -68,8 +78,89 @@ export const DictationTab = ({
     onPrevSentence();
   };
 
+  // Word-by-word diff comparison for wrong status
+  const renderWordDiff = () => {
+    const userWords = cleanText(userInput).split(' ');
+    const targetWords = (currentSentence?.text || '').split(' ');
+
+    return (
+      <div className="flex flex-wrap gap-1 text-sm font-medium">
+        {targetWords.map((word, i) => {
+          const targetClean = cleanText(word);
+          const userWord = userWords[i];
+          const userClean = cleanText(userWord);
+          const isMatch = targetClean === userClean;
+
+          return (
+            <span
+              key={`diff-${word}-${i}`}
+              className={`px-1.5 py-0.5 rounded-md font-semibold ${
+                isMatch
+                  ? 'bg-emerald-100 dark:bg-emerald-950/80 text-emerald-700 dark:text-emerald-300'
+                  : 'bg-rose-100 dark:bg-rose-950/80 text-rose-700 dark:text-rose-300 underline'
+              }`}
+            >
+              {word}
+            </span>
+          );
+        })}
+      </div>
+    );
+  };
+
+  // 1. Initial State: Clean Branded Start Card matching Harry English House design system
+  if (!hasStarted) {
+    return (
+      <div className="rounded-3xl p-6 sm:p-10 bg-slate-50/80 dark:bg-slate-900/60 border border-slate-200/90 dark:border-slate-800 flex flex-col items-center justify-center text-center space-y-6 min-h-[340px] animate-fadeIn">
+        {/* Icon */}
+        <div className="h-16 w-16 rounded-2xl bg-blue-50 dark:bg-slate-800 border border-blue-100 dark:border-slate-700 flex items-center justify-center text-primary dark:text-sky-400 shadow-2xs">
+          <Headphones size={28} />
+        </div>
+
+        {/* Header & Subtitle */}
+        <div className="space-y-2 max-w-sm">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-blue-100/70 dark:bg-slate-800 text-primary dark:text-sky-300 text-xs font-bold">
+            <span>{t('dictation.home.exercises.sentencesCount', { count: totalSentences })}</span>
+          </div>
+          <h3 className="font-heading font-black text-xl sm:text-2xl text-academic-heading dark:text-white">
+            {t('dictation.practice.titleDictation', { defaultValue: 'Luyện Nghe & Chép Chính Tả' })}
+          </h3>
+          <p className="text-xs sm:text-sm text-academic-body dark:text-slate-400 leading-relaxed">
+            {t('dictation.practice.startHint', {
+              defaultValue: 'Hệ thống sẽ phát từng câu ngắn, tự động dừng để bạn nghe kỹ và gõ lại chính xác từng từ.',
+            })}
+          </p>
+        </div>
+
+        {/* Start Action */}
+        <div className="space-y-2.5 pt-2">
+          <button
+            type="button"
+            onClick={onStart}
+            className="inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-xl bg-primary hover:bg-blue-700 active:scale-95 text-white font-bold text-sm sm:text-base shadow-md hover:shadow-lg transition-all cursor-pointer"
+          >
+            <Play size={16} className="fill-current ml-0.5" />
+            <span>{t('dictation.practice.startLesson', { defaultValue: 'Bắt đầu làm bài' })}</span>
+          </button>
+          <p className="text-xs text-slate-400">
+            {t('dictation.practice.startShortcut', { defaultValue: 'Hoặc nhấn phím Space để bắt đầu' })}
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  const isCurrentCompleted = !!completedSentences[currentSentence?.id];
+
+  const playButtonClass = isPlaying
+    ? 'bg-amber-500 hover:bg-amber-600 text-white shadow-amber-500/20'
+    : 'bg-primary text-white hover:bg-blue-700 dark:bg-sky-500 dark:text-slate-950 dark:hover:bg-sky-400';
+  const playButtonTitle = isPlaying
+    ? 'Tạm dừng (Phím Space)'
+    : 'Phát lại câu này từ đầu (Phím Space)';
+
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 animate-fadeIn">
       {/* 1. Upper Control Bar */}
       <div className="flex items-center justify-between gap-4 p-3 rounded-2xl bg-slate-50 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800">
         {/* Play / Pause Segment Button */}
@@ -77,10 +168,14 @@ export const DictationTab = ({
           <button
             type="button"
             onClick={onTogglePlay}
-            className="h-10 w-10 rounded-xl bg-primary text-white hover:bg-blue-700 dark:bg-sky-500 dark:text-slate-950 dark:hover:bg-sky-400 flex items-center justify-center shadow-sm transition-all cursor-pointer"
-            title={t('dictation.practice.hotkeySpace')}
+            className={`h-10 w-10 rounded-xl flex items-center justify-center shadow-sm transition-all cursor-pointer ${playButtonClass}`}
+            title={playButtonTitle}
           >
-            {isPlaying ? <Pause size={18} className="fill-current" /> : <Play size={18} className="fill-current ml-0.5" />}
+            {isPlaying ? (
+              <Pause size={18} className="fill-current" />
+            ) : (
+              <Play size={18} className="fill-current ml-0.5" />
+            )}
           </button>
 
           {/* Sentence Navigation */}
@@ -90,13 +185,14 @@ export const DictationTab = ({
               disabled={currentIndex === 0}
               onClick={handlePrev}
               className="p-1.5 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed transition-colors cursor-pointer"
-              title="Previous"
+              title="Câu trước"
             >
               <ChevronLeft size={18} />
             </button>
 
-            <span className="font-mono text-xs sm:text-sm px-2 py-0.5 rounded-md bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
-              {currentIndex + 1} / {totalSentences}
+            <span className="font-mono text-xs sm:text-sm px-2.5 py-0.5 rounded-md bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 flex items-center gap-1">
+              <span>{currentIndex + 1} / {totalSentences}</span>
+              {isCurrentCompleted && <CheckCircle2 size={13} className="text-emerald-500" />}
             </span>
 
             <button
@@ -104,7 +200,7 @@ export const DictationTab = ({
               disabled={currentIndex === totalSentences - 1}
               onClick={handleNext}
               className="p-1.5 rounded-lg hover:bg-slate-200 dark:hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed transition-colors cursor-pointer"
-              title="Next"
+              title="Câu kế tiếp"
             >
               <ChevronRight size={18} />
             </button>
@@ -238,18 +334,23 @@ export const DictationTab = ({
             <p className="text-xs text-emerald-800 dark:text-emerald-300 font-medium">
               {t('dictation.practice.correctAnswer')} <strong>"{currentSentence?.text}"</strong>
             </p>
+            {currentSentence?.translation && (
+              <p className="text-xs text-slate-600 dark:text-slate-400 italic">
+                {currentSentence.translation}
+              </p>
+            )}
           </div>
         )}
 
         {checkStatus === 'wrong' && (
-          <div className="p-4 rounded-2xl bg-rose-50 dark:bg-rose-950/50 border border-rose-200 dark:border-rose-800 text-rose-900 dark:text-rose-200 space-y-2 animate-fadeIn">
+          <div className="p-4 rounded-2xl bg-rose-50 dark:bg-rose-950/50 border border-rose-200 dark:border-rose-800 text-rose-900 dark:text-rose-200 space-y-3 animate-fadeIn">
             <div className="flex items-center gap-2 font-bold text-sm">
               <AlertCircle size={18} className="text-rose-600 dark:text-rose-400" />
               <span>{t('dictation.practice.wrongMessage')}</span>
             </div>
-            <div className="text-xs space-y-1">
-              <p className="text-slate-600 dark:text-slate-400">{t('dictation.practice.youTyped')} <span className="line-through text-rose-600 dark:text-rose-400">{userInput}</span></p>
-              <p className="font-semibold text-slate-800 dark:text-slate-200">{t('dictation.practice.answerHint')} <span className="text-primary dark:text-sky-400 font-bold">"{currentSentence?.text}"</span></p>
+            <div className="space-y-1.5">
+              <p className="text-xs font-bold text-slate-700 dark:text-slate-300">So sánh chi tiết:</p>
+              {renderWordDiff()}
             </div>
           </div>
         )}
@@ -286,29 +387,8 @@ export const DictationTab = ({
         <Lightbulb size={16} className="text-amber-600 dark:text-amber-400 flex-shrink-0" />
         <span><strong>{t('dictation.practice.tipTitle')}</strong> {t('dictation.practice.tipContent')}</span>
       </div>
-
-      {/* 5. Collapsible Plain Transcript */}
-      <div className="border border-slate-200 dark:border-slate-700 rounded-2xl overflow-hidden">
-        <button
-          type="button"
-          onClick={() => setShowPlainTranscript(!showPlainTranscript)}
-          className="w-full flex items-center justify-between p-3.5 bg-slate-50 dark:bg-slate-900/60 text-xs sm:text-sm font-bold text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
-        >
-          <span>{t('dictation.practice.plainTranscriptTitle')}</span>
-          {showPlainTranscript ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-        </button>
-
-        {showPlainTranscript && (
-          <div className="p-4 bg-white dark:bg-slate-800/90 text-xs sm:text-sm text-slate-700 dark:text-slate-300 space-y-2 max-h-60 overflow-y-auto leading-relaxed border-t border-slate-200 dark:border-slate-700">
-            {sentences.map((s, idx) => (
-              <p key={s.id} className={`${idx === currentIndex ? 'font-bold text-primary dark:text-sky-400 bg-blue-50/80 dark:bg-slate-700/60 p-1.5 rounded-lg' : ''}`}>
-                <span className="text-slate-400 mr-2 font-mono text-[11px]">#{idx + 1}</span>
-                {s.text}
-              </p>
-            ))}
-          </div>
-        )}
-      </div>
     </div>
   );
 };
+
+export default DictationTab;

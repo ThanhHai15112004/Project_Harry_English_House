@@ -152,9 +152,23 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
                             className="group flex items-center justify-between p-2.5 sm:p-3 rounded-2xl bg-slate-50/80 dark:bg-slate-900/60 hover:bg-blue-50 dark:hover:bg-slate-700/60 border border-slate-200/60 dark:border-slate-800 hover:border-blue-200 dark:hover:border-slate-600 transition-all"
                           >
                             <div className="flex items-center gap-2.5 min-w-0 pr-2">
-                              <span className="h-7 w-7 rounded-xl bg-white dark:bg-slate-800 text-primary dark:text-sky-400 border border-slate-200/80 dark:border-slate-700 flex items-center justify-center flex-shrink-0 shadow-2xs group-hover:scale-105 transition-transform">
-                                <Play size={12} className="fill-current ml-0.5" />
-                              </span>
+                              {exercise.thumbnailUrl ? (
+                                <div className="relative h-9 w-14 rounded-lg overflow-hidden flex-shrink-0 bg-slate-900 shadow-2xs group-hover:ring-1 group-hover:ring-primary/40 transition-all">
+                                  <img
+                                    src={exercise.thumbnailUrl}
+                                    alt={exercise.title}
+                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                    loading="lazy"
+                                  />
+                                  <div className="absolute inset-0 bg-black/20 flex items-center justify-center group-hover:bg-primary/30 transition-colors">
+                                    <Play size={10} className="fill-white text-white ml-0.5" />
+                                  </div>
+                                </div>
+                              ) : (
+                                <span className="h-7 w-7 rounded-xl bg-white dark:bg-slate-800 text-primary dark:text-sky-400 border border-slate-200/80 dark:border-slate-700 flex items-center justify-center flex-shrink-0 shadow-2xs group-hover:scale-105 transition-transform">
+                                  <Play size={12} className="fill-current ml-0.5" />
+                                </span>
+                              )}
                               <span className="text-xs sm:text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-primary dark:group-hover:text-sky-400 transition-colors truncate">
                                 {exercise.title}
                               </span>

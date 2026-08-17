@@ -1,0 +1,3812 @@
+{
+  "categories": [
+    {
+      "id": "short-stories",
+      "title": "Short Stories",
+      "titleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+      "badge": "A1 - B1",
+      "iconName": "BookOpen",
+      "description": "Tuyển tập truyện kể sinh động với ngữ điệu tự nhiên, từ vựng gần gũi và phát âm rõ ràng, phù hợp cho người mới bắt đầu.",
+      "exercises": [
+        {
+          "id": "the-bear-and-the-bee",
+          "exerciseNumber": 1,
+          "categoryId": "short-stories",
+          "categoryTitle": "Short Stories",
+          "categoryTitleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+          "title": "The Bear and the Bee",
+          "titleVi": "The Bear and the Bee",
+          "level": "A1",
+          "duration": "01:29",
+          "mediaType": "youtube",
+          "youtubeId": "jKi2SvWOCXc",
+          "thumbnailUrl": "https://img.youtube.com/vi/jKi2SvWOCXc/hqdefault.jpg",
+          "totalSentences": 14,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.5,
+              "text": "One day Mr Bear looks in his cupboard and he can't find any honey.",
+              "translation": "Một ngày nọ, chú Gấu nhìn vào tủ và không tìm thấy một chút mật ong nào."
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 11,
+              "text": "Oh no! There's no honey in my cupboard! says Mr Bear.",
+              "translation": "Ôi không! Không còn chút mật ong nào trong tủ cả! Chú Gấu thốt lên."
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 16.8,
+              "text": "Mr Bear is hungry, so he goes into the forest to look for honey.",
+              "translation": "Chú Gấu đang rất đói, vì vậy chú đi vào rừng để tìm mật ong."
+            },
+            {
+              "id": 4,
+              "startTime": 16.8,
+              "endTime": 22.5,
+              "text": "He walks and walks until he sees a big fallen tree.",
+              "translation": "Chú bước đi mải miết cho đến khi nhìn thấy một thân cây to bị đổ."
+            },
+            {
+              "id": 5,
+              "startTime": 22.5,
+              "endTime": 28.2,
+              "text": "There is a little bee buzzing around the old hollow log.",
+              "translation": "Có một chú ong nhỏ đang vo ve quanh khúc gỗ mục rỗng ruột."
+            },
+            {
+              "id": 6,
+              "startTime": 28.2,
+              "endTime": 34,
+              "text": "Aha! Where there are bees, there must be honey! thinks Mr Bear.",
+              "translation": "Aha! Nơi nào có ong thì chắc chắn nơi đó có mật! Chú Gấu thầm nghĩ."
+            },
+            {
+              "id": 7,
+              "startTime": 34,
+              "endTime": 40.2,
+              "text": "He peeks inside the hollow log and smells the delicious sweet honey.",
+              "translation": "Chú ngó vào bên trong khúc gỗ rỗng và ngửi thấy mùi mật ong thơm ngon ngọt ngào."
+            },
+            {
+              "id": 8,
+              "startTime": 40.2,
+              "endTime": 46.5,
+              "text": "Suddenly, the little bee spots Mr Bear and stings him right on the nose! Ouch!",
+              "translation": "Bất thình lình, chú ong nhỏ phát hiện ra Gấu và chích ngay vào đầu mũi chú! Ái chà!"
+            },
+            {
+              "id": 9,
+              "startTime": 46.5,
+              "endTime": 52.8,
+              "text": "Mr Bear gets very angry. He roars and smashes the log with his giant paws.",
+              "translation": "Chú Gấu nổi trận lôi đình. Chú gầm lên và vung đôi bàn chân to đập mạnh vào khúc gỗ."
+            },
+            {
+              "id": 10,
+              "startTime": 52.8,
+              "endTime": 59.5,
+              "text": "Suddenly, a whole swarm of angry bees flies out from the tree trunk!",
+              "translation": "Bất ngờ thay, cả một đàn ong giận dữ bay túa ra từ thân cây!"
+            },
+            {
+              "id": 11,
+              "startTime": 59.5,
+              "endTime": 66.2,
+              "text": "Mr Bear turns and runs as fast as his legs can carry him toward the lake.",
+              "translation": "Chú Gấu quay đầu chạy thục mạng hết sức có thể về phía bờ hồ."
+            },
+            {
+              "id": 12,
+              "startTime": 66.2,
+              "endTime": 73,
+              "text": "He jumps splash into the cold water and stays under until the bees are gone.",
+              "translation": "Chú nhảy tùm xuống làn nước lạnh và nấp dưới nước cho đến khi đàn ong bay đi hết."
+            },
+            {
+              "id": 13,
+              "startTime": 73,
+              "endTime": 80.5,
+              "text": "Poor Mr Bear has no honey, a swollen nose, and wet dripping fur.",
+              "translation": "Tội nghiệp chú Gấu, chẳng có mật ong, mũi thì sưng vù và bộ lông ướt sũng."
+            },
+            {
+              "id": 14,
+              "startTime": 80.5,
+              "endTime": 89,
+              "text": "It is always better to bear a single insult in peace than to provoke a swarm of enemies.",
+              "translation": "Nhẫn nhịn một lời xúc phạm nhỏ luôn tốt hơn là chọc giận cả một bầy kẻ thù."
+            }
+          ]
+        },
+        {
+          "id": "the-wind-and-the-sun",
+          "exerciseNumber": 2,
+          "categoryId": "short-stories",
+          "categoryTitle": "Short Stories",
+          "categoryTitleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+          "title": "The Wind and the Sun",
+          "titleVi": "The Wind and the Sun",
+          "level": "A1",
+          "duration": "01:12",
+          "mediaType": "youtube",
+          "youtubeId": "_z6ZIwKu1bY",
+          "thumbnailUrl": "https://img.youtube.com/vi/_z6ZIwKu1bY/hqdefault.jpg",
+          "totalSentences": 11,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.8,
+              "text": "The North Wind and the Sun were disputing which was the stronger.",
+              "translation": "Gió Bấc và Mặt Trời đang tranh cãi xem ai là người mạnh mẽ hơn."
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 11.5,
+              "text": "While they were debating, a traveler came walking along the road wrapped in a warm cloak.",
+              "translation": "Trong lúc họ đang tranh luận, một người lữ khách đi dọc con đường, choàng chiếc áo khoác ấm áp."
+            },
+            {
+              "id": 3,
+              "startTime": 11.5,
+              "endTime": 17.5,
+              "text": "They agreed that the one who first made the traveler take off his cloak should be declared the winner.",
+              "translation": "Họ đồng ý rằng ai khiến người lữ khách cởi áo khoác ra trước sẽ là người chiến thắng."
+            },
+            {
+              "id": 4,
+              "startTime": 17.5,
+              "endTime": 23.5,
+              "text": "The North Wind decided to try his power first.",
+              "translation": "Gió Bấc quyết định thử sức mạnh của mình trước."
+            },
+            {
+              "id": 5,
+              "startTime": 23.5,
+              "endTime": 30,
+              "text": "He blew with all his might, sending cold gusts of wind howling through the trees.",
+              "translation": "Gió Bấc thổi hết sức bình sinh, tạo nên những cơn gió lạnh rít qua hàng cây."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 36.8,
+              "text": "But the harder the cold wind blew, the tighter the traveler wrapped his cloak around himself.",
+              "translation": "Nhưng gió lạnh càng thổi mạnh thì người lữ khách lại càng quấn chặt áo khoác quanh người."
+            },
+            {
+              "id": 7,
+              "startTime": 36.8,
+              "endTime": 43,
+              "text": "At last, out of breath and exhausted, the North Wind gave up in defeat.",
+              "translation": "Cuối cùng, hết hơi và kiệt sức, Gió Bấc đành chịu thua và bỏ cuộc."
+            },
+            {
+              "id": 8,
+              "startTime": 43,
+              "endTime": 49.5,
+              "text": "Then the Sun smiled brightly and shone with warm, gentle beams of golden light.",
+              "translation": "Sau đó, Mặt Trời mỉm cười rạng rỡ và tỏa ra những tia nắng vàng ấm áp, dịu dàng."
+            },
+            {
+              "id": 9,
+              "startTime": 49.5,
+              "endTime": 56,
+              "text": "The traveler felt the pleasant warmth and soon began to feel very hot.",
+              "translation": "Người lữ khách cảm nhận được hơi ấm dễ chịu và chẳng mấy chốc bắt đầu thấy rất nóng."
+            },
+            {
+              "id": 10,
+              "startTime": 56,
+              "endTime": 63.2,
+              "text": "He gladly unfastened his heavy cloak and took it off to rest under a shade tree.",
+              "translation": "Ông vui vẻ cởi bỏ chiếc áo khoác nặng nề ra để nghỉ ngơi dưới gốc cây râm mát."
+            },
+            {
+              "id": 11,
+              "startTime": 63.2,
+              "endTime": 72,
+              "text": "Persuasion and gentle warmth are far more powerful than harsh force and fury.",
+              "translation": "Sự thuyết phục và hơi ấm dịu dàng luôn mạnh mẽ hơn bạo lực và sự cuồng nộ."
+            }
+          ]
+        },
+        {
+          "id": "the-dog-and-his-bone",
+          "exerciseNumber": 3,
+          "categoryId": "short-stories",
+          "categoryTitle": "Short Stories",
+          "categoryTitleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+          "title": "The Dog and his Bone",
+          "titleVi": "The Dog and his Bone",
+          "level": "A1",
+          "duration": "00:58",
+          "mediaType": "youtube",
+          "youtubeId": "Oq-vK6nyPDY",
+          "thumbnailUrl": "https://img.youtube.com/vi/Oq-vK6nyPDY/hqdefault.jpg",
+          "totalSentences": 9,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.5,
+              "text": "A dog was walking proudly through the village carrying a juicy bone in his mouth.",
+              "translation": "Một chú chó đang hãnh diện bước đi trong làng, ngậm một khúc xương ngon lành trong miệng."
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 11.2,
+              "text": "He came to a small wooden bridge spanning across a sparkling clear stream.",
+              "translation": "Chú đi tới một cây cầu gỗ nhỏ bắc ngang qua dòng suối trong vắt lấp lánh."
+            },
+            {
+              "id": 3,
+              "startTime": 11.2,
+              "endTime": 17,
+              "text": "As he crossed the bridge, he looked down into the water and saw his reflection.",
+              "translation": "Khi băng qua cầu, chú nhìn xuống mặt nước và thấy hình ảnh phản chiếu của chính mình."
+            },
+            {
+              "id": 4,
+              "startTime": 17,
+              "endTime": 23.5,
+              "text": "He thought it was another dog carrying a bone twice as big as his own!",
+              "translation": "Chú cứ ngỡ đó là một chú chó khác đang ngậm khúc xương to gấp đôi của mình!"
+            },
+            {
+              "id": 5,
+              "startTime": 23.5,
+              "endTime": 30,
+              "text": "Greed overcame him, and he decided to snatch the bigger bone for himself.",
+              "translation": "Lòng tham nổi lên, chú quyết định đớp lấy khúc xương to hơn kia cho bằng được."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 36.5,
+              "text": "He opened his mouth wide and let out a loud ferocious bark.",
+              "translation": "Chú há to mồm và sủa lên một tiếng thật dữ dội."
+            },
+            {
+              "id": 7,
+              "startTime": 36.5,
+              "endTime": 43,
+              "text": "The instant he opened his jaws, his own piece of bone fell into the rushing water.",
+              "translation": "Ngay khoảnh khắc chú vừa mở miệng, khúc xương của chính mình liền rơi tóm xuống dòng nước."
+            },
+            {
+              "id": 8,
+              "startTime": 43,
+              "endTime": 50,
+              "text": "It sank straight to the bottom and was quickly swept away by the current.",
+              "translation": "Nó chìm thẳng xuống đáy và nhanh chóng bị dòng nước chảy xiết cuốn trôi đi mất."
+            },
+            {
+              "id": 9,
+              "startTime": 50,
+              "endTime": 58,
+              "text": "He went home sad and hungry, having lost everything due to his foolish greed.",
+              "translation": "Chú lủi thủi trở về nhà trong buồn bã và đói meo, đánh mất tất cả chỉ vì lòng tham mù quáng."
+            }
+          ]
+        },
+        {
+          "id": "the-little-red-hen",
+          "exerciseNumber": 4,
+          "categoryId": "short-stories",
+          "categoryTitle": "Short Stories",
+          "categoryTitleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+          "title": "The Little Red Hen",
+          "titleVi": "The Little Red Hen",
+          "level": "A2",
+          "duration": "00:53",
+          "mediaType": "youtube",
+          "youtubeId": "VjTJvwgJnGc",
+          "thumbnailUrl": "https://img.youtube.com/vi/VjTJvwgJnGc/hqdefault.jpg",
+          "totalSentences": 9,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.5,
+              "text": "Once upon a time, the Little Red Hen lived on a farm with a lazy cat, a sleepy dog, and a noisy duck.",
+              "translation": "Ngày xửa ngày xưa, cô Gà Mái Đỏ sống trong nông trại cùng mèo lười, chó ngái ngủ và vịt ồn ào."
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 11,
+              "text": "One day, she found some golden grains of wheat lying in the farmyard.",
+              "translation": "Một ngày nọ, cô tìm thấy vài hạt lúa mì vàng óng nằm trong sân nông trại."
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 16.5,
+              "text": "Who will help me plant these wheat seeds? asked the Little Red Hen.",
+              "translation": "Ai sẽ giúp tôi gieo những hạt lúa mì này? Gà Mái Đỏ hỏi."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21,
+              "text": "Not I, meowed the cat. Not I, barked the dog. Not I, quacked the duck.",
+              "translation": "Không phải tôi, mèo kêu. Không phải tôi, chó sủa. Không phải tôi, vịt quác quác."
+            },
+            {
+              "id": 5,
+              "startTime": 21,
+              "endTime": 26.5,
+              "text": "Then I will plant them myself, said the Little Red Hen, and so she did.",
+              "translation": "Vậy thì tôi sẽ tự gieo hạt, Gà Mái Đỏ nói, và cô đã làm như vậy."
+            },
+            {
+              "id": 6,
+              "startTime": 26.5,
+              "endTime": 32.5,
+              "text": "The wheat grew tall and ripe, and she harvested every single stalk alone.",
+              "translation": "Lúa mì lớn cao và chín vàng, và cô đã một mình thu hoạch từng gốc lúa."
+            },
+            {
+              "id": 7,
+              "startTime": 32.5,
+              "endTime": 39,
+              "text": "She took the grain to the mill and baked a fragrant loaf of fresh bread.",
+              "translation": "Cô mang hạt lúa đến cối xay và nướng một ổ bánh mì mới thơm nức mũi."
+            },
+            {
+              "id": 8,
+              "startTime": 39,
+              "endTime": 45,
+              "text": "When the bread came out of the oven, all the lazy animals came running to eat.",
+              "translation": "Khi bánh mì ra lò, tất cả các con vật lười biếng đều chạy ùa tới để đòi ăn."
+            },
+            {
+              "id": 9,
+              "startTime": 45,
+              "endTime": 53,
+              "text": "No, said the hen, you did not help with the work, so my chicks and I will eat it all!",
+              "translation": "Không, cô gà mái nói, các bạn đã không chịu phụ giúp, nên đàn con và tôi sẽ ăn hết!"
+            }
+          ]
+        },
+        {
+          "id": "the-bird-and-the-whale",
+          "exerciseNumber": 5,
+          "categoryId": "short-stories",
+          "categoryTitle": "Short Stories",
+          "categoryTitleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+          "title": "The Bird and the Whale",
+          "titleVi": "The Bird and the Whale",
+          "level": "A2",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "FU_0NF_jrgE",
+          "thumbnailUrl": "https://img.youtube.com/vi/FU_0NF_jrgE/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "the-colour-yellow",
+          "exerciseNumber": 6,
+          "categoryId": "short-stories",
+          "categoryTitle": "Short Stories",
+          "categoryTitleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+          "title": "The Colour Yellow",
+          "titleVi": "The Colour Yellow",
+          "level": "A2",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "UqIGkcmlNvU",
+          "thumbnailUrl": "https://img.youtube.com/vi/UqIGkcmlNvU/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "bears-go-flat-hunting",
+          "exerciseNumber": 7,
+          "categoryId": "short-stories",
+          "categoryTitle": "Short Stories",
+          "categoryTitleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+          "title": "Bears go Flat Hunting",
+          "titleVi": "Bears go Flat Hunting",
+          "level": "A2",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "S-XNLAxHKxM",
+          "thumbnailUrl": "https://img.youtube.com/vi/S-XNLAxHKxM/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "baby-panda",
+          "exerciseNumber": 8,
+          "categoryId": "short-stories",
+          "categoryTitle": "Short Stories",
+          "categoryTitleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+          "title": "Baby Panda",
+          "titleVi": "Baby Panda",
+          "level": "B1",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "Gh_xZVUh5-c",
+          "thumbnailUrl": "https://img.youtube.com/vi/Gh_xZVUh5-c/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "silly-forts-big-trouble",
+          "exerciseNumber": 9,
+          "categoryId": "short-stories",
+          "categoryTitle": "Short Stories",
+          "categoryTitleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+          "title": "Silly Forts, Big Trouble! 🐻📦",
+          "titleVi": "Silly Forts, Big Trouble! 🐻📦",
+          "level": "B1",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "VtGXnW_b8Ws",
+          "thumbnailUrl": "https://img.youtube.com/vi/VtGXnW_b8Ws/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "ice-bear-s-crush",
+          "exerciseNumber": 10,
+          "categoryId": "short-stories",
+          "categoryTitle": "Short Stories",
+          "categoryTitleVi": "Truyện Ngắn Thiếu Nhi & Đời Sống",
+          "title": "Ice Bear's Crush 👀",
+          "titleVi": "Ice Bear's Crush 👀",
+          "level": "B1",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "IxZg3nMB130",
+          "thumbnailUrl": "https://img.youtube.com/vi/IxZg3nMB130/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daily-conversations",
+      "title": "Daily Conversations",
+      "titleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+      "badge": "A1 - B2",
+      "iconName": "MessageSquare",
+      "description": "Các đoạn hội thoại ngắn, tự nhiên trong các tình huống thực tế: chào hỏi, gia đình, nhà hàng, mua sắm và công sở.",
+      "exercises": [
+        {
+          "id": "small-talk",
+          "exerciseNumber": 1,
+          "categoryId": "daily-conversations",
+          "categoryTitle": "Daily Conversations",
+          "categoryTitleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+          "title": "Small Talk",
+          "titleVi": "Small Talk",
+          "level": "A1",
+          "duration": "00:43",
+          "mediaType": "youtube",
+          "youtubeId": "ry9SYnV3svc",
+          "thumbnailUrl": "https://img.youtube.com/vi/ry9SYnV3svc/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.8,
+              "text": "Hi there! How is everything going with you today?",
+              "translation": "Chào bạn! Mọi chuyện hôm nay của bạn thế nào rồi?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 10.3,
+              "text": "Everything is going really well, thanks for asking! How about yourself?",
+              "translation": "Mọi thứ đều rất tốt, cảm ơn bạn đã hỏi thăm! Còn bạn thì sao?"
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 15.8,
+              "text": "I've been quite busy preparing for the upcoming project deadline this Friday.",
+              "translation": "Mình khá bận rộn chuẩn bị cho hạn chót dự án sắp tới vào thứ Sáu này."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21.3,
+              "text": "That sounds challenging, but I know you always manage to deliver great work.",
+              "translation": "Nghe có vẻ thử thách đấy, nhưng mình biết bạn luôn hoàn thành công việc rất xuất sắc."
+            },
+            {
+              "id": 5,
+              "startTime": 22,
+              "endTime": 26.8,
+              "text": "Thank you so much! Do you have any special plans for the coming weekend?",
+              "translation": "Cảm ơn bạn rất nhiều! Cuối tuần tới bạn có dự định đặc biệt gì không?"
+            },
+            {
+              "id": 6,
+              "startTime": 27.5,
+              "endTime": 32.3,
+              "text": "I'm thinking of going on a short road trip to the countryside to relax.",
+              "translation": "Mình đang định làm một chuyến đi ngắn về vùng quê để thư giãn."
+            },
+            {
+              "id": 7,
+              "startTime": 33,
+              "endTime": 37.8,
+              "text": "That sounds like a wonderful getaway! I hope the weather stays sunny and pleasant.",
+              "translation": "Đó là một chuyến đi xả hơi tuyệt vời! Chúc bạn có thời tiết nắng đẹp và dễ chịu."
+            },
+            {
+              "id": 8,
+              "startTime": 38.5,
+              "endTime": 43.3,
+              "text": "Thanks a lot! Let's catch up over lunch sometime next week.",
+              "translation": "Cảm ơn bạn nhiều nhé! Hẹn gặp lại ăn trưa cùng nhau vào tuần tới."
+            }
+          ]
+        },
+        {
+          "id": "travel",
+          "exerciseNumber": 2,
+          "categoryId": "daily-conversations",
+          "categoryTitle": "Daily Conversations",
+          "categoryTitleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+          "title": "Travel",
+          "titleVi": "Travel",
+          "level": "A1",
+          "duration": "00:43",
+          "mediaType": "youtube",
+          "youtubeId": "TTn0J7MT5lU",
+          "thumbnailUrl": "https://img.youtube.com/vi/TTn0J7MT5lU/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.8,
+              "text": "Hi there! How is everything going with you today?",
+              "translation": "Chào bạn! Mọi chuyện hôm nay của bạn thế nào rồi?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 10.3,
+              "text": "Everything is going really well, thanks for asking! How about yourself?",
+              "translation": "Mọi thứ đều rất tốt, cảm ơn bạn đã hỏi thăm! Còn bạn thì sao?"
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 15.8,
+              "text": "I've been quite busy preparing for the upcoming project deadline this Friday.",
+              "translation": "Mình khá bận rộn chuẩn bị cho hạn chót dự án sắp tới vào thứ Sáu này."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21.3,
+              "text": "That sounds challenging, but I know you always manage to deliver great work.",
+              "translation": "Nghe có vẻ thử thách đấy, nhưng mình biết bạn luôn hoàn thành công việc rất xuất sắc."
+            },
+            {
+              "id": 5,
+              "startTime": 22,
+              "endTime": 26.8,
+              "text": "Thank you so much! Do you have any special plans for the coming weekend?",
+              "translation": "Cảm ơn bạn rất nhiều! Cuối tuần tới bạn có dự định đặc biệt gì không?"
+            },
+            {
+              "id": 6,
+              "startTime": 27.5,
+              "endTime": 32.3,
+              "text": "I'm thinking of going on a short road trip to the countryside to relax.",
+              "translation": "Mình đang định làm một chuyến đi ngắn về vùng quê để thư giãn."
+            },
+            {
+              "id": 7,
+              "startTime": 33,
+              "endTime": 37.8,
+              "text": "That sounds like a wonderful getaway! I hope the weather stays sunny and pleasant.",
+              "translation": "Đó là một chuyến đi xả hơi tuyệt vời! Chúc bạn có thời tiết nắng đẹp và dễ chịu."
+            },
+            {
+              "id": 8,
+              "startTime": 38.5,
+              "endTime": 43.3,
+              "text": "Thanks a lot! Let's catch up over lunch sometime next week.",
+              "translation": "Cảm ơn bạn nhiều nhé! Hẹn gặp lại ăn trưa cùng nhau vào tuần tới."
+            }
+          ]
+        },
+        {
+          "id": "small-talk-with-neighbors",
+          "exerciseNumber": 3,
+          "categoryId": "daily-conversations",
+          "categoryTitle": "Daily Conversations",
+          "categoryTitleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+          "title": "Small Talk with Neighbors",
+          "titleVi": "Small Talk with Neighbors",
+          "level": "A1",
+          "duration": "00:43",
+          "mediaType": "youtube",
+          "youtubeId": "vLUFOetBdcE",
+          "thumbnailUrl": "https://img.youtube.com/vi/vLUFOetBdcE/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.8,
+              "text": "Hi there! How is everything going with you today?",
+              "translation": "Chào bạn! Mọi chuyện hôm nay của bạn thế nào rồi?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 10.3,
+              "text": "Everything is going really well, thanks for asking! How about yourself?",
+              "translation": "Mọi thứ đều rất tốt, cảm ơn bạn đã hỏi thăm! Còn bạn thì sao?"
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 15.8,
+              "text": "I've been quite busy preparing for the upcoming project deadline this Friday.",
+              "translation": "Mình khá bận rộn chuẩn bị cho hạn chót dự án sắp tới vào thứ Sáu này."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21.3,
+              "text": "That sounds challenging, but I know you always manage to deliver great work.",
+              "translation": "Nghe có vẻ thử thách đấy, nhưng mình biết bạn luôn hoàn thành công việc rất xuất sắc."
+            },
+            {
+              "id": 5,
+              "startTime": 22,
+              "endTime": 26.8,
+              "text": "Thank you so much! Do you have any special plans for the coming weekend?",
+              "translation": "Cảm ơn bạn rất nhiều! Cuối tuần tới bạn có dự định đặc biệt gì không?"
+            },
+            {
+              "id": 6,
+              "startTime": 27.5,
+              "endTime": 32.3,
+              "text": "I'm thinking of going on a short road trip to the countryside to relax.",
+              "translation": "Mình đang định làm một chuyến đi ngắn về vùng quê để thư giãn."
+            },
+            {
+              "id": 7,
+              "startTime": 33,
+              "endTime": 37.8,
+              "text": "That sounds like a wonderful getaway! I hope the weather stays sunny and pleasant.",
+              "translation": "Đó là một chuyến đi xả hơi tuyệt vời! Chúc bạn có thời tiết nắng đẹp và dễ chịu."
+            },
+            {
+              "id": 8,
+              "startTime": 38.5,
+              "endTime": 43.3,
+              "text": "Thanks a lot! Let's catch up over lunch sometime next week.",
+              "translation": "Cảm ơn bạn nhiều nhé! Hẹn gặp lại ăn trưa cùng nhau vào tuần tới."
+            }
+          ]
+        },
+        {
+          "id": "house-vocabulary-home-tour",
+          "exerciseNumber": 4,
+          "categoryId": "daily-conversations",
+          "categoryTitle": "Daily Conversations",
+          "categoryTitleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+          "title": "House Vocabulary & Home Tour",
+          "titleVi": "House Vocabulary & Home Tour",
+          "level": "A2",
+          "duration": "00:43",
+          "mediaType": "youtube",
+          "youtubeId": "YHb6o8DiMt0",
+          "thumbnailUrl": "https://img.youtube.com/vi/YHb6o8DiMt0/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.8,
+              "text": "Hi there! How is everything going with you today?",
+              "translation": "Chào bạn! Mọi chuyện hôm nay của bạn thế nào rồi?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 10.3,
+              "text": "Everything is going really well, thanks for asking! How about yourself?",
+              "translation": "Mọi thứ đều rất tốt, cảm ơn bạn đã hỏi thăm! Còn bạn thì sao?"
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 15.8,
+              "text": "I've been quite busy preparing for the upcoming project deadline this Friday.",
+              "translation": "Mình khá bận rộn chuẩn bị cho hạn chót dự án sắp tới vào thứ Sáu này."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21.3,
+              "text": "That sounds challenging, but I know you always manage to deliver great work.",
+              "translation": "Nghe có vẻ thử thách đấy, nhưng mình biết bạn luôn hoàn thành công việc rất xuất sắc."
+            },
+            {
+              "id": 5,
+              "startTime": 22,
+              "endTime": 26.8,
+              "text": "Thank you so much! Do you have any special plans for the coming weekend?",
+              "translation": "Cảm ơn bạn rất nhiều! Cuối tuần tới bạn có dự định đặc biệt gì không?"
+            },
+            {
+              "id": 6,
+              "startTime": 27.5,
+              "endTime": 32.3,
+              "text": "I'm thinking of going on a short road trip to the countryside to relax.",
+              "translation": "Mình đang định làm một chuyến đi ngắn về vùng quê để thư giãn."
+            },
+            {
+              "id": 7,
+              "startTime": 33,
+              "endTime": 37.8,
+              "text": "That sounds like a wonderful getaway! I hope the weather stays sunny and pleasant.",
+              "translation": "Đó là một chuyến đi xả hơi tuyệt vời! Chúc bạn có thời tiết nắng đẹp và dễ chịu."
+            },
+            {
+              "id": 8,
+              "startTime": 38.5,
+              "endTime": 43.3,
+              "text": "Thanks a lot! Let's catch up over lunch sometime next week.",
+              "translation": "Cảm ơn bạn nhiều nhé! Hẹn gặp lại ăn trưa cùng nhau vào tuần tới."
+            }
+          ]
+        },
+        {
+          "id": "talking-about-hobbies",
+          "exerciseNumber": 5,
+          "categoryId": "daily-conversations",
+          "categoryTitle": "Daily Conversations",
+          "categoryTitleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+          "title": "Talking about hobbies",
+          "titleVi": "Talking about hobbies",
+          "level": "A2",
+          "duration": "00:43",
+          "mediaType": "youtube",
+          "youtubeId": "Tw-BZcOSW3A",
+          "thumbnailUrl": "https://img.youtube.com/vi/Tw-BZcOSW3A/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.8,
+              "text": "Hi there! How is everything going with you today?",
+              "translation": "Chào bạn! Mọi chuyện hôm nay của bạn thế nào rồi?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 10.3,
+              "text": "Everything is going really well, thanks for asking! How about yourself?",
+              "translation": "Mọi thứ đều rất tốt, cảm ơn bạn đã hỏi thăm! Còn bạn thì sao?"
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 15.8,
+              "text": "I've been quite busy preparing for the upcoming project deadline this Friday.",
+              "translation": "Mình khá bận rộn chuẩn bị cho hạn chót dự án sắp tới vào thứ Sáu này."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21.3,
+              "text": "That sounds challenging, but I know you always manage to deliver great work.",
+              "translation": "Nghe có vẻ thử thách đấy, nhưng mình biết bạn luôn hoàn thành công việc rất xuất sắc."
+            },
+            {
+              "id": 5,
+              "startTime": 22,
+              "endTime": 26.8,
+              "text": "Thank you so much! Do you have any special plans for the coming weekend?",
+              "translation": "Cảm ơn bạn rất nhiều! Cuối tuần tới bạn có dự định đặc biệt gì không?"
+            },
+            {
+              "id": 6,
+              "startTime": 27.5,
+              "endTime": 32.3,
+              "text": "I'm thinking of going on a short road trip to the countryside to relax.",
+              "translation": "Mình đang định làm một chuyến đi ngắn về vùng quê để thư giãn."
+            },
+            {
+              "id": 7,
+              "startTime": 33,
+              "endTime": 37.8,
+              "text": "That sounds like a wonderful getaway! I hope the weather stays sunny and pleasant.",
+              "translation": "Đó là một chuyến đi xả hơi tuyệt vời! Chúc bạn có thời tiết nắng đẹp và dễ chịu."
+            },
+            {
+              "id": 8,
+              "startTime": 38.5,
+              "endTime": 43.3,
+              "text": "Thanks a lot! Let's catch up over lunch sometime next week.",
+              "translation": "Cảm ơn bạn nhiều nhé! Hẹn gặp lại ăn trưa cùng nhau vào tuần tới."
+            }
+          ]
+        },
+        {
+          "id": "what-did-you-do-yesterday",
+          "exerciseNumber": 6,
+          "categoryId": "daily-conversations",
+          "categoryTitle": "Daily Conversations",
+          "categoryTitleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+          "title": "What did you do yesterday?",
+          "titleVi": "What did you do yesterday?",
+          "level": "A2",
+          "duration": "00:43",
+          "mediaType": "youtube",
+          "youtubeId": "UDrcktrcvL4",
+          "thumbnailUrl": "https://img.youtube.com/vi/UDrcktrcvL4/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.8,
+              "text": "Hi there! How is everything going with you today?",
+              "translation": "Chào bạn! Mọi chuyện hôm nay của bạn thế nào rồi?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 10.3,
+              "text": "Everything is going really well, thanks for asking! How about yourself?",
+              "translation": "Mọi thứ đều rất tốt, cảm ơn bạn đã hỏi thăm! Còn bạn thì sao?"
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 15.8,
+              "text": "I've been quite busy preparing for the upcoming project deadline this Friday.",
+              "translation": "Mình khá bận rộn chuẩn bị cho hạn chót dự án sắp tới vào thứ Sáu này."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21.3,
+              "text": "That sounds challenging, but I know you always manage to deliver great work.",
+              "translation": "Nghe có vẻ thử thách đấy, nhưng mình biết bạn luôn hoàn thành công việc rất xuất sắc."
+            },
+            {
+              "id": 5,
+              "startTime": 22,
+              "endTime": 26.8,
+              "text": "Thank you so much! Do you have any special plans for the coming weekend?",
+              "translation": "Cảm ơn bạn rất nhiều! Cuối tuần tới bạn có dự định đặc biệt gì không?"
+            },
+            {
+              "id": 6,
+              "startTime": 27.5,
+              "endTime": 32.3,
+              "text": "I'm thinking of going on a short road trip to the countryside to relax.",
+              "translation": "Mình đang định làm một chuyến đi ngắn về vùng quê để thư giãn."
+            },
+            {
+              "id": 7,
+              "startTime": 33,
+              "endTime": 37.8,
+              "text": "That sounds like a wonderful getaway! I hope the weather stays sunny and pleasant.",
+              "translation": "Đó là một chuyến đi xả hơi tuyệt vời! Chúc bạn có thời tiết nắng đẹp và dễ chịu."
+            },
+            {
+              "id": 8,
+              "startTime": 38.5,
+              "endTime": 43.3,
+              "text": "Thanks a lot! Let's catch up over lunch sometime next week.",
+              "translation": "Cảm ơn bạn nhiều nhé! Hẹn gặp lại ăn trưa cùng nhau vào tuần tới."
+            }
+          ]
+        },
+        {
+          "id": "comparative-adjectives-in-real-life",
+          "exerciseNumber": 7,
+          "categoryId": "daily-conversations",
+          "categoryTitle": "Daily Conversations",
+          "categoryTitleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+          "title": "Comparative Adjectives in Real Life",
+          "titleVi": "Comparative Adjectives in Real Life",
+          "level": "A2",
+          "duration": "00:43",
+          "mediaType": "youtube",
+          "youtubeId": "vUdn0l5355E",
+          "thumbnailUrl": "https://img.youtube.com/vi/vUdn0l5355E/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.8,
+              "text": "Hi there! How is everything going with you today?",
+              "translation": "Chào bạn! Mọi chuyện hôm nay của bạn thế nào rồi?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 10.3,
+              "text": "Everything is going really well, thanks for asking! How about yourself?",
+              "translation": "Mọi thứ đều rất tốt, cảm ơn bạn đã hỏi thăm! Còn bạn thì sao?"
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 15.8,
+              "text": "I've been quite busy preparing for the upcoming project deadline this Friday.",
+              "translation": "Mình khá bận rộn chuẩn bị cho hạn chót dự án sắp tới vào thứ Sáu này."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21.3,
+              "text": "That sounds challenging, but I know you always manage to deliver great work.",
+              "translation": "Nghe có vẻ thử thách đấy, nhưng mình biết bạn luôn hoàn thành công việc rất xuất sắc."
+            },
+            {
+              "id": 5,
+              "startTime": 22,
+              "endTime": 26.8,
+              "text": "Thank you so much! Do you have any special plans for the coming weekend?",
+              "translation": "Cảm ơn bạn rất nhiều! Cuối tuần tới bạn có dự định đặc biệt gì không?"
+            },
+            {
+              "id": 6,
+              "startTime": 27.5,
+              "endTime": 32.3,
+              "text": "I'm thinking of going on a short road trip to the countryside to relax.",
+              "translation": "Mình đang định làm một chuyến đi ngắn về vùng quê để thư giãn."
+            },
+            {
+              "id": 7,
+              "startTime": 33,
+              "endTime": 37.8,
+              "text": "That sounds like a wonderful getaway! I hope the weather stays sunny and pleasant.",
+              "translation": "Đó là một chuyến đi xả hơi tuyệt vời! Chúc bạn có thời tiết nắng đẹp và dễ chịu."
+            },
+            {
+              "id": 8,
+              "startTime": 38.5,
+              "endTime": 43.3,
+              "text": "Thanks a lot! Let's catch up over lunch sometime next week.",
+              "translation": "Cảm ơn bạn nhiều nhé! Hẹn gặp lại ăn trưa cùng nhau vào tuần tới."
+            }
+          ]
+        },
+        {
+          "id": "talking-about-weekend-routines",
+          "exerciseNumber": 8,
+          "categoryId": "daily-conversations",
+          "categoryTitle": "Daily Conversations",
+          "categoryTitleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+          "title": "Talking About Weekend Routines",
+          "titleVi": "Talking About Weekend Routines",
+          "level": "B1",
+          "duration": "00:43",
+          "mediaType": "youtube",
+          "youtubeId": "GtJPw0lnRzQ",
+          "thumbnailUrl": "https://img.youtube.com/vi/GtJPw0lnRzQ/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.8,
+              "text": "Hi there! How is everything going with you today?",
+              "translation": "Chào bạn! Mọi chuyện hôm nay của bạn thế nào rồi?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 10.3,
+              "text": "Everything is going really well, thanks for asking! How about yourself?",
+              "translation": "Mọi thứ đều rất tốt, cảm ơn bạn đã hỏi thăm! Còn bạn thì sao?"
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 15.8,
+              "text": "I've been quite busy preparing for the upcoming project deadline this Friday.",
+              "translation": "Mình khá bận rộn chuẩn bị cho hạn chót dự án sắp tới vào thứ Sáu này."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21.3,
+              "text": "That sounds challenging, but I know you always manage to deliver great work.",
+              "translation": "Nghe có vẻ thử thách đấy, nhưng mình biết bạn luôn hoàn thành công việc rất xuất sắc."
+            },
+            {
+              "id": 5,
+              "startTime": 22,
+              "endTime": 26.8,
+              "text": "Thank you so much! Do you have any special plans for the coming weekend?",
+              "translation": "Cảm ơn bạn rất nhiều! Cuối tuần tới bạn có dự định đặc biệt gì không?"
+            },
+            {
+              "id": 6,
+              "startTime": 27.5,
+              "endTime": 32.3,
+              "text": "I'm thinking of going on a short road trip to the countryside to relax.",
+              "translation": "Mình đang định làm một chuyến đi ngắn về vùng quê để thư giãn."
+            },
+            {
+              "id": 7,
+              "startTime": 33,
+              "endTime": 37.8,
+              "text": "That sounds like a wonderful getaway! I hope the weather stays sunny and pleasant.",
+              "translation": "Đó là một chuyến đi xả hơi tuyệt vời! Chúc bạn có thời tiết nắng đẹp và dễ chịu."
+            },
+            {
+              "id": 8,
+              "startTime": 38.5,
+              "endTime": 43.3,
+              "text": "Thanks a lot! Let's catch up over lunch sometime next week.",
+              "translation": "Cảm ơn bạn nhiều nhé! Hẹn gặp lại ăn trưa cùng nhau vào tuần tới."
+            }
+          ]
+        },
+        {
+          "id": "talking-about-your-family-my-family",
+          "exerciseNumber": 9,
+          "categoryId": "daily-conversations",
+          "categoryTitle": "Daily Conversations",
+          "categoryTitleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+          "title": "Talking About Your Family (My Family)",
+          "titleVi": "Talking About Your Family (My Family)",
+          "level": "B1",
+          "duration": "00:43",
+          "mediaType": "youtube",
+          "youtubeId": "T2T2nd1R2ZM",
+          "thumbnailUrl": "https://img.youtube.com/vi/T2T2nd1R2ZM/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.8,
+              "text": "Hi there! How is everything going with you today?",
+              "translation": "Chào bạn! Mọi chuyện hôm nay của bạn thế nào rồi?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 10.3,
+              "text": "Everything is going really well, thanks for asking! How about yourself?",
+              "translation": "Mọi thứ đều rất tốt, cảm ơn bạn đã hỏi thăm! Còn bạn thì sao?"
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 15.8,
+              "text": "I've been quite busy preparing for the upcoming project deadline this Friday.",
+              "translation": "Mình khá bận rộn chuẩn bị cho hạn chót dự án sắp tới vào thứ Sáu này."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21.3,
+              "text": "That sounds challenging, but I know you always manage to deliver great work.",
+              "translation": "Nghe có vẻ thử thách đấy, nhưng mình biết bạn luôn hoàn thành công việc rất xuất sắc."
+            },
+            {
+              "id": 5,
+              "startTime": 22,
+              "endTime": 26.8,
+              "text": "Thank you so much! Do you have any special plans for the coming weekend?",
+              "translation": "Cảm ơn bạn rất nhiều! Cuối tuần tới bạn có dự định đặc biệt gì không?"
+            },
+            {
+              "id": 6,
+              "startTime": 27.5,
+              "endTime": 32.3,
+              "text": "I'm thinking of going on a short road trip to the countryside to relax.",
+              "translation": "Mình đang định làm một chuyến đi ngắn về vùng quê để thư giãn."
+            },
+            {
+              "id": 7,
+              "startTime": 33,
+              "endTime": 37.8,
+              "text": "That sounds like a wonderful getaway! I hope the weather stays sunny and pleasant.",
+              "translation": "Đó là một chuyến đi xả hơi tuyệt vời! Chúc bạn có thời tiết nắng đẹp và dễ chịu."
+            },
+            {
+              "id": 8,
+              "startTime": 38.5,
+              "endTime": 43.3,
+              "text": "Thanks a lot! Let's catch up over lunch sometime next week.",
+              "translation": "Cảm ơn bạn nhiều nhé! Hẹn gặp lại ăn trưa cùng nhau vào tuần tới."
+            }
+          ]
+        },
+        {
+          "id": "house-vocabulary-home-tour",
+          "exerciseNumber": 10,
+          "categoryId": "daily-conversations",
+          "categoryTitle": "Daily Conversations",
+          "categoryTitleVi": "Hội Thoại Giao Tiếp Hàng Ngày",
+          "title": "House Vocabulary & Home Tour",
+          "titleVi": "House Vocabulary & Home Tour",
+          "level": "B1",
+          "duration": "00:43",
+          "mediaType": "youtube",
+          "youtubeId": "YHb6o8DiMt0",
+          "thumbnailUrl": "https://img.youtube.com/vi/YHb6o8DiMt0/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.8,
+              "text": "Hi there! How is everything going with you today?",
+              "translation": "Chào bạn! Mọi chuyện hôm nay của bạn thế nào rồi?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.5,
+              "endTime": 10.3,
+              "text": "Everything is going really well, thanks for asking! How about yourself?",
+              "translation": "Mọi thứ đều rất tốt, cảm ơn bạn đã hỏi thăm! Còn bạn thì sao?"
+            },
+            {
+              "id": 3,
+              "startTime": 11,
+              "endTime": 15.8,
+              "text": "I've been quite busy preparing for the upcoming project deadline this Friday.",
+              "translation": "Mình khá bận rộn chuẩn bị cho hạn chót dự án sắp tới vào thứ Sáu này."
+            },
+            {
+              "id": 4,
+              "startTime": 16.5,
+              "endTime": 21.3,
+              "text": "That sounds challenging, but I know you always manage to deliver great work.",
+              "translation": "Nghe có vẻ thử thách đấy, nhưng mình biết bạn luôn hoàn thành công việc rất xuất sắc."
+            },
+            {
+              "id": 5,
+              "startTime": 22,
+              "endTime": 26.8,
+              "text": "Thank you so much! Do you have any special plans for the coming weekend?",
+              "translation": "Cảm ơn bạn rất nhiều! Cuối tuần tới bạn có dự định đặc biệt gì không?"
+            },
+            {
+              "id": 6,
+              "startTime": 27.5,
+              "endTime": 32.3,
+              "text": "I'm thinking of going on a short road trip to the countryside to relax.",
+              "translation": "Mình đang định làm một chuyến đi ngắn về vùng quê để thư giãn."
+            },
+            {
+              "id": 7,
+              "startTime": 33,
+              "endTime": 37.8,
+              "text": "That sounds like a wonderful getaway! I hope the weather stays sunny and pleasant.",
+              "translation": "Đó là một chuyến đi xả hơi tuyệt vời! Chúc bạn có thời tiết nắng đẹp và dễ chịu."
+            },
+            {
+              "id": 8,
+              "startTime": 38.5,
+              "endTime": 43.3,
+              "text": "Thanks a lot! Let's catch up over lunch sometime next week.",
+              "translation": "Cảm ơn bạn nhiều nhé! Hẹn gặp lại ăn trưa cùng nhau vào tuần tới."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ielts-listening",
+      "title": "IELTS Listening",
+      "titleVi": "Luyện Chép Chính Tả IELTS",
+      "badge": "IELTS 5.0 - 8.0",
+      "iconName": "GraduationCap",
+      "description": "Chuyên đề luyện chép chính tả bắt chính xác danh từ số nhiều, chữ số, tên riêng và từ vựng học thuật Section 1 đến Section 4.",
+      "exercises": [
+        {
+          "id": "a1-listening-test-part-1",
+          "exerciseNumber": 1,
+          "categoryId": "ielts-listening",
+          "categoryTitle": "IELTS Listening",
+          "categoryTitleVi": "Luyện Chép Chính Tả IELTS",
+          "title": "A1 Listening Test - Part 1",
+          "titleVi": "A1 Listening Test - Part 1",
+          "level": "A1 Listening",
+          "duration": "00:57",
+          "mediaType": "youtube",
+          "youtubeId": "H8mRwu1gdbE",
+          "thumbnailUrl": "https://img.youtube.com/vi/H8mRwu1gdbE/hqdefault.jpg",
+          "totalSentences": 10,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5,
+              "text": "Good morning, city central student service center. How may I help you today?",
+              "translation": "Chào buổi sáng, trung tâm dịch vụ sinh viên thành phố. Tôi có thể giúp gì cho bạn hôm nay?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 10.8,
+              "text": "Hello, I would like to enquire about student accommodation options near the campus.",
+              "translation": "Xin chào, tôi muốn hỏi về các lựa chọn nhà ở cho sinh viên gần khuôn viên trường."
+            },
+            {
+              "id": 3,
+              "startTime": 11.6,
+              "endTime": 16.6,
+              "text": "Certainly. Could you please give me your full name and student registration ID?",
+              "translation": "Chắc chắn rồi. Bạn có thể cung cấp họ tên đầy đủ và mã số đăng ký sinh viên không?"
+            },
+            {
+              "id": 4,
+              "startTime": 17.4,
+              "endTime": 22.4,
+              "text": "My name is David Miller, and my student ID number is ST-9428.",
+              "translation": "Tên tôi là David Miller, và mã số sinh viên của tôi là ST-9428."
+            },
+            {
+              "id": 5,
+              "startTime": 23.2,
+              "endTime": 28.2,
+              "text": "Thank you, David. What is your preferred monthly budget for the room?",
+              "translation": "Cảm ơn David. Mức ngân sách hàng tháng bạn mong muốn cho phòng ở là bao nhiêu?"
+            },
+            {
+              "id": 6,
+              "startTime": 29,
+              "endTime": 34,
+              "text": "I'm looking for something around three hundred and fifty pounds per month.",
+              "translation": "Tôi đang tìm phòng khoảng ba trăm năm mươi bảng mỗi tháng."
+            },
+            {
+              "id": 7,
+              "startTime": 34.8,
+              "endTime": 39.8,
+              "text": "We have a fully furnished single studio available on Greenview Avenue.",
+              "translation": "Chúng tôi có một căn studio đơn đầy đủ nội thất tại Đại lộ Greenview."
+            },
+            {
+              "id": 8,
+              "startTime": 40.6,
+              "endTime": 45.6,
+              "text": "That sounds ideal. Does the monthly rent include all water and heating bills?",
+              "translation": "Nghe rất lý tưởng. Giá thuê hàng tháng đã bao gồm tiền nước và sưởi chưa ạ?"
+            },
+            {
+              "id": 9,
+              "startTime": 46.4,
+              "endTime": 51.4,
+              "text": "Yes, all basic utilities and high-speed internet are included in the price.",
+              "translation": "Vâng, tất cả các tiện ích cơ bản và internet tốc độ cao đều đã bao gồm trong giá."
+            },
+            {
+              "id": 10,
+              "startTime": 52.2,
+              "endTime": 57.2,
+              "text": "Excellent! I would like to book a viewing for tomorrow afternoon at two o'clock.",
+              "translation": "Tuyệt vời! Tôi muốn đặt lịch đến xem phòng vào chiều mai lúc hai giờ."
+            }
+          ]
+        },
+        {
+          "id": "a1-listening-test-part-2",
+          "exerciseNumber": 2,
+          "categoryId": "ielts-listening",
+          "categoryTitle": "IELTS Listening",
+          "categoryTitleVi": "Luyện Chép Chính Tả IELTS",
+          "title": "A1 Listening Test - Part 2",
+          "titleVi": "A1 Listening Test - Part 2",
+          "level": "A1 Listening",
+          "duration": "00:57",
+          "mediaType": "youtube",
+          "youtubeId": "aTxZ0JNl3DM",
+          "thumbnailUrl": "https://img.youtube.com/vi/aTxZ0JNl3DM/hqdefault.jpg",
+          "totalSentences": 10,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5,
+              "text": "Good morning, city central student service center. How may I help you today?",
+              "translation": "Chào buổi sáng, trung tâm dịch vụ sinh viên thành phố. Tôi có thể giúp gì cho bạn hôm nay?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 10.8,
+              "text": "Hello, I would like to enquire about student accommodation options near the campus.",
+              "translation": "Xin chào, tôi muốn hỏi về các lựa chọn nhà ở cho sinh viên gần khuôn viên trường."
+            },
+            {
+              "id": 3,
+              "startTime": 11.6,
+              "endTime": 16.6,
+              "text": "Certainly. Could you please give me your full name and student registration ID?",
+              "translation": "Chắc chắn rồi. Bạn có thể cung cấp họ tên đầy đủ và mã số đăng ký sinh viên không?"
+            },
+            {
+              "id": 4,
+              "startTime": 17.4,
+              "endTime": 22.4,
+              "text": "My name is David Miller, and my student ID number is ST-9428.",
+              "translation": "Tên tôi là David Miller, và mã số sinh viên của tôi là ST-9428."
+            },
+            {
+              "id": 5,
+              "startTime": 23.2,
+              "endTime": 28.2,
+              "text": "Thank you, David. What is your preferred monthly budget for the room?",
+              "translation": "Cảm ơn David. Mức ngân sách hàng tháng bạn mong muốn cho phòng ở là bao nhiêu?"
+            },
+            {
+              "id": 6,
+              "startTime": 29,
+              "endTime": 34,
+              "text": "I'm looking for something around three hundred and fifty pounds per month.",
+              "translation": "Tôi đang tìm phòng khoảng ba trăm năm mươi bảng mỗi tháng."
+            },
+            {
+              "id": 7,
+              "startTime": 34.8,
+              "endTime": 39.8,
+              "text": "We have a fully furnished single studio available on Greenview Avenue.",
+              "translation": "Chúng tôi có một căn studio đơn đầy đủ nội thất tại Đại lộ Greenview."
+            },
+            {
+              "id": 8,
+              "startTime": 40.6,
+              "endTime": 45.6,
+              "text": "That sounds ideal. Does the monthly rent include all water and heating bills?",
+              "translation": "Nghe rất lý tưởng. Giá thuê hàng tháng đã bao gồm tiền nước và sưởi chưa ạ?"
+            },
+            {
+              "id": 9,
+              "startTime": 46.4,
+              "endTime": 51.4,
+              "text": "Yes, all basic utilities and high-speed internet are included in the price.",
+              "translation": "Vâng, tất cả các tiện ích cơ bản và internet tốc độ cao đều đã bao gồm trong giá."
+            },
+            {
+              "id": 10,
+              "startTime": 52.2,
+              "endTime": 57.2,
+              "text": "Excellent! I would like to book a viewing for tomorrow afternoon at two o'clock.",
+              "translation": "Tuyệt vời! Tôi muốn đặt lịch đến xem phòng vào chiều mai lúc hai giờ."
+            }
+          ]
+        },
+        {
+          "id": "a1-listening-test-part-3",
+          "exerciseNumber": 3,
+          "categoryId": "ielts-listening",
+          "categoryTitle": "IELTS Listening",
+          "categoryTitleVi": "Luyện Chép Chính Tả IELTS",
+          "title": "A1 Listening Test - Part 3",
+          "titleVi": "A1 Listening Test - Part 3",
+          "level": "A1 Listening",
+          "duration": "00:57",
+          "mediaType": "youtube",
+          "youtubeId": "iAxzgptAQOE",
+          "thumbnailUrl": "https://img.youtube.com/vi/iAxzgptAQOE/hqdefault.jpg",
+          "totalSentences": 10,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5,
+              "text": "Good morning, city central student service center. How may I help you today?",
+              "translation": "Chào buổi sáng, trung tâm dịch vụ sinh viên thành phố. Tôi có thể giúp gì cho bạn hôm nay?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 10.8,
+              "text": "Hello, I would like to enquire about student accommodation options near the campus.",
+              "translation": "Xin chào, tôi muốn hỏi về các lựa chọn nhà ở cho sinh viên gần khuôn viên trường."
+            },
+            {
+              "id": 3,
+              "startTime": 11.6,
+              "endTime": 16.6,
+              "text": "Certainly. Could you please give me your full name and student registration ID?",
+              "translation": "Chắc chắn rồi. Bạn có thể cung cấp họ tên đầy đủ và mã số đăng ký sinh viên không?"
+            },
+            {
+              "id": 4,
+              "startTime": 17.4,
+              "endTime": 22.4,
+              "text": "My name is David Miller, and my student ID number is ST-9428.",
+              "translation": "Tên tôi là David Miller, và mã số sinh viên của tôi là ST-9428."
+            },
+            {
+              "id": 5,
+              "startTime": 23.2,
+              "endTime": 28.2,
+              "text": "Thank you, David. What is your preferred monthly budget for the room?",
+              "translation": "Cảm ơn David. Mức ngân sách hàng tháng bạn mong muốn cho phòng ở là bao nhiêu?"
+            },
+            {
+              "id": 6,
+              "startTime": 29,
+              "endTime": 34,
+              "text": "I'm looking for something around three hundred and fifty pounds per month.",
+              "translation": "Tôi đang tìm phòng khoảng ba trăm năm mươi bảng mỗi tháng."
+            },
+            {
+              "id": 7,
+              "startTime": 34.8,
+              "endTime": 39.8,
+              "text": "We have a fully furnished single studio available on Greenview Avenue.",
+              "translation": "Chúng tôi có một căn studio đơn đầy đủ nội thất tại Đại lộ Greenview."
+            },
+            {
+              "id": 8,
+              "startTime": 40.6,
+              "endTime": 45.6,
+              "text": "That sounds ideal. Does the monthly rent include all water and heating bills?",
+              "translation": "Nghe rất lý tưởng. Giá thuê hàng tháng đã bao gồm tiền nước và sưởi chưa ạ?"
+            },
+            {
+              "id": 9,
+              "startTime": 46.4,
+              "endTime": 51.4,
+              "text": "Yes, all basic utilities and high-speed internet are included in the price.",
+              "translation": "Vâng, tất cả các tiện ích cơ bản và internet tốc độ cao đều đã bao gồm trong giá."
+            },
+            {
+              "id": 10,
+              "startTime": 52.2,
+              "endTime": 57.2,
+              "text": "Excellent! I would like to book a viewing for tomorrow afternoon at two o'clock.",
+              "translation": "Tuyệt vời! Tôi muốn đặt lịch đến xem phòng vào chiều mai lúc hai giờ."
+            }
+          ]
+        },
+        {
+          "id": "a1-listening-test-part-4",
+          "exerciseNumber": 4,
+          "categoryId": "ielts-listening",
+          "categoryTitle": "IELTS Listening",
+          "categoryTitleVi": "Luyện Chép Chính Tả IELTS",
+          "title": "A1 Listening Test - Part 4",
+          "titleVi": "A1 Listening Test - Part 4",
+          "level": "A1 Listening",
+          "duration": "00:57",
+          "mediaType": "youtube",
+          "youtubeId": "mKExWLpWKyc",
+          "thumbnailUrl": "https://img.youtube.com/vi/mKExWLpWKyc/hqdefault.jpg",
+          "totalSentences": 10,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5,
+              "text": "Good morning, city central student service center. How may I help you today?",
+              "translation": "Chào buổi sáng, trung tâm dịch vụ sinh viên thành phố. Tôi có thể giúp gì cho bạn hôm nay?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 10.8,
+              "text": "Hello, I would like to enquire about student accommodation options near the campus.",
+              "translation": "Xin chào, tôi muốn hỏi về các lựa chọn nhà ở cho sinh viên gần khuôn viên trường."
+            },
+            {
+              "id": 3,
+              "startTime": 11.6,
+              "endTime": 16.6,
+              "text": "Certainly. Could you please give me your full name and student registration ID?",
+              "translation": "Chắc chắn rồi. Bạn có thể cung cấp họ tên đầy đủ và mã số đăng ký sinh viên không?"
+            },
+            {
+              "id": 4,
+              "startTime": 17.4,
+              "endTime": 22.4,
+              "text": "My name is David Miller, and my student ID number is ST-9428.",
+              "translation": "Tên tôi là David Miller, và mã số sinh viên của tôi là ST-9428."
+            },
+            {
+              "id": 5,
+              "startTime": 23.2,
+              "endTime": 28.2,
+              "text": "Thank you, David. What is your preferred monthly budget for the room?",
+              "translation": "Cảm ơn David. Mức ngân sách hàng tháng bạn mong muốn cho phòng ở là bao nhiêu?"
+            },
+            {
+              "id": 6,
+              "startTime": 29,
+              "endTime": 34,
+              "text": "I'm looking for something around three hundred and fifty pounds per month.",
+              "translation": "Tôi đang tìm phòng khoảng ba trăm năm mươi bảng mỗi tháng."
+            },
+            {
+              "id": 7,
+              "startTime": 34.8,
+              "endTime": 39.8,
+              "text": "We have a fully furnished single studio available on Greenview Avenue.",
+              "translation": "Chúng tôi có một căn studio đơn đầy đủ nội thất tại Đại lộ Greenview."
+            },
+            {
+              "id": 8,
+              "startTime": 40.6,
+              "endTime": 45.6,
+              "text": "That sounds ideal. Does the monthly rent include all water and heating bills?",
+              "translation": "Nghe rất lý tưởng. Giá thuê hàng tháng đã bao gồm tiền nước và sưởi chưa ạ?"
+            },
+            {
+              "id": 9,
+              "startTime": 46.4,
+              "endTime": 51.4,
+              "text": "Yes, all basic utilities and high-speed internet are included in the price.",
+              "translation": "Vâng, tất cả các tiện ích cơ bản và internet tốc độ cao đều đã bao gồm trong giá."
+            },
+            {
+              "id": 10,
+              "startTime": 52.2,
+              "endTime": 57.2,
+              "text": "Excellent! I would like to book a viewing for tomorrow afternoon at two o'clock.",
+              "translation": "Tuyệt vời! Tôi muốn đặt lịch đến xem phòng vào chiều mai lúc hai giờ."
+            }
+          ]
+        },
+        {
+          "id": "a2-listening-test-part-1",
+          "exerciseNumber": 5,
+          "categoryId": "ielts-listening",
+          "categoryTitle": "IELTS Listening",
+          "categoryTitleVi": "Luyện Chép Chính Tả IELTS",
+          "title": "A2 Listening Test - Part 1",
+          "titleVi": "A2 Listening Test - Part 1",
+          "level": "A2 Listening",
+          "duration": "00:57",
+          "mediaType": "youtube",
+          "youtubeId": "WtzPPexDdW8",
+          "thumbnailUrl": "https://img.youtube.com/vi/WtzPPexDdW8/hqdefault.jpg",
+          "totalSentences": 10,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5,
+              "text": "Good morning, city central student service center. How may I help you today?",
+              "translation": "Chào buổi sáng, trung tâm dịch vụ sinh viên thành phố. Tôi có thể giúp gì cho bạn hôm nay?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 10.8,
+              "text": "Hello, I would like to enquire about student accommodation options near the campus.",
+              "translation": "Xin chào, tôi muốn hỏi về các lựa chọn nhà ở cho sinh viên gần khuôn viên trường."
+            },
+            {
+              "id": 3,
+              "startTime": 11.6,
+              "endTime": 16.6,
+              "text": "Certainly. Could you please give me your full name and student registration ID?",
+              "translation": "Chắc chắn rồi. Bạn có thể cung cấp họ tên đầy đủ và mã số đăng ký sinh viên không?"
+            },
+            {
+              "id": 4,
+              "startTime": 17.4,
+              "endTime": 22.4,
+              "text": "My name is David Miller, and my student ID number is ST-9428.",
+              "translation": "Tên tôi là David Miller, và mã số sinh viên của tôi là ST-9428."
+            },
+            {
+              "id": 5,
+              "startTime": 23.2,
+              "endTime": 28.2,
+              "text": "Thank you, David. What is your preferred monthly budget for the room?",
+              "translation": "Cảm ơn David. Mức ngân sách hàng tháng bạn mong muốn cho phòng ở là bao nhiêu?"
+            },
+            {
+              "id": 6,
+              "startTime": 29,
+              "endTime": 34,
+              "text": "I'm looking for something around three hundred and fifty pounds per month.",
+              "translation": "Tôi đang tìm phòng khoảng ba trăm năm mươi bảng mỗi tháng."
+            },
+            {
+              "id": 7,
+              "startTime": 34.8,
+              "endTime": 39.8,
+              "text": "We have a fully furnished single studio available on Greenview Avenue.",
+              "translation": "Chúng tôi có một căn studio đơn đầy đủ nội thất tại Đại lộ Greenview."
+            },
+            {
+              "id": 8,
+              "startTime": 40.6,
+              "endTime": 45.6,
+              "text": "That sounds ideal. Does the monthly rent include all water and heating bills?",
+              "translation": "Nghe rất lý tưởng. Giá thuê hàng tháng đã bao gồm tiền nước và sưởi chưa ạ?"
+            },
+            {
+              "id": 9,
+              "startTime": 46.4,
+              "endTime": 51.4,
+              "text": "Yes, all basic utilities and high-speed internet are included in the price.",
+              "translation": "Vâng, tất cả các tiện ích cơ bản và internet tốc độ cao đều đã bao gồm trong giá."
+            },
+            {
+              "id": 10,
+              "startTime": 52.2,
+              "endTime": 57.2,
+              "text": "Excellent! I would like to book a viewing for tomorrow afternoon at two o'clock.",
+              "translation": "Tuyệt vời! Tôi muốn đặt lịch đến xem phòng vào chiều mai lúc hai giờ."
+            }
+          ]
+        },
+        {
+          "id": "a2-listening-test-part-2",
+          "exerciseNumber": 6,
+          "categoryId": "ielts-listening",
+          "categoryTitle": "IELTS Listening",
+          "categoryTitleVi": "Luyện Chép Chính Tả IELTS",
+          "title": "A2 Listening Test - Part 2",
+          "titleVi": "A2 Listening Test - Part 2",
+          "level": "A2 Listening",
+          "duration": "00:57",
+          "mediaType": "youtube",
+          "youtubeId": "hPgIkhTOUTM",
+          "thumbnailUrl": "https://img.youtube.com/vi/hPgIkhTOUTM/hqdefault.jpg",
+          "totalSentences": 10,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5,
+              "text": "Good morning, city central student service center. How may I help you today?",
+              "translation": "Chào buổi sáng, trung tâm dịch vụ sinh viên thành phố. Tôi có thể giúp gì cho bạn hôm nay?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 10.8,
+              "text": "Hello, I would like to enquire about student accommodation options near the campus.",
+              "translation": "Xin chào, tôi muốn hỏi về các lựa chọn nhà ở cho sinh viên gần khuôn viên trường."
+            },
+            {
+              "id": 3,
+              "startTime": 11.6,
+              "endTime": 16.6,
+              "text": "Certainly. Could you please give me your full name and student registration ID?",
+              "translation": "Chắc chắn rồi. Bạn có thể cung cấp họ tên đầy đủ và mã số đăng ký sinh viên không?"
+            },
+            {
+              "id": 4,
+              "startTime": 17.4,
+              "endTime": 22.4,
+              "text": "My name is David Miller, and my student ID number is ST-9428.",
+              "translation": "Tên tôi là David Miller, và mã số sinh viên của tôi là ST-9428."
+            },
+            {
+              "id": 5,
+              "startTime": 23.2,
+              "endTime": 28.2,
+              "text": "Thank you, David. What is your preferred monthly budget for the room?",
+              "translation": "Cảm ơn David. Mức ngân sách hàng tháng bạn mong muốn cho phòng ở là bao nhiêu?"
+            },
+            {
+              "id": 6,
+              "startTime": 29,
+              "endTime": 34,
+              "text": "I'm looking for something around three hundred and fifty pounds per month.",
+              "translation": "Tôi đang tìm phòng khoảng ba trăm năm mươi bảng mỗi tháng."
+            },
+            {
+              "id": 7,
+              "startTime": 34.8,
+              "endTime": 39.8,
+              "text": "We have a fully furnished single studio available on Greenview Avenue.",
+              "translation": "Chúng tôi có một căn studio đơn đầy đủ nội thất tại Đại lộ Greenview."
+            },
+            {
+              "id": 8,
+              "startTime": 40.6,
+              "endTime": 45.6,
+              "text": "That sounds ideal. Does the monthly rent include all water and heating bills?",
+              "translation": "Nghe rất lý tưởng. Giá thuê hàng tháng đã bao gồm tiền nước và sưởi chưa ạ?"
+            },
+            {
+              "id": 9,
+              "startTime": 46.4,
+              "endTime": 51.4,
+              "text": "Yes, all basic utilities and high-speed internet are included in the price.",
+              "translation": "Vâng, tất cả các tiện ích cơ bản và internet tốc độ cao đều đã bao gồm trong giá."
+            },
+            {
+              "id": 10,
+              "startTime": 52.2,
+              "endTime": 57.2,
+              "text": "Excellent! I would like to book a viewing for tomorrow afternoon at two o'clock.",
+              "translation": "Tuyệt vời! Tôi muốn đặt lịch đến xem phòng vào chiều mai lúc hai giờ."
+            }
+          ]
+        },
+        {
+          "id": "a2-listening-test-part-3",
+          "exerciseNumber": 7,
+          "categoryId": "ielts-listening",
+          "categoryTitle": "IELTS Listening",
+          "categoryTitleVi": "Luyện Chép Chính Tả IELTS",
+          "title": "A2 Listening Test - Part 3",
+          "titleVi": "A2 Listening Test - Part 3",
+          "level": "A2 Listening",
+          "duration": "00:57",
+          "mediaType": "youtube",
+          "youtubeId": "P8BzhYbTlvE",
+          "thumbnailUrl": "https://img.youtube.com/vi/P8BzhYbTlvE/hqdefault.jpg",
+          "totalSentences": 10,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5,
+              "text": "Good morning, city central student service center. How may I help you today?",
+              "translation": "Chào buổi sáng, trung tâm dịch vụ sinh viên thành phố. Tôi có thể giúp gì cho bạn hôm nay?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 10.8,
+              "text": "Hello, I would like to enquire about student accommodation options near the campus.",
+              "translation": "Xin chào, tôi muốn hỏi về các lựa chọn nhà ở cho sinh viên gần khuôn viên trường."
+            },
+            {
+              "id": 3,
+              "startTime": 11.6,
+              "endTime": 16.6,
+              "text": "Certainly. Could you please give me your full name and student registration ID?",
+              "translation": "Chắc chắn rồi. Bạn có thể cung cấp họ tên đầy đủ và mã số đăng ký sinh viên không?"
+            },
+            {
+              "id": 4,
+              "startTime": 17.4,
+              "endTime": 22.4,
+              "text": "My name is David Miller, and my student ID number is ST-9428.",
+              "translation": "Tên tôi là David Miller, và mã số sinh viên của tôi là ST-9428."
+            },
+            {
+              "id": 5,
+              "startTime": 23.2,
+              "endTime": 28.2,
+              "text": "Thank you, David. What is your preferred monthly budget for the room?",
+              "translation": "Cảm ơn David. Mức ngân sách hàng tháng bạn mong muốn cho phòng ở là bao nhiêu?"
+            },
+            {
+              "id": 6,
+              "startTime": 29,
+              "endTime": 34,
+              "text": "I'm looking for something around three hundred and fifty pounds per month.",
+              "translation": "Tôi đang tìm phòng khoảng ba trăm năm mươi bảng mỗi tháng."
+            },
+            {
+              "id": 7,
+              "startTime": 34.8,
+              "endTime": 39.8,
+              "text": "We have a fully furnished single studio available on Greenview Avenue.",
+              "translation": "Chúng tôi có một căn studio đơn đầy đủ nội thất tại Đại lộ Greenview."
+            },
+            {
+              "id": 8,
+              "startTime": 40.6,
+              "endTime": 45.6,
+              "text": "That sounds ideal. Does the monthly rent include all water and heating bills?",
+              "translation": "Nghe rất lý tưởng. Giá thuê hàng tháng đã bao gồm tiền nước và sưởi chưa ạ?"
+            },
+            {
+              "id": 9,
+              "startTime": 46.4,
+              "endTime": 51.4,
+              "text": "Yes, all basic utilities and high-speed internet are included in the price.",
+              "translation": "Vâng, tất cả các tiện ích cơ bản và internet tốc độ cao đều đã bao gồm trong giá."
+            },
+            {
+              "id": 10,
+              "startTime": 52.2,
+              "endTime": 57.2,
+              "text": "Excellent! I would like to book a viewing for tomorrow afternoon at two o'clock.",
+              "translation": "Tuyệt vời! Tôi muốn đặt lịch đến xem phòng vào chiều mai lúc hai giờ."
+            }
+          ]
+        },
+        {
+          "id": "a2-listening-test-part-4",
+          "exerciseNumber": 8,
+          "categoryId": "ielts-listening",
+          "categoryTitle": "IELTS Listening",
+          "categoryTitleVi": "Luyện Chép Chính Tả IELTS",
+          "title": "A2 Listening Test - Part 4",
+          "titleVi": "A2 Listening Test - Part 4",
+          "level": "A2 Listening",
+          "duration": "00:57",
+          "mediaType": "youtube",
+          "youtubeId": "TrxW0UvIgMY",
+          "thumbnailUrl": "https://img.youtube.com/vi/TrxW0UvIgMY/hqdefault.jpg",
+          "totalSentences": 10,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5,
+              "text": "Good morning, city central student service center. How may I help you today?",
+              "translation": "Chào buổi sáng, trung tâm dịch vụ sinh viên thành phố. Tôi có thể giúp gì cho bạn hôm nay?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 10.8,
+              "text": "Hello, I would like to enquire about student accommodation options near the campus.",
+              "translation": "Xin chào, tôi muốn hỏi về các lựa chọn nhà ở cho sinh viên gần khuôn viên trường."
+            },
+            {
+              "id": 3,
+              "startTime": 11.6,
+              "endTime": 16.6,
+              "text": "Certainly. Could you please give me your full name and student registration ID?",
+              "translation": "Chắc chắn rồi. Bạn có thể cung cấp họ tên đầy đủ và mã số đăng ký sinh viên không?"
+            },
+            {
+              "id": 4,
+              "startTime": 17.4,
+              "endTime": 22.4,
+              "text": "My name is David Miller, and my student ID number is ST-9428.",
+              "translation": "Tên tôi là David Miller, và mã số sinh viên của tôi là ST-9428."
+            },
+            {
+              "id": 5,
+              "startTime": 23.2,
+              "endTime": 28.2,
+              "text": "Thank you, David. What is your preferred monthly budget for the room?",
+              "translation": "Cảm ơn David. Mức ngân sách hàng tháng bạn mong muốn cho phòng ở là bao nhiêu?"
+            },
+            {
+              "id": 6,
+              "startTime": 29,
+              "endTime": 34,
+              "text": "I'm looking for something around three hundred and fifty pounds per month.",
+              "translation": "Tôi đang tìm phòng khoảng ba trăm năm mươi bảng mỗi tháng."
+            },
+            {
+              "id": 7,
+              "startTime": 34.8,
+              "endTime": 39.8,
+              "text": "We have a fully furnished single studio available on Greenview Avenue.",
+              "translation": "Chúng tôi có một căn studio đơn đầy đủ nội thất tại Đại lộ Greenview."
+            },
+            {
+              "id": 8,
+              "startTime": 40.6,
+              "endTime": 45.6,
+              "text": "That sounds ideal. Does the monthly rent include all water and heating bills?",
+              "translation": "Nghe rất lý tưởng. Giá thuê hàng tháng đã bao gồm tiền nước và sưởi chưa ạ?"
+            },
+            {
+              "id": 9,
+              "startTime": 46.4,
+              "endTime": 51.4,
+              "text": "Yes, all basic utilities and high-speed internet are included in the price.",
+              "translation": "Vâng, tất cả các tiện ích cơ bản và internet tốc độ cao đều đã bao gồm trong giá."
+            },
+            {
+              "id": 10,
+              "startTime": 52.2,
+              "endTime": 57.2,
+              "text": "Excellent! I would like to book a viewing for tomorrow afternoon at two o'clock.",
+              "translation": "Tuyệt vời! Tôi muốn đặt lịch đến xem phòng vào chiều mai lúc hai giờ."
+            }
+          ]
+        },
+        {
+          "id": "a2-listening-test-part-5",
+          "exerciseNumber": 9,
+          "categoryId": "ielts-listening",
+          "categoryTitle": "IELTS Listening",
+          "categoryTitleVi": "Luyện Chép Chính Tả IELTS",
+          "title": "A2 Listening Test - Part 5",
+          "titleVi": "A2 Listening Test - Part 5",
+          "level": "IELTS 6.0+",
+          "duration": "00:57",
+          "mediaType": "youtube",
+          "youtubeId": "34YncmMtMU4",
+          "thumbnailUrl": "https://img.youtube.com/vi/34YncmMtMU4/hqdefault.jpg",
+          "totalSentences": 10,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5,
+              "text": "Good morning, city central student service center. How may I help you today?",
+              "translation": "Chào buổi sáng, trung tâm dịch vụ sinh viên thành phố. Tôi có thể giúp gì cho bạn hôm nay?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 10.8,
+              "text": "Hello, I would like to enquire about student accommodation options near the campus.",
+              "translation": "Xin chào, tôi muốn hỏi về các lựa chọn nhà ở cho sinh viên gần khuôn viên trường."
+            },
+            {
+              "id": 3,
+              "startTime": 11.6,
+              "endTime": 16.6,
+              "text": "Certainly. Could you please give me your full name and student registration ID?",
+              "translation": "Chắc chắn rồi. Bạn có thể cung cấp họ tên đầy đủ và mã số đăng ký sinh viên không?"
+            },
+            {
+              "id": 4,
+              "startTime": 17.4,
+              "endTime": 22.4,
+              "text": "My name is David Miller, and my student ID number is ST-9428.",
+              "translation": "Tên tôi là David Miller, và mã số sinh viên của tôi là ST-9428."
+            },
+            {
+              "id": 5,
+              "startTime": 23.2,
+              "endTime": 28.2,
+              "text": "Thank you, David. What is your preferred monthly budget for the room?",
+              "translation": "Cảm ơn David. Mức ngân sách hàng tháng bạn mong muốn cho phòng ở là bao nhiêu?"
+            },
+            {
+              "id": 6,
+              "startTime": 29,
+              "endTime": 34,
+              "text": "I'm looking for something around three hundred and fifty pounds per month.",
+              "translation": "Tôi đang tìm phòng khoảng ba trăm năm mươi bảng mỗi tháng."
+            },
+            {
+              "id": 7,
+              "startTime": 34.8,
+              "endTime": 39.8,
+              "text": "We have a fully furnished single studio available on Greenview Avenue.",
+              "translation": "Chúng tôi có một căn studio đơn đầy đủ nội thất tại Đại lộ Greenview."
+            },
+            {
+              "id": 8,
+              "startTime": 40.6,
+              "endTime": 45.6,
+              "text": "That sounds ideal. Does the monthly rent include all water and heating bills?",
+              "translation": "Nghe rất lý tưởng. Giá thuê hàng tháng đã bao gồm tiền nước và sưởi chưa ạ?"
+            },
+            {
+              "id": 9,
+              "startTime": 46.4,
+              "endTime": 51.4,
+              "text": "Yes, all basic utilities and high-speed internet are included in the price.",
+              "translation": "Vâng, tất cả các tiện ích cơ bản và internet tốc độ cao đều đã bao gồm trong giá."
+            },
+            {
+              "id": 10,
+              "startTime": 52.2,
+              "endTime": 57.2,
+              "text": "Excellent! I would like to book a viewing for tomorrow afternoon at two o'clock.",
+              "translation": "Tuyệt vời! Tôi muốn đặt lịch đến xem phòng vào chiều mai lúc hai giờ."
+            }
+          ]
+        },
+        {
+          "id": "a2-listening-test-part-6",
+          "exerciseNumber": 10,
+          "categoryId": "ielts-listening",
+          "categoryTitle": "IELTS Listening",
+          "categoryTitleVi": "Luyện Chép Chính Tả IELTS",
+          "title": "A2 Listening Test - Part 6",
+          "titleVi": "A2 Listening Test - Part 6",
+          "level": "IELTS 6.0+",
+          "duration": "00:57",
+          "mediaType": "youtube",
+          "youtubeId": "Yp-97SUNy_k",
+          "thumbnailUrl": "https://img.youtube.com/vi/Yp-97SUNy_k/hqdefault.jpg",
+          "totalSentences": 10,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5,
+              "text": "Good morning, city central student service center. How may I help you today?",
+              "translation": "Chào buổi sáng, trung tâm dịch vụ sinh viên thành phố. Tôi có thể giúp gì cho bạn hôm nay?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.8,
+              "endTime": 10.8,
+              "text": "Hello, I would like to enquire about student accommodation options near the campus.",
+              "translation": "Xin chào, tôi muốn hỏi về các lựa chọn nhà ở cho sinh viên gần khuôn viên trường."
+            },
+            {
+              "id": 3,
+              "startTime": 11.6,
+              "endTime": 16.6,
+              "text": "Certainly. Could you please give me your full name and student registration ID?",
+              "translation": "Chắc chắn rồi. Bạn có thể cung cấp họ tên đầy đủ và mã số đăng ký sinh viên không?"
+            },
+            {
+              "id": 4,
+              "startTime": 17.4,
+              "endTime": 22.4,
+              "text": "My name is David Miller, and my student ID number is ST-9428.",
+              "translation": "Tên tôi là David Miller, và mã số sinh viên của tôi là ST-9428."
+            },
+            {
+              "id": 5,
+              "startTime": 23.2,
+              "endTime": 28.2,
+              "text": "Thank you, David. What is your preferred monthly budget for the room?",
+              "translation": "Cảm ơn David. Mức ngân sách hàng tháng bạn mong muốn cho phòng ở là bao nhiêu?"
+            },
+            {
+              "id": 6,
+              "startTime": 29,
+              "endTime": 34,
+              "text": "I'm looking for something around three hundred and fifty pounds per month.",
+              "translation": "Tôi đang tìm phòng khoảng ba trăm năm mươi bảng mỗi tháng."
+            },
+            {
+              "id": 7,
+              "startTime": 34.8,
+              "endTime": 39.8,
+              "text": "We have a fully furnished single studio available on Greenview Avenue.",
+              "translation": "Chúng tôi có một căn studio đơn đầy đủ nội thất tại Đại lộ Greenview."
+            },
+            {
+              "id": 8,
+              "startTime": 40.6,
+              "endTime": 45.6,
+              "text": "That sounds ideal. Does the monthly rent include all water and heating bills?",
+              "translation": "Nghe rất lý tưởng. Giá thuê hàng tháng đã bao gồm tiền nước và sưởi chưa ạ?"
+            },
+            {
+              "id": 9,
+              "startTime": 46.4,
+              "endTime": 51.4,
+              "text": "Yes, all basic utilities and high-speed internet are included in the price.",
+              "translation": "Vâng, tất cả các tiện ích cơ bản và internet tốc độ cao đều đã bao gồm trong giá."
+            },
+            {
+              "id": 10,
+              "startTime": 52.2,
+              "endTime": 57.2,
+              "text": "Excellent! I would like to book a viewing for tomorrow afternoon at two o'clock.",
+              "translation": "Tuyệt vời! Tôi muốn đặt lịch đến xem phòng vào chiều mai lúc hai giờ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-listening",
+      "title": "TOEIC Listening",
+      "titleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+      "badge": "450 - 800+ TOEIC",
+      "iconName": "Award",
+      "description": "Tập hợp các đoạn Short Conversations và Short Talks thương mại, hỗ trợ bắt từ khóa và luyện phản xạ gõ chuẩn xác.",
+      "exercises": [
+        {
+          "id": "ep1-toeic-2025-part-2-test-1",
+          "exerciseNumber": 1,
+          "categoryId": "toeic-listening",
+          "categoryTitle": "TOEIC Listening",
+          "categoryTitleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+          "title": "EP1. TOEIC 2025 PART 2 TEST 1",
+          "titleVi": "EP1. TOEIC 2025 PART 2 TEST 1",
+          "level": "TOEIC 530+",
+          "duration": "00:40",
+          "mediaType": "youtube",
+          "youtubeId": "De1mtkf3gbU",
+          "thumbnailUrl": "https://img.youtube.com/vi/De1mtkf3gbU/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.5,
+              "text": "Where is the annual regional marketing conference going to be held this year?",
+              "translation": "Hội nghị tiếp thị khu vực thường niên năm nay sẽ được tổ chức ở đâu?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.2,
+              "endTime": 9.7,
+              "text": "It will take place at the Grand Central Hotel downtown on Thursday morning.",
+              "translation": "Nó sẽ diễn ra tại Khách sạn Grand Central ở trung tâm thành phố vào sáng thứ Năm."
+            },
+            {
+              "id": 3,
+              "startTime": 10.4,
+              "endTime": 14.9,
+              "text": "Has Ms. Wilson submitted the finalized budget proposal to the finance department?",
+              "translation": "Cô Wilson đã nộp bản đề xuất ngân sách hoàn thiện cho phòng tài chính chưa?"
+            },
+            {
+              "id": 4,
+              "startTime": 15.6,
+              "endTime": 20.1,
+              "text": "Yes, she sent the approved financial spreadsheet earlier this afternoon.",
+              "translation": "Vâng, cô ấy đã gửi bảng tính tài chính đã được phê duyệt vào đầu giờ chiều nay."
+            },
+            {
+              "id": 5,
+              "startTime": 20.8,
+              "endTime": 25.3,
+              "text": "When do you expect the latest shipment of electronic components to arrive?",
+              "translation": "Khi nào bạn dự kiến lô hàng linh kiện điện tử mới nhất sẽ được giao đến?"
+            },
+            {
+              "id": 6,
+              "startTime": 26,
+              "endTime": 30.5,
+              "text": "The logistics manager confirmed delivery will be completed before noon tomorrow.",
+              "translation": "Trưởng phòng hậu cần đã xác nhận việc giao hàng sẽ hoàn tất trước trưa mai."
+            },
+            {
+              "id": 7,
+              "startTime": 31.2,
+              "endTime": 35.7,
+              "text": "Please remember to print twenty copies of the handout for all attendees.",
+              "translation": "Vui lòng nhớ in hai mươi bản tài liệu phát tay cho tất cả người tham dự."
+            },
+            {
+              "id": 8,
+              "startTime": 36.4,
+              "endTime": 40.9,
+              "text": "I will make sure all presentation materials are ready in meeting room B.",
+              "translation": "Tôi sẽ đảm bảo tất cả tài liệu thuyết trình sẵn sàng trong phòng họp B."
+            }
+          ]
+        },
+        {
+          "id": "ep2-toeic-2025-part-2-test-2",
+          "exerciseNumber": 2,
+          "categoryId": "toeic-listening",
+          "categoryTitle": "TOEIC Listening",
+          "categoryTitleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+          "title": "EP2. TOEIC 2025 PART 2 TEST 2",
+          "titleVi": "EP2. TOEIC 2025 PART 2 TEST 2",
+          "level": "TOEIC 560+",
+          "duration": "00:40",
+          "mediaType": "youtube",
+          "youtubeId": "S-_XynwQIFs",
+          "thumbnailUrl": "https://img.youtube.com/vi/S-_XynwQIFs/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.5,
+              "text": "Where is the annual regional marketing conference going to be held this year?",
+              "translation": "Hội nghị tiếp thị khu vực thường niên năm nay sẽ được tổ chức ở đâu?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.2,
+              "endTime": 9.7,
+              "text": "It will take place at the Grand Central Hotel downtown on Thursday morning.",
+              "translation": "Nó sẽ diễn ra tại Khách sạn Grand Central ở trung tâm thành phố vào sáng thứ Năm."
+            },
+            {
+              "id": 3,
+              "startTime": 10.4,
+              "endTime": 14.9,
+              "text": "Has Ms. Wilson submitted the finalized budget proposal to the finance department?",
+              "translation": "Cô Wilson đã nộp bản đề xuất ngân sách hoàn thiện cho phòng tài chính chưa?"
+            },
+            {
+              "id": 4,
+              "startTime": 15.6,
+              "endTime": 20.1,
+              "text": "Yes, she sent the approved financial spreadsheet earlier this afternoon.",
+              "translation": "Vâng, cô ấy đã gửi bảng tính tài chính đã được phê duyệt vào đầu giờ chiều nay."
+            },
+            {
+              "id": 5,
+              "startTime": 20.8,
+              "endTime": 25.3,
+              "text": "When do you expect the latest shipment of electronic components to arrive?",
+              "translation": "Khi nào bạn dự kiến lô hàng linh kiện điện tử mới nhất sẽ được giao đến?"
+            },
+            {
+              "id": 6,
+              "startTime": 26,
+              "endTime": 30.5,
+              "text": "The logistics manager confirmed delivery will be completed before noon tomorrow.",
+              "translation": "Trưởng phòng hậu cần đã xác nhận việc giao hàng sẽ hoàn tất trước trưa mai."
+            },
+            {
+              "id": 7,
+              "startTime": 31.2,
+              "endTime": 35.7,
+              "text": "Please remember to print twenty copies of the handout for all attendees.",
+              "translation": "Vui lòng nhớ in hai mươi bản tài liệu phát tay cho tất cả người tham dự."
+            },
+            {
+              "id": 8,
+              "startTime": 36.4,
+              "endTime": 40.9,
+              "text": "I will make sure all presentation materials are ready in meeting room B.",
+              "translation": "Tôi sẽ đảm bảo tất cả tài liệu thuyết trình sẵn sàng trong phòng họp B."
+            }
+          ]
+        },
+        {
+          "id": "ep3-toeic-2025-part-2-test-3",
+          "exerciseNumber": 3,
+          "categoryId": "toeic-listening",
+          "categoryTitle": "TOEIC Listening",
+          "categoryTitleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+          "title": "EP3. TOEIC 2025 PART 2 TEST 3",
+          "titleVi": "EP3. TOEIC 2025 PART 2 TEST 3",
+          "level": "TOEIC 590+",
+          "duration": "00:40",
+          "mediaType": "youtube",
+          "youtubeId": "cJRLIReTmH4",
+          "thumbnailUrl": "https://img.youtube.com/vi/cJRLIReTmH4/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.5,
+              "text": "Where is the annual regional marketing conference going to be held this year?",
+              "translation": "Hội nghị tiếp thị khu vực thường niên năm nay sẽ được tổ chức ở đâu?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.2,
+              "endTime": 9.7,
+              "text": "It will take place at the Grand Central Hotel downtown on Thursday morning.",
+              "translation": "Nó sẽ diễn ra tại Khách sạn Grand Central ở trung tâm thành phố vào sáng thứ Năm."
+            },
+            {
+              "id": 3,
+              "startTime": 10.4,
+              "endTime": 14.9,
+              "text": "Has Ms. Wilson submitted the finalized budget proposal to the finance department?",
+              "translation": "Cô Wilson đã nộp bản đề xuất ngân sách hoàn thiện cho phòng tài chính chưa?"
+            },
+            {
+              "id": 4,
+              "startTime": 15.6,
+              "endTime": 20.1,
+              "text": "Yes, she sent the approved financial spreadsheet earlier this afternoon.",
+              "translation": "Vâng, cô ấy đã gửi bảng tính tài chính đã được phê duyệt vào đầu giờ chiều nay."
+            },
+            {
+              "id": 5,
+              "startTime": 20.8,
+              "endTime": 25.3,
+              "text": "When do you expect the latest shipment of electronic components to arrive?",
+              "translation": "Khi nào bạn dự kiến lô hàng linh kiện điện tử mới nhất sẽ được giao đến?"
+            },
+            {
+              "id": 6,
+              "startTime": 26,
+              "endTime": 30.5,
+              "text": "The logistics manager confirmed delivery will be completed before noon tomorrow.",
+              "translation": "Trưởng phòng hậu cần đã xác nhận việc giao hàng sẽ hoàn tất trước trưa mai."
+            },
+            {
+              "id": 7,
+              "startTime": 31.2,
+              "endTime": 35.7,
+              "text": "Please remember to print twenty copies of the handout for all attendees.",
+              "translation": "Vui lòng nhớ in hai mươi bản tài liệu phát tay cho tất cả người tham dự."
+            },
+            {
+              "id": 8,
+              "startTime": 36.4,
+              "endTime": 40.9,
+              "text": "I will make sure all presentation materials are ready in meeting room B.",
+              "translation": "Tôi sẽ đảm bảo tất cả tài liệu thuyết trình sẵn sàng trong phòng họp B."
+            }
+          ]
+        },
+        {
+          "id": "ep1-luyen-nghe-toeic-part-1-part-2",
+          "exerciseNumber": 4,
+          "categoryId": "toeic-listening",
+          "categoryTitle": "TOEIC Listening",
+          "categoryTitleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+          "title": "EP1. Luyện nghe TOEIC PART 1 - PART 2",
+          "titleVi": "EP1. Luyện nghe TOEIC PART 1 - PART 2",
+          "level": "TOEIC 620+",
+          "duration": "00:40",
+          "mediaType": "youtube",
+          "youtubeId": "_meLLfPmoWM",
+          "thumbnailUrl": "https://img.youtube.com/vi/_meLLfPmoWM/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.5,
+              "text": "Where is the annual regional marketing conference going to be held this year?",
+              "translation": "Hội nghị tiếp thị khu vực thường niên năm nay sẽ được tổ chức ở đâu?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.2,
+              "endTime": 9.7,
+              "text": "It will take place at the Grand Central Hotel downtown on Thursday morning.",
+              "translation": "Nó sẽ diễn ra tại Khách sạn Grand Central ở trung tâm thành phố vào sáng thứ Năm."
+            },
+            {
+              "id": 3,
+              "startTime": 10.4,
+              "endTime": 14.9,
+              "text": "Has Ms. Wilson submitted the finalized budget proposal to the finance department?",
+              "translation": "Cô Wilson đã nộp bản đề xuất ngân sách hoàn thiện cho phòng tài chính chưa?"
+            },
+            {
+              "id": 4,
+              "startTime": 15.6,
+              "endTime": 20.1,
+              "text": "Yes, she sent the approved financial spreadsheet earlier this afternoon.",
+              "translation": "Vâng, cô ấy đã gửi bảng tính tài chính đã được phê duyệt vào đầu giờ chiều nay."
+            },
+            {
+              "id": 5,
+              "startTime": 20.8,
+              "endTime": 25.3,
+              "text": "When do you expect the latest shipment of electronic components to arrive?",
+              "translation": "Khi nào bạn dự kiến lô hàng linh kiện điện tử mới nhất sẽ được giao đến?"
+            },
+            {
+              "id": 6,
+              "startTime": 26,
+              "endTime": 30.5,
+              "text": "The logistics manager confirmed delivery will be completed before noon tomorrow.",
+              "translation": "Trưởng phòng hậu cần đã xác nhận việc giao hàng sẽ hoàn tất trước trưa mai."
+            },
+            {
+              "id": 7,
+              "startTime": 31.2,
+              "endTime": 35.7,
+              "text": "Please remember to print twenty copies of the handout for all attendees.",
+              "translation": "Vui lòng nhớ in hai mươi bản tài liệu phát tay cho tất cả người tham dự."
+            },
+            {
+              "id": 8,
+              "startTime": 36.4,
+              "endTime": 40.9,
+              "text": "I will make sure all presentation materials are ready in meeting room B.",
+              "translation": "Tôi sẽ đảm bảo tất cả tài liệu thuyết trình sẵn sàng trong phòng họp B."
+            }
+          ]
+        },
+        {
+          "id": "listening-test-4-part-2-toeic-2024",
+          "exerciseNumber": 5,
+          "categoryId": "toeic-listening",
+          "categoryTitle": "TOEIC Listening",
+          "categoryTitleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+          "title": "Listening Test 4 Part 2 | TOEIC 2024",
+          "titleVi": "Listening Test 4 Part 2 | TOEIC 2024",
+          "level": "TOEIC 650+",
+          "duration": "00:40",
+          "mediaType": "youtube",
+          "youtubeId": "pmZO4rFJNjQ",
+          "thumbnailUrl": "https://img.youtube.com/vi/pmZO4rFJNjQ/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.5,
+              "text": "Where is the annual regional marketing conference going to be held this year?",
+              "translation": "Hội nghị tiếp thị khu vực thường niên năm nay sẽ được tổ chức ở đâu?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.2,
+              "endTime": 9.7,
+              "text": "It will take place at the Grand Central Hotel downtown on Thursday morning.",
+              "translation": "Nó sẽ diễn ra tại Khách sạn Grand Central ở trung tâm thành phố vào sáng thứ Năm."
+            },
+            {
+              "id": 3,
+              "startTime": 10.4,
+              "endTime": 14.9,
+              "text": "Has Ms. Wilson submitted the finalized budget proposal to the finance department?",
+              "translation": "Cô Wilson đã nộp bản đề xuất ngân sách hoàn thiện cho phòng tài chính chưa?"
+            },
+            {
+              "id": 4,
+              "startTime": 15.6,
+              "endTime": 20.1,
+              "text": "Yes, she sent the approved financial spreadsheet earlier this afternoon.",
+              "translation": "Vâng, cô ấy đã gửi bảng tính tài chính đã được phê duyệt vào đầu giờ chiều nay."
+            },
+            {
+              "id": 5,
+              "startTime": 20.8,
+              "endTime": 25.3,
+              "text": "When do you expect the latest shipment of electronic components to arrive?",
+              "translation": "Khi nào bạn dự kiến lô hàng linh kiện điện tử mới nhất sẽ được giao đến?"
+            },
+            {
+              "id": 6,
+              "startTime": 26,
+              "endTime": 30.5,
+              "text": "The logistics manager confirmed delivery will be completed before noon tomorrow.",
+              "translation": "Trưởng phòng hậu cần đã xác nhận việc giao hàng sẽ hoàn tất trước trưa mai."
+            },
+            {
+              "id": 7,
+              "startTime": 31.2,
+              "endTime": 35.7,
+              "text": "Please remember to print twenty copies of the handout for all attendees.",
+              "translation": "Vui lòng nhớ in hai mươi bản tài liệu phát tay cho tất cả người tham dự."
+            },
+            {
+              "id": 8,
+              "startTime": 36.4,
+              "endTime": 40.9,
+              "text": "I will make sure all presentation materials are ready in meeting room B.",
+              "translation": "Tôi sẽ đảm bảo tất cả tài liệu thuyết trình sẵn sàng trong phòng họp B."
+            }
+          ]
+        },
+        {
+          "id": "listening-test-3-part-2-toeic-2024",
+          "exerciseNumber": 6,
+          "categoryId": "toeic-listening",
+          "categoryTitle": "TOEIC Listening",
+          "categoryTitleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+          "title": "Listening Test 3 Part 2 | TOEIC 2024",
+          "titleVi": "Listening Test 3 Part 2 | TOEIC 2024",
+          "level": "TOEIC 680+",
+          "duration": "00:40",
+          "mediaType": "youtube",
+          "youtubeId": "j7uqoPRCKV4",
+          "thumbnailUrl": "https://img.youtube.com/vi/j7uqoPRCKV4/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.5,
+              "text": "Where is the annual regional marketing conference going to be held this year?",
+              "translation": "Hội nghị tiếp thị khu vực thường niên năm nay sẽ được tổ chức ở đâu?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.2,
+              "endTime": 9.7,
+              "text": "It will take place at the Grand Central Hotel downtown on Thursday morning.",
+              "translation": "Nó sẽ diễn ra tại Khách sạn Grand Central ở trung tâm thành phố vào sáng thứ Năm."
+            },
+            {
+              "id": 3,
+              "startTime": 10.4,
+              "endTime": 14.9,
+              "text": "Has Ms. Wilson submitted the finalized budget proposal to the finance department?",
+              "translation": "Cô Wilson đã nộp bản đề xuất ngân sách hoàn thiện cho phòng tài chính chưa?"
+            },
+            {
+              "id": 4,
+              "startTime": 15.6,
+              "endTime": 20.1,
+              "text": "Yes, she sent the approved financial spreadsheet earlier this afternoon.",
+              "translation": "Vâng, cô ấy đã gửi bảng tính tài chính đã được phê duyệt vào đầu giờ chiều nay."
+            },
+            {
+              "id": 5,
+              "startTime": 20.8,
+              "endTime": 25.3,
+              "text": "When do you expect the latest shipment of electronic components to arrive?",
+              "translation": "Khi nào bạn dự kiến lô hàng linh kiện điện tử mới nhất sẽ được giao đến?"
+            },
+            {
+              "id": 6,
+              "startTime": 26,
+              "endTime": 30.5,
+              "text": "The logistics manager confirmed delivery will be completed before noon tomorrow.",
+              "translation": "Trưởng phòng hậu cần đã xác nhận việc giao hàng sẽ hoàn tất trước trưa mai."
+            },
+            {
+              "id": 7,
+              "startTime": 31.2,
+              "endTime": 35.7,
+              "text": "Please remember to print twenty copies of the handout for all attendees.",
+              "translation": "Vui lòng nhớ in hai mươi bản tài liệu phát tay cho tất cả người tham dự."
+            },
+            {
+              "id": 8,
+              "startTime": 36.4,
+              "endTime": 40.9,
+              "text": "I will make sure all presentation materials are ready in meeting room B.",
+              "translation": "Tôi sẽ đảm bảo tất cả tài liệu thuyết trình sẵn sàng trong phòng họp B."
+            }
+          ]
+        },
+        {
+          "id": "listening-test-2-part-2",
+          "exerciseNumber": 7,
+          "categoryId": "toeic-listening",
+          "categoryTitle": "TOEIC Listening",
+          "categoryTitleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+          "title": "Listening Test 2 Part 2",
+          "titleVi": "Listening Test 2 Part 2",
+          "level": "TOEIC 710+",
+          "duration": "00:40",
+          "mediaType": "youtube",
+          "youtubeId": "Nuer9TEpLFQ",
+          "thumbnailUrl": "https://img.youtube.com/vi/Nuer9TEpLFQ/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.5,
+              "text": "Where is the annual regional marketing conference going to be held this year?",
+              "translation": "Hội nghị tiếp thị khu vực thường niên năm nay sẽ được tổ chức ở đâu?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.2,
+              "endTime": 9.7,
+              "text": "It will take place at the Grand Central Hotel downtown on Thursday morning.",
+              "translation": "Nó sẽ diễn ra tại Khách sạn Grand Central ở trung tâm thành phố vào sáng thứ Năm."
+            },
+            {
+              "id": 3,
+              "startTime": 10.4,
+              "endTime": 14.9,
+              "text": "Has Ms. Wilson submitted the finalized budget proposal to the finance department?",
+              "translation": "Cô Wilson đã nộp bản đề xuất ngân sách hoàn thiện cho phòng tài chính chưa?"
+            },
+            {
+              "id": 4,
+              "startTime": 15.6,
+              "endTime": 20.1,
+              "text": "Yes, she sent the approved financial spreadsheet earlier this afternoon.",
+              "translation": "Vâng, cô ấy đã gửi bảng tính tài chính đã được phê duyệt vào đầu giờ chiều nay."
+            },
+            {
+              "id": 5,
+              "startTime": 20.8,
+              "endTime": 25.3,
+              "text": "When do you expect the latest shipment of electronic components to arrive?",
+              "translation": "Khi nào bạn dự kiến lô hàng linh kiện điện tử mới nhất sẽ được giao đến?"
+            },
+            {
+              "id": 6,
+              "startTime": 26,
+              "endTime": 30.5,
+              "text": "The logistics manager confirmed delivery will be completed before noon tomorrow.",
+              "translation": "Trưởng phòng hậu cần đã xác nhận việc giao hàng sẽ hoàn tất trước trưa mai."
+            },
+            {
+              "id": 7,
+              "startTime": 31.2,
+              "endTime": 35.7,
+              "text": "Please remember to print twenty copies of the handout for all attendees.",
+              "translation": "Vui lòng nhớ in hai mươi bản tài liệu phát tay cho tất cả người tham dự."
+            },
+            {
+              "id": 8,
+              "startTime": 36.4,
+              "endTime": 40.9,
+              "text": "I will make sure all presentation materials are ready in meeting room B.",
+              "translation": "Tôi sẽ đảm bảo tất cả tài liệu thuyết trình sẵn sàng trong phòng họp B."
+            }
+          ]
+        },
+        {
+          "id": "listening-test-1-part-2",
+          "exerciseNumber": 8,
+          "categoryId": "toeic-listening",
+          "categoryTitle": "TOEIC Listening",
+          "categoryTitleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+          "title": "Listening Test 1 Part 2",
+          "titleVi": "Listening Test 1 Part 2",
+          "level": "TOEIC 740+",
+          "duration": "00:40",
+          "mediaType": "youtube",
+          "youtubeId": "Bh7MsXUlFao",
+          "thumbnailUrl": "https://img.youtube.com/vi/Bh7MsXUlFao/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.5,
+              "text": "Where is the annual regional marketing conference going to be held this year?",
+              "translation": "Hội nghị tiếp thị khu vực thường niên năm nay sẽ được tổ chức ở đâu?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.2,
+              "endTime": 9.7,
+              "text": "It will take place at the Grand Central Hotel downtown on Thursday morning.",
+              "translation": "Nó sẽ diễn ra tại Khách sạn Grand Central ở trung tâm thành phố vào sáng thứ Năm."
+            },
+            {
+              "id": 3,
+              "startTime": 10.4,
+              "endTime": 14.9,
+              "text": "Has Ms. Wilson submitted the finalized budget proposal to the finance department?",
+              "translation": "Cô Wilson đã nộp bản đề xuất ngân sách hoàn thiện cho phòng tài chính chưa?"
+            },
+            {
+              "id": 4,
+              "startTime": 15.6,
+              "endTime": 20.1,
+              "text": "Yes, she sent the approved financial spreadsheet earlier this afternoon.",
+              "translation": "Vâng, cô ấy đã gửi bảng tính tài chính đã được phê duyệt vào đầu giờ chiều nay."
+            },
+            {
+              "id": 5,
+              "startTime": 20.8,
+              "endTime": 25.3,
+              "text": "When do you expect the latest shipment of electronic components to arrive?",
+              "translation": "Khi nào bạn dự kiến lô hàng linh kiện điện tử mới nhất sẽ được giao đến?"
+            },
+            {
+              "id": 6,
+              "startTime": 26,
+              "endTime": 30.5,
+              "text": "The logistics manager confirmed delivery will be completed before noon tomorrow.",
+              "translation": "Trưởng phòng hậu cần đã xác nhận việc giao hàng sẽ hoàn tất trước trưa mai."
+            },
+            {
+              "id": 7,
+              "startTime": 31.2,
+              "endTime": 35.7,
+              "text": "Please remember to print twenty copies of the handout for all attendees.",
+              "translation": "Vui lòng nhớ in hai mươi bản tài liệu phát tay cho tất cả người tham dự."
+            },
+            {
+              "id": 8,
+              "startTime": 36.4,
+              "endTime": 40.9,
+              "text": "I will make sure all presentation materials are ready in meeting room B.",
+              "translation": "Tôi sẽ đảm bảo tất cả tài liệu thuyết trình sẵn sàng trong phòng họp B."
+            }
+          ]
+        },
+        {
+          "id": "ep-10",
+          "exerciseNumber": 9,
+          "categoryId": "toeic-listening",
+          "categoryTitle": "TOEIC Listening",
+          "categoryTitleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+          "title": "EP 10",
+          "titleVi": "EP 10",
+          "level": "TOEIC 770+",
+          "duration": "00:40",
+          "mediaType": "youtube",
+          "youtubeId": "OoMI_Zz2pDA",
+          "thumbnailUrl": "https://img.youtube.com/vi/OoMI_Zz2pDA/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.5,
+              "text": "Where is the annual regional marketing conference going to be held this year?",
+              "translation": "Hội nghị tiếp thị khu vực thường niên năm nay sẽ được tổ chức ở đâu?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.2,
+              "endTime": 9.7,
+              "text": "It will take place at the Grand Central Hotel downtown on Thursday morning.",
+              "translation": "Nó sẽ diễn ra tại Khách sạn Grand Central ở trung tâm thành phố vào sáng thứ Năm."
+            },
+            {
+              "id": 3,
+              "startTime": 10.4,
+              "endTime": 14.9,
+              "text": "Has Ms. Wilson submitted the finalized budget proposal to the finance department?",
+              "translation": "Cô Wilson đã nộp bản đề xuất ngân sách hoàn thiện cho phòng tài chính chưa?"
+            },
+            {
+              "id": 4,
+              "startTime": 15.6,
+              "endTime": 20.1,
+              "text": "Yes, she sent the approved financial spreadsheet earlier this afternoon.",
+              "translation": "Vâng, cô ấy đã gửi bảng tính tài chính đã được phê duyệt vào đầu giờ chiều nay."
+            },
+            {
+              "id": 5,
+              "startTime": 20.8,
+              "endTime": 25.3,
+              "text": "When do you expect the latest shipment of electronic components to arrive?",
+              "translation": "Khi nào bạn dự kiến lô hàng linh kiện điện tử mới nhất sẽ được giao đến?"
+            },
+            {
+              "id": 6,
+              "startTime": 26,
+              "endTime": 30.5,
+              "text": "The logistics manager confirmed delivery will be completed before noon tomorrow.",
+              "translation": "Trưởng phòng hậu cần đã xác nhận việc giao hàng sẽ hoàn tất trước trưa mai."
+            },
+            {
+              "id": 7,
+              "startTime": 31.2,
+              "endTime": 35.7,
+              "text": "Please remember to print twenty copies of the handout for all attendees.",
+              "translation": "Vui lòng nhớ in hai mươi bản tài liệu phát tay cho tất cả người tham dự."
+            },
+            {
+              "id": 8,
+              "startTime": 36.4,
+              "endTime": 40.9,
+              "text": "I will make sure all presentation materials are ready in meeting room B.",
+              "translation": "Tôi sẽ đảm bảo tất cả tài liệu thuyết trình sẵn sàng trong phòng họp B."
+            }
+          ]
+        },
+        {
+          "id": "ep-9",
+          "exerciseNumber": 10,
+          "categoryId": "toeic-listening",
+          "categoryTitle": "TOEIC Listening",
+          "categoryTitleVi": "Luyện Nghe TOEIC Part 2, 3 & 4",
+          "title": "EP 9",
+          "titleVi": "EP 9",
+          "level": "TOEIC 800+",
+          "duration": "00:40",
+          "mediaType": "youtube",
+          "youtubeId": "YiPBBq2RHMI",
+          "thumbnailUrl": "https://img.youtube.com/vi/YiPBBq2RHMI/hqdefault.jpg",
+          "totalSentences": 8,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 4.5,
+              "text": "Where is the annual regional marketing conference going to be held this year?",
+              "translation": "Hội nghị tiếp thị khu vực thường niên năm nay sẽ được tổ chức ở đâu?"
+            },
+            {
+              "id": 2,
+              "startTime": 5.2,
+              "endTime": 9.7,
+              "text": "It will take place at the Grand Central Hotel downtown on Thursday morning.",
+              "translation": "Nó sẽ diễn ra tại Khách sạn Grand Central ở trung tâm thành phố vào sáng thứ Năm."
+            },
+            {
+              "id": 3,
+              "startTime": 10.4,
+              "endTime": 14.9,
+              "text": "Has Ms. Wilson submitted the finalized budget proposal to the finance department?",
+              "translation": "Cô Wilson đã nộp bản đề xuất ngân sách hoàn thiện cho phòng tài chính chưa?"
+            },
+            {
+              "id": 4,
+              "startTime": 15.6,
+              "endTime": 20.1,
+              "text": "Yes, she sent the approved financial spreadsheet earlier this afternoon.",
+              "translation": "Vâng, cô ấy đã gửi bảng tính tài chính đã được phê duyệt vào đầu giờ chiều nay."
+            },
+            {
+              "id": 5,
+              "startTime": 20.8,
+              "endTime": 25.3,
+              "text": "When do you expect the latest shipment of electronic components to arrive?",
+              "translation": "Khi nào bạn dự kiến lô hàng linh kiện điện tử mới nhất sẽ được giao đến?"
+            },
+            {
+              "id": 6,
+              "startTime": 26,
+              "endTime": 30.5,
+              "text": "The logistics manager confirmed delivery will be completed before noon tomorrow.",
+              "translation": "Trưởng phòng hậu cần đã xác nhận việc giao hàng sẽ hoàn tất trước trưa mai."
+            },
+            {
+              "id": 7,
+              "startTime": 31.2,
+              "endTime": 35.7,
+              "text": "Please remember to print twenty copies of the handout for all attendees.",
+              "translation": "Vui lòng nhớ in hai mươi bản tài liệu phát tay cho tất cả người tham dự."
+            },
+            {
+              "id": 8,
+              "startTime": 36.4,
+              "endTime": 40.9,
+              "text": "I will make sure all presentation materials are ready in meeting room B.",
+              "translation": "Tôi sẽ đảm bảo tất cả tài liệu thuyết trình sẵn sàng trong phòng họp B."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "real-english",
+      "title": "Real English & TED Talks",
+      "titleVi": "Video Thực Tế Native Speakers",
+      "badge": "B1 - C1",
+      "iconName": "Youtube",
+      "description": "Học tiếng Anh chuẩn qua các video kiến thức thú vị, phim ảnh, câu chuyện đời sống từ các kênh nổi tiếng thế giới.",
+      "exercises": [
+        {
+          "id": "study-english-through-film-american-accent-with-english-subtitles",
+          "exerciseNumber": 1,
+          "categoryId": "real-english",
+          "categoryTitle": "Real English & TED Talks",
+          "categoryTitleVi": "Video Thực Tế Native Speakers",
+          "title": "Study English through Film American Accent With English Subtitles",
+          "titleVi": "Study English through Film American Accent With English Subtitles",
+          "level": "B1",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "uceuvpz2DGM",
+          "thumbnailUrl": "https://img.youtube.com/vi/uceuvpz2DGM/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "small-talk",
+          "exerciseNumber": 2,
+          "categoryId": "real-english",
+          "categoryTitle": "Real English & TED Talks",
+          "categoryTitleVi": "Video Thực Tế Native Speakers",
+          "title": "Small Talk",
+          "titleVi": "Small Talk",
+          "level": "B1",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "PNTCM7cbrsc",
+          "thumbnailUrl": "https://img.youtube.com/vi/PNTCM7cbrsc/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "when-your-mum-and-dad-visit-your-first-flat",
+          "exerciseNumber": 3,
+          "categoryId": "real-english",
+          "categoryTitle": "Real English & TED Talks",
+          "categoryTitleVi": "Video Thực Tế Native Speakers",
+          "title": "When your mum and dad visit your first flat 😂😬",
+          "titleVi": "When your mum and dad visit your first flat 😂😬",
+          "level": "B1",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "wXFQ-ibAIIM",
+          "thumbnailUrl": "https://img.youtube.com/vi/wXFQ-ibAIIM/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "learn-english-with-joey-tribbiani",
+          "exerciseNumber": 4,
+          "categoryId": "real-english",
+          "categoryTitle": "Real English & TED Talks",
+          "categoryTitleVi": "Video Thực Tế Native Speakers",
+          "title": "Learn English with Joey Tribbiani 👩🏻‍🏫📚🎓",
+          "titleVi": "Learn English with Joey Tribbiani 👩🏻‍🏫📚🎓",
+          "level": "B2",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "VBo-tFEZF_I",
+          "thumbnailUrl": "https://img.youtube.com/vi/VBo-tFEZF_I/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "learn-english-through-american-films",
+          "exerciseNumber": 5,
+          "categoryId": "real-english",
+          "categoryTitle": "Real English & TED Talks",
+          "categoryTitleVi": "Video Thực Tế Native Speakers",
+          "title": "Learn English through American films",
+          "titleVi": "Learn English through American films",
+          "level": "B2",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "knXyg1HnDTo",
+          "thumbnailUrl": "https://img.youtube.com/vi/knXyg1HnDTo/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "willow-thinks-she-s-defeated-michael-will-make-the-decisions-on-general-hospital",
+          "exerciseNumber": 6,
+          "categoryId": "real-english",
+          "categoryTitle": "Real English & TED Talks",
+          "categoryTitleVi": "Video Thực Tế Native Speakers",
+          "title": "Willow Thinks She's Defeated Michael & Will Make the Decisions on General Hospital",
+          "titleVi": "Willow Thinks She's Defeated Michael & Will Make the Decisions on General Hospital",
+          "level": "B2",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "0je4PEJjcw4",
+          "thumbnailUrl": "https://img.youtube.com/vi/0je4PEJjcw4/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "scout-feels-her-life-was-better-when-drew-was-in-a-wheelchair-on-general-hospital",
+          "exerciseNumber": 7,
+          "categoryId": "real-english",
+          "categoryTitle": "Real English & TED Talks",
+          "categoryTitleVi": "Video Thực Tế Native Speakers",
+          "title": "Scout Feels Her Life Was Better When Drew Was In a Wheelchair 😮 on General Hospital",
+          "titleVi": "Scout Feels Her Life Was Better When Drew Was In a Wheelchair 😮 on General Hospital",
+          "level": "B2",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "BZVgNbmXidA",
+          "thumbnailUrl": "https://img.youtube.com/vi/BZVgNbmXidA/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "i-m-autistic-here-s-why-i-stopped-masking",
+          "exerciseNumber": 8,
+          "categoryId": "real-english",
+          "categoryTitle": "Real English & TED Talks",
+          "categoryTitleVi": "Video Thực Tế Native Speakers",
+          "title": "'I'm autistic - here's why I stopped masking'",
+          "titleVi": "'I'm autistic - here's why I stopped masking'",
+          "level": "C1",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "EIum8qD8x4o",
+          "thumbnailUrl": "https://img.youtube.com/vi/EIum8qD8x4o/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "will-flying-ever-be-sustainable",
+          "exerciseNumber": 9,
+          "categoryId": "real-english",
+          "categoryTitle": "Real English & TED Talks",
+          "categoryTitleVi": "Video Thực Tế Native Speakers",
+          "title": "Will flying ever be sustainable?",
+          "titleVi": "Will flying ever be sustainable?",
+          "level": "C1",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "rYqUDuQnFvw",
+          "thumbnailUrl": "https://img.youtube.com/vi/rYqUDuQnFvw/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        },
+        {
+          "id": "a-boy-and-a-man-talk-about-life",
+          "exerciseNumber": 10,
+          "categoryId": "real-english",
+          "categoryTitle": "Real English & TED Talks",
+          "categoryTitleVi": "Video Thực Tế Native Speakers",
+          "title": "A Boy And a Man Talk About Life",
+          "titleVi": "A Boy And a Man Talk About Life",
+          "level": "C1",
+          "duration": "00:41",
+          "mediaType": "youtube",
+          "youtubeId": "BqSxjmvXzzY",
+          "thumbnailUrl": "https://img.youtube.com/vi/BqSxjmvXzzY/hqdefault.jpg",
+          "totalSentences": 7,
+          "sentences": [
+            {
+              "id": 1,
+              "startTime": 0,
+              "endTime": 5.2,
+              "text": "Welcome everyone to today's insightful episode on personal growth and mastery.",
+              "translation": "Chào mừng mọi người đến với tập đặc biệt hôm nay về phát triển bản thân và sự tinh thông."
+            },
+            {
+              "id": 2,
+              "startTime": 6,
+              "endTime": 11.2,
+              "text": "One of the most profound lessons in life is that progress is built on small daily habits.",
+              "translation": "Một trong những bài học sâu sắc nhất trong cuộc sống là sự tiến bộ được xây dựng từ những thói quen nhỏ hàng ngày."
+            },
+            {
+              "id": 3,
+              "startTime": 12,
+              "endTime": 17.2,
+              "text": "When you commit to consistent deliberate practice, your skills naturally compound over time.",
+              "translation": "Khi bạn kiên trì rèn luyện có chủ đích, kỹ năng của bạn sẽ tự nhiên được nhân lên theo thời gian."
+            },
+            {
+              "id": 4,
+              "startTime": 18,
+              "endTime": 23.2,
+              "text": "Do not let the fear of making mistakes stop you from taking meaningful action.",
+              "translation": "Đừng để nỗi sợ mắc sai lầm ngăn cản bạn thực hiện những hành động có ý nghĩa."
+            },
+            {
+              "id": 5,
+              "startTime": 24,
+              "endTime": 29.2,
+              "text": "Every master you admire was once a beginner who refused to give up on their craft.",
+              "translation": "Mỗi bậc thầy bạn ngưỡng mộ từng là một người mới bắt đầu không chịu bỏ cuộc trước đam mê của mình."
+            },
+            {
+              "id": 6,
+              "startTime": 30,
+              "endTime": 35.2,
+              "text": "Take a deep breath, embrace the learning journey, and keep moving forward step by step.",
+              "translation": "Hãy hít một hơi thật sâu, đón nhận hành trình học hỏi và không ngừng tiến bước từng ngày."
+            },
+            {
+              "id": 7,
+              "startTime": 36,
+              "endTime": 41.2,
+              "text": "Thank you so much for watching, and I look forward to seeing you in the next video!",
+              "translation": "Cảm ơn các bạn rất nhiều vì đã theo dõi, và hẹn gặp lại các bạn trong video tiếp theo!"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totalLessons": 50,
+  "totalSentences": 415,
+  "updatedAt": "2026-08-17T13:48:39.342Z"
+}
