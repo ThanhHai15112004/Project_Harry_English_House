@@ -17,109 +17,340 @@
           "title": "The Bear and the Bee",
           "titleVi": "The Bear and the Bee",
           "level": "A1",
-          "duration": "01:29",
+          "duration": "03:33",
           "mediaType": "youtube",
           "youtubeId": "jKi2SvWOCXc",
           "thumbnailUrl": "https://img.youtube.com/vi/jKi2SvWOCXc/hqdefault.jpg",
-          "totalSentences": 14,
+          "totalSentences": 47,
           "sentences": [
             {
               "id": 1,
-              "startTime": 0,
-              "endTime": 5.5,
-              "text": "One day Mr Bear looks in his cupboard and he can't find any honey.",
-              "translation": "Một ngày nọ, chú Gấu nhìn vào tủ và không tìm thấy một chút mật ong nào."
+              "startTime": 0.33,
+              "endTime": 2.66,
+              "text": "The Bear and the Bee.",
+              "translation": "Chú Gấu và Chú Ong."
             },
             {
               "id": 2,
-              "startTime": 5.5,
-              "endTime": 11,
-              "text": "Oh no! There's no honey in my cupboard! says Mr Bear.",
-              "translation": "Ôi không! Không còn chút mật ong nào trong tủ cả! Chú Gấu thốt lên."
+              "startTime": 10.39,
+              "endTime": 13.91,
+              "text": "Everybody knows that bears love honey.",
+              "translation": "Ai cũng biết rằng loài gấu rất mê mật ong."
             },
             {
               "id": 3,
-              "startTime": 11,
-              "endTime": 16.8,
-              "text": "Mr Bear is hungry, so he goes into the forest to look for honey.",
-              "translation": "Chú Gấu đang rất đói, vì vậy chú đi vào rừng để tìm mật ong."
+              "startTime": 14.75,
+              "endTime": 21.25,
+              "text": "One day Mr Bear looks in his cupboard and he can't find any honey.",
+              "translation": "Một ngày nọ, chú Gấu nhìn vào tủ bếp và không tìm thấy một chút mật ong nào."
             },
             {
               "id": 4,
-              "startTime": 16.8,
-              "endTime": 22.5,
-              "text": "He walks and walks until he sees a big fallen tree.",
-              "translation": "Chú bước đi mải miết cho đến khi nhìn thấy một thân cây to bị đổ."
+              "startTime": 22.31,
+              "endTime": 26.78,
+              "text": "\"Oh no! No honey!\" he says.",
+              "translation": "\"Ôi không! Hết mật ong rồi!\" chú thốt lên."
             },
             {
               "id": 5,
-              "startTime": 22.5,
-              "endTime": 28.2,
-              "text": "There is a little bee buzzing around the old hollow log.",
-              "translation": "Có một chú ong nhỏ đang vo ve quanh khúc gỗ mục rỗng ruột."
+              "startTime": 27.19,
+              "endTime": 30.51,
+              "text": "So he goes into the forest to find some.",
+              "translation": "Vì vậy, chú đi vào rừng sâu để tìm kiếm."
             },
             {
               "id": 6,
-              "startTime": 28.2,
-              "endTime": 34,
-              "text": "Aha! Where there are bees, there must be honey! thinks Mr Bear.",
-              "translation": "Aha! Nơi nào có ong thì chắc chắn nơi đó có mật! Chú Gấu thầm nghĩ."
+              "startTime": 33.45,
+              "endTime": 36.24,
+              "text": "He sees a beehive in a tree.",
+              "translation": "Chú nhìn thấy một tổ ong trên cành cây."
             },
             {
               "id": 7,
-              "startTime": 34,
-              "endTime": 40.2,
-              "text": "He peeks inside the hollow log and smells the delicious sweet honey.",
-              "translation": "Chú ngó vào bên trong khúc gỗ rỗng và ngửi thấy mùi mật ong thơm ngon ngọt ngào."
+              "startTime": 36.83,
+              "endTime": 38.83,
+              "text": "He smells the honey.",
+              "translation": "Chú ngửi thấy mùi mật ong thơm lừng."
             },
             {
               "id": 8,
-              "startTime": 40.2,
-              "endTime": 46.5,
-              "text": "Suddenly, the little bee spots Mr Bear and stings him right on the nose! Ouch!",
-              "translation": "Bất thình lình, chú ong nhỏ phát hiện ra Gấu và chích ngay vào đầu mũi chú! Ái chà!"
+              "startTime": 39.38,
+              "endTime": 41.73,
+              "text": "\"Mmmmm! Honey!\"",
+              "translation": "\"Mmmm! Mật ong ngon tuyệt!\""
             },
             {
               "id": 9,
-              "startTime": 46.5,
-              "endTime": 52.8,
-              "text": "Mr Bear gets very angry. He roars and smashes the log with his giant paws.",
-              "translation": "Chú Gấu nổi trận lôi đình. Chú gầm lên và vung đôi bàn chân to đập mạnh vào khúc gỗ."
+              "startTime": 42.38,
+              "endTime": 45.88,
+              "text": "He sticks his paw into the beehive and…",
+              "translation": "Chú thò bàn chân to vào tổ ong và..."
             },
             {
               "id": 10,
-              "startTime": 52.8,
-              "endTime": 59.5,
-              "text": "Suddenly, a whole swarm of angry bees flies out from the tree trunk!",
-              "translation": "Bất ngờ thay, cả một đàn ong giận dữ bay túa ra từ thân cây!"
+              "startTime": 47.96,
+              "endTime": 49.96,
+              "text": "A bee flies out.",
+              "translation": "Một chú ong bay vút ra ngoài."
             },
             {
               "id": 11,
-              "startTime": 59.5,
-              "endTime": 66.2,
-              "text": "Mr Bear turns and runs as fast as his legs can carry him toward the lake.",
-              "translation": "Chú Gấu quay đầu chạy thục mạng hết sức có thể về phía bờ hồ."
+              "startTime": 50.79,
+              "endTime": 54.32,
+              "text": "“Hey, bear! Go away!” says the bee.",
+              "translation": "\"Này gấu kia! Đi chỗ khác đi!\" chú ong nói."
             },
             {
               "id": 12,
-              "startTime": 66.2,
-              "endTime": 73,
-              "text": "He jumps splash into the cold water and stays under until the bees are gone.",
-              "translation": "Chú nhảy tùm xuống làn nước lạnh và nấp dưới nước cho đến khi đàn ong bay đi hết."
+              "startTime": 54.63,
+              "endTime": 56.84,
+              "text": "\"This is not your honey!\"",
+              "translation": "\"Đây không phải là mật ong của ngươi!\""
             },
             {
               "id": 13,
-              "startTime": 73,
-              "endTime": 80.5,
-              "text": "Poor Mr Bear has no honey, a swollen nose, and wet dripping fur.",
-              "translation": "Tội nghiệp chú Gấu, chẳng có mật ong, mũi thì sưng vù và bộ lông ướt sũng."
+              "startTime": 57.5,
+              "endTime": 59.5,
+              "text": "Mr Bear is annoyed.",
+              "translation": "Chú Gấu tỏ ra bực mình."
             },
             {
               "id": 14,
-              "startTime": 80.5,
-              "endTime": 89,
-              "text": "It is always better to bear a single insult in peace than to provoke a swarm of enemies.",
-              "translation": "Nhẫn nhịn một lời xúc phạm nhỏ luôn tốt hơn là chọc giận cả một bầy kẻ thù."
+              "startTime": 59.85,
+              "endTime": 63.43,
+              "text": "“I am bigger than you,” he says.",
+              "translation": "\"Ta to lớn hơn ngươi nhiều,\" chú gấu bảo."
+            },
+            {
+              "id": 15,
+              "startTime": 63.64,
+              "endTime": 66.48,
+              "text": "“And I am stronger than you too.",
+              "translation": "\"Và ta cũng khỏe hơn ngươi nữa."
+            },
+            {
+              "id": 16,
+              "startTime": 66.59,
+              "endTime": 70.18,
+              "text": "I can do what I want! Now... buzz off!”",
+              "translation": "Ta thích làm gì thì làm! Mau... biến đi!\""
+            },
+            {
+              "id": 17,
+              "startTime": 70.56,
+              "endTime": 75.04,
+              "text": "Mr Bear sticks his paw into the beehive again and…",
+              "translation": "Chú Gấu lại thọc bàn chân vào tổ ong lần nữa và..."
+            },
+            {
+              "id": 18,
+              "startTime": 80.32,
+              "endTime": 83.62,
+              "text": "The bee stings him right on his nose!",
+              "translation": "Chú ong chích ngay một phát vào đầu mũi chú gấu!"
+            },
+            {
+              "id": 19,
+              "startTime": 84.43,
+              "endTime": 86.95,
+              "text": "“My nose! My nose!",
+              "translation": "\"Mũi tôi! Mũi của tôi!"
+            },
+            {
+              "id": 20,
+              "startTime": 86.95,
+              "endTime": 91.66,
+              "text": "Oooh... I'm so angry!\" growls Mr Bear.",
+              "translation": "Oooh... Ta tức chết đi được!\" Chú Gấu gầm lên."
+            },
+            {
+              "id": 21,
+              "startTime": 92.16,
+              "endTime": 94.91,
+              "text": "He finds a big stick.",
+              "translation": "Chú tìm thấy một cành cây lớn."
+            },
+            {
+              "id": 22,
+              "startTime": 95.4,
+              "endTime": 97.4,
+              "text": "He tries to hit the bee.",
+              "translation": "Chú cố gắng đập chú ong."
+            },
+            {
+              "id": 23,
+              "startTime": 97.9,
+              "endTime": 102.41,
+              "text": "He swings and he swings, but the bee is too fast!",
+              "translation": "Chú vung gậy qua lại, nhưng chú ong bay quá nhanh!"
+            },
+            {
+              "id": 24,
+              "startTime": 102.89,
+              "endTime": 106.47,
+              "text": "Mr Bear gets angrier and angrier.",
+              "translation": "Chú Gấu ngày càng tức giận hơn."
+            },
+            {
+              "id": 25,
+              "startTime": 106.78,
+              "endTime": 112.38,
+              "text": "\"I will squash you! Come here!\"",
+              "translation": "\"Ta sẽ đập bẹp ngươi! Đứng lại đó!\""
+            },
+            {
+              "id": 26,
+              "startTime": 112.5,
+              "endTime": 115.22,
+              "text": "The bee flies back into the beehive.",
+              "translation": "Chú ong liền bay trở lại vào trong tổ."
+            },
+            {
+              "id": 27,
+              "startTime": 116.08,
+              "endTime": 120.62,
+              "text": "\"Ah hah! Now you're trapped!\" yells Mr Bear.",
+              "translation": "\"A ha! Giờ thì ngươi hết đường chạy!\" Chú Gấu hét to."
+            },
+            {
+              "id": 28,
+              "startTime": 121.05,
+              "endTime": 123.9,
+              "text": "He swings his stick at the beehive.",
+              "translation": "Chú vung cậy đập mạnh vào tổ ong."
+            },
+            {
+              "id": 29,
+              "startTime": 126.7,
+              "endTime": 129.24,
+              "text": "He smashes it to pieces!",
+              "translation": "Chú đập nát vụn chiếc tổ ong!"
+            },
+            {
+              "id": 30,
+              "startTime": 130.22,
+              "endTime": 132.76,
+              "text": "Then he hears a strange sound.",
+              "translation": "Bỗng nhiên chú nghe thấy một âm thanh lạ."
+            },
+            {
+              "id": 31,
+              "startTime": 133.16,
+              "endTime": 136.29,
+              "text": "It gets louder and louder…",
+              "translation": "Âm thanh ngày càng to dần, to dần..."
+            },
+            {
+              "id": 32,
+              "startTime": 143.27,
+              "endTime": 147.2,
+              "text": "Thousands of bees fly out of the smashed beehive.",
+              "translation": "Hàng ngàn con ong túa ra từ chiếc tổ bị đập vỡ."
+            },
+            {
+              "id": 33,
+              "startTime": 147.5,
+              "endTime": 150.23,
+              "text": "They fly around Mr Bear's head…",
+              "translation": "Chúng bay lượn vòng quanh đầu chú Gấu..."
+            },
+            {
+              "id": 34,
+              "startTime": 150.47,
+              "endTime": 155.73,
+              "text": "They sting him on his ear.",
+              "translation": "Chúng chích vào tai chú."
+            },
+            {
+              "id": 35,
+              "startTime": 156.3,
+              "endTime": 160.09,
+              "text": "They sting him on his elbow.",
+              "translation": "Chúng chích vào cùi chỏ của chú."
+            },
+            {
+              "id": 36,
+              "startTime": 160.39,
+              "endTime": 163.22,
+              "text": "They chase Mr Bear through the forest.",
+              "translation": "Chúng đuổi theo chú Gấu chạy khắp khu rừng."
+            },
+            {
+              "id": 37,
+              "startTime": 163.22,
+              "endTime": 167.68,
+              "text": "They sting him on his arms, his legs, his hands...",
+              "translation": "Chúng chích vào tay, chân và bàn tay chú..."
+            },
+            {
+              "id": 38,
+              "startTime": 167.68,
+              "endTime": 170.35,
+              "text": "... and especially on his nose.",
+              "translation": "... và đặc biệt là ngay trên chóp mũi."
+            },
+            {
+              "id": 39,
+              "startTime": 172.34,
+              "endTime": 178.11,
+              "text": "Mr Bear runs all the way home and slams the door shut. BAM!",
+              "translation": "Chú Gấu chạy thục mạng về nhà và đóng sập cửa lại. RẦM!"
+            },
+            {
+              "id": 40,
+              "startTime": 179.79,
+              "endTime": 182.41,
+              "text": "Then he hears a voice behind him.",
+              "translation": "Rồi chú nghe thấy một giọng nói phía sau lưng."
+            },
+            {
+              "id": 41,
+              "startTime": 182.89,
+              "endTime": 184.53,
+              "text": "It’s Mrs. Bear.",
+              "translation": "Đó là cô Gấu vợ."
+            },
+            {
+              "id": 42,
+              "startTime": 184.97,
+              "endTime": 188.34,
+              "text": "“You did it again, didn’t you?” she says.",
+              "translation": "\"Anh lại gây chuyện nữa rồi đúng không?\" cô ấy nói."
+            },
+            {
+              "id": 43,
+              "startTime": 188.58,
+              "endTime": 190.39,
+              "text": "“You lost your temper.”",
+              "translation": "\"Anh lại mất bình tĩnh rồi.\""
+            },
+            {
+              "id": 44,
+              "startTime": 190.86,
+              "endTime": 196.62,
+              "text": "“Yes,” he says as he cries and counts his bee stings.",
+              "translation": "\"Đúng vậy,\" chú vừa khóc vừa đếm các vết ong đốt."
+            },
+            {
+              "id": 45,
+              "startTime": 197.62,
+              "endTime": 201.26,
+              "text": "“Here’s the bee-sting medicine,” says Mrs. Bear.",
+              "translation": "\"Thuốc trị ong đốt của anh đây này,\" cô Gấu bảo."
+            },
+            {
+              "id": 46,
+              "startTime": 201.4,
+              "endTime": 206.05,
+              "text": "“Also, we have honey in the cupboard. It’s behind the flour.”",
+              "translation": "\"Với lại, trong tủ mình có sẵn mật ong mà. Nó ở ngay sau túi bột mì ấy.\""
+            },
+            {
+              "id": 47,
+              "startTime": 208.57,
+              "endTime": 213.59,
+              "text": "Moral: A hot temper always gets you into trouble.",
+              "translation": "Bài học: Sự nóng giận luôn mang lại rắc rối cho bạn."
             }
           ]
         },
@@ -132,88 +363,312 @@
           "title": "The Wind and the Sun",
           "titleVi": "The Wind and the Sun",
           "level": "A1",
-          "duration": "01:12",
+          "duration": "03:17",
           "mediaType": "youtube",
           "youtubeId": "_z6ZIwKu1bY",
           "thumbnailUrl": "https://img.youtube.com/vi/_z6ZIwKu1bY/hqdefault.jpg",
-          "totalSentences": 11,
+          "totalSentences": 43,
           "sentences": [
             {
               "id": 1,
-              "startTime": 0,
-              "endTime": 5.8,
-              "text": "The North Wind and the Sun were disputing which was the stronger.",
-              "translation": "Gió Bấc và Mặt Trời đang tranh cãi xem ai là người mạnh mẽ hơn."
+              "startTime": 0.23,
+              "endTime": 2.23,
+              "text": "The Wind and the Sun.",
+              "translation": "Gió và Mặt Trời."
             },
             {
               "id": 2,
-              "startTime": 5.8,
-              "endTime": 11.5,
-              "text": "While they were debating, a traveler came walking along the road wrapped in a warm cloak.",
-              "translation": "Trong lúc họ đang tranh luận, một người lữ khách đi dọc con đường, choàng chiếc áo khoác ấm áp."
+              "startTime": 8.78,
+              "endTime": 12.52,
+              "text": "The wind and the sun are having a disagreement.",
+              "translation": "Gió và Mặt Trời đang có một cuộc tranh cãi."
             },
             {
               "id": 3,
-              "startTime": 11.5,
-              "endTime": 17.5,
-              "text": "They agreed that the one who first made the traveler take off his cloak should be declared the winner.",
-              "translation": "Họ đồng ý rằng ai khiến người lữ khách cởi áo khoác ra trước sẽ là người chiến thắng."
+              "startTime": 13.38,
+              "endTime": 16.91,
+              "text": "“I am the most powerful!” says the wind.",
+              "translation": "\"Ta là kẻ mạnh nhất!\" Thần Gió tuyên bố."
             },
             {
               "id": 4,
-              "startTime": 17.5,
-              "endTime": 23.5,
-              "text": "The North Wind decided to try his power first.",
-              "translation": "Gió Bấc quyết định thử sức mạnh của mình trước."
+              "startTime": 17.26,
+              "endTime": 21.53,
+              "text": "“No, I am the most powerful!” says the sun.",
+              "translation": "\"Không, ta mới là kẻ quyền năng nhất!\" Mặt Trời đáp."
             },
             {
               "id": 5,
-              "startTime": 23.5,
-              "endTime": 30,
-              "text": "He blew with all his might, sending cold gusts of wind howling through the trees.",
-              "translation": "Gió Bấc thổi hết sức bình sinh, tạo nên những cơn gió lạnh rít qua hàng cây."
+              "startTime": 22.28,
+              "endTime": 26.54,
+              "text": "“I can blow trees to the ground!” brags the wind.",
+              "translation": "\"Ta có thể thổi bay những hàng cây đổ rạp xuống đất!\" Thần Gió khoe khoang."
             },
             {
               "id": 6,
-              "startTime": 30,
-              "endTime": 36.8,
-              "text": "But the harder the cold wind blew, the tighter the traveler wrapped his cloak around himself.",
-              "translation": "Nhưng gió lạnh càng thổi mạnh thì người lữ khách lại càng quấn chặt áo khoác quanh người."
+              "startTime": 26.86,
+              "endTime": 29.81,
+              "text": "“I can push ships across the ocean.",
+              "translation": "\"Ta có thể đẩy những con thuyền vượt đại dương."
             },
             {
               "id": 7,
-              "startTime": 36.8,
-              "endTime": 43,
-              "text": "At last, out of breath and exhausted, the North Wind gave up in defeat.",
-              "translation": "Cuối cùng, hết hơi và kiệt sức, Gió Bấc đành chịu thua và bỏ cuộc."
+              "startTime": 30.58,
+              "endTime": 34.37,
+              "text": "I can make hurricanes and tornadoes!”",
+              "translation": "Ta có thể tạo ra bão tố và lốc xoáy!\""
             },
             {
               "id": 8,
-              "startTime": 43,
-              "endTime": 49.5,
-              "text": "Then the Sun smiled brightly and shone with warm, gentle beams of golden light.",
-              "translation": "Sau đó, Mặt Trời mỉm cười rạng rỡ và tỏa ra những tia nắng vàng ấm áp, dịu dàng."
+              "startTime": 35.24,
+              "endTime": 38.34,
+              "text": "“Is that right?” replies the sun.",
+              "translation": "\"Thế à?\" Mặt Trời từ tốn đáp."
             },
             {
               "id": 9,
-              "startTime": 49.5,
-              "endTime": 56,
-              "text": "The traveler felt the pleasant warmth and soon began to feel very hot.",
-              "translation": "Người lữ khách cảm nhận được hơi ấm dễ chịu và chẳng mấy chốc bắt đầu thấy rất nóng."
+              "startTime": 38.92,
+              "endTime": 43.05,
+              "text": "“Well, I can melt all the snow on the mountains.",
+              "translation": "\"Chà, ta có thể làm tan chảy toàn bộ tuyết trên những đỉnh núi."
             },
             {
               "id": 10,
-              "startTime": 56,
-              "endTime": 63.2,
-              "text": "He gladly unfastened his heavy cloak and took it off to rest under a shade tree.",
-              "translation": "Ông vui vẻ cởi bỏ chiếc áo khoác nặng nề ra để nghỉ ngơi dưới gốc cây râm mát."
+              "startTime": 43.32,
+              "endTime": 46.29,
+              "text": "I can dry up an entire lake.",
+              "translation": "Ta có thể làm cạn khô cả một hồ nước."
             },
             {
               "id": 11,
-              "startTime": 63.2,
-              "endTime": 72,
-              "text": "Persuasion and gentle warmth are far more powerful than harsh force and fury.",
-              "translation": "Sự thuyết phục và hơi ấm dịu dàng luôn mạnh mẽ hơn bạo lực và sự cuồng nộ."
+              "startTime": 47.32,
+              "endTime": 52.39,
+              "text": "I can make a pavement so hot that it cooks an egg!”",
+              "translation": "Ta có thể làm mặt đường nóng đến mức rán chín một quả trứng!\""
+            },
+            {
+              "id": 12,
+              "startTime": 53.27,
+              "endTime": 58.91,
+              "text": "Just then, they see a man walking along the road in his winter jacket.",
+              "translation": "Đúng lúc đó, họ nhìn thấy một người đàn ông mặc áo khoác mùa đông đang đi dạo trên đường."
+            },
+            {
+              "id": 13,
+              "startTime": 59.48,
+              "endTime": 64.51,
+              "text": "“Let’s have a contest to see who is more powerful,” says the wind.",
+              "translation": "\"Hãy thi đấu xem ai quyền năng hơn nhé,\" Thần Gió đề nghị."
+            },
+            {
+              "id": 14,
+              "startTime": 64.92,
+              "endTime": 69.26,
+              "text": "“Whoever can remove the man’s jacket first wins.”",
+              "translation": "\"Ai cởi được chiếc áo khoác của người đàn ông kia trước sẽ là người chiến thắng.\""
+            },
+            {
+              "id": 15,
+              "startTime": 69.85,
+              "endTime": 71.52,
+              "text": "The sun agrees.",
+              "translation": "Mặt Trời đồng ý."
+            },
+            {
+              "id": 16,
+              "startTime": 72.24,
+              "endTime": 74.0,
+              "text": "The wind goes first.",
+              "translation": "Thần Gió ra tay trước."
+            },
+            {
+              "id": 17,
+              "startTime": 74.43,
+              "endTime": 77.85,
+              "text": "He blows a gust of cold wind at the man.",
+              "translation": "Thần thổi một cơn gió lạnh buốt về phía người đàn ông."
+            },
+            {
+              "id": 18,
+              "startTime": 78.78,
+              "endTime": 82.0,
+              "text": "The man shivers and zips up his jacket.",
+              "translation": "Người đàn ông rùng mình và kéo khóa áo khoác lên."
+            },
+            {
+              "id": 19,
+              "startTime": 82.11,
+              "endTime": 85.72,
+              "text": "“Brrr! What a cold and windy day!”",
+              "translation": "\"Brrr! Hôm nay trời gió lạnh thật đấy!\""
+            },
+            {
+              "id": 20,
+              "startTime": 86.43,
+              "endTime": 88.15,
+              "text": "It starts to rain.",
+              "translation": "Trời bắt đầu đổ mưa."
+            },
+            {
+              "id": 21,
+              "startTime": 88.51,
+              "endTime": 93.06,
+              "text": "The wind blows even harder and turns the rain into snow.",
+              "translation": "Thần Gió thổi mạnh hơn nữa và biến những hạt mưa thành bão tuyết."
+            },
+            {
+              "id": 22,
+              "startTime": 93.44,
+              "endTime": 97.14,
+              "text": "“Well look at that! It’s snowing!” says the man.",
+              "translation": "\"Nhìn kìa! Tuyết đang rơi!\" người đàn ông nói."
+            },
+            {
+              "id": 23,
+              "startTime": 97.6,
+              "endTime": 100.62,
+              "text": "“Snow wasn’t in the weather forecast today...”",
+              "translation": "\"Dự báo thời tiết hôm nay đâu có báo tuyết nhỉ...\""
+            },
+            {
+              "id": 24,
+              "startTime": 101.28,
+              "endTime": 103.91,
+              "text": "He pulls his hood over his head.",
+              "translation": "Ông ta trùm mũ áo khoác qua đầu."
+            },
+            {
+              "id": 25,
+              "startTime": 104.77,
+              "endTime": 111.14,
+              "text": "The wind blows his strongest gust towards the man, but the man’s jacket stays on.",
+              "translation": "Thần Gió thổi luồng gió mạnh nhất về phía người đàn ông, nhưng chiếc áo khoác vẫn không hề suy suyển."
+            },
+            {
+              "id": 26,
+              "startTime": 111.69,
+              "endTime": 118.0,
+              "text": "\"Hmm. It’s a bit fresh today…” he says. “A winter storm must be coming...\"",
+              "translation": "\"Hmm. Thời tiết hôm nay lạnh thật đấy... Chắc hẳn bão mùa đông sắp tới rồi.\""
+            },
+            {
+              "id": 27,
+              "startTime": 118.19,
+              "endTime": 121.61,
+              "text": "He zips the jacket higher to cover his nose.",
+              "translation": "Ông kéo khóa áo cao hơn nữa để che kín mũi."
+            },
+            {
+              "id": 28,
+              "startTime": 123.23,
+              "endTime": 126.9,
+              "text": "“Gah! This is impossible,” says the wind.",
+              "translation": "\"Thật không thể nào làm nổi,\" Thần Gió thở dài."
+            },
+            {
+              "id": 29,
+              "startTime": 127.01,
+              "endTime": 128.69,
+              "text": "He stops blowing.",
+              "translation": "Thần đành ngừng thổi."
+            },
+            {
+              "id": 30,
+              "startTime": 128.94,
+              "endTime": 131.65,
+              "text": "“My turn!” says the sun.",
+              "translation": "\"Tới lượt ta!\" Mặt Trời mỉm cười."
+            },
+            {
+              "id": 31,
+              "startTime": 132.52,
+              "endTime": 136.18,
+              "text": "First the sun shines enough to stop the snow.",
+              "translation": "Đầu tiên, Mặt Trời tỏa những tia nắng ấm áp làm tuyết ngừng rơi."
+            },
+            {
+              "id": 32,
+              "startTime": 136.82,
+              "endTime": 139.16,
+              "text": "The man unzips his hood.",
+              "translation": "Người đàn ông mở mũ trùm đầu ra."
+            },
+            {
+              "id": 33,
+              "startTime": 139.94,
+              "endTime": 145.19,
+              "text": "Then the sun pulls the clouds apart and gently shines down on the man.",
+              "translation": "Rồi Mặt Trời vén những đám mây và chiếu ánh nắng dịu dàng xuống người đàn ông."
+            },
+            {
+              "id": 34,
+              "startTime": 146.28,
+              "endTime": 149.93,
+              "text": "Suddenly, it is a beautiful spring day.",
+              "translation": "Bất chợt, khung cảnh trở nên ấm áp như một ngày xuân tuyệt đẹp."
+            },
+            {
+              "id": 35,
+              "startTime": 150.97,
+              "endTime": 156.14,
+              "text": "“Wow. The weather sure is strange around here!” says the man.",
+              "translation": "\"Chà. Thời tiết ở đây lạ lùng thật đấy!\" người đàn ông nói."
+            },
+            {
+              "id": 36,
+              "startTime": 156.46,
+              "endTime": 158.46,
+              "text": "He unzips his jacket.",
+              "translation": "Ông kéo khóa áo khoác xuống."
+            },
+            {
+              "id": 37,
+              "startTime": 159.67,
+              "endTime": 164.67,
+              "text": "The sun gently wiggles her fingers and increases the temperature.",
+              "translation": "Mặt Trời khẽ lay những ngón tay và tăng dần nhiệt độ lên."
+            },
+            {
+              "id": 38,
+              "startTime": 165.38,
+              "endTime": 172.7,
+              "text": "“What strange weather. Now it feels like summer!” the man says as he begins to sweat.",
+              "translation": "\"Thời tiết kỳ lạ quá. Giờ thì nóng như mùa hè vậy!\" người đàn ông thốt lên khi mồ hôi bắt đầu tuôn ra."
+            },
+            {
+              "id": 39,
+              "startTime": 173.49,
+              "endTime": 176.52,
+              "text": "\"Goodness me, it's so hot!\"",
+              "translation": "\"Trời ơi, nóng quá đi mất!\""
+            },
+            {
+              "id": 40,
+              "startTime": 177.53,
+              "endTime": 179.87,
+              "text": "He removes his winter jacket.",
+              "translation": "Ông ta liền cởi phăng chiếc áo khoác mùa đông."
+            },
+            {
+              "id": 41,
+              "startTime": 179.91,
+              "endTime": 184.17,
+              "text": "He lies down on the grass for a nap in the warm sun.",
+              "translation": "Ông nằm dài trên bãi cỏ để chợp mắt dưới ánh nắng ấm áp."
+            },
+            {
+              "id": 42,
+              "startTime": 184.86,
+              "endTime": 188.67,
+              "text": "\"I win!\" says the sun, beaming.",
+              "translation": "\"Ta thắng rồi!\" Mặt Trời rạng rỡ reo lên."
+            },
+            {
+              "id": 43,
+              "startTime": 191.15,
+              "endTime": 197.32,
+              "text": "Moral: Sometimes warmth and gentleness can achieve more than strength and force.",
+              "translation": "Bài học: Đôi khi sự ấm áp và dịu dàng có thể làm được nhiều điều hơn là sức mạnh và bạo lực."
             }
           ]
         },
@@ -226,74 +681,214 @@
           "title": "The Dog and his Bone",
           "titleVi": "The Dog and his Bone",
           "level": "A1",
-          "duration": "00:58",
+          "duration": "02:13",
           "mediaType": "youtube",
           "youtubeId": "Oq-vK6nyPDY",
           "thumbnailUrl": "https://img.youtube.com/vi/Oq-vK6nyPDY/hqdefault.jpg",
-          "totalSentences": 9,
+          "totalSentences": 29,
           "sentences": [
             {
               "id": 1,
-              "startTime": 0,
-              "endTime": 5.5,
-              "text": "A dog was walking proudly through the village carrying a juicy bone in his mouth.",
-              "translation": "Một chú chó đang hãnh diện bước đi trong làng, ngậm một khúc xương ngon lành trong miệng."
+              "startTime": 0.07,
+              "endTime": 2.07,
+              "text": "The Dog and his Bone.",
+              "translation": "Chú Chó và Khúc Xương."
             },
             {
               "id": 2,
-              "startTime": 5.5,
-              "endTime": 11.2,
-              "text": "He came to a small wooden bridge spanning across a sparkling clear stream.",
-              "translation": "Chú đi tới một cây cầu gỗ nhỏ bắc ngang qua dòng suối trong vắt lấp lánh."
+              "startTime": 8.12,
+              "endTime": 13.11,
+              "text": "A dog is walking down the street, when he sees a bone in a trash can.",
+              "translation": "Một chú chó đang đi dạo trên đường thì nhìn thấy một khúc xương trong thùng rác."
             },
             {
               "id": 3,
-              "startTime": 11.2,
-              "endTime": 17,
-              "text": "As he crossed the bridge, he looked down into the water and saw his reflection.",
-              "translation": "Khi băng qua cầu, chú nhìn xuống mặt nước và thấy hình ảnh phản chiếu của chính mình."
+              "startTime": 13.89,
+              "endTime": 18.43,
+              "text": "“A bone! Yippee! How lucky for me!” he thinks.",
+              "translation": "\"Một khúc xương! Tuyệt vời! Mình thật là may mắn!\" chú thầm nghĩ."
             },
             {
               "id": 4,
-              "startTime": 17,
-              "endTime": 23.5,
-              "text": "He thought it was another dog carrying a bone twice as big as his own!",
-              "translation": "Chú cứ ngỡ đó là một chú chó khác đang ngậm khúc xương to gấp đôi của mình!"
+              "startTime": 18.97,
+              "endTime": 22.6,
+              "text": "He grabs the bone, and happily runs home.",
+              "translation": "Chú ngoạm lấy khúc xương và vui vẻ chạy về nhà."
             },
             {
               "id": 5,
-              "startTime": 23.5,
-              "endTime": 30,
-              "text": "Greed overcame him, and he decided to snatch the bigger bone for himself.",
-              "translation": "Lòng tham nổi lên, chú quyết định đớp lấy khúc xương to hơn kia cho bằng được."
+              "startTime": 24.57,
+              "endTime": 28.13,
+              "text": "He runs past the train station and the school.",
+              "translation": "Chú chạy ngang qua nhà ga xe lửa và trường học."
             },
             {
               "id": 6,
-              "startTime": 30,
-              "endTime": 36.5,
-              "text": "He opened his mouth wide and let out a loud ferocious bark.",
-              "translation": "Chú há to mồm và sủa lên một tiếng thật dữ dội."
+              "startTime": 28.73,
+              "endTime": 30.88,
+              "text": "He runs through the park.",
+              "translation": "Chú chạy băng qua công viên."
             },
             {
               "id": 7,
-              "startTime": 36.5,
-              "endTime": 43,
-              "text": "The instant he opened his jaws, his own piece of bone fell into the rushing water.",
-              "translation": "Ngay khoảnh khắc chú vừa mở miệng, khúc xương của chính mình liền rơi tóm xuống dòng nước."
+              "startTime": 31.65,
+              "endTime": 33.94,
+              "text": "He runs onto a bridge.",
+              "translation": "Chú chạy lên một cây cầu nhỏ."
             },
             {
               "id": 8,
-              "startTime": 43,
-              "endTime": 50,
-              "text": "It sank straight to the bottom and was quickly swept away by the current.",
-              "translation": "Nó chìm thẳng xuống đáy và nhanh chóng bị dòng nước chảy xiết cuốn trôi đi mất."
+              "startTime": 34.49,
+              "endTime": 39.68,
+              "text": "On the bridge, the dog looks down into the deep, still water below.",
+              "translation": "Trên cầu, chú chó nhìn xuống làn nước sâu và phẳng lặng bên dưới."
             },
             {
               "id": 9,
-              "startTime": 50,
-              "endTime": 58,
-              "text": "He went home sad and hungry, having lost everything due to his foolish greed.",
-              "translation": "Chú lủi thủi trở về nhà trong buồn bã và đói meo, đánh mất tất cả chỉ vì lòng tham mù quáng."
+              "startTime": 40.28,
+              "endTime": 44.03,
+              "text": "There, he sees another dog with a bone in its mouth.",
+              "translation": "Ở đó, chú nhìn thấy một con chó khác đang ngậm một khúc xương trong miệng."
+            },
+            {
+              "id": 10,
+              "startTime": 45.03,
+              "endTime": 48.37,
+              "text": "“Who is that dog?” he wonders.",
+              "translation": "\"Con chó đó là ai thế nhỉ?\" chú tự hỏi."
+            },
+            {
+              "id": 11,
+              "startTime": 48.75,
+              "endTime": 51.3,
+              "text": "\"What is he doing down there?\"",
+              "translation": "\"Nó đang làm gì ở dưới đó vậy?\""
+            },
+            {
+              "id": 12,
+              "startTime": 52.44,
+              "endTime": 55.1,
+              "text": "The dog stares at the other dog.",
+              "translation": "Chú chó nhìn chằm chằm vào con chó bên dưới."
+            },
+            {
+              "id": 13,
+              "startTime": 55.64,
+              "endTime": 58.0,
+              "text": "The other dog stares back.",
+              "translation": "Con chó bên dưới cũng nhìn chằm chằm lại."
+            },
+            {
+              "id": 14,
+              "startTime": 58.75,
+              "endTime": 63.92,
+              "text": "“Where did that dog get such a BIG bone?” the dog wonders.",
+              "translation": "\"Con chó đó kiếm đâu ra khúc xương TO thế kia?\" chú chó thắc mắc."
+            },
+            {
+              "id": 15,
+              "startTime": 64.35,
+              "endTime": 67.73,
+              "text": "\"Why is his bone bigger than mine?\"",
+              "translation": "\"Tại sao khúc xương của nó lại to hơn khúc xương của mình?\""
+            },
+            {
+              "id": 16,
+              "startTime": 68.49,
+              "endTime": 71.13,
+              "text": "The dog growls at the other dog.",
+              "translation": "Chú chó gầm gừ với con chó dưới nước."
+            },
+            {
+              "id": 17,
+              "startTime": 72.0,
+              "endTime": 74.69,
+              "text": "The other dog growls too.",
+              "translation": "Con chó dưới nước cũng gầm gừ theo."
+            },
+            {
+              "id": 18,
+              "startTime": 75.37,
+              "endTime": 78.98,
+              "text": "“I want that big bone!” he thinks.",
+              "translation": "\"Mình muốn khúc xương to đó!\" chú thầm nghĩ."
+            },
+            {
+              "id": 19,
+              "startTime": 79.69,
+              "endTime": 83.8,
+              "text": "The greedy dog decides to steal the other dog's bone.",
+              "translation": "Chú chó tham lam quyết định cướp lấy khúc xương của con chó kia."
+            },
+            {
+              "id": 20,
+              "startTime": 84.53,
+              "endTime": 87.61,
+              "text": "He leaps off the bridge and into the water.",
+              "translation": "Chú liền nhảy từ trên cầu lao mình xuống dòng nước."
+            },
+            {
+              "id": 21,
+              "startTime": 90.58,
+              "endTime": 95.42,
+              "text": "But as soon as he hits the water, the other dog disappears.",
+              "translation": "Nhưng ngay khi chú chạm mặt nước, con chó kia biến mất tăm."
+            },
+            {
+              "id": 22,
+              "startTime": 95.73,
+              "endTime": 98.24,
+              "text": "There was never any other dog.",
+              "translation": "Chẳng hề có con chó nào khác cả."
+            },
+            {
+              "id": 23,
+              "startTime": 98.38,
+              "endTime": 101.2,
+              "text": "It was just his own reflection!",
+              "translation": "Đó chỉ là hình ảnh phản chiếu của chính chú!"
+            },
+            {
+              "id": 24,
+              "startTime": 102.17,
+              "endTime": 106.05,
+              "text": "The water is very deep and the dog is surprised.",
+              "translation": "Nước rất sâu và chú chó vô cùng hoảng hốt."
+            },
+            {
+              "id": 25,
+              "startTime": 106.25,
+              "endTime": 109.69,
+              "text": "“Woof woof woof! Help!” he barks.",
+              "translation": "\"Gâu gâu gâu! Cứu với!\" chú sủa vang."
+            },
+            {
+              "id": 26,
+              "startTime": 109.89,
+              "endTime": 116.13,
+              "text": "And when he barks, his bone drops from his mouth — and sinks to the bottom of the water.",
+              "translation": "Và khi mở miệng sủa, khúc xương rơi khỏi miệng chú — và chìm nghỉm xuống đáy nước."
+            },
+            {
+              "id": 27,
+              "startTime": 116.37,
+              "endTime": 118.45,
+              "text": "The dog swims to shore.",
+              "translation": "Chú chó bơi vào bờ."
+            },
+            {
+              "id": 28,
+              "startTime": 118.59,
+              "endTime": 124.13,
+              "text": "He is wet and cold, and now he has no bone at all.",
+              "translation": "Chú vừa ướt sũng vừa rét run, và giờ thì chẳng còn lại khúc xương nào."
+            },
+            {
+              "id": 29,
+              "startTime": 127.34,
+              "endTime": 133.06,
+              "text": "Moral: Be happy with what you have. If you're greedy, you might lose everything.",
+              "translation": "Bài học: Hãy biết hài lòng với những gì mình có. Kẻ tham lam có thể sẽ đánh mất tất cả."
             }
           ]
         },
@@ -306,74 +901,361 @@
           "title": "The Little Red Hen",
           "titleVi": "The Little Red Hen",
           "level": "A2",
-          "duration": "00:53",
+          "duration": "05:44",
           "mediaType": "youtube",
           "youtubeId": "VjTJvwgJnGc",
           "thumbnailUrl": "https://img.youtube.com/vi/VjTJvwgJnGc/hqdefault.jpg",
-          "totalSentences": 9,
+          "totalSentences": 50,
           "sentences": [
             {
               "id": 1,
-              "startTime": 0,
-              "endTime": 5.5,
-              "text": "Once upon a time, the Little Red Hen lived on a farm with a lazy cat, a sleepy dog, and a noisy duck.",
-              "translation": "Ngày xửa ngày xưa, cô Gà Mái Đỏ sống trong nông trại cùng mèo lười, chó ngái ngủ và vịt ồn ào."
+              "startTime": 0.81,
+              "endTime": 3.0,
+              "text": "The Little Red Hen.",
+              "translation": "Gà Mái Đỏ Nhỏ."
             },
             {
               "id": 2,
-              "startTime": 5.5,
-              "endTime": 11,
-              "text": "One day, she found some golden grains of wheat lying in the farmyard.",
-              "translation": "Một ngày nọ, cô tìm thấy vài hạt lúa mì vàng óng nằm trong sân nông trại."
+              "startTime": 14.85,
+              "endTime": 19.19,
+              "text": "This is a story about a little red hen.",
+              "translation": "Đây là câu chuyện về một cô gà mái đỏ nhỏ."
             },
             {
               "id": 3,
-              "startTime": 11,
-              "endTime": 16.5,
-              "text": "Who will help me plant these wheat seeds? asked the Little Red Hen.",
-              "translation": "Ai sẽ giúp tôi gieo những hạt lúa mì này? Gà Mái Đỏ hỏi."
+              "startTime": 19.97,
+              "endTime": 23.58,
+              "text": "The little red hen lives on a farm.",
+              "translation": "Cô gà mái đỏ sống trong một nông trại."
             },
             {
               "id": 4,
-              "startTime": 16.5,
-              "endTime": 21,
-              "text": "Not I, meowed the cat. Not I, barked the dog. Not I, quacked the duck.",
-              "translation": "Không phải tôi, mèo kêu. Không phải tôi, chó sủa. Không phải tôi, vịt quác quác."
+              "startTime": 23.73,
+              "endTime": 27.18,
+              "text": "She works hard all day long:",
+              "translation": "Cô làm việc chăm chỉ suốt cả ngày:"
             },
             {
               "id": 5,
-              "startTime": 21,
-              "endTime": 26.5,
-              "text": "Then I will plant them myself, said the Little Red Hen, and so she did.",
-              "translation": "Vậy thì tôi sẽ tự gieo hạt, Gà Mái Đỏ nói, và cô đã làm như vậy."
+              "startTime": 27.33,
+              "endTime": 29.65,
+              "text": "She pecks the ground.",
+              "translation": "Cô mổ đất tìm thức ăn."
             },
             {
               "id": 6,
-              "startTime": 26.5,
-              "endTime": 32.5,
-              "text": "The wheat grew tall and ripe, and she harvested every single stalk alone.",
-              "translation": "Lúa mì lớn cao và chín vàng, và cô đã một mình thu hoạch từng gốc lúa."
+              "startTime": 30.0,
+              "endTime": 32.25,
+              "text": "She looks for worms.",
+              "translation": "Cô tìm kiếm những chú sâu."
             },
             {
               "id": 7,
-              "startTime": 32.5,
-              "endTime": 39,
-              "text": "She took the grain to the mill and baked a fragrant loaf of fresh bread.",
-              "translation": "Cô mang hạt lúa đến cối xay và nướng một ổ bánh mì mới thơm nức mũi."
+              "startTime": 32.63,
+              "endTime": 35.33,
+              "text": "She sits in a bush.",
+              "translation": "Cô nằm nghỉ trong bụi cây."
             },
             {
               "id": 8,
-              "startTime": 39,
-              "endTime": 45,
-              "text": "When the bread came out of the oven, all the lazy animals came running to eat.",
-              "translation": "Khi bánh mì ra lò, tất cả các con vật lười biếng đều chạy ùa tới để đòi ăn."
+              "startTime": 35.69,
+              "endTime": 39.31,
+              "text": "And sometimes… she lays an egg.",
+              "translation": "Và đôi khi... cô đẻ một quả trứng."
             },
             {
               "id": 9,
-              "startTime": 45,
-              "endTime": 53,
-              "text": "No, said the hen, you did not help with the work, so my chicks and I will eat it all!",
-              "translation": "Không, cô gà mái nói, các bạn đã không chịu phụ giúp, nên đàn con và tôi sẽ ăn hết!"
+              "startTime": 41.1,
+              "endTime": 47.76,
+              "text": "The little red hen has three friends: a cat, a dog, and a horse.",
+              "translation": "Gà mái đỏ có ba người bạn: một chú mèo, một chú chó và một chú ngựa."
+            },
+            {
+              "id": 10,
+              "startTime": 48.78,
+              "endTime": 52.18,
+              "text": "These animals don’t work hard at all.",
+              "translation": "Những con vật này chẳng chịu làm việc gì cả."
+            },
+            {
+              "id": 11,
+              "startTime": 52.94,
+              "endTime": 55.67,
+              "text": "The cat likes to sleep in the sun.",
+              "translation": "Mèo thích nằm ngủ dưới ánh nắng."
+            },
+            {
+              "id": 12,
+              "startTime": 56.24,
+              "endTime": 59.06,
+              "text": "The dog likes to sleep in the shade.",
+              "translation": "Chó lại thích nằm ngủ trong bóng râm."
+            },
+            {
+              "id": 13,
+              "startTime": 59.55,
+              "endTime": 65.49,
+              "text": "And the horse likes to watch TV all day long.",
+              "translation": "Còn ngựa thì chỉ thích xem TV suốt cả ngày."
+            },
+            {
+              "id": 14,
+              "startTime": 66.21,
+              "endTime": 71.0,
+              "text": "One day the little red hen sees a raspberry bush.",
+              "translation": "Một ngày nọ, gà mái đỏ nhìn thấy một bụi cây mâm xôi."
+            },
+            {
+              "id": 15,
+              "startTime": 72.11,
+              "endTime": 80.57,
+              "text": "“Raspberries!” she squeals. “Yum yum yum! We can make a raspberry cake!”",
+              "translation": "\"Quả mâm xôi!\" cô reo lên. \"Ngon tuyệt! Chúng ta có thể làm một chiếc bánh kem mâm xôi!\""
+            },
+            {
+              "id": 16,
+              "startTime": 81.57,
+              "endTime": 92.66,
+              "text": "The little red hen runs to tell her friends: “Guys! There are raspberries over there! We can make a raspberry cake!”",
+              "translation": "Gà mái đỏ chạy đi báo với bạn bè: \"Mọi người ơi! Đằng kia có mâm xôi đấy! Chúng ta có thể làm bánh mâm xôi!\""
+            },
+            {
+              "id": 17,
+              "startTime": 93.71,
+              "endTime": 97.74,
+              "text": "The dog drools. \"Yes!\"",
+              "translation": "Chó nhỏ chảy nước dãi: \"Được đấy!\""
+            },
+            {
+              "id": 18,
+              "startTime": 98.0,
+              "endTime": 104.89,
+              "text": "The cat licks her lips. \"Absolutely!\"",
+              "translation": "Mèo liếm mép: \"Chắc chắn rồi!\""
+            },
+            {
+              "id": 19,
+              "startTime": 105.0,
+              "endTime": 111.38,
+              "text": "The horse flicks his tail. \"What a great idea!\"",
+              "translation": "Ngựa vẫy đuôi: \"Ý tưởng tuyệt vời quá!\""
+            },
+            {
+              "id": 20,
+              "startTime": 112.55,
+              "endTime": 119.51,
+              "text": "“So… who wants to help me pick the raspberries?” asks the little red hen.",
+              "translation": "\"Vậy... ai muốn giúp tôi hái mâm xôi nào?\" gà mái đỏ hỏi."
+            },
+            {
+              "id": 21,
+              "startTime": 119.91,
+              "endTime": 124.58,
+              "text": "“Not me,” says the dog, “I’m too busy.”",
+              "translation": "\"Không phải tôi,\" chó bảo, \"tôi bận lắm.\""
+            },
+            {
+              "id": 22,
+              "startTime": 125.02,
+              "endTime": 131.19,
+              "text": "“Not me,” says the cat, “I’m too tired.”",
+              "translation": "\"Không phải tôi,\" mèo bảo, \"tôi mệt lắm.\""
+            },
+            {
+              "id": 23,
+              "startTime": 131.62,
+              "endTime": 136.78,
+              "text": "“Not me,” says the horse, “I’m watching TV.”",
+              "translation": "\"Không phải tôi,\" ngựa bảo, \"tôi đang xem TV.\""
+            },
+            {
+              "id": 24,
+              "startTime": 138.8,
+              "endTime": 143.64,
+              "text": "\"Then I will do it myself,” says the little red hen.",
+              "translation": "\"Vậy thì tôi sẽ tự làm một mình,\" gà mái đỏ nói."
+            },
+            {
+              "id": 25,
+              "startTime": 143.65,
+              "endTime": 149.84,
+              "text": "So she picks the berries, one by one, all by herself.",
+              "translation": "Thế là cô tự mình hái từng quả mâm xôi một."
+            },
+            {
+              "id": 26,
+              "startTime": 156.63,
+              "endTime": 168.4,
+              "text": "\"Ok, now we need flour, and sugar, and milk, and butter,\" says the little red hen. “Who wants to help me get them?”",
+              "translation": "\"Được rồi, giờ chúng ta cần bột mì, đường, sữa và bơ,\" gà mái đỏ nói. \"Ai muốn giúp tôi lấy chúng nào?\""
+            },
+            {
+              "id": 27,
+              "startTime": 168.75,
+              "endTime": 174.29,
+              "text": "“Not me,” says the dog, “I’m too busy.”",
+              "translation": "\"Không phải tôi,\" chó đáp, \"tôi bận lắm.\""
+            },
+            {
+              "id": 28,
+              "startTime": 175.35,
+              "endTime": 180.93,
+              "text": "“Not me,” says the cat, “I’m too tired.”",
+              "translation": "\"Không phải tôi,\" mèo đáp, \"tôi mệt lắm.\""
+            },
+            {
+              "id": 29,
+              "startTime": 181.78,
+              "endTime": 187.96,
+              "text": "“Not me,” says the horse, “I’m watching TV.”",
+              "translation": "\"Không phải tôi,\" ngựa đáp, \"tôi đang xem TV.\""
+            },
+            {
+              "id": 30,
+              "startTime": 190.97,
+              "endTime": 196.14,
+              "text": "“Then I will do it myself,” says the little red hen.",
+              "translation": "\"Vậy thì tôi sẽ tự đi lấy,\" gà mái đỏ bảo."
+            },
+            {
+              "id": 31,
+              "startTime": 196.33,
+              "endTime": 203.42,
+              "text": "She goes all the way to the pantry and gets the flour and the sugar.",
+              "translation": "Cô tự mình đi đến tủ đựng thức ăn để lấy bột mì và đường."
+            },
+            {
+              "id": 32,
+              "startTime": 203.53,
+              "endTime": 210.08,
+              "text": "She goes all the way to the fridge and gets the butter and the milk.",
+              "translation": "Cô tự mình đi đến tủ lạnh để lấy bơ và sữa."
+            },
+            {
+              "id": 33,
+              "startTime": 210.51,
+              "endTime": 217.24,
+              "text": "Then she puts everything together into a big bowl, all by herself.",
+              "translation": "Rồi cô tự tay cho tất cả nguyên liệu vào một chiếc âu lớn."
+            },
+            {
+              "id": 34,
+              "startTime": 220.96,
+              "endTime": 226.56,
+              "text": "“Who wants to help me mix the cake batter?” asks the little red hen.",
+              "translation": "\"Ai muốn giúp tôi trộn bột làm bánh nào?\" gà mái đỏ hỏi."
+            },
+            {
+              "id": 35,
+              "startTime": 226.62,
+              "endTime": 232.93,
+              "text": "“Not me,” says the dog, “I’m too busy.”",
+              "translation": "\"Không phải tôi,\" chó nói, \"tôi bận rồi.\""
+            },
+            {
+              "id": 36,
+              "startTime": 233.85,
+              "endTime": 240.22,
+              "text": "“Not me,” says the cat, “I’m too tired.”",
+              "translation": "\"Không phải tôi,\" mèo nói, \"tôi mệt rồi.\""
+            },
+            {
+              "id": 37,
+              "startTime": 241.31,
+              "endTime": 247.46,
+              "text": "“Not me,” says the horse, “I’m watching TV.”",
+              "translation": "\"Không phải tôi,\" ngựa nói, \"tôi đang xem TV.\""
+            },
+            {
+              "id": 38,
+              "startTime": 248.01,
+              "endTime": 254.41,
+              "text": "“Then I will do it myself!” says the little red hen.",
+              "translation": "\"Vậy thì tôi sẽ tự trộn!\" gà mái đỏ nói."
+            },
+            {
+              "id": 39,
+              "startTime": 254.89,
+              "endTime": 259.4,
+              "text": "She mixes the batter until it is smooth and creamy.",
+              "translation": "Cô khuấy đều bột cho đến khi mịn màng và sánh mượt."
+            },
+            {
+              "id": 40,
+              "startTime": 259.86,
+              "endTime": 263.89,
+              "text": "Then she gently stirs through the raspberries.",
+              "translation": "Rồi cô nhẹ nhàng thả những quả mâm xôi vào trộn đều."
+            },
+            {
+              "id": 41,
+              "startTime": 264.62,
+              "endTime": 273.0,
+              "text": "She pours the batter into a cake tin. Then she puts it in the oven. All by herself.",
+              "translation": "Cô đổ bột vào khuôn bánh rồi cho vào lò nướng. Hoàn toàn một mình cô làm."
+            },
+            {
+              "id": 42,
+              "startTime": 277.23,
+              "endTime": 282.06,
+              "text": "Soon there is a delicious smell coming from the kitchen.",
+              "translation": "Chẳng mấy chốc, một mùi thơm nức mũi lan tỏa từ căn bếp."
+            },
+            {
+              "id": 43,
+              "startTime": 282.45,
+              "endTime": 290.6,
+              "text": "The dog can smell it. The cat can smell it. The horse can smell it too.",
+              "translation": "Chó ngửi thấy mùi thơm. Mèo ngửi thấy mùi thơm. Ngựa cũng ngửi thấy mùi thơm."
+            },
+            {
+              "id": 44,
+              "startTime": 291.09,
+              "endTime": 294.09,
+              "text": "They all rush to the kitchen.",
+              "translation": "Tất cả bọn chúng đều chạy ào vào bếp."
+            },
+            {
+              "id": 45,
+              "startTime": 295.16,
+              "endTime": 303.22,
+              "text": "The little red hen takes the cake from the oven. She puts it on a plate and sprinkles it with sugar.",
+              "translation": "Gà mái đỏ lấy chiếc bánh ra khỏi lò. Cô đặt bánh lên đĩa và rắc thêm chút đường."
+            },
+            {
+              "id": 46,
+              "startTime": 304.47,
+              "endTime": 311.64,
+              "text": "“So… Who wants to help me eat this cake?” asks the little red hen.",
+              "translation": "\"Vậy... Ai muốn giúp tôi ăn chiếc bánh này nào?\" gà mái đỏ hỏi."
+            },
+            {
+              "id": 47,
+              "startTime": 311.88,
+              "endTime": 322.34,
+              "text": "“Me!” Says the dog. “Me!” Says the cat. “Me!” Says the horse.",
+              "translation": "\"Tôi!\" Chó reo. \"Tôi!\" Mèo reo. \"Tôi!\" Ngựa reo."
+            },
+            {
+              "id": 48,
+              "startTime": 323.17,
+              "endTime": 328.34,
+              "text": "“I don’t think so,” says the little red hen.",
+              "translation": "\"Tôi không nghĩ vậy đâu,\" gà mái đỏ đáp."
+            },
+            {
+              "id": 49,
+              "startTime": 328.52,
+              "endTime": 335.02,
+              "text": "“You would not help me make this cake… so you will not help me eat it.”",
+              "translation": "\"Các bạn không chịu giúp tôi làm bánh... thì cũng sẽ không được giúp tôi ăn đâu.\""
+            },
+            {
+              "id": 50,
+              "startTime": 335.11,
+              "endTime": 344.54,
+              "text": "She runs away with the cake and eats every last crumb. All by herself.",
+              "translation": "Cô ôm chiếc bánh chạy đi và thưởng thức đến vụn bánh cuối cùng. Hoàn toàn một mình cô."
             }
           ]
         },
@@ -386,401 +1268,207 @@
           "title": "The Bird and the Whale",
           "titleVi": "The Bird and the Whale",
           "level": "A2",
-          "duration": "05:12",
+          "duration": "05:10",
           "mediaType": "youtube",
           "youtubeId": "FU_0NF_jrgE",
           "thumbnailUrl": "https://img.youtube.com/vi/FU_0NF_jrgE/hqdefault.jpg",
-          "totalSentences": 65,
+          "totalSentences": 28,
           "sentences": [
             {
               "id": 1,
-              "startTime": 0,
-              "endTime": 11.6,
-              "text": "The Bird and the Whale (An original tale by TheFableCottage.com) Once there was a bird who fell in love with a whale."
+              "startTime": 0.0,
+              "endTime": 2.27,
+              "text": "The Bird and the Whale.",
+              "translation": "Chú Chim và Cá Voi."
             },
             {
               "id": 2,
-              "startTime": 11.6,
-              "endTime": 15.7,
-              "text": "And a whale who fell in love with a bird."
+              "startTime": 9.75,
+              "endTime": 17.54,
+              "text": "Once there was a bird who fell in love with a whale. And a whale who fell in love with a bird.",
+              "translation": "Ngày xửa ngày xưa, có một chú chim đem lòng yêu một nàng cá voi. Và nàng cá voi cũng yêu chú chim tha thiết."
             },
             {
               "id": 3,
-              "startTime": 15.8,
-              "endTime": 20,
-              "text": "The bird loved the whale's beautiful smile."
+              "startTime": 18.47,
+              "endTime": 26.65,
+              "text": "The bird loved the whale's beautiful smile. He loved the way she swam through the water so gracefully.",
+              "translation": "Chú chim mê đắm nụ cười xinh đẹp của cá voi. Chú yêu cả dáng bơi lội uyển chuyển của nàng dưới làn nước."
             },
             {
               "id": 4,
-              "startTime": 20.1,
-              "endTime": 25.9,
-              "text": "He loved the way she swam through the water so gracefully."
+              "startTime": 27.33,
+              "endTime": 34.86,
+              "text": "The whale loved the bird's handsome white feathers. She loved to watch him soar through the sky.",
+              "translation": "Cá voi yêu bộ lông trắng muốt tuyệt đẹp của chim. Nàng thích ngắm nhìn chú sải cánh bay lượn trên bầu trời."
             },
             {
               "id": 5,
-              "startTime": 26,
-              "endTime": 312,
-              "text": "The whale loved the bird's handsome white feathers."
+              "startTime": 35.92,
+              "endTime": 40.11,
+              "text": "And they both loved to eat lots of tiny fish.",
+              "translation": "Và cả hai đều rất thích ăn những chú cá nhỏ bé."
             },
             {
               "id": 6,
-              "startTime": 31,
-              "endTime": 35.4,
-              "text": "She loved to watch him soar through the sky."
+              "startTime": 43.45,
+              "endTime": 55.46,
+              "text": "All summer, the bird and the whale met in the bay. They talked and talked. They talked about the moon, and the stars, and the ships on the ocean.",
+              "translation": "Suốt cả mùa hè, chim và cá voi gặp gỡ nhau nơi vịnh biển. Họ trò chuyện không dứt về vầng trăng, những vì sao và những con tàu trên đại dương."
             },
             {
               "id": 7,
-              "startTime": 35.5,
-              "endTime": 40,
-              "text": "And they both loved to eat lots of tiny fish."
+              "startTime": 56.1,
+              "endTime": 67.47,
+              "text": "The bird told jokes and made the whale laugh. The whale sang beautiful songs that made the bird cry (even though he didn't know why).",
+              "translation": "Chim kể chuyện cười làm cá voi vui vẻ. Cá voi hát những khúc ca êm dịu khiến chim rơi lệ (dù chú chẳng hiểu vì sao)."
             },
             {
               "id": 8,
-              "startTime": 40.1,
-              "endTime": 45.1,
-              "text": "All summer, the bird and the whale met in the bay."
+              "startTime": 67.92,
+              "endTime": 78.28,
+              "text": "\"One day, you could meet my family in the ocean,\" said the whale. \"And you could meet my friends on the land,\" said the bird.",
+              "translation": "\"Một ngày nào đó, anh có thể gặp gia đình em dưới đại dương,\" cá voi nói. \"Và em cũng có thể gặp gỡ bạn bè anh trên đất liền,\" chim đáp."
             },
             {
               "id": 9,
-              "startTime": 45.2,
-              "endTime": 47.5,
-              "text": "They talked and talked."
+              "startTime": 78.87,
+              "endTime": 87.4,
+              "text": "Everything was perfect. But the world does not stop turning just because a bird and whale fall in love.",
+              "translation": "Mọi thứ đều hoàn hảo. Nhưng thế giới không ngừng quay chỉ vì tình yêu giữa một chú chim và một nàng cá voi."
             },
             {
               "id": 10,
-              "startTime": 47.6,
-              "endTime": 54.6,
-              "text": "They talked about the moon, and the stars, and the ships on the ocean."
+              "startTime": 87.71,
+              "endTime": 99.05,
+              "text": "Summer turned into autumn, and autumn turned into winter. The ocean turned cold, and all the other whales left for warmer waters.",
+              "translation": "Mùa hè trôi qua mùa thu, rồi mùa thu nhường chỗ cho mùa đông. Đại dương dần lạnh cóng, và đàn cá voi đều bơi về vùng nước ấm áp hơn."
             },
             {
               "id": 11,
-              "startTime": 54.7,
-              "endTime": 59.2,
-              "text": "The bird told jokes and made the whale laugh."
+              "startTime": 99.6,
+              "endTime": 109.44,
+              "text": "\"Come with me to warmer waters,\" said the whale. \"It’s a wonderful place. It's always warm, and there are so many fish to eat.\"",
+              "translation": "\"Hãy đi cùng em đến vùng nước ấm,\" cá voi bảo. \"Nơi đó tuyệt lắm, lúc nào cũng ấm áp và có rất nhiều cá để ăn.\""
             },
             {
               "id": 12,
-              "startTime": 59.3,
-              "endTime": 312,
-              "text": "The whale sang beautiful songs that made the bird cry (even though he didn't know why)."
+              "startTime": 110.26,
+              "endTime": 121.75,
+              "text": "\"I love to eat fish,\" said the bird. \"And I love you. I will follow you anywhere. But first, teach me to be a whale?\"",
+              "translation": "\"Anh rất thích ăn cá,\" chim đáp. \"Và anh yêu em. Anh sẽ theo em đến bất cứ đâu. Nhưng trước hết, hãy dạy anh làm một chú cá voi nhé?\""
             },
             {
               "id": 13,
-              "startTime": 68,
-              "endTime": 73.8,
-              "text": "\"One day, you could meet my family in the ocean,\" said the whale."
+              "startTime": 122.08,
+              "endTime": 129.67,
+              "text": "\"Like this!\" said the whale, \"follow me!\" and she dived deep into the water.",
+              "translation": "\"Như thế này này!\" cá voi nói, \"hãy theo em!\" rồi nàng lặn sâu xuống làn nước."
             },
             {
               "id": 14,
-              "startTime": 73.9,
-              "endTime": 79.1,
-              "text": "\"And you could meet my friends on the land,\" said the bird."
+              "startTime": 130.31,
+              "endTime": 144.94,
+              "text": "\"OK!\" said the bird, and he also dived deep into the water. Deeper and deeper he went. \"I'm swimming!\" he laughed. \"I'm a whale!\"",
+              "translation": "\"Được thôi!\" chim bảo, rồi chú cũng lặn sâu xuống nước. Càng lúc càng sâu hơn. \"Anh đang bơi này!\" chú cười vui sướng. \"Anh là cá voi rồi!\""
             },
             {
               "id": 15,
-              "startTime": 79.2,
-              "endTime": 81.3,
-              "text": "Everything was perfect."
+              "startTime": 145.27,
+              "endTime": 157.8,
+              "text": "But soon he couldn't breathe. He returned to the surface, gasping. He tried and tried and tried again, but he ran out of breath every time.",
+              "translation": "Nhưng chẳng mấy chốc chú không thể thở được. Chú ngoi lên mặt nước, thở hổn hển. Chú đã thử đi thử lại nhiều lần nhưng lần nào cũng hết hơi."
             },
             {
               "id": 16,
-              "startTime": 81.4,
-              "endTime": 88.4,
-              "text": "But the world does not stop turning just because a bird and whale fall in love."
+              "startTime": 158.26,
+              "endTime": 174.4,
+              "text": "\"I don't think a bird can become a whale,\" said the bird. \"Come with me instead! I live up on the cliffs. It's a wonderful place. It's warm and cosy, and every morning you can watch the sun rise.\"",
+              "translation": "\"Anh nghĩ chim không thể thành cá voi được,\" chú chim bảo. \"Thay vào đó, em hãy đi theo anh! Anh sống trên vách đá. Nơi đó ấm cúng tuyệt vời, và mỗi sớm mai em đều có thể ngắm mặt trời mọc.\""
             },
             {
               "id": 17,
-              "startTime": 88.5,
-              "endTime": 93.6,
-              "text": "Summer turned into autumn, and autumn turned into winter."
+              "startTime": 174.69,
+              "endTime": 185.64,
+              "text": "\"I love to watch the sun rise,\" said the whale. \"And I love you. I will follow you anywhere. But first, teach me to be a bird?\"",
+              "translation": "\"Em rất thích ngắm mặt trời mọc,\" cá voi đáp. \"Và em yêu anh. Em sẽ theo anh đến bất cứ đâu. Nhưng trước hết, hãy dạy em làm một chú chim nhé?\""
             },
             {
               "id": 18,
-              "startTime": 93.7,
-              "endTime": 312,
-              "text": "The ocean turned cold, and all the other whales left for warmer waters."
+              "startTime": 186.14,
+              "endTime": 194.02,
+              "text": "\"Like this!\" said the bird. \"Follow me!\" and he flapped his wings and soared into the sky.",
+              "translation": "\"Như thế này này!\" chim nói. \"Hãy theo anh!\" rồi chú vỗ cánh bay vút lên bầu trời."
             },
             {
               "id": 19,
-              "startTime": 100,
-              "endTime": 104.5,
-              "text": "\"Come with me to warmer waters,\" said the whale."
+              "startTime": 194.52,
+              "endTime": 208.84,
+              "text": "\"OK!\" said the whale. She squeezed her eyes shut and flapped her fins, just like the bird. She flapped and flapped, up and down. Water splashed everywhere!",
+              "translation": "\"Được rồi!\" cá voi bảo. Nàng nhắm nghiền mắt và đập vây liên hồi giống như chú chim. Nàng vỗ vây liên tục, nước bắn tung tóe khắp nơi!"
             },
             {
               "id": 20,
-              "startTime": 104.6,
-              "endTime": 106.8,
-              "text": "\"It’s a wonderful place."
+              "startTime": 209.03,
+              "endTime": 221.19,
+              "text": "\"I'm flying!\" she laughed. \"I'm a bird!\" But when she opened her eyes, she wasn't soaring in the sky. She was still in the water.",
+              "translation": "\"Em đang bay này!\" nàng cười vui. \"Em là một chú chim!\" Nhưng khi mở mắt ra, nàng chẳng hề bay trên trời mà vẫn đang ở dưới nước."
             },
             {
               "id": 21,
-              "startTime": 106.9,
-              "endTime": 111.8,
-              "text": "It's always warm, and there are so many fish to eat.\""
+              "startTime": 221.55,
+              "endTime": 232.56,
+              "text": "She tried and tried and tried again, but she could not fly. \"I don't think a whale can become a bird,\" said the whale.",
+              "translation": "Nàng thử đi thử lại nhiều lần nhưng không thể bay được. \"Em nghĩ cá voi không thể trở thành chim được rồi,\" cá voi thở dài."
             },
             {
               "id": 22,
-              "startTime": 111.9,
-              "endTime": 115.3,
-              "text": "\"I love to eat fish,\" said the bird."
+              "startTime": 233.1,
+              "endTime": 240.19,
+              "text": "\"But if you can't fly, and I can't swim, where can we live together?\" said the bird.",
+              "translation": "\"Nhưng nếu em không thể bay, còn anh không thể bơi, thì chúng ta biết sống cùng nhau ở đâu?\" chú chim buồn bã hỏi."
             },
             {
               "id": 23,
-              "startTime": 115.4,
-              "endTime": 119.5,
-              "text": "\"And I love you. I will follow you anywhere."
+              "startTime": 241.11,
+              "endTime": 246.01,
+              "text": "\"We will stay here — in the waves!\" said the whale.",
+              "translation": "\"Chúng ta sẽ ở lại nơi đây — ngay giữa những con sóng này!\" cá voi bảo."
             },
             {
               "id": 24,
-              "startTime": 119.6,
-              "endTime": 122.8,
-              "text": "But first, teach me to be a whale?\""
+              "startTime": 246.28,
+              "endTime": 258.96,
+              "text": "But the bird shook his head sadly. \"You love to swim deep in the ocean,\" he said. \"That is your favourite thing to do. You would never be happy here.\"",
+              "translation": "Nhưng chú chim buồn bã lắc đầu. \"Em yêu thích việc bơi lặn sâu dưới đại dương,\" chú nói. \"Đó là điều em thích nhất. Em sẽ không bao giờ hạnh phúc nếu chỉ ở mãi nơi đây.\""
             },
             {
               "id": 25,
-              "startTime": 122.9,
-              "endTime": 126.7,
-              "text": "\"Like this!\" Said the whale, \"follow me!\""
+              "startTime": 259.36,
+              "endTime": 271.62,
+              "text": "The whale sighed. \"And you love to fly and soar into the sky,\" she said. \"That is your favourite thing to do. You would never be happy here either.\"",
+              "translation": "Cá voi thở dài. \"Và anh cũng yêu việc bay lượn tự do trên bầu trời cao,\" nàng nói. \"Đó là niềm yêu thích lớn nhất của anh. Anh cũng sẽ chẳng thể hạnh phúc nếu ở lại đây.\""
             },
             {
               "id": 26,
-              "startTime": 126.8,
-              "endTime": 312,
-              "text": "And she dived deep into the water."
+              "startTime": 272.86,
+              "endTime": 284.36,
+              "text": "And so, because the bird and whale loved each other so much, they said goodbye. But they never forgot each other.",
+              "translation": "Và vì quá yêu nhau, chú chim và nàng cá voi đành nói lời từ biệt. Nhưng họ không bao giờ quên được nhau."
             },
             {
               "id": 27,
-              "startTime": 130.6,
-              "endTime": 136,
-              "text": "Said the bird, and he also dived deep into the water."
+              "startTime": 285.24,
+              "endTime": 297.0,
+              "text": "Every time the whale saw a bird flying high in the sky, she thought of her bird. She hoped he was enjoying the skies — just like that.",
+              "translation": "Mỗi lần nhìn thấy một cánh chim chao liệng trên bầu trời cao, cá voi lại nhớ về chú chim của mình. Nàng hy vọng chú đang tận hưởng bầu trời trọn vẹn."
             },
             {
               "id": 28,
-              "startTime": 136.1,
-              "endTime": 138.7,
-              "text": "Deeper and deeper he went."
-            },
-            {
-              "id": 29,
-              "startTime": 138.8,
-              "endTime": 141.5,
-              "text": "\"I'm swimming!\" He laughed."
-            },
-            {
-              "id": 30,
-              "startTime": 141.6,
-              "endTime": 146,
-              "text": "\"I'm a whale!\" But soon he couldn't breathe."
-            },
-            {
-              "id": 31,
-              "startTime": 146.1,
-              "endTime": 149.8,
-              "text": "He returned to the surface, gasping."
-            },
-            {
-              "id": 32,
-              "startTime": 149.9,
-              "endTime": 157.1,
-              "text": "He tried and tried and tried again, but he ran out of breath every time."
-            },
-            {
-              "id": 33,
-              "startTime": 157.2,
-              "endTime": 312,
-              "text": "\"I don't think a bird can become a whale,\" said the bird."
-            },
-            {
-              "id": 34,
-              "startTime": 163,
-              "endTime": 165,
-              "text": "\"Come with me instead!"
-            },
-            {
-              "id": 35,
-              "startTime": 165.1,
-              "endTime": 167.3,
-              "text": "I live up on the cliffs."
-            },
-            {
-              "id": 36,
-              "startTime": 167.4,
-              "endTime": 169.5,
-              "text": "It's a wonderful place."
-            },
-            {
-              "id": 37,
-              "startTime": 169.6,
-              "endTime": 175.7,
-              "text": "It's warm and cosy, and every morning you can watch the sun rise.\""
-            },
-            {
-              "id": 38,
-              "startTime": 175.8,
-              "endTime": 180.1,
-              "text": "\"I love to watch the sun rise,\" said the whale."
-            },
-            {
-              "id": 39,
-              "startTime": 180.2,
-              "endTime": 184.2,
-              "text": "\"And I love you. I will follow you anywhere."
-            },
-            {
-              "id": 40,
-              "startTime": 184.3,
-              "endTime": 187.4,
-              "text": "But first, teach me to be a bird?\""
-            },
-            {
-              "id": 41,
-              "startTime": 187.5,
-              "endTime": 312,
-              "text": "\"Like this!\" Said the bird."
-            },
-            {
-              "id": 42,
-              "startTime": 190,
-              "endTime": 195.6,
-              "text": "\"Follow me!\" And he flapped his wings and soared into the sky."
-            },
-            {
-              "id": 43,
-              "startTime": 196.3,
-              "endTime": 203.9,
-              "text": "Said the whale. She squeezed her eyes shut and flapped her fins, just like the bird."
-            },
-            {
-              "id": 44,
-              "startTime": 204,
-              "endTime": 207.3,
-              "text": "She flapped and flapped, up and down."
-            },
-            {
-              "id": 45,
-              "startTime": 207.4,
-              "endTime": 209.8,
-              "text": "Water splashed everywhere!"
-            },
-            {
-              "id": 46,
-              "startTime": 209.8,
-              "endTime": 212.2,
-              "text": "\"I'm flying!\" She laughed."
-            },
-            {
-              "id": 47,
-              "startTime": 212.3,
-              "endTime": 312,
-              "text": "\"I'm a bird!\" But when she opened her eyes, she wasn't soaring in the sky."
-            },
-            {
-              "id": 48,
-              "startTime": 219,
-              "endTime": 221.6,
-              "text": "She was still in the water."
-            },
-            {
-              "id": 49,
-              "startTime": 221.7,
-              "endTime": 227.5,
-              "text": "She tried and tried and tried again, but she could not fly."
-            },
-            {
-              "id": 50,
-              "startTime": 227.6,
-              "endTime": 233.2,
-              "text": "\"I don't think a whale can become a bird,\" said the whale."
-            },
-            {
-              "id": 51,
-              "startTime": 233.3,
-              "endTime": 240.1,
-              "text": "\"But if you can't fly, and I can't swim, where can we live together?\""
-            },
-            {
-              "id": 52,
-              "startTime": 240.2,
-              "endTime": 245,
-              "text": "Said the bird. \"We will stay here — in the waves!\""
-            },
-            {
-              "id": 53,
-              "startTime": 245.1,
-              "endTime": 312,
-              "text": "Said the whale. But the bird shook his head sadly."
-            },
-            {
-              "id": 54,
-              "startTime": 250,
-              "endTime": 254.3,
-              "text": "\"You love to swim deep in the ocean,\" he said."
-            },
-            {
-              "id": 55,
-              "startTime": 254.4,
-              "endTime": 257.7,
-              "text": "That is your favourite thing to do."
-            },
-            {
-              "id": 56,
-              "startTime": 257.7,
-              "endTime": 260.6,
-              "text": "You would never be happy here.\""
-            },
-            {
-              "id": 57,
-              "startTime": 260.7,
-              "endTime": 267.4,
-              "text": "The whale sighed. \"And you love to fly and soar into the sky,\" she said."
-            },
-            {
-              "id": 58,
-              "startTime": 267.5,
-              "endTime": 270.9,
-              "text": "\"That is your favourite thing to do."
-            },
-            {
-              "id": 59,
-              "startTime": 271,
-              "endTime": 274.5,
-              "text": "You would never be happy here either.\""
-            },
-            {
-              "id": 60,
-              "startTime": 274.6,
-              "endTime": 312,
-              "text": "And so, because the bird and whale loved each other so much, they said goodbye."
-            },
-            {
-              "id": 61,
-              "startTime": 282,
-              "endTime": 285.2,
-              "text": "But they never forgot each other."
-            },
-            {
-              "id": 62,
-              "startTime": 285.3,
-              "endTime": 293,
-              "text": "Every time the whale saw a bird flying high in the sky, she thought of her bird."
-            },
-            {
-              "id": 63,
-              "startTime": 293.1,
-              "endTime": 298.2,
-              "text": "She hoped he was enjoying the skies — just like that."
-            },
-            {
-              "id": 64,
-              "startTime": 298.3,
-              "endTime": 306.6,
-              "text": "And every time the bird saw a whale diving deep in the ocean, he thought of his whale."
-            },
-            {
-              "id": 65,
-              "startTime": 306.7,
-              "endTime": 312,
-              "text": "He hoped she was enjoying the ocean — — just like that."
+              "startTime": 297.8,
+              "endTime": 310.51,
+              "text": "And every time the bird saw a whale diving deep in the ocean, he thought of his whale. He hoped she was enjoying the ocean — just like that.",
+              "translation": "Và mỗi lần nhìn thấy một chú cá voi lặn sâu dưới lòng đại dương, chim lại nhớ về nàng cá voi của mình. Chú hy vọng nàng đang tự do vẫy vùng giữa biển khơi."
             }
           ]
         },
@@ -793,47 +1481,207 @@
           "title": "The Colour Yellow",
           "titleVi": "The Colour Yellow",
           "level": "A2",
-          "duration": "05:35",
+          "duration": "05:37",
           "mediaType": "youtube",
           "youtubeId": "UqIGkcmlNvU",
           "thumbnailUrl": "https://img.youtube.com/vi/UqIGkcmlNvU/hqdefault.jpg",
-          "totalSentences": 6,
+          "totalSentences": 28,
           "sentences": [
             {
               "id": 1,
-              "startTime": 1,
-              "endTime": 67,
-              "text": "Guess how much i love you colors red purple green blue pink orange oh yellow hello my name is little nut brown hair what's yours your name is quack was that a yes or a no oh then what kind of animal are you you can't be a hare because you haven't got long ears like me i wonder what you are well it was very nice to meet you little yellow thing bye oh"
+              "startTime": 1.36,
+              "endTime": 8.64,
+              "text": "Guess How Much I Love You: Colors.",
+              "translation": "Đoán Xem Con Yêu Mẹ Nhường Nào: Những Sắc Màu."
             },
             {
               "id": 2,
-              "startTime": 67,
-              "endTime": 131,
-              "text": "You're following me i guess you are all right can you do this but what about this you didn't copy my jump backwards well thanks for the game would you like to come and visit my friend littlefield mouse with me follow me he follows you everywhere everywhere he followed me all the way to visit you littlefield mouse hello what's your name that's all he ever says i think he's too young to talk oh hmm do you know what he is i know he isn't a hare hmm"
+              "startTime": 19.68,
+              "endTime": 28.88,
+              "text": "“Oh, yellow! Hello! My name is Little Nutbrown Hare. What's yours?”",
+              "translation": "\"Ồ, màu vàng! Xin chào! Tên mình là Thỏ Nâu Nhỏ. Còn bạn tên là gì?\""
             },
             {
               "id": 3,
-              "startTime": 131,
-              "endTime": 195,
-              "text": "Well i think he's uh oh i know he's probably oh well whatever he is he can't be a mouse because he doesn't have whiskers like me we can't call him whatever he is he needs a proper name i know i know we can call him little yes yellow uh-huh i don't know you've got to have a name everyone does that's it what we'll call him little yellow quack yay perfect what do you think of that little yellow quack hmm i see"
+              "startTime": 28.88,
+              "endTime": 36.56,
+              "text": "“Your name is Quack? Was that a yes or a no?”",
+              "translation": "\"Tên bạn là Quạc Quạc à? Tiếng đó là đồng ý hay không thế?\""
             },
             {
               "id": 4,
-              "startTime": 195,
-              "endTime": 259,
-              "text": "Well i've looked at little yellow quack from every side and and i'm sure that he is a squirrel a swirl a yellow quacking squirrel can't you see we could be brothers huh oh what haha just jerking a quacking squirrel quack i've no idea why little yellow quack lives but i do know he is not a fox is it his color well yes but is it his tail that too but but what little redwood fox he can't be a fox because foxes don't have wings wings you're not being tricky are you little redwood fox me well not this time"
+              "startTime": 36.56,
+              "endTime": 40.72,
+              "text": "“Oh, then what kind of animal are you?”",
+              "translation": "\"Ồ, vậy bạn là loài động vật gì thế?\""
             },
             {
               "id": 5,
-              "startTime": 259,
-              "endTime": 325,
-              "text": "They are wings very little wings birds have wings little yellow quack could be some kind of bird a bird what's happened to little yellow quack look there he is in the river wow he can swim really well no he's over there no look oh huh now there's three a big brown duck she must be little yellow crack's mother little yellow quack looks so different"
+              "startTime": 41.68,
+              "endTime": 50.96,
+              "text": "“You can't be a hare because you haven't got long ears like me.”",
+              "translation": "\"Bạn không thể là một chú thỏ được vì bạn đâu có đôi tai dài như mình.\""
             },
             {
               "id": 6,
-              "startTime": 325,
-              "endTime": 335,
-              "text": "To big brown duck not even the same color hey little yellow quack is really little yellow dark yellow"
+              "startTime": 50.96,
+              "endTime": 59.32,
+              "text": "“Well, it was very nice to meet you, Little Yellow Thing. Bye!”",
+              "translation": "\"Chà, rất vui được gặp bạn nhé, Bạn Vàng Nhỏ Xinh. Tạm biệt!\""
+            },
+            {
+              "id": 7,
+              "startTime": 65.6,
+              "endTime": 70.76,
+              "text": "“Oh, you're following me!”",
+              "translation": "\"Ồ, bạn đang đi theo mình này!\""
+            },
+            {
+              "id": 8,
+              "startTime": 72.88,
+              "endTime": 80.88,
+              "text": "“I guess you are! All right, can you do this?”",
+              "translation": "\"Đúng là bạn theo mình thật rồi! Được thôi, bạn có làm được trò này không?\""
+            },
+            {
+              "id": 9,
+              "startTime": 82.24,
+              "endTime": 87.44,
+              "text": "“But what about this?”",
+              "translation": "\"Thế còn trò này thì sao?\""
+            },
+            {
+              "id": 10,
+              "startTime": 87.44,
+              "endTime": 95.44,
+              "text": "“You didn't copy my jump backwards. Well, thanks for the game!”",
+              "translation": "\"Bạn không bắt chước được cú nhảy lùi của mình rồi. Cảm ơn vì trò chơi nhé!\""
+            },
+            {
+              "id": 11,
+              "startTime": 93.68,
+              "endTime": 101.84,
+              "text": "“Would you like to come and visit my friend Little Field Mouse with me? Follow me!”",
+              "translation": "\"Bạn có muốn cùng mình đến thăm bạn Chuột Đồng Nhỏ không? Đi theo mình nào!\""
+            },
+            {
+              "id": 12,
+              "startTime": 104.72,
+              "endTime": 113.36,
+              "text": "“He followed me all the way to visit you, Little Field Mouse!”",
+              "translation": "\"Bạn ấy đã đi theo tớ suốt cả quãng đường đến thăm cậu này, Chuột Đồng Nhỏ ơi!\""
+            },
+            {
+              "id": 13,
+              "startTime": 113.6,
+              "endTime": 120.16,
+              "text": "“Hello, what's your name?”",
+              "translation": "\"Xin chào, bạn tên là gì thế?\""
+            },
+            {
+              "id": 14,
+              "startTime": 116.8,
+              "endTime": 123.92,
+              "text": "“That's all he ever says. I think he's too young to talk.”",
+              "translation": "\"Bạn ấy chỉ biết kêu mỗi tiếng đó thôi. Tớ nghĩ bạn ấy còn quá nhỏ để nói chuyện.\""
+            },
+            {
+              "id": 15,
+              "startTime": 125.36,
+              "endTime": 130.72,
+              "text": "“Do you know what he is? I know he isn't a hare.”",
+              "translation": "\"Cậu có biết bạn ấy là con gì không? Tớ biết chắc bạn ấy không phải là thỏ.\""
+            },
+            {
+              "id": 16,
+              "startTime": 139.76,
+              "endTime": 148.96,
+              "text": "“Well, whatever he is, he can't be a mouse because he doesn't have whiskers like me.”",
+              "translation": "\"Dù là con gì thì bạn ấy cũng không thể là chuột được, vì bạn ấy không có râu như tớ.\""
+            },
+            {
+              "id": 17,
+              "startTime": 146.48,
+              "endTime": 157.52,
+              "text": "“He needs a proper name. We can call him Little Yellow!”",
+              "translation": "\"Bạn ấy cần một cái tên đàng hoàng. Chúng ta có thể gọi bạn ấy là Vàng Nhỏ!\""
+            },
+            {
+              "id": 18,
+              "startTime": 163.28,
+              "endTime": 171.36,
+              "text": "“You've got to have a name. Everyone does!”",
+              "translation": "\"Bạn phải có một cái tên chứ. Ai mà chẳng có tên!\""
+            },
+            {
+              "id": 19,
+              "startTime": 167.84,
+              "endTime": 177.2,
+              "text": "“That's it! We'll call him Little Yellow Quack! Yay, perfect!”",
+              "translation": "\"Đúng rồi! Chúng ta sẽ gọi bạn ấy là Vịt Vàng Quạc Quạc! Tuyệt vời quá!\""
+            },
+            {
+              "id": 20,
+              "startTime": 194.96,
+              "endTime": 206.24,
+              "text": "“Well, I've looked at Little Yellow Quack from every side, and I'm sure that he is a squirrel!”",
+              "translation": "\"Tớ đã quan sát bạn Vịt Vàng Quạc Quạc từ mọi phía, và tớ chắc chắn bạn ấy là một chú sóc!\""
+            },
+            {
+              "id": 21,
+              "startTime": 207.6,
+              "endTime": 218.32,
+              "text": "“A yellow quacking squirrel! Can't you see we could be brothers? Haha, just kidding!”",
+              "translation": "\"Một chú sóc lông vàng biết kêu quạc quạc! Cậu không thấy chúng tớ trông như anh em à? Haha, đùa tí thôi!\""
+            },
+            {
+              "id": 22,
+              "startTime": 231.68,
+              "endTime": 238.96,
+              "text": "“I've no idea what Little Yellow Quack is, but I do know he is not a fox.”",
+              "translation": "\"Tớ chẳng biết bạn Vịt Vàng là giống gì, nhưng tớ biết chắc bạn ấy không phải là cáo.\""
+            },
+            {
+              "id": 23,
+              "startTime": 244.72,
+              "endTime": 251.36,
+              "text": "“He can't be a fox because foxes don't have wings.”",
+              "translation": "\"Bạn ấy không thể là cáo được vì loài cáo làm gì có cánh.\""
+            },
+            {
+              "id": 24,
+              "startTime": 261.36,
+              "endTime": 274.88,
+              "text": "“They are wings! Very little wings. Birds have wings. Little Yellow Quack could be some kind of bird!”",
+              "translation": "\"Đó đúng là đôi cánh! Đôi cánh rất nhỏ. Chim thì có cánh. Bạn Vịt Vàng chắc hẳn là một loài chim nào đó!\""
+            },
+            {
+              "id": 25,
+              "startTime": 272.32,
+              "endTime": 281.04,
+              "text": "“What's happened to Little Yellow Quack? Look, there he is in the river!”",
+              "translation": "\"Chuyện gì xảy ra với bạn Vịt Vàng thế? Nhìn kìa, bạn ấy đang ở dưới sông!\""
+            },
+            {
+              "id": 26,
+              "startTime": 281.04,
+              "endTime": 286.16,
+              "text": "“Wow, he can swim really well!”",
+              "translation": "\"Oa, bạn ấy bơi giỏi thật đấy!\""
+            },
+            {
+              "id": 27,
+              "startTime": 316.64,
+              "endTime": 326.48,
+              "text": "“A big brown duck! She must be Little Yellow Quack's mother!”",
+              "translation": "\"Một cô vịt nâu lớn! Chắc chắn đó là mẹ của bạn Vịt Vàng rồi!\""
+            },
+            {
+              "id": 28,
+              "startTime": 329.12,
+              "endTime": 337.16,
+              "text": "“Hey! Little Yellow Quack is really a little yellow duck!”",
+              "translation": "\"Này! Hóa ra bạn Vịt Vàng thực sự là một chú vịt con lông vàng!\""
             }
           ]
         },
@@ -846,485 +1694,200 @@
           "title": "Bears go Flat Hunting",
           "titleVi": "Bears go Flat Hunting",
           "level": "A2",
-          "duration": "04:49",
+          "duration": "04:24",
           "mediaType": "youtube",
           "youtubeId": "S-XNLAxHKxM",
           "thumbnailUrl": "https://img.youtube.com/vi/S-XNLAxHKxM/hqdefault.jpg",
-          "totalSentences": 79,
+          "totalSentences": 27,
           "sentences": [
             {
               "id": 1,
-              "startTime": 7,
-              "endTime": 11.3,
-              "text": "Huh? Earthquake! Only the essentials."
+              "startTime": 6.88,
+              "endTime": 10.6,
+              "text": "Grizz: Oh, morning, little buddy. Ice Bear made breakfast?",
+              "translation": "Grizz: Ồ, chào buổi sáng em trai. Gấu Trắng làm bữa sáng đấy à?"
             },
             {
               "id": 2,
-              "startTime": 11.4,
-              "endTime": 14.4,
-              "text": "Essential? Hey. Essential?"
+              "startTime": 11.2,
+              "endTime": 15.6,
+              "text": "Grizz: What did you make? Mmm, cardboard pizza and cardboard bagel.",
+              "translation": "Grizz: Em làm món gì thế? Mmm, bánh pizza bìa các-tông và bánh vòng bìa các-tông."
             },
             {
               "id": 3,
-              "startTime": 15,
-              "endTime": 18.5,
-              "text": "What happened? Where'd you go?"
+              "startTime": 16.08,
+              "endTime": 21.48,
+              "text": "Grizz: Looks delicious. Ah, cardboard coffee.",
+              "translation": "Grizz: Trông ngon đấy. A, cà phê bìa các-tông."
             },
             {
               "id": 4,
-              "startTime": 18.6,
-              "endTime": 21.3,
-              "text": "Huh? Phew, we survived."
+              "startTime": 23.48,
+              "endTime": 28.08,
+              "text": "Panda: Guys, check this out. I found us a sweet new place to live.",
+              "translation": "Panda: Các cậu xem cái này đi. Tớ vừa tìm được một chỗ ở mới tuyệt đẹp cho tụi mình đấy."
             },
             {
               "id": 5,
-              "startTime": 21.4,
-              "endTime": 24,
-              "text": "Hey, do you hear that?"
+              "startTime": 28.08,
+              "endTime": 30.8,
+              "text": "Grizz: No way! A real place?",
+              "translation": "Grizz: Thật không đấy! Một căn nhà thật sự á?"
             },
             {
               "id": 6,
-              "startTime": 24.1,
-              "endTime": 27.7,
-              "text": "Huh? What's going on out there?"
+              "startTime": 30.8,
+              "endTime": 36.44,
+              "text": "Panda: Yeah! Look at this apartment listing: \"Spacious, modern, with tons of natural light.\"",
+              "translation": "Panda: Ừ! Xem tin đăng căn hộ này đi: \"Rộng rãi, hiện đại và ngập tràn ánh sáng tự nhiên.\""
             },
             {
               "id": 7,
-              "startTime": 27.8,
-              "endTime": 30.3,
-              "text": "Could you put me down?"
+              "startTime": 36.44,
+              "endTime": 41.24,
+              "text": "Grizz: Wow, look at that kitchen! Ice Bear: Ice Bear wants stainless steel appliances.",
+              "translation": "Grizz: Oa, nhìn căn bếp kìa! Gấu Trắng: Gấu Trắng muốn có đồ gia dụng bằng thép không gỉ."
             },
             {
               "id": 8,
-              "startTime": 30.5,
-              "endTime": 34.4,
-              "text": "What? What? What's happening here?"
+              "startTime": 41.24,
+              "endTime": 45.52,
+              "text": "Grizz: Come on, let's go check it out! What are you guys doing here?",
+              "translation": "Grizz: Nào, cùng đi xem thử thôi! Các anh đang làm gì ở đây thế?"
             },
             {
               "id": 9,
-              "startTime": 34.5,
-              "endTime": 37.2,
-              "text": "What are they building?"
+              "startTime": 45.52,
+              "endTime": 52.68,
+              "text": "Worker: This is a construction zone. The city has ordered us to put a new cell phone tower at this location.",
+              "translation": "Công nhân: Đây là khu vực thi công. Thành phố yêu cầu chúng tôi lắp đặt trạm phát sóng di động tại vị trí này."
             },
             {
               "id": 10,
-              "startTime": 37.3,
-              "endTime": 41.1,
-              "text": "I spy these many code violations."
+              "startTime": 52.68,
+              "endTime": 56.56,
+              "text": "Grizz: But we live here! Uh, could you move it somewhere else?",
+              "translation": "Grizz: Nhưng tụi tôi sống ở đây mà! Các anh chuyển nó sang chỗ khác được không?"
             },
             {
               "id": 11,
-              "startTime": 41.3,
-              "endTime": 44,
-              "text": "Hey, YOU THERE. WHO ARE YOU GUYS?"
+              "startTime": 59.68,
+              "endTime": 64.44,
+              "text": "Worker: Listen, we received no record that someone lives here.",
+              "translation": "Công nhân: Nghe này, chúng tôi không có hồ sơ nào ghi nhận có người sinh sống ở đây."
             },
             {
               "id": 12,
-              "startTime": 43.9,
-              "endTime": 45.2,
-              "text": "WHAT ARE YOU DOING HERE?"
+              "startTime": 64.44,
+              "endTime": 70.16,
+              "text": "Grizz: But this is our home. Look, we have a welcome mat. See?",
+              "translation": "Grizz: Nhưng đây là nhà của tụi tôi mà. Nhìn này, tụi tôi có cả thảm chào mừng. Thấy chưa?"
             },
             {
               "id": 13,
-              "startTime": 45.3,
-              "endTime": 47.6,
-              "text": "WE DIDN'T DO IT. THIS is a construction zone."
+              "startTime": 70.16,
+              "endTime": 75.92,
+              "text": "Worker: Sorry, but you're going to need more proof than that.",
+              "translation": "Công nhân: Xin lỗi, nhưng các cậu cần phải có bằng chứng thuyết phục hơn thế."
             },
             {
               "id": 14,
-              "startTime": 47.7,
-              "endTime": 51.4,
-              "text": "The city has ordered us to put a new cell phone tower at this location."
+              "startTime": 75.92,
+              "endTime": 81.92,
+              "text": "Grizz: Well, then we'll get proof! You'll see. Okay, we just need to know what counts as good enough proof.",
+              "translation": "Grizz: Được thôi, tụi tôi sẽ tìm bằng chứng! Các anh cứ chờ xem. Giờ chỉ cần biết cái gì được coi là bằng chứng hợp lệ."
             },
             {
               "id": 15,
-              "startTime": 51.5,
-              "endTime": 54.6,
-              "text": "But we live here. Uh could you like move it SOMEWHERE ELSE?"
+              "startTime": 85.24,
+              "endTime": 99.88,
+              "text": "Panda: Simply show a copy of the deed or any other physical evidence that shows five or more years of presence.",
+              "translation": "Panda: Chỉ cần xuất trình bản sao giấy tờ nhà đất hoặc bất kỳ bằng chứng vật lý nào chứng minh đã cư trú từ 5 năm trở lên."
             },
             {
               "id": 16,
-              "startTime": 54.6,
-              "endTime": 57.1,
-              "text": "SORRY, BOSS. I accidentally made another hole."
+              "startTime": 101.44,
+              "endTime": 107.2,
+              "text": "Grizz: We've totally been here longer than that. I'm sure we have something from 5 years ago.",
+              "translation": "Grizz: Tụi mình sống ở đây lâu hơn thế nhiều. Tớ chắc chắn tụi mình có đồ đạc từ 5 năm trước."
             },
             {
               "id": 17,
-              "startTime": 57.1,
-              "endTime": 59.1,
-              "text": "It's okay, Paul. We all make mistakes."
+              "startTime": 107.2,
+              "endTime": 113.16,
+              "text": "Grizz: Okay, you go stall the construction. Panda, you and me will find proof.",
+              "translation": "Grizz: Được rồi, em đi hoãn việc thi công lại. Panda, cậu với tớ đi tìm bằng chứng."
             },
             {
               "id": 18,
-              "startTime": 59.2,
-              "endTime": 289,
-              "text": "Listen, we received no record that someone lives here."
+              "startTime": 113.16,
+              "endTime": 123.04,
+              "text": "Panda: Grizz, I found old stuff! Grizz: Woah, this is from forever ago, back when we first came to the city. I remember this.",
+              "translation": "Panda: Grizz, tớ tìm thấy đồ cũ này! Grizz: Oa, cái này từ hồi xửa hồi xưa, lúc tụi mình mới lên thành phố. Tớ nhớ chuyện này rồi."
             },
             {
               "id": 19,
-              "startTime": 62,
-              "endTime": 63.9,
-              "text": "But but this is our home."
+              "startTime": 126.32,
+              "endTime": 135.64,
+              "text": "Agent: Well, here it is, the penthouse. Panda: Whoa, this is massive! Ice Bear: Ice Bear has never seen a larger playpen.",
+              "translation": "Môi giới: Đây rồi, căn hộ áp mái sang trọng. Panda: Oa, rộng mênh mông luôn! Gấu Trắng: Gấu Trắng chưa bao giờ thấy sân chơi nào rộng thế này."
             },
             {
               "id": 20,
-              "startTime": 64,
-              "endTime": 66.2,
-              "text": "Wait, look. We've welcome mat."
+              "startTime": 136.44,
+              "endTime": 144.8,
+              "text": "Agent: Where were you guys living before? Grizz: A cardboard box.",
+              "translation": "Môi giới: Trước đây các cậu sống ở đâu thế? Grizz: Trong một cái hộp các-tông."
             },
             {
               "id": 21,
-              "startTime": 66.3,
-              "endTime": 69.3,
-              "text": "See? Welcome. Whoops, made another hole."
+              "startTime": 153.36,
+              "endTime": 162.08,
+              "text": "Agent: So, this is the kitchen. You'll see it's already furnished, with the deluxe industrial refrigerator.",
+              "translation": "Môi giới: Đây là phòng bếp, đã có sẵn đầy đủ nội thất cùng chiếc tủ lạnh công nghiệp cao cấp."
             },
             {
               "id": 22,
-              "startTime": 69.4,
-              "endTime": 73.4,
-              "text": "Sorry, but you're going to need more proof than that."
+              "startTime": 162.8,
+              "endTime": 171.96,
+              "text": "Agent: And this is the hidden loft with the newly installed internet lines. Panda: Dibs!",
+              "translation": "Môi giới: Còn đây là gác xép bí mật có đường truyền mạng mới lắp. Panda: Của tớ nhé!"
             },
             {
               "id": 23,
-              "startTime": 73.5,
-              "endTime": 75.5,
-              "text": "Well, then we'll get proof."
+              "startTime": 171.96,
+              "endTime": 181.48,
+              "text": "Grizz: I love this place. We'll take it! Agent: You'll be able to move in as soon as we get first month's rent.",
+              "translation": "Grizz: Tụi tôi thích nơi này lắm. Tụi tôi lấy căn này! Môi giới: Các cậu có thể dọn vào ngay khi đóng tiền tháng đầu tiên."
             },
             {
               "id": 24,
-              "startTime": 75.6,
-              "endTime": 81,
-              "text": "You'll see. Okay, we just need to know what counts as good enough proof."
+              "startTime": 181.48,
+              "endTime": 189.6,
+              "text": "Grizz: I have about $11. Panda: I have 76 cents. Ice Bear: Ice Bear has recyclable bottle.",
+              "translation": "Grizz: Tớ có khoảng 11 đô. Panda: Tớ có 76 xu. Gấu Trắng: Gấu Trắng có vỏ chai nhựa tái chế."
             },
             {
               "id": 25,
-              "startTime": 81.1,
-              "endTime": 289,
-              "text": "Okay, here we are. How about Ooh ooh, click on that."
+              "startTime": 206.4,
+              "endTime": 218.4,
+              "text": "Panda: Is this a bill? Grizz: No, just credit card application. Do we save any of our bills? Panda: Do we pay our bills?",
+              "translation": "Panda: Đây có phải hóa đơn không? Grizz: Không, chỉ là đơn đăng ký thẻ tín dụng thôi. Tụi mình có lưu hóa đơn nào không? Panda: Tụi mình có trả tiền hóa đơn bao giờ đâu?"
             },
             {
               "id": 26,
-              "startTime": 85,
-              "endTime": 90.9,
-              "text": "Home damage. Home damage caused in the event we claim your home is unoccupied can be easily corrected."
+              "startTime": 227.24,
+              "endTime": 236.48,
+              "text": "Landlord: If I see any weird business, I kick you out, okay? If rent is late one day, I kick you out!",
+              "translation": "Chủ nhà: Nếu tôi thấy có chuyện mờ ám gì là tống cổ ra ngoài ngay nhé? Tiền nhà trễ 1 ngày là tôi đuổi thẳng cổ!"
             },
             {
               "id": 27,
-              "startTime": 90.9,
-              "endTime": 96.9,
-              "text": "Simply show a copy of the deed or any other physical evidence that shows five or more years of presence."
-            },
-            {
-              "id": 28,
-              "startTime": 97,
-              "endTime": 99.3,
-              "text": "Once shown, we will completely back off."
-            },
-            {
-              "id": 29,
-              "startTime": 99.3,
-              "endTime": 101.6,
-              "text": "Promise. I liked that it was a cartoon."
-            },
-            {
-              "id": 30,
-              "startTime": 101.6,
-              "endTime": 289,
-              "text": "We've totally been here longer than that."
-            },
-            {
-              "id": 31,
-              "startTime": 104,
-              "endTime": 107.3,
-              "text": "I'm sure we have something from 5 years ago."
-            },
-            {
-              "id": 32,
-              "startTime": 107.4,
-              "endTime": 110.1,
-              "text": "Okay, you go stall the construction."
-            },
-            {
-              "id": 33,
-              "startTime": 110.1,
-              "endTime": 112.7,
-              "text": "Panda, you and me will find proof."
-            },
-            {
-              "id": 34,
-              "startTime": 112.7,
-              "endTime": 115.7,
-              "text": "Break. Got to be something around here."
-            },
-            {
-              "id": 35,
-              "startTime": 116,
-              "endTime": 118.3,
-              "text": "Ooh. Grizz, I found old stuff."
-            },
-            {
-              "id": 36,
-              "startTime": 118.6,
-              "endTime": 124.2,
-              "text": "NOPE. WOAH, this is from forever ago, back when we first came to the city."
-            },
-            {
-              "id": 37,
-              "startTime": 124.2,
-              "endTime": 125.8,
-              "text": "Hey, I remember this."
-            },
-            {
-              "id": 38,
-              "startTime": 125.9,
-              "endTime": 128.3,
-              "text": "Well, here it is, the penthouse."
-            },
-            {
-              "id": 39,
-              "startTime": 128.4,
-              "endTime": 289,
-              "text": "Whoa, this is massive."
-            },
-            {
-              "id": 40,
-              "startTime": 130,
-              "endTime": 135,
-              "text": "Oh, this is crazy. Ice Bear has never seen a larger playpen."
-            },
-            {
-              "id": 41,
-              "startTime": 135,
-              "endTime": 139.2,
-              "text": "Ooh, sounds like it's bigger than your last place."
-            },
-            {
-              "id": 42,
-              "startTime": 139.2,
-              "endTime": 143.4,
-              "text": "Oh, yeah, for sure. We just moved here to the city."
-            },
-            {
-              "id": 43,
-              "startTime": 143.5,
-              "endTime": 147.8,
-              "text": "That's wonderful. Where were you guys living before?"
-            },
-            {
-              "id": 44,
-              "startTime": 147.9,
-              "endTime": 150.4,
-              "text": "A cardboard box. That's funny."
-            },
-            {
-              "id": 45,
-              "startTime": 150.8,
-              "endTime": 153.1,
-              "text": "What's up, bro? What's up?"
-            },
-            {
-              "id": 46,
-              "startTime": 153,
-              "endTime": 289,
-              "text": "So, this is the kitchen."
-            },
-            {
-              "id": 47,
-              "startTime": 155,
-              "endTime": 157.2,
-              "text": "You'll see it's already furnished."
-            },
-            {
-              "id": 48,
-              "startTime": 157.3,
-              "endTime": 160.6,
-              "text": "And here we have the deluxe industrial refrigerator."
-            },
-            {
-              "id": 49,
-              "startTime": 160.7,
-              "endTime": 162.5,
-              "text": "And this is the hidden loft."
-            },
-            {
-              "id": 50,
-              "startTime": 162.6,
-              "endTime": 168,
-              "text": "It comes with the best connection to our building's newly installed internet lines."
-            },
-            {
-              "id": 51,
-              "startTime": 168,
-              "endTime": 169.6,
-              "text": "Dibs. I love this place."
-            },
-            {
-              "id": 52,
-              "startTime": 169.7,
-              "endTime": 172.1,
-              "text": "It's everything we've ever dreamed of."
-            },
-            {
-              "id": 53,
-              "startTime": 172.2,
-              "endTime": 174.7,
-              "text": "We'll take it. Well, this is all great."
-            },
-            {
-              "id": 54,
-              "startTime": 174.8,
-              "endTime": 289,
-              "text": "I'll get started on the paperwork."
-            },
-            {
-              "id": 55,
-              "startTime": 177,
-              "endTime": 182,
-              "text": "You'll be able to move in as soon as we get first month's rent."
-            },
-            {
-              "id": 56,
-              "startTime": 182.1,
-              "endTime": 184.6,
-              "text": "Actually, we can pay right now."
-            },
-            {
-              "id": 57,
-              "startTime": 184.7,
-              "endTime": 187.1,
-              "text": "Uh looks like I have about $11."
-            },
-            {
-              "id": 58,
-              "startTime": 187.2,
-              "endTime": 191.1,
-              "text": "I have 76 cents. Ice Bear has recyclable bottle."
-            },
-            {
-              "id": 59,
-              "startTime": 191.1,
-              "endTime": 192.8,
-              "text": "Let's just open this."
-            },
-            {
-              "id": 60,
-              "startTime": 192.9,
-              "endTime": 195.5,
-              "text": "HEY, YOU SHOULD GET OUT OF HERE."
-            },
-            {
-              "id": 61,
-              "startTime": 195.5,
-              "endTime": 197.7,
-              "text": "It's not safe. Quick, move."
-            },
-            {
-              "id": 62,
-              "startTime": 197.8,
-              "endTime": 289,
-              "text": "Move. Oh, got it. Okay, not that many papers in here."
-            },
-            {
-              "id": 63,
-              "startTime": 202,
-              "endTime": 205.3,
-              "text": "Hmm, is this trash? Those are help, but it's not trash."
-            },
-            {
-              "id": 64,
-              "startTime": 205.4,
-              "endTime": 207.5,
-              "text": "What's this? Don't throw that away."
-            },
-            {
-              "id": 65,
-              "startTime": 207.6,
-              "endTime": 209.8,
-              "text": "I wish you didn't hold on to so much."
-            },
-            {
-              "id": 66,
-              "startTime": 209.9,
-              "endTime": 212.9,
-              "text": "Is this a bill? No, just credit card application."
-            },
-            {
-              "id": 67,
-              "startTime": 212.9,
-              "endTime": 215.2,
-              "text": "Probably save it for later, you know."
-            },
-            {
-              "id": 68,
-              "startTime": 215.3,
-              "endTime": 217,
-              "text": "Do we save any of our bills?"
-            },
-            {
-              "id": 69,
-              "startTime": 217,
-              "endTime": 218.2,
-              "text": "Do we pay our bills?"
-            },
-            {
-              "id": 70,
-              "startTime": 218.3,
-              "endTime": 223.6,
-              "text": "Huh? Sorry. We have to clear space."
-            },
-            {
-              "id": 71,
-              "startTime": 223.7,
-              "endTime": 232.1,
-              "text": "HEY, STOP THAT. SO, if I see any weird business, I kick you out, okay?"
-            },
-            {
-              "id": 72,
-              "startTime": 232.2,
-              "endTime": 237.6,
-              "text": "That's great. We can't wait to see the place."
-            },
-            {
-              "id": 73,
-              "startTime": 237.8,
-              "endTime": 242.9,
-              "text": "If rent late one day, I kick you out, okay?"
-            },
-            {
-              "id": 74,
-              "startTime": 243,
-              "endTime": 245.6,
-              "text": "Okay. YOU, I SEE YOU."
-            },
-            {
-              "id": 75,
-              "startTime": 245.7,
-              "endTime": 250.2,
-              "text": "I KICK YOU OUT. I FIX THAT DOOR, OKAY?"
-            },
-            {
-              "id": 76,
-              "startTime": 250.4,
-              "endTime": 254.3,
-              "text": "I kick out cat if you don't like."
-            },
-            {
-              "id": 77,
-              "startTime": 254.4,
-              "endTime": 289,
-              "text": "So, you like? I don't know about this."
-            },
-            {
-              "id": 78,
-              "startTime": 259,
-              "endTime": 276.3,
-              "text": "I cool, man. This is like the only place we could afford."
-            },
-            {
-              "id": 79,
-              "startTime": 276.6,
-              "endTime": 289,
-              "text": "What's wrong? I swear we'll wait outside."
+              "startTime": 257.6,
+              "endTime": 264.4,
+              "text": "Panda: I don't know about this. Grizz: This is like the only place we could afford.",
+              "translation": "Panda: Tớ thấy lo quá. Grizz: Đây là nơi duy nhất tụi mình đủ tiền thuê thôi mà."
             }
           ]
         },
@@ -1337,431 +1900,158 @@
           "title": "Baby Panda",
           "titleVi": "Baby Panda",
           "level": "B1",
-          "duration": "04:39",
+          "duration": "04:15",
           "mediaType": "youtube",
           "youtubeId": "Gh_xZVUh5-c",
           "thumbnailUrl": "https://img.youtube.com/vi/Gh_xZVUh5-c/hqdefault.jpg",
-          "totalSentences": 70,
+          "totalSentences": 21,
           "sentences": [
             {
               "id": 1,
-              "startTime": 0.3,
-              "endTime": 4.2,
-              "text": "You guys, this mini show is going to be incredible."
+              "startTime": 0.64,
+              "endTime": 8.48,
+              "text": "Grizz: You guys, this road trip is going to be incredible! I'm so excited.",
+              "translation": "Grizz: Các cậu ơi, chuyến đi phượt này chắc chắn sẽ tuyệt vời lắm đây! Tớ hào hứng quá."
             },
             {
               "id": 2,
-              "startTime": 4.2,
-              "endTime": 9.1,
-              "text": "I'm so excited. Okay, let's go to the checklist. Mirrors, check."
+              "startTime": 8.48,
+              "endTime": 16.8,
+              "text": "Grizz: Let's go through the checklist: Mirrors, check! Directions in Desert Valley, check! Seat belts, check!",
+              "translation": "Grizz: Cùng duyệt danh sách nào: Gương chiếu hậu, xong! Chỉ đường đến Thung lũng Sa mạc, xong! Dây an toàn, xong!"
             },
             {
               "id": 3,
-              "startTime": 9.1,
-              "endTime": 12.7,
-              "text": "Directions. Directions in Desert Valley, check."
+              "startTime": 16.8,
+              "endTime": 22.72,
+              "text": "Grizz: New driver's license, check! You guys are ready to go?",
+              "translation": "Grizz: Bằng lái xe mới, xong! Các cậu đã sẵn sàng lên đường chưa?"
             },
             {
               "id": 4,
-              "startTime": 12.8,
-              "endTime": 15.1,
-              "text": "Next, check. Seat belts, check."
+              "startTime": 22.72,
+              "endTime": 30.44,
+              "text": "Panda: You got the directions on your phone, right? Don't use your phone while driving. It's dangerous.",
+              "translation": "Panda: Cậu có bản đồ chỉ đường trên điện thoại rồi đúng không? Đừng vừa lái xe vừa bấm điện thoại nhé, nguy hiểm lắm."
             },
             {
               "id": 5,
-              "startTime": 15.2,
-              "endTime": 17.8,
-              "text": "Check. New driver's license, check."
+              "startTime": 34.4,
+              "endTime": 40.96,
+              "text": "Grizz: Ice Bear is responsible. All right, you are the captain of the van now.",
+              "translation": "Grizz: Gấu Trắng rất có trách nhiệm. Được rồi, giờ em là tài xế trưởng của chuyến xe này."
             },
             {
               "id": 6,
-              "startTime": 17.9,
-              "endTime": 19.8,
-              "text": "You guys are ready to go?"
+              "startTime": 40.96,
+              "endTime": 46.76,
+              "text": "Grizz: Take care of your crew and they will take care of you.",
+              "translation": "Grizz: Hãy chăm sóc cho đồng đội của em và họ cũng sẽ chăm sóc cho em."
             },
             {
               "id": 7,
-              "startTime": 19.9,
-              "endTime": 23.2,
-              "text": "You got the directions on your phone, right?"
+              "startTime": 47.6,
+              "endTime": 54.44,
+              "text": "Ice Bear: Ice Bear understands. All: Road trip! Road trip!",
+              "translation": "Gấu Trắng: Gấu Trắng đã hiểu. Tất cả: Đi phượt thôi! Đi phượt thôi!"
             },
             {
               "id": 8,
-              "startTime": 23.3,
-              "endTime": 279,
-              "text": "No, no, no, no, no, no."
+              "startTime": 101.92,
+              "endTime": 107.12,
+              "text": "Grizz: Uh-oh. Guys, we have a problem. We're already out of Star Cakes. We got to stop to refuel.",
+              "translation": "Grizz: Ôi thôi. Tụi mình có rắc rối rồi. Hết sạch bánh Star Cakes rồi. Phải ghé trạm nạp năng lượng thôi."
             },
             {
               "id": 9,
-              "startTime": 25,
-              "endTime": 29.4,
-              "text": "They can't use your phone while driving."
+              "startTime": 107.12,
+              "endTime": 112.0,
+              "text": "Panda: And I got to use the restroom, please! Grizz: Oh, let's stop there. They'll have snacks and bathroom.",
+              "translation": "Panda: Và tớ cần đi vệ sinh gấp nữa! Grizz: Ồ, ghé chỗ kia đi. Ở đó có đồ ăn vặt và nhà vệ sinh."
             },
             {
               "id": 10,
-              "startTime": 29.5,
-              "endTime": 34.7,
-              "text": "It's dangerous. I'm sure they'll be responsible."
+              "startTime": 112.96,
+              "endTime": 117.48,
+              "text": "Ice Bear: Ice Bear does not want to make stops unless emergency.",
+              "translation": "Gấu Trắng: Gấu Trắng không muốn dừng xe trừ khi có trường hợp khẩn cấp."
             },
             {
               "id": 11,
-              "startTime": 34.8,
-              "endTime": 39.2,
-              "text": "Isn't that right? Iceber is responsible."
+              "startTime": 145.68,
+              "endTime": 150.72,
+              "text": "Ice Bear: Go get cakes. Ice Bear will wait in car.",
+              "translation": "Gấu Trắng: Đi mua bánh đi. Gấu Trắng sẽ đợi trong xe."
             },
             {
               "id": 12,
-              "startTime": 39.3,
-              "endTime": 42,
-              "text": "There you go. All right."
+              "startTime": 166.08,
+              "endTime": 175.12,
+              "text": "Panda: Oh, sweet relief! I think I can make it a whole two hours now. Where's older brother?",
+              "translation": "Panda: Ôi, nhẹ cả người! Giờ tớ có thể nhịn thêm 2 tiếng nữa rồi. Anh cả đâu rồi nhỉ?"
             },
             {
               "id": 13,
-              "startTime": 42.1,
-              "endTime": 45.9,
-              "text": "You are the captain of the van now."
+              "startTime": 175.12,
+              "endTime": 180.13,
+              "text": "Wyatt: This is a pretty car. My mom had one, but she pushed it down a ravine.",
+              "translation": "Wyatt: Chiếc xe này đẹp đấy. Mẹ tôi từng có một chiếc, nhưng bà ấy đã đẩy nó xuống vực rồi."
             },
             {
               "id": 14,
-              "startTime": 46,
-              "endTime": 51.9,
-              "text": "Take care of your crew and they will take care of you."
+              "startTime": 180.56,
+              "endTime": 190.24,
+              "text": "Grizz: Hey guys, I want you to meet Wyatt. He got separated from his motorcycle gang and needs a ride.",
+              "translation": "Grizz: Chào cả nhà, tớ muốn giới thiệu Wyatt. Cậu ấy bị lạc khỏi băng nhóm mô-tô và cần đi nhờ xe."
             },
             {
               "id": 15,
-              "startTime": 52,
-              "endTime": 55.3,
-              "text": "Iceber understands. Road trip."
+              "startTime": 190.24,
+              "endTime": 200.64,
+              "text": "Wyatt: It's true. I wouldn't lie to y'all. Grizz: I told him he could hitch a ride with us. That's cool, right?",
+              "translation": "Wyatt: Thật đấy, tôi không nói dối đâu. Grizz: Tớ bảo cậu ấy có thể đi cùng tụi mình. Thế cũng vui mà, đúng không?"
             },
             {
               "id": 16,
-              "startTime": 55.4,
-              "endTime": 57.7,
-              "text": "ROAD TRIP. Road trip."
+              "startTime": 200.64,
+              "endTime": 205.52,
+              "text": "Ice Bear: Wyatt not part of plan. Wyatt not coming.",
+              "translation": "Gấu Trắng: Wyatt không có trong kế hoạch. Wyatt không được lên xe."
             },
             {
               "id": 17,
-              "startTime": 57.8,
-              "endTime": 279,
-              "text": "Road trip. Have fun."
+              "startTime": 205.52,
+              "endTime": 211.92,
+              "text": "Wyatt: Oh, okay. It's just I got all these snacks and now I got no one to share them with.",
+              "translation": "Wyatt: Ồ, được thôi. Chỉ là tôi có cả đống đồ ăn vặt này mà giờ chẳng có ai để chia sẻ cùng."
             },
             {
               "id": 18,
-              "startTime": 60,
-              "endTime": 63.2,
-              "text": "Slow down. Sunny day."
+              "startTime": 211.92,
+              "endTime": 221.36,
+              "text": "Grizz: Okay, I call the vote! All for Wyatt and the Star Cakes aboard, say Aye! Panda: Aye! Grizz: Welcome to the crew, Wyatt!",
+              "translation": "Grizz: Được rồi, biểu quyết nhé! Ai đồng ý cho Wyatt cùng số bánh Star Cakes lên xe thì hô 'Đồng ý'! Panda: Đồng ý! Grizz: Chào mừng gia nhập đội, Wyatt!"
             },
             {
               "id": 19,
-              "startTime": 63.4,
-              "endTime": 67.5,
-              "text": "Think only for the morning."
+              "startTime": 233.36,
+              "endTime": 241.12,
+              "text": "Panda: Oh, no! The phone's on low battery! You didn't bring the charger? Without directions, we'll get lost in the desert forever.",
+              "translation": "Panda: Ôi không! Điện thoại sắp hết pin rồi! Cậu không mang dây sạc à? Không có bản đồ thì tụi mình sẽ lạc vĩnh viễn giữa sa mạc mất."
             },
             {
               "id": 20,
-              "startTime": 67.7,
-              "endTime": 71,
-              "text": "Something out for you."
+              "startTime": 241.12,
+              "endTime": 248.4,
+              "text": "Wyatt: Don't worry, gang. I keep a spare charger in my boot. Grizz: Wyatt, you saved us! You're the best!",
+              "translation": "Wyatt: Đừng lo, mọi người. Tôi có để một sợi dây sạc dự phòng trong ủng này. Grizz: Wyatt, cậu cứu tụi mình rồi! Cậu là tuyệt nhất!"
             },
             {
               "id": 21,
-              "startTime": 71.2,
-              "endTime": 77.5,
-              "text": "Cuz all of a sweaty weather is no bother."
-            },
-            {
-              "id": 22,
-              "startTime": 77.6,
-              "endTime": 82.4,
-              "text": "Let's fly away. Let's fly away."
-            },
-            {
-              "id": 23,
-              "startTime": 82.5,
-              "endTime": 86.4,
-              "text": "So far away. So far away."
-            },
-            {
-              "id": 24,
-              "startTime": 86.5,
-              "endTime": 91.3,
-              "text": "Uh-oh. Guys, we have a problem."
-            },
-            {
-              "id": 25,
-              "startTime": 91.4,
-              "endTime": 96.3,
-              "text": "We're already out of Star Cakes."
-            },
-            {
-              "id": 26,
-              "startTime": 96.5,
-              "endTime": 100.3,
-              "text": "We got to stop to refuel."
-            },
-            {
-              "id": 27,
-              "startTime": 100.5,
-              "endTime": 279,
-              "text": "And I got to use the little panda's room, please."
-            },
-            {
-              "id": 28,
-              "startTime": 108,
-              "endTime": 112,
-              "text": "Oh, let's stop there."
-            },
-            {
-              "id": 29,
-              "startTime": 112.2,
-              "endTime": 122.4,
-              "text": "They'll have snacks and bathroom stuff and dinosaurs."
-            },
-            {
-              "id": 30,
-              "startTime": 122.6,
-              "endTime": 134,
-              "text": "Iceber does not want to make stops unless emergency please."
-            },
-            {
-              "id": 31,
-              "startTime": 134.2,
-              "endTime": 144.5,
-              "text": "Come on. Come on. It's the one thing he's not good at."
-            },
-            {
-              "id": 32,
-              "startTime": 144.7,
-              "endTime": 153,
-              "text": "Huh? Go get cakes. Iceber will wait in car."
-            },
-            {
-              "id": 33,
-              "startTime": 153.2,
-              "endTime": 159.3,
-              "text": "All right, ma'am. If you say so."
-            },
-            {
-              "id": 34,
-              "startTime": 159.5,
-              "endTime": 164.5,
-              "text": "I'll be back in the drift."
-            },
-            {
-              "id": 35,
-              "startTime": 164.7,
-              "endTime": 171.3,
-              "text": "Oh, sweet relief. I think I can make it a whole two hours now."
-            },
-            {
-              "id": 36,
-              "startTime": 171.3,
-              "endTime": 173,
-              "text": "Where's older brother?"
-            },
-            {
-              "id": 37,
-              "startTime": 173,
-              "endTime": 175.6,
-              "text": "I found you. This is a pretty car."
-            },
-            {
-              "id": 38,
-              "startTime": 175.6,
-              "endTime": 179.2,
-              "text": "My mom had one, but she pushed it down a ravine."
-            },
-            {
-              "id": 39,
-              "startTime": 179.3,
-              "endTime": 181.9,
-              "text": "Wyatt. Oh, good. You found the car."
-            },
-            {
-              "id": 40,
-              "startTime": 181.9,
-              "endTime": 184.5,
-              "text": "Hey guys, I want you to meet Wyatt."
-            },
-            {
-              "id": 41,
-              "startTime": 184.6,
-              "endTime": 189,
-              "text": "He got separated from his motorcycle gang and needs a ride."
-            },
-            {
-              "id": 42,
-              "startTime": 189.3,
-              "endTime": 279,
-              "text": "It's true. I I wouldn't lie to y'all."
-            },
-            {
-              "id": 43,
-              "startTime": 192,
-              "endTime": 194,
-              "text": "I'm in a legit motorcycle gang."
-            },
-            {
-              "id": 44,
-              "startTime": 194,
-              "endTime": 196.6,
-              "text": "I told him he could hitch a ride with us."
-            },
-            {
-              "id": 45,
-              "startTime": 196.7,
-              "endTime": 200.7,
-              "text": "That's cool, right? Hey, I guess we can make room for one more."
-            },
-            {
-              "id": 46,
-              "startTime": 200.8,
-              "endTime": 203.1,
-              "text": "Yeah, alert. Wyatt not part of plan."
-            },
-            {
-              "id": 47,
-              "startTime": 203.1,
-              "endTime": 205.3,
-              "text": "Wyatt not coming. Oh, okay."
-            },
-            {
-              "id": 48,
-              "startTime": 204.9,
-              "endTime": 209.5,
-              "text": "It's just I got all these snacks and now I got no one to share them with."
-            },
-            {
-              "id": 49,
-              "startTime": 209.6,
-              "endTime": 279,
-              "text": "Okay, I call the vote."
-            },
-            {
-              "id": 50,
-              "startTime": 211,
-              "endTime": 214.1,
-              "text": "All the Wyatt and the Star Cakes aboard."
-            },
-            {
-              "id": 51,
-              "startTime": 214.1,
-              "endTime": 217.4,
-              "text": "Say I. Welcome to the crew, Wyatt."
-            },
-            {
-              "id": 52,
-              "startTime": 217.5,
-              "endTime": 220.2,
-              "text": "Everyone was pretty happy and stuff."
-            },
-            {
-              "id": 53,
-              "startTime": 220.3,
-              "endTime": 225.3,
-              "text": "Then I said, \"If y'all come back, I'll feed you to my tarantula.\""
-            },
-            {
-              "id": 54,
-              "startTime": 225.4,
-              "endTime": 228.8,
-              "text": "And that's how I got rid of those kitty cats."
-            },
-            {
-              "id": 55,
-              "startTime": 228.9,
-              "endTime": 231.9,
-              "text": "I mean, it sounds like, please, please."
-            },
-            {
-              "id": 56,
-              "startTime": 231.9,
-              "endTime": 279,
-              "text": "Huh? Oh, no. The phone's on low battery."
-            },
-            {
-              "id": 57,
-              "startTime": 235,
-              "endTime": 236.4,
-              "text": "You didn't bring the charger?"
-            },
-            {
-              "id": 58,
-              "startTime": 236.4,
-              "endTime": 239.7,
-              "text": "I forgot it. Without directions, we'll get lost in the desert forever."
-            },
-            {
-              "id": 59,
-              "startTime": 239.7,
-              "endTime": 241.3,
-              "text": "Iceber will pull over and buy map."
-            },
-            {
-              "id": 60,
-              "startTime": 241.3,
-              "endTime": 243.8,
-              "text": "Don't worry, gang. I keep a spare charger in my boot."
-            },
-            {
-              "id": 61,
-              "startTime": 243.9,
-              "endTime": 244.9,
-              "text": "Wyatt, you saved us."
-            },
-            {
-              "id": 62,
-              "startTime": 244.8,
-              "endTime": 245.9,
-              "text": "You're the best, Wyatt."
-            },
-            {
-              "id": 63,
-              "startTime": 246,
-              "endTime": 247.6,
-              "text": "Wyatt, you're so prepared for trips."
-            },
-            {
-              "id": 64,
-              "startTime": 247.7,
-              "endTime": 279,
-              "text": "Maybe you should be captain."
-            },
-            {
-              "id": 65,
-              "startTime": 249,
-              "endTime": 254.4,
-              "text": "Oh, stop it. It's nothing at all, really."
-            },
-            {
-              "id": 66,
-              "startTime": 254.5,
-              "endTime": 260.2,
-              "text": "I say this calls for a special celebration."
-            },
-            {
-              "id": 67,
-              "startTime": 260.3,
-              "endTime": 268.1,
-              "text": "Who wants to watch you eat like six of these cakes at once?"
-            },
-            {
-              "id": 68,
-              "startTime": 268.2,
-              "endTime": 272.8,
-              "text": "Oh, it grizz. Remember, use napkin."
-            },
-            {
-              "id": 69,
-              "startTime": 272.9,
-              "endTime": 276.8,
-              "text": "Don't worry, I'll be careful."
-            },
-            {
-              "id": 70,
-              "startTime": 276.9,
-              "endTime": 279,
-              "text": "No, use napkins."
+              "startTime": 248.4,
+              "endTime": 255.48,
+              "text": "Panda: Wyatt, you're so prepared for trips. Maybe you should be captain.",
+              "translation": "Panda: Wyatt à, cậu chuẩn bị chu đáo quá. Có khi cậu nên làm tài xế trưởng thì hơn."
             }
           ]
         },
@@ -1774,281 +2064,123 @@
           "title": "Silly Forts, Big Trouble! 🐻📦",
           "titleVi": "Silly Forts, Big Trouble! 🐻📦",
           "level": "B1",
-          "duration": "04:50",
+          "duration": "04:32",
           "mediaType": "youtube",
           "youtubeId": "VtGXnW_b8Ws",
           "thumbnailUrl": "https://img.youtube.com/vi/VtGXnW_b8Ws/hqdefault.jpg",
-          "totalSentences": 45,
+          "totalSentences": 16,
           "sentences": [
             {
               "id": 1,
-              "startTime": 5.6,
-              "endTime": 9.5,
-              "text": "Wow. Wow. How about you?"
+              "startTime": 38.0,
+              "endTime": 43.32,
+              "text": "Grizz: It's the perfect box. We can make so many cool things with this.",
+              "translation": "Grizz: Chiếc hộp này hoàn hảo quá. Tụi mình có thể làm bao nhiêu thứ hay ho với nó."
             },
             {
               "id": 2,
-              "startTime": 9.6,
-              "endTime": 13.4,
-              "text": "Huh? Stop. What? What?"
+              "startTime": 43.32,
+              "endTime": 48.4,
+              "text": "Panda: Yeah, like a bouncy house! Grizz: No, that's silly. We should make a ballroom. It's classy.",
+              "translation": "Panda: Đúng rồi, làm nhà hơi nhún nhảy đi! Grizz: Không, ngớ ngẩn quá. Tụi mình nên làm phòng khiêu vũ sang trọng."
             },
             {
               "id": 3,
-              "startTime": 14,
-              "endTime": 18.2,
-              "text": "Wow. It's the perfect box."
+              "startTime": 48.4,
+              "endTime": 54.28,
+              "text": "Panda: A bouncy house has so much class! Grizz: No, it doesn't. It's not even a real building.",
+              "translation": "Panda: Nhà nhún cũng đẳng cấp lắm chứ! Grizz: Không hề. Nó thậm chí còn chẳng phải một tòa nhà thực sự."
             },
             {
               "id": 4,
-              "startTime": 18.4,
-              "endTime": 25.2,
-              "text": "We can make so many cool things with this."
+              "startTime": 54.28,
+              "endTime": 61.84,
+              "text": "Grizz: You don't even know a thing about architecture, Panda. Panda: Well, you do whatever you want. I'm going to build my ballroom.",
+              "translation": "Grizz: Cậu chả hiểu gì về kiến trúc cả, Panda. Panda: Cậu muốn làm gì thì làm. Tớ sẽ tự xây phòng khiêu vũ của tớ."
             },
             {
               "id": 5,
-              "startTime": 25.4,
-              "endTime": 29.6,
-              "text": "Yeah, like a bouncy house."
+              "startTime": 61.84,
+              "endTime": 64.48,
+              "text": "Grizz: Excuse me, I saw the box first. Bouncy house!",
+              "translation": "Grizz: Xin lỗi nhé, tớ nhìn thấy chiếc hộp này trước. Nhà nhún là chắc chắn!"
             },
             {
               "id": 6,
-              "startTime": 29.7,
-              "endTime": 36.9,
-              "text": "No, that's silly. We should make a ballroom."
+              "startTime": 74.84,
+              "endTime": 81.64,
+              "text": "Panda: Look what you did. Shame on you! Grizz: You're the one who ruined the box.",
+              "translation": "Panda: Nhìn cậu làm gì kìa. Thật đáng xấu hổ! Grizz: Cậu mới là người làm hỏng chiếc hộp."
             },
             {
               "id": 7,
-              "startTime": 37,
-              "endTime": 43.5,
-              "text": "It's classy. What are you talking about?"
+              "startTime": 81.64,
+              "endTime": 87.48,
+              "text": "Panda: Your idea is horrible! Grizz: Oh, really? I'm going to make my own amazing house.",
+              "translation": "Panda: Ý tưởng của cậu dở tệ! Grizz: Ồ, vậy sao? Tớ sẽ tự dựng một căn nhà tuyệt đỉnh của riêng tớ."
             },
             {
               "id": 8,
-              "startTime": 43.7,
-              "endTime": 290,
-              "text": "A bouncy house has so much class."
+              "startTime": 87.48,
+              "endTime": 92.6,
+              "text": "Panda: My house will be a quadrillion times better! Grizz: Okay, we'll see.",
+              "translation": "Panda: Nhà của tớ sẽ đẹp gấp triệu tỉ lần nhà cậu! Grizz: Được thôi, để rồi xem."
             },
             {
               "id": 9,
-              "startTime": 49,
-              "endTime": 53.6,
-              "text": "No, it doesn't. It's not even a real building."
+              "startTime": 94.28,
+              "endTime": 98.72,
+              "text": "Grizz: I claim this: Grizzly Land!",
+              "translation": "Grizz: Ta tuyên bố vùng đất này là: Xứ sở Gấu Xám!"
             },
             {
               "id": 10,
-              "startTime": 53.7,
-              "endTime": 59.1,
-              "text": "You don't even know a thing about architecture, Panda."
+              "startTime": 104.52,
+              "endTime": 109.24,
+              "text": "Grizz: Hey Panda, check out how red my house is!",
+              "translation": "Grizz: Này Panda, nhìn xem nhà của tớ đỏ rực đẹp chưa kìa!"
             },
             {
               "id": 11,
-              "startTime": 59.2,
-              "endTime": 62.3,
-              "text": "Well, you do whatever you want."
+              "startTime": 110.16,
+              "endTime": 119.44,
+              "text": "Panda: You think that's good? I've got an elevator! What you got? Grizz: Swing. Hot tub. Microwave.",
+              "translation": "Panda: Cậu tưởng thế là xịn à? Tớ có cả thang máy này! Cậu có gì nào? Grizz: Xích đu. Bồn tắm nước nóng. Lò vi sóng."
             },
             {
               "id": 12,
-              "startTime": 62.4,
-              "endTime": 65.6,
-              "text": "I'm going to build my ballroom."
+              "startTime": 120.12,
+              "endTime": 128.6,
+              "text": "Panda: Observatory. Library. Pulpit. Paris! Flat screen!",
+              "translation": "Panda: Đài quan sát. Thư viện. Bục giảng. Thành phố Paris! Màn hình phẳng siêu to!"
             },
             {
               "id": 13,
-              "startTime": 65.7,
-              "endTime": 70.2,
-              "text": "Excuse me, I saw the box first. Bouncy house."
+              "startTime": 168.64,
+              "endTime": 183.08,
+              "text": "Bears: Things we said, can I take them all back? Memories, all fuzzy and faded.",
+              "translation": "Ba Chú Gấu: Những lời tụi mình lỡ nói, có thể rút lại được không? Những kỷ niệm xưa dần mờ phai."
             },
             {
               "id": 14,
-              "startTime": 70.3,
-              "endTime": 73.5,
-              "text": "Look what you did. Shame on you."
-            },
-            {
-              "id": 15,
-              "startTime": 73.6,
-              "endTime": 290,
-              "text": "No, no shame on me. You're the one who ruined the box."
-            },
-            {
-              "id": 16,
-              "startTime": 79,
-              "endTime": 83,
-              "text": "Well, you would waste it anyway."
-            },
-            {
-              "id": 17,
-              "startTime": 83.1,
-              "endTime": 85.9,
-              "text": "Your idea is horrible."
-            },
-            {
-              "id": 18,
-              "startTime": 86,
-              "endTime": 92.4,
-              "text": "Oh, really? I'm going to make my own amazing house."
-            },
-            {
-              "id": 19,
-              "startTime": 92.6,
-              "endTime": 98.6,
-              "text": "But my house will be a quadrillion times better."
-            },
-            {
-              "id": 20,
-              "startTime": 98.7,
-              "endTime": 102.6,
-              "text": "Okay, we'll see. Yeah, we will."
-            },
-            {
-              "id": 21,
-              "startTime": 102.7,
-              "endTime": 106.1,
-              "text": "I claim this. Grizzly land."
+              "startTime": 201.6,
+              "endTime": 216.56,
+              "text": "Bears: Sometimes things break and they fall apart, but someday we will be together again.",
+              "translation": "Ba Chú Gấu: Đôi khi mọi thứ đổ vỡ và chia lìa, nhưng một ngày nào đó tụi mình sẽ lại bên nhau."
             },
             {
               "id": 22,
-              "startTime": 106.2,
-              "endTime": 111.4,
-              "text": "Hey Panda, check out how red my house is."
+              "startTime": 251.48,
+              "endTime": 261.12,
+              "text": "Grizz: Oh, I'm sorry. Can you find it in your heart to forgive me? I'm sorry.",
+              "translation": "Grizz: Ôi, tớ xin lỗi. Cậu có thể mở lòng tha thứ cho tớ không? Tớ xin lỗi nhiều lắm."
             },
             {
               "id": 23,
-              "startTime": 111.5,
-              "endTime": 117.7,
-              "text": "Wow. You think that's good?"
-            },
-            {
-              "id": 24,
-              "startTime": 118,
-              "endTime": 123.4,
-              "text": "I've got an elevator."
-            },
-            {
-              "id": 25,
-              "startTime": 123.7,
-              "endTime": 128.9,
-              "text": "What you got? Swing."
-            },
-            {
-              "id": 26,
-              "startTime": 129.1,
-              "endTime": 137.4,
-              "text": "Hot tub. Microwave. Observatory."
-            },
-            {
-              "id": 27,
-              "startTime": 137.7,
-              "endTime": 144.7,
-              "text": "Beautiful. Library. Pulpit."
-            },
-            {
-              "id": 28,
-              "startTime": 145,
-              "endTime": 154.6,
-              "text": "Paris. Flat screen. Launch the swirl."
-            },
-            {
-              "id": 29,
-              "startTime": 154.8,
-              "endTime": 160,
-              "text": "Eyebrows. Hey. What?"
-            },
-            {
-              "id": 30,
-              "startTime": 160.3,
-              "endTime": 170.7,
-              "text": "I don't know. It's a little complicated."
-            },
-            {
-              "id": 31,
-              "startTime": 170.9,
-              "endTime": 180.7,
-              "text": "Things we said, can I take them all back?"
-            },
-            {
-              "id": 32,
-              "startTime": 180.8,
-              "endTime": 184.8,
-              "text": "Memories, all fuzzy and faded."
-            },
-            {
-              "id": 33,
-              "startTime": 184.9,
-              "endTime": 189.6,
-              "text": "Funny how our dreams come to an end."
-            },
-            {
-              "id": 34,
-              "startTime": 189.8,
-              "endTime": 195.2,
-              "text": "So I built a wall around my little heart."
-            },
-            {
-              "id": 35,
-              "startTime": 195.3,
-              "endTime": 205.6,
-              "text": "Sometimes things break and they fall apart, but there's one thing that I know."
-            },
-            {
-              "id": 36,
-              "startTime": 205.7,
-              "endTime": 211.3,
-              "text": "Someday Someday we will be together again."
-            },
-            {
-              "id": 37,
-              "startTime": 211.4,
-              "endTime": 290,
-              "text": "Together again. Someday I'll hold your hand again."
-            },
-            {
-              "id": 38,
-              "startTime": 218,
-              "endTime": 233.8,
-              "text": "Hold your hand. And look into your eyes and say that we were We were never meant Never meant to be apart."
-            },
-            {
-              "id": 39,
-              "startTime": 234,
-              "endTime": 241.6,
-              "text": "We were never meant to If only that moment was now."
-            },
-            {
-              "id": 40,
-              "startTime": 241.8,
-              "endTime": 245.8,
-              "text": "If only that day was today."
-            },
-            {
-              "id": 41,
-              "startTime": 246,
-              "endTime": 249.9,
-              "text": "Oh, baby. I'm sorry, baby."
-            },
-            {
-              "id": 42,
-              "startTime": 250.1,
-              "endTime": 257.4,
-              "text": "Can you find it in your heart to forgive my soul?"
-            },
-            {
-              "id": 43,
-              "startTime": 257.6,
-              "endTime": 264.5,
-              "text": "I'm sorry, baby. I'm sorry, too."
-            },
-            {
-              "id": 44,
-              "startTime": 264.8,
-              "endTime": 275.8,
-              "text": "I missed you, guys. I was so lonely."
-            },
-            {
-              "id": 45,
-              "startTime": 276.1,
-              "endTime": 290,
-              "text": "Come on. Let's go tell Panda we're sorry, too."
+              "startTime": 261.12,
+              "endTime": 272.72,
+              "text": "Panda: I'm sorry too. I missed you guys. I was so lonely. Let's go tell Ice Bear we're sorry too.",
+              "translation": "Panda: Tớ cũng xin lỗi. Tớ nhớ các cậu lắm, tớ cảm thấy cô đơn vô cùng. Đi nói lời xin lỗi với Gấu Trắng luôn nào."
             }
           ]
         },
@@ -2061,77 +2193,81 @@
           "title": "Ice Bear's Crush 👀",
           "titleVi": "Ice Bear's Crush 👀",
           "level": "B1",
-          "duration": "04:56",
+          "duration": "04:29",
           "mediaType": "youtube",
           "youtubeId": "IxZg3nMB130",
           "thumbnailUrl": "https://img.youtube.com/vi/IxZg3nMB130/hqdefault.jpg",
-          "totalSentences": 11,
+          "totalSentences": 10,
           "sentences": [
             {
               "id": 1,
-              "startTime": 0,
-              "endTime": 296,
-              "text": "I swear will always come save you."
+              "startTime": 0.0,
+              "endTime": 4.64,
+              "text": "Ice Bear: I swear Ice Bear will always come save you.",
+              "translation": "Gấu Trắng: Gấu Trắng thề sẽ luôn đến cứu em."
             },
             {
               "id": 2,
-              "startTime": 152.9,
-              "endTime": 180.9,
-              "text": "FINALLY, now that the vacuum is mine, I have no use for Ian."
+              "startTime": 175.8,
+              "endTime": 182.68,
+              "text": "Villain: Finally, now that the vacuum is mine, I have no use for you!",
+              "translation": "Kẻ phản diện: Cuối cùng thì chiếc máy hút bụi cũng là của ta, ngươi hết giá trị lợi dụng rồi!"
             },
             {
               "id": 3,
-              "startTime": 181.4,
-              "endTime": 194,
-              "text": "You're a deal. Say goodbye."
+              "startTime": 191.84,
+              "endTime": 195.28,
+              "text": "Villain: Say goodbye!",
+              "translation": "Kẻ phản diện: Nói lời vĩnh biệt đi!"
             },
             {
               "id": 4,
-              "startTime": 194.4,
-              "endTime": 213.1,
-              "text": "That is the tiniest ax I HAVE EVER SEEN."
+              "startTime": 199.92,
+              "endTime": 206.38,
+              "text": "Villain: That is the tiniest axe I have ever seen!",
+              "translation": "Kẻ phản diện: Đó là chiếc rìu bé nhất mà ta từng thấy trên đời!"
             },
             {
               "id": 5,
-              "startTime": 213.6,
-              "endTime": 226.8,
-              "text": "YOU FOOLISH BEAR, YOU MAY HAVE WON THIS ROUND, but you'll never beat Hold on."
+              "startTime": 214.24,
+              "endTime": 220.64,
+              "text": "Villain: You foolish bear, you may have won this round, but you'll never beat me!",
+              "translation": "Kẻ phản diện: Con gấu ngốc nghếch kia, ngươi có thể thắng hiệp này, nhưng ngươi không bao giờ đánh bại được ta đâu!"
             },
             {
               "id": 6,
-              "startTime": 227,
-              "endTime": 233.3,
-              "text": "Oh, nice. Someone left the keys for me."
+              "startTime": 227.28,
+              "endTime": 237.17,
+              "text": "Yana: Oh, nice. Someone left the keys for me. You know, maybe you did save me in Halifax.",
+              "translation": "Yana: Ồ, tuyệt quá. Có ai đó để lại chìa khóa cho tôi này. Anh biết không, có lẽ anh đã thực sự cứu tôi ở Halifax đấy."
             },
             {
               "id": 7,
-              "startTime": 233.5,
-              "endTime": 244.8,
-              "text": "You know, now that I think about it, maybe you did save me in Halifax."
+              "startTime": 237.44,
+              "endTime": 243.56,
+              "text": "Ice Bear: Yeah, well, your vacuum did most of the work, didn't you, buddy?",
+              "translation": "Gấu Trắng: Ừm, máy hút bụi của em làm hầu hết mọi việc mà, phải không anh bạn?"
             },
             {
               "id": 8,
-              "startTime": 245,
-              "endTime": 255.3,
-              "text": "Yeah, well, your vacuum did most of the work, didn't you, buddy?"
+              "startTime": 257.56,
+              "endTime": 261.24,
+              "text": "Ice Bear: That necklace looks nice on you.",
+              "translation": "Gấu Trắng: Chiếc vòng cổ đó trông rất hợp với em."
             },
             {
               "id": 9,
-              "startTime": 255.5,
-              "endTime": 260.7,
-              "text": "That necklace looks nice on you."
+              "startTime": 261.84,
+              "endTime": 265.8,
+              "text": "Yana: Thanks. My father gave it to me.",
+              "translation": "Yana: Cảm ơn anh. Bố tôi đã tặng nó cho tôi đấy."
             },
             {
               "id": 10,
-              "startTime": 260.8,
-              "endTime": 296,
-              "text": "Thanks. My father gave it to me."
-            },
-            {
-              "id": 11,
-              "startTime": 266,
-              "endTime": 296,
-              "text": "Yuri."
+              "startTime": 266.84,
+              "endTime": 269.32,
+              "text": "Ice Bear: Yuri.",
+              "translation": "Gấu Trắng: Yuri."
             }
           ]
         }

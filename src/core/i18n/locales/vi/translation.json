@@ -2453,26 +2453,22 @@
       "levelLabel": "Trình độ:",
       "howItWorks": {
         "badge": "PHƯƠNG PHÁP ĐÃ ĐƯỢC CHỨNG MINH",
-        "title": "How Practicing Dictation Improves Your English Skills",
+        "title": "Phương Pháp Dictation Giúp Bạn Bứt Phá Kỹ Năng Tiếng Anh Như Thế Nào?",
         "subtitle": "Khi luyện tập tại Harry English House, bạn sẽ đi qua 4 bước cốt lõi – cả 4 bước đều đóng vai trò quan trọng như nhau!",
         "step1": {
-          "title": "1. Listen to the audio / video",
-          "titleVi": "1. Lắng nghe thật kỹ",
+          "title": "1. Lắng nghe thật kỹ",
           "desc": "Nghe toàn bộ câu để cảm nhận ngữ điệu, trọng âm câu và các hiện tượng nối âm (connected speech) tự nhiên của người bản xứ."
         },
         "step2": {
-          "title": "2. Type what you hear",
-          "titleVi": "2. Gõ lại những gì bạn nghe",
+          "title": "2. Gõ lại những gì bạn nghe",
           "desc": "Viết chính xác từng từ bạn nghe được. Quá trình này buộc não bộ phải tập trung cao độ vào chi tiết ngữ pháp, mạo từ và chính tả."
         },
         "step3": {
-          "title": "3. Check & correct",
-          "titleVi": "3. Kiểm tra & Nhận diện lỗi",
+          "title": "3. Kiểm tra & Nhận diện lỗi",
           "desc": "Hệ thống tự động so sánh và chỉ ra từ đúng (xanh lá), từ sai (đỏ) hoặc từ nghe sót, giúp bạn khắc phục lỗ hổng nghe tức thì."
         },
         "step4": {
-          "title": "4. Read it out loud",
-          "titleVi": "4. Đọc to câu vừa chép",
+          "title": "4. Đọc to câu vừa chép",
           "desc": "Sau khi hoàn thành câu, hãy đọc to lại theo đúng ngữ điệu của video/audio để cải thiện phát âm và tạo phản xạ giao tiếp tự nhiên."
         }
       },
@@ -2485,14 +2481,18 @@
         "viewAll": "Xem tất cả ({{count}} bài)",
         "collapse": "Thu gọn danh sách",
         "practiceNow": "Luyện ngay",
-        "sentencesCount": "{{count}} câu"
+        "sentencesCount": "{{count}} câu",
+        "youtubeVideo": "Video YouTube",
+        "audioOnly": "Bài nghe Audio"
       }
     },
     "practice": {
       "backToList": "Quay lại danh sách bài tập",
       "allTopics": "Tất cả chủ đề",
+      "defaultCategory": "Truyện ngắn & Hội thoại",
       "vocabLevel": "Trình độ từ vựng: {{level}}",
       "helperBanner": "Chế độ luyện tập: Hãy lắng nghe thật kỹ và gõ lại từng từ bạn nghe được. Bấm Check để kiểm tra kết quả!",
+      "progress": "Tiến độ: {{completed}}/{{total}} câu ({{percent}}%)",
       "tabDictation": "Dictation",
       "tabTranscript": "Full transcript",
       "audioOnlyMode": "Chế độ Ẩn Video (Chỉ nghe âm thanh)",
@@ -2510,9 +2510,23 @@
       "btnRedo": "Làm lại câu này",
       "btnNext": "Sang câu kế tiếp →",
       "btnContinue": "Tiếp tục bài học →",
+      "btnReplay": "Phát lại đoạn này",
+      "btnReplayShort": "Nghe lại (Ctrl+Space)",
+      "replayTooltip": "Phát lại từ đầu câu hiện tại (Phím Ctrl + Space)",
+      "openOnYouTube": "Mở trên YouTube",
+      "pauseTooltip": "Tạm dừng (Phím Space)",
+      "playTooltip": "Phát đoạn này",
+      "prevSentenceTooltip": "Câu trước (Ctrl + Mũi tên Trái)",
+      "nextSentenceTooltip": "Câu kế tiếp (Ctrl + Mũi tên Phải)",
+      "autoSaved": "Tự động lưu",
+      "micListening": "Đang nghe... Nhấn để dừng",
+      "micStart": "Nói để nhập văn bản (Speech to Text)",
+      "micUnsupported": "Trình duyệt của bạn chưa hỗ trợ nhận diện giọng nói Web Speech API.",
       "correctMessage": "Chính xác tuyệt đối! Xuất sắc!",
       "correctAnswer": "Đáp án chuẩn:",
       "wrongMessage": "Chưa chính xác! Hãy nghe lại và đối chiếu từ nhé:",
+      "diffTitle": "So sánh chi tiết (Xanh: Đúng, Đỏ: Cần sửa):",
+      "dictationTip": "Mẹo: Nhấn Enter để kiểm tra, Ctrl + Space để phát lại câu mà không cần rời tay khỏi bàn phím!",
       "youTyped": "Bạn đã gõ:",
       "answerHint": "Gợi ý đáp án:",
       "skippedTitle": "Đáp án của câu này:",
@@ -2537,8 +2551,11 @@
       "transVi": "Dịch tiếng Việt",
       "transNone": "Ẩn dịch (No translation)",
       "transAria": "Tùy chọn hiển thị bản dịch",
+      "transcriptAria": "Danh sách câu thoại Transcript",
       "chkRepeat": "Lặp lại",
       "chkAutoScroll": "Tự động cuộn",
+      "hotkeyGuide1": "Phím tắt: Space (Phát/Dừng) | Ctrl+Space (Phát lại câu)",
+      "hotkeyGuide2": "Mũi tên (Câu trước / sau)",
       "hotkeySpace": "Nhấn Space để Phát/Dừng",
       "hotkeyArrows": "Nhấn ← và → để chuyển câu"
     }

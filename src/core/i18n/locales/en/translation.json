@@ -2496,23 +2496,19 @@
         "title": "How Practicing Dictation Improves Your English Skills",
         "subtitle": "When practicing at Harry English House, you will go through 4 core steps – all of them are equally important!",
         "step1": {
-          "title": "1. Listen to the audio / video",
-          "titleVi": "1. Listen carefully",
+          "title": "1. Listen carefully",
           "desc": "Listen to the whole sentence to absorb native intonation, sentence stress, and natural connected speech."
         },
         "step2": {
           "title": "2. Type what you hear",
-          "titleVi": "2. Type what you hear",
           "desc": "Write down exactly what you hear. This forces your brain to focus intensely on grammar details, articles, and spelling."
         },
         "step3": {
-          "title": "3. Check & correct",
-          "titleVi": "3. Check & identify mistakes",
+          "title": "3. Check & identify mistakes",
           "desc": "The system compares your answer instantly and highlights correct words (green), mistakes (red), or missing words."
         },
         "step4": {
-          "title": "4. Read it out loud",
-          "titleVi": "4. Read out loud",
+          "title": "4. Read out loud",
           "desc": "After completing a sentence, read it out loud mimicking native intonation to sharpen pronunciation and speaking reflexes."
         }
       },
@@ -2525,14 +2521,18 @@
         "viewAll": "View all ({{count}} lessons)",
         "collapse": "Collapse list",
         "practiceNow": "Practice now",
-        "sentencesCount": "{{count}} sentences"
+        "sentencesCount": "{{count}} sentences",
+        "youtubeVideo": "YouTube Video",
+        "audioOnly": "Audio Lesson"
       }
     },
     "practice": {
       "backToList": "Back to exercise list",
       "allTopics": "All topics",
+      "defaultCategory": "Stories & Dialogues",
       "vocabLevel": "Vocab level: {{level}}",
       "helperBanner": "Interactive Practice: Listen carefully and type what you hear. Click Check to verify your answer!",
+      "progress": "Progress: {{completed}}/{{total}} sentences ({{percent}}%)",
       "tabDictation": "Dictation",
       "tabTranscript": "Full transcript",
       "audioOnlyMode": "Audio Only Mode (Video Hidden)",
@@ -2550,9 +2550,23 @@
       "btnRedo": "Redo this sentence",
       "btnNext": "Next sentence →",
       "btnContinue": "Continue lesson →",
+      "btnReplay": "Replay this sentence",
+      "btnReplayShort": "Replay (Ctrl+Space)",
+      "replayTooltip": "Replay current sentence from start (Ctrl + Space)",
+      "openOnYouTube": "Open on YouTube",
+      "pauseTooltip": "Pause (Space)",
+      "playTooltip": "Play this sentence",
+      "prevSentenceTooltip": "Previous sentence (Ctrl + Left Arrow)",
+      "nextSentenceTooltip": "Next sentence (Ctrl + Right Arrow)",
+      "autoSaved": "Auto-saved",
+      "micListening": "Listening... Click to stop",
+      "micStart": "Speak to type (Speech to Text)",
+      "micUnsupported": "Your browser does not support Web Speech Recognition API.",
       "correctMessage": "100% Correct! Excellent!",
       "correctAnswer": "Standard answer:",
       "wrongMessage": "Not quite right! Listen again and compare words:",
+      "diffTitle": "Detailed Comparison (Green: Correct, Red: Needs fix):",
+      "dictationTip": "Tip: Press Enter to check, Ctrl + Space to replay without moving hands off the keyboard!",
       "youTyped": "You typed:",
       "answerHint": "Answer suggestion:",
       "skippedTitle": "Answer for this sentence:",
@@ -2577,8 +2591,11 @@
       "transVi": "Vietnamese translation",
       "transNone": "No translation",
       "transAria": "Translation display options",
+      "transcriptAria": "Transcript Sentences List",
       "chkRepeat": "Repeat",
       "chkAutoScroll": "Auto scroll",
+      "hotkeyGuide1": "Hotkeys: Space (Play/Pause) | Ctrl+Space (Replay)",
+      "hotkeyGuide2": "Arrow keys (Prev / Next sentence)",
       "hotkeySpace": "Press Space to Play/Pause",
       "hotkeyArrows": "Press ← and → to move between sentences"
     }

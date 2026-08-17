@@ -16,7 +16,7 @@ export const PracticeBreadcrumbs = ({ categoryTitle, lessonTitle, level }) => {
         </Link>
         <ChevronRight size={14} />
         <span className="hover:text-primary dark:hover:text-sky-400 transition-colors cursor-pointer">
-          {categoryTitle || 'Stories'}
+          {categoryTitle || t('dictation.practice.defaultCategory')}
         </span>
         <ChevronRight size={14} />
         <span className="text-slate-900 dark:text-white font-bold truncate">

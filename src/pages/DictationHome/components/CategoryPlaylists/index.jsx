@@ -16,6 +16,14 @@ import {
   Sparkles,
 } from 'lucide-react';
 
+const CATEGORY_DESC_EN = {
+  'short-stories': 'A lively collection of short stories with natural intonation, accessible vocabulary, and clear pronunciation, ideal for beginners.',
+  'daily-conversations': 'Short, natural everyday dialogues for real-life situations: greetings, family, restaurants, shopping, and work.',
+  'ielts-listening': 'Specialized dictation exercises for IELTS Listening to master academic vocabulary, plural nouns, numbers, and spelling.',
+  'toeic-listening': 'A comprehensive set of TOEIC Listening Part 2, 3 & 4 short conversations and business talks to improve listening accuracy.',
+  'youtube-real-english': 'Master natural English from real native speaker videos, famous movies, and real-life everyday situations.',
+};
+
 export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => {
   const { t, i18n } = useTranslation();
   const isVi = i18n.language === 'vi';
@@ -104,8 +112,19 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
                 ? category.filteredExercises
                 : category.filteredExercises.slice(0, 5);
 
-              const displayTitle = isVi && category.titleVi ? category.titleVi : category.title;
-              const displaySubTitle = isVi ? category.title : category.titleVi;
+              const isViTitlePresent = isVi && Boolean(category.titleVi);
+              const displayTitle = isViTitlePresent ? category.titleVi : category.title;
+              
+              let displaySubTitle = '';
+              if (isVi) {
+                displaySubTitle = category.title;
+              } else if (category.titleVi && category.titleVi !== category.title) {
+                displaySubTitle = category.titleVi;
+              }
+
+              const displayDesc = isVi
+                ? (category.descriptionVi || category.description)
+                : (category.descriptionEn || CATEGORY_DESC_EN[category.id] || category.description);
 
               return (
                 <div
@@ -140,7 +159,7 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
 
                     {/* Category Description */}
                     <p className="text-xs sm:text-sm text-academic-body dark:text-slate-300 leading-relaxed">
-                      {category.description}
+                      {displayDesc}
                     </p>
 
                     {/* Exercise List */}
@@ -182,9 +201,9 @@ export const CategoryPlaylists = ({ categories, searchTerm, selectedLevel }) => 
                                 {exercise.level}
                               </span>
                               {exercise.mediaType === 'youtube' ? (
-                                <Tv size={14} className="text-red-500" title="YouTube Video" />
+                                <Tv size={14} className="text-red-500" title={t('dictation.home.exercises.youtubeVideo')} />
                               ) : (
-                                <Volume2 size={14} className="text-emerald-500" title="Audio" />
+                                <Volume2 size={14} className="text-emerald-500" title={t('dictation.home.exercises.audioOnly')} />
                               )}
                             </div>
                           </Link>
