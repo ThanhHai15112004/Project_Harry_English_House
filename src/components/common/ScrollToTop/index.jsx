@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { ArrowUp } from 'lucide-react';
 import { lenisScrollToTop, getLenis } from '@/core';
 
@@ -11,6 +12,7 @@ import { lenisScrollToTop, getLenis } from '@/core';
  */
 export const ScrollToTop = () => {
   const { pathname, hash } = useLocation();
+  const { t } = useTranslation();
   const [showButton, setShowButton] = useState(false);
 
   // Handle route change scroll reset & anchor hash
