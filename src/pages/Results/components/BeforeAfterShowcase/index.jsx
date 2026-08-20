@@ -9,9 +9,10 @@ import {
   ZoomIn,
 } from 'lucide-react';
 import { SectionTitle } from '@/components/common';
+import { formatStudentName } from '@/core';
 
 export const BeforeAfterShowcase = ({ beforeAfterList = [], onOpenScorecard }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   if (!beforeAfterList || beforeAfterList.length === 0) return null;
 
@@ -29,6 +30,7 @@ export const BeforeAfterShowcase = ({ beforeAfterList = [], onOpenScorecard }) =
         {/* Dual Transformation Cards Grid (1 Col on Mobile, 2 Cols on Desktop) */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-stretch">
           {beforeAfterList.map((item, index) => {
+            const displayName = formatStudentName(item.studentName, i18n.language);
             const gainText = item.gainKey ? t(item.gainKey) : (item.gain || '+3.0 Band');
             const durationText = item.durationKey ? t(item.durationKey) : (item.duration || '4 tháng');
             const courseText = item.courseKey ? t(item.courseKey) : (item.course || 'Lớp IELTS Chuyên Sâu');
@@ -48,7 +50,7 @@ export const BeforeAfterShowcase = ({ beforeAfterList = [], onOpenScorecard }) =
                     <div className="min-w-0">
                       <div className="flex items-center gap-2 flex-wrap">
                         <h3 className="text-base sm:text-xl font-black text-academic-heading font-heading group-hover:text-cta transition-colors">
-                          {item.studentName}
+                          {displayName}
                         </h3>
                         <span className="inline-flex items-center text-[10px] sm:text-[11px] font-bold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-md">
                           {examTypeText}
@@ -185,9 +187,9 @@ export const BeforeAfterShowcase = ({ beforeAfterList = [], onOpenScorecard }) =
                     onClick={() =>
                       onOpenScorecard?.({
                         image: item.image,
-                        studentName: item.studentName,
+                        studentName: displayName,
                         score: item.afterScore,
-                        caption: `${item.studentName}: ${item.beforeScore} → ${item.afterScore} (${gainText})`,
+                        caption: `${displayName}: ${item.beforeScore} → ${item.afterScore} (${gainText})`,
                         description: `${courseText} • ${durationText}`,
                       })
                     }

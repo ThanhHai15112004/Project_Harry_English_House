@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { MainLayout } from '@/components/layout';
 import { Modal } from '@/components/common';
-import { useTestimonialsData, useDocumentTitle } from '@/core';
+import { useTestimonialsData, useDocumentTitle, formatStudentName } from '@/core';
 import {
   ResultsHero,
   ResultHighlights,
@@ -15,7 +15,7 @@ import {
 } from './components';
 
 export const ResultsPage = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   useDocumentTitle('results');
 
   const testimonials = useTestimonialsData();
@@ -27,6 +27,10 @@ export const ResultsPage = () => {
   const featuredStory = testimonials?.featuredStory || null;
   const feedbacks = testimonials?.feedbacks || [];
   const gallery = testimonials?.gallery || [];
+
+  const modalDisplayName = activeModalItem?.studentName
+    ? formatStudentName(activeModalItem.studentName, i18n.language)
+    : null;
 
   return (
     <MainLayout>
@@ -74,7 +78,7 @@ export const ResultsPage = () => {
         isOpen={!!activeModalItem}
         onClose={() => setActiveModalItem(null)}
         title={
-          activeModalItem?.studentName ||
+          modalDisplayName ||
           activeModalItem?.author ||
           activeModalItem?.title ||
           activeModalItem?.caption ||

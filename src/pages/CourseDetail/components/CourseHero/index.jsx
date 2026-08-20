@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 
 export default function CourseHero({ course, onConsultClick, onViewClassesClick }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   if (!course) return null;
 
@@ -141,7 +141,9 @@ export default function CourseHero({ course, onConsultClick, onViewClassesClick 
               <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md rounded-xl p-3.5 border border-white/60 shadow-lg flex items-center justify-between">
                 <div>
                   <p className="text-xs text-academic-muted font-medium">{t('about.instructorLabel', 'Giảng viên phụ trách')}</p>
-                  <p className="text-sm font-bold text-academic-heading font-heading">Harry (Anh Khôi)</p>
+                  <p className="text-sm font-bold text-academic-heading font-heading">
+                    {i18n.language?.startsWith('en') ? 'Harry (Anh Khoi)' : 'Harry (Anh Khôi)'}
+                  </p>
                 </div>
                 <div className="flex items-center gap-1 text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-lg text-xs font-bold border border-emerald-200">
                   <CheckCircle2 className="w-3.5 h-3.5" />

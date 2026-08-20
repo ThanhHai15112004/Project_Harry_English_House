@@ -172,9 +172,11 @@ export const CourseDetailPage = () => {
           aria-modal="true"
           aria-labelledby="modal-title"
         >
-          <div 
-            className="fixed inset-0"
+          <button 
+            type="button"
+            className="fixed inset-0 w-full h-full cursor-default bg-transparent border-0"
             onClick={handleCloseModal}
+            aria-label={t('pages.courseDetail.modal.closeBtn', 'Đóng')}
           />
           <div 
             className="bg-white rounded-2xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-slate-200 relative overflow-hidden z-10"

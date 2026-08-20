@@ -15,6 +15,7 @@ import {
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import { Button } from '@/components/common';
+import { formatStudentName } from '@/core';
 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -22,7 +23,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
@@ -30,10 +31,13 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
   const defaultShowcase = [
     {
       id: 'showcase-1',
+      category: 'ielts',
       studentName: 'Nguyễn Diễm Quỳnh',
       score: '8.5',
+      badgeKey: 'db.testimonials.r1Badge',
       badge: 'IDP IELTS 8.5 Overall',
-      tag: 'IELTS Academic',
+      tagKey: 'pages.results.categoryIelts',
+      targetKey: 'db.testimonials.r1Target',
       course: 'Lớp IELTS Chuyên Sâu Cấp Tốc',
       image: '/src/assets/feedback-hoc-vien/ket-qua-1.jpg',
       skills: [
@@ -42,14 +46,19 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
         { label: 'Speaking', value: '8.5' },
         { label: 'Writing', value: '8.0' },
       ],
-      quote: 'Đạt band điểm tuyệt đối 9.0 Reading & 9.0 Listening nhờ phương pháp tư duy bản chất và chiến thuật xử lý bẫy đề thi tại HIU.',
+      captionKey: 'db.testimonials.r1Caption',
+      descriptionKey: 'db.testimonials.r1Desc',
+      quote: 'Đạt band điểm tuyệt đối 9.0 Reading & 9.0 Listening nhờ phương pháp tư duy bản chất và chiến thuật xử lý bẫy đề thi tại HEH.',
     },
     {
       id: 'showcase-2',
+      category: 'ielts',
       studentName: 'Trần Minh Hoàng',
       score: '8.0',
+      badgeKey: 'db.testimonials.r2Badge',
       badge: 'IELTS 8.0 (Reading 9.0)',
-      tag: 'Bứt phá ngoạn mục',
+      tagKey: 'pages.results.categoryIelts',
+      targetKey: 'db.testimonials.r2Target',
       course: 'Lộ trình từ 5.0 lên 8.0 Overall',
       image: '/src/assets/feedback-hoc-vien/ket-qua-2.jpg',
       skills: [
@@ -58,28 +67,38 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
         { label: 'Speaking', value: '7.5' },
         { label: 'Writing', value: '7.0' },
       ],
+      captionKey: 'db.testimonials.r2Caption',
+      descriptionKey: 'db.testimonials.r2Desc',
       quote: 'Lột xác hoàn toàn khả năng đọc hiểu học thuật và phản xạ nói tự nhiên chỉ sau 4 tháng rèn luyện liên tục.',
     },
     {
       id: 'showcase-3',
+      category: 'highschool',
       studentName: 'Thanh Trúc',
       score: '9.25',
+      badgeKey: 'db.testimonials.r5Badge',
       badge: 'Thủ Khoa Tuyển Sinh 10',
-      tag: 'Tuyển Sinh 10 TP.HCM',
+      tagKey: 'pages.results.categoryHighschool',
+      targetKey: 'db.testimonials.r5Target',
       course: 'Lớp Luyện Thi Vào Lớp 10 Chuyên',
       image: '/src/assets/feedback-hoc-vien/ket-qua-3.jpg',
       skills: [
-        { label: 'Môn Tiếng Anh', value: '9.25đ' },
-        { label: 'Xếp hạng', value: 'Top 1 TP.HCM' },
+        { label: t('pages.results.skills.english', 'Môn Tiếng Anh'), value: `9.25 ${t('pages.results.pointsSuffix', 'đ')}` },
+        { label: t('pages.results.skills.rank', 'Xếp hạng'), value: t('db.testimonials.r5Rank', 'Top 1 TP.HCM') },
       ],
+      captionKey: 'db.testimonials.r5Caption',
+      descriptionKey: 'db.testimonials.r5Desc',
       quote: 'Nắm chắc ngữ pháp nền tảng và bộ từ vựng chuyên đề giúp em tự tin đạt 9.25 điểm môn Tiếng Anh trong kỳ thi vào lớp 10.',
     },
     {
       id: 'showcase-4',
+      category: 'ielts',
       studentName: 'Nguyễn Hoàng Hiếu',
       score: '8.0',
+      badgeKey: 'db.testimonials.r3Badge',
       badge: 'IDP IELTS 8.0 Overall',
-      tag: 'IELTS Academic',
+      tagKey: 'pages.results.categoryIelts',
+      targetKey: 'db.testimonials.r3Target',
       course: 'Lớp IELTS Luyện Đề Chuyên Sâu',
       image: '/src/assets/feedback-hoc-vien/ket-qua-4.jpg',
       skills: [
@@ -88,14 +107,19 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
         { label: 'Speaking', value: '8.0' },
         { label: 'Writing', value: '6.5' },
       ],
+      captionKey: 'db.testimonials.r3Caption',
+      descriptionKey: 'db.testimonials.r3Desc',
       quote: 'Kỹ năng Listening & Reading được cải thiện vượt bậc, phản xạ tự tin hơn rất nhiều trong phòng thi thực chiến.',
     },
     {
       id: 'showcase-5',
+      category: 'ielts',
       studentName: 'Đinh Lê Hoàng Nghĩa',
       score: '7.0',
+      badgeKey: 'db.testimonials.r4Badge',
       badge: 'Bứt phá 4.5 -> 7.0 Overall',
-      tag: 'IELTS Intensive',
+      tagKey: 'pages.results.categoryIelts',
+      targetKey: 'db.testimonials.r4Target',
       course: 'Lớp Bứt Phá Mục Tiêu',
       image: '/src/assets/feedback-hoc-vien/ket-qua-5.jpg',
       skills: [
@@ -104,20 +128,27 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
         { label: 'Writing', value: '6.5' },
         { label: 'Speaking', value: '6.5' },
       ],
+      captionKey: 'db.testimonials.r4Caption',
+      descriptionKey: 'db.testimonials.r4Desc',
       quote: 'Lộ trình kèm cặp sát sao đã giúp em lấy lại gốc tiếng Anh và vượt chỉ tiêu 6.5 để đạt 7.0 trước hạn xét tuyển.',
     },
     {
       id: 'showcase-6',
+      category: 'highschool',
       studentName: 'Minh Anh',
       score: '9.0',
+      badgeKey: 'db.testimonials.r6Badge',
       badge: 'Điểm 9.0 Tuyển Sinh 10',
-      tag: 'Vào Trường THPT Top Đầu',
+      tagKey: 'pages.results.categoryHighschool',
+      targetKey: 'db.testimonials.r6Target',
       course: 'Lớp Ôn Thi Vào 10 Trọng Điểm',
       image: '/src/assets/feedback-hoc-vien/ket-qua-6.jpg',
       skills: [
-        { label: 'Môn Tiếng Anh', value: '9.0đ' },
-        { label: 'Đạt nguyện vọng 1', value: '100%' },
+        { label: t('pages.results.skills.english', 'Môn Tiếng Anh'), value: `9.0 ${t('pages.results.pointsSuffix', 'đ')}` },
+        { label: t('pages.results.skills.rank', 'Xếp hạng'), value: t('db.testimonials.r6Rank', 'Đạt nguyện vọng 1') },
       ],
+      captionKey: 'db.testimonials.r6Caption',
+      descriptionKey: 'db.testimonials.r6Desc',
       quote: 'Thầy Khôi hướng dẫn rất chi tiết các dạng bài biến thể, giúp em giải quyết đề thi nhanh chóng và chính xác tuyệt đối.',
     },
   ];
@@ -129,15 +160,16 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
   };
 
   const getTagText = (item) => {
-    if (item.category === 'ielts') return 'IELTS Academic';
-    if (item.category === 'highschool') return 'Tuyển Sinh 10';
-    return 'Học viên HIU';
+    if (item.category === 'ielts') return t('pages.results.categoryIelts', 'IELTS Academic');
+    if (item.category === 'highschool') return t('pages.results.categoryHighschool', 'Tuyển Sinh 10');
+    if (item.category === 'toeic') return t('pages.results.categoryToeic', 'TOEIC / VSTEP');
+    return t('pages.results.categoryDefault', 'Học viên HEH');
   };
 
   const getCourseText = (item) => {
     if (item.targetKey) return t(item.targetKey);
     if (item.descriptionKey) return t(item.descriptionKey);
-    return 'Khóa học tại HIU';
+    return 'Khóa học tại HEH';
   };
 
   const getQuoteText = (item) => {
@@ -149,19 +181,36 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
   const displayItems = showcaseResults && showcaseResults.length > 0
     ? showcaseResults.map((r, idx) => ({
         id: r.id || `res-${idx}`,
-        studentName: r.studentName,
+        studentName: formatStudentName(r.studentName, i18n.language),
         score: r.score,
         badge: getBadgeText(r),
         tag: getTagText(r),
         course: getCourseText(r),
         image: r.image,
-        skills: r.skills ? Object.entries(r.skills).map(([k, v]) => ({
-          label: k.toUpperCase(),
-          value: v,
-        })) : [],
+        skills: r.skills ? Object.entries(r.skills).map(([k, v]) => {
+          let label = k.toUpperCase();
+          if (k === 'english') label = t('pages.results.skills.english', 'Tiếng Anh');
+          else if (k === 'rankKey' || k === 'rank') label = t('pages.results.skills.rank', 'Xếp hạng');
+          else if (k === 'listening') label = t('pages.results.skills.listening', 'Listening');
+          else if (k === 'reading') label = t('pages.results.skills.reading', 'Reading');
+          else if (k === 'writing') label = t('pages.results.skills.writing', 'Writing');
+          else if (k === 'speaking') label = t('pages.results.skills.speaking', 'Speaking');
+
+          let value = v;
+          if (typeof v === 'string' && v.startsWith('db.')) {
+            value = t(v);
+          } else if (k === 'english' && !String(v).includes('đ') && !String(v).includes('pts')) {
+            value = `${v} ${t('pages.results.pointsSuffix', 'đ')}`;
+          }
+          return { label, value };
+        }) : [],
         quote: getQuoteText(r),
       }))
-    : defaultShowcase;
+    : defaultShowcase.map((d) => ({
+        ...d,
+        studentName: formatStudentName(d.studentName, i18n.language),
+        tag: getTagText(d),
+      }));
 
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
@@ -405,7 +454,7 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
                       </button>
 
                       <span className="text-[10px] text-academic-muted font-semibold uppercase">
-                        HIU Verified
+                        HEH Verified
                       </span>
                     </div>
 

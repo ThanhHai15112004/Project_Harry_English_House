@@ -16,14 +16,14 @@ import {
 } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
-import { useTestimonialsData, SECTION_IDS, APP_INFO, ROUTES } from '@/core';
+import { useTestimonialsData, SECTION_IDS, APP_INFO, ROUTES, formatStudentName } from '@/core';
 import { SectionTitle, Modal, Button } from '@/components/common';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 export const StudentResults = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const testimonials = useTestimonialsData();
   const [activeImage, setActiveImage] = useState(null);
 
@@ -135,7 +135,7 @@ export const StudentResults = () => {
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                     <div>
                       <h4 className="text-base sm:text-lg font-bold text-academic-heading font-heading">
-                        {featuredResult.studentName}
+                        {formatStudentName(featuredResult.studentName, i18n.language)}
                       </h4>
                       <p className="text-xs text-academic-muted font-medium">
                         {t(featuredResult.scoreTypeKey)} • {t(featuredResult.targetKey)}
@@ -230,7 +230,7 @@ export const StudentResults = () => {
                     </div>
 
                     <h4 className="text-xs sm:text-sm font-bold text-academic-heading font-heading leading-snug line-clamp-1 group-hover:text-cta transition-colors">
-                      {res.studentName}
+                      {formatStudentName(res.studentName, i18n.language)}
                     </h4>
 
                     {res.skills && (
@@ -396,7 +396,12 @@ export const StudentResults = () => {
       <Modal
         isOpen={!!activeImage}
         onClose={() => setActiveImage(null)}
-        title={activeImage?.studentName || activeImage?.author || activeImage?.caption || t('results.badge')}
+        title={
+          (activeImage?.studentName ? formatStudentName(activeImage.studentName, i18n.language) : null) ||
+          activeImage?.author ||
+          activeImage?.caption ||
+          t('results.badge')
+        }
       >
         {activeImage && (
           <div className="space-y-4 p-1">
@@ -411,7 +416,9 @@ export const StudentResults = () => {
               <div className="bg-academic-soft-white p-4 rounded-xl border border-slate-200 space-y-1">
                 <div className="flex items-center justify-between gap-2">
                   <h4 className="text-sm font-bold text-academic-heading">
-                    {activeImage.studentName || activeImage.author || activeImage.caption}
+                    {(activeImage.studentName ? formatStudentName(activeImage.studentName, i18n.language) : null) ||
+                      activeImage.author ||
+                      activeImage.caption}
                   </h4>
                   {activeImage.score && (
                     <span className="px-2.5 py-0.5 rounded-md bg-primary text-white text-xs font-bold">

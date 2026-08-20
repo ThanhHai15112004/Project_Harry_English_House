@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import testimonialsData from '../../../../db/testimonials.json';
+import { formatStudentName } from '@/core';
 
 export default function CourseRelatedResults({ course }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   if (!course) return null;
 
@@ -72,7 +73,9 @@ export default function CourseRelatedResults({ course }) {
                 {/* Score Banner */}
                 <div className="p-4 bg-[#F8FAFC] rounded-xl border border-slate-200/70 mb-4 flex items-center justify-between">
                   <div>
-                    <p className="text-xs text-slate-500 font-medium">{item.studentName}</p>
+                    <p className="text-xs text-slate-500 font-medium">
+                      {formatStudentName(item.studentName, i18n.language)}
+                    </p>
                     <p className="text-xs font-bold text-[#10233F]">
                       {t(item.scoreTypeKey)}
                     </p>

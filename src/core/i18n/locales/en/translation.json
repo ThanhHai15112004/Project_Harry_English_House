@@ -580,6 +580,19 @@
       "viewDetails": "View scorecard details",
       "verifiedBadge": "Verified",
       "viewOriginalCertificate": "View original certificate",
+      "categoryIelts": "IELTS Academic",
+      "categoryHighschool": "10th Grade Entrance",
+      "categoryToeic": "TOEIC / VSTEP",
+      "categoryDefault": "HEH Student",
+      "pointsSuffix": "pts",
+      "skills": {
+        "english": "English",
+        "rank": "Rank",
+        "listening": "Listening",
+        "reading": "Reading",
+        "writing": "Writing",
+        "speaking": "Speaking"
+      },
       "highlights": {
         "badge": "TRANSPARENT METRICS",
         "title": "Featured Highlights",
@@ -611,10 +624,13 @@
         "closeModal": "Close",
         "tier1Title": "IELTS 8.0 - 8.5+ Club (Top 1% National Honors)",
         "tier1Sub": "Prestigious record scores with perfect 9.0 sub-skills in Reading & Listening",
+        "tier1Count": "Record Scorecards",
         "tier2Title": "IELTS 7.0 - 7.5 & TOEIC Club (University & Study Abroad)",
         "tier2Sub": "Surpassing targets for university admissions, Master programs & scholarships",
+        "tier2Count": "Standard Results",
         "tier3Title": "High School Entrance English 9.0+ & Valedictorians",
-        "tier3Sub": "Leading academic test results for specialized & top-tier public high schools"
+        "tier3Sub": "Leading academic test results for specialized & top-tier public high schools",
+        "tier3Count": "Valedictorians & 9.0+ Scores"
       },
       "beforeAfter": {
         "badge": "MEASURABLE GROWTH",
@@ -626,7 +642,7 @@
         "durationLabel": "Training Duration:",
         "courseLabel": "Course Completed:",
         "challengeTitle": "Initial Bottlenecks & Challenges",
-        "solutionTitle": "HIU Coaching Methodology",
+        "solutionTitle": "HEH Coaching Methodology",
         "viewProof": "View Verified Proof"
       },
       "studentStory": {
@@ -642,7 +658,7 @@
       "realFeedback": {
         "badge": "AUTHENTIC TESTIMONIALS",
         "title": "Post-Course Student Reflections",
-        "subtitle": "Genuine reflections and chat screenshots from learners and parents about their experience at HIU",
+        "subtitle": "Genuine reflections and chat screenshots from learners and parents about their experience at Harry English House",
         "viewFullChat": "View Full Message",
         "viewFanpageBtn": "See 100+ Real Feedbacks on Facebook Fanpage"
       },
@@ -728,9 +744,9 @@
           "badge1": "1,000+ Successful Learners",
           "badge2": "Dedicated 1-on-1 Support",
           "cta1": "Teaching Team",
-          "cta2": "Moments at HIU",
+          "cta2": "Moments at HEH",
           "cornerBadge": "Positive Learning Community",
-          "cardRole": "Life at HIU",
+          "cardRole": "Life at HEH",
           "cardSub": "Connected • Friendly • Supportive",
           "statTitle": "1,000+ Learners Empowered",
           "statDesc": "Guiding from ground zero to mastery"
@@ -884,9 +900,9 @@
       "q1": "Can I register for consultation if I don't know my current level?",
       "a1": "Absolutely! You don't need any prior preparation. Once we receive your info, Harry English House will arrange a complimentary 4-skill assessment to diagnose your baseline and recommend the exact cohort.",
       "q2": "Does Harry offer Online classes and is quality guaranteed?",
-      "a2": "Yes. Online classes at HIU are conducted via licensed platforms with 100% two-way live interaction. Every lesson is recorded for review, and writing tasks receive meticulous 1-on-1 feedback just like offline classes.",
-      "q3": "What is the typical class size at HIU?",
-      "a3": "HIU strictly adheres to small-cohort models of 2–10 students (or 1-on-1, 1-on-2 mentoring). This ensures ample speaking time and thorough individual corrections for Task 1 & Task 2 writing.",
+      "a2": "Yes. Online classes at Harry English House are conducted via licensed platforms with 100% two-way live interaction. Every lesson is recorded for review, and writing tasks receive meticulous 1-on-1 feedback just like offline classes.",
+      "q3": "What is the typical class size at Harry English House?",
+      "a3": "Harry English House strictly adheres to small-cohort models of 2–10 students (or 1-on-1, 1-on-2 mentoring). This ensures ample speaking time and thorough individual corrections for Task 1 & Task 2 writing.",
       "q4": "How quickly will I receive a response after submitting?",
       "a4": "Our academic team and Mr. Harry will contact you via Phone/Zalo within a maximum of 24 business hours from your submission.",
       "stickyCall": "Call Now",
@@ -982,7 +998,17 @@
       "instructor": {
         "badge": "LEAD INSTRUCTOR",
         "title": "Your Dedicated Mentor",
-        "subtitle": "Mr. Harry Khôi personally leads, monitors, and corrects your work",
+        "subtitle": "Mr. Harry Khoi personally leads, monitors, and corrects your work",
+        "roleBadge": "Founder",
+        "expBadge": "8+ Years Experience",
+        "name": "Teacher Harry Khoi",
+        "degree": "Bachelor of English Pedagogy • Ho Chi Minh City University of Education",
+        "bio": "With over 8 years specializing in IELTS and academic English, Teacher Harry Khoi steadfastly pursues an authentic pedagogical method, meticulously correcting pronunciation flaws and deconstructing imprecise sentence structures to ensure sustainable progress without rote learning.",
+        "cred1": "International TESOL Standard Pedagogical Qualification",
+        "cred2": "Official Training & Exam Registration Partner with IDP IELTS",
+        "cred3": "Direct 1-on-1 Essay Grading with Unlimited Submissions",
+        "ieltsBadge": "IELTS 8.0 Official",
+        "partnerBadge": "Official IDP Vietnam Exam Partner",
         "viewProfileBtn": "Learn More About Mr. Harry →"
       },
       "relatedResults": {
@@ -1004,7 +1030,18 @@
       "faq": {
         "badge": "COURSE FAQ",
         "title": "Frequently Asked Questions",
-        "subtitle": "Key answers learners ask before registering for this course"
+        "subtitle": "Key answers learners ask before registering for this course",
+        "defaultQ1": "Can I enroll if I am unsure of my current English proficiency?",
+        "defaultA1": "Absolutely! You don't need to worry about choosing the wrong level. Harry English House provides a comprehensive complimentary 4-skill diagnostic test and Teacher Harry personally consults on the most suitable roadmap before enrollment.",
+        "defaultQ2": "If I have an unexpected schedule conflict, can I make up missed classes?",
+        "defaultA2": "Yes. For Online classes, all lectures are recorded in high-definition video for convenient review. For Offline classes, students receive makeup support in parallel sessions or 1-on-1 Q&A assistance from teaching assistants.",
+        "defaultQ3": "Does the course tuition cover all curriculum books and materials?",
+        "defaultA3": "Yes. Tuition at Harry English House is 100% all-inclusive and transparent. All printed proprietary textbooks, supplementary resources, and periodic Mock Test exam fees are included with zero hidden charges.",
+        "defaultQ4": "Is there a written output score commitment for the course?",
+        "defaultA4": "Yes. Students who attend at least 90% of sessions and complete all grading assignments following guidelines receive a written score commitment. If targets are not met, students can retake the course completely free of charge.",
+        "defaultQ5": "Do I receive essay grading and pronunciation feedback outside class hours?",
+        "defaultA5": "Yes. The academic support team and Teacher Harry are always available to answer questions and grade assignments through weekly learning groups to prevent knowledge bottlenecks.",
+        "moreQuestions": "Still have questions? The Harry English House academic team is ready 24/7."
       },
       "bottomCta": {
         "badge": "GET STARTED",
@@ -1045,7 +1082,7 @@
     "phone": "Hotline: {{phone}}",
     "instagram": "Instagram @_k.pedia_",
     "threads": "Threads @_k.pedia_",
-    "linkedin": "LinkedIn Harry Khôi",
+    "linkedin": "LinkedIn Harry Khoi",
     "email": "Send Direct Email"
   },
   "db": {
@@ -1072,7 +1109,7 @@
         "step1Desc": "Students often find themselves lost in crowded cohorts of 25–30, taught with industrial curricula, devoid of detailed grading, and lacking personalized guidance when facing score plateaus.",
         "step2Title": "Harry's Approach",
         "step2Desc": "Embracing small cohort sizes of 3–6 or 1-on-1 coaching, pinpointing individual weaknesses, grading paragraph-by-paragraph, and simulating real IDP/BC test conditions.",
-        "step3Title": "The Inception of HIU",
+        "step3Title": "The Inception of Harry English House",
         "step3Desc": "A warm, disciplined, and energizing academic haven where every student receives a tailored pathway backed by constant teacher companionship."
       },
       "philosophy": {
@@ -1131,7 +1168,7 @@
         "m1": "Interactive classroom session at District 7 campus",
         "m2": "Study methodology workshop with students",
         "m3": "Small-group interactive reflex activities",
-        "m4": "Warm and focused study environment at HIU",
+        "m4": "Warm and focused study environment at Harry English House",
         "m5": "1-on-1 diagnostic proficiency evaluation",
         "m6": "Dedicated instructional team & academic advisors",
         "m7": "Student engagement & personalized mentoring",
@@ -1153,7 +1190,7 @@
           "6": "Teaching Team",
           "7": "Student Mentoring",
           "8": "Certificate Award",
-          "9": "HIU Community",
+          "9": "HEH Community",
           "10": "EMGS 2025 Forum",
           "11": "Global Networking",
           "12": "Expert Presentation",
@@ -1165,7 +1202,7 @@
       }
     },
     "testimonials": {
-      "quote": "Homegrown results — Grateful to all our lovely students for your continuous dedication and trust in HIU!",
+      "quote": "Homegrown results — Grateful to all our lovely students for your continuous dedication and trust in Harry English House!",
       "hl1Label": "Top IELTS Achievement",
       "hl1Sub": "Listening 9.0 • Reading 9.0",
       "hl1Badge": "Top 1% Honoree",
@@ -1201,7 +1238,7 @@
       "r1Badge": "Top 1% Honoree",
       "r1Target": "Target: 7.5+",
       "r1Caption": "Outstanding IELTS 8.5 Overall (Listening 9.0, Reading 9.0)",
-      "r1Desc": "Achieved perfect 9.0 scores in Listening & Reading plus 8.5 Speaking after completing the intensive HIU pathway.",
+      "r1Desc": "Achieved perfect 9.0 scores in Listening & Reading plus 8.5 Speaking after completing the intensive Harry English House pathway.",
       "r2Badge": "Band 8.0",
       "r2Target": "Target: 7.0+",
       "r2Caption": "Conquered impressive IELTS 8.0 (Reading 9.0, Listening 8.5)",
@@ -1230,7 +1267,7 @@
       "fb2Tag": "Student Feedback",
       "fb3Caption": "Remarkable progress after the course, gaining immense confidence in speaking and test-taking.",
       "fb3Tag": "Great Progress",
-      "fb4Caption": "The dedication of HIU teachers helped me completely overcome exam anxiety.",
+      "fb4Caption": "The dedication of Harry English House teachers helped me completely overcome exam anxiety.",
       "fb4Tag": "100% Dedicated",
       "fb5Caption": "Speaking English naturally with fast reflexes and accurate pronunciation.",
       "fb5Tag": "Confident Reflex",
@@ -1313,7 +1350,7 @@
       "fb5Author": "Communication Student",
       "fb6Author": "Writing-Speaking Student",
       "fb7Author": "Tutoring Class Student",
-      "fb8Author": "HIU Student"
+      "fb8Author": "HEH Student"
     },
     "courses": {
       "ielts_0_3": {
@@ -1669,7 +1706,7 @@
         "faqs": [
           {
             "q": "Is there a written guarantee for 6.0 exit band?",
-            "a": "Yes. HIU provides a written 6.0+ output guarantee if students attend at least 90% of sessions and submit all assigned tasks."
+            "a": "Yes. Harry English House provides a written 6.0+ output guarantee if students attend at least 90% of sessions and submit all assigned tasks."
           },
           {
             "q": "Can I make up a class if I miss one?",
@@ -1685,7 +1722,7 @@
         "title": "IELTS Mastery Track (6.0 - 7.5+)",
         "level": "Advanced (Target 6.5 - 7.5+)",
         "target": "Intensive Writing & Speaking feedback, Cambridge real-test solving strategies to hit 7.0–7.5+",
-        "curriculum": "Cambridge IELTS 15-18, IELTS Advantage, Proprietary HIU Prediction Bank",
+        "curriculum": "Cambridge IELTS 15-18, IELTS Advantage, Proprietary HEH Prediction Bank",
         "duration": "3–6 months",
         "weeklySchedule": "2 sessions / week (120 mins/session)",
         "classSize": "7 students (Direct coaching by Head Instructor)",
@@ -1694,7 +1731,7 @@
         "format": "Offline D7 (Sat 16:30, Sun 15:30)",
         "highlights": [
           "Taught directly by Teacher Harry (IELTS 8.0 - IDP Partner)",
-          "Curriculum: Cambridge 15-18 & Proprietary HIU Question Bank",
+          "Curriculum: Cambridge 15-18 & Proprietary HEH Question Bank",
           "Strictly capped at 7 dedicated students aiming for 7.5+",
           "Unlimited 1-on-1 Writing & Speaking feedback"
         ],
@@ -1743,7 +1780,7 @@
             "duration": "Weeks 5–9",
             "desc": "Engage with latest real exam test banks, daily essay revisions, and frequent mock speaking drills.",
             "focus": [
-              "HIU Forecast Bank",
+              "HEH Forecast Bank",
               "1-on-1 Reviews",
               "Listening 8.5+"
             ]
@@ -1774,7 +1811,7 @@
             "desc": "Premier guide for breaking through to 7.0–8.0 in productive skills."
           },
           {
-            "name": "HIU Master Essay & Speaking Forecast Bank",
+            "name": "HEH Master Essay & Speaking Forecast Bank",
             "publisher": "Harry English House Exclusive",
             "phase": "Stages 2 & 3",
             "desc": "Compilation of Band 8.0+ model essays and exclusive quarterly exam prediction banks by Mr. Harry."
@@ -1787,7 +1824,7 @@
           "includes": [
             "Direct mentorship & teaching by Mr. Harry Khoi (8.0 IELTS)",
             "Unlimited 1-on-1 personalized Writing & Speaking grading",
-            "Exclusive HIU forecast bank and model essay compendium",
+            "Exclusive HEH forecast bank and model essay compendium",
             "Official mock test privileges and IDP exam fee discount vouchers"
           ]
         },
@@ -1868,7 +1905,7 @@
         ],
         "books": [
           {
-            "name": "HIU Tailored VIP Syllabus",
+            "name": "HEH Tailored VIP Syllabus",
             "publisher": "Harry English House",
             "phase": "Throughout Course",
             "desc": "Custom compiled based on current scores and target band requirements of the 2 students."
@@ -1945,7 +1982,7 @@
         ],
         "books": [
           {
-            "name": "HIU Exclusive Fast-Track Compendium",
+            "name": "HEH Exclusive Fast-Track Compendium",
             "publisher": "Harry English House",
             "phase": "Throughout Course",
             "desc": "Concise high-yield materials aligned with specific VIP student objectives."
@@ -2068,7 +2105,7 @@
         "faqs": [
           {
             "q": "Is this course suitable for mature working adults?",
-            "a": "Absolutely! The HIU methodology is friendly, avoids academic jargon, and emphasizes practical conversational reflexes."
+            "a": "Absolutely! The Harry English House methodology is friendly, avoids academic jargon, and emphasizes practical conversational reflexes."
           }
         ]
       },

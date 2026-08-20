@@ -10,22 +10,32 @@ export default function CourseFaq({ course }) {
 
   const defaultFaqs = [
     {
+      qKey: 'pages.courseDetail.faq.defaultQ1',
+      aKey: 'pages.courseDetail.faq.defaultA1',
       q: 'Tôi chưa chắc chắn trình độ hiện tại thì có đăng ký khóa này được không?',
       a: 'Hoàn toàn được! Bạn không cần lo lắng về việc chọn nhầm lớp. Harry English House sẽ tổ chức bài kiểm tra đánh giá năng lực 4 kỹ năng miễn phí và Thầy Harry sẽ trực tiếp tư vấn lộ trình phù hợp nhất cho bạn trước khi nhập học.'
     },
     {
+      qKey: 'pages.courseDetail.faq.defaultQ2',
+      aKey: 'pages.courseDetail.faq.defaultA2',
       q: 'Nếu tôi bận việc đột xuất và nghỉ một buổi thì có được học bù không?',
       a: 'Có. Đối với lớp Online, toàn bộ bài giảng đều được ghi hình video chất lượng cao để bạn xem lại. Đối với lớp Offline, học viên được hỗ trợ học bù tại lớp song song hoặc được trợ giảng giải đáp thắc mắc 1-1.'
     },
     {
+      qKey: 'pages.courseDetail.faq.defaultQ3',
+      aKey: 'pages.courseDetail.faq.defaultA3',
       q: 'Học phí của khóa học đã bao gồm toàn bộ giáo trình và tài liệu chưa?',
       a: 'Học phí tại Harry English House là trọn gói và minh bạch 100%. Toàn bộ giáo trình in ấn độc quyền, tài liệu tham khảo và phí thi thử Mock Test định kỳ đều đã được bao gồm, không phát sinh bất kỳ chi phí nào trong quá trình học.'
     },
     {
+      qKey: 'pages.courseDetail.faq.defaultQ4',
+      aKey: 'pages.courseDetail.faq.defaultA4',
       q: 'Khóa học có cam kết chuẩn đầu ra bằng văn bản không?',
       a: 'Có. Học viên tham gia đầy đủ từ 90% số buổi học và hoàn thành các bài tập chấm chữa theo đúng hướng dẫn sẽ được cam kết chuẩn đầu ra bằng văn bản. Trong trường hợp chưa đạt mục tiêu, học viên được học lại hoàn toàn miễn phí.'
     },
     {
+      qKey: 'pages.courseDetail.faq.defaultQ5',
+      aKey: 'pages.courseDetail.faq.defaultA5',
       q: 'Tôi có được hỗ trợ chấm chữa bài viết và chỉnh phát âm ngoài giờ học không?',
       a: 'Được. Đội ngũ trợ giảng học vụ và Thầy Harry luôn sẵn sàng giải đáp thắc mắc và chấm bài qua nhóm học tập hàng tuần để đảm bảo bạn không bị dồn ứ kiến thức.'
     }
@@ -52,10 +62,9 @@ export default function CourseFaq({ course }) {
 
   const faqs = rawList.map((faq, idx) => {
     const fallbackItem = defaultFaqs[idx] || defaultFaqs[0];
-    return {
-      q: getSafeString(faq.qKey, faq.q, fallbackItem.q),
-      a: getSafeString(faq.aKey, faq.a, fallbackItem.a)
-    };
+    const q = getSafeString(faq.qKey || fallbackItem.qKey, faq.q, fallbackItem.q);
+    const a = getSafeString(faq.aKey || fallbackItem.aKey, faq.a, fallbackItem.a);
+    return { q, a };
   });
 
   return (
@@ -115,7 +124,7 @@ export default function CourseFaq({ course }) {
         {/* Additional support note */}
         <div className="mt-8 text-center bg-academic-soft-white p-4 rounded-xl border border-academic-border text-xs text-academic-muted flex items-center justify-center gap-2">
           <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-          <span>Bạn vẫn còn câu hỏi khác? Đội ngũ Harry English House luôn sẵn sàng giải đáp 24/7.</span>
+          <span>{t('pages.courseDetail.faq.moreQuestions', 'Bạn vẫn còn câu hỏi khác? Đội ngũ Harry English House luôn sẵn sàng giải đáp 24/7.')}</span>
         </div>
 
       </div>

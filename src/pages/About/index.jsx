@@ -46,7 +46,7 @@ export const AboutPage = () => {
       {/* 2. Story: Harry đến với việc giảng dạy tiếng Anh như thế nào */}
       <HarryStory storyData={story} />
 
-      {/* 3. Origin: Từ một cách dạy đến một môi trường học (Vấn đề -> Tiếp cận -> HIU) */}
+      {/* 3. Origin: Từ một cách dạy đến một môi trường học (Vấn đề -> Tiếp cận -> HEH) */}
       <HehOrigin originData={origin} />
 
       {/* 4. Educational Philosophy: 3 Nguyên tắc "Không học nhiều hơn. Học đúng hơn." */}

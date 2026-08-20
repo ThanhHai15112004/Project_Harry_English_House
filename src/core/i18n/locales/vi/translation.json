@@ -580,6 +580,19 @@
       "viewDetails": "Xem bảng điểm chi tiết",
       "verifiedBadge": "Chứng thực",
       "viewOriginalCertificate": "Xem ảnh gốc chứng chỉ",
+      "categoryIelts": "IELTS Academic",
+      "categoryHighschool": "Tuyển Sinh 10",
+      "categoryToeic": "TOEIC / VSTEP",
+      "categoryDefault": "Học viên HEH",
+      "pointsSuffix": "đ",
+      "skills": {
+        "english": "Môn Tiếng Anh",
+        "rank": "Xếp hạng",
+        "listening": "Listening",
+        "reading": "Reading",
+        "writing": "Writing",
+        "speaking": "Speaking"
+      },
       "highlights": {
         "badge": "SỐ LIỆU MINH BẠCH",
         "title": "Thành Tích Nổi Bật",
@@ -611,10 +624,13 @@
         "closeModal": "Đóng",
         "tier1Title": "CLB IELTS 8.0 - 8.5+ (Top 1% Xuất Sắc)",
         "tier1Sub": "Kỷ lục band điểm danh giá và điểm kỹ năng chạm mốc tuyệt đối 9.0",
+        "tier1Count": "Bảng điểm kỷ lục",
         "tier2Title": "CLB IELTS 7.0 - 7.5 & TOEIC (Chuẩn Du Học & Đầu Ra)",
         "tier2Sub": "Bứt phá vượt mục tiêu xét tuyển đại học và học bổng quốc tế",
+        "tier2Count": "Kết quả đạt chuẩn",
         "tier3Title": "Thủ Khoa & Điểm 9.0+ Tuyển Sinh 10 TP.HCM",
-        "tier3Sub": "Minh chứng điểm số dẫn đầu kỳ thi vào lớp 10 công lập và THPT Chuyên"
+        "tier3Sub": "Minh chứng điểm số dẫn đầu kỳ thi vào lớp 10 công lập và THPT Chuyên",
+        "tier3Count": "Thủ khoa & Điểm 9.0+"
       },
       "beforeAfter": {
         "badge": "TIẾN BỘ RÕ RỆT",
@@ -626,7 +642,7 @@
         "durationLabel": "Thời gian đào tạo:",
         "courseLabel": "Khóa học tham gia:",
         "challengeTitle": "Khó khăn & Điểm nghẽn ban đầu",
-        "solutionTitle": "Phương pháp rèn luyện tại HIU",
+        "solutionTitle": "Phương pháp rèn luyện tại HEH",
         "viewProof": "Xem bảng điểm đối chứng"
       },
       "studentStory": {
@@ -728,9 +744,9 @@
           "badge1": "1.000+ Học viên tin tưởng",
           "badge2": "Hỗ trợ 1-1 tận tâm",
           "cta1": "Đội ngũ giảng dạy",
-          "cta2": "Khoảnh khắc tại HIU",
+          "cta2": "Khoảnh khắc tại HEH",
           "cornerBadge": "Cộng đồng học tập tích cực",
-          "cardRole": "Cuộc Sống Tại HIU",
+          "cardRole": "Cuộc Sống Tại HEH",
           "cardSub": "Gắn kết • Thân thiện • Đồng hành",
           "statTitle": "1.000+ Học Viên Bứt Phá",
           "statDesc": "Đồng hành từ con số 0 đến mục tiêu"
@@ -887,9 +903,9 @@
       "q1": "Em chưa biết trình độ hiện tại của mình thì có đăng ký tư vấn được không?",
       "a1": "Hoàn toàn được bạn nhé! Bạn không cần chuẩn bị trước. Sau khi nhận thông tin, Harry English House sẽ sắp xếp một buổi đánh giá năng lực 4 kỹ năng hoàn toàn miễn phí để chẩn đoán chính xác xuất phát điểm và tư vấn lớp phù hợp nhất.",
       "q2": "Harry English House có lớp Online không và chất lượng như thế nào?",
-      "a2": "Có bạn nhé. Các lớp Online tại HIU được giảng dạy qua nền tảng bản quyền tương tác 100% hai chiều trực tiếp với giảng viên. Mỗi buổi học đều có video ghi hình để xem lại và bài tập Viết/Nói được chấm chữa chi tiết 1-1 như học trực tiếp.",
+      "a2": "Có bạn nhé. Các lớp Online tại Harry English House được giảng dạy qua nền tảng bản quyền tương tác 100% hai chiều trực tiếp với giảng viên. Mỗi buổi học đều có video ghi hình để xem lại và bài tập Viết/Nói được chấm chữa chi tiết 1-1 như học trực tiếp.",
       "q3": "Quy mô mỗi lớp học tại trung tâm là bao nhiêu học viên?",
-      "a3": "HIU kiên định theo đuổi mô hình lớp tinh gọn 2–10 học viên (hoặc lớp kèm 1-1, 1-2). Quy mô này đảm bảo thời lượng thực hành Nói tối đa và thầy cô có thể sửa từng câu văn Task 1 & Task 2 cho từng bạn.",
+      "a3": "Harry English House kiên định theo đuổi mô hình lớp tinh gọn 2–10 học viên (hoặc lớp kèm 1-1, 1-2). Quy mô này đảm bảo thời lượng thực hành Nói tối đa và thầy cô có thể sửa từng câu văn Task 1 & Task 2 cho từng bạn.",
       "q4": "Sau khi gửi biểu mẫu thì bao lâu em sẽ nhận được phản hồi?",
       "a4": "Đội ngũ học thuật và Thầy Harry sẽ chủ động liên hệ với bạn qua Số điện thoại/Zalo trong vòng tối đa 24 giờ làm việc kể từ khi nhận được thông tin đăng ký.",
       "stickyCall": "Gọi Ngay",
@@ -986,6 +1002,16 @@
         "badge": "GIẢNG VIÊN PHỤ TRÁCH",
         "title": "Người Đồng Hành Cùng Bạn",
         "subtitle": "Thầy Harry Khôi trực tiếp dẫn dắt, theo sát và chấm chữa bài",
+        "roleBadge": "Founder",
+        "expBadge": "8+ Năm Kinh Nghiệm",
+        "name": "Thầy Harry Khôi",
+        "degree": "Cử nhân Sư phạm Tiếng Anh • Đại học Sư phạm TP.HCM",
+        "bio": "Với hơn 8 năm chuyên sâu luyện thi IELTS và tiếng Anh học thuật, Thầy Harry Khôi kiên định theo đuổi phương pháp giảng dạy thực chất, tập trung sửa từng lỗi phát âm và bẻ gãy từng câu văn chưa chuẩn xác, giúp học viên tiến bộ vững chắc mà không học vẹt.",
+        "cred1": "Chứng chỉ Nghiệp vụ Sư phạm Quốc tế TESOL Standard",
+        "cred2": "Đối tác chính thức đào tạo và đăng ký thi cùng IDP IELTS",
+        "cred3": "Trực tiếp chấm chữa 1-1 không giới hạn số lượng bài viết",
+        "ieltsBadge": "IELTS 8.0 Official",
+        "partnerBadge": "Đối tác khảo thí IDP Vietnam",
         "viewProfileBtn": "Tìm hiểu thêm về Thầy Harry →"
       },
       "relatedResults": {
@@ -1007,7 +1033,18 @@
       "faq": {
         "badge": "FAQ KHÓA HỌC",
         "title": "Giải Đáp Thắc Mắc Về Khóa Học",
-        "subtitle": "Những câu hỏi học viên thường quan tâm nhất trước khi đăng ký khóa học này"
+        "subtitle": "Những câu hỏi học viên thường quan tâm nhất trước khi đăng ký khóa học này",
+        "defaultQ1": "Tôi chưa chắc chắn trình độ hiện tại thì có đăng ký khóa này được không?",
+        "defaultA1": "Hoàn toàn được! Bạn không cần lo lắng về việc chọn nhầm lớp. Harry English House sẽ tổ chức bài kiểm tra đánh giá năng lực 4 kỹ năng miễn phí và Thầy Harry sẽ trực tiếp tư vấn lộ trình phù hợp nhất cho bạn trước khi nhập học.",
+        "defaultQ2": "Nếu tôi bận việc đột xuất và nghỉ một buổi thì có được học bù không?",
+        "defaultA2": "Có. Đối với lớp Online, toàn bộ bài giảng đều được ghi hình video chất lượng cao để bạn xem lại. Đối với lớp Offline, học viên được hỗ trợ học bù tại lớp song song hoặc được trợ giảng giải đáp thắc mắc 1-1.",
+        "defaultQ3": "Học phí của khóa học đã bao gồm toàn bộ giáo trình và tài liệu chưa?",
+        "defaultA3": "Học phí tại Harry English House là trọn gói và minh bạch 100%. Toàn bộ giáo trình in ấn độc quyền, tài liệu tham khảo và phí thi thử Mock Test định kỳ đều đã được bao gồm, không phát sinh bất kỳ chi phí nào trong quá trình học.",
+        "defaultQ4": "Khóa học có cam kết chuẩn đầu ra bằng văn bản không?",
+        "defaultA4": "Có. Học viên tham gia đầy đủ từ 90% số buổi học và hoàn thành các bài tập chấm chữa theo đúng hướng dẫn sẽ được cam kết chuẩn đầu ra bằng văn bản. Trong trường hợp chưa đạt mục tiêu, học viên được học lại hoàn toàn miễn phí.",
+        "defaultQ5": "Tôi có được hỗ trợ chấm chữa bài viết và chỉnh phát âm ngoài giờ học không?",
+        "defaultA5": "Được. Đội ngũ trợ giảng học vụ và Thầy Harry luôn sẵn sàng giải đáp thắc mắc và chấm bài qua nhóm học tập hàng tuần để đảm bảo bạn không bị dồn ứ kiến thức.",
+        "moreQuestions": "Bạn vẫn còn câu hỏi khác? Đội ngũ Harry English House luôn sẵn sàng giải đáp 24/7."
       },
       "bottomCta": {
         "badge": "BẮT ĐẦU NGAY",
@@ -1134,7 +1171,7 @@
         "m1": "Lớp học tương tác chuyên sâu tại cơ sở Q7",
         "m2": "Buổi chia sẻ phương pháp học cùng học viên",
         "m3": "Hoạt động rèn luyện phản xạ nhóm nhỏ",
-        "m4": "Không gian học tập thân thiện, hiện đại tại HIU",
+        "m4": "Không gian học tập thân thiện, hiện đại tại Harry English House",
         "m5": "Buổi kiểm tra đánh giá năng lực 1-1",
         "m6": "Đội ngũ giảng viên & Cố vấn học thuật tận tâm",
         "m7": "Khoảnh khắc giao lưu và chăm sóc học viên",
@@ -1156,7 +1193,7 @@
           "6": "Đội ngũ giảng dạy",
           "7": "Đồng hành học viên",
           "8": "Trao chứng chỉ",
-          "9": "Cộng đồng HIU",
+          "9": "Cộng đồng HEH",
           "10": "Diễn đàn EMGS 2025",
           "11": "Giao lưu quốc tế",
           "12": "Thuyết trình chuyên môn",
@@ -1168,7 +1205,7 @@
       }
     },
     "testimonials": {
-      "quote": "Kết quả \"nhà trồng\" - Biết ơn các ngoan xinh iu vì đã cố gắng và tin tưởng đồng hành cùng HIU!",
+      "quote": "Kết quả \"nhà trồng\" - Biết ơn các ngoan xinh iu vì đã cố gắng và tin tưởng đồng hành cùng Harry English House!",
       "hl1Label": "Điểm IELTS nổi bật",
       "hl1Sub": "Listening 9.0 • Reading 9.0",
       "hl1Badge": "Top 1% Xuất Sắc",
@@ -1204,7 +1241,7 @@
       "r1Badge": "Top 1% Xuất Sắc",
       "r1Target": "Mục tiêu: 7.5+",
       "r1Caption": "Bứt phá xuất sắc IELTS 8.5 Overall (Listening 9.0, Reading 9.0)",
-      "r1Desc": "Đạt điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking sau lộ trình rèn luyện chuyên sâu tại HIU.",
+      "r1Desc": "Đạt điểm tuyệt đối 9.0 Listening & 9.0 Reading cùng 8.5 Speaking sau lộ trình rèn luyện chuyên sâu tại Harry English House.",
       "r2Badge": "Band 8.0",
       "r2Target": "Mục tiêu: 7.0+",
       "r2Caption": "Chinh phục IELTS 8.0 ấn tượng (Reading 9.0, Listening 8.5)",
@@ -1233,7 +1270,7 @@
       "fb2Tag": "Cảm nhận học viên",
       "fb3Caption": "Tiến bộ vượt bậc sau khóa học, tự tin giao tiếp và làm bài thi.",
       "fb3Tag": "Tiến bộ vượt bậc",
-      "fb4Caption": "Sự tận tâm của thầy cô HIU giúp em vượt qua áp lực phòng thi.",
+      "fb4Caption": "Sự tận tâm của thầy cô Harry English House giúp em vượt qua áp lực phòng thi.",
       "fb4Tag": "Tận tâm 100%",
       "fb5Caption": "Tự tin nói tiếng Anh tự nhiên, phản xạ nhanh và chuẩn phát âm.",
       "fb5Tag": "Tự tin phản xạ",
@@ -1316,7 +1353,7 @@
       "fb5Author": "Học viên Giao tiếp",
       "fb6Author": "Học viên Writing-Speaking",
       "fb7Author": "Học viên Lớp Kèm",
-      "fb8Author": "Học viên HIU"
+      "fb8Author": "Học viên HEH"
     },
     "courses": {
       "ielts_0_3": {
@@ -1673,7 +1710,7 @@
         "title": "Khóa IELTS Chuyên Sâu (6.0 - 7.5+)",
         "level": "Nâng cao (Target 6.5 - 7.5+)",
         "target": "Chữa chuyên sâu Writing & Speaking, chiến thuật giải đề Cambridge bứt phá 7.0–7.5+",
-        "curriculum": "Cambridge IELTS 15-18, IELTS Advantage, Bộ đề dự đoán thực chiến HIU",
+        "curriculum": "Cambridge IELTS 15-18, IELTS Advantage, Bộ đề dự đoán thực chiến HEH",
         "duration": "3–6 tháng",
         "weeklySchedule": "2–3 buổi / tuần",
         "classSize": "7 bạn (Thầy trực tiếp kèm)",
@@ -1682,7 +1719,7 @@
         "format": "Offline Q7 (T7 16h30, CN 15h30)",
         "highlights": [
           "Thầy Harry (IELTS 8.0 - Đối tác IDP) trực tiếp giảng dạy",
-          "Giáo trình: Cambridge 15-18 & Bộ đề dự đoán độc quyền HIU",
+          "Giáo trình: Cambridge 15-18 & Bộ đề dự đoán độc quyền HEH",
           "Sĩ số giới hạn 7 bạn học nghiêm túc bứt phá band 7.5+",
           "Chấm chữa Writing & Speaking 1-1 không giới hạn số lượng"
         ],

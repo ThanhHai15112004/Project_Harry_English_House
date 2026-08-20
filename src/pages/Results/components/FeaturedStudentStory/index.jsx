@@ -2,11 +2,14 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Award, Star, ZoomIn, Quote, ArrowRight } from 'lucide-react';
 import { SectionTitle } from '@/components/common';
+import { formatStudentName } from '@/core';
 
 export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   if (!storyData) return null;
+
+  const displayName = formatStudentName(storyData.studentName, i18n.language);
 
   return (
     <section id="student-story" className="py-16 sm:py-20 lg:py-24 bg-white border-b border-academic-border">
@@ -30,7 +33,7 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
               <div className="h-72 sm:h-96 w-full rounded-2xl overflow-hidden bg-slate-100 relative">
                 <img
                   src={storyData.image || '/src/assets/ki-niem/ki-niem-1.jpg'}
-                  alt={storyData.studentName}
+                  alt={displayName}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-academic-heading/80 via-transparent to-transparent" />
@@ -44,7 +47,7 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                 {/* Bottom Student Info in Photo */}
                 <div className="absolute bottom-4 left-4 right-4 text-white space-y-1">
                   <div className="text-lg sm:text-xl font-extrabold font-heading">
-                    {storyData.studentName}
+                    {displayName}
                   </div>
                   <p className="text-xs text-slate-200">
                     {t(storyData.examTypeKey)}
@@ -60,9 +63,9 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                   onClick={() =>
                     onOpenScorecard?.({
                       image: storyData.scorecardImage,
-                      studentName: storyData.studentName,
+                      studentName: displayName,
                       score: storyData.score,
-                      caption: storyData.studentName,
+                      caption: displayName,
                       description: t(storyData.taglineKey),
                     })
                   }
@@ -70,7 +73,7 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                   <div className="h-24 w-full rounded-xl overflow-hidden bg-slate-900/5 p-1 relative flex items-center justify-center">
                     <img
                       src={storyData.scorecardImage}
-                      alt={storyData.studentName}
+                      alt={displayName}
                       className="w-full h-full object-contain rounded-lg group-hover/card:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-academic-heading/60 opacity-0 group-hover/card:opacity-100 flex items-center justify-center text-white transition-opacity rounded-lg">
@@ -140,9 +143,9 @@ export const FeaturedStudentStory = ({ storyData, onOpenScorecard }) => {
                   onClick={() =>
                     onOpenScorecard?.({
                       image: storyData.scorecardImage,
-                      studentName: storyData.studentName,
+                      studentName: displayName,
                       score: storyData.score,
-                      caption: `Bảng điểm ${storyData.score} của ${storyData.studentName}`,
+                      caption: `Bảng điểm ${storyData.score} của ${displayName}`,
                       description: storyData.tagline,
                     })
                   }

@@ -26,7 +26,7 @@ import 'swiper/css/effect-fade';
 import 'swiper/css/pagination';
 
 export const AboutHero = ({ founderData }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0);
   const swiperRef = useRef(null);
 
@@ -65,7 +65,9 @@ export const AboutHero = ({ founderData }) => {
         anchor: 'philosophy',
       },
       image: founderData?.academicPhoto || founderData?.avatar || thuyetTrinh1,
-      imageAlt: 'Thầy Harry (Anh Khôi) - Founder of Harry English House',
+      imageAlt: i18n.language?.startsWith('en')
+        ? 'Teacher Harry (Anh Khoi) - Founder of Harry English House'
+        : 'Thầy Harry (Anh Khôi) - Founder of Harry English House',
       cornerIcon: ShieldCheck,
       cornerBadge: t('pages.about.heroSlides.founder.cornerBadge'),
       cardRole: t('pages.about.heroSlides.founder.cardRole'),
@@ -173,7 +175,7 @@ export const AboutHero = ({ founderData }) => {
         anchor: 'moments',
       },
       image: kiNiem4,
-      imageAlt: 'Môi trường học tập đồng hành và gắn kết tại HIU',
+      imageAlt: 'Môi trường học tập đồng hành và gắn kết tại Harry English House',
       cornerIcon: Users,
       cornerBadge: t('pages.about.heroSlides.community.cornerBadge'),
       cardRole: t('pages.about.heroSlides.community.cardRole'),

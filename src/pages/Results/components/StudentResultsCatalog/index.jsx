@@ -13,9 +13,10 @@ import {
   ArrowUpRight,
 } from 'lucide-react';
 import { SectionTitle } from '@/components/common';
+import { formatStudentName } from '@/core';
 
 export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [selectedTier, setSelectedTier] = useState('all');
 
   const filterTabs = [
@@ -78,6 +79,14 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
       tagStyle = 'bg-emerald-50 text-emerald-900 border-emerald-200';
     }
 
+    const displayName = formatStudentName(item.studentName, i18n.language);
+    let tagLabel = item.category;
+    if (item.badgeKey) {
+      tagLabel = t(item.badgeKey);
+    } else if (item.category === 'highschool') {
+      tagLabel = t('pages.results.categoryHighschool', 'Tuyển Sinh 10');
+    }
+
     return (
       <div
         key={item.id}
@@ -92,7 +101,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
               {isGold && <Trophy size={11} className="text-achievement flex-shrink-0" />}
               {isEmerald && <GraduationCap size={11} className="text-emerald-600 flex-shrink-0" />}
               {!isGold && !isEmerald && <Sparkles size={11} className="text-cta flex-shrink-0" />}
-              <span className="truncate">{item.badgeKey ? t(item.badgeKey) : item.category}</span>
+              <span className="truncate">{tagLabel}</span>
             </span>
 
             <div className={`inline-flex items-center gap-1 px-2 py-0.5 sm:px-3 sm:py-1 rounded-full shadow-xs flex-shrink-0 ${scoreBadgeStyle}`}>
@@ -107,12 +116,12 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
           <button
             type="button"
             className="relative h-36 sm:h-56 w-full rounded-xl sm:rounded-2xl overflow-hidden bg-slate-900/5 border border-slate-200/90 flex items-center justify-center p-1.5 sm:p-2.5 cursor-pointer group-hover:border-primary/40 transition-all duration-300 shadow-inner text-left focus:outline-hidden focus:ring-2 focus:ring-primary/40"
-            onClick={() => onOpenScorecard?.(item)}
-            title="Bấm để xem ảnh phóng to bảng điểm"
+            onClick={() => onOpenScorecard?.({ ...item, studentName: displayName })}
+            title={t('pages.results.zoomTitle', 'Bấm để phóng to xem bảng điểm đầy đủ')}
           >
             <img
               src={item.image}
-              alt={item.studentName}
+              alt={displayName}
               className="w-full h-full object-contain rounded-lg sm:rounded-xl drop-shadow-sm group-hover:scale-105 transition-transform duration-500"
               loading="lazy"
             />
@@ -126,7 +135,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
             {/* Corner IDP / Certified Stamp */}
             <div className="absolute top-2 right-2 px-1.5 py-0.5 rounded bg-white/90 backdrop-blur-xs text-slate-700 text-[9px] sm:text-[10px] font-extrabold border border-slate-200 shadow-2xs flex items-center gap-1">
               <ShieldCheck size={10} className="text-primary" />
-              <span className="hidden sm:inline">Đối chứng</span>
+              <span className="hidden sm:inline">{t('pages.results.verifiedBadge', 'Đối chứng')}</span>
             </div>
           </button>
 
@@ -134,7 +143,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
           <div className="space-y-2 pt-0.5 text-left">
             <div>
               <h3 className="text-xs sm:text-lg font-bold text-academic-heading font-heading leading-tight group-hover:text-cta transition-colors truncate">
-                {item.studentName}
+                {displayName}
               </h3>
               <p className="text-[10px] sm:text-xs text-slate-500 font-medium line-clamp-1 mt-0.5">
                 {item.targetKey ? t(item.targetKey) : (item.course || 'Học viên Harry English House')}
@@ -170,8 +179,8 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
                 )}
                 {item.skills.english && (
                   <div className="col-span-2 px-1.5 py-0.5 sm:px-2.5 sm:py-1 rounded bg-slate-50 border border-slate-200/80 flex items-center justify-between text-[9px] sm:text-[11px]">
-                    <span className="text-slate-500 font-medium">Tiếng Anh</span>
-                    <span className="font-extrabold text-emerald-700 font-heading">{item.skills.english}đ</span>
+                    <span className="text-slate-500 font-medium">{t('pages.results.skills.english', 'Tiếng Anh')}</span>
+                    <span className="font-extrabold text-emerald-700 font-heading">{item.skills.english} {t('pages.results.pointsSuffix', 'đ')}</span>
                   </div>
                 )}
               </div>
@@ -190,7 +199,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
         <button
           type="button"
           className="pt-2 sm:pt-3 mt-2 sm:mt-3 border-t border-slate-100 flex items-center justify-between text-[10px] sm:text-xs text-cta font-bold cursor-pointer hover:text-primary transition-colors text-left w-full focus:outline-hidden"
-          onClick={() => onOpenScorecard?.(item)}
+          onClick={() => onOpenScorecard?.({ ...item, studentName: displayName })}
         >
           <span className="flex items-center gap-1">
             <ZoomIn size={12} />
@@ -261,7 +270,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
 
                 <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white text-academic-heading text-[11px] sm:text-xs font-bold font-heading self-start sm:self-auto border border-achievement/40 shadow-2xs">
                   <Star size={13} className="fill-achievement text-achievement" />
-                  <span>{tier1Items.length} Bảng điểm kỷ lục</span>
+                  <span>{tier1Items.length} {t('pages.results.resultsCatalog.tier1Count', 'Bảng điểm kỷ lục')}</span>
                 </div>
               </div>
 
@@ -293,7 +302,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
 
                 <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white text-primary text-[11px] sm:text-xs font-bold font-heading self-start sm:self-auto border border-blue-200 shadow-2xs">
                   <ShieldCheck size={13} className="text-primary" />
-                  <span>{tier2Items.length} Kết quả đạt chuẩn</span>
+                  <span>{tier2Items.length} {t('pages.results.resultsCatalog.tier2Count', 'Kết quả đạt chuẩn')}</span>
                 </div>
               </div>
 
@@ -325,7 +334,7 @@ export const StudentResultsCatalog = ({ results = [], onOpenScorecard }) => {
 
                 <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white text-emerald-900 text-[11px] sm:text-xs font-bold font-heading self-start sm:self-auto border border-emerald-300 shadow-2xs">
                   <CheckCircle2 size={13} className="text-emerald-600" />
-                  <span>{tier3Items.length} Thủ khoa & Điểm 9.0+</span>
+                  <span>{tier3Items.length} {t('pages.results.resultsCatalog.tier3Count', 'Thủ khoa & Điểm 9.0+')}</span>
                 </div>
               </div>
 

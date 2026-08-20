@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { ShieldCheck, Award, ArrowRight, Quote } from 'lucide-react';
-import { SECTION_IDS, APP_INFO } from '@/core';
+import { ArrowRight, Quote } from 'lucide-react';
+import { SECTION_IDS } from '@/core';
 import { Button } from '@/components/common';
 import founderPresentationImg from '@/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg';
 import avatarImg from '@/assets/trang-ca-nhan/avatar-me.jpg';
@@ -18,7 +18,7 @@ export const FounderHarry = () => {
             <div className="relative aspect-[4/3] sm:aspect-[16/11] rounded-3xl overflow-hidden shadow-card border border-academic-border bg-academic-surface">
               <img
                 src={founderPresentationImg}
-                alt="Thầy Harry Khôi thuyết trình tại sự kiện Bộ Giáo dục 2025"
+                alt={t('founder.presentationAlt', { name: t('founder.name') })}
                 className="w-full h-full object-cover"
                 loading="lazy"
               />
@@ -28,7 +28,7 @@ export const FounderHarry = () => {
               <div className="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md rounded-2xl p-3.5 border border-academic-border flex items-center gap-3">
                 <img
                   src={avatarImg}
-                  alt="Thầy Harry Khôi"
+                  alt={t('founder.name')}
                   className="w-11 h-11 rounded-xl object-cover border border-academic-border"
                 />
                 <div>
