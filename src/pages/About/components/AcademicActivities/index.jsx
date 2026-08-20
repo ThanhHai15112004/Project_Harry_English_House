@@ -48,7 +48,7 @@ export const AcademicActivities = ({ activitiesData, onOpenPhoto }) => {
                     <div className="absolute inset-0 bg-academic-heading/50 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white transition-opacity">
                       <div className="px-3.5 py-1.5 rounded-lg bg-white/20 backdrop-blur-md border border-white/40 flex items-center gap-1.5 text-xs font-bold shadow-md">
                         <ZoomIn size={15} />
-                        <span>Xem ảnh sự kiện</span>
+                        <span>{t('pages.about.academicActivities.viewPhoto', 'Xem ảnh sự kiện')}</span>
                       </div>
                     </div>
                   </div>
@@ -63,8 +63,8 @@ export const AcademicActivities = ({ activitiesData, onOpenPhoto }) => {
                       onClick={() =>
                         onOpenPhoto?.({
                           image: event.secondaryImage,
-                          title: 'Đoàn đại biểu giáo dục ASEAN 2025',
-                          caption: 'Đoàn đại biểu và chuyên gia giáo dục tại EMGS Malaysia',
+                          title: t('pages.about.academicActivities.aseanDelegationTitle', 'Đoàn đại biểu giáo dục ASEAN 2025'),
+                          caption: t('pages.about.academicActivities.aseanDelegationCaption', 'Đoàn đại biểu và chuyên gia giáo dục tại EMGS Malaysia'),
                         })
                       }
                     >
@@ -86,8 +86,8 @@ export const AcademicActivities = ({ activitiesData, onOpenPhoto }) => {
                       onClick={() =>
                         onOpenPhoto?.({
                           image: '/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-2.jpg',
-                          title: 'Thuyết trình chuyên đề đào tạo',
-                          caption: 'Thầy Harry chia sẻ về phương pháp rèn phản xạ ngôn ngữ',
+                          title: t('pages.about.academicActivities.trainingPresentationTitle', 'Thuyết trình chuyên đề đào tạo'),
+                          caption: t('pages.about.academicActivities.trainingPresentationCaption', 'Thầy Harry chia sẻ về phương pháp rèn phản xạ ngôn ngữ'),
                         })
                       }
                     >
@@ -129,7 +129,7 @@ export const AcademicActivities = ({ activitiesData, onOpenPhoto }) => {
                 </p>
 
                 <div className="pt-2 flex items-center gap-2 text-xs font-bold text-cta">
-                  <span>Hội thảo quốc tế thúc đẩy phương pháp sư phạm tiếng Anh</span>
+                  <span>{t('pages.about.academicActivities.intlWorkshopNote', 'Hội thảo quốc tế thúc đẩy phương pháp sư phạm tiếng Anh')}</span>
                   <ArrowRight size={14} />
                 </div>
               </div>

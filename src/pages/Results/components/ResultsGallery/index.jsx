@@ -95,7 +95,7 @@ export const ResultsGallery = ({ galleryItems = [], onOpenGalleryItem }) => {
                   {/* Corner Verified Badge */}
                   <div className="absolute top-3.5 right-3.5 px-2 py-0.5 rounded-md bg-white/95 backdrop-blur-xs text-slate-700 text-[10px] font-extrabold border border-slate-200 shadow-2xs flex items-center gap-1">
                     <ShieldCheck size={11} className="text-achievement" />
-                    <span>Chứng thực</span>
+                    <span>{t('pages.results.verifiedBadge', 'Chứng thực')}</span>
                   </div>
                 </div>
 

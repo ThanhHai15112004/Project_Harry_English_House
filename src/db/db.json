@@ -1,7 +1,7 @@
 {
   "teacher": {
     "centerName": "Harry English House",
-    "shortName": "HIU",
+    "shortName": "HEH",
     "sloganKey": "db.teacher.slogan",
     "founder": {
       "name": "Harry (Anh Khôi)",
@@ -20,7 +20,7 @@
       "academicPhoto": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg",
       "classroomPhoto": "/src/assets/ki-niem/ki-niem-1.jpg",
       "contact": {
-        "hotline": "0938 611 919 (Ms Ái)",
+        "hotline": "036 559 2895",
         "email": "khoi.harryenglishhouse@gmail.com",
         "facebookFanpage": "https://www.facebook.com/profile.php?id=61563315172210",
         "linkedin": "https://www.linkedin.com/in/harrykhoile",
@@ -170,14 +170,6 @@
         "specialtyKey": "db.teacher.team.vickySpecialty",
         "avatar": "/src/assets/ki-niem/ki-niem-6.jpg",
         "nameKey": "db.teacher.team.vickyName"
-      },
-      {
-        "id": "ai",
-        "name": "Ms. Ái",
-        "roleKey": "db.teacher.team.aiRole",
-        "specialtyKey": "db.teacher.team.aiSpecialty",
-        "avatar": "/src/assets/ki-niem/ki-niem-7.jpg",
-        "nameKey": "db.teacher.team.aiName"
       }
     ],
     "moments": [
@@ -340,7 +332,7 @@
       "badgeKey": "db.courses.ielts_3_4.badge",
       "formatKey": "db.courses.ielts_3_4.format",
       "color": "cyan",
-      "image": "/src/assets/ki-niem/ki-niem-2.jpg",
+      "image": "/src/assets/ki-niem/ki-niem-3.jpg",
       "highlightsKeys": [
         "db.courses.ielts_3_4.highlights.0",
         "db.courses.ielts_3_4.highlights.1",

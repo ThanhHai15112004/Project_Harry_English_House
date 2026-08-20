@@ -1,4 +1,7 @@
 {
+  "common": {
+    "scrollToTop": "Cuộn lên đầu trang"
+  },
   "nav": {
     "home": "Trang chủ",
     "dictation": "Luyện Dictation",
@@ -26,12 +29,12 @@
         "alt": "Lớp học IELTS tại Harry English House"
       },
       "classSize": {
-        "badge": "QUY MÔ LỚP HỌC 6–10 HỌC VIÊN",
+        "badge": "QUY MÔ LỚP HỌC 2–10 HỌC VIÊN",
         "cornerBadge": "Chữa bài 1-1 sát sao",
-        "topBadge": "Sĩ số 6–10 bạn",
-        "titlePrefix": "Mô hình lớp nhỏ 6–10 học viên, ",
+        "topBadge": "Sĩ số 2–10 bạn",
+        "titlePrefix": "Mô hình lớp nhỏ 2–10 học viên, ",
         "titleHighlight": "đồng hành sát sao từng buổi học.",
-        "subtitle": "Mô hình lớp học tinh gọn giới hạn chỉ từ 6 đến 10 học viên giúp tối đa hóa thời gian tương tác trực tiếp với giảng viên. Mỗi buổi học đều được chỉnh sửa phát âm tỉ mỉ, giải đáp thắc mắc cặn kẽ và theo dõi sát sao sự tiến bộ từng tuần của học viên.",
+        "subtitle": "Mô hình lớp học tinh gọn giới hạn chỉ từ 2 đến 10 học viên giúp tối đa hóa thời gian tương tác trực tiếp với giảng viên. Mỗi buổi học đều được chỉnh sửa phát âm tỉ mỉ, giải đáp thắc mắc cặn kẽ và theo dõi sát sao sự tiến bộ từng tuần của học viên.",
         "primaryBtn": "Tìm hiểu lớp học",
         "secondaryBtn": "Xem thành tích",
         "alt": "Không gian học tập tương tác tại Harry English House"
@@ -81,7 +84,7 @@
     "pillar1Title": "Lộ trình được thiết kế riêng",
     "pillar1Desc": "Thiết kế riêng theo trình độ đầu vào và mục tiêu band điểm cụ thể.",
     "pillar2Title": "Lớp học quy mô nhỏ",
-    "pillar2Desc": "Chỉ 6–10 học viên để tối đa hóa thời gian tương tác và thực hành.",
+    "pillar2Desc": "Từ 2–10 học viên để tối đa hóa thời gian tương tác và thực hành.",
     "pillar3Title": "Theo sát & Sửa lỗi 1-1",
     "pillar3Desc": "Giảng viên trực tiếp chấm chữa chi tiết từng bài Writing & Speaking.",
     "tag1": "Chuẩn hóa IDP IELTS",
@@ -104,7 +107,7 @@
     "popularBadge": "Phổ biến nhất",
     "levelLabel": "Cấp độ:",
     "classSizeLabel": "Sĩ số:",
-    "classSizeVal": "6–10 bạn",
+    "classSizeVal": "2–10 bạn",
     "guarantee": "Chữa bài 1-1 & Cam kết đầu ra",
     "guaranteeLabel": "Cam kết chuẩn đầu ra & Theo sát 1-1",
     "viewRoadmapBtn": "Xem lộ trình chi tiết",
@@ -123,7 +126,7 @@
     "step2Tag": "Cá nhân hóa",
     "step2Title": "Xây lộ trình học",
     "step2Desc": "Xác định mục tiêu, thời gian và nội dung học phù hợp với trình độ của bạn.",
-    "step3Tag": "6–10 học viên",
+    "step3Tag": "2–10 học viên",
     "step3Title": "Học nhóm nhỏ",
     "step3Desc": "Lớp ít học viên giúp tăng tương tác, luyện tập nhiều hơn và được giáo viên theo sát.",
     "step4Tag": "Theo sát tiến độ",
@@ -206,7 +209,8 @@
           "hl1": "Thầy Harry (IELTS 8.0) trực tiếp đứng lớp và sửa bài 1-1 không giới hạn",
           "hl2": "Bộ đề dự đoán độc quyền cập nhật liên tục hàng quý bám sát xu hướng thi thật",
           "hl3": "Sĩ số giới hạn 7 bạn học tập nghiêm túc bứt phá band điểm cao xét tuyển & du học",
-          "guarantee": "Thầy Harry trực tiếp sửa bài 1-1 chi tiết sát band 7.5+"
+          "guarantee": "Thầy Harry trực tiếp sửa bài 1-1 chi tiết sát band 7.5+",
+          "curr3": "Bộ đề dự đoán HEH"
         }
       },
       "toeic": {
@@ -221,7 +225,8 @@
           "hl1": "Bộ chiến thuật xử lý bẫy đề thi TOEIC Part 1–7 và VSTEP 4 kỹ năng",
           "hl2": "Ngân hàng đề thi chuẩn hóa ETS TOEIC 2024 & VSTEP cập nhật liên tục",
           "hl3": "Sĩ số giới hạn 5 bạn, kèm sát tiến độ từng buổi học",
-          "guarantee": "Cam kết chuẩn đầu ra văn bản xét tuyển tốt nghiệp ĐH"
+          "guarantee": "Cam kết chuẩn đầu ra văn bản xét tuyển tốt nghiệp ĐH",
+          "curr3": "Ngân hàng đề VSTEP B2-C1"
         }
       },
       "communication": {
@@ -236,7 +241,8 @@
           "hl1": "Chuẩn hóa phiên âm quốc tế IPA & xóa bỏ rào cản ngại nói",
           "hl2": "Mẫu câu hội thoại phản xạ nhanh theo chủ đề đời sống thực tế",
           "hl3": "Sĩ số nhóm nhỏ 2–3 bạn tối đa thời lượng tương tác thực hành",
-          "guarantee": "Ưu đãi 5% khóa mới & Tự tin phản xạ giao tiếp sau 3 tháng"
+          "guarantee": "Ưu đãi 5% khóa mới & Tự tin phản xạ giao tiếp sau 3 tháng",
+          "curr3": "Mẫu câu phản xạ độc quyền HEH"
         },
         "m2": {
           "name": "Giao Tiếp Công Sở & Thuyết Trình",
@@ -249,7 +255,8 @@
           "hl1": "Kỹ năng thuyết trình, đàm phán và dẫn dắt cuộc họp chuyên nghiệp",
           "hl2": "Viết email thương mại chuẩn văn phong kinh doanh quốc tế",
           "hl3": "Xử lý tình huống giao tiếp công sở và đàm phán thực tế",
-          "guarantee": "Ưu đãi 10% cho khóa học & Tự tin giao tiếp đàm phán công việc"
+          "guarantee": "Ưu đãi 10% cho khóa học & Tự tin giao tiếp đàm phán công việc",
+          "curr3": "Tình huống công sở HEH"
         }
       }
     }
@@ -257,12 +264,12 @@
   "founder": {
     "badge": "VỀ THẦY HARRY KHÔI",
     "name": "Thầy Harry (Anh Khôi)",
-    "role": "Founder & Giảng viên Trưởng",
+    "role": "Founder",
     "badgeLabel": "IELTS 8.0 • Đối tác IDP IELTS",
-    "bio1": "Tốt nghiệp chuyên ngành Ngôn ngữ Anh với chứng chỉ IELTS 8.0 (Band cao nhất tại TP.HCM trong đợt thi). Hơn 6+ năm kinh nghiệm trực tiếp đào tạo hàng trăm học viên chinh phục mục tiêu du học, làm việc và định cư.",
-    "bio2": "Đối tác đào tạo chính thức của IDP IELTS. Thường xuyên tham gia các hoạt động học thuật, hội thảo quốc tế và sự kiện giáo dục uy tín của Bộ Giáo dục và Đào tạo.",
+    "bio1": "Với hơn 8 năm kinh nghiệm trong lĩnh vực đào tạo và là đối tác chiến lược của IDP, Harry English House luôn hướng tới phương pháp giảng dạy thực tiễn, giúp học viên xóa bỏ rào cản lý thuyết khô khan để đạt được mục tiêu từ 0–8.0 IELTS một cách rõ ràng nhất.",
+    "bio2": "Bên cạnh lộ trình cá nhân hóa cùng đội ngũ giáo viên giàu kinh nghiệm tối thiểu 7.5+ IELTS, học viên tại Harry English House còn được hưởng đặc quyền tối ưu chi phí với chính sách giảm lệ phí thi IELTS trực tiếp từ IDP.",
     "quote": "Giáo dục không phải là dạy cho xong một giáo trình định sẵn. Đó là sự thấu hiểu điểm xuất phát của từng học viên và đồng hành giúp họ vượt qua khoảng cách đó.",
-    "authorLabel": "— Thầy Harry (Sáng lập viên & Giảng viên chính)",
+    "authorLabel": "— Thầy Harry (Founder)",
     "viewStory": "Khám phá câu chuyện của Harry"
   },
   "results": {
@@ -471,7 +478,7 @@
       "bottomCtaTitle": "Đã Tìm Thấy Khóa Học Phù Hợp?",
       "bottomCtaDesc": "Nhận tư vấn trực tiếp và làm bài kiểm tra trình độ 4 kỹ năng 1-1 hoàn toàn miễn phí cùng Thầy Harry.",
       "bottomCtaBtn": "Đăng ký tư vấn lộ trình 1-1",
-      "bottomHotlineBtn": "Hotline: 0938 611 919",
+      "bottomHotlineBtn": "Hotline: 036 559 2895",
       "programs": {
         "ielts": {
           "cardSub": "Lộ trình từ 0 đến 7.5+ toàn diện",
@@ -568,6 +575,11 @@
       "heroProofCard": "Bảng điểm IDP IELTS chính thức",
       "heroVerified": "Xác thực 100%",
       "heroStudentRole": "Học viên lớp IELTS Chuyên Sâu",
+      "heroStatBadge": "Minh bạch 100% • Đối chứng IDP/BC",
+      "zoomTitle": "Bấm để phóng to xem bảng điểm đầy đủ",
+      "viewDetails": "Xem bảng điểm chi tiết",
+      "verifiedBadge": "Chứng thực",
+      "viewOriginalCertificate": "Xem ảnh gốc chứng chỉ",
       "highlights": {
         "badge": "SỐ LIỆU MINH BẠCH",
         "title": "Thành Tích Nổi Bật",
@@ -656,7 +668,7 @@
       "heroDesc": "Người đồng hành giúp bạn xóa bỏ nỗi sợ tiếng Anh, xây dựng năng lực ngôn ngữ thực chất và bứt phá mục tiêu IELTS/Giao tiếp bằng phương pháp tinh gọn.",
       "heroCtaStory": "Đọc câu chuyện",
       "heroCtaPhilosophy": "Triết lý giáo dục",
-      "heroRoleTag": "Founder & Head Instructor",
+      "heroRoleTag": "Founder",
       "heroExperienceBadge": "8+ Năm Kinh Nghiệm",
       "heroIeltsBadge": "IELTS 8.0 Official",
       "heroSlides": {
@@ -671,7 +683,7 @@
           "cta2": "Triết lý giáo dục",
           "cornerBadge": "Đối tác chiến lược IDP IELTS",
           "cardRole": "Thầy Harry (Anh Khôi)",
-          "cardSub": "Founder & Head Instructor • IELTS 8.0 Official",
+          "cardSub": "Founder • IELTS 8.0 Official",
           "statTitle": "8+ Năm Giảng Dạy",
           "statDesc": "Đào tạo chuyên sâu & May đo lộ trình"
         },
@@ -682,10 +694,10 @@
           "tagline": "Thấu hiểu người học • Cá nhân hóa lộ trình • Tiến bộ thực chất.",
           "desc": "Tập trung vào bản chất ngôn ngữ và tư duy phản biện. Loại bỏ các phương pháp học vẹt mẹo làm bài, thay vào đó là lộ trình may đo tinh gọn giúp học viên phát triển năng lực sử dụng tiếng Anh bền vững.",
           "badge1": "Lộ trình may đo cá nhân",
-          "badge2": "Lớp học 6-10 học viên",
+          "badge2": "Lớp học 2-10 học viên",
           "cta1": "Khám phá triết lý",
           "cta2": "Lĩnh vực chuyên môn",
-          "cornerBadge": "Quy mô lớp tinh gọn 6-10 bạn",
+          "cornerBadge": "Quy mô lớp tinh gọn 2-10 bạn",
           "cardRole": "Triết Lý Đào Tạo Thực Chất",
           "cardSub": "Học từ gốc rễ • Tối ưu thời gian",
           "statTitle": "100% Kèm Cặp Sát Sao",
@@ -752,7 +764,8 @@
         "developmentTitle": "Phát Triển Chuyên Môn & Đối Tác",
         "certTitle": "Chứng Chỉ Chuyên Ngành",
         "featuredCertBadge": "Chứng nhận nổi bật",
-        "viewCertModal": "Xem chứng chỉ chi tiết"
+        "viewCertModal": "Xem chứng chỉ chi tiết",
+        "certBadge": "Chứng nhận Chuyên môn IDP / TESOL"
       },
       "academicActivities": {
         "badge": "HOẠT ĐỘNG HỌC THUẬT & QUỐC TẾ",
@@ -760,7 +773,13 @@
         "subtitle": "Harry duy trì việc học hỏi, chia sẻ và kết nối trong các môi trường học thuật chuyên nghiệp.",
         "featuredTag": "Sự kiện quốc tế nổi bật",
         "locationLabel": "Địa điểm:",
-        "organizerLabel": "Đơn vị tổ chức:"
+        "organizerLabel": "Đơn vị tổ chức:",
+        "viewPhoto": "Xem ảnh sự kiện",
+        "aseanDelegationTitle": "Đoàn đại biểu giáo dục ASEAN 2025",
+        "aseanDelegationCaption": "Đoàn đại biểu và chuyên gia giáo dục tại EMGS Malaysia",
+        "trainingPresentationTitle": "Thuyết trình chuyên đề đào tạo",
+        "trainingPresentationCaption": "Thầy Harry chia sẻ về phương pháp rèn phản xạ ngôn ngữ",
+        "intlWorkshopNote": "Hội thảo quốc tế thúc đẩy phương pháp sư phạm tiếng Anh"
       },
       "partnerships": {
         "badge": "HỢP TÁC & KẾT NỐI",
@@ -803,7 +822,7 @@
       "addressValue": "Quận 7, TP. Hồ Chí Minh (Gần Lotte Mart)",
       "addressMapLink": "Xem trên Google Maps →",
       "phoneTitle": "Hotline Tuyển Sinh & Tư Vấn",
-      "phoneValue": "0938 611 919 (Ms Ái)",
+      "phoneValue": "036 559 2895",
       "phoneCallLink": "Gọi ngay →",
       "emailTitle": "Email Học Thuật & Hợp Tác",
       "emailValue": "khoi.harryenglishhouse@gmail.com",
@@ -819,7 +838,7 @@
       "fullName": "Họ và tên của bạn",
       "fullNamePlaceholder": "Ví dụ: Nguyễn Văn A",
       "phone": "Số điện thoại / Zalo",
-      "phonePlaceholder": "Ví dụ: 0938 611 919",
+      "phonePlaceholder": "Ví dụ: 036 559 2895",
       "email": "Địa chỉ Email (Không bắt buộc)",
       "emailPlaceholder": "email@example.com",
       "courseInterest": "Chương trình bạn quan tâm",
@@ -870,7 +889,7 @@
       "q2": "Harry English House có lớp Online không và chất lượng như thế nào?",
       "a2": "Có bạn nhé. Các lớp Online tại HIU được giảng dạy qua nền tảng bản quyền tương tác 100% hai chiều trực tiếp với giảng viên. Mỗi buổi học đều có video ghi hình để xem lại và bài tập Viết/Nói được chấm chữa chi tiết 1-1 như học trực tiếp.",
       "q3": "Quy mô mỗi lớp học tại trung tâm là bao nhiêu học viên?",
-      "a3": "HIU kiên định theo đuổi mô hình lớp tinh gọn 6–10 học viên (hoặc lớp kèm 1-1, 1-2). Quy mô này đảm bảo thời lượng thực hành Nói tối đa và thầy cô có thể sửa từng câu văn Task 1 & Task 2 cho từng bạn.",
+      "a3": "HIU kiên định theo đuổi mô hình lớp tinh gọn 2–10 học viên (hoặc lớp kèm 1-1, 1-2). Quy mô này đảm bảo thời lượng thực hành Nói tối đa và thầy cô có thể sửa từng câu văn Task 1 & Task 2 cho từng bạn.",
       "q4": "Sau khi gửi biểu mẫu thì bao lâu em sẽ nhận được phản hồi?",
       "a4": "Đội ngũ học thuật và Thầy Harry sẽ chủ động liên hệ với bạn qua Số điện thoại/Zalo trong vòng tối đa 24 giờ làm việc kể từ khi nhận được thông tin đăng ký.",
       "stickyCall": "Gọi Ngay",
@@ -925,20 +944,27 @@
         "title": "Giáo Trình Chuẩn Quốc Tế",
         "subtitle": "100% tài liệu từ các nhà xuất bản uy tín thế giới (Cambridge, Oxford, Macmillan)",
         "publisherLabel": "Nhà xuất bản:",
-        "phaseLabel": "Giai đoạn sử dụng:"
+        "phaseLabel": "Giai đoạn sử dụng:",
+        "officialBook": "Giáo trình chính khóa",
+        "includedInTuition": "Đã bao gồm trong học phí"
       },
       "methodology": {
         "badge": "PHƯƠNG PHÁP HỌC",
         "title": "Cách Khóa Học Này Được Triển Khai",
         "subtitle": "Phương pháp cá nhân hóa từng học viên, lấy sự tiến bộ thực chất làm thước đo",
-        "p1Title": "Lớp học nhóm nhỏ (6–10 bạn)",
+        "p1Title": "Lớp học nhóm nhỏ (2–10 bạn)",
         "p1Desc": "Tối đa hóa thời lượng tương tác phản xạ 2 chiều giữa giảng viên và từng học viên.",
         "p2Title": "Sửa bài trực tiếp 1-1",
         "p2Desc": "Chấm chữa bài Writing Task 1-2 và chỉnh phát âm Speaking chi tiết từng buổi học.",
         "p3Title": "Bài tập sau buổi học",
         "p3Desc": "Hệ thống bài tập củng cố kiến thức có phản hồi và nhận xét cụ thể từ giảng viên.",
         "p4Title": "Kiểm tra & Mock Test định kỳ",
-        "p4Desc": "Theo dõi sát tiến độ tăng band qua các bài thi thử tiêu chuẩn phòng thi thật."
+        "p4Desc": "Theo dõi sát tiến độ tăng band qua các bài thi thử tiêu chuẩn phòng thi thật.",
+        "b1": "Tương tác cao",
+        "b2": "Chuyên sâu 1-1",
+        "b3": "Kèm cặp sát",
+        "b4": "Chuẩn IDP",
+        "applied100": "Áp dụng 100%"
       },
       "infoPricing": {
         "badge": "THÔNG TIN & BIỂU PHÍ",
@@ -949,7 +975,12 @@
         "allInclusive": "Trọn gói toàn khóa",
         "perMonth": "Hoặc đóng linh hoạt",
         "privilegesTitle": "Quyền lợi bao gồm:",
-        "consultBtn": "Nhận tư vấn xếp lớp"
+        "consultBtn": "Nhận tư vấn xếp lớp",
+        "policyNote": "Học viên được kiểm tra trình độ 4 kỹ năng miễn phí & xếp lớp thử 1 buổi trước khi quyết định đăng ký chính thức.",
+        "inc1": "Giáo trình & bộ tài liệu độc quyền từ NXB uy tín",
+        "inc2": "Chấm chữa bài Writing Task 1-2 & Sửa phát âm Speaking 1-1",
+        "inc3": "Thi thử Mock Test định kỳ theo chuẩn đề thi thật",
+        "inc4": "Voucher ưu đãi 100.000đ khi đăng ký thi IELTS tại IDP"
       },
       "instructor": {
         "badge": "GIẢNG VIÊN PHỤ TRÁCH",
@@ -983,7 +1014,25 @@
         "title": "Khóa học này có phù hợp với mục tiêu của bạn?",
         "desc": "Trao đổi trực tiếp với Harry English House để kiểm tra đầu vào 4 kỹ năng miễn phí và chọn lớp học tối ưu nhất.",
         "consultBtn": "Nhận tư vấn khóa học",
-        "classesBtn": "Xem lớp đang tuyển"
+        "classesBtn": "Xem lớp đang tuyển",
+        "privacyNotice": "Cam kết bảo mật thông tin & Tư vấn đúng năng lực không chèo kéo"
+      },
+      "modal": {
+        "badge1on1": "Tư vấn 1-1",
+        "classPrefix": "Lớp: ",
+        "title": "Đăng Ký Tư Vấn Khóa Học",
+        "fullName": "Họ và tên của bạn",
+        "fullNamePlaceholder": "Ví dụ: Nguyễn Văn A",
+        "phone": "Số điện thoại / Zalo",
+        "phonePlaceholder": "Ví dụ: 036 559 2895",
+        "note": "Ghi chú thêm (Mục tiêu điểm số / Khung giờ rảnh)",
+        "notePlaceholder": "Chia sẻ thêm về trình độ hiện tại hoặc thắc mắc của bạn...",
+        "submitBtn": "Gửi yêu cầu nhận tư vấn",
+        "privacy": "Cam kết bảo mật thông tin & Liên hệ trong vòng 24h làm việc",
+        "successTitle": "Đã nhận thông tin thành công!",
+        "successMessage": "Cảm ơn {{name}}. Harry English House sẽ liên hệ qua số {{phone}} để tư vấn xếp lớp sớm nhất.",
+        "closeBtn": "Đóng cửa sổ",
+        "errorPhone": "Vui lòng nhập số điện thoại hoặc Zalo hợp lệ (tối thiểu 9 số)."
       },
       "sticky": {
         "consultBtn": "Nhận tư vấn",
@@ -1074,15 +1123,12 @@
         "organizer": "Bộ Giáo dục Đại học Malaysia & Education Malaysia Global Services (EMGS)"
       },
       "team": {
-        "harryRole": "Founder & Head Instructor",
+        "harryRole": "Founder",
         "harrySpecialty": "IELTS Academic • 8.0 IELTS",
         "vickyRole": "Senior English Instructor",
         "vickySpecialty": "IELTS Preparation • Giao Tiếp",
-        "aiRole": "Academic Advisor & Operations",
-        "aiSpecialty": "Tư vấn lộ trình • Chăm sóc học viên",
         "harryName": "Thầy Harry (Anh Khôi)",
-        "vickyName": "Ms. Vicky",
-        "aiName": "Ms. Ái"
+        "vickyName": "Ms. Vicky"
       },
       "moments": {
         "m1": "Lớp học tương tác chuyên sâu tại cơ sở Q7",
@@ -1245,24 +1291,24 @@
       "gal6Title": "Điểm 9.0 Tuyển sinh 10 Minh Anh",
       "gal6Tag": "Điểm 9.0",
       "gal6Type": "Kỳ thi Tuyển sinh 10",
-      "gal7Title": "Chứng nhận đào tạo chuyên môn",
-      "gal7Tag": "Chuyên môn",
-      "gal7Type": "Nghiệp vụ Giảng dạy",
-      "gal8Title": "Chứng nhận tham gia hội thảo sư phạm",
-      "gal8Tag": "Hội thảo",
-      "gal8Type": "Sư phạm Quốc tế",
-      "gal9Title": "Chứng chỉ đào tạo quốc tế",
-      "gal9Tag": "Quốc tế",
-      "gal9Type": "Chuyên ngành TESOL",
-      "gal10Title": "Chứng nhận đối tác học thuật",
-      "gal10Tag": "Đối tác",
-      "gal10Type": "Đối tác Khảo thí",
-      "gal11Title": "Chứng chỉ nghiệp vụ sư phạm",
-      "gal11Tag": "Sư phạm",
-      "gal11Type": "Đại học Sư phạm",
-      "gal12Title": "Chứng nhận tập huấn phương pháp",
-      "gal12Tag": "Tập huấn",
-      "gal12Type": "Phương pháp Giảng dạy",
+      "gal7Title": "Hội thảo Ready for Life: Identity",
+      "gal7Tag": "NatGeo Learning",
+      "gal7Type": "Chứng nhận Tham gia",
+      "gal8Title": "Hội nghị TESOLution: Unleash the Power of Voice",
+      "gal8Tag": "TESOLution",
+      "gal8Type": "Hội nghị Sư phạm",
+      "gal9Title": "Google Gemini Certified Educator",
+      "gal9Tag": "Google AI",
+      "gal9Type": "Chứng chỉ Quốc tế",
+      "gal10Title": "Duke University: Python & SQL Data Engineering",
+      "gal10Tag": "Duke University",
+      "gal10Type": "Chứng chỉ Chuyên môn",
+      "gal11Title": "Chứng chỉ Giảng dạy TESOL 120 Giờ",
+      "gal11Tag": "IOA TESOL",
+      "gal11Type": "Chứng chỉ Quốc tế",
+      "gal12Title": "Hội thảo NatGeo: Tranh biện Học thuật A1",
+      "gal12Tag": "NatGeo Learning",
+      "gal12Type": "Tập huấn Phương pháp",
       "fb1Author": "Hoài Phương & Nhật Tân",
       "fb2Author": "Vương Ngọc Diệp",
       "fb3Author": "Phụ huynh & Học viên",
@@ -2335,26 +2381,26 @@
       "p4Focus": "Cambridge IELTS 15-18 + Destination B2 (Unit 17-28: Inversions, Relative Clauses, Collocations)"
     },
     "certificates": {
-      "c1": "Chứng nhận Giáo viên Xuất sắc IDP IELTS",
-      "c2": "Chứng chỉ Giảng dạy Quốc tế TESOL",
-      "c3": "Hội nghị Giảng dạy Tiếng Anh Quốc tế VNSPEAK",
-      "c4": "Hội thảo Phương pháp Sư phạm Cambridge",
-      "c5": "Đối tác Đào tạo Chính thức IDP IELTS",
-      "c6": "Bảng điểm IELTS 8.0 Official Test Report",
-      "c7": "Bằng Cử nhân Sư phạm Tiếng Anh",
-      "c8": "Hội nghị Học thuật Quốc tế CamTESOL",
-      "c9": "Hội nghị Quốc tế VNTESOL",
-      "c10": "Chứng nhận Cố vấn Học vụ Xuất sắc",
-      "c11": "Chứng chỉ Nghiệp vụ Sư phạm Đại học Sư phạm",
-      "c12": "Khen thưởng Đào tạo Học viên Đạt Điểm Cao",
-      "c13": "Chứng nhận Hoàn thành Khóa Huấn luyện Chuyên sâu",
-      "c14": "Khen thưởng Giáo viên Nỗ lực Đóng góp",
-      "c15": "Chứng nhận Tham dự Tọa đàm Khảo thí Quốc tế",
-      "c16": "Chứng chỉ Bồi dưỡng Nghiệp vụ Giảng dạy Nâng cao",
-      "c17": "Chứng nhận Đối tác Đồng hành IDP Education",
-      "c18": "Thư Khen ngợi từ Tổ chức Khảo thí Quốc tế",
-      "c19": "Chứng nhận Chuyên gia Đào tạo Tiếng Anh Học thuật",
-      "c20": "Bằng khen Thành tích Đào tạo IELTS Xuất sắc"
+      "c1": "Chứng nhận Tham gia Hội thảo: Ready for Life - Identity (National Geographic Learning)",
+      "c2": "Chứng nhận Tham dự Hội nghị TESOLution: Khai phóng Sức mạnh Tiếng nói - Chuyển hóa Bản sắc Người học",
+      "c3": "Chứng chỉ Nhà giáo dục Google Gemini (Google for Education - Gemini Certified Educator)",
+      "c4": "Chứng chỉ Khóa học: Lập trình Python & SQL cho Kỹ thuật Dữ liệu (Đại học Duke & Coursera)",
+      "c5": "Chứng chỉ Giảng dạy Tiếng Anh Quốc tế 120 Giờ TESOL (International Open Academy)",
+      "c6": "Chứng nhận Hội thảo: Phương pháp Dàn dựng Tranh biện Học thuật Trình độ A1 (National Geographic Learning)",
+      "c7": "Chứng chỉ Hành nghề Giảng dạy Tiếng Anh Quốc tế TESOL/TEFL (Australian International TESOL)",
+      "c8": "Bằng khen Vinh danh Thành tích Giảng dạy Xuất sắc (ENGONOW & IELTS MASTER)",
+      "c9": "Chứng chỉ Chuyên sâu Giảng dạy Tiếng Anh Trẻ em 60 Giờ TEYL (TEFLUniversal)",
+      "c10": "Giấy khen Tri ân Giáo viên Xuất sắc (Windsor Essex Canadian English Center)",
+      "c11": "Chứng nhận Tham dự Ngày hội Macmillan Việt Nam: Chuyên đề Phát triển Bền vững (Macmillan Education)",
+      "c12": "Bằng khen Tình nguyện viên Diễn đàn & Triển lãm Đại học ASEAN 2025 (Bộ GD Malaysia & EMGS)",
+      "c13": "Chứng nhận Đào tạo Giảng viên IELTS: Train the Trainer 2022 (IDP Education Vietnam)",
+      "c14": "Chứng nhận Hội thảo Hội đồng Anh: Dẫn dắt Thay đổi & Trao quyền cho Giáo viên Tiếng Anh (British Council)",
+      "c15": "Chứng nhận Hội thảo Hội đồng Anh: Ứng dụng GenAI vào Phát triển Chuyên môn Giáo viên Ngôn ngữ (British Council)",
+      "c16": "Chứng nhận Hội thảo Hội đồng Anh: Tọa đàm Chuyên gia - Kỹ năng Tiếng Anh cho Thế giới Kết nối (British Council)",
+      "c17": "Chứng nhận Hội thảo Hội đồng Anh: Giảng dạy Tiếng Anh (ELT) và Phát triển Bền vững (British Council)",
+      "c18": "Chứng nhận Hội thảo Hội đồng Anh: Vai trò của Nhà giáo dục Ngôn ngữ trong Kỷ nguyên AI (British Council)",
+      "c19": "Chứng nhận Hội thảo Hội đồng Anh: Phát triển Kỹ năng Toàn cầu qua Kể chuyện cho Trẻ nhỏ (British Council)",
+      "c20": "Chứng nhận Hội thảo Hội đồng Anh: Dẫn dắt Đổi mới Lớp học & Cộng đồng Sư phạm Tiếng Anh (British Council)"
     },
     "media": {
       "collab1": "Hội nghị Hợp tác Học thuật & Đào tạo Quốc tế",

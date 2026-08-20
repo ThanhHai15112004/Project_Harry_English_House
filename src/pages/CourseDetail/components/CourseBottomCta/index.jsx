@@ -52,7 +52,7 @@ export default function CourseBottomCta({ course, onConsultClick, onViewClassesC
         {/* Small trust indicator */}
         <div className="mt-8 flex items-center justify-center gap-2 text-xs text-slate-400">
           <ShieldCheck className="w-4 h-4 text-emerald-400" />
-          <span>Cam kết bảo mật thông tin & Tư vấn đúng năng lực không chèo kéo</span>
+          <span>{t('pages.courseDetail.bottomCta.privacyNotice', 'Cam kết bảo mật thông tin & Tư vấn đúng năng lực không chèo kéo')}</span>
         </div>
 
       </div>

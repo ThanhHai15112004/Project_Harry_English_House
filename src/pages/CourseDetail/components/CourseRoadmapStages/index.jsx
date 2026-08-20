@@ -8,27 +8,42 @@ export default function CourseRoadmapStages({ course }) {
 
   if (!course) return null;
 
+  const courseIdKey = course.titleKey ? course.titleKey.replace('.title', '') : '';
+  const translatedRoadmap = courseIdKey ? t(`${courseIdKey}.roadmap`, { returnObjects: true }) : null;
+
   const defaultRoadmap = [
     {
-      stage: 'GIAI ĐOẠN 01',
-      title: 'Xây Dựng Nền Tảng & Phương Pháp Làm Bài',
-      duration: 'Tuần 1–4',
-      desc: 'Tập trung chuẩn hóa ngữ pháp, bổ sung 500 từ vựng học thuật cốt lõi và làm quen với format các dạng bài thi.',
-      focus: ['Ngữ pháp & Từ vựng', 'Chiến thuật Skimming/Scanning', 'Chuẩn hóa phát âm IPA']
+      stage: t('pages.courseDetail.roadmap.defaultS1Stage', 'GIAI ĐOẠN 01'),
+      title: t('pages.courseDetail.roadmap.defaultS1Title', 'Xây Dựng Nền Tảng & Phương Pháp Làm Bài'),
+      duration: t('pages.courseDetail.roadmap.defaultS1Duration', 'Tuần 1–4'),
+      desc: t('pages.courseDetail.roadmap.defaultS1Desc', 'Tập trung chuẩn hóa ngữ pháp, bổ sung 500 từ vựng học thuật cốt lõi và làm quen với format các dạng bài thi.'),
+      focus: [
+        t('pages.courseDetail.roadmap.defaultF1', 'Ngữ pháp & Từ vựng'),
+        t('pages.courseDetail.roadmap.defaultF2', 'Chiến thuật Skimming/Scanning'),
+        t('pages.courseDetail.roadmap.defaultF3', 'Chuẩn hóa phát âm IPA')
+      ]
     },
     {
-      stage: 'GIAI ĐOẠN 02',
-      title: 'Phát Triển Kỹ Năng & Tăng Tốc Xử Lý Đề',
-      duration: 'Tuần 5–8',
-      desc: 'Rèn luyện kỹ năng viết Task 1 & Task 2 theo cấu trúc chuẩn, thực hành phản xạ Speaking theo chủ đề và chấm chữa 1-1.',
-      focus: ['Writing Task 1 & 2', 'Speaking Part 1-2-3', 'Reading Matching Headings']
+      stage: t('pages.courseDetail.roadmap.defaultS2Stage', 'GIAI ĐOẠN 02'),
+      title: t('pages.courseDetail.roadmap.defaultS2Title', 'Phát Triển Kỹ Năng & Tăng Tốc Xử Lý Đề'),
+      duration: t('pages.courseDetail.roadmap.defaultS2Duration', 'Tuần 5–8'),
+      desc: t('pages.courseDetail.roadmap.defaultS2Desc', 'Rèn luyện kỹ năng viết Task 1 & Task 2 theo cấu trúc chuẩn, thực hành phản xạ Speaking theo chủ đề và chấm chữa 1-1.'),
+      focus: [
+        t('pages.courseDetail.roadmap.defaultF4', 'Writing Task 1 & 2'),
+        t('pages.courseDetail.roadmap.defaultF5', 'Speaking Part 1-2-3'),
+        t('pages.courseDetail.roadmap.defaultF6', 'Reading Matching Headings')
+      ]
     },
     {
-      stage: 'GIAI ĐOẠN 03',
-      title: 'Luyện Đề Thực Chiến & Tổng Duyệt Phòng Thi',
-      duration: 'Tuần 9–12',
-      desc: 'Giải đề bấm giờ sát với áp lực phòng thi thật, tham gia thi thử Mock Test và hoàn thiện các lỗi sai cuối cùng.',
-      focus: ['Luyện đề Cambridge mới nhất', 'Chấm chữa 1-1 với Thầy Harry', 'Chiến lược quản lý thời gian']
+      stage: t('pages.courseDetail.roadmap.defaultS3Stage', 'GIAI ĐOẠN 03'),
+      title: t('pages.courseDetail.roadmap.defaultS3Title', 'Luyện Đề Thực Chiến & Tổng Duyệt Phòng Thi'),
+      duration: t('pages.courseDetail.roadmap.defaultS3Duration', 'Tuần 9–12'),
+      desc: t('pages.courseDetail.roadmap.defaultS3Desc', 'Giải đề bấm giờ sát với áp lực phòng thi thật, tham gia thi thử Mock Test và hoàn thiện các lỗi sai cuối cùng.'),
+      focus: [
+        t('pages.courseDetail.roadmap.defaultF7', 'Luyện đề Cambridge mới nhất'),
+        t('pages.courseDetail.roadmap.defaultF8', 'Chấm chữa 1-1 với Thầy Harry'),
+        t('pages.courseDetail.roadmap.defaultF9', 'Chiến lược quản lý thời gian')
+      ]
     }
   ];
 
@@ -41,26 +56,36 @@ export default function CourseRoadmapStages({ course }) {
     return translated;
   };
 
-  const rawList = (course.roadmap && course.roadmap.length > 0) ? course.roadmap : defaultRoadmap;
+  let roadmap = [];
+  if (Array.isArray(translatedRoadmap) && translatedRoadmap.length > 0 && typeof translatedRoadmap[0] === 'object') {
+    roadmap = translatedRoadmap.map((item, idx) => ({
+      stage: item.stage || `STAGE 0${idx + 1}`,
+      title: item.title || '',
+      duration: item.duration || '',
+      desc: item.desc || '',
+      focus: Array.isArray(item.focus) ? item.focus : []
+    }));
+  } else {
+    const rawList = (course.roadmap && course.roadmap.length > 0) ? course.roadmap : defaultRoadmap;
+    roadmap = rawList.map((item, idx) => {
+      const fallbackItem = defaultRoadmap[idx] || defaultRoadmap[0];
+      
+      let resolvedFocus = fallbackItem.focus;
+      if (item.focusKeys && item.focusKeys.length > 0) {
+        resolvedFocus = item.focusKeys.map((fk, fIdx) => getSafeString(fk, fallbackItem.focus?.[fIdx] || fk));
+      } else if (item.focus && item.focus.length > 0) {
+        resolvedFocus = item.focus;
+      }
 
-  const roadmap = rawList.map((item, idx) => {
-    const fallbackItem = defaultRoadmap[idx] || defaultRoadmap[0];
-    
-    let resolvedFocus = fallbackItem.focus;
-    if (item.focusKeys && item.focusKeys.length > 0) {
-      resolvedFocus = item.focusKeys.map((fk, fIdx) => getSafeString(fk, fallbackItem.focus?.[fIdx] || fk));
-    } else if (item.focus && item.focus.length > 0) {
-      resolvedFocus = item.focus;
-    }
-
-    return {
-      stage: getSafeString(item.stageKey, item.stage || fallbackItem.stage || `GIAI ĐOẠN 0${idx + 1}`),
-      title: getSafeString(item.titleKey, item.title || fallbackItem.title),
-      duration: getSafeString(item.durationKey, item.duration || fallbackItem.duration),
-      desc: getSafeString(item.descKey, item.desc || fallbackItem.desc),
-      focus: resolvedFocus
-    };
-  });
+      return {
+        stage: getSafeString(item.stageKey, item.stage || fallbackItem.stage || `GIAI ĐOẠN 0${idx + 1}`),
+        title: getSafeString(item.titleKey, item.title || fallbackItem.title),
+        duration: getSafeString(item.durationKey, item.duration || fallbackItem.duration),
+        desc: getSafeString(item.descKey, item.desc || fallbackItem.desc),
+        focus: resolvedFocus
+      };
+    });
+  }
 
   const currentItem = roadmap[activeStage] || roadmap[0];
 

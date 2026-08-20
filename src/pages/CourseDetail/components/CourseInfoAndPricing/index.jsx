@@ -19,6 +19,10 @@ export default function CourseInfoAndPricing({ course, onConsultClick }) {
 
   const pricing = course.pricingInfo || {};
 
+  const courseIdKey = course.titleKey ? course.titleKey.replace('.title', '') : '';
+  const translatedPricing = courseIdKey ? t(`${courseIdKey}.pricingInfo`, { returnObjects: true }) : null;
+  const translatedIncludes = translatedPricing && Array.isArray(translatedPricing.includes) ? translatedPricing.includes : null;
+
   const getTranslatedValue = (key, fallback) => {
     if (!key) return fallback;
     const translated = t(key);
@@ -29,11 +33,13 @@ export default function CourseInfoAndPricing({ course, onConsultClick }) {
   };
 
   const defaultIncludes = [
-    'Giáo trình & bộ tài liệu độc quyền từ NXB uy tín',
-    'Chấm chữa bài Writing Task 1-2 & Sửa phát âm Speaking 1-1',
-    'Thi thử Mock Test định kỳ theo chuẩn đề thi thật',
-    'Voucher ưu đãi 100.000đ khi đăng ký thi IELTS tại IDP'
+    t('pages.courseDetail.infoPricing.inc1', 'Giáo trình & bộ tài liệu độc quyền từ NXB uy tín'),
+    t('pages.courseDetail.infoPricing.inc2', 'Chấm chữa bài Writing Task 1-2 & Sửa phát âm Speaking 1-1'),
+    t('pages.courseDetail.infoPricing.inc3', 'Thi thử Mock Test định kỳ theo chuẩn đề thi thật'),
+    t('pages.courseDetail.infoPricing.inc4', 'Voucher ưu đãi 100.000đ khi đăng ký thi IELTS tại IDP')
   ];
+
+  const includesList = (translatedIncludes && translatedIncludes.length > 0) ? translatedIncludes : defaultIncludes;
 
   const infoRows = [
     { id: 'duration', label: t('pages.courses.durationLabel', 'Thời lượng:'), value: t(course.durationKey), icon: Clock },
@@ -43,9 +49,9 @@ export default function CourseInfoAndPricing({ course, onConsultClick }) {
     { id: 'guarantee', label: t('programs.guaranteeLabel', 'Cam kết đầu ra:'), value: t(course.guaranteeKey), icon: ShieldCheck }
   ];
 
-  const tuitionFeeText = getTranslatedValue(pricing.tuitionFeeKey, 'Học phí trọn gói minh bạch');
-  const perMonthText = pricing.perMonthKey ? getTranslatedValue(pricing.perMonthKey, 'Hỗ trợ chia kỳ linh hoạt') : null;
-  const totalSessionsText = getTranslatedValue(pricing.totalSessionsKey, t(course.durationKey));
+  const tuitionFeeText = (translatedPricing && translatedPricing.tuitionFee) || getTranslatedValue(pricing.tuitionFeeKey, '6,810,000 VND');
+  const perMonthText = (translatedPricing && translatedPricing.perMonth) || (pricing.perMonthKey ? getTranslatedValue(pricing.perMonthKey, '2,270,000 VND/tháng') : null);
+  const totalSessionsText = (translatedPricing && translatedPricing.totalSessions) || getTranslatedValue(pricing.totalSessionsKey, t(course.durationKey));
 
   return (
     <section className="bg-white py-16 sm:py-20 border-b border-academic-border" id="course-pricing">
@@ -144,15 +150,12 @@ export default function CourseInfoAndPricing({ course, onConsultClick }) {
                   {t('pages.courseDetail.infoPricing.privilegesTitle', 'Quyền lợi bao gồm:')}
                 </h5>
                 <ul className="space-y-2.5">
-                  {(pricing.includesKeys && pricing.includesKeys.length > 0 ? pricing.includesKeys : defaultIncludes).map((inc, index) => {
-                    const incText = typeof inc === 'string' && inc.startsWith('db.') ? getTranslatedValue(inc, defaultIncludes[index] || inc) : inc;
-                    return (
-                      <li key={typeof inc === 'string' ? inc : `inc-${index}`} className="flex items-start gap-2.5 text-xs sm:text-sm text-academic-heading">
-                        <CheckCircle2 className="w-4 h-4 text-cta shrink-0 mt-0.5" />
-                        <span className="leading-snug">{incText}</span>
-                      </li>
-                    );
-                  })}
+                  {includesList.map((incText, index) => (
+                    <li key={typeof incText === 'string' ? incText : `inc-${index}`} className="flex items-start gap-2.5 text-xs sm:text-sm text-academic-heading">
+                      <CheckCircle2 className="w-4 h-4 text-cta shrink-0 mt-0.5" />
+                      <span className="leading-snug">{incText}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
 

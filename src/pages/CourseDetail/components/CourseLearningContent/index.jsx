@@ -7,30 +7,31 @@ export default function CourseLearningContent({ course }) {
 
   if (!course) return null;
 
+  const courseIdKey = course.titleKey ? course.titleKey.replace('.title', '') : '';
+  const translatedSkills = courseIdKey ? t(`${courseIdKey}.skillsContent`, { returnObjects: true }) : null;
+
   const defaultSkills = {
     reading: [
-      'Luyện kỹ thuật Skimming & Scanning nắm bắt nhanh ý chính',
-      'Xử lý dạng bài câu hỏi khó và phân biệt bẫy thông tin',
-      'Mở rộng vốn từ vựng học thuật theo chủ đề trọng tâm'
+      t('pages.courseDetail.learningContent.defaultR1', 'Luyện kỹ thuật Skimming & Scanning nắm bắt nhanh ý chính'),
+      t('pages.courseDetail.learningContent.defaultR2', 'Xử lý dạng bài câu hỏi khó và phân biệt bẫy thông tin'),
+      t('pages.courseDetail.learningContent.defaultR3', 'Mở rộng vốn từ vựng học thuật theo chủ đề trọng tâm')
     ],
     listening: [
-      'Luyện tai nghe nhận diện ngữ điệu, nối âm và biến âm',
-      'Chiến lược bắt từ khóa và xử lý thông tin gây nhiễu',
-      'Rèn phản xạ nghe hiểu hội thoại tốc độ tự nhiên'
+      t('pages.courseDetail.learningContent.defaultL1', 'Luyện tai nghe nhận diện ngữ điệu, nối âm và biến âm'),
+      t('pages.courseDetail.learningContent.defaultL2', 'Chiến lược bắt từ khóa và xử lý thông tin gây nhiễu'),
+      t('pages.courseDetail.learningContent.defaultL3', 'Rèn phản xạ nghe hiểu hội thoại tốc độ tự nhiên')
     ],
     writing: [
-      'Chuẩn hóa cấu trúc câu, ngữ pháp và tư duy lập luận',
-      'Hướng dẫn triển khai dàn ý mạch lạc theo từng dạng bài',
-      'Chấm chữa chi tiết từng câu văn và nhận xét 1-1'
+      t('pages.courseDetail.learningContent.defaultW1', 'Chuẩn hóa cấu trúc câu, ngữ pháp và tư duy lập luận'),
+      t('pages.courseDetail.learningContent.defaultW2', 'Hướng dẫn triển khai dàn ý mạch lạc theo từng dạng bài'),
+      t('pages.courseDetail.learningContent.defaultW3', 'Chấm chữa chi tiết từng câu văn và nhận xét 1-1')
     ],
     speaking: [
-      'Chuẩn hóa 44 âm trong bảng phiên âm quốc tế IPA',
-      'Luyện phản xạ trả lời tự nhiên theo chủ đề thi thực tế',
-      'Sửa lỗi phát âm, ngập ngừng và tăng độ trôi chảy'
+      t('pages.courseDetail.learningContent.defaultS1', 'Chuẩn hóa 44 âm trong bảng phiên âm quốc tế IPA'),
+      t('pages.courseDetail.learningContent.defaultS2', 'Luyện phản xạ trả lời tự nhiên theo chủ đề thi thực tế'),
+      t('pages.courseDetail.learningContent.defaultS3', 'Sửa lỗi phát âm, ngập ngừng và tăng độ trôi chảy')
     ]
   };
-
-  const rawSkills = course.skillsContent || defaultSkills;
 
   const resolveSkillItem = (item, skillType, index) => {
     if (typeof item === 'string') {
@@ -43,6 +44,17 @@ export default function CourseLearningContent({ course }) {
     return defaultSkills[skillType]?.[index] || String(item);
   };
 
+  const getSkillsForType = (skillType) => {
+    if (translatedSkills && Array.isArray(translatedSkills[skillType]) && translatedSkills[skillType].length > 0) {
+      return translatedSkills[skillType];
+    }
+    const rawList = course.skillsContent?.[skillType];
+    if (Array.isArray(rawList) && rawList.length > 0) {
+      return rawList.map((item, idx) => resolveSkillItem(item, skillType, idx));
+    }
+    return defaultSkills[skillType] || [];
+  };
+
   const skillCards = [
     {
       id: 'reading',
@@ -50,7 +62,7 @@ export default function CourseLearningContent({ course }) {
       subtitleKey: 'pages.courseDetail.learningContent.readingSubtitle',
       icon: BookOpen,
       badgeBg: 'bg-academic-light-blue text-cta border-academic-primary-light',
-      items: (rawSkills.reading || defaultSkills.reading).map((item, idx) => resolveSkillItem(item, 'reading', idx))
+      items: getSkillsForType('reading')
     },
     {
       id: 'listening',
@@ -58,7 +70,7 @@ export default function CourseLearningContent({ course }) {
       subtitleKey: 'pages.courseDetail.learningContent.listeningSubtitle',
       icon: Headphones,
       badgeBg: 'bg-academic-light-blue text-primary border-academic-primary-light',
-      items: (rawSkills.listening || defaultSkills.listening).map((item, idx) => resolveSkillItem(item, 'listening', idx))
+      items: getSkillsForType('listening')
     },
     {
       id: 'writing',
@@ -66,7 +78,7 @@ export default function CourseLearningContent({ course }) {
       subtitleKey: 'pages.courseDetail.learningContent.writingSubtitle',
       icon: PenTool,
       badgeBg: 'bg-emerald-50 text-emerald-600 border-emerald-200',
-      items: (rawSkills.writing || defaultSkills.writing).map((item, idx) => resolveSkillItem(item, 'writing', idx))
+      items: getSkillsForType('writing')
     },
     {
       id: 'speaking',
@@ -74,7 +86,7 @@ export default function CourseLearningContent({ course }) {
       subtitleKey: 'pages.courseDetail.learningContent.speakingSubtitle',
       icon: Mic,
       badgeBg: 'bg-academic-gold-light text-achievement border-amber-200',
-      items: (rawSkills.speaking || defaultSkills.speaking).map((item, idx) => resolveSkillItem(item, 'speaking', idx))
+      items: getSkillsForType('speaking')
     }
   ];
 

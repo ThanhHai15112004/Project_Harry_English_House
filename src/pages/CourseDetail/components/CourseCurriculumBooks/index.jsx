@@ -7,24 +7,27 @@ export default function CourseCurriculumBooks({ course }) {
 
   if (!course) return null;
 
+  const courseIdKey = course.titleKey ? course.titleKey.replace('.title', '') : '';
+  const translatedBooks = courseIdKey ? t(`${courseIdKey}.books`, { returnObjects: true }) : null;
+
   const defaultBooks = [
     {
       name: 'Mindset for IELTS Level 2',
       publisher: 'Cambridge University Press',
-      phase: 'Giai đoạn 1 & 2',
-      desc: 'Giáo trình chính thống biên soạn bởi các giám khảo khảo thí Cambridge với hệ thống bài học chuyên sâu 4 kỹ năng.'
+      phase: t('pages.courseDetail.curriculum.defaultPhase1', 'Giai đoạn 1 & 2'),
+      desc: t('pages.courseDetail.curriculum.defaultDesc1', 'Giáo trình chính thống biên soạn bởi các giám khảo khảo thí Cambridge với hệ thống bài học chuyên sâu 4 kỹ năng.')
     },
     {
       name: 'Destination B2: Grammar & Vocabulary',
       publisher: 'Macmillan Education',
-      phase: 'Xuyên suốt khóa học',
-      desc: 'Tài liệu vàng củng cố ngữ pháp học thuật nâng cao, cụm từ cố định collocations và từ vựng band B2/C1.'
+      phase: t('pages.courseDetail.curriculum.defaultPhase2', 'Xuyên suốt khóa học'),
+      desc: t('pages.courseDetail.curriculum.defaultDesc2', 'Tài liệu vàng củng cố ngữ pháp học thuật nâng cao, cụm từ cố định collocations và từ vựng band B2/C1.')
     },
     {
       name: 'Cambridge IELTS Practice Tests 16–18',
       publisher: 'Cambridge Assessment English',
-      phase: 'Giai đoạn 3 (Luyện đề)',
-      desc: 'Bộ đề thi thật chuẩn format IDP/BC phục vụ luyện giải đề bấm giờ và tổng duyệt chiến thuật phòng thi.'
+      phase: t('pages.courseDetail.curriculum.defaultPhase3', 'Giai đoạn 3 (Luyện đề)'),
+      desc: t('pages.courseDetail.curriculum.defaultDesc3', 'Bộ đề thi thật chuẩn format IDP/BC phục vụ luyện giải đề bấm giờ và tổng duyệt chiến thuật phòng thi.')
     }
   ];
 
@@ -37,17 +40,21 @@ export default function CourseCurriculumBooks({ course }) {
     return translated;
   };
 
-  const rawList = (course.books && course.books.length > 0) ? course.books : defaultBooks;
-
-  const books = rawList.map((book, idx) => {
-    const fallbackBook = defaultBooks[idx] || defaultBooks[0];
-    return {
-      name: getSafeString(book.nameKey, book.name || fallbackBook.name),
-      publisher: getSafeString(book.publisherKey, book.publisher || fallbackBook.publisher),
-      phase: getSafeString(book.phaseKey, book.phase || fallbackBook.phase),
-      desc: getSafeString(book.descKey, book.desc || fallbackBook.desc)
-    };
-  });
+  let books = [];
+  if (Array.isArray(translatedBooks) && translatedBooks.length > 0 && typeof translatedBooks[0] === 'object') {
+    books = translatedBooks;
+  } else {
+    const rawList = (course.books && course.books.length > 0) ? course.books : defaultBooks;
+    books = rawList.map((book, idx) => {
+      const fallbackBook = defaultBooks[idx] || defaultBooks[0];
+      return {
+        name: getSafeString(book.nameKey, book.name || fallbackBook.name),
+        publisher: getSafeString(book.publisherKey, book.publisher || fallbackBook.publisher),
+        phase: getSafeString(book.phaseKey, book.phase || fallbackBook.phase),
+        desc: getSafeString(book.descKey, book.desc || fallbackBook.desc)
+      };
+    });
+  }
 
   return (
     <section className="bg-white py-16 sm:py-20 border-b border-academic-border">
@@ -104,9 +111,9 @@ export default function CourseCurriculumBooks({ course }) {
 
               {/* Bottom Tag */}
               <div className="mt-6 pt-4 border-t border-academic-border flex items-center justify-between text-xs text-academic-muted font-medium">
-                <span>Giáo trình chính khóa</span>
+                <span>{t('pages.courseDetail.curriculum.officialBook', 'Giáo trình chính khóa')}</span>
                 <span className="text-emerald-700 font-bold bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
-                  Đã bao gồm trong học phí
+                  {t('pages.courseDetail.curriculum.includedInTuition', 'Đã bao gồm trong học phí')}
                 </span>
               </div>
             </div>

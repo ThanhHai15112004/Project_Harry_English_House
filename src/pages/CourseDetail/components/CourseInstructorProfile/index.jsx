@@ -54,7 +54,7 @@ export default function CourseInstructorProfile({ course }) {
               
               <div className="flex flex-wrap items-center gap-2">
                 <span className="px-2.5 py-0.5 rounded-md text-xs font-extrabold bg-[#EAF2FF] text-[#1746A2]">
-                  Founder & Head Instructor
+                  Founder
                 </span>
                 <span className="px-2.5 py-0.5 rounded-md text-xs font-bold bg-emerald-50 text-emerald-700">
                   8+ Năm Kinh Nghiệm

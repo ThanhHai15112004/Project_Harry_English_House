@@ -19,7 +19,7 @@
     "academicPhoto": "/src/assets/Ministry-of-Higher-Education-2025/thuyet-trinh-1.jpg",
     "classroomPhoto": "/src/assets/ki-niem/ki-niem-1.jpg",
     "contact": {
-      "hotline": "0938 611 919 (Ms Ái)",
+      "hotline": "036 559 2895",
       "email": "khoi.harryenglishhouse@gmail.com",
       "facebookFanpage": "https://www.facebook.com/profile.php?id=61563315172210",
       "linkedin": "https://www.linkedin.com/in/harrykhoile",
@@ -169,14 +169,6 @@
       "specialtyKey": "db.teacher.team.vickySpecialty",
       "avatar": "/src/assets/ki-niem/ki-niem-6.jpg",
       "nameKey": "db.teacher.team.vickyName"
-    },
-    {
-      "id": "ai",
-      "name": "Ms. Ái",
-      "roleKey": "db.teacher.team.aiRole",
-      "specialtyKey": "db.teacher.team.aiSpecialty",
-      "avatar": "/src/assets/ki-niem/ki-niem-7.jpg",
-      "nameKey": "db.teacher.team.aiName"
     }
   ],
   "moments": [

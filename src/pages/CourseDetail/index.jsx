@@ -3,7 +3,6 @@ import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BookOpen, ArrowLeft, X, CheckCircle2, Phone, User, Send } from 'lucide-react';
 import { MainLayout } from '@/components/layout';
-import { Button } from '@/components/common';
 import { useCourseDetail, useDocumentTitle, ROUTES, APP_INFO } from '@/core';
 
 import {
@@ -69,7 +68,7 @@ export const CourseDetailPage = () => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     if (!formData.phone || formData.phone.trim().length < 9) {
-      setPhoneError('Vui lòng nhập số điện thoại hoặc Zalo hợp lệ (tối thiểu 9 số).');
+      setPhoneError(t('pages.courseDetail.modal.errorPhone', 'Vui lòng nhập số điện thoại hoặc Zalo hợp lệ (tối thiểu 9 số).'));
       return;
     }
     setPhoneError('');
@@ -90,10 +89,12 @@ export const CourseDetailPage = () => {
           <p className="text-sm sm:text-base text-slate-600 mt-2 mb-8 leading-relaxed">
             {t('pages.courseDetail.notFoundDesc', 'Khóa học bạn tìm kiếm không tồn tại hoặc đã được chuyển sang lộ trình mới.')}
           </p>
-          <Link to={ROUTES.COURSES}>
-            <Button variant="primary" icon={<ArrowLeft size={16} />}>
-              {t('pages.courseDetail.backToCourses', 'Quay lại danh mục khóa học')}
-            </Button>
+          <Link
+            to={ROUTES.COURSES}
+            className="inline-flex items-center gap-2 px-6 py-3 bg-[#2563EB] text-white font-bold text-sm rounded-xl hover:bg-[#1D4ED8] transition-colors"
+          >
+            <ArrowLeft size={16} />
+            <span>{t('pages.courseDetail.backToCourses', 'Quay lại danh mục khóa học')}</span>
           </Link>
         </div>
       </MainLayout>
@@ -142,7 +143,7 @@ export const CourseDetailPage = () => {
       {/* 11. Lớp Đang Tuyển (#FFFFFF) */}
       <CourseOpenClasses 
         course={course}
-        onSelectClass={(cls) => handleOpenConsultModal(cls)}
+        onSelectClass={handleOpenConsultModal}
         onConsultClick={() => handleOpenConsultModal()}
       />
 
@@ -160,12 +161,13 @@ export const CourseDetailPage = () => {
       <CourseStickyBars 
         course={course}
         onConsultClick={() => handleOpenConsultModal()}
+        onViewClassesClick={handleScrollToClasses}
       />
 
       {/* Consultation Modal */}
       {isModalOpen && (
         <div 
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-[#10233F]/70 backdrop-blur-xs animate-in fade-in duration-200"
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs animate-fadeIn"
           role="dialog"
           aria-modal="true"
           aria-labelledby="modal-title"
@@ -182,7 +184,7 @@ export const CourseDetailPage = () => {
               type="button"
               onClick={handleCloseModal}
               className="absolute top-4 right-4 w-9 h-9 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-500 hover:text-slate-800 flex items-center justify-center transition-colors cursor-pointer"
-              aria-label="Đóng cửa sổ"
+              aria-label={t('pages.courseDetail.modal.closeBtn', 'Đóng cửa sổ')}
             >
               <X size={18} />
             </button>
@@ -191,17 +193,17 @@ export const CourseDetailPage = () => {
               <div>
                 <div className="flex items-center gap-2 mb-2">
                   <span className="px-2.5 py-0.5 rounded text-[11px] font-bold uppercase bg-[#EAF2FF] text-[#1746A2]">
-                    Tư vấn 1-1
+                    {t('pages.courseDetail.modal.badge1on1', 'Tư vấn 1-1')}
                   </span>
                   {selectedClass && (
                     <span className="px-2 py-0.5 rounded text-[11px] font-semibold bg-emerald-50 text-emerald-700">
-                      Lớp: {selectedClass.className}
+                      {t('pages.courseDetail.modal.classPrefix', 'Lớp: ')}{selectedClass.className}
                     </span>
                   )}
                 </div>
 
                 <h3 id="modal-title" className="text-xl sm:text-2xl font-black text-[#10233F] mb-1">
-                  Đăng Ký Tư Vấn Khóa Học
+                  {t('pages.courseDetail.modal.title', 'Đăng Ký Tư Vấn Khóa Học')}
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 mb-6">
                   {courseTitle}
@@ -210,14 +212,14 @@ export const CourseDetailPage = () => {
                 <form onSubmit={handleFormSubmit} className="space-y-4">
                   <div>
                     <label htmlFor="course-modal-fullname" className="block text-xs font-bold text-slate-700 uppercase mb-1">
-                      Họ và tên của bạn <span className="text-red-500">*</span>
+                      {t('pages.courseDetail.modal.fullName', 'Họ và tên của bạn')} <span className="text-red-500">*</span>
                     </label>
                     <div className="relative">
                       <input
                         id="course-modal-fullname"
                         type="text"
                         required
-                        placeholder="Ví dụ: Nguyễn Văn A"
+                        placeholder={t('pages.courseDetail.modal.fullNamePlaceholder', 'Ví dụ: Nguyễn Văn A')}
                         value={formData.fullName}
                         onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                         className="w-full px-3.5 py-2.5 pl-10 rounded-xl border border-slate-300 text-sm focus:outline-hidden focus:ring-2 focus:ring-[#2563EB] focus:border-transparent transition-all"
@@ -228,14 +230,14 @@ export const CourseDetailPage = () => {
 
                   <div>
                     <label htmlFor="course-modal-phone" className="block text-xs font-bold text-slate-700 uppercase mb-1">
-                      Số điện thoại / Zalo <span className="text-red-500">*</span>
+                      {t('pages.courseDetail.modal.phone', 'Số điện thoại / Zalo')} <span className="text-red-500">*</span>
                     </label>
                     <div className="relative">
                       <input
                         id="course-modal-phone"
                         type="tel"
                         required
-                        placeholder="Ví dụ: 0938 611 919"
+                        placeholder={t('pages.courseDetail.modal.phonePlaceholder', 'Ví dụ: 036 559 2895')}
                         value={formData.phone}
                         onChange={(e) => {
                           setFormData({ ...formData, phone: e.target.value });
@@ -256,12 +258,12 @@ export const CourseDetailPage = () => {
 
                   <div>
                     <label htmlFor="course-modal-note" className="block text-xs font-bold text-slate-700 uppercase mb-1">
-                      Ghi chú thêm (Mục tiêu điểm số / Khung giờ rảnh)
+                      {t('pages.courseDetail.modal.note', 'Ghi chú thêm (Mục tiêu điểm số / Khung giờ rảnh)')}
                     </label>
                     <textarea
                       id="course-modal-note"
                       rows={2}
-                      placeholder="Chia sẻ thêm về trình độ hiện tại hoặc thắc mắc của bạn..."
+                      placeholder={t('pages.courseDetail.modal.notePlaceholder', 'Chia sẻ thêm về trình độ hiện tại hoặc thắc mắc của bạn...')}
                       value={formData.note}
                       onChange={(e) => setFormData({ ...formData, note: e.target.value })}
                       className="w-full px-3.5 py-2 rounded-xl border border-slate-300 text-sm focus:outline-hidden focus:ring-2 focus:ring-[#2563EB] focus:border-transparent transition-all"
@@ -272,12 +274,12 @@ export const CourseDetailPage = () => {
                     type="submit"
                     className="w-full mt-2 py-3 px-6 bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-bold text-sm sm:text-base rounded-xl shadow-md hover:shadow-lg transition-all duration-200 cursor-pointer flex items-center justify-center gap-2"
                   >
-                    <span>Gửi yêu cầu nhận tư vấn</span>
+                    <span>{t('pages.courseDetail.modal.submitBtn', 'Gửi yêu cầu nhận tư vấn')}</span>
                     <Send size={16} />
                   </button>
 
                   <p className="text-[11px] text-center text-slate-400 font-medium">
-                    Cam kết bảo mật thông tin & Liên hệ trong vòng 24h làm việc
+                    {t('pages.courseDetail.modal.privacy', 'Cam kết bảo mật thông tin & Liên hệ trong vòng 24h làm việc')}
                   </p>
                 </form>
               </div>
@@ -287,17 +289,17 @@ export const CourseDetailPage = () => {
                   <CheckCircle2 size={32} />
                 </div>
                 <h4 className="text-xl font-black text-[#10233F] mb-2">
-                  Đã nhận thông tin thành công!
+                  {t('pages.courseDetail.modal.successTitle', 'Đã nhận thông tin thành công!')}
                 </h4>
                 <p className="text-sm text-slate-600 leading-relaxed max-w-sm mx-auto mb-6">
-                  Cảm ơn <strong>{formData.fullName}</strong>. Harry English House sẽ liên hệ qua số <strong>{formData.phone}</strong> để tư vấn xếp lớp sớm nhất.
+                  {t('pages.courseDetail.modal.successMessage', { name: formData.fullName, phone: formData.phone })}
                 </p>
                 <button
                   type="button"
                   onClick={handleCloseModal}
                   className="px-6 py-2.5 bg-[#2563EB] text-white font-bold text-sm rounded-xl cursor-pointer"
                 >
-                  Đóng cửa sổ
+                  {t('pages.courseDetail.modal.closeBtn', 'Đóng cửa sổ')}
                 </button>
               </div>
             )}

@@ -165,7 +165,7 @@ export const EducationAndCertificates = ({ educationData, certificates = [], onO
                       {t(cert.titleKey)}
                     </p>
                     <span className="inline-block text-[10px] text-primary dark:text-sky-400 font-bold">
-                      Chứng nhận Chuyên môn IDP / TESOL
+                      {t('pages.about.education.certBadge', 'Chứng nhận Chuyên môn IDP / TESOL')}
                     </span>
                   </div>
                 </button>

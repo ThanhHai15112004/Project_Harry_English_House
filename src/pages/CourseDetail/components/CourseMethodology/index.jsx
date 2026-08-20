@@ -9,9 +9,9 @@ export default function CourseMethodology({ course }) {
     {
       num: '01',
       icon: Users,
-      title: t('pages.courseDetail.methodology.p1Title', 'Lớp học nhóm nhỏ (6–10 bạn)'),
+      title: t('pages.courseDetail.methodology.p1Title', 'Lớp học nhóm nhỏ (2–10 bạn)'),
       desc: t('pages.courseDetail.methodology.p1Desc', 'Tối đa hóa thời lượng tương tác phản xạ 2 chiều giữa giảng viên và từng học viên.'),
-      badge: 'Tương tác cao',
+      badge: t('pages.courseDetail.methodology.b1', 'Tương tác cao'),
       badgeColor: 'bg-academic-light-blue text-cta',
       borderAccent: 'border-t-cta',
     },
@@ -20,7 +20,7 @@ export default function CourseMethodology({ course }) {
       icon: FileCheck2,
       title: t('pages.courseDetail.methodology.p2Title', 'Sửa bài trực tiếp 1-1'),
       desc: t('pages.courseDetail.methodology.p2Desc', 'Chấm chữa bài Writing Task 1-2 và chỉnh phát âm Speaking chi tiết từng buổi học.'),
-      badge: 'Chuyên sâu 1-1',
+      badge: t('pages.courseDetail.methodology.b2', 'Chuyên sâu 1-1'),
       badgeColor: 'bg-academic-light-blue text-primary',
       borderAccent: 'border-t-primary',
     },
@@ -29,7 +29,7 @@ export default function CourseMethodology({ course }) {
       icon: ClipboardList,
       title: t('pages.courseDetail.methodology.p3Title', 'Bài tập sau buổi học'),
       desc: t('pages.courseDetail.methodology.p3Desc', 'Hệ thống bài tập củng cố kiến thức có phản hồi và nhận xét cụ thể từ giảng viên.'),
-      badge: 'Kèm cặp sát',
+      badge: t('pages.courseDetail.methodology.b3', 'Kèm cặp sát'),
       badgeColor: 'bg-indigo-50 text-indigo-700',
       borderAccent: 'border-t-indigo-600',
     },
@@ -38,7 +38,7 @@ export default function CourseMethodology({ course }) {
       icon: Award,
       title: t('pages.courseDetail.methodology.p4Title', 'Kiểm tra & Mock Test định kỳ'),
       desc: t('pages.courseDetail.methodology.p4Desc', 'Theo dõi sát tiến độ tăng band qua các bài thi thử tiêu chuẩn phòng thi thật.'),
-      badge: 'Chuẩn IDP',
+      badge: t('pages.courseDetail.methodology.b4', 'Chuẩn IDP'),
       badgeColor: 'bg-academic-gold-light text-achievement',
       borderAccent: 'border-t-achievement',
     }
@@ -96,7 +96,7 @@ export default function CourseMethodology({ course }) {
                 <div className="mt-5 pt-3 border-t border-academic-border flex items-center justify-between text-xs text-academic-muted">
                   <div className="flex items-center gap-1.5">
                     <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                    <span>Áp dụng 100%</span>
+                    <span>{t('pages.courseDetail.methodology.applied100', 'Áp dụng 100%')}</span>
                   </div>
                   <ArrowUpRight className="w-4 h-4 text-slate-300 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200" />
                 </div>

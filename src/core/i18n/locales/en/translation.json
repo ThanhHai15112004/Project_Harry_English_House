@@ -1,4 +1,7 @@
 {
+  "common": {
+    "scrollToTop": "Scroll to top"
+  },
   "nav": {
     "home": "Home",
     "dictation": "Dictation Practice",
@@ -26,12 +29,12 @@
         "alt": "IELTS Classroom at Harry English House"
       },
       "classSize": {
-        "badge": "SMALL CLASS SIZE (6–10 STUDENTS)",
+        "badge": "SMALL CLASS SIZE (2–10 STUDENTS)",
         "cornerBadge": "1-on-1 Mentorship",
-        "topBadge": "6–10 Students",
-        "titlePrefix": "Small class size of 6–10 students, ",
+        "topBadge": "2–10 Students",
+        "titlePrefix": "Small class size of 2–10 students, ",
         "titleHighlight": "close mentorship every session.",
-        "subtitle": "Compact class model strictly limited to 6 to 10 students maximizes 1-on-1 interaction time with the instructor. Every session features meticulous pronunciation correction, in-depth Q&A, and close tracking of weekly progress.",
+        "subtitle": "Compact class model strictly limited to 2 to 10 students maximizes 1-on-1 interaction time with the instructor. Every session features meticulous pronunciation correction, in-depth Q&A, and close tracking of weekly progress.",
         "primaryBtn": "About Classes",
         "secondaryBtn": "View Results",
         "alt": "Interactive learning environment at Harry English House"
@@ -81,7 +84,7 @@
     "pillar1Title": "Personalized Roadmap",
     "pillar1Desc": "Tailored to your current proficiency and target band score.",
     "pillar2Title": "Small Interactive Classes",
-    "pillar2Desc": "Strictly 6–10 students to maximize speaking time and direct interaction.",
+    "pillar2Desc": "From 2–10 students to maximize speaking time and direct interaction.",
     "pillar3Title": "1-on-1 Feedback",
     "pillar3Desc": "Detailed grading and personal coaching on Writing & Speaking submissions.",
     "tag1": "IDP IELTS Aligned",
@@ -104,7 +107,7 @@
     "popularBadge": "Most Popular",
     "levelLabel": "Level:",
     "classSizeLabel": "Cohort:",
-    "classSizeVal": "6–10 students",
+    "classSizeVal": "2–10 students",
     "guarantee": "1-on-1 Feedback & Guarantee",
     "guaranteeLabel": "Outcome Commitment & 1-on-1 Mentorship",
     "viewRoadmapBtn": "View Detailed Roadmap",
@@ -123,7 +126,7 @@
     "step2Tag": "Personalized",
     "step2Title": "Tailored Roadmap",
     "step2Desc": "Define clear targets, timeline, and study content tailored to your current level.",
-    "step3Tag": "6–10 Students",
+    "step3Tag": "2–10 Students",
     "step3Title": "Small-Group Classes",
     "step3Desc": "Small cohort sizes maximize interaction, increase practice time, and ensure close teacher guidance.",
     "step4Tag": "Progress Tracking",
@@ -206,7 +209,8 @@
           "hl1": "Teacher Harry (IELTS 8.0) directly coaches with unlimited 1-on-1 essay grading",
           "hl2": "Proprietary forecast question bank updated quarterly matching real test trends",
           "hl3": "Capped at 7 dedicated students aiming for high band scores and study abroad",
-          "guarantee": "Teacher Harry directly provides 1-on-1 detailed corrections targeting 7.5+"
+          "guarantee": "Teacher Harry directly provides 1-on-1 detailed corrections targeting 7.5+",
+          "curr3": "HEH Actual Exam Forecast Sets"
         }
       },
       "toeic": {
@@ -221,7 +225,8 @@
           "hl1": "Trap-handling strategies for TOEIC Parts 1–7 and VSTEP 4 skills",
           "hl2": "Standardized ETS TOEIC 2024 & VSTEP test bank frequently updated",
           "hl3": "Strictly 5 students per group with close tracking each session",
-          "guarantee": "Written output commitment for university and postgraduate graduation"
+          "guarantee": "Written output commitment for university and postgraduate graduation",
+          "curr3": "VSTEP B2-C1 Question Bank"
         }
       },
       "communication": {
@@ -236,7 +241,8 @@
           "hl1": "Standardize international IPA phonetics & eliminate hesitation",
           "hl2": "Fast conversational reflex drills based on real-life scenarios",
           "hl3": "Small cohort of 2–3 students maximizing speaking interaction time",
-          "guarantee": "5% enrollment discount & Confident speaking within 3 months"
+          "guarantee": "5% enrollment discount & Confident speaking within 3 months",
+          "curr3": "HEH Proprietary Speaking Patterns"
         },
         "m2": {
           "name": "Applied & Workplace English",
@@ -249,20 +255,21 @@
           "hl1": "Professional presentation, negotiation, and meeting leadership skills",
           "hl2": "Write business emails following international corporate etiquette",
           "hl3": "Handle authentic workplace scenarios and business negotiations",
-          "guarantee": "10% tuition discount & Confident workplace communication and negotiation"
+          "guarantee": "10% tuition discount & Confident workplace communication and negotiation",
+          "curr3": "HEH Workplace Case Studies"
         }
       }
     }
   },
   "founder": {
-    "badge": "MEET HARRY KHOI",
+    "badge": "MEET FOUNDER HARRY KHOI",
     "name": "Mr. Harry (Anh Khoi)",
-    "role": "Founder & Head Instructor",
+    "role": "Founder",
     "badgeLabel": "IELTS 8.0 • Official IDP IELTS Partner",
-    "bio1": "English Language graduate with an official IELTS 8.0 score (highest band in HCMC for the test period). 6+ years of experience training hundreds of successful test-takers for study abroad and careers.",
-    "bio2": "Official training partner of IDP IELTS. Regular contributor to academic conferences, higher education forums, and Ministry of Education events.",
+    "bio1": "With over 8+ years of experience in education and as an official Strategic Partner of IDP, Harry English House is committed to practical, real-world teaching methods—eliminating dry theoretical barriers to help students achieve their goals from 0 to 8.0 IELTS with clarity and confidence.",
+    "bio2": "Alongside personalized learning roadmaps and a dedicated faculty of instructors with a minimum of 7.5+ IELTS, students at Harry English House also enjoy exclusive cost-optimization benefits with direct IELTS test fee discounts from IDP.",
     "quote": "Teaching is not about finishing a syllabus. It is about understanding where the student stands and helping them bridge the gap.",
-    "authorLabel": "— Teacher Harry (Founder & Head Instructor)",
+    "authorLabel": "— Teacher Harry (Founder)",
     "viewStory": "Read Harry's Story"
   },
   "results": {
@@ -471,7 +478,7 @@
       "bottomCtaTitle": "Found Your Ideal Learning Track?",
       "bottomCtaDesc": "Sign up for a free 4-skill diagnostic test and receive 1-on-1 personalized roadmap guidance from Mr. Harry.",
       "bottomCtaBtn": "Get 1-on-1 Pathway Advice",
-      "bottomHotlineBtn": "Hotline: 0938 611 919",
+      "bottomHotlineBtn": "Hotline: 036 559 2895",
       "programs": {
         "ielts": {
           "cardSub": "Comprehensive 0 to 7.5+ pathway",
@@ -568,6 +575,11 @@
       "heroProofCard": "Official IDP IELTS Scorecard",
       "heroVerified": "100% Verified",
       "heroStudentRole": "IELTS Master Class Student",
+      "heroStatBadge": "100% Transparent • IDP/BC Verified",
+      "zoomTitle": "Click to zoom and view full scorecard",
+      "viewDetails": "View scorecard details",
+      "verifiedBadge": "Verified",
+      "viewOriginalCertificate": "View original certificate",
       "highlights": {
         "badge": "TRANSPARENT METRICS",
         "title": "Featured Highlights",
@@ -656,7 +668,7 @@
       "heroDesc": "Empowering learners to overcome their fear of English, build authentic linguistic mastery, and achieve IELTS & Communication goals through high-impact, streamlined methodology.",
       "heroCtaStory": "Read the Story",
       "heroCtaPhilosophy": "Educational Philosophy",
-      "heroRoleTag": "Founder & Head Instructor",
+      "heroRoleTag": "Founder",
       "heroExperienceBadge": "8+ Years Experience",
       "heroIeltsBadge": "IELTS 8.0 Official",
       "heroSlides": {
@@ -671,7 +683,7 @@
           "cta2": "Educational Philosophy",
           "cornerBadge": "IDP IELTS Strategic Partner",
           "cardRole": "Teacher Harry (Anh Khoi)",
-          "cardSub": "Founder & Head Instructor • IELTS 8.0 Official",
+          "cardSub": "Founder • IELTS 8.0 Official",
           "statTitle": "8+ Years Teaching",
           "statDesc": "In-depth Training & Tailored Roadmaps"
         },
@@ -682,10 +694,10 @@
           "tagline": "Understanding Learners • Tailored Roadmaps • Real Progress.",
           "desc": "Focusing on core linguistic principles and critical thinking. Eliminating rote memorization and test tricks, replacing them with streamlined, customized roadmaps that build sustainable language fluency.",
           "badge1": "Tailored Roadmap",
-          "badge2": "Small Cohort 6-10 Students",
+          "badge2": "Small Cohort 2-10 Students",
           "cta1": "Explore Philosophy",
           "cta2": "Areas of Expertise",
-          "cornerBadge": "Small Cohorts (6-10 Learners)",
+          "cornerBadge": "Small Cohorts (2-10 Learners)",
           "cardRole": "Authentic Educational Approach",
           "cardSub": "Mastering Core Foundations • Optimizing Time",
           "statTitle": "100% Dedicated Mentorship",
@@ -752,7 +764,8 @@
         "developmentTitle": "Professional Development & Partnerships",
         "certTitle": "Specialized Credentials",
         "featuredCertBadge": "Featured Credential",
-        "viewCertModal": "View Full Certificate"
+        "viewCertModal": "View Full Certificate",
+        "certBadge": "IDP / TESOL Professional Certification"
       },
       "academicActivities": {
         "badge": "ACADEMIC & INTERNATIONAL ENGAGEMENTS",
@@ -760,7 +773,13 @@
         "subtitle": "Harry consistently learns, shares, and connects within professional international academic ecosystems.",
         "featuredTag": "Featured International Event",
         "locationLabel": "Location:",
-        "organizerLabel": "Organizer:"
+        "organizerLabel": "Organizer:",
+        "viewPhoto": "View Event Photo",
+        "aseanDelegationTitle": "ASEAN Education Delegation 2025",
+        "aseanDelegationCaption": "Delegates and education experts at EMGS Malaysia",
+        "trainingPresentationTitle": "Training Keynote Presentation",
+        "trainingPresentationCaption": "Teacher Harry presenting practical language reflex methodologies",
+        "intlWorkshopNote": "International symposium advancing English pedagogical excellence"
       },
       "partnerships": {
         "badge": "PARTNERSHIPS & CONNECTIVITY",
@@ -800,7 +819,7 @@
       "addressValue": "District 7, Ho Chi Minh City (Near Lotte Mart)",
       "addressMapLink": "View on Google Maps →",
       "phoneTitle": "Admissions Hotline",
-      "phoneValue": "0938 611 919 (Ms. Ái)",
+      "phoneValue": "036 559 2895",
       "phoneCallLink": "Call now →",
       "emailTitle": "Academic & Partnership Email",
       "emailValue": "khoi.harryenglishhouse@gmail.com",
@@ -816,7 +835,7 @@
       "fullName": "Full Name",
       "fullNamePlaceholder": "E.g. John Doe",
       "phone": "Phone Number / Zalo / WhatsApp",
-      "phonePlaceholder": "E.g. 0938 611 919",
+      "phonePlaceholder": "E.g. 036 559 2895",
       "email": "Email Address (Optional)",
       "emailPlaceholder": "example@email.com",
       "courseInterest": "Program of Interest",
@@ -867,7 +886,7 @@
       "q2": "Does Harry offer Online classes and is quality guaranteed?",
       "a2": "Yes. Online classes at HIU are conducted via licensed platforms with 100% two-way live interaction. Every lesson is recorded for review, and writing tasks receive meticulous 1-on-1 feedback just like offline classes.",
       "q3": "What is the typical class size at HIU?",
-      "a3": "HIU strictly adheres to small-cohort models of 6–10 students (or 1-on-1, 1-on-2 mentoring). This ensures ample speaking time and thorough individual corrections for Task 1 & Task 2 writing.",
+      "a3": "HIU strictly adheres to small-cohort models of 2–10 students (or 1-on-1, 1-on-2 mentoring). This ensures ample speaking time and thorough individual corrections for Task 1 & Task 2 writing.",
       "q4": "How quickly will I receive a response after submitting?",
       "a4": "Our academic team and Mr. Harry will contact you via Phone/Zalo within a maximum of 24 business hours from your submission.",
       "stickyCall": "Call Now",
@@ -922,20 +941,27 @@
         "title": "Standardized International Materials",
         "subtitle": "100% official publications from world-renowned presses (Cambridge, Oxford, Macmillan)",
         "publisherLabel": "Publisher:",
-        "phaseLabel": "Curriculum Phase:"
+        "phaseLabel": "Curriculum Phase:",
+        "officialBook": "Official Coursebook",
+        "includedInTuition": "Included in tuition fee"
       },
       "methodology": {
         "badge": "PEDAGOGICAL METHOD",
         "title": "How This Course Is Delivered",
         "subtitle": "Personalized mentorship where real progress is the ultimate metric",
-        "p1Title": "Small Cohorts (6–10 students)",
+        "p1Title": "Small Cohorts (2–10 students)",
         "p1Desc": "Maximizing two-way live speaking interaction between teacher and students.",
         "p2Title": "Direct 1-on-1 Feedback",
         "p2Desc": "Meticulous sentence-level Writing corrections & immediate Speaking feedback.",
         "p3Title": "Post-Session Practice",
         "p3Desc": "Systematic reinforcement assignments with personalized instructor comments.",
         "p4Title": "Periodic Mock Tests",
-        "p4Desc": "Tracking score progression through authentic standardized mock exams."
+        "p4Desc": "Tracking score progression through authentic standardized mock exams.",
+        "b1": "High Interaction",
+        "b2": "1-on-1 Intensive",
+        "b3": "Close Mentorship",
+        "b4": "IDP Standards",
+        "applied100": "100% Applied"
       },
       "infoPricing": {
         "badge": "INFO & TUITION",
@@ -946,7 +972,12 @@
         "allInclusive": "Full-course all-inclusive",
         "perMonth": "Or flexible monthly installments",
         "privilegesTitle": "Included Privileges:",
-        "consultBtn": "Book Cohort Placement"
+        "consultBtn": "Book Cohort Placement",
+        "policyNote": "Students receive a complimentary 4-skill diagnostic assessment and a 1-session trial placement before formal registration.",
+        "inc1": "Official textbook & proprietary materials from top presses",
+        "inc2": "1-on-1 grading for Writing Task 1-2 & Speaking pronunciation corrections",
+        "inc3": "Periodic standardized exam-room Mock Tests",
+        "inc4": "100,000 VND discount voucher for IDP IELTS official exam registration"
       },
       "instructor": {
         "badge": "LEAD INSTRUCTOR",
@@ -980,7 +1011,25 @@
         "title": "Is this course tailored to your target goal?",
         "desc": "Talk directly with Harry English House for a complimentary 4-skill diagnostic test and cohort recommendation.",
         "consultBtn": "Get Course Advice",
-        "classesBtn": "View Enrolling Classes"
+        "classesBtn": "View Enrolling Classes",
+        "privacyNotice": "100% confidential • Objective skill-level consultation without hard selling"
+      },
+      "modal": {
+        "badge1on1": "1-on-1 Consultation",
+        "classPrefix": "Class: ",
+        "title": "Course Consultation Registration",
+        "fullName": "Your Full Name",
+        "fullNamePlaceholder": "E.g. John Doe",
+        "phone": "Phone Number / Zalo",
+        "phonePlaceholder": "E.g. 036 559 2895",
+        "note": "Additional Notes (Target Band / Available Schedule)",
+        "notePlaceholder": "Share more about your current level or any questions...",
+        "submitBtn": "Submit Consultation Request",
+        "privacy": "Confidential information • Contact within 24 business hours",
+        "successTitle": "Information Received Successfully!",
+        "successMessage": "Thank you {{name}}. Harry English House will reach out via {{phone}} to schedule your placement soon.",
+        "closeBtn": "Close Window",
+        "errorPhone": "Please enter a valid phone number (minimum 9 digits)."
       },
       "sticky": {
         "consultBtn": "Get Advice",
@@ -1071,15 +1120,12 @@
         "organizer": "Ministry of Higher Education Malaysia & Education Malaysia Global Services (EMGS)"
       },
       "team": {
-        "harryRole": "Founder & Head Instructor",
+        "harryRole": "Founder",
         "harrySpecialty": "IELTS Academic • 8.0 IELTS",
         "vickyRole": "Senior English Instructor",
         "vickySpecialty": "IELTS Preparation • Communication",
-        "aiRole": "Academic Advisor & Operations",
-        "aiSpecialty": "Pathway Consultation • Student Success",
         "harryName": "Teacher Harry (Anh Khoi)",
-        "vickyName": "Ms. Vicky",
-        "aiName": "Ms. Ai"
+        "vickyName": "Ms. Vicky"
       },
       "moments": {
         "m1": "Interactive classroom session at District 7 campus",
@@ -1242,24 +1288,24 @@
       "gal6Title": "9.0/10 10th Grade English - Minh Anh",
       "gal6Tag": "Score 9.0",
       "gal6Type": "10th Grade Entrance",
-      "gal7Title": "Professional Training Certificate",
-      "gal7Tag": "Professional",
-      "gal7Type": "Teaching Pedagogy",
-      "gal8Title": "International Pedagogy Workshop Certificate",
-      "gal8Tag": "Workshop",
-      "gal8Type": "International ELT",
-      "gal9Title": "International TESOL Teaching Certificate",
-      "gal9Tag": "International",
-      "gal9Type": "TESOL Certification",
-      "gal10Title": "Official Academic Partner Recognition",
-      "gal10Tag": "Partner",
-      "gal10Type": "Official Testing Partner",
-      "gal11Title": "Pedagogical Professional Certificate",
-      "gal11Tag": "Pedagogy",
-      "gal11Type": "University of Education",
-      "gal12Title": "Methodology Training Certificate",
-      "gal12Tag": "Training",
-      "gal12Type": "Teaching Methodology",
+      "gal7Title": "NatGeo: Ready for Life - Identity Workshop",
+      "gal7Tag": "NatGeo Learning",
+      "gal7Type": "Participation Certificate",
+      "gal8Title": "TESOLution: Unleash the Power of Voice",
+      "gal8Tag": "TESOLution",
+      "gal8Type": "Conference Certificate",
+      "gal9Title": "Google Gemini Certified Educator",
+      "gal9Tag": "Google AI",
+      "gal9Type": "Professional Certification",
+      "gal10Title": "Duke University: Python & SQL Data Engineering",
+      "gal10Tag": "Duke University",
+      "gal10Type": "Course Certificate",
+      "gal11Title": "120-Hour TESOL Certificate Course",
+      "gal11Tag": "IOA TESOL",
+      "gal11Type": "Teaching Certificate",
+      "gal12Title": "NatGeo: Scaffolding Debate for A1 Learners",
+      "gal12Tag": "NatGeo Learning",
+      "gal12Type": "Methodology Webinar",
       "fb1Author": "Hoai Phuong & Nhat Tan",
       "fb2Author": "Vuong Ngoc Diep",
       "fb3Author": "Parent & Student",
@@ -2375,26 +2421,26 @@
       "p4Focus": "Cambridge IELTS 15-18 + Destination B2 (Units 17-28: Inversions, Relative Clauses, Collocations)"
     },
     "certificates": {
-      "c1": "IDP IELTS Outstanding Teacher Certification",
-      "c2": "TESOL International Teaching Certificate",
-      "c3": "VNSPEAK International ELT Conference Certificate",
-      "c4": "Cambridge English Pedagogy Workshop Certificate",
-      "c5": "Official IDP IELTS Training Partner Recognition",
-      "c6": "Official IELTS 8.0 Test Report Form",
-      "c7": "Bachelor's Degree in English Pedagogy",
-      "c8": "CamTESOL International Academic Conference Delegate",
-      "c9": "VNTESOL International Conference Certificate",
-      "c10": "Outstanding Academic Mentor Recognition",
-      "c11": "Pedagogical Professional Certificate - University of Education",
-      "c12": "High-Achiever Coaching Excellence Award",
-      "c13": "Intensive Coaching Completion Certificate",
-      "c14": "Teacher Dedicated Contribution Award",
-      "c15": "International Testing Seminar Attendance Certificate",
-      "c16": "Advanced Teaching Pedagogy Certificate",
-      "c17": "IDP Education Companion Partner Certificate",
-      "c18": "Commendation Letter from International Testing Organization",
-      "c19": "Academic English Master Trainer Certification",
-      "c20": "IELTS Coaching Excellence Commendation"
+      "c1": "National Geographic Learning: Ready for Life - Identity",
+      "c2": "TESOLution Conference: Unleash the Power of Voice - Transforming Learner Identity",
+      "c3": "Google for Education: Gemini Certified Educator",
+      "c4": "Duke University & Coursera: Scripting with Python and SQL for Data Engineering",
+      "c5": "International Open Academy: 120-Hour TESOL Certificate Course",
+      "c6": "National Geographic Learning: Is E-Gaming a Sport? - Scaffolding an Academic Debate for A1 Level Students",
+      "c7": "Australian International TESOL: International English Teacher Licence (TESL / TESOL / TEFL)",
+      "c8": "ENGONOW & IELTS MASTER: Outstanding Performance Award",
+      "c9": "TEFLUniversal: 60-Hour TEYL Certificate (Teaching English to Young Learners)",
+      "c10": "Windsor Essex Canadian English Center: Certificate of Appreciation - For Being a Great Teacher",
+      "c11": "Macmillan Education: Macmillan Day Vietnam - Sustainable Development Goals Special",
+      "c12": "ASEAN Universities Exhibition & Forum 2025 (AEF2025): Certificate of Appreciation",
+      "c13": "IDP IELTS Vietnam: IELTS Teacher's Training - Train the Trainer 2022",
+      "c14": "British Council: Leading Change - Our Classroom, Our Community (Empowering Teachers in English Education)",
+      "c15": "British Council: Using Generative AI for Language Teacher Professional Development",
+      "c16": "British Council: Expert Panel - English Skills for an Interconnected World",
+      "c17": "British Council: ELT and Sustainability - What Should I Be Doing?",
+      "c18": "British Council: The Role of Language Educators in the Era of AI",
+      "c19": "British Council: How to Develop Global Skills Through Storytelling with Young Children",
+      "c20": "British Council: Leading Change - Our Classroom, Our Community (Empowering Teachers in English Education - Session 2)"
     },
     "media": {
       "collab1": "International Academic & Training Collaboration Conference",

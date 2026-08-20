@@ -214,7 +214,7 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
             </div>
             <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-50/80 border border-amber-200/80 text-amber-900 shadow-2xs">
               <Star size={14} className="text-amber-500 fill-amber-500 flex-shrink-0" />
-              <span>Minh bạch 100% • Đối chứng IDP/BC</span>
+              <span>{t('pages.results.heroStatBadge', 'Minh bạch 100% • Đối chứng IDP/BC')}</span>
             </div>
           </div>
 
@@ -320,7 +320,7 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
                           description: item.quote || item.course,
                         })
                       }
-                      title="Bấm để phóng to xem bảng điểm đầy đủ"
+                      title={t('pages.results.zoomTitle', 'Bấm để phóng to xem bảng điểm đầy đủ')}
                     >
                       <img
                         src={item.image}
@@ -333,14 +333,14 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
                       <div className="absolute inset-0 bg-academic-heading/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-center justify-center backdrop-blur-xs text-white">
                         <div className="px-4 py-2 rounded-xl bg-white/25 border border-white/40 shadow-lg flex items-center gap-2 text-xs font-bold font-heading transform translate-y-2 group-hover:translate-y-0 transition-transform">
                           <ZoomIn size={16} />
-                          <span>Xem bảng điểm chi tiết</span>
+                          <span>{t('pages.results.viewDetails', 'Xem bảng điểm chi tiết')}</span>
                         </div>
                       </div>
 
                       {/* Corner Verified Stamp */}
                       <div className="absolute top-3 right-3 px-2 py-0.5 rounded-md bg-emerald-600 text-white text-[10px] font-bold shadow-xs flex items-center gap-1">
                         <CheckCircle2 size={11} />
-                        <span>Đối chứng thật</span>
+                        <span>{t('pages.results.verifiedBadge', 'Đối chứng thật')}</span>
                       </div>
                     </button>
 
@@ -401,7 +401,7 @@ export const ResultsHero = ({ showcaseResults = [], onOpenScorecard }) => {
                         className="text-xs font-bold text-cta hover:text-primary transition-colors flex items-center gap-1.5 cursor-pointer py-1"
                       >
                         <ZoomIn size={14} />
-                        <span>Xem ảnh gốc chứng chỉ</span>
+                        <span>{t('pages.results.viewOriginalCertificate', 'Xem ảnh gốc chứng chỉ')}</span>
                       </button>
 
                       <span className="text-[10px] text-academic-muted font-semibold uppercase">

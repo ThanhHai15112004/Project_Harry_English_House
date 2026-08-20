@@ -9,19 +9,19 @@ export const SUPPORTED_LANGUAGES = {
   EN: 'en',
 };
 
-export const DEFAULT_LANGUAGE = SUPPORTED_LANGUAGES.VI;
+export const DEFAULT_LANGUAGE = SUPPORTED_LANGUAGES.EN;
 
 export const LANGUAGE_OPTIONS = [
-  {
-    code: SUPPORTED_LANGUAGES.VI,
-    label: 'Tiếng Việt',
-    flagIcon: vnFlag,
-    shortLabel: 'VI',
-  },
   {
     code: SUPPORTED_LANGUAGES.EN,
     label: 'English',
     flagIcon: enFlag,
     shortLabel: 'EN',
+  },
+  {
+    code: SUPPORTED_LANGUAGES.VI,
+    label: 'Tiếng Việt',
+    flagIcon: vnFlag,
+    shortLabel: 'VI',
   },
 ];

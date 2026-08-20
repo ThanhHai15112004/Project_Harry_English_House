@@ -18,10 +18,10 @@ export const APP_INFO = {
     IDP_PARTNER: 'Đối tác chiến lược của IDP Vietnam',
   },
   CONTACT: {
-    HOTLINE: '0938 611 919',
-    HOTLINE_RAW: '0938611919',
-    HOTLINE_CONTACT_PERSON: 'Ms Ái',
-    HOTLINE_DISPLAY: '0938 611 919 (Ms Ái)',
+    HOTLINE: '036 559 2895',
+    HOTLINE_RAW: '0365592895',
+    HOTLINE_CONTACT_PERSON: 'HEH_HarryEnglishHouse',
+    HOTLINE_DISPLAY: '036 559 2895',
     EMAIL: 'khoi.harryenglishhouse@gmail.com',
     ADDRESS_DISTRICT7: 'Quận 7, TP. Hồ Chí Minh (gần Lotte Mart)',
     LOCATIONS: [
